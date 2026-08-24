@@ -1,4 +1,3 @@
-// Last auto-update: 2026-08-24 08:30:50
 // ============================================================
 // Policy Intelligence Workbench - Interactive Logic
 // ============================================================
@@ -169,23 +168,7 @@ document.querySelectorAll('[data-period]').forEach(btn => {
 // ============================================================
 const timelineData = [
   {
-      {
-      {
-    month: '2026年8月 (自动)',
-    items: [
-      { title: '国务院公布《国务院关于进一步贯彻实施〈中华人民共和国行政处罚法〉的通知》', desc: '国务院公布《国务院关于进一步贯彻实施〈中华人民共和国行政处罚法〉的通知》', url: 'http://www.csrc.gov.cn/csrc/c100028/c1615676/content.shtml' },
-      { title: '证监会组织开展“读懂上市公司报告”投资者教育专项活动', desc: '证监会组织开展“读懂上市公司报告”投资者教育专项活动', url: 'http://www.csrc.gov.cn/csrc/c100028/c1615671/content.shtml' },
-      { title: '加强投资者保护，筑牢注册制改革之基——王建军副主席在国际金融论坛第十八届全球年会上的演讲', desc: '加强投资者保护，筑牢注册制改革之基——王建军副主席在国际金融论坛第十八届全球年会...', url: 'http://www.csrc.gov.cn/csrc/c100028/c1605825/content.shtml' }
-    ]
-  },
-  month: '2026年8月 (自动)',
-    items: [
-      { title: '国务院公布《国务院关于进一步贯彻实施〈中华人民共和国行政处罚法〉的通知》', desc: '国务院公布《国务院关于进一步贯彻实施〈中华人民共和国行政处罚法〉的通知》', url: 'http://www.csrc.gov.cn/csrc/c100028/c1615676/content.shtml' },
-      { title: '证监会组织开展“读懂上市公司报告”投资者教育专项活动', desc: '证监会组织开展“读懂上市公司报告”投资者教育专项活动', url: 'http://www.csrc.gov.cn/csrc/c100028/c1615671/content.shtml' },
-      { title: '加强投资者保护，筑牢注册制改革之基——王建军副主席在国际金融论坛第十八届全球年会上的演讲', desc: '加强投资者保护，筑牢注册制改革之基——王建军副主席在国际金融论坛第十八届全球年会...', url: 'http://www.csrc.gov.cn/csrc/c100028/c1605825/content.shtml' }
-    ]
-  },
-  month: '2026年8月',
+    month: '2026年8月',
     items: [
       { title: '金观平：治理账款拖欠重在常态化（经济日报）', desc: '中央政治局会议提出常态化解决企业账款拖欠问题', url: 'http://adimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260821_3159304.shtml' },
       { title: '金观平：深化资本市场投融资综合改革（经济日报）', desc: '中央政治局会议提出深化资本市场投融资综合改革，提升韧性和信心', url: 'http://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3122358.shtml' }

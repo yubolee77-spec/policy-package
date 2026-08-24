@@ -451,41 +451,41 @@ def update_html_with_news(news_items):
     
     # Also update app.js timeline with new entries
     if app_content and new_entries:
-        # Build new timeline entries for app.js
-        new_timeline_items = []
-        for item in new_entries[:3]:  # Top 3 most relevant
-            title = item["title"]
-            url = item["url"]
-            # Generate a short description
-            desc = title[:40] + ("..." if len(title) > 40 else "")
-            new_timeline_items.append(f"""      {{ title: '{title.replace("'", "\\'")}', desc: '{desc.replace("'", "\\'")}', url: '{url}' }}""")
-        
-        if new_timeline_items:
-            new_items_str = ",\n".join(new_timeline_items)
-            # Insert after the first month entry in timelineData
-            # The structure is: [{ month: '...', items: [...] }, ...]
-            # We add a new month group at the top
-            new_month_group = f"""  {{
-    month: '{month_label} (自动)',
+        # Check if this month's auto entry already exists to avoid duplicates
+        auto_label = f"{month_label} (自动)"
+        if auto_label in app_content:
+            log(f"Timeline already has entry for {auto_label}, skipping insertion")
+        else:
+            # Build new timeline entries for app.js
+            new_timeline_items = []
+            for item in new_entries[:3]:  # Top 3 most relevant
+                title = item["title"]
+                url = item["url"]
+                # Generate a short description
+                desc = title[:40] + ("..." if len(title) > 40 else "")
+                new_timeline_items.append(f"""      {{ title: '{title.replace("'", "\\'")}', desc: '{desc.replace("'", "\\'")}', url: '{url}' }}""")
+
+            if new_timeline_items:
+                new_items_str = ",\n".join(new_timeline_items)
+                # Insert a new month group right after the opening bracket of timelineData
+                new_month_group = f"""  {{
+    month: '{auto_label}',
     items: [
 {new_items_str}
     ]
   }},
-  """
-            
-            # Find the start of timelineData array
-            td_start = app_content.find("const timelineData = [")
-            if td_start > 0:
-                # Find the opening bracket
-                bracket_start = app_content.find("[", td_start)
-                # Find the first month entry
-                first_month = app_content.find("month:", bracket_start)
-                if first_month > 0:
-                    # Insert before the first month
-                    app_content = app_content[:first_month] + new_month_group + app_content[first_month:]
-                    APP_JS.write_text(app_content, encoding="utf-8")
-                    log("app.js timeline updated with new entries")
-                    modified = True
+"""
+
+                # Find the start of timelineData array and insert after the bracket
+                td_start = app_content.find("const timelineData = [")
+                if td_start > 0:
+                    bracket_pos = app_content.find("[", td_start)
+                    if bracket_pos > 0:
+                        insert_pos = bracket_pos + 1
+                        app_content = app_content[:insert_pos] + "\n" + new_month_group + app_content[insert_pos:]
+                        APP_JS.write_text(app_content, encoding="utf-8")
+                        log("app.js timeline updated with new entries")
+                        modified = True
     
     return modified
 
