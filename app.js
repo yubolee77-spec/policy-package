@@ -384,9 +384,47 @@ window.addEventListener('resize', () => {
 });
 
 // ============================================================
+// Auto-update: fetch latest data from data/latest.json
+// ============================================================
+function loadLatestData() {
+  return fetch('data/latest.json')
+    .then(function(r) { return r.ok ? r.json() : null; })
+    .catch(function() { return null; });
+}
+
+function applyLatestData(data) {
+  if (!data) return;
+  // Prepend new timeline entries (skip duplicates)
+  if (data.timeline && data.timeline.length > 0) {
+    var existing = new Set();
+    timelineData.forEach(function(g) { g.items.forEach(function(i) { existing.add(i.title); }); });
+    var fresh = data.timeline.filter(function(item) { return !existing.has(item.title); });
+    if (fresh.length > 0) {
+      timelineData.unshift({
+        month: data.monthLabel || '',
+        items: fresh
+      });
+    }
+  }
+  // Update header "last updated" text
+  if (data.lastUpdated) {
+    var el = document.querySelector('.header-right .status-item:nth-child(2)');
+    if (el) el.innerHTML = '<span class="status-dot"></span>更新:' + data.lastUpdated;
+  }
+}
+
+// ============================================================
 // Initial render
 // ============================================================
 renderMacroCards('year');
 renderTimeline();
 renderMacroChart();
 renderMonthlyDocs('day');
+
+// Async: load latest data and re-render timeline if available
+loadLatestData().then(function(data) {
+  if (data) {
+    applyLatestData(data);
+    renderTimeline();
+  }
+});
