@@ -235,26 +235,234 @@ const timelineData = [
   }
 ];
 
+// ============================================================
+// 年度政策节奏时间线：按中国政策传导周期8大节点
+// status: hot=进行中/当前月段最新, pass=已过, future=未来
+// ============================================================
+const annualTimelineNodes = [
+  {
+    period: '12月',
+    slogan: '中央经济工作会议 · 总结今年经济 · 定调明年',
+    status: 'future',
+    summary: '<strong>中央经济工作会议</strong>（通常 12 月中下旬）是年度最高规格经济会议，总结当年经济运行，定调次年宏观政策基调（财政/货币/产业/防风险四大方向），明确"总盘子"和主要预期目标。同时召开<strong>全国发展和改革工作会</strong>、<strong>全国财政工作会</strong>、<strong>央行工作会</strong>、<strong>证监会系统工作会</strong>，各部委把中央定调拆解为各自次年执行条线。',
+    keypoints: [
+      { text: '<b>定调次年前瞻性指引：</b>财政政策"积极/加力提效/适度宽松"、货币政策"稳健/灵活适度/适度宽松"、产业政策聚焦当年重点赛道、防风险底线清单。', keywords: [{t:'ding',v:'着力'},{t:'deg',v:'持续'}] },
+      { text: '<b>证监会系统工作会：</b>次年监管工作重点（全面注册制常态化、资本市场投融资综合改革、REITs推广、上市公司质量、交易所制度修订、重点行业风险处置）。', keywords: [{t:'ding',v:'大力'}] },
+      { text: '<b>央行工作会：</b>次年 M2/M1 增长目标、社会融资规模增量预期、结构性货币政策工具（支农支小、科技创新、设备更新、普惠养老等）安排与节奏。', keywords: [{t:'deg',v:'进一步'}] }
+    ],
+    docs: [
+      { label: '2024年中央经济工作会议通稿（参考模板）', url: 'https://www.gov.cn/xinwen/2024-12/12/content_6997648.htm' },
+      { label: '中国人民银行工作会例行专栏', url: 'http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html' },
+      { label: '证监会·要闻·全国证券期货监管工作会', url: 'http://www.csrc.gov.cn/csrc/c100028/common_list.shtml' }
+    ]
+  },
+  {
+    period: '11月',
+    slogan: '政治局会议 · 总结Q3 · 研究Q4收官',
+    status: 'future',
+    summary: '<strong>中央政治局会议</strong>（通常 10 月底~11 月初）分析研究前三季度经济形势和四季度经济工作，判断年初设定的 GDP、就业、物价、防风险目标能否完成，必要时对<strong>四季度增量政策工具</strong>作加提效安排（如提前下达下一年专项债额度、政策性开发性金融工具追加、结构性货币政策工具扩容）。',
+    keypoints: [
+      { text: '<b>三季度经济运行评估：</b>GDP增速、城镇调查失业率、CPI/PPI走势、社零与固定资产投资增速、工业企业利润恢复度、房地产销售与投资是否企稳。', keywords: [{t:'ding',v:'着力'}] },
+      { text: '<b>四季度政策加码：</b>是否"加大宏观政策调控力度"、是否新增国债/特别国债、专项债是否提前发行、结构性货币政策工具是否再贷款降息。', keywords: [{t:'ding',v:'大力'},{t:'deg',v:'进一步'}] },
+      { text: '<b>防风险部署：</b>地方化债、中小金融机构、房地产、城投、重点行业民营企业债券违约等底线。', keywords: [{t:'deg',v:'持续'}] }
+    ],
+    docs: [
+      { label: '历年政治局会议·新华社通稿专栏', url: 'http://www.news.cn/politics/zhongyang.htm' },
+      { label: '中国政府网·中共中央政治局集体学习/会议', url: 'https://www.gov.cn/yaowen/liebiao/zhengzhi.htm' }
+    ]
+  },
+  {
+    period: '9-10月',
+    slogan: '中央全会 · 讨论重大改革或五年规划',
+    status: 'future',
+    summary: '按五年周期惯例，<strong>逢五逢十届三中全会</strong>讨论全面深化改革重大问题（如 2013 十八届三中全会、2018 十九届三中、2023 二十届二中/三中定调机构改革、2028 二十届三中预期），<strong>逢四逢九届四中全会</strong>通常讨论治理现代化或五年规划中期评估。重大改革方向（资本市场改革、要素市场化、土地/户籍/国资国企改革）的<strong>顶层设计文件</strong>通常在全会审议通过。',
+    keypoints: [
+      { text: '<b>重大改革定调：</b>决议文本中"定调词+动词+程度词"的变化（推动/培育→着力→大力/坚决）是判断改革力度的核心。', keywords: [{t:'ding',v:'坚决'}] },
+      { text: '<b>全会《公报》→《决定》：</b>先发布全会公报（定性摘要），几天后发布正式《决定/意见》全文（定量条款+牵头部门分工）。', keywords: [{t:'verb',v:'推动'}] },
+      { text: '<b>五年规划中期评估：</b>逢偶数年（如 2026 年为"十五五"开局后第一年评估）会发布规划中期评估报告，可能调整部分指标或重点任务。', keywords: [{t:'deg',v:'进一步'}] }
+    ],
+    docs: [
+      { label: '人民日报·二十届三中全会专题（参考框架）', url: 'http://paper.people.com.cn/rmrb/html/' },
+      { label: '求是网·全会精神解读专栏', url: 'http://www.qstheory.cn/' },
+      { label: '国家规划纲要数据库', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/' }
+    ]
+  },
+  {
+    period: '7月',
+    slogan: '政治局会议 · 年中调整',
+    status: 'pass',
+    summary: '<strong>7月30日中央政治局会议</strong>（2026年）是上半年经济形势复盘+下半年政策转向的核心窗口。定调：<strong>宏观政策发力提效</strong>、<strong>扩大内需</strong>、<strong>产业体系建设</strong>、<strong>市场竞争环境</strong>、<strong>国际经贸</strong>、<strong>民生保障</strong>六大方向。随后 <strong>8月17日金观平解读</strong>：实施好更加积极的财政政策和适度宽松的货币政策，把握力度与节奏。',
+    keypoints: [
+      { text: '<b>财政：</b>"更加积极"+"适度宽松"货币组合首次同时落地，意味着专项债、特别国债、政策性开发性金融工具（PSL/DFGF）下半年放量。', keywords: [{t:'ding',v:'大力'}] },
+      { text: '<b>货币：</b>"适度宽松"而非"稳健"，对应降准降息、结构性工具扩容、M1修复、M2-M1剪刀差收窄（7月末 3.7pct 预期年内继续收窄）。', keywords: [{t:'deg',v:'持续'}] },
+      { text: '<b>重点产业：</b>低空经济、AI、卫星通信、两新（设备更新+消费品以旧换新）、商业不动产REITs、资本市场投融资综合改革。', keywords: [{t:'ding',v:'着力'},{t:'deg',v:'进一步'}] },
+      { text: '<b>防风险：</b>常态化治理企业账款拖欠（8-21 金观平专文）、REITs 化解商业不动产存量、地方化债继续推进。', keywords: [{t:'deg',v:'持续'}] }
+    ],
+    docs: [
+      { label: '钟才文：推动高质量发展行稳致远（人民日报·8-25 · 详解政治局六大方向）', url: 'http://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177036.html' },
+      { label: '金观平：把握好货币政策的力度与节奏（经济日报·8-17 · 解读适度宽松）', url: 'http://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260817_3150160.shtml' },
+      { label: '金观平：治理账款拖欠重在常态化（经济日报·8-21 · 下半年防风险）', url: 'http://adimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260821_3159304.shtml' },
+      { label: '金观平：深化资本市场投融资综合改革（经济日报·8-02 · 政治局7月配套）', url: 'http://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3122358.shtml' }
+    ]
+  },
+  {
+    period: '5-6月',
+    slogan: '各部委密集出台政策细则',
+    status: 'pass',
+    summary: '全国两会闭幕后进入"部委执行期"，3~4 月的定调性文件在 5~6 月出台<strong>配套细则、专项通知、试点名单、统计口径</strong>。2026年5月重点：<strong>产业链供应链韧性和安全水平</strong>（求是网评论员 5-22）、<strong>正确政绩观四大支柱</strong>（任仲平 5-18）、<strong>低空经济统计口径</strong>（发改低空〔2025〕1676号 2025-12 落地，2026年6月起各部委按统计分类拨款）。',
+    keypoints: [
+      { text: '<b>部委执行节奏：</b>每年 5~6 月专项债发行加速（上半年完成 60% 额度），发改委/工信部/住建部密集召开"半年工作部署会"。', keywords: [{t:'ding',v:'着力'}] },
+      { text: '<b>政绩观信号：</b>任仲平《立党为公、为民造福、科学决策、真抓实干》（5-18）是中央对地方干部考核指挥棒的定调——影响地方项目投向（惠民生 vs 纯基建）。', keywords: [{t:'verb',v:'推动'}] },
+      { text: '<b>统计口径=真金白银：</b>《低空经济及其核心产业统计分类(试行)》落地后，相关行业才能申请专项债、政府投资基金、央行再贷款等"名分+资金"支持。', keywords: [{t:'deg',v:'加速'}] }
+    ],
+    docs: [
+      { label: '求是网评论员：如何提升产业链供应链韧性和安全水平（5-22 · 补链+强链+建链）', url: 'http://www.qstheory.cn/20260522/13b85573bc924de2946ad7cacc741004/c.html' },
+      { label: '任仲平：立党为公、为民造福、科学决策、真抓实干（人民日报·5-18 · 政绩观四大支柱）', url: 'http://opinion.people.com.cn/n1/2026/0518/c461529-40721407.html' },
+      { label: '发改低空〔2025〕1676号·低空经济统计分类（2025-12-26 · 5-6月配套执行）', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html' }
+    ]
+  },
+  {
+    period: '4月',
+    slogan: '政治局会议 · 总结Q1工作 · 微调政策',
+    status: 'pass',
+    summary: '<strong>4月中央政治局会议</strong>复盘一季度 GDP 增速（2026 Q2 GDP 同比 4.3%，已对应上半年累计 4.7%），判断经济开局冷暖。4 月份是"开票经济"、"AI 产业化"、"房地产政策评估期"等议题高发期，如 4-18 金观平《刺破"开票经济"的数字泡沫》就是针对一季度税务稽查数据的政策信号。',
+    keypoints: [
+      { text: '<b>一季度评估：</b>GDP、社零、固投、工业、出口、就业、物价七大类指标与年初预期目标对比，判断是否需要"二季度加提效"。', keywords: [{t:'deg',v:'进一步'}] },
+      { text: '<b>纠偏类政策：</b>虚增开票、地方虚假项目、产能过剩等问题往往在 4 月集中点名（如"开票经济"治理，对应税务总局专项稽查+发改专项债项目复核）。', keywords: [{t:'ding',v:'坚决'}] },
+      { text: '<b>房地产政策评估：</b>一季度商品房销售、房企到位资金、保交楼进度数据是否支撑继续放松（限购/首付比/利率）或结构性支持（保租房 REITs / 商业不动产 REITs）。', keywords: [{t:'verb',v:'推动'}] }
+    ],
+    docs: [
+      { label: '金观平：刺破"开票经济"的数字泡沫（经济日报·4-18 · 6类行业开票同比下降4.7%）', url: 'http://www.ce.cn/xwzx/gnsz/gdxw/202604/t20260418_2912361.shtml' },
+      { label: '国家统计局·季度国民经济运行情况专栏（4 月发布 Q1）', url: 'https://www.stats.gov.cn/sj/zxfb/' }
+    ]
+  },
+  {
+    period: '3月',
+    slogan: '全国两会 · 定全年总盘子',
+    status: 'pass',
+    summary: '<strong>3 月全国两会</strong>（3 月上旬）是年度政策的"总开关"：《政府工作报告》定 GDP/CPI/就业/赤字率/专项债/单位GDP能耗 6 大核心预期指标；人大审议"十五五"规划纲要；3 月中下旬求是网+任仲平系统解读部署。2026 年关键词：<strong>大力实施"两新"（设备更新+消费品以旧换新）</strong>、<strong>十五五规划纲要落地</strong>、<strong>中国式现代化理论四维度创新</strong>。',
+    keypoints: [
+      { text: '<b>6 大预期指标：</b>GDP增速目标（2026约5%左右）、CPI（3%左右）、城镇调查失业率（5.5%左右）、赤字率（3%左右）、新增地方政府专项债、单位GDP能耗下降率。', keywords: [{t:'ding',v:'大力'}] },
+      { text: '<b>"十五五"规划纲要：</b>2026 开局第一年——重大生产力布局、102 项重大工程项目清单、区域协调发展（长三角/粤港澳/成渝/京津冀）、战略性新兴产业占比。', keywords: [{t:'ding',v:'着力'}] },
+      { text: '<b>任仲平万字长文：</b>3-30《从中国式现代化理论领悟为什么中国一定能成功》系统解读：新发展理念、新质生产力理论、新型举国体制、构建新发展格局。', keywords: [{t:'ding',v:'大力'}] }
+    ],
+    docs: [
+      { label: '任仲平：从中国式现代化理论领悟为什么中国一定能成功（人民日报·3-30 · 两会精神万字解读）', url: 'http://opinion.people.com.cn/n1/2026/0330/c461529-40691063.html' },
+      { label: '求是杂志评论员：凝心聚力奋进中国式现代化（求是网·3-15 · 部署"十五五"纲要）', url: 'http://www.qstheory.cn/20260314/70a1bcaa409e4cb3bfb7c6f72c73694c/c.html' },
+      { label: '2026年《政府工作报告》原文（十五五开局之年）', url: 'https://www.gov.cn/yaowen/liebiao/202603/content_7062625.htm' },
+      { label: '发改环资〔2025〕1745号·两新政策通知（2025-12-30 · 2026年3月两会后全面实施）', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251230_1402851.html' }
+    ]
+  },
+  {
+    period: '1-2月',
+    slogan: '地方两会 · 为全国两会做准备',
+    status: 'hot',
+    summary: '<strong>1 月各省/自治区/直辖市两会</strong>密集召开，集中发布当年政府工作报告、地方专项债发行计划、重大项目清单，是判断全年<strong>"地方版总盘子"</strong>的窗口。<strong>中央层面：</strong>人民日报头版"钟才平/钟才文"系列密集连发（2026-01-07 至 01-13 共 6 篇钟才平 + 1 篇钟才文），为全国两会中央口径预热。<strong>2 月金轩系列 10 篇</strong>（人民日报）系统解读"十四五"经济成色、对外开放、投资于人、预期寿命等核心议题。',
+    keypoints: [
+      { text: '<b>钟才平=中央财经委口径预热：</b>2026年1月1月7日首亮相人民日报头版《因地制宜做好经济工作》→ 其后 1月8~13 连发 5 篇（向新向优/宏观治理效能/促消费扩投资/惠民生/扩大开放），对应全国两会《政府工作报告》的 6 大板块。', keywords: [{t:'ding',v:'着力'},{t:'verb',v:'推动'}] },
+      { text: '<b>金轩系列=发改委经济宣传口径：</b>2月连发 10 篇（中国经济成色/人均预期寿命含金量/更开放的姿态/有效投资等），对应发改委两新政策、十五五重大项目、外资外贸。', keywords: [{t:'ding',v:'大力'},{t:'deg',v:'进一步'}] },
+      { text: '<b>中央部委密集发文：</b>1-23 发改委连发三办法（中央预算内投资计划管理办法+国家产业技术工程化中心管理办法+国家新兴产业创新中心管理办法），1-12 政府投资基金投向评价管理办法。', keywords: [{t:'ding',v:'着力'}] },
+      { text: '<b>地方两会看什么：</b>各地 GDP 目标（北京/上海/广东/浙江等强省定调是"全国风向标"）、专项债额度、重大项目数量与结构（新基建 vs 传统基建）、重点产业支持（低空/AI/卫星/两新）。', keywords: [{t:'deg',v:'加速'}] }
+    ],
+    docs: [
+      { label: '钟才平：因地制宜做好经济工作（人民日报头版·1-07 · 首次亮相头版头条）', url: 'http://finance.people.com.cn/n1/2026/0107/c1004-40640698.html' },
+      { label: '钟才文：深刻把握"五个必须" 推动"十五五"良好开局（人民日报·1-13 · 中央经济工作会议精神解读）', url: 'http://paper.people.com.cn/rmrb/pc/content/202601/13/content_30131926.html' },
+      { label: '金轩：如何看待中国经济发展的成色（人民日报·2-03 · 系列之一）', url: 'http://finance.people.com.cn/n1/2026/0203/c1004-40658584.html' },
+      { label: '金轩：以更开放的姿态为全球发展带来广阔机遇（人民日报·2-11 · 系列之九）', url: 'http://finance.people.com.cn/n1/2026/0211/c1004-40663843.html' },
+      { label: '发改投资规〔2025〕1728号·中央预算内投资计划管理办法（1-23 发布）', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403428.html' },
+      { label: '发改财金规〔2025〕1753号·政府投资基金投向评价管理办法（1-12 发布）', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260112_1403195.html' }
+    ]
+  }
+];
+
+/**
+ * 渲染年度政策时间线（竖线+圆点节点+details下拉展开）
+ */
+function renderAnnualTimeline() {
+  const list = document.getElementById('annualTimeline');
+  if (!list) return;
+  list.innerHTML = '<div class="at-list"></div>';
+  const wrap = list.querySelector('.at-list');
+
+  annualTimelineNodes.forEach(node => {
+    const wrapEl = document.createElement('div');
+    wrapEl.className = 'at-node at-' + node.status;
+
+    // 关键词 chip 拼接
+    const kpHtml = (node.keypoints || []).map(kp => {
+      const kw = (kp.keywords || []).map(x => `<span class="kw-tag kw-${x.t}" style="margin-right:3px">${x.v}</span>`).join('');
+      return `<div class="at-kp">${kp.text}${kw ? '<span class="at-kw">' + kw + '</span>' : ''}</div>`;
+    }).join('');
+
+    // 原文链接卡片
+    const docHtml = (node.docs || []).map(d => {
+      return `<a href="${d.url}" target="_blank" class="at-doc">${d.label}</a>`;
+    }).join('');
+
+    // 未来阶段提示
+    const futureNote = node.status === 'future'
+      ? '<div class="at-future-note">⏳ 该阶段属未来政策窗口，当前展示的是<strong>历史节奏模板</strong>与<strong>往年原文入口</strong>，方便届时快速对照；实际事件需等待会议召开后更新。</div>'
+      : '';
+
+    // 当前进度状态标签
+    const metaMap = {
+      hot:    '🔥 当前阶段',
+      pass:   '✓ 已发生',
+      future: '⏳ 预期窗口'
+    };
+
+    const detailsEl = document.createElement('details');
+    detailsEl.className = 'at-details';
+    // 让当前默认展开，方便用户第一眼看到
+    if (node.status === 'hot') detailsEl.open = true;
+
+    detailsEl.innerHTML = `
+      <summary class="at-summary">
+        <div class="at-sum-left">
+          <span class="at-period">${node.period}</span>
+          <span class="at-slogan">${node.slogan}</span>
+        </div>
+        <span class="at-meta">${metaMap[node.status] || ''}</span>
+      </summary>
+      <div class="at-body">
+        ${futureNote}
+        <div class="at-section-hd">▸ 周期定调总结</div>
+        <div class="at-body-summary">${node.summary}</div>
+        <div class="at-section-hd">▸ 关键政策要点（关键词定调标注）</div>
+        <div class="at-kp-list">${kpHtml || '<div style="padding:8px 12px;font-size:11px;color:var(--text-muted)">暂无要点</div>'}</div>
+        <div class="at-section-hd">▸ 政策原文件 / 权威解读原文链接</div>
+        <div class="at-doc-list">${docHtml || '<div style="padding:8px 12px;font-size:11px;color:var(--text-muted)">暂无链接</div>'}</div>
+      </div>
+    `;
+
+    wrapEl.appendChild(detailsEl);
+    wrap.appendChild(wrapEl);
+  });
+}
+
+// 兼容保留：旧的 timelineData 列表（供 data/latest.json 自动更新时内部复用）渲染
 function renderTimeline() {
   const list = document.getElementById('timelineList');
-  list.innerHTML = '';
-  timelineData.forEach(group => {
-    group.items.forEach((item, idx) => {
-      const tlItem = document.createElement('div');
-      tlItem.className = 'tl-item';
-      tlItem.innerHTML = `
-        <div class="tl-month">${idx === 0 ? group.month : ''}</div>
-        <div class="tl-body">
-          <div class="tl-title">${item.title}</div>
-          <div class="tl-desc">${item.desc}</div>
-          <div class="tl-docs">
-            <a href="${item.url}" target="_blank" class="tl-doc">📄 原文件: ${item.url}</a>
+  if (list) {
+    list.innerHTML = '';
+    timelineData.forEach(group => {
+      group.items.forEach((item, idx) => {
+        const tlItem = document.createElement('div');
+        tlItem.className = 'tl-item';
+        tlItem.innerHTML = `
+          <div class="tl-month">${idx === 0 ? group.month : ''}</div>
+          <div class="tl-body">
+            <div class="tl-title">${item.title}</div>
+            <div class="tl-desc">${item.desc}</div>
+            <div class="tl-docs">
+              <a href="${item.url}" target="_blank" class="tl-doc">📄 原文件: ${item.url}</a>
+            </div>
           </div>
-        </div>
-      `;
-      list.appendChild(tlItem);
+        `;
+        list.appendChild(tlItem);
+      });
     });
-  });
+  }
 }
 
 // ============================================================
@@ -379,7 +587,7 @@ document.querySelectorAll('[data-mperiod]').forEach(btn => {
 // ============================================================
 const chartRenderers = {
   macro: () => { renderMacroChart(); },
-  gov: () => {},
+  gov: () => { renderAnnualTimeline(); },
   source: () => {},
   compare: () => {},
   monthly: () => { renderMonthlyDocs(currentMonthlyPeriod); },
@@ -432,7 +640,8 @@ function applyLatestData(data) {
 // Initial render
 // ============================================================
 renderMacroCards('year');
-renderTimeline();
+renderTimeline();          // 旧timeline（若容器存在则渲染）
+renderAnnualTimeline();    // 新年度政策时间线（官网与会议tab右侧）
 renderMacroChart();
 renderMonthlyDocs('day');
 
@@ -441,5 +650,6 @@ loadLatestData().then(function(data) {
   if (data) {
     applyLatestData(data);
     renderTimeline();
+    renderAnnualTimeline();
   }
 });
