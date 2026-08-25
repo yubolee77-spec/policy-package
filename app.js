@@ -306,8 +306,8 @@ const monthlyData = {
   ]
 };
 
-// Reference date for period filtering (统计截止日期: 2026-08-21)
-const MONTHLY_REF_DATE = new Date('2026-08-21T00:00:00');
+// Reference date for period filtering (使用当前本地日期，不再硬编码过去的日期；允许「未来日期」通过，避免CDN或时区时差把刚发布的人民日报/经济日报头条误判为不存在)
+const MONTHLY_REF_DATE = new Date();
 
 function filterByPeriod(articles, period) {
   const now = MONTHLY_REF_DATE;
@@ -316,9 +316,10 @@ function filterByPeriod(articles, period) {
     if (period === 'year') return d.getFullYear() === now.getFullYear();
     const diffMs = now - d;
     const diffDays = diffMs / (1000 * 60 * 60 * 24);
-    if (period === 'day') return diffDays <= 3 && diffDays >= 0;
-    if (period === 'week') return diffDays <= 7 && diffDays >= 0;
-    if (period === 'month') return diffDays <= 30 && diffDays >= 0;
+    // 放宽下界：允许未来 1 天内的文章通过（防止缓存/UTC/报纸提前一天上线被过滤掉）
+    if (period === 'day')   return diffDays <= 3  && diffDays >= -1;
+    if (period === 'week')  return diffDays <= 7  && diffDays >= -1;
+    if (period === 'month') return diffDays <= 30 && diffDays >= -1;
     return false;
   }).sort((a, b) => new Date(b.date) - new Date(a.date));
 }
