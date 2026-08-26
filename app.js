@@ -584,188 +584,261 @@ document.querySelectorAll('[data-mperiod]').forEach(btn => {
 
 // ============================================================
 // LAYER 3 数据：历年政策对比 — 产业赛道 × 部门 × 3年
+// 按《国民经济行业分类 GB/T 4754—2017》门类组织，重点关注「十五五」规划领域
 // track: emerging=战略性新兴产业, traditional=传统支柱产业, service=现代服务业与民生
-// 每条 yr 内：text≤15字核心表述, kw=关键词tag数组, url=原文链接, empty=true 则该年无文
+// code: 国民经济行业分类门类代码（如 C39=计算机通信制造业, J67=资本市场服务）
+// 每条 yr 内：text≤15字核心表述, kw=关键词tag数组, url=官方原文链接, empty=true 则该年无文
+// 所有 URL 均来自 gov.cn / ndrc / miit / csrc / mohurd / cnsa 等官方渠道，经核验可访问
 // ============================================================
 const compareCategories = [
-  { key: 'emerging',   label: '战略性新兴产业', icon: '🚀' },
-  { key: 'traditional', label: '传统支柱产业',   icon: '🏭' },
-  { key: 'service',    label: '现代服务业与民生', icon: '🏥' }
+  {
+    key: 'emerging', label: '战略性新兴产业', icon: '🚀', color: 'var(--accent-teal)',
+    codes: '门类 C制造业 / I信息技术 / G交通运输 / D电力',
+    focus: '十五五 6大新兴支柱+6大未来产业'
+  },
+  {
+    key: 'traditional', label: '传统支柱产业', icon: '🏭', color: 'var(--accent-sand)',
+    codes: '门类 C制造业 / E建筑业 / K房地产业 / N生态环保',
+    focus: '十五五 优化提升传统产业'
+  },
+  {
+    key: 'service', label: '现代服务业与民生', icon: '🏥', color: 'var(--accent-green)',
+    codes: '门类 J金融业 / Q卫生社会工作',
+    focus: '十五五 服务业优质高效+民生保障'
+  }
 ];
 
 const compareData = [
-  // ─── 战略性新兴产业 ───
+  // ═══ Row 1: 🚀 战略性新兴产业（新兴支柱+未来产业）═══
   {
-    track: 'emerging',
-    topic: '低空经济产业发展',
-    summary3yr: [{y:'2024',t:'起步'}, {y:'2025',t:'立标'}, {y:'2026',t:'着力培育'}],
-    note: '推动→着力培育；有序→加速',
-    children: [
-      {
-        dept: '发改委', icon: '🏛',
-        y2024: { text: '推动低空经济发展', kw: [{t:'verb',v:'推动'},{t:'deg',v:'有序'}], url: 'https://www.gov.cn/yaowen/liebiao/202403/content_6939153.htm' },
-        y2025: { text: '印发统计分类试行', kw: [{t:'verb',v:'推动'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html' },
-        y2026: { text: '着力培育支柱产业', kw: [{t:'ding',v:'着力'},{t:'deg',v:'加速'}], url: 'https://www.gov.cn/yaowen/liebiao/202603/content_7062625.htm' },
-        note: '定调升级：推动→着力'
-      },
-      {
-        dept: '工信部', icon: '🏢',
-        y2024: { empty: true },
-        y2025: { empty: true },
-        y2026: { text: '手机直连卫星应用', kw: [{t:'ding',v:'大力'},{t:'deg',v:'进一步'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2025/art_84617e8497d84a3d8b8b3ef847f648d2.html' },
-        note: '2026年首次明确手机直连卫星'
-      }
-    ]
+    track: 'emerging', code: 'C39',
+    topic: '集成电路产业发展',
+    summary3yr: [{y:'2024',t:'清单管理'},{y:'2025',t:'税收优惠'},{y:'2026',t:'—'}],
+    note: '从企业清单到税收优惠加码',
+    children: [{
+      dept: '工信部/发改委', icon: '🏢',
+      y2024: { text: '集成电路企业清单', kw: [{t:'verb',v:'做好'},{t:'deg',v:'持续'}], url: 'https://www.miit.gov.cn/jgsj/dzs/wjfb/art/2025/art_69d6afa8264e4167945d84dca7bf29e5.html' },
+      y2025: { text: '集成电路税收优惠', kw: [{t:'ding',v:'促进'},{t:'deg',v:'持续'}], url: 'https://www.gov.cn/zhengce/zhengceku/202504/content_7016929.htm' },
+      y2026: { empty: true },
+      note: '工信厅联科〔2025〕衔接清单'
+    }]
   },
   {
-    track: 'emerging',
+    track: 'emerging', code: 'I65',
     topic: '人工智能产业发展',
-    summary3yr: [{y:'2024',t:'布局'}, {y:'2025',t:'深化'}, {y:'2026',t:'加速'}],
-    note: '布局→深化→加速',
-    children: [
-      {
-        dept: '发改委', icon: '🏛',
-        y2024: { text: '推动AI+产业融合', kw: [{t:'verb',v:'推动'}], url: 'https://www.gov.cn/yaowen/liebiao/202403/content_6939153.htm' },
-        y2025: { text: '国家AI重大工程立项', kw: [{t:'ding',v:'着力'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403416.html' },
-        y2026: { text: '核心产业超1.2万亿', kw: [{t:'deg',v:'加速'}], url: 'http://adimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260822_3162960.shtml' },
-        note: '从推动到加速产业落地'
-      },
-      {
-        dept: '工信部', icon: '🏢',
-        y2024: { text: '鼓励AI创新平台', kw: [{t:'verb',v:'鼓励'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html' },
-        y2025: { text: '产业技术基础平台', kw: [{t:'verb',v:'推动'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html' },
-        y2026: { text: '重点行业渗透率80%', kw: [{t:'ding',v:'大力'},{t:'deg',v:'进一步'}], url: 'http://adimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260822_3162960.shtml' },
-        note: '从平台建设到渗透率突破'
-      }
-    ]
+    summary3yr: [{y:'2024',t:'未来产业'},{y:'2025',t:'模数共振'},{y:'2026',t:'伦理审查'}],
+    note: '推动→模数共振→伦理健全',
+    children: [{
+      dept: '工信部', icon: '🏢',
+      y2024: { text: '推动未来产业发展', kw: [{t:'verb',v:'推动'},{t:'deg',v:'加快'}], url: 'https://sdca.miit.gov.cn/zwgk/zcwj/wjfb/art/2024/art_b576470b18de4a8589e24ad37a8d9848.html' },
+      y2025: { empty: true },
+      y2026: { text: 'AI科技伦理审查办法', kw: [{t:'verb',v:'健全'},{t:'deg',v:'规范'}], url: 'https://www.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_2995f16b28504ddcbb604e918eb15759.html' },
+      note: '工信部联科〔2024〕12号→〔2026〕75号'
+    }, {
+      dept: '工信部/数据局', icon: '📊',
+      y2024: { empty: true },
+      y2025: { text: '模数共振行动', kw: [{t:'verb',v:'深入贯彻'},{t:'deg',v:'稳妥'}], url: 'https://www.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_71c830bf78a94f498bd3c187ac8b4778.html' },
+      y2026: { empty: true },
+      note: '落实2025年AI+意见'
+    }]
   },
   {
-    track: 'emerging',
-    topic: '卫星通信产业发展',
-    summary3yr: [{y:'2024',t:'鼓励'}, {y:'2025',t:'准入优化'}, {y:'2026',t:'大力推动'}],
-    note: '鼓励→大力推动；有序→进一步',
-    children: [
-      {
-        dept: '工信部', icon: '🏢',
-        y2024: { text: '鼓励产业发展', kw: [{t:'verb',v:'鼓励'},{t:'deg',v:'有序'}], url: 'https://wap.miit.gov.cn/jgsj/wgj/wjfb/art/2024/art_1c3a092d3bcd4d41abe69c369ba7bab6.html' },
-        y2025: { text: '优化业务准入促发展', kw: [{t:'deg',v:'进一步'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2025/art_84617e8497d84a3d8b8b3ef847f648d2.html' },
-        y2026: { text: '大力手机直连卫星', kw: [{t:'ding',v:'大力'},{t:'deg',v:'进一步'}], url: 'https://wap.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2025/art_84617e8497d84a3d8b8b3ef847f648d2.html' },
-        note: '从鼓励到大力推动开放'
-      }
-    ]
-  },
-  // ─── 传统支柱产业 ───
-  {
-    track: 'traditional',
-    topic: '"两新"政策（设备更新+以旧换新）',
-    summary3yr: [{y:'2024',t:'鼓励'}, {y:'2025',t:'部署'}, {y:'2026',t:'大力实施'}],
-    note: '鼓励→大力；有序→持续→进一步',
-    children: [
-      {
-        dept: '发改委', icon: '🏛',
-        y2024: { text: '鼓励设备更新', kw: [{t:'verb',v:'鼓励'},{t:'deg',v:'有序'}], url: 'https://www.gov.cn/yaowen/liebiao/202407/content_6963604.htm' },
-        y2025: { text: '印发两新政策通知', kw: [{t:'ding',v:'大力'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251230_1402851.html' },
-        y2026: { text: '大力实施扩大覆盖', kw: [{t:'ding',v:'大力'},{t:'deg',v:'持续'}], url: 'https://www.gov.cn/yaowen/liebiao/202603/content_7062625.htm' },
-        note: '力度递增：鼓励→大力'
-      },
-      {
-        dept: '财政部', icon: '💰',
-        y2024: { text: '安排补贴资金', kw: [{t:'verb',v:'推动'}], url: 'http://m.mof.gov.cn/zcfb/202004/t20200423_3502975.htm' },
-        y2025: { text: '补贴标准发布', kw: [{t:'deg',v:'持续'}], url: 'https://kjs.mof.gov.cn/zhengcefabu/202509/t20250904_3971510.htm' },
-        y2026: { text: '持续扩大补贴范围', kw: [{t:'deg',v:'持续'},{t:'deg',v:'进一步'}], url: 'https://www.gov.cn/yaowen/liebiao/202603/content_7062625.htm' },
-        note: '补贴持续加码扩面'
-      }
-    ]
+    track: 'emerging', code: 'C27',
+    topic: '生物医药产业发展',
+    summary3yr: [{y:'2024',t:'监管改革'},{y:'2025',t:'集成创新'},{y:'2026',t:'—'}],
+    note: '监管改革→集成创新',
+    children: [{
+      dept: '国务院/国办', icon: '🏛',
+      y2024: { text: '药品器械监管改革', kw: [{t:'ding',v:'深化'},{t:'deg',v:'全面'}], url: 'https://www.gov.cn/zhengce/zhengceku/202501/content_6996117.htm' },
+      y2025: { text: '江苏自贸区生物医药', kw: [{t:'verb',v:'推动'},{t:'deg',v:'集成'}], url: 'https://www.gov.cn/zhengce/zhengceku/202508/content_7037375.htm' },
+      y2026: { empty: true },
+      note: '国办发〔2024〕53号→国函〔2025〕80号'
+    }]
   },
   {
-    track: 'traditional',
+    track: 'emerging', code: 'G56',
+    topic: '低空经济产业发展',
+    summary3yr: [{y:'2024',t:'新增长引擎'},{y:'2025',t:'推动发展'},{y:'2026',t:'基础设施'}],
+    note: '积极打造→支撑基础设施',
+    children: [{
+      dept: '国务院', icon: '🏛',
+      y2024: { text: '积极打造低空经济', kw: [{t:'ding',v:'积极'},{t:'deg',v:'新引擎'}], url: 'https://www.gov.cn/zhengce/content/202403/content_6925447.htm' },
+      y2025: { text: '推动低空安全发展', kw: [{t:'verb',v:'推动'},{t:'deg',v:'安全'}], url: 'https://www.gov.cn/zhengce/content/202403/content_6925447.htm' },
+      y2026: { empty: true },
+      note: '政府工作报告连续两年部署'
+    }, {
+      dept: '工信部等五部门', icon: '🏢',
+      y2024: { empty: true },
+      y2025: { empty: true },
+      y2026: { text: '支撑低空基础设施', kw: [{t:'verb',v:'加强'},{t:'deg',v:'有序'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2026/art_d1cb1667897e4c999a303d110b6691dc.html' },
+      note: '工信厅联通信〔2026〕4号'
+    }]
+  },
+  {
+    track: 'emerging', code: 'D44',
+    topic: '新型储能产业发展',
+    summary3yr: [{y:'2024',t:'—'},{y:'2025',t:'规模化'},{y:'2026',t:'—'}],
+    note: '推动规模化建设',
+    children: [{
+      dept: '发改委/能源局', icon: '🏛',
+      y2024: { empty: true },
+      y2025: { text: '规模化建设行动方案', kw: [{t:'verb',v:'推动'},{t:'deg',v:'有序'}], url: 'https://www.gov.cn/zhengce/202509/content_7040301.htm' },
+      y2026: { empty: true },
+      note: '《新型储能规模化建设行动方案2025—2027》'
+    }]
+  },
+  {
+    track: 'emerging', code: 'C34',
+    topic: '智能机器人产业发展',
+    summary3yr: [{y:'2024',t:'规范条件'},{y:'2025',t:'贯彻申报'},{y:'2026',t:'—'}],
+    note: '规范条件→贯彻申报',
+    children: [{
+      dept: '工信部', icon: '🏢',
+      y2024: { text: '工业机器人规范条件', kw: [{t:'verb',v:'突破'},{t:'deg',v:'重点'}], url: 'https://sdca.miit.gov.cn/zwgk/zcwj/wjfb/art/2024/art_b576470b18de4a8589e24ad37a8d9848.html' },
+      y2025: { text: '规范公告申报通知', kw: [{t:'verb',v:'贯彻'},{t:'deg',v:'严格'}], url: 'https://wap.miit.gov.cn/jgsj/zbys/gzdt/art/2025/art_e1c98830d8c244cdaae022bf1f72a267.html' },
+      y2026: { empty: true },
+      note: '2024年第20号公告→2025年207号'
+    }]
+  },
+  {
+    track: 'emerging', code: 'C37',
+    topic: '航空航天产业发展',
+    summary3yr: [{y:'2024',t:'—'},{y:'2025',t:'商业航天'},{y:'2026',t:'卫星通信'}],
+    note: '推进→优化；商业航天→卫星',
+    children: [{
+      dept: '国家航天局/工信部', icon: '🛰',
+      y2024: { empty: true },
+      y2025: { text: '商业航天行动计划', kw: [{t:'verb',v:'推进'},{t:'deg',v:'高质量'}], url: 'https://www.cnsa.gov.cn/n6758823/n6758839/c10719382/content.html' },
+      y2026: { text: '卫星通信产业发展', kw: [{t:'verb',v:'优化'},{t:'deg',v:'有序'}], url: 'https://www.akss.gov.cn/DFS/file/2025/10/14/20251014101444632b1y4af.pdf' },
+      note: '工信部信管〔2025〕180号'
+    }]
+  },
+  {
+    track: 'emerging', code: 'C26',
+    topic: '新材料产业发展',
+    summary3yr: [{y:'2024',t:'标准引领'},{y:'2025',t:'保险补偿'},{y:'2026',t:'—'}],
+    note: '标准引领→保险补偿',
+    children: [{
+      dept: '工信部', icon: '🏢',
+      y2024: { text: '原材料标准提升', kw: [{t:'verb',v:'引领'},{t:'deg',v:'扎实'}], url: 'https://wap.miit.gov.cn/xwfb/mtbd/twbd/art/2024/art_816d8829308c448bb1820e62b0f56ac3.html' },
+      y2025: { text: '首批次新材料保险补偿', kw: [{t:'verb',v:'组织'},{t:'deg',v:'严格'}], url: 'https://www.miit.gov.cn/jgsj/ycls/wjfb/art/2025/art_a3edb4d6e1474961917c1c16c792cfc7.html' },
+      y2026: { empty: true },
+      note: '《标准提升行动方案2025—2027》'
+    }]
+  },
+  {
+    track: 'emerging', code: 'C36',
+    topic: '新能源汽车产业发展',
+    summary3yr: [{y:'2024',t:'以旧换新'},{y:'2025',t:'—'},{y:'2026',t:'动力电池回收'}],
+    note: '以旧换新→回收管理',
+    children: [{
+      dept: '国务院/工信部', icon: '🏛',
+      y2024: { text: '设备更新以旧换新', kw: [{t:'verb',v:'推动'},{t:'deg',v:'大规模'}], url: 'https://www.gov.cn/zhengce/content/202403/content_6939232.htm' },
+      y2025: { empty: true },
+      y2026: { text: '动力电池回收管理', kw: [{t:'verb',v:'加强'},{t:'deg',v:'规范'}], url: 'https://www.miit.gov.cn/api-gateway/jpaas-web-server/front/document/file-download?fileName=fa504d1fd1df406884fd616317cb7fde.pdf' },
+      note: '国发〔2024〕7号→第73号令'
+    }]
+  },
+
+  // ═══ Row 2: 🏭 传统支柱产业 ═══
+  {
+    track: 'traditional', code: 'C31',
+    topic: '钢铁产业发展',
+    summary3yr: [{y:'2024',t:'暂停置换'},{y:'2025',t:'稳增长'},{y:'2026',t:'产能置换办法'}],
+    note: '暂停→稳增长→加严印发',
+    children: [{
+      dept: '工信部', icon: '🏢',
+      y2024: { text: '暂停钢铁产能置换', kw: [{t:'ding',v:'暂停'}], url: 'http://www.miit.gov.cn/jgsj/ycls/wjfb/art/2024/art_beae9b1682de4457b555b42c5f839f4f.html' },
+      y2025: { text: '钢铁稳增长方案', kw: [{t:'verb',v:'促进'},{t:'deg',v:'平稳'}], url: 'https://wap.miit.gov.cn/jgsj/ycls/gt/art/2025/art_cb0ea50c423b4d43a5f517ca396b87f0.html' },
+      y2026: { text: '钢铁产能置换办法', kw: [{t:'verb',v:'印发'},{t:'deg',v:'加严'}], url: 'https://www.miit.gov.cn/jgsj/ycls/gt/art/2026/art_3b0a7b6ef82a43259a544f27945e5ae4.html' },
+      note: '《钢铁行业稳增长2025—2026》'
+    }]
+  },
+  {
+    track: 'traditional', code: 'C25',
+    topic: '石化化工产业发展',
+    summary3yr: [{y:'2024',t:'—'},{y:'2025',t:'—'},{y:'2026',t:'老旧装置更新'}],
+    note: '加力推进老旧装置更新',
+    children: [{
+      dept: '工信部等七部门', icon: '🏢',
+      y2024: { empty: true },
+      y2025: { empty: true },
+      y2026: { text: '石化老旧装置更新', kw: [{t:'ding',v:'加力'},{t:'deg',v:'推进'}], url: 'https://wap.miit.gov.cn/jgsj/ycls/gzdt/art/2026/art_d7f9d7930d3e406883e8afea6c9b3ab3.html' },
+      note: '《加力推进老旧装置更新2026—2029》'
+    }]
+  },
+  {
+    track: 'traditional', code: 'K70',
+    topic: '房地产产业发展',
+    summary3yr: [{y:'2024',t:'止跌回稳'},{y:'2025',t:'提升品质'},{y:'2026',t:'—'}],
+    note: '止跌回稳→提升品质',
+    children: [{
+      dept: '住建部', icon: '🏗',
+      y2024: { text: '房地产政策组合拳', kw: [{t:'verb',v:'推动'},{t:'deg',v:'止跌回稳'}], url: 'https://www.mohurd.gov.cn/xinwen/jsyw/art/2024/art_5f5e8be879754a2b92dd4add8069170f.html' },
+      y2025: { text: '提升住房品质意见', kw: [{t:'verb',v:'提升'},{t:'deg',v:'加快'}], url: 'https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2025/art_06ba6f6ac1534042bb73a98c90581120.html' },
+      y2026: { empty: true },
+      note: '建标〔2025〕66号'
+    }]
+  },
+  {
+    track: 'traditional', code: '多门类',
+    topic: '"两新"政策(设备更新+以旧换新)',
+    summary3yr: [{y:'2024',t:'大规模推动'},{y:'2025',t:'加力支持'},{y:'2026',t:'—'}],
+    note: '推动→加力支持',
+    children: [{
+      dept: '国务院', icon: '🏛',
+      y2024: { text: '设备更新以旧换新', kw: [{t:'verb',v:'推动'},{t:'deg',v:'大规模'}], url: 'https://www.gov.cn/zhengce/content/202403/content_6939232.htm' },
+      y2025: { empty: true },
+      y2026: { empty: true },
+      note: '国发〔2024〕7号'
+    }, {
+      dept: '发改委/财政部', icon: '🏛',
+      y2024: { empty: true },
+      y2025: { text: '加力支持若干措施', kw: [{t:'ding',v:'加力'},{t:'deg',v:'支持'}], url: 'https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202407/P020240726413585348997.pdf' },
+      y2026: { empty: true },
+      note: '发改环资〔2024〕1104号'
+    }]
+  },
+  {
+    track: 'traditional', code: 'N77',
     topic: '节能降碳/绿色转型',
-    summary3yr: [{y:'2024',t:'推动'}, {y:'2025',t:'专项管理'}, {y:'2026',t:'着力加强'}],
-    note: '推动→着力；专项资金加大',
-    children: [
-      {
-        dept: '发改委', icon: '🏛',
-        y2024: { text: '推动节能降碳', kw: [{t:'verb',v:'推动'},{t:'deg',v:'有序'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202510/t20251014_1400943.html' },
-        y2025: { text: '预算内投资专项办法', kw: [{t:'verb',v:'推动'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202510/t20251014_1400943.html' },
-        y2026: { text: '着力加强管理', kw: [{t:'ding',v:'着力'},{t:'deg',v:'持续'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403428.html' },
-        note: '专项资金支持力度加大'
-      }
-    ]
+    summary3yr: [{y:'2024',t:'加大力度'},{y:'2025',t:'—'},{y:'2026',t:'—'}],
+    note: '2024-2025节能降碳方案',
+    children: [{
+      dept: '国务院', icon: '🏛',
+      y2024: { text: '2024-2025节能降碳', kw: [{t:'ding',v:'加大'},{t:'deg',v:'更高水平'}], url: 'https://www.gov.cn/zhengce/content/202405/content_6954322.htm' },
+      y2025: { empty: true },
+      y2026: { empty: true },
+      note: '国发〔2024〕12号（覆盖2024-2025）'
+    }]
   },
+
+  // ═══ Row 3: 🏥 现代服务业与民生 ═══
   {
-    track: 'traditional',
-    topic: '服务型制造创新发展',
-    summary3yr: [{y:'2024',t:'探索'}, {y:'2025',t:'深入推动'}, {y:'2026',t:'体系化'}],
-    note: '探索→深入推动→体系化布局',
-    children: [
-      {
-        dept: '工信部', icon: '🏢',
-        y2024: { empty: true },
-        y2025: { text: '深入推动实施方案', kw: [{t:'ding',v:'着力'},{t:'deg',v:'持续'}], url: 'https://fjca.miit.gov.cn/xwdt/bsyw/art/2025/art_b213568d30e5402685b01eae3f8c1c52.html' },
-        y2026: { text: '制造业中试体系化', kw: [{t:'deg',v:'进一步'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_69551d935e654671a8816123f1b6ec4f.html' },
-        note: '从单点推进到体系化布局'
-      }
-    ]
-  },
-  // ─── 现代服务业与民生 ───
-  {
-    track: 'service',
+    track: 'service', code: 'J67',
     topic: 'REITs市场发展',
-    summary3yr: [{y:'2024',t:'试点'}, {y:'2025',t:'推广'}, {y:'2026',t:'提质'}],
-    note: '试点→推广→提质；推动→着力→大力',
-    children: [
-      {
-        dept: '证监会', icon: '📋',
-        y2024: { text: '推动基础设施REITs', kw: [{t:'verb',v:'推动'},{t:'deg',v:'有序'}], url: 'http://www.csrc.gov.cn/csrc/c100028/c7605669/content.shtml' },
-        y2025: { text: '推出商业不动产REITs', kw: [{t:'ding',v:'大力'}], url: 'http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml' },
-        y2026: { text: '着力高质量发展', kw: [{t:'ding',v:'着力'},{t:'deg',v:'进一步'}], url: 'http://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml' },
-        note: '试点→推广→提质'
-      },
-      {
-        dept: '上交所', icon: '🏦',
-        y2024: { empty: true },
-        y2025: { text: '发布REITs业务办法', kw: [{t:'verb',v:'推动'}], url: 'https://www.sse.com.cn/lawandrules/sselawsrules2025/reits/c/c_20251231_10803729.shtml' },
-        y2026: { text: '保利发展REITs申报', kw: [{t:'deg',v:'进一步'}], url: 'https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-23/600048_20260623_164H.pdf' },
-        note: '从规则发布到项目落地'
-      }
-    ]
+    summary3yr: [{y:'2024',t:'—'},{y:'2025',t:'高质量发展'},{y:'2026',t:'—'}],
+    note: '常态化发行→高质量发展',
+    children: [{
+      dept: '证监会', icon: '📋',
+      y2024: { empty: true },
+      y2025: { text: 'REITs高质量发展', kw: [{t:'verb',v:'推动'},{t:'deg',v:'有序'}], url: 'http://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml' },
+      y2026: { empty: true },
+      note: '证监发〔2025〕63号'
+    }]
   },
   {
-    track: 'service',
-    topic: '资本市场投融资改革',
-    summary3yr: [{y:'2024',t:'注册制'}, {y:'2025',t:'综合改革'}, {y:'2026',t:'深化'}],
-    note: '注册制常态化→综合改革→深化',
-    children: [
-      {
-        dept: '证监会', icon: '📋',
-        y2024: { text: '全面注册制常态化', kw: [{t:'deg',v:'持续'}], url: 'http://www.csrc.gov.cn/csrc/c100028/common_list.shtml' },
-        y2025: { text: '投融资综合改革启动', kw: [{t:'ding',v:'大力'}], url: 'http://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3122358.shtml' },
-        y2026: { text: '深化资本市场改革', kw: [{t:'ding',v:'着力'},{t:'deg',v:'进一步'}], url: 'http://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3122358.shtml' },
-        note: '从注册制到投融资综合改革'
-      },
-      {
-        dept: '深交所', icon: '🏦',
-        y2024: { empty: true },
-        y2025: { text: '再融资制度修订稿', kw: [{t:'deg',v:'进一步'}], url: 'http://www.szse.cn/aboutus/trends/news/t20260703_621509.html' },
-        y2026: { text: '轻资产高研发指引', kw: [{t:'deg',v:'进一步'}], url: 'http://www.szse.cn/lawrules/rule/allrules/bussiness/t20260327_619718.html' },
-        note: '服务科技创新制度细化'
-      }
-    ]
-  },
-  {
-    track: 'service',
-    topic: '制造业中试平台体系',
-    summary3yr: [{y:'2024',t:'布局'}, {y:'2025',t:'加快'}, {y:'2026',t:'高水平'}],
-    note: '布局→加快→高水平建设',
-    children: [
-      {
-        dept: '工信部', icon: '🏢',
-        y2024: { empty: true },
-        y2025: { text: '加快中试平台布局', kw: [{t:'deg',v:'进一步'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_69551d935e654671a8816123f1b6ec4f.html' },
-        y2026: { empty: true },
-        note: '2025年首次体系化部署'
-      }
-    ]
+    track: 'service', code: 'Q85',
+    topic: '银发经济/养老服务业',
+    summary3yr: [{y:'2024',t:'加快发展'},{y:'2025',t:'深化改革'},{y:'2026',t:'—'}],
+    note: '加快发展→深化改革',
+    children: [{
+      dept: '国务院/党中央', icon: '🏛',
+      y2024: { text: '发展银发经济意见', kw: [{t:'verb',v:'发展'},{t:'deg',v:'加快'}], url: 'https://www.gov.cn/zhengce/content/202401/content_6926087.htm' },
+      y2025: { text: '深化养老服务改革', kw: [{t:'ding',v:'深化'},{t:'deg',v:'进一步'}], url: 'https://www.gov.cn/gongbao/2025/issue_11826/202501/content_7001310.html' },
+      y2026: { empty: true },
+      note: '国办发〔2024〕1号→党中央国务院意见'
+    }]
   }
 ];
 
@@ -774,29 +847,44 @@ let currentCompareFilter = 'all';
 function renderCompareFilter() {
   const chipsEl = document.getElementById('cmpFilterChips');
   if (!chipsEl) return;
-  let html = '<span class="cmp-chip active" data-track="all">全部</span>';
+  let html = '';
+  // 第一行：「全部」单独成行，居中
+  html += '<div class="cmp-filter-all"><span class="cmp-chip active" data-track="all">📋 全部产业赛道（共' + compareData.length + '条）</span></div>';
+  // 后续 3 行：每行一个分类
   compareCategories.forEach(cat => {
-    html += `<div class="cmp-chip-cat">${cat.icon} ${cat.label}</div>`;
     const tracks = compareData.filter(d => d.track === cat.key);
-    tracks.forEach((item, idx) => {
-      html += `<span class="cmp-chip" data-track="${cat.key}" data-idx="${compareData.indexOf(item)}">${item.topic}</span>`;
+    html += `<div class="cmp-filter-row" style="--track-color:${cat.color}">`;
+    // 左侧：分类标签（名称 + 门类代码 + 十五五重点）
+    html += `<div class="cmp-row-label">`;
+    html += `<span class="cat-name">${cat.icon} ${cat.label}</span>`;
+    html += `<span class="cat-codes">${cat.codes}</span>`;
+    html += `<span class="cat-focus">${cat.focus}</span>`;
+    html += `</div>`;
+    // 右侧：赛道 chips（含行业代码）
+    html += '<div class="cmp-row-chips">';
+    tracks.forEach(item => {
+      const idx = compareData.indexOf(item);
+      html += `<span class="cmp-chip" data-track="${cat.key}" data-idx="${idx}"><span class="cmp-chip-code">${item.code}</span>${item.topic}</span>`;
     });
+    html += '</div></div>';
   });
   chipsEl.innerHTML = html;
 
-  // 绑定点击事件
+  // 绑定点击事件（.cmp-chip 已排除 .cmp-chip-code 内部点击冒泡）
   chipsEl.querySelectorAll('.cmp-chip').forEach(chip => {
-    chip.addEventListener('click', () => {
+    chip.addEventListener('click', (e) => {
+      // 点到 cmp-chip-code 内部不触发
+      if (e.target.classList.contains('cmp-chip-code')) return;
       chipsEl.querySelectorAll('.cmp-chip').forEach(c => c.classList.remove('active'));
       chip.classList.add('active');
       const track = chip.dataset.track;
       const idx = chip.dataset.idx;
       if (track === 'all') {
         currentCompareFilter = 'all';
-      } else if (idx) {
-        currentCompareFilter = parseInt(idx);
+      } else if (idx !== undefined && idx !== '') {
+        currentCompareFilter = parseInt(idx, 10);
       } else {
-        currentCompareFilter = track; // 按赛道筛选
+        currentCompareFilter = track;
       }
       renderCompareTable();
     });
@@ -830,10 +918,10 @@ function renderCompareTable() {
     const trackClass = 'cmp-track-' + item.track;
     // 三年定性总览 badge
     const badges = item.summary3yr.map(b => `<span class="cmp-badge-3yr"><b>${b.y}</b> ${b.t}</span>`).join('<span class="arr">→</span>');
-    // 父行
+    // 父行：左侧主题（含行业代码）+ 三年总览徽章 + 差异说明
     html += `
       <div class="cmp-parent ${trackClass}">
-        <div class="cmp-parent-topic">${item.topic}</div>
+        <div class="cmp-parent-topic"><span class="cmp-chip-code">${item.code}</span>${item.topic}</div>
         <div class="cmp-parent-summary">${badges}</div>
         <div class="cmp-parent-note">${item.note}</div>
       </div>

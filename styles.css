@@ -125,27 +125,47 @@ a:hover{color:inherit}
 .cmp-cell.topic{font-weight:600;color:var(--accent-amber)}
 .cmp-cell.note{font-size:11px;color:var(--accent-amber);font-family:var(--font-mono)}
 
-/* ============ 历年政策对比：产业赛道筛选条 + 父子行表格 ============ */
+/* ============ 历年政策对比：产业赛道筛选条（3 行布局）+ 父子行表格 ============ */
 .cmp-filter-bar{margin-bottom:14px;padding:12px 14px;background:var(--bg-card);border:1px solid var(--border-primary);border-radius:6px}
-.cmp-filter-title{font-size:12px;color:var(--accent-amber);font-family:var(--font-mono);font-weight:600;margin-bottom:8px;letter-spacing:.5px}
-.cmp-filter-chips{display:flex;flex-wrap:wrap;gap:6px}
+.cmp-filter-title{font-size:12px;color:var(--accent-amber);font-family:var(--font-mono);font-weight:600;margin-bottom:10px;letter-spacing:.3px;line-height:1.5}
+.cmp-filter-rows{display:flex;flex-direction:column;gap:8px}
+/* 「全部」单独一行 */
+.cmp-filter-all{display:flex;justify-content:center;padding:8px;background:var(--bg-primary);border-radius:4px;border:1px dashed var(--border-primary)}
+.cmp-filter-all .cmp-chip{padding:6px 22px;font-size:12px}
+/* 每行：左侧分类标签 + 右侧赛道 chips */
+.cmp-filter-row{
+  display:grid;grid-template-columns:170px 1fr;gap:14px;align-items:start;
+  padding:10px 12px;background:var(--bg-panel);border-radius:5px;
+  border-left:3px solid var(--track-color,var(--accent-amber));
+}
+.cmp-row-label{display:flex;flex-direction:column;gap:3px;padding-top:1px}
+.cmp-row-label .cat-name{font-size:12.5px;font-weight:700;color:var(--track-color,var(--accent-amber));font-family:var(--font-mono);letter-spacing:.3px;line-height:1.3}
+.cmp-row-label .cat-codes{font-size:9.5px;color:var(--text-muted);font-family:var(--font-mono);line-height:1.4}
+.cmp-row-label .cat-focus{font-size:9.5px;color:var(--accent-amber);font-family:var(--font-mono);line-height:1.4;opacity:.85}
+.cmp-row-chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding-top:2px}
 .cmp-chip{
-  font-size:11px;padding:4px 12px;border-radius:12px;
+  display:inline-flex;align-items:center;gap:5px;
+  font-size:11px;padding:4px 10px;border-radius:12px;
   font-family:var(--font-mono);cursor:pointer;
-  background:var(--bg-panel);border:1px solid var(--border-primary);
-  color:var(--text-secondary);transition:all .2s;user-select:none;
+  background:var(--bg-card);border:1px solid var(--border-primary);
+  color:var(--text-secondary);transition:all .2s;user-select:none;line-height:1.4;
 }
-.cmp-chip:hover{border-color:rgba(224,160,48,.4);color:var(--text-primary)}
+.cmp-chip-code{
+  font-size:8.5px;padding:1px 4px;background:var(--bg-primary);
+  border-radius:2px;color:var(--text-muted);font-weight:400;
+  border:1px solid var(--border-primary);letter-spacing:.3px;
+}
+.cmp-chip:hover{border-color:rgba(224,160,48,.5);color:var(--text-primary);background:var(--bg-hover)}
+.cmp-chip:hover .cmp-chip-code{border-color:rgba(224,160,48,.4)}
 .cmp-chip.active{
-  background:linear-gradient(135deg,rgba(224,160,48,.18),rgba(255,183,77,.1));
+  background:linear-gradient(135deg,rgba(224,160,48,.2),rgba(255,183,77,.1));
   border-color:var(--accent-amber);color:var(--accent-amber);font-weight:600;
-  box-shadow:0 0 8px rgba(224,160,48,.12);
+  box-shadow:0 0 8px rgba(224,160,48,.15);
 }
-.cmp-chip-cat{
-  font-size:9.5px;color:var(--text-muted);
-  font-family:var(--font-mono);margin:6px 0 2px;
-  letter-spacing:.5px;text-transform:uppercase;
+.cmp-chip.active .cmp-chip-code{
+  background:var(--accent-amber);color:var(--bg-primary);border-color:var(--accent-amber);
 }
+.cmp-filter-all .cmp-chip.active{box-shadow:none}
 /* 新表格：父子行结构 */
 .cmp-table#cmpTable{
   border:1px solid var(--border-primary);
