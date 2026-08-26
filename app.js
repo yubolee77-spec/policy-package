@@ -613,21 +613,27 @@ const compareData = [
   {
     track: 'emerging', code: 'C39',
     topic: '集成电路产业发展',
-    summary3yr: [{y:'2024',t:'清单管理'},{y:'2025',t:'税收优惠'},{y:'2026',t:'—'}],
-    note: '从企业清单到税收优惠加码',
+    summary3yr: [{y:'2024',t:'—'},{y:'2025',t:'清单+优惠'},{y:'2026',t:'—'}],
+    note: '2025年清单管理+税收优惠双出台',
     children: [{
-      dept: '工信部/发改委', icon: '🏢',
-      y2024: { text: '集成电路企业清单', kw: [{t:'verb',v:'做好'},{t:'deg',v:'持续'}], url: 'https://www.miit.gov.cn/jgsj/dzs/wjfb/art/2025/art_69d6afa8264e4167945d84dca7bf29e5.html' },
+      dept: '工信部', icon: '🏢',
+      y2024: { empty: true },
+      y2025: { text: '集成电路企业清单', kw: [{t:'verb',v:'做好'},{t:'deg',v:'持续'}], url: 'https://www.miit.gov.cn/jgsj/dzs/wjfb/art/2025/art_69d6afa8264e4167945d84dca7bf29e5.html' },
+      y2026: { empty: true },
+      note: '2025年度企业清单通知（art/2025发布）'
+    }, {
+      dept: '发改委等', icon: '🏛',
+      y2024: { empty: true },
       y2025: { text: '集成电路税收优惠', kw: [{t:'ding',v:'促进'},{t:'deg',v:'持续'}], url: 'https://www.gov.cn/zhengce/zhengceku/202504/content_7016929.htm' },
       y2026: { empty: true },
-      note: '工信厅联科〔2025〕衔接清单'
+      note: '发改高技〔2025〕385号'
     }]
   },
   {
     track: 'emerging', code: 'I65',
     topic: '人工智能产业发展',
-    summary3yr: [{y:'2024',t:'未来产业'},{y:'2025',t:'模数共振'},{y:'2026',t:'伦理审查'}],
-    note: '推动→模数共振→伦理健全',
+    summary3yr: [{y:'2024',t:'未来产业'},{y:'2025',t:'—'},{y:'2026',t:'共振+伦理'}],
+    note: '2024布局未来产业→2026模数共振+伦理双落地',
     children: [{
       dept: '工信部', icon: '🏢',
       y2024: { text: '推动未来产业发展', kw: [{t:'verb',v:'推动'},{t:'deg',v:'加快'}], url: 'https://sdca.miit.gov.cn/zwgk/zcwj/wjfb/art/2024/art_b576470b18de4a8589e24ad37a8d9848.html' },
@@ -637,9 +643,9 @@ const compareData = [
     }, {
       dept: '工信部/数据局', icon: '📊',
       y2024: { empty: true },
-      y2025: { text: '模数共振行动', kw: [{t:'verb',v:'深入贯彻'},{t:'deg',v:'稳妥'}], url: 'https://www.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_71c830bf78a94f498bd3c187ac8b4778.html' },
-      y2026: { empty: true },
-      note: '落实2025年AI+意见'
+      y2025: { empty: true },
+      y2026: { text: '模数共振行动', kw: [{t:'verb',v:'深入贯彻'},{t:'deg',v:'稳妥'}], url: 'https://www.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_71c830bf78a94f498bd3c187ac8b4778.html' },
+      note: 'art/2026/ 发布；落实国务院AI+意见'
     }]
   },
   {
@@ -703,14 +709,20 @@ const compareData = [
   {
     track: 'emerging', code: 'C37',
     topic: '航空航天产业发展',
-    summary3yr: [{y:'2024',t:'—'},{y:'2025',t:'商业航天'},{y:'2026',t:'卫星通信'}],
-    note: '推进→优化；商业航天→卫星',
+    summary3yr: [{y:'2024',t:'—'},{y:'2025',t:'商业+卫星'},{y:'2026',t:'—'}],
+    note: '2025年商业航天+卫星通信双政策落地',
     children: [{
-      dept: '国家航天局/工信部', icon: '🛰',
+      dept: '国家航天局', icon: '🛰',
       y2024: { empty: true },
       y2025: { text: '商业航天行动计划', kw: [{t:'verb',v:'推进'},{t:'deg',v:'高质量'}], url: 'https://www.cnsa.gov.cn/n6758823/n6758839/c10719382/content.html' },
-      y2026: { text: '卫星通信产业发展', kw: [{t:'verb',v:'优化'},{t:'deg',v:'有序'}], url: 'https://www.akss.gov.cn/DFS/file/2025/10/14/20251014101444632b1y4af.pdf' },
-      note: '工信部信管〔2025〕180号'
+      y2026: { empty: true },
+      note: '《推进商业航天高质量安全发展行动计划2025—2027》'
+    }, {
+      dept: '工信部', icon: '🏢',
+      y2024: { empty: true },
+      y2025: { text: '卫星通信产业发展', kw: [{t:'verb',v:'优化'},{t:'deg',v:'有序'}], url: 'https://www.akss.gov.cn/DFS/file/2025/10/14/20251014101444632b1y4af.pdf' },
+      y2026: { empty: true },
+      note: '工信部信管〔2025〕180号（2025-08-25成文，10月发布）'
     }]
   },
   {
@@ -729,14 +741,14 @@ const compareData = [
   {
     track: 'emerging', code: 'C36',
     topic: '新能源汽车产业发展',
-    summary3yr: [{y:'2024',t:'以旧换新'},{y:'2025',t:'—'},{y:'2026',t:'动力电池回收'}],
-    note: '以旧换新→回收管理',
+    summary3yr: [{y:'2024',t:'以旧换新'},{y:'2025',t:'回收管理'},{y:'2026',t:'—'}],
+    note: '2024以旧换新→2025动力电池回收第73号令',
     children: [{
       dept: '国务院/工信部', icon: '🏛',
       y2024: { text: '设备更新以旧换新', kw: [{t:'verb',v:'推动'},{t:'deg',v:'大规模'}], url: 'https://www.gov.cn/zhengce/content/202403/content_6939232.htm' },
-      y2025: { empty: true },
-      y2026: { text: '动力电池回收管理', kw: [{t:'verb',v:'加强'},{t:'deg',v:'规范'}], url: 'https://www.miit.gov.cn/api-gateway/jpaas-web-server/front/document/file-download?fileName=fa504d1fd1df406884fd616317cb7fde.pdf' },
-      note: '国发〔2024〕7号→第73号令'
+      y2025: { text: '动力电池回收管理', kw: [{t:'verb',v:'加强'},{t:'deg',v:'规范'}], url: 'https://www.miit.gov.cn/api-gateway/jpaas-web-server/front/document/file-download?fileName=fa504d1fd1df406884fd616317cb7fde.pdf' },
+      y2026: { empty: true },
+      note: '国发〔2024〕7号→工信部第73号令（2025-12-31公布）'
     }]
   },
 
@@ -783,8 +795,8 @@ const compareData = [
   {
     track: 'traditional', code: '多门类',
     topic: '"两新"政策(设备更新+以旧换新)',
-    summary3yr: [{y:'2024',t:'大规模推动'},{y:'2025',t:'加力支持'},{y:'2026',t:'—'}],
-    note: '推动→加力支持',
+    summary3yr: [{y:'2024',t:'推动+加力'},{y:'2025',t:'—'},{y:'2026',t:'—'}],
+    note: '2024年3月国务院方案+7月发改委加力措施双发布',
     children: [{
       dept: '国务院', icon: '🏛',
       y2024: { text: '设备更新以旧换新', kw: [{t:'verb',v:'推动'},{t:'deg',v:'大规模'}], url: 'https://www.gov.cn/zhengce/content/202403/content_6939232.htm' },
@@ -793,10 +805,10 @@ const compareData = [
       note: '国发〔2024〕7号'
     }, {
       dept: '发改委/财政部', icon: '🏛',
-      y2024: { empty: true },
-      y2025: { text: '加力支持若干措施', kw: [{t:'ding',v:'加力'},{t:'deg',v:'支持'}], url: 'https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202407/P020240726413585348997.pdf' },
+      y2024: { text: '加力支持若干措施', kw: [{t:'ding',v:'加力'},{t:'deg',v:'支持'}], url: 'https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202407/P020240726413585348997.pdf' },
+      y2025: { empty: true },
       y2026: { empty: true },
-      note: '发改环资〔2024〕1104号'
+      note: '发改环资〔2024〕1104号（2024年7月发布）'
     }]
   },
   {
