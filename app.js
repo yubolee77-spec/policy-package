@@ -583,13 +583,294 @@ document.querySelectorAll('[data-mperiod]').forEach(btn => {
 // ============================================================
 
 // ============================================================
+// LAYER 3 数据：历年政策对比 — 产业赛道 × 部门 × 3年
+// track: emerging=战略性新兴产业, traditional=传统支柱产业, service=现代服务业与民生
+// 每条 yr 内：text≤15字核心表述, kw=关键词tag数组, url=原文链接, empty=true 则该年无文
+// ============================================================
+const compareCategories = [
+  { key: 'emerging',   label: '战略性新兴产业', icon: '🚀' },
+  { key: 'traditional', label: '传统支柱产业',   icon: '🏭' },
+  { key: 'service',    label: '现代服务业与民生', icon: '🏥' }
+];
+
+const compareData = [
+  // ─── 战略性新兴产业 ───
+  {
+    track: 'emerging',
+    topic: '低空经济产业发展',
+    summary3yr: [{y:'2024',t:'起步'}, {y:'2025',t:'立标'}, {y:'2026',t:'着力培育'}],
+    note: '推动→着力培育；有序→加速',
+    children: [
+      {
+        dept: '发改委', icon: '🏛',
+        y2024: { text: '推动低空经济发展', kw: [{t:'verb',v:'推动'},{t:'deg',v:'有序'}], url: 'https://www.gov.cn/yaowen/liebiao/202403/content_6939153.htm' },
+        y2025: { text: '印发统计分类试行', kw: [{t:'verb',v:'推动'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html' },
+        y2026: { text: '着力培育支柱产业', kw: [{t:'ding',v:'着力'},{t:'deg',v:'加速'}], url: 'https://www.gov.cn/yaowen/liebiao/202603/content_7062625.htm' },
+        note: '定调升级：推动→着力'
+      },
+      {
+        dept: '工信部', icon: '🏢',
+        y2024: { empty: true },
+        y2025: { empty: true },
+        y2026: { text: '手机直连卫星应用', kw: [{t:'ding',v:'大力'},{t:'deg',v:'进一步'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2025/art_84617e8497d84a3d8b8b3ef847f648d2.html' },
+        note: '2026年首次明确手机直连卫星'
+      }
+    ]
+  },
+  {
+    track: 'emerging',
+    topic: '人工智能产业发展',
+    summary3yr: [{y:'2024',t:'布局'}, {y:'2025',t:'深化'}, {y:'2026',t:'加速'}],
+    note: '布局→深化→加速',
+    children: [
+      {
+        dept: '发改委', icon: '🏛',
+        y2024: { text: '推动AI+产业融合', kw: [{t:'verb',v:'推动'}], url: 'https://www.gov.cn/yaowen/liebiao/202403/content_6939153.htm' },
+        y2025: { text: '国家AI重大工程立项', kw: [{t:'ding',v:'着力'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403416.html' },
+        y2026: { text: '核心产业超1.2万亿', kw: [{t:'deg',v:'加速'}], url: 'http://adimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260822_3162960.shtml' },
+        note: '从推动到加速产业落地'
+      },
+      {
+        dept: '工信部', icon: '🏢',
+        y2024: { text: '鼓励AI创新平台', kw: [{t:'verb',v:'鼓励'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html' },
+        y2025: { text: '产业技术基础平台', kw: [{t:'verb',v:'推动'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html' },
+        y2026: { text: '重点行业渗透率80%', kw: [{t:'ding',v:'大力'},{t:'deg',v:'进一步'}], url: 'http://adimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260822_3162960.shtml' },
+        note: '从平台建设到渗透率突破'
+      }
+    ]
+  },
+  {
+    track: 'emerging',
+    topic: '卫星通信产业发展',
+    summary3yr: [{y:'2024',t:'鼓励'}, {y:'2025',t:'准入优化'}, {y:'2026',t:'大力推动'}],
+    note: '鼓励→大力推动；有序→进一步',
+    children: [
+      {
+        dept: '工信部', icon: '🏢',
+        y2024: { text: '鼓励产业发展', kw: [{t:'verb',v:'鼓励'},{t:'deg',v:'有序'}], url: 'https://wap.miit.gov.cn/jgsj/wgj/wjfb/art/2024/art_1c3a092d3bcd4d41abe69c369ba7bab6.html' },
+        y2025: { text: '优化业务准入促发展', kw: [{t:'deg',v:'进一步'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2025/art_84617e8497d84a3d8b8b3ef847f648d2.html' },
+        y2026: { text: '大力手机直连卫星', kw: [{t:'ding',v:'大力'},{t:'deg',v:'进一步'}], url: 'https://wap.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2025/art_84617e8497d84a3d8b8b3ef847f648d2.html' },
+        note: '从鼓励到大力推动开放'
+      }
+    ]
+  },
+  // ─── 传统支柱产业 ───
+  {
+    track: 'traditional',
+    topic: '"两新"政策（设备更新+以旧换新）',
+    summary3yr: [{y:'2024',t:'鼓励'}, {y:'2025',t:'部署'}, {y:'2026',t:'大力实施'}],
+    note: '鼓励→大力；有序→持续→进一步',
+    children: [
+      {
+        dept: '发改委', icon: '🏛',
+        y2024: { text: '鼓励设备更新', kw: [{t:'verb',v:'鼓励'},{t:'deg',v:'有序'}], url: 'https://www.gov.cn/yaowen/liebiao/202407/content_6963604.htm' },
+        y2025: { text: '印发两新政策通知', kw: [{t:'ding',v:'大力'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251230_1402851.html' },
+        y2026: { text: '大力实施扩大覆盖', kw: [{t:'ding',v:'大力'},{t:'deg',v:'持续'}], url: 'https://www.gov.cn/yaowen/liebiao/202603/content_7062625.htm' },
+        note: '力度递增：鼓励→大力'
+      },
+      {
+        dept: '财政部', icon: '💰',
+        y2024: { text: '安排补贴资金', kw: [{t:'verb',v:'推动'}], url: 'http://m.mof.gov.cn/zcfb/202004/t20200423_3502975.htm' },
+        y2025: { text: '补贴标准发布', kw: [{t:'deg',v:'持续'}], url: 'https://kjs.mof.gov.cn/zhengcefabu/202509/t20250904_3971510.htm' },
+        y2026: { text: '持续扩大补贴范围', kw: [{t:'deg',v:'持续'},{t:'deg',v:'进一步'}], url: 'https://www.gov.cn/yaowen/liebiao/202603/content_7062625.htm' },
+        note: '补贴持续加码扩面'
+      }
+    ]
+  },
+  {
+    track: 'traditional',
+    topic: '节能降碳/绿色转型',
+    summary3yr: [{y:'2024',t:'推动'}, {y:'2025',t:'专项管理'}, {y:'2026',t:'着力加强'}],
+    note: '推动→着力；专项资金加大',
+    children: [
+      {
+        dept: '发改委', icon: '🏛',
+        y2024: { text: '推动节能降碳', kw: [{t:'verb',v:'推动'},{t:'deg',v:'有序'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202510/t20251014_1400943.html' },
+        y2025: { text: '预算内投资专项办法', kw: [{t:'verb',v:'推动'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202510/t20251014_1400943.html' },
+        y2026: { text: '着力加强管理', kw: [{t:'ding',v:'着力'},{t:'deg',v:'持续'}], url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403428.html' },
+        note: '专项资金支持力度加大'
+      }
+    ]
+  },
+  {
+    track: 'traditional',
+    topic: '服务型制造创新发展',
+    summary3yr: [{y:'2024',t:'探索'}, {y:'2025',t:'深入推动'}, {y:'2026',t:'体系化'}],
+    note: '探索→深入推动→体系化布局',
+    children: [
+      {
+        dept: '工信部', icon: '🏢',
+        y2024: { empty: true },
+        y2025: { text: '深入推动实施方案', kw: [{t:'ding',v:'着力'},{t:'deg',v:'持续'}], url: 'https://fjca.miit.gov.cn/xwdt/bsyw/art/2025/art_b213568d30e5402685b01eae3f8c1c52.html' },
+        y2026: { text: '制造业中试体系化', kw: [{t:'deg',v:'进一步'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_69551d935e654671a8816123f1b6ec4f.html' },
+        note: '从单点推进到体系化布局'
+      }
+    ]
+  },
+  // ─── 现代服务业与民生 ───
+  {
+    track: 'service',
+    topic: 'REITs市场发展',
+    summary3yr: [{y:'2024',t:'试点'}, {y:'2025',t:'推广'}, {y:'2026',t:'提质'}],
+    note: '试点→推广→提质；推动→着力→大力',
+    children: [
+      {
+        dept: '证监会', icon: '📋',
+        y2024: { text: '推动基础设施REITs', kw: [{t:'verb',v:'推动'},{t:'deg',v:'有序'}], url: 'http://www.csrc.gov.cn/csrc/c100028/c7605669/content.shtml' },
+        y2025: { text: '推出商业不动产REITs', kw: [{t:'ding',v:'大力'}], url: 'http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml' },
+        y2026: { text: '着力高质量发展', kw: [{t:'ding',v:'着力'},{t:'deg',v:'进一步'}], url: 'http://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml' },
+        note: '试点→推广→提质'
+      },
+      {
+        dept: '上交所', icon: '🏦',
+        y2024: { empty: true },
+        y2025: { text: '发布REITs业务办法', kw: [{t:'verb',v:'推动'}], url: 'https://www.sse.com.cn/lawandrules/sselawsrules2025/reits/c/c_20251231_10803729.shtml' },
+        y2026: { text: '保利发展REITs申报', kw: [{t:'deg',v:'进一步'}], url: 'https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-23/600048_20260623_164H.pdf' },
+        note: '从规则发布到项目落地'
+      }
+    ]
+  },
+  {
+    track: 'service',
+    topic: '资本市场投融资改革',
+    summary3yr: [{y:'2024',t:'注册制'}, {y:'2025',t:'综合改革'}, {y:'2026',t:'深化'}],
+    note: '注册制常态化→综合改革→深化',
+    children: [
+      {
+        dept: '证监会', icon: '📋',
+        y2024: { text: '全面注册制常态化', kw: [{t:'deg',v:'持续'}], url: 'http://www.csrc.gov.cn/csrc/c100028/common_list.shtml' },
+        y2025: { text: '投融资综合改革启动', kw: [{t:'ding',v:'大力'}], url: 'http://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3122358.shtml' },
+        y2026: { text: '深化资本市场改革', kw: [{t:'ding',v:'着力'},{t:'deg',v:'进一步'}], url: 'http://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3122358.shtml' },
+        note: '从注册制到投融资综合改革'
+      },
+      {
+        dept: '深交所', icon: '🏦',
+        y2024: { empty: true },
+        y2025: { text: '再融资制度修订稿', kw: [{t:'deg',v:'进一步'}], url: 'http://www.szse.cn/aboutus/trends/news/t20260703_621509.html' },
+        y2026: { text: '轻资产高研发指引', kw: [{t:'deg',v:'进一步'}], url: 'http://www.szse.cn/lawrules/rule/allrules/bussiness/t20260327_619718.html' },
+        note: '服务科技创新制度细化'
+      }
+    ]
+  },
+  {
+    track: 'service',
+    topic: '制造业中试平台体系',
+    summary3yr: [{y:'2024',t:'布局'}, {y:'2025',t:'加快'}, {y:'2026',t:'高水平'}],
+    note: '布局→加快→高水平建设',
+    children: [
+      {
+        dept: '工信部', icon: '🏢',
+        y2024: { empty: true },
+        y2025: { text: '加快中试平台布局', kw: [{t:'deg',v:'进一步'}], url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_69551d935e654671a8816123f1b6ec4f.html' },
+        y2026: { empty: true },
+        note: '2025年首次体系化部署'
+      }
+    ]
+  }
+];
+
+let currentCompareFilter = 'all';
+
+function renderCompareFilter() {
+  const chipsEl = document.getElementById('cmpFilterChips');
+  if (!chipsEl) return;
+  let html = '<span class="cmp-chip active" data-track="all">全部</span>';
+  compareCategories.forEach(cat => {
+    html += `<div class="cmp-chip-cat">${cat.icon} ${cat.label}</div>`;
+    const tracks = compareData.filter(d => d.track === cat.key);
+    tracks.forEach((item, idx) => {
+      html += `<span class="cmp-chip" data-track="${cat.key}" data-idx="${compareData.indexOf(item)}">${item.topic}</span>`;
+    });
+  });
+  chipsEl.innerHTML = html;
+
+  // 绑定点击事件
+  chipsEl.querySelectorAll('.cmp-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      chipsEl.querySelectorAll('.cmp-chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      const track = chip.dataset.track;
+      const idx = chip.dataset.idx;
+      if (track === 'all') {
+        currentCompareFilter = 'all';
+      } else if (idx) {
+        currentCompareFilter = parseInt(idx);
+      } else {
+        currentCompareFilter = track; // 按赛道筛选
+      }
+      renderCompareTable();
+    });
+  });
+}
+
+function renderCompareTable() {
+  const tableEl = document.getElementById('cmpTable');
+  if (!tableEl) return;
+
+  let items = [];
+  if (currentCompareFilter === 'all') {
+    items = compareData;
+  } else if (typeof currentCompareFilter === 'number') {
+    items = [compareData[currentCompareFilter]];
+  } else {
+    items = compareData.filter(d => d.track === currentCompareFilter);
+  }
+
+  let html = `
+    <div class="cmp-hd-row">
+      <div>产业主题 / 部门</div>
+      <div>2024年 <span style="font-weight:400;color:var(--text-muted)">(附原文)</span></div>
+      <div>2025年 <span style="font-weight:400;color:var(--text-muted)">(附原文)</span></div>
+      <div>2026年 <span style="font-weight:400;color:var(--text-muted)">(附原文)</span></div>
+      <div>差异说明</div>
+    </div>
+  `;
+
+  items.forEach(item => {
+    const trackClass = 'cmp-track-' + item.track;
+    // 三年定性总览 badge
+    const badges = item.summary3yr.map(b => `<span class="cmp-badge-3yr"><b>${b.y}</b> ${b.t}</span>`).join('<span class="arr">→</span>');
+    // 父行
+    html += `
+      <div class="cmp-parent ${trackClass}">
+        <div class="cmp-parent-topic">${item.topic}</div>
+        <div class="cmp-parent-summary">${badges}</div>
+        <div class="cmp-parent-note">${item.note}</div>
+      </div>
+    `;
+    // 子行
+    item.children.forEach(ch => {
+      const renderYr = (yr) => {
+        if (!yr || yr.empty) {
+          return '<div class="cmp-child-yr"><div class="cmp-yr-empty">—</div></div>';
+        }
+        const kwHtml = (yr.kw || []).map(k => `<span class="kw-tag kw-${k.t}">${k.v}</span>`).join('');
+        const linkHtml = yr.url ? `<a href="${yr.url}" target="_blank" class="cmp-yr-link">↗ 原文</a>` : '';
+        return `<div class="cmp-child-yr"><div class="cmp-yr-text">${kwHtml}${yr.text}</div>${linkHtml}</div>`;
+      };
+      html += `
+        <div class="cmp-child ${trackClass}">
+          <div class="cmp-child-dept"><span class="dept-icon">${ch.icon || '📄'}</span>${ch.dept}</div>
+          ${renderYr(ch.y2024)}
+          ${renderYr(ch.y2025)}
+          ${renderYr(ch.y2026)}
+          <div class="cmp-child-note">${ch.note || '—'}</div>
+        </div>
+      `;
+    });
+  });
+
+  tableEl.innerHTML = html;
+}
+
+// ============================================================
 // Chart management: render charts only when visible
 // ============================================================
 const chartRenderers = {
   macro: () => { renderMacroChart(); },
   gov: () => { renderAnnualTimeline(); },
   source: () => {},
-  compare: () => {},
+  compare: () => { renderCompareFilter(); renderCompareTable(); },
   monthly: () => { renderMonthlyDocs(currentMonthlyPeriod); },
   csrc: () => {},
   flow: () => {}  // 资金流向页已改为纯列表形式，无需渲染图表

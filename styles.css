@@ -124,6 +124,117 @@ a:hover{color:inherit}
 .cmp-cell{padding:0 6px;line-height:1.6}
 .cmp-cell.topic{font-weight:600;color:var(--accent-amber)}
 .cmp-cell.note{font-size:11px;color:var(--accent-amber);font-family:var(--font-mono)}
+
+/* ============ 历年政策对比：产业赛道筛选条 + 父子行表格 ============ */
+.cmp-filter-bar{margin-bottom:14px;padding:12px 14px;background:var(--bg-card);border:1px solid var(--border-primary);border-radius:6px}
+.cmp-filter-title{font-size:12px;color:var(--accent-amber);font-family:var(--font-mono);font-weight:600;margin-bottom:8px;letter-spacing:.5px}
+.cmp-filter-chips{display:flex;flex-wrap:wrap;gap:6px}
+.cmp-chip{
+  font-size:11px;padding:4px 12px;border-radius:12px;
+  font-family:var(--font-mono);cursor:pointer;
+  background:var(--bg-panel);border:1px solid var(--border-primary);
+  color:var(--text-secondary);transition:all .2s;user-select:none;
+}
+.cmp-chip:hover{border-color:rgba(224,160,48,.4);color:var(--text-primary)}
+.cmp-chip.active{
+  background:linear-gradient(135deg,rgba(224,160,48,.18),rgba(255,183,77,.1));
+  border-color:var(--accent-amber);color:var(--accent-amber);font-weight:600;
+  box-shadow:0 0 8px rgba(224,160,48,.12);
+}
+.cmp-chip-cat{
+  font-size:9.5px;color:var(--text-muted);
+  font-family:var(--font-mono);margin:6px 0 2px;
+  letter-spacing:.5px;text-transform:uppercase;
+}
+/* 新表格：父子行结构 */
+.cmp-table#cmpTable{
+  border:1px solid var(--border-primary);
+  border-radius:8px;
+  overflow:hidden;
+  background:var(--bg-panel);
+}
+.cmp-hd-row{
+  display:grid;grid-template-columns:1.3fr 1.6fr 1.6fr 1.6fr 1.1fr;
+  padding:10px 12px;background:var(--bg-secondary);
+  border-bottom:2px solid var(--accent-amber);
+  font-size:11px;color:var(--accent-amber);
+  font-family:var(--font-mono);font-weight:600;letter-spacing:.5px;
+}
+.cmp-hd-row > div{text-align:center}
+.cmp-hd-row > div:first-child{text-align:left}
+/* 父行：大主题 + 三年定性总览 */
+.cmp-parent{
+  display:grid;grid-template-columns:1.3fr 1.6fr 1.6fr 1.6fr 1.1fr;
+  padding:10px 12px;
+  background:linear-gradient(90deg,rgba(224,160,48,.08),transparent);
+  border-bottom:1px solid var(--border-primary);
+  border-left:3px solid var(--accent-amber);
+  align-items:center;
+}
+.cmp-parent-topic{font-size:13px;font-weight:700;color:var(--accent-amber)}
+.cmp-parent-summary{
+  grid-column:2 / span 3;
+  display:flex;gap:8px;flex-wrap:wrap;align-items:center;
+}
+.cmp-badge-3yr{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:10.5px;font-family:var(--font-mono);
+  padding:3px 8px;border-radius:4px;
+  background:var(--bg-card);border:1px solid var(--border-primary);
+  color:var(--text-secondary);
+}
+.cmp-badge-3yr b{color:var(--accent-amber);font-weight:700}
+.cmp-badge-3yr .arr{color:var(--text-muted);font-size:10px}
+.cmp-parent-note{
+  font-size:10.5px;color:var(--accent-amber);
+  font-family:var(--font-mono);text-align:right;
+}
+/* 子行：部门 × 年份 */
+.cmp-child{
+  display:grid;grid-template-columns:1.3fr 1.6fr 1.6fr 1.6fr 1.1fr;
+  border-bottom:1px solid var(--border-primary);
+  transition:background .15s;
+}
+.cmp-child:last-child{border-bottom:none}
+.cmp-child:hover{background:rgba(224,160,48,.03)}
+.cmp-child > div{padding:8px 12px;font-size:11.5px;line-height:1.55}
+.cmp-child-dept{
+  font-weight:600;color:var(--text-primary);
+  border-right:1px dashed var(--border-primary);
+  display:flex;align-items:center;gap:6px;
+}
+.cmp-child-dept .dept-icon{font-size:12px}
+.cmp-child-yr{
+  display:flex;flex-direction:column;gap:3px;
+  border-right:1px dashed var(--border-primary);
+}
+.cmp-child-yr:last-of-type{border-right:none}
+.cmp-yr-text{color:var(--text-secondary)}
+.cmp-yr-text .kw-tag{font-size:9px;padding:1px 4px;margin-right:2px}
+.cmp-yr-link{
+  font-size:10px;color:var(--accent-amber);
+  font-family:var(--font-mono);text-decoration:none;
+  padding:1px 5px;border-radius:2px;
+  background:rgba(224,160,48,.06);
+  display:inline-block;max-width:100%;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.cmp-yr-link:hover{background:rgba(224,160,48,.15);text-decoration:underline}
+.cmp-yr-empty{
+  color:var(--text-muted);font-family:var(--font-mono);
+  background:repeating-linear-gradient(45deg,transparent,transparent 4px,rgba(128,128,128,.04) 4px,rgba(128,128,128,.04) 8px);
+  text-align:center;font-size:14px;font-weight:700;
+}
+.cmp-child-note{
+  font-size:10.5px;color:var(--accent-amber);
+  font-family:var(--font-mono);
+  display:flex;align-items:center;
+}
+/* 颜色分组：产业赛道 */
+.cmp-track-emerging{border-left:3px solid var(--accent-teal)}
+.cmp-track-traditional{border-left:3px solid var(--accent-sand)}
+.cmp-track-service{border-left:3px solid var(--accent-green)}
+.cmp-source-hint{margin-top:14px;padding:12px 14px;background:var(--bg-card);border:1px solid var(--border-primary);border-radius:6px}
 .kw-tag{display:inline-block;font-size:9.5px;padding:1px 5px;border-radius:3px;margin-right:2px}
 .kw-ding{background:rgba(239,83,80,.2);color:var(--accent-red)}
 .kw-verb{background:rgba(76,175,80,.2);color:var(--accent-green)}
