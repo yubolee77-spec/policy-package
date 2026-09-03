@@ -182,32 +182,18 @@ a:hover{color:inherit}
 }
 .cmp-hd-row > div{text-align:center}
 .cmp-hd-row > div:first-child{text-align:left}
-/* 父行：大主题 + 三年定性总览 */
+/* 父行：仅主题一列（不写近三年表述变化） */
 .cmp-parent{
-  display:grid;grid-template-columns:1.3fr 1.6fr 1.6fr 1.6fr 1.1fr;
-  padding:10px 12px;
-  background:linear-gradient(90deg,rgba(224,160,48,.08),transparent);
+  display:block;
+  padding:12px 14px;
+  background:linear-gradient(90deg,rgba(224,160,48,.1),transparent);
   border-bottom:1px solid var(--border-primary);
   border-left:3px solid var(--accent-amber);
-  align-items:center;
 }
-.cmp-parent-topic{font-size:13px;font-weight:700;color:var(--accent-amber)}
-.cmp-parent-summary{
-  grid-column:2 / span 3;
-  display:flex;gap:8px;flex-wrap:wrap;align-items:center;
-}
-.cmp-badge-3yr{
-  display:inline-flex;align-items:center;gap:4px;
-  font-size:10.5px;font-family:var(--font-mono);
-  padding:3px 8px;border-radius:4px;
-  background:var(--bg-card);border:1px solid var(--border-primary);
-  color:var(--text-secondary);
-}
-.cmp-badge-3yr b{color:var(--accent-amber);font-weight:700}
-.cmp-badge-3yr .arr{color:var(--text-muted);font-size:10px}
-.cmp-parent-note{
-  font-size:10.5px;color:var(--accent-amber);
-  font-family:var(--font-mono);text-align:right;
+.cmp-parent-topic{
+  font-size:13.5px;font-weight:700;color:var(--accent-amber);
+  display:flex;align-items:center;gap:8px;
+  justify-content:flex-start;
 }
 /* 子行：部门 × 年份 */
 .cmp-child{
@@ -217,19 +203,22 @@ a:hover{color:inherit}
 }
 .cmp-child:last-child{border-bottom:none}
 .cmp-child:hover{background:rgba(224,160,48,.03)}
-.cmp-child > div{padding:8px 12px;font-size:11.5px;line-height:1.55}
+.cmp-child > div{padding:10px 12px;font-size:11.5px;line-height:1.55}
 .cmp-child-dept{
   font-weight:600;color:var(--text-primary);
   border-right:1px dashed var(--border-primary);
   display:flex;align-items:center;gap:6px;
+  justify-content:flex-start;
 }
 .cmp-child-dept .dept-icon{font-size:12px}
 .cmp-child-yr{
   display:flex;flex-direction:column;gap:3px;
   border-right:1px dashed var(--border-primary);
+  justify-content:center;align-items:center;
+  text-align:center;
 }
 .cmp-child-yr:last-of-type{border-right:none}
-.cmp-yr-text{color:var(--text-secondary)}
+.cmp-yr-text{color:var(--text-secondary);text-align:center}
 .cmp-yr-text .kw-tag{font-size:9px;padding:1px 4px;margin-right:2px}
 .cmp-yr-link{
   font-size:10px;color:var(--accent-amber);
@@ -248,7 +237,8 @@ a:hover{color:inherit}
 .cmp-child-note{
   font-size:10.5px;color:var(--accent-amber);
   font-family:var(--font-mono);
-  display:flex;align-items:center;
+  display:flex;align-items:center;justify-content:center;text-align:center;
+  border-left:1px dashed var(--border-primary);
 }
 /* 颜色分组：产业赛道 */
 .cmp-track-emerging{border-left:3px solid var(--accent-teal)}
