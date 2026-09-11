@@ -50,18 +50,33 @@ def safe_fetch(url, timeout=15):
         return None
 
 
-def clean_link(link, base_domain):
-    """构造完整 URL，去掉 link 前缀的 ./ ../ 避免出现 .gov.cn./ 错误。"""
+def clean_link(link, base_url):
+    """构造完整 URL。
+
+    base_url 可以是域名 (https://www.gov.cn) 或页面路径 (https://www.ndrc.gov.cn/xwdt/xwfb)。
+    对于 ./xxx 相对路径，拼接到 base_url 对应的目录。
+    对于 /xxx 绝对路径，拼接到域名根。
+    """
     if not link:
         return ""
-    # 去掉前缀的 ./ 或 ../
-    link = re.sub(r'^(\./)+', '', link)
-    link = re.sub(r'^(\.\./)+', '', link)
+    # 已是完整 URL
     if link.startswith("http"):
         return link
+    # 提取域名
+    from urllib.parse import urlparse
+    parsed = urlparse(base_url if base_url.startswith("http") else "https://" + base_url)
+    domain = f"{parsed.scheme}://{parsed.netloc}"
+    # 提取页面路径目录
+    page_path = parsed.path.rstrip("/")
+    # 绝对路径：拼到域名根
     if link.startswith("/"):
-        return base_domain + link
-    return base_domain + "/" + link
+        return domain + link
+    # 相对路径 ./xxx 或 xxx：去掉 ./ 前缀，拼到页面目录
+    link = re.sub(r'^(\./)+', '', link)
+    link = re.sub(r'^(\.\./)+', '', link)
+    if page_path:
+        return f"{domain}/{page_path}/{link}"
+    return f"{domain}/{link}"
 
 
 def is_junk(title, url):
@@ -128,7 +143,7 @@ def fetch_ndrc_news():
         title = m.group(2).strip()
         if is_junk(title, link):
             continue
-        full_url = clean_link(link, "https://www.ndrc.gov.cn")
+        full_url = clean_link(link, url)
         items.append({
             "title": title,
             "desc": "发改委最新动态",
@@ -246,7 +261,7 @@ def fetch_stats_gov_data():
         title = m.group(2).strip()
         if is_junk(title, link):
             continue
-        full_url = clean_link(link, "https://www.stats.gov.cn")
+        full_url = clean_link(link, url)
         items.append({
             "title": title,
             "desc": "国家统计局最新数据发布",
