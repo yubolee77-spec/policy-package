@@ -440,28 +440,55 @@ function renderAnnualTimeline() {
   });
 }
 
-// 兼容保留：旧的 timelineData 列表（供 data/latest.json 自动更新时内部复用）渲染
+// 渲染最新动态列表（data/latest.json 驱动）
 function renderTimeline() {
   const list = document.getElementById('timelineList');
-  if (list) {
-    list.innerHTML = '';
-    timelineData.forEach(group => {
-      group.items.forEach((item, idx) => {
-        const tlItem = document.createElement('div');
-        tlItem.className = 'tl-item';
-        tlItem.innerHTML = `
-          <div class="tl-month">${idx === 0 ? group.month : ''}</div>
-          <div class="tl-body">
-            <div class="tl-title">${item.title}</div>
-            <div class="tl-desc">${item.desc}</div>
-            <div class="tl-docs">
-              <a href="${item.url}" target="_blank" class="tl-doc">📄 原文件: ${item.url}</a>
-            </div>
-          </div>
-        `;
-        list.appendChild(tlItem);
-      });
+  if (!list || !latestRawData || !latestRawData.timeline) return;
+
+  // 按来源分组
+  var groups = {};
+  latestRawData.timeline.forEach(function(item) {
+    var src = item.desc || '其他';
+    if (!groups[src]) groups[src] = [];
+    groups[src].push(item);
+  });
+
+  // 来源图标映射
+  var srcIcons = {
+    '国务院最新政策文件': '🏛',
+    '发改委最新动态': '📊',
+    '央行最新动态': '🏦',
+    '证监会最新动态': '📋',
+    '工信部最新动态': '🏭',
+    '国家统计局最新数据发布': '📈'
+  };
+
+  var html = '';
+  Object.keys(groups).forEach(function(src) {
+    var icon = srcIcons[src] || '📄';
+    var items = groups[src];
+    html += '<div class="lf-group">';
+    html += '<div class="lf-group-hd">' + icon + ' ' + src + ' <span class="lf-count">' + items.length + ' 条</span></div>';
+    html += '<div class="lf-group-items">';
+    items.forEach(function(item) {
+      // 提取域名简写
+      var domain = '';
+      try { domain = new URL(item.url).hostname.replace('www.',''); } catch(e) {}
+      html += '<a href="' + item.url + '" target="_blank" class="lf-card">';
+      html += '<div class="lf-card-title">' + item.title + '</div>';
+      html += '<div class="lf-card-src">' + domain + ' ↗</div>';
+      html += '</a>';
     });
+    html += '</div>';
+    html += '</div>';
+  });
+
+  list.innerHTML = html;
+
+  // 更新日期标签
+  var dateEl = document.getElementById('lfDate');
+  if (dateEl && latestRawData.lastUpdated) {
+    dateEl.textContent = '更新于 ' + latestRawData.lastUpdated;
   }
 }
 
@@ -989,6 +1016,8 @@ window.addEventListener('resize', () => {
 // ============================================================
 // Auto-update: fetch latest data from data/latest.json
 // ============================================================
+var latestRawData = null; // 全局：latest.json 原始数据
+
 function loadLatestData() {
   return fetch('data/latest.json')
     .then(function(r) { return r.ok ? r.json() : null; })
@@ -997,18 +1026,8 @@ function loadLatestData() {
 
 function applyLatestData(data) {
   if (!data) return;
-  // Prepend new timeline entries (skip duplicates)
-  if (data.timeline && data.timeline.length > 0) {
-    var existing = new Set();
-    timelineData.forEach(function(g) { g.items.forEach(function(i) { existing.add(i.title); }); });
-    var fresh = data.timeline.filter(function(item) { return !existing.has(item.title); });
-    if (fresh.length > 0) {
-      timelineData.unshift({
-        month: data.monthLabel || '',
-        items: fresh
-      });
-    }
-  }
+  // 保存原始数据供 renderTimeline 使用
+  latestRawData = data;
   // Update header "last updated" text
   if (data.lastUpdated) {
     var el = document.querySelector('.header-right .status-item:nth-child(2)');
