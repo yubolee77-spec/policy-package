@@ -282,7 +282,7 @@ const annualTimelineNodes = [
       { text: '<b>五年规划中期评估：</b>逢偶数年（如 2026 年为"十五五"开局后第一年评估）会发布规划中期评估报告，可能调整部分指标或重点任务。', keywords: [{t:'deg',v:'进一步'}] }
     ],
     docs: [
-      { label: '人民日报·二十届三中全会专题（参考框架）', url: 'http://paper.people.com.cn/rmrb/html/' },
+      { label: '人民日报·二十届三中全会专题（参考框架）', url: 'https://data.people.com.cn/rmrb/' },
       { label: '求是网·全会精神解读专栏', url: 'http://www.qstheory.cn/' },
       { label: '国家规划纲要数据库', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/' }
     ]
