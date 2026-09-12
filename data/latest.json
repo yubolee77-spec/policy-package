@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11",
+  "lastUpdated": "2026-09-12",
   "monthLabel": "2026年9月",
   "timeline": [
     {
@@ -43,6 +43,11 @@
       "url": "https://www.gov.cn/zhengce/zhengceku/202608/content_7077399.htm"
     },
     {
+      "title": "工业和信息化部等九部门关于印发《智能网联新能源汽车产业发展“十五五”规划》的通知",
+      "desc": "工信部最新动态",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7080845.htm"
+    },
+    {
       "title": "工业和信息化部关于印发《“人工智能+软件”专项行动实施方案》的通知",
       "desc": "工信部最新动态",
       "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7080773.htm"
@@ -78,9 +83,59 @@
       "url": "https://www.gov.cn/zhengce/zhengceku/202607/content_7075333.htm"
     },
     {
-      "title": "工业和信息化部等八部门印发《关于推动工业互联网高质量发展的实施意见》的通知",
-      "desc": "工信部最新动态",
-      "url": "https://www.gov.cn/zhengce/zhengceku/202607/content_7073906.htm"
+      "title": "中国人民银行副行长宣昌能会见标普全球总裁玛蒂娜",
+      "desc": "央行最新动态",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091115515046822/index.html"
+    },
+    {
+      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍金融领域贯彻落实“十五五”规划、推动金融强国建...",
+      "desc": "央行最新动态",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091018550019961/index.html"
+    },
+    {
+      "title": "中国人民银行副行长宣昌能会见新加坡金融管理局副行长梁新松",
+      "desc": "央行最新动态",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091018582672927/index.html"
+    },
+    {
+      "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
+      "desc": "央行最新动态",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091016204145905/index.html"
+    },
+    {
+      "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
+      "desc": "央行最新动态",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090909080511735/index.html"
+    },
+    {
+      "title": "中国人民银行召开树立和践行正确政绩观学习教育总结会议",
+      "desc": "央行最新动态",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090414583025333/index.html"
+    },
+    {
+      "title": "2026年2季度末金融业机构总资产562.2万亿元",
+      "desc": "央行最新动态",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090314250952275/index.html"
+    },
+    {
+      "title": "中国人民银行行长潘功胜会见国际金融机构负责人和相关国家财长及央行行长",
+      "desc": "央行最新动态",
+      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090214474837364/index.html"
+    },
+    {
+      "title": "2026年8月份居民消费价格同比上涨0.8%",
+      "desc": "国家统计局最新数据发布",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965263.html"
+    },
+    {
+      "title": "2026年8月份工业生产者出厂价格同比上涨3.8% 环比上涨0.4%",
+      "desc": "国家统计局最新数据发布",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965262.html"
+    },
+    {
+      "title": "2026年8月下旬流通领域重要生产资料市场价格变动情况",
+      "desc": "国家统计局最新数据发布",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260903_1965182.html"
     },
     {
       "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
@@ -161,61 +216,6 @@
       "title": "国家发展改革委召开“六张网”重大项目协调推进机制会 研究完善政银企协作机制和项目库建设",
       "desc": "发改委最新动态",
       "url": "https://www.ndrc.gov.cn/xwdt/xwfb/202609/t20260903_1407399.html"
-    },
-    {
-      "title": "2026年8月份居民消费价格同比上涨0.8%",
-      "desc": "国家统计局最新数据发布",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965263.html"
-    },
-    {
-      "title": "2026年8月份工业生产者出厂价格同比上涨3.8% 环比上涨0.4%",
-      "desc": "国家统计局最新数据发布",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260909_1965262.html"
-    },
-    {
-      "title": "2026年8月下旬流通领域重要生产资料市场价格变动情况",
-      "desc": "国家统计局最新数据发布",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260903_1965182.html"
-    },
-    {
-      "title": "中国人民银行副行长宣昌能会见标普全球总裁玛蒂娜",
-      "desc": "央行最新动态",
-      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091115515046822/index.html"
-    },
-    {
-      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍金融领域贯彻落实“十五五”规划、推动金融强国建...",
-      "desc": "央行最新动态",
-      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091018550019961/index.html"
-    },
-    {
-      "title": "中国人民银行副行长宣昌能会见新加坡金融管理局副行长梁新松",
-      "desc": "央行最新动态",
-      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091018582672927/index.html"
-    },
-    {
-      "title": "中国人民银行副行长陶玲出席金砖国家财长和央行行长会议",
-      "desc": "央行最新动态",
-      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091016204145905/index.html"
-    },
-    {
-      "title": "中国人民银行副行长宣昌能出席国际清算银行行长例会",
-      "desc": "央行最新动态",
-      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090909080511735/index.html"
-    },
-    {
-      "title": "中国人民银行召开树立和践行正确政绩观学习教育总结会议",
-      "desc": "央行最新动态",
-      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090414583025333/index.html"
-    },
-    {
-      "title": "2026年2季度末金融业机构总资产562.2万亿元",
-      "desc": "央行最新动态",
-      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090314250952275/index.html"
-    },
-    {
-      "title": "中国人民银行行长潘功胜会见国际金融机构负责人和相关国家财长及央行行长",
-      "desc": "央行最新动态",
-      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026090214474837364/index.html"
     }
   ]
 }
