@@ -21,7 +21,7 @@
   </div>
   <div class="header-right">
     <div class="status-item"><span class="status-dot"></span>数据同步中</div>
-    <div class="status-item"><span class="status-dot amber"></span>更新:2026-01-19</div>
+    <div class="status-item"><span class="status-dot amber"></span>数据更新:<span id="headerUpdatedDate">--</span></div>
     <div class="clock" id="clockDisplay">--:--:--</div>
   </div>
 </div>
@@ -57,16 +57,32 @@
 <!-- ============================================================ -->
 <div class="panel" id="p-gov">
   <div class="sec-hd">
-    <div class="sec-title"><span class="badge">L1</span>官网与会议 <span class="sec-sub">国务院 · 各部委 · 各地方政府 核心官网入口（点击标题下拉展开）</span></div>
+    <div class="sec-title"><span class="badge">L1</span>官网与会议 <span class="sec-sub">政策速览（全来源 · 可按 日/周/月/年 切换） + 国务院/部委/地方官网入口</span></div>
   </div>
 
-  <!-- 最新动态：自动抓取的当日政策新闻（data/latest.json 驱动） -->
+  <!-- 政策速览：全来源按日期倒序一行一条，可按 日/周/月/年 过滤；深度精读见 L4「本月文件」 -->
   <div class="latest-feed">
     <div class="lf-header">
-      <span class="lf-title">📡 最新政策动态</span>
-      <span class="lf-sub" id="lfDate"></span>
+      <div class="lf-head-l">
+        <span class="lf-title">📡 政策速览</span>
+        <span class="lf-period-note" id="lfPeriodNote"></span>
+      </div>
+      <div class="tier-switcher" id="lfSwitcher">
+        <button class="tier-btn active" data-fperiod="day">日</button>
+        <button class="tier-btn" data-fperiod="week">周</button>
+        <button class="tier-btn" data-fperiod="month">月</button>
+        <button class="tier-btn" data-fperiod="year">年</button>
+      </div>
     </div>
-    <div id="timelineList" class="lf-list"></div>
+    <div class="lf-hint">
+      本栏是<b>全来源速览</b>：国务院 / 发改委 / 工信部 / 央行 / 证监会 / 统计局 / 交易所合并，按发布日期倒序，一行一条，点标题直达原文。<br>
+      与 <b>L4 本月文件</b> 的分工：L4 只收「人民日报 · 求是网 · 经济日报 评论员文章 ＋ 发改委/工信部」，并给出摘要 / 定调关键词 / 关键语句的<b>精读</b>；本栏只回答「这个周期有没有新东西」。带 <span class="lf-l4-tag">L4精读</span> 标记的条目，在 L4 里有深度解读。
+    </div>
+    <div class="lf-meta">
+      <span id="lfDate"></span>
+      <span id="lfCount"></span>
+    </div>
+    <div id="timelineList" class="lf-list lf-list--scroll"></div>
   </div>
 
   <div class="gov-grid">
@@ -376,7 +392,7 @@
 <!-- ============================================================ -->
 <div class="panel" id="p-monthly">
   <div class="sec-hd">
-    <div class="sec-title"><span class="badge">L4</span>本月文件 <span class="sec-sub">按年/月/周/日展示 · 含化名识别</span></div>
+    <div class="sec-title"><span class="badge">L4</span>本月文件 <span class="sec-sub">人民日报 · 求是网 · 经济日报 头版评论员文章 ＋ 发改委/工信部产业政策 · 每天自动抓取、按年/月/周/日累积</span></div>
     <div class="tier-switcher">
       <button class="tier-btn active" data-mperiod="day">日</button>
       <button class="tier-btn" data-mperiod="week">周</button>
@@ -385,17 +401,42 @@
     </div>
   </div>
 
-  <!-- 化名识别参考：钟才平=中央财经委、任仲平=人民日报重要评论、金轩=发改委经济宣传、金观平=经济日报观点评论、钟才文=中央财经委文章、钟经文=经济日报重要文章 -->
+  <!-- ① 重点提炼方法（左上角常驻图例） -->
+  <div class="l4-method">
+    <div class="l4-method-row">
+      <span class="l4-method-k">① 从上往下看</span>
+      <span class="tier-tag tier-central">中央</span>定方向
+      <span class="l4-arrow">→</span>
+      <span class="tier-tag tier-dept">部委</span>细化路径
+      <span class="l4-arrow">→</span>
+      <span class="tier-tag tier-local">地方</span>落实执行
+      <span class="l4-method-note">从「中央纲领」到「家门口产业园」的转化链</span>
+    </div>
+    <div class="l4-method-row">
+      <span class="l4-method-k">② 圈三类词</span>
+      <span class="kw-tag kw-ding">定调</span>着力 / 大力 / 坚决<span class="l4-method-note">力度递增</span>
+      <span class="kw-tag kw-deg">程度</span>有序 / 持续 / 进一步<span class="l4-method-note">推进节奏</span>
+      <span class="kw-tag kw-verb">动词·扶持</span>推动 / 鼓励 / 培育
+      <span class="kw-tag kw-restrict">动词·限制</span>严控 / 严禁 / 压减
+    </div>
+    <div class="l4-method-row">
+      <span class="l4-method-k">③ 认署名</span>
+      <span class="byline-chip">★ 任仲平</span><span class="byline-chip">★ 钟才文</span><span class="byline-chip">★ 钟才平</span><span class="byline-chip">★ 金轩</span><span class="byline-chip">★ 金观平</span><span class="byline-chip">★ 钟经文</span>
+      <span class="l4-method-note">化名文章 = 党媒重要评论，政策信号最强，下方已自动高亮</span>
+    </div>
+  </div>
 
   <!-- 头版评论员文章 -->
   <div class="doc-section">
-    <div class="doc-section-title">▸ 人民日报 · 求是网 · 经济日报 头版评论员文章</div>
+    <div class="doc-section-title">▸ 人民日报 · 求是网 · 经济日报 头版评论员文章
+      <span class="doc-count" id="monthlyCountCommentary"></span></div>
     <div class="doc-list" id="monthlyDocListCommentary"></div>
   </div>
 
   <!-- 部委产业政策文件 -->
   <div class="doc-section">
-    <div class="doc-section-title">▸ 发改委 & 工信部 产业政策文件</div>
+    <div class="doc-section-title">▸ 发改委 &amp; 工信部 产业政策文件
+      <span class="doc-count" id="monthlyCountPolicy"></span></div>
     <div class="doc-list" id="monthlyDocListPolicy"></div>
   </div>
 </div>
@@ -408,9 +449,18 @@
     <div class="sec-title"><span class="badge">L5</span>证监会动态 <span class="sec-sub">监管处罚 · 发行审核 · 官方解读 · 三笔钱跟踪（每条均附原文）</span></div>
   </div>
 
+  <!-- 实时抓取：证监会/央行/交易所最新条目（data/latest.json 驱动，每日自动更新） -->
+  <div class="latest-feed" id="csrcLiveFeed" style="display:none">
+    <div class="lf-header">
+      <span class="lf-title">📡 实时监管动态（每日自动更新）</span>
+      <span class="lf-sub" id="csrcLiveDate"></span>
+    </div>
+    <div id="csrcLiveList" class="lf-list"></div>
+  </div>
+
   <!-- 第一部分：证监会/交易所动态 -->
   <div style="margin-bottom:18px">
-    <div class="doc-section-title" style="font-size:14px;color:var(--accent-cyan);font-weight:600;margin-bottom:12px;padding-bottom:6px;border-bottom:1px solid var(--border-primary)">▸ 证监会 & 交易所动态（点击标题跳转原文）</div>
+    <div class="doc-section-title" style="font-size:14px;color:var(--accent-cyan);font-weight:600;margin-bottom:12px;padding-bottom:6px;border-bottom:1px solid var(--border-primary)">▸ 重点政策与案例（人工整理，长期有效）</div>
     <div class="csrc-grid">
       <!-- 证监会 -->
       <div class="csrc-card">

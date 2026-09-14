@@ -440,106 +440,171 @@ function renderAnnualTimeline() {
   });
 }
 
-// 渲染最新动态列表（data/latest.json 驱动）
+// 来源图标与简称（与后端 scripts/update_data.py 的 SRC_* 常量一一对应）
+var SRC_ICONS = {
+  '国务院最新政策文件': '🏛',
+  '发改委最新政策文件': '📊',
+  '央行最新动态': '🏦',
+  '证监会最新动态': '📋',
+  '工信部最新政策文件': '🏭',
+  '国家统计局最新数据发布': '📈',
+  '交易所最新公告': '🏢'
+};
+var SRC_SHORT = {
+  '国务院最新政策文件': '国务院',
+  '发改委最新政策文件': '发改委',
+  '央行最新动态': '央行',
+  '证监会最新动态': '证监会',
+  '工信部最新政策文件': '工信部',
+  '国家统计局最新数据发布': '国家统计局',
+  '交易所最新公告': '交易所'
+};
+
+// 每个来源默认展开显示多少条（其余折叠，避免国务院 90+ 条铺满页面）
+var FEED_GROUP_SHOW = 12;
+// 默认展开几个来源分组（按最新日期排序，只展开最靠前的几组）
+var FEED_GROUP_OPEN = 2;
+
+// 渲染单条政策：结构对齐 L4「本月文件」，含摘要 / 关键词 / 关键语句 / 原文链接
+function renderFeedItem(item, srcLabel) {
+  var kwHtml = (item.keywords || []).map(function(k) {
+    return '<span class="kw-tag kw-' + k.type + '">' + escapeHtml(k.text) + '</span>';
+  }).join('');
+  var isNew = item.date && isWithinDays(item.date, 3);
+
+  var h = '<div class="doc-item">';
+  h += '<div class="doc-meta">';
+  h += '<div class="doc-date">' + (item.date ? item.date.slice(5) : '—') + '</div>';
+  h += '<div class="doc-source">' + escapeHtml(srcLabel || '') + '</div>';
+  h += '</div>';
+  h += '<div class="doc-body">';
+  h += '<div class="doc-title">' +
+       (isNew ? '<span class="lf-new-dot" title="近3天发布"></span>' : '') +
+       escapeHtml(item.title) + '</div>';
+  if (item.summary) {
+    h += '<div class="doc-summary">' + escapeHtml(item.summary) + '</div>';
+  }
+  if (item.keySentence) {
+    h += '<div class="doc-keysent"><span class="doc-keysent-tag">关键语句</span>' +
+         escapeHtml(item.keySentence) + '</div>';
+  }
+  h += '<div class="doc-keywords">' + kwHtml +
+       '<a href="' + item.url + '" target="_blank" rel="noopener" class="doc-link">阅读原文 ↗</a>' +
+       '</div>';
+  h += '</div></div>';
+  return h;
+}
+
+// L1「政策速览」—— 全来源合并的紧凑速览：一眼看清「这个周期有没有新东西」。
+// 与 L4「本月文件」的分工：
+//   · L1（本函数）：全来源（国务院/发改委/工信部/央行/证监会/统计局/交易所），
+//                  只给「日期 + 来源 + 标题」一行一条，点标题直达原文。
+//   · L4：只收「人民日报/求是网/经济日报 评论员文章 + 发改委/工信部政策」，
+//         给出摘要 / 定调关键词 / 关键语句的深度精读。
+// 两栏都支持 日/周/月/年 切换，且周期口径完全一致（共用 filterByPeriod），
+// 避免出现「L1 说 7 条、L4 说 12 条」这种对不上的情况。
+var FEED_PERIOD_LABEL = { day: '近 3 天', week: '近 7 天', month: '近 30 天', year: '本年度' };
+
+// 发改委 / 工信部 的条目在 L4 有精读版，这里打标提示，方便两栏互相对照
+var FEED_L4_SOURCES = { '发改委最新政策文件': 1, '工信部最新政策文件': 1 };
+
+var currentFeedPeriod = 'day';
+
 function renderTimeline() {
-  const list = document.getElementById('timelineList');
-  if (!list || !latestRawData || !latestRawData.timeline) return;
+  var list = document.getElementById('timelineList');
+  if (!list) return;
 
-  // 按来源分组
-  var groups = {};
-  latestRawData.timeline.forEach(function(item) {
-    var src = item.desc || '其他';
-    if (!groups[src]) groups[src] = [];
-    groups[src].push(item);
-  });
+  var period = currentFeedPeriod;
+  var periodLabel = FEED_PERIOD_LABEL[period] || '';
 
-  // 来源图标映射
-  var srcIcons = {
-    '国务院最新政策文件': '🏛',
-    '发改委最新动态': '📊',
-    '央行最新动态': '🏦',
-    '证监会最新动态': '📋',
-    '工信部最新动态': '🏭',
-    '国家统计局最新数据发布': '📈'
-  };
+  var noteEl = document.getElementById('lfPeriodNote');
+  if (noteEl) noteEl.textContent = periodLabel;
+
+  var dateEl = document.getElementById('lfDate');
+  var cntEl = document.getElementById('lfCount');
+
+  if (!latestRawData || !latestRawData.timeline) {
+    list.innerHTML = '<div class="lf-empty">正在同步最新数据…</div>';
+    if (cntEl) cntEl.textContent = '';
+    return;
+  }
+
+  // 按当前周期过滤 + 日期降序（filterByPeriod 内部已排序，无日期条目自动排除）
+  var filtered = filterByPeriod(latestRawData.timeline, period);
 
   var html = '';
-  Object.keys(groups).forEach(function(src) {
-    var icon = srcIcons[src] || '📄';
-    var items = groups[src];
-    html += '<div class="lf-group">';
-    html += '<div class="lf-group-hd">' + icon + ' ' + src + ' <span class="lf-count">' + items.length + ' 条</span></div>';
-    html += '<div class="lf-group-items">';
-    items.forEach(function(item) {
-      // 提取域名简写
-      var domain = '';
-      try { domain = new URL(item.url).hostname.replace('www.',''); } catch(e) {}
-      html += '<a href="' + item.url + '" target="_blank" class="lf-card">';
-      html += '<div class="lf-card-title">' + item.title + '</div>';
-      html += '<div class="lf-card-src">' + domain + ' ↗</div>';
-      html += '</a>';
-    });
-    html += '</div>';
-    html += '</div>';
+  filtered.forEach(function(item) {
+    var src = item.desc || '其他';
+    var isToday = item.date && isWithinDays(item.date, 1);
+    html += '<a class="lf-row" href="' + item.url + '" target="_blank" rel="noopener">';
+    html += '<span class="lf-row-date">' + (item.date || '—') + '</span>';
+    html += '<span class="lf-row-src">' + (SRC_ICONS[src] || '📄') + ' ' +
+            escapeHtml(SRC_SHORT[src] || src) + '</span>';
+    html += '<span class="lf-row-title">' +
+            (isToday ? '<span class="lf-new-dot" title="今日"></span>' : '') +
+            escapeHtml(item.title) + '</span>';
+    if (FEED_L4_SOURCES[src]) {
+      html += '<span class="lf-l4-tag" title="该条在 L4 本月文件中有摘要 / 关键词 / 关键语句精读">L4精读</span>';
+    }
+    html += '<span class="lf-row-go">↗</span>';
+    html += '</a>';
   });
+
+  if (!filtered.length) {
+    html = '<div class="lf-empty">' + (periodLabel || '该周期') +
+           '内暂无新政策 · 可切到「月 / 年」查看更早内容</div>';
+  }
+
+  // 来源分布概览：一眼看出这个周期是「谁在发文」
+  var srcCount = {};
+  filtered.forEach(function(x) {
+    var k = x.desc || '其他';
+    srcCount[k] = (srcCount[k] || 0) + 1;
+  });
+  var srcLine = Object.keys(srcCount).sort(function(a, b) { return srcCount[b] - srcCount[a]; })
+    .map(function(k) { return escapeHtml(SRC_SHORT[k] || k) + ' ' + srcCount[k]; })
+    .join(' · ');
 
   list.innerHTML = html;
 
-  // 更新日期标签
-  var dateEl = document.getElementById('lfDate');
   if (dateEl && latestRawData.lastUpdated) {
-    dateEl.textContent = '更新于 ' + latestRawData.lastUpdated;
+    dateEl.textContent = '抓取于 ' + latestRawData.lastUpdated;
+  }
+  if (cntEl) {
+    cntEl.textContent = periodLabel + ' · 共 ' + filtered.length + ' 条' +
+                        (srcLine ? ' ｜ ' + srcLine : '');
   }
 }
+
+// L1 政策速览：周期切换（日 / 周 / 月 / 年）
+document.querySelectorAll('[data-fperiod]').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('[data-fperiod]').forEach(function(b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+    currentFeedPeriod = btn.dataset.fperiod;
+    renderTimeline();
+  });
+});
 
 // ============================================================
 // LAYER 4: Monthly documents data & rendering
 // ============================================================
-const monthlyData = {
-  commentary: [
-    { date: '2026-08-25', source: '人民日报', title: '钟才文：推动高质量发展行稳致远', summary: '7月30日政治局会议部署下半年经济工作，明确宏观政策发力提效、扩大内需、产业体系建设、市场竞争环境、国际经贸、民生保障六大方向。关键词：', url: 'http://paper.people.com.cn/rmrb/pc/content/202608/25/content_30177036.html', keywords: [{type:'ding', text:'着力'}, {type:'verb', text:'推动'}] },
-    { date: '2026-08-24', source: '人民日报', title: '钟才文：上半年经济增长4.7%说明了什么？', summary: '解读上半年GDP 4.7%增速：符合预期目标、有含金量（新动能贡献超四成）、有强劲韧性、富有后劲。关键词：', url: 'http://paper.people.com.cn/rmrb/pc/content/202608/24/content_30176629.html', keywords: [{type:'deg', text:'持续'}] },
-    { date: '2026-08-23', source: '人民日报', title: '钟才文：中国是世界经济增长的积极贡献者和强大稳定锚', summary: '中国经济顶压前行向新向优：对世界增长贡献率30%左右、上半年增长4.7%、外贸出口强劲、创新成果加速走向世界。关键词：', url: 'http://paper.people.com.cn/rmrb/pc/content/202608/23/content_30176537.html', keywords: [{type:'ding', text:'大力'}] },
-    { date: '2026-08-23', source: '经济日报', title: '金观平：企业应成为科技创新"出题人"', summary: '推动科技创新和产业创新深度融合，企业应从技术应用者成长为创新组织者、科研"出题人"。关键词：', url: 'http://adimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260823_3164440.shtml', keywords: [{type:'verb', text:'推动'}] },
-    { date: '2026-08-22', source: '经济日报', title: '金观平：驾驭好人工智能这匹"千里马"', summary: '统筹人工智能发展与安全，核心产业规模超1.2万亿元、企业超6200家、重点行业渗透率突破80%。关键词：', url: 'http://adimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260822_3162960.shtml', keywords: [{type:'deg', text:'进一步'}] },
-    { date: '2026-08-21', source: '经济日报', title: '金观平：治理账款拖欠重在常态化', summary: '中央政治局会议提出常态化解决企业账款拖欠问题。关键词：', url: 'http://adimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260821_3159304.shtml', keywords: [{type:'deg', text:'持续'}] },
-    { date: '2026-08-17', source: '经济日报', title: '金观平：把握好货币政策的力度与节奏', summary: '政治局会议强调实施好更加积极的财政政策和适度宽松的货币政策，把握力度与节奏，兼顾稳增长、调结构与防风险。关键词：', url: 'http://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260817_3150160.shtml', keywords: [{type:'ding', text:'着力'}] },
-    { date: '2026-08-02', source: '经济日报', title: '金观平：深化资本市场投融资综合改革', summary: '中央政治局会议提出深化资本市场投融资综合改革，提升韧性和信心。关键词：', url: 'http://bgimg.ce.cn/xwzx/gnsz/gdxw/202608/t20260802_3122358.shtml', keywords: [{type:'deg', text:'进一步'}] },
-    { date: '2026-07-01', source: '人民日报', title: '任仲平：把握历史主动 实现伟大复兴', summary: '建党105周年之际，任仲平万字长文解读党的百年奋斗历程、习近平党建思想、全面从严治党、四个全面战略布局。关键词：', url: 'http://opinion.people.com.cn/n1/2026/0701/c461529-40751143.html', keywords: [{type:'ding', text:'大力'}] },
-    { date: '2026-05-22', source: '求是网', title: '求是网评论员：如何提升产业链供应链韧性和安全水平', summary: '补链、强链、建链——统筹推进产业链供应链安全。', url: 'http://www.qstheory.cn/20260522/13b85573bc924de2946ad7cacc741004/c.html', keywords: [] },
-    { date: '2026-05-18', source: '人民日报', title: '任仲平：立党为公、为民造福、科学决策、真抓实干', summary: '任仲平文章阐释正确政绩观四大支柱：立党为公是根本立场、为民造福是核心要求、科学决策是关键方法、真抓实干是必由之路。关键词：', url: 'http://opinion.people.com.cn/n1/2026/0518/c461529-40721407.html', keywords: [{type:'ding', text:'着力'}] },
-    { date: '2026-04-18', source: '经济日报', title: '金观平：刺破"开票经济"的数字泡沫', summary: '最新发票数据显示，截至3月25日，废弃资源综合利用等六类行业开票金额同比下降4.7%，防治"开票经济"取得阶段性成效。关键词：', url: 'http://www.ce.cn/xwzx/gnsz/gdxw/202604/t20260418_2912361.shtml', keywords: [{type:'verb', text:'推动'}] },
-    { date: '2026-03-30', source: '人民日报', title: '任仲平：从中国式现代化理论领悟为什么中国一定能成功', summary: '系统解读中国式现代化理论：新发展理念、新质生产力理论、新型举国体制、构建新发展格局四个维度的战略创新。关键词：', url: 'http://opinion.people.com.cn/n1/2026/0330/c461529-40691063.html', keywords: [{type:'ding', text:'大力'}] },
-    { date: '2026-03-15', source: '求是网', title: '求是杂志评论员：凝心聚力奋进中国式现代化', summary: '解读全国两会精神，部署"十五五"规划纲要落地落实。', url: 'http://www.qstheory.cn/20260314/70a1bcaa409e4cb3bfb7c6f72c73694c/c.html', keywords: [] },
-    { date: '2026-02-12', source: '人民日报', title: '金轩：以有效投资为高质量发展提供坚实支撑', summary: '人民日报2月连续10天刊发"金轩"系列评论之十：贯通供给需求推动经济良性循环、优化供给结构塑造长期增长动能、发挥综合效益增强综合国力。关键词：', url: 'http://www.ce.cn/xwzx/gnsz/gdxw/202602/t20260212_2769406.shtml', keywords: [{type:'ding', text:'着力'}] },
-    { date: '2026-02-11', source: '人民日报', title: '金轩：以更开放的姿态为全球发展带来广阔机遇', summary: '金轩系列评论之九：扩大市场机遇、稳定产业链供应链、推进制度型开放、高质量共建"一带一路"四方面展现对外开放决心。关键词：', url: 'http://finance.people.com.cn/n1/2026/0211/c1004-40663843.html', keywords: [{type:'deg', text:'进一步'}] },
-    { date: '2026-02-04', source: '人民日报', title: '金轩：人均预期寿命提升一岁的含金量', summary: '金轩系列评论之二：2025年我国人均预期寿命达79岁，连续3个五年规划均提高一岁以上，解读医疗卫生、社会保障、"一老一小"支撑体系。关键词：', url: 'http://finance.people.com.cn/n1/2026/0206/c1004-40660946.html', keywords: [{type:'deg', text:'持续'}] },
-    { date: '2026-02-03', source: '人民日报', title: '金轩：如何看待中国经济发展的成色', summary: '金轩系列评论之首篇：从物质基础、新动能、含绿量、发展成果惠及全体人民四个维度，解读中国经济"十四五"含金量。关键词：', url: 'http://finance.people.com.cn/n1/2026/0203/c1004-40658584.html', keywords: [{type:'ding', text:'大力'}] },
-    { date: '2026-02-03', source: '经济日报', title: '金观平："投资于人"是破解供强需弱关键', summary: '供给强需求弱是当前最突出矛盾，"投资于人"是关键。关键词：', url: 'http://www.ce.cn/xwzx/gnsz/gdxw/202602/t20260203_2745939.shtml', keywords: [{type:'deg', text:'进一步'}] },
-    { date: '2026-01-30', source: '经济日报', title: '金观平：推动物价合理回升', summary: 'CPI连续4个月回升，2025年12月同比上涨0.8%创近34个月新高。关键词：', url: 'http://views.ce.cn/view/ent/202601/t20260130_2737865.shtml', keywords: [{type:'verb', text:'推动'}] },
-    { date: '2026-01-13', source: '人民日报', title: '钟才文：深刻把握"五个必须" 推动"十五五"良好开局', summary: '解读中央经济工作会议"五个必须"：充分挖掘经济潜能、政策支持和改革创新并举、既"放得活"又"管得好"、投资于物和投资于人紧密结合、以苦练内功应对外部挑战。关键词：', url: 'http://paper.people.com.cn/rmrb/pc/content/202601/13/content_30131926.html', keywords: [{type:'ding', text:'着力'}] },
-    { date: '2026-01-12', source: '人民日报', title: '钟才平：持续扩大开放，为世界提供新机遇', summary: '坚持对外开放，为世界提供新机遇。关键词：', url: 'http://finance.people.com.cn/n1/2026/0112/c1004-40643305.html', keywords: [{type:'deg', text:'持续'}] },
-    { date: '2026-01-11', source: '人民日报', title: '钟才平：以惠民生为牵引，打开发展新空间', summary: '以惠民生为牵引，打开发展新空间。关键词：', url: 'http://finance.people.com.cn/n1/2026/0111/c1004-40642822.html', keywords: [{type:'verb', text:'推动'}] },
-    { date: '2026-01-10', source: '人民日报', title: '钟才平：统筹促消费和扩投资，建设强大国内市场', summary: '强大国内市场是中国式现代化的战略依托。坚持内需主导，建设强大国内市场。关键词：', url: 'http://finance.people.com.cn/n1/2026/0110/c1004-40642697.html', keywords: [{type:'ding', text:'大力'}] },
-    { date: '2026-01-09', source: '人民日报', title: '钟才平：发挥政策集成效应，提升宏观经济治理效能', summary: '发挥政策集成效应，提升宏观经济治理效能。关键词：', url: 'http://finance.people.com.cn/n1/2026/0109/c1004-40642071.html', keywords: [{type:'ding', text:'着力'}] },
-    { date: '2026-01-08', source: '人民日报', title: '钟才平：向新向优发展，中国经济向好', summary: '中国经济向新向优发展，向好态势持续。关键词：', url: 'http://finance.people.com.cn/n1/2026/0108/c1004-40641557.html', keywords: [{type:'ding', text:'着力'}] },
-    { date: '2026-01-07', source: '人民日报', title: '钟才平：因地制宜做好经济工作', summary: '习近平总书记强调"因地制宜，本质是实事求是"。这是"钟才平"首次出现在人民日报头版。关键词：', url: 'http://finance.people.com.cn/n1/2026/0107/c1004-40640698.html', keywords: [{type:'verb', text:'推动'}] }
-  ],
-  policy: [
-    { date: '2026-01-23', source: '发改委', title: '《中央预算内投资计划管理办法》(发改投资规〔2025〕1728号)', summary: '发改委印发，规范中央预算内投资计划管理，提升投资效益。关键词：', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403428.html', keywords: [{type:'ding', text:'着力'}] },
-    { date: '2026-01-23', source: '发改委', title: '《国家产业技术工程化中心管理办法》(发改高技规〔2025〕1747号)', summary: '发改委发布，规范国家产业技术工程化中心管理。关键词：', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403416.html', keywords: [{type:'verb', text:'推动'}] },
-    { date: '2026-01-23', source: '发改委', title: '《国家新兴产业创新中心管理办法》(发改高技规〔2025〕1748号)', summary: '发改委发布，规范国家新兴产业创新中心管理。关键词：', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403415.html', keywords: [{type:'verb', text:'推动'}] },
-    { date: '2026-01-12', source: '发改委', title: '《政府投资基金投向评价管理办法(试行)》(发改财金规〔2025〕1753号)', summary: '发改委发布，规范政府投资基金投向评价管理。关键词：', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260112_1403195.html', keywords: [{type:'deg', text:'进一步'}] },
-    { date: '2025-12-31', source: '发改委', title: '《再生材料应用推广行动方案》(发改环资〔2025〕1681号)', summary: '发改委发布，推动再生材料应用推广。关键词：', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251231_1402965.html', keywords: [{type:'verb', text:'推动'}] },
-    { date: '2025-12-31', source: '发改委', title: '《关于促进电网高质量发展的指导意见》(发改能源〔2025〕1710号)', summary: '发改委发布，促进电网高质量发展。关键词：', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251231_1402949.html', keywords: [{type:'ding', text:'大力'}] },
-    { date: '2025-12-30', source: '发改委', title: '《关于2026年实施大规模设备更新和消费品以旧换新政策的通知》(发改环资〔2025〕1745号)', summary: '大力实施"两新"政策，持续扩大覆盖面。关键词：', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251230_1402851.html', keywords: [{type:'ding', text:'大力'}, {type:'deg', text:'持续'}] },
-    { date: '2025-12-26', source: '发改委', title: '《低空经济及其核心产业统计分类(试行)》(发改低空〔2025〕1676号)', summary: '发改委印发，着力培育低空经济为新兴支柱产业，加速空域改革。关键词：', url: 'https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html', keywords: [{type:'ding', text:'着力'}, {type:'deg', text:'加速'}] },
-    { date: '2025-12-10', source: '工信部', title: '《产业技术基础公共服务平台管理办法》(工信部科〔2025〕261号)', summary: '工信部发布，规范产业技术基础公共服务平台管理。关键词：', url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html', keywords: [{type:'verb', text:'推动'}] },
-    { date: '2025-11-11', source: '工信部', title: '《关于进一步加快制造业中试平台体系化布局和高水平建设的通知》(工信厅科函〔2025〕456号)', summary: '工信部发布，加快制造业中试平台体系化布局和高水平建设。关键词：', url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_69551d935e654671a8816123f1b6ec4f.html', keywords: [{type:'deg', text:'进一步'}] },
-    { date: '2025-10-13', source: '工信部', title: '《深入推动服务型制造创新发展实施方案(2025—2028年)》(工信部联政法〔2025〕202号)', summary: '工信部发布，深入推动服务型制造创新发展。关键词：', url: 'https://fjca.miit.gov.cn/xwdt/bsyw/art/2025/art_b213568d30e5402685b01eae3f8c1c52.html', keywords: [{type:'ding', text:'着力'}] },
-    { date: '2025-08-27', source: '工信部', title: '《关于优化业务准入促进卫星通信产业发展的指导意见》(工信部信管〔2025〕180号)', summary: '工信部发布，大力推动手机直连卫星应用，进一步扩大向民营企业开放。关键词：', url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2025/art_84617e8497d84a3d8b8b3ef847f648d2.html', keywords: [{type:'ding', text:'大力'}, {type:'deg', text:'进一步'}] }
-  ]
-};
+// L4 数据全部来自 data/latest.json（每日自动抓取 + 逐日累积），不再手工维护。
+//   · commentary：人民日报 / 求是网 / 经济日报 的评论员文章（含「化名」文章）
+//                 —— 由 scripts/update_data.py 读取数字报的 <author> 署名得到
+//   · policy    ：发改委 & 工信部 的产业政策文件 —— 直接取每日抓取的 timeline
+// 初版手工维护的历史评论已迁移至 data/commentary_seed.json，仅作首次打底。
+function commentarySource() {
+  return (latestRawData && latestRawData.commentary) || [];
+}
+
+function policySource() {
+  var tl = (latestRawData && latestRawData.timeline) || [];
+  return tl.filter(function(x) {
+    return x.desc === '发改委最新政策文件' || x.desc === '工信部最新政策文件';
+  });
+}
+
 
 // Reference date for period filtering (使用当前本地日期，不再硬编码过去的日期；允许「未来日期」通过，避免CDN或时区时差把刚发布的人民日报/经济日报头条误判为不存在)
 const MONTHLY_REF_DATE = new Date();
@@ -559,40 +624,70 @@ function filterByPeriod(articles, period) {
   }).sort((a, b) => new Date(b.date) - new Date(a.date));
 }
 
+// 「从上往下看」的层级标签：中央定方向 → 部委细化路径 → 地方落实执行
+var TIER_LABEL = { central: '中央', dept: '部委', local: '地方' };
+
 function renderDocItem(item) {
-  const dateStr = item.date.slice(5);
-  const kwHtml = (item.keywords || []).map(k => `<span class="kw-tag kw-${k.type}">${k.text}</span>`).join('');
-  return `
-    <div class="doc-item">
-      <div class="doc-meta">
-        <div class="doc-date">${dateStr}</div>
-        <div class="doc-source">${item.source}</div>
-      </div>
-      <div class="doc-body">
-        <div class="doc-title">${item.title}</div>
-        <div class="doc-summary">${item.summary}${kwHtml}</div>
-        <div class="doc-keywords">
-          <a href="${item.url}" target="_blank" class="doc-link">阅读原文</a>
-        </div>
-      </div>
-    </div>
-  `;
+  var dateStr = (item.date || '').slice(5);
+  var src = item.media || item.source || '';
+  var byline = item.byline || '';
+  var tier = item.tier || '';
+  var kws = (item.keywords || []).map(function(k) {
+    return '<span class="kw-tag kw-' + k.type + '">' + k.text + '</span>';
+  }).join('');
+
+  var html = '<div class="doc-item' + (byline ? ' doc-byline-item' : '') + '">';
+  html += '<div class="doc-meta">';
+  html += '<div class="doc-date">' + dateStr + '</div>';
+  html += '<div class="doc-source">' + escapeHtml(src) + '</div>';
+  if (tier) {
+    html += '<div class="tier-tag tier-' + tier + '">' + (TIER_LABEL[tier] || '') + '</div>';
+  }
+  html += '</div>';
+  html += '<div class="doc-body">';
+  html += '<div class="doc-title">' + escapeHtml(item.title) + '</div>';
+  if (byline) {
+    html += '<div class="doc-byline">★ ' + escapeHtml(byline) +
+            '<span class="byline-note">化名文章 · 重点</span></div>';
+  }
+  if (item.summary) {
+    html += '<div class="doc-summary">' + escapeHtml(item.summary) + '</div>';
+  }
+  if (kws) {
+    html += '<div class="doc-kw">' + kws + '</div>';
+  }
+  if (item.keySentence) {
+    html += '<div class="doc-key"><b>关键语句</b>' + escapeHtml(item.keySentence) + '</div>';
+  }
+  html += '<div class="doc-actions"><a href="' + item.url +
+          '" target="_blank" class="doc-link">阅读原文 ↗</a></div>';
+  html += '</div></div>';
+  return html;
 }
 
-let currentMonthlyPeriod = 'day';
+var currentMonthlyPeriod = 'day';
 
 function renderMonthlyDocs(period) {
-  const commentaryList = document.getElementById('monthlyDocListCommentary');
-  const policyList = document.getElementById('monthlyDocListPolicy');
+  var commentaryList = document.getElementById('monthlyDocListCommentary');
+  var policyList = document.getElementById('monthlyDocListPolicy');
   if (!commentaryList || !policyList) return;
 
-  const commentaryFiltered = filterByPeriod(monthlyData.commentary, period);
-  const policyFiltered = filterByPeriod(monthlyData.policy, period);
+  var commentaryFiltered = filterByPeriod(commentarySource(), period);
+  var policyFiltered = filterByPeriod(policySource(), period);
 
-  const emptyHtml = '<div style="color:var(--text-muted);font-size:12px;padding:14px">该周期内无文章，请切换其他周期查看</div>';
+  var emptyHtml = '<div class="doc-empty">该周期内暂无文章 —— 评论库每天自动累积，时间越长「年 / 月」视图越完整</div>';
 
-  commentaryList.innerHTML = commentaryFiltered.length ? commentaryFiltered.map(renderDocItem).join('') : emptyHtml;
-  policyList.innerHTML = policyFiltered.length ? policyFiltered.map(renderDocItem).join('') : emptyHtml;
+  commentaryList.innerHTML = commentaryFiltered.length
+    ? commentaryFiltered.map(renderDocItem).join('')
+    : emptyHtml;
+  policyList.innerHTML = policyFiltered.length
+    ? policyFiltered.map(renderDocItem).join('')
+    : emptyHtml;
+
+  var cntC = document.getElementById('monthlyCountCommentary');
+  if (cntC) cntC.textContent = commentaryFiltered.length + ' 篇';
+  var cntP = document.getElementById('monthlyCountPolicy');
+  if (cntP) cntP.textContent = policyFiltered.length + ' 篇';
 }
 
 // Monthly file period switcher
@@ -994,7 +1089,7 @@ function renderCompareTable() {
 // ============================================================
 const chartRenderers = {
   macro: () => { renderMacroChart(); },
-  gov: () => { renderAnnualTimeline(); },
+  gov: () => { renderTimeline(); renderAnnualTimeline(); },
   source: () => {},
   compare: () => { renderCompareFilter(); renderCompareTable(); },
   monthly: () => { renderMonthlyDocs(currentMonthlyPeriod); },
@@ -1013,13 +1108,81 @@ window.addEventListener('resize', () => {
   if (macroChart) macroChart.resize();
 });
 
+// 渲染 L5 证监会动态顶部的实时列表（证监会/央行/交易所，来自最新一次抓取）
+function renderLatestBlocks() {
+  var list = document.getElementById('csrcLiveList');
+  var wrap = document.getElementById('csrcLiveFeed');
+  var dateEl = document.getElementById('csrcLiveDate');
+  if (!list || !wrap || !latestRawData) return;
+
+  var want = ['证监会最新动态', '交易所最新公告', '央行最新动态'];
+  var blocks = latestRawData.blocks || {};
+
+  var html = '';
+  var total = 0;
+  want.forEach(function(src) {
+    var items = blocks[src];
+    if (!items || !items.length) return;
+    total += items.length;
+    html += '<details class="lf-src" open>';
+    html += '<summary class="lf-src-hd">';
+    html += '<span class="lf-src-name">' + (SRC_ICONS[src] || '📡') + ' ' + escapeHtml(src) + '</span>';
+    html += '<span class="lf-count">' + items.length + ' 条</span>';
+    html += '</summary>';
+    html += '<div class="lf-items">';
+    items.slice(0, 8).forEach(function(item) {
+      html += renderFeedItem(item, SRC_SHORT[src] || '');
+    });
+    html += '</div></details>';
+  });
+
+  if (!total) return;
+  list.innerHTML = html;
+  wrap.style.display = '';
+  if (dateEl && latestRawData.lastUpdated) {
+    dateEl.textContent = '抓取于 ' + latestRawData.lastUpdated;
+  }
+}
+
 // ============================================================
 // Auto-update: fetch latest data from data/latest.json
 // ============================================================
 var latestRawData = null; // 全局：latest.json 原始数据
 
+// 判断日期是否在最近 N 天内（用于「新」标记）
+function isWithinDays(dateStr, days) {
+  if (!dateStr) return false;
+  var t = Date.parse(dateStr + 'T00:00:00');
+  if (isNaN(t)) return false;
+  var today = new Date();
+  today.setHours(0, 0, 0, 0);
+  var diff = (today.getTime() - t) / 86400000;
+  return diff >= 0 && diff <= days;
+}
+
+// HTML 转义，避免标题里的 <br/> 等标签破坏布局
+function escapeHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/<[^>]*>/g, '')
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+// 表头日期：先立刻填上北京时间，等 latest.json 到达后再换成真实数据日期
+function setHeaderClock() {
+  var clockEl = document.getElementById('clockDisplay');
+  if (!clockEl) return;
+  function tick() {
+    var d = new Date();
+    var p = function(n) { return String(n).padStart(2, '0'); };
+    clockEl.textContent = p(d.getHours()) + ':' + p(d.getMinutes()) + ':' + p(d.getSeconds());
+  }
+  tick();
+  setInterval(tick, 1000);
+}
+
 function loadLatestData() {
-  return fetch('data/latest.json')
+  // 加时间戳参数，绕过 GitHub Pages 默认 10 分钟的 CDN 缓存
+  return fetch('data/latest.json?t=' + Date.now())
     .then(function(r) { return r.ok ? r.json() : null; })
     .catch(function() { return null; });
 }
@@ -1030,25 +1193,32 @@ function applyLatestData(data) {
   latestRawData = data;
   // Update header "last updated" text
   if (data.lastUpdated) {
-    var el = document.querySelector('.header-right .status-item:nth-child(2)');
-    if (el) el.innerHTML = '<span class="status-dot"></span>更新:' + data.lastUpdated;
+    var el = document.getElementById('headerUpdatedDate');
+    if (el) el.textContent = data.lastUpdated;
+    var item = el ? el.closest('.status-item') : null;
+    if (item) item.title = '抓取任务最近一次成功运行日期';
   }
 }
 
 // ============================================================
 // Initial render
 // ============================================================
+setHeaderClock();
 renderMacroCards('year');
 renderTimeline();          // 旧timeline（若容器存在则渲染）
 renderAnnualTimeline();    // 新年度政策时间线（官网与会议tab右侧）
 renderMacroChart();
 renderMonthlyDocs('day');
 
-// Async: load latest data and re-render timeline if available
+// Async: load latest data and re-render all data-driven sections.
+// L4「本月文件」的评论与政策也都来自 latest.json，必须在这里重渲染，
+// 否则首次同步渲染时 latestRawData 还是 null，页面会是空的。
 loadLatestData().then(function(data) {
   if (data) {
     applyLatestData(data);
     renderTimeline();
     renderAnnualTimeline();
+    renderLatestBlocks();
+    renderMonthlyDocs(currentMonthlyPeriod);
   }
 });

@@ -122,8 +122,44 @@ a:hover{color:inherit}
 .lf-card{display:block;background:var(--bg-card);border:1px solid var(--border-primary);border-radius:6px;padding:10px 12px;text-decoration:none;color:inherit;transition:all .2s}
 .lf-card:hover{border-color:var(--accent-amber);background:var(--bg-hover);transform:translateY(-1px)}
 .lf-card-title{font-size:12px;line-height:1.5;color:var(--text-primary);margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.lf-card-src{font-size:10px;color:var(--accent-amber);font-family:var(--font-mono)}
+.lf-card-src{font-size:10px;color:var(--accent-amber);font-family:var(--font-mono);display:flex;align-items:center;gap:8px}
+.lf-date{color:var(--text-secondary);background:rgba(255,255,255,.06);border-radius:3px;padding:1px 5px}
+.lf-newest{font-size:10px;color:var(--accent-cyan);font-weight:400;margin-left:6px;font-family:var(--font-mono)}
+.lf-new-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent-red,#e05252);margin-right:5px;vertical-align:middle;animation:lfPulse 1.8s ease-in-out infinite}
+@keyframes lfPulse{0%,100%{opacity:1}50%{opacity:.3}}
 @media(max-width:600px){.lf-group-items{grid-template-columns:1fr}}
+/* ── L1 最新政策动态：按来源折叠 + 富结构条目（结构对齐 L4「本月文件」）── */
+.lf-hint{font-size:10.5px;color:var(--text-muted);line-height:1.7;margin-bottom:10px;padding:8px 11px;background:rgba(224,160,48,.05);border-left:2px solid rgba(224,160,48,.4);border-radius:4px}
+.lf-hint b{color:var(--text-secondary);font-weight:600}
+.lf-head-l{display:flex;align-items:center;gap:10px;min-width:0;flex-wrap:wrap}
+.lf-period-note{font-size:10.5px;color:var(--text-muted);font-family:var(--font-mono);background:rgba(255,255,255,.05);border-radius:3px;padding:2px 7px}
+.lf-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:10.5px;color:var(--text-muted);font-family:var(--font-mono);line-height:1.6;margin:-2px 0 10px}
+.lf-l4-tag{flex-shrink:0;font-size:9px;font-family:var(--font-mono);color:var(--accent-amber);background:rgba(224,160,48,.12);border:1px solid rgba(224,160,48,.3);border-radius:3px;padding:1px 5px;white-space:nowrap}
+.lf-list--scroll{max-height:600px;overflow-y:auto;padding-right:6px;scrollbar-width:thin}
+.lf-list--scroll::-webkit-scrollbar{width:6px}
+.lf-list--scroll::-webkit-scrollbar-track{background:transparent}
+.lf-list--scroll::-webkit-scrollbar-thumb{background:rgba(255,255,255,.14);border-radius:3px}
+.lf-list--scroll::-webkit-scrollbar-thumb:hover{background:rgba(224,160,48,.45)}
+.lf-empty{font-size:11.5px;color:var(--text-muted);padding:16px;text-align:center;border:1px dashed var(--border-primary);border-radius:6px;line-height:1.7}
+.lf-src{margin-bottom:10px;border:1px solid var(--border-primary);border-radius:7px;background:var(--bg-panel);overflow:hidden}
+.lf-src[open]{border-color:rgba(224,160,48,.35)}
+.lf-src-hd{display:flex;align-items:center;gap:8px;padding:10px 14px;cursor:pointer;list-style:none;background:var(--bg-secondary);font-size:12.5px;color:var(--text-secondary);font-weight:600;transition:background .2s}
+.lf-src-hd::-webkit-details-marker{display:none}
+.lf-src-hd:hover{background:var(--bg-hover);color:var(--text-primary)}
+.lf-src-hd::before{content:'▸';color:var(--accent-amber);font-size:11px;transition:transform .2s;flex-shrink:0}
+.lf-src[open] .lf-src-hd::before{transform:rotate(90deg)}
+.lf-src-name{flex:1;display:flex;align-items:center;gap:5px}
+.lf-items{display:flex;flex-direction:column;gap:7px;padding:10px}
+.lf-items .doc-item{border-left-color:rgba(224,160,48,.3)}
+.lf-more{font-size:10.5px;color:var(--text-muted);font-family:var(--font-mono);padding:9px 14px;text-align:center;background:rgba(255,255,255,.025);border-radius:5px;line-height:1.6}
+/* 关键语句：摘要是"讲了什么"，关键语句是"原话怎么讲" */
+.doc-keysent{font-size:11.5px;color:var(--text-secondary);line-height:1.6;margin-bottom:5px;padding-left:9px;border-left:2px solid rgba(224,160,48,.45)}
+.doc-keysent-tag{display:inline-block;font-size:9px;color:var(--accent-amber);background:rgba(224,160,48,.14);border-radius:3px;padding:1px 4px;margin-right:5px;font-family:var(--font-mono);vertical-align:1px;white-space:nowrap}
+@media(max-width:600px){
+  .lf-src-hd{flex-wrap:wrap;gap:4px}
+  .doc-item{flex-direction:column;gap:6px}
+  .doc-meta{width:auto;display:flex;align-items:center;gap:8px}
+}
 .src-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
 .src-card{background:var(--bg-panel);border:1px solid var(--border-primary);border-radius:8px;padding:18px;text-decoration:none;color:inherit;display:block;transition:all .3s}
 .src-card:hover{border-color:var(--accent-amber);box-shadow:var(--shadow-glow);transform:translateY(-2px)}
@@ -490,3 +526,61 @@ a:hover{color:inherit}
   line-height:1.55;
 }
 @media(max-width:768px){.app{padding:10px}.header{flex-direction:column;gap:8px}.data-grid{grid-template-columns:1fr}.sec-hd{flex-direction:column;align-items:flex-start}}
+
+/* ══════════════════════════════════════════════════════════════
+   补齐变量别名（早期样式引用了 --accent-cyan 但未定义）
+   ══════════════════════════════════════════════════════════════ */
+:root{--accent-cyan:#58b8c4}
+
+/* ══════════════════════════════════════════════════════════════
+   L1 今日政策速览（紧凑行，区别于 L4 的富结构）
+   ══════════════════════════════════════════════════════════════ */
+.lf-list{display:flex;flex-direction:column;gap:1px}
+.lf-row{display:flex;align-items:center;gap:10px;padding:6px 10px;border-radius:4px;text-decoration:none;border-left:2px solid transparent;transition:all .15s}
+.lf-row:hover{background:var(--bg-hover);border-left-color:var(--accent-amber)}
+.lf-row-date{font-family:var(--font-mono);font-size:10.5px;color:var(--accent-amber);flex-shrink:0;width:74px}
+.lf-row-src{font-size:10.5px;color:var(--text-muted);flex-shrink:0;width:96px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lf-row-title{flex:1;font-size:12.5px;color:var(--text-primary);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lf-row-go{font-size:10px;color:var(--accent-amber);opacity:0;transition:opacity .15s;flex-shrink:0}
+.lf-row:hover .lf-row-go{opacity:1}
+.lf-more{font-size:11px;color:var(--text-muted);padding:8px 10px;border-top:1px dashed var(--border-primary);margin-top:6px}
+
+/* ══════════════════════════════════════════════════════════════
+   政策层级标签：中央定方向 → 部委细化路径 → 地方落实执行
+   ══════════════════════════════════════════════════════════════ */
+.tier-tag{display:inline-block;font-size:9.5px;padding:1px 5px;border-radius:3px;font-family:var(--font-mono);white-space:nowrap;vertical-align:1px}
+.tier-central{background:rgba(224,112,112,.18);color:#e07070;border:1px solid rgba(224,112,112,.32)}
+.tier-dept{background:rgba(88,184,196,.16);color:#58b8c4;border:1px solid rgba(88,184,196,.32)}
+.tier-local{background:rgba(91,191,125,.16);color:#5bbf7d;border:1px solid rgba(91,191,125,.32)}
+
+/* 限制性动词：与「扶持类」动词（绿）区分，一眼看出政策是在扶持还是收紧 */
+.kw-restrict{background:rgba(149,117,205,.24);color:#b39ddb}
+
+/* ══════════════════════════════════════════════════════════════
+   L4 本月文件：重点提炼方法图例
+   ══════════════════════════════════════════════════════════════ */
+.l4-method{background:var(--bg-card);border:1px solid var(--border-primary);border-left:3px solid var(--accent-cyan);border-radius:6px;padding:12px 14px;margin-bottom:16px;display:flex;flex-direction:column;gap:9px}
+.l4-method-row{font-size:11.5px;color:var(--text-secondary);line-height:2;display:flex;align-items:baseline;flex-wrap:wrap;gap:5px}
+.l4-method-k{font-family:var(--font-mono);font-size:11px;color:var(--accent-amber);font-weight:600;margin-right:4px;flex-shrink:0}
+.l4-method-note{font-size:10.5px;color:var(--text-muted)}
+.l4-arrow{color:var(--accent-amber);font-size:11px}
+.byline-chip{display:inline-block;font-size:10px;font-family:var(--font-mono);color:var(--accent-amber);background:rgba(224,160,48,.1);border:1px solid rgba(224,160,48,.22);border-radius:3px;padding:1px 5px}
+.doc-count{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);font-weight:400;margin-left:6px}
+.doc-empty{color:var(--text-muted);font-size:12px;padding:16px;text-align:center;border:1px dashed var(--border-primary);border-radius:5px}
+
+/* ══════════════════════════════════════════════════════════════
+   L4 条目：化名文章高亮 + 关键词 / 关键语句
+   ══════════════════════════════════════════════════════════════ */
+.doc-byline-item{border-left-color:var(--accent-amber);background:linear-gradient(90deg,rgba(224,160,48,.06),var(--bg-card) 55%)}
+.doc-byline{font-size:10.5px;color:var(--accent-amber);font-weight:600;font-family:var(--font-mono);margin-bottom:4px}
+.byline-note{font-weight:400;color:var(--text-muted);margin-left:6px;font-size:10px}
+.doc-kw{margin:5px 0}
+.doc-key{font-size:11px;color:var(--text-secondary);line-height:1.6;padding:5px 8px;background:rgba(88,184,196,.06);border-left:2px solid var(--accent-cyan);border-radius:3px;margin:5px 0}
+.doc-key b{color:var(--accent-cyan);font-size:10px;font-family:var(--font-mono);margin-right:5px}
+.doc-actions{margin-top:5px}
+.doc-body{flex:1;min-width:0}
+
+@media(max-width:768px){
+  .lf-row-src{display:none}
+  .lf-row-title{white-space:normal}
+}
