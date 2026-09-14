@@ -230,7 +230,7 @@ const timelineData = [
     month: '2025年8月',
     items: [
       { title: '《关于优化业务准入促进卫星通信产业发展的指导意见》(工信部信管〔2025〕180号)', desc: '工信部发布，大力推动手机直连卫星应用，进一步扩大向民营企业开放', url: 'https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2025/art_84617e8497d84a3d8b8b3ef847f648d2.html' },
-      { title: '专项债投向结构优化', desc: '新兴产业专项债与交通类占比待核实', url: 'https://www.mof.gov.cn/difaikuang/2799821.htm' }
+      { title: '专项债投向结构优化', desc: '新兴产业专项债与交通类占比待核实', url: 'https://yss.mof.gov.cn/zhuantilanmu/dfzgl/sjtj/' }
     ]
   }
 ];
@@ -251,7 +251,7 @@ const annualTimelineNodes = [
       { text: '<b>央行工作会：</b>次年 M2/M1 增长目标、社会融资规模增量预期、结构性货币政策工具（支农支小、科技创新、设备更新、普惠养老等）安排与节奏。', keywords: [{t:'deg',v:'进一步'}] }
     ],
     docs: [
-      { label: '2024年中央经济工作会议通稿（参考模板）', url: 'https://www.gov.cn/xinwen/2024-12/12/content_6997648.htm' },
+      { label: '2024年中央经济工作会议通稿（参考模板）', url: 'https://www.gov.cn/yaowen/liebiao/202412/content_6992258.htm' },
       { label: '中国人民银行工作会例行专栏', url: 'http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/index.html' },
       { label: '证监会·要闻·全国证券期货监管工作会', url: 'http://www.csrc.gov.cn/csrc/c100028/common_list.shtml' }
     ]
@@ -267,8 +267,8 @@ const annualTimelineNodes = [
       { text: '<b>防风险部署：</b>地方化债、中小金融机构、房地产、城投、重点行业民营企业债券违约等底线。', keywords: [{t:'deg',v:'持续'}] }
     ],
     docs: [
-      { label: '历年政治局会议·新华社通稿专栏', url: 'http://www.news.cn/politics/zhongyang.htm' },
-      { label: '中国政府网·中共中央政治局集体学习/会议', url: 'https://www.gov.cn/yaowen/liebiao/zhengzhi.htm' }
+      { label: '历年政治局会议·新华社通稿专栏', url: 'https://www.news.cn/politics/' },
+      { label: '中国政府网·中共中央政治局集体学习/会议', url: 'https://www.gov.cn/yaowen/liebiao/' }
     ]
   },
   {
@@ -695,8 +695,8 @@ const compareData = [
     note: '2024 积极打造新增长引擎（政府工作报告）  →  2025 推动安全发展  →  2026 支撑基础设施（工信厅联通信4号）',
     children: [{
       dept: '国务院', icon: '🏛',
-      y2024: { text: '积极打造低空经济', kw: [{t:'ding',v:'积极'},{t:'deg',v:'新引擎'}], url: 'https://www.gov.cn/zhengce/content/202403/content_6925447.htm' },
-      y2025: { text: '推动低空安全发展', kw: [{t:'verb',v:'推动'},{t:'deg',v:'安全'}], url: 'https://www.gov.cn/zhengce/content/202403/content_6925447.htm' },
+      y2024: { text: '积极打造低空经济', kw: [{t:'ding',v:'积极'},{t:'deg',v:'新引擎'}], url: 'https://www.gov.cn/yaowen/liebiao/202403/content_6939153.htm' },
+      y2025: { text: '推动低空安全发展', kw: [{t:'verb',v:'推动'},{t:'deg',v:'安全'}], url: 'https://www.gov.cn/yaowen/liebiao/202403/content_6939153.htm' },
       y2026: { empty: true },
       note: '积极打造新增长引擎(2024·定:积极+程:新引擎·政府工作报告) → 推动安全发展(2025·动:推动+程:安全·同源延续) → ——(2026)'
     }, {
