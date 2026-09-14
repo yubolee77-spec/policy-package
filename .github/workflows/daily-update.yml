@@ -2,7 +2,11 @@ name: Daily Policy Data Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # 每天 UTC 23:00 = 北京时间次日 07:00
+    # 原为 0 0 * * *（北京时间 08:00）；GitHub 定时任务经常延后 10~60 分钟，
+    # 加上官方数据多在上午发布，原时间点导致"当天看不到当天的政策"。
+    # 提前到北京早 7 点跑，上班前就能看到前一日汇总。
+    - cron: '0 23 * * *'
   workflow_dispatch:
 
 permissions:
@@ -11,6 +15,9 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # 评论抓取要遍历党媒数字报（人民日报 + 经济日报）的多日版面，
+    # 首次初始化回溯较多，给足超时余量
+    timeout-minutes: 30
     permissions:
       contents: write
     steps:
@@ -27,14 +34,20 @@ jobs:
 
       - name: Check changes
         id: diff
+        # 用 git status 而不是 git diff：评论累积库首次生成时是 untracked 文件，
+        # git diff 看不到，会导致「有新数据却不提交」
         run: |
-          git diff --stat | grep -q . && echo "changed=true" >> $GITHUB_OUTPUT || echo "changed=false" >> $GITHUB_OUTPUT
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and push
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json
-          git commit -m "Auto-update policy data"
+          git add data/
+          git commit -m "Auto-update policy data + commentary"
           git push
