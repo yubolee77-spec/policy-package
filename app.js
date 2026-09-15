@@ -753,9 +753,29 @@ const compareCategories = [
     focus: '十五五 优化提升传统产业'
   },
   {
-    key: 'service', label: '现代服务业与民生', icon: '🏥', color: 'var(--accent-green)',
-    codes: '门类 J金融业 / Q卫生社会工作',
+    key: 'digital', label: '数字经济与要素', icon: '💾', color: 'var(--accent-cyan)',
+    codes: '门类 I信息传输 / 软件和信息技术服务业',
+    focus: '十五五 数字中国 · 数据要素 × 实体经济'
+  },
+  {
+    key: 'green', label: '绿色低碳与能源', icon: '🌱', color: 'var(--accent-green)',
+    codes: '门类 D电力热力 / N生态保护和环境治理',
+    focus: '双碳目标 · 新型能源体系'
+  },
+  {
+    key: 'service', label: '现代服务业与民生', icon: '🏥', color: 'var(--accent-orange)',
+    codes: '门类 J金融业 / R文体娱乐 / Q卫生社会工作',
     focus: '十五五 服务业优质高效+民生保障'
+  },
+  {
+    key: 'agri', label: '农业农村', icon: '🌾', color: 'var(--accent-amber)',
+    codes: '门类 A农林牧渔业',
+    focus: '乡村全面振兴 · 粮食安全'
+  },
+  {
+    key: 'enterprise', label: '经营主体', icon: '💼', color: 'var(--accent-red)',
+    codes: '民营经济 / 中小企业 / 专精特新',
+    focus: '两个毫不动摇 · 全国统一大市场'
   }
 ];
 
@@ -1007,23 +1027,70 @@ const compareData = [
 
 let currentCompareFilter = 'all';
 
+// 自动对比数据（data/compare.json，每日随抓取任务更新）；
+// 缺失时回退到下方硬编码 compareData（兜底，保证页面永不空白）
+var compareAuto = null;
+
 function renderCompareFilter() {
   const chipsEl = document.getElementById('cmpFilterChips');
   if (!chipsEl) return;
+
+  // ── 自动模式：按 compareAuto.topics 分组 ──
+  if (compareAuto && compareAuto.topics && compareAuto.topics.length) {
+    const topics = compareAuto.topics;
+    let html = '';
+    html += '<div class="cmp-filter-all"><span class="cmp-chip active" data-track="all">📋 全部产业主题（共 ' + topics.length + ' 个 · ' + compareAuto.years.join('/') + '）</span></div>';
+    compareCategories.forEach(cat => {
+      const inTrack = topics.filter(t => t.track === cat.key);
+      if (!inTrack.length) return;
+      html += `<div class="cmp-filter-row" style="--track-color:${cat.color}">`;
+      html += `<div class="cmp-row-label">`;
+      html += `<span class="cat-name" style="cursor:pointer" data-track="${cat.key}" title="点击筛选整个赛道">${cat.icon} ${cat.label}（${inTrack.length}）</span>`;
+      html += `<span class="cat-codes">${cat.codes}</span>`;
+      html += `<span class="cat-focus">${cat.focus}</span>`;
+      html += `</div>`;
+      html += '<div class="cmp-row-chips">';
+      inTrack.forEach(t => {
+        const total = Object.values(t.counts || {}).reduce((a, b) => a + b, 0);
+        html += `<span class="cmp-chip" data-topic="${t.key}"><span class="cmp-chip-code">${t.code}</span>${t.label}<span class="cmp-chip-cnt">${total}</span></span>`;
+      });
+      html += '</div></div>';
+    });
+    chipsEl.innerHTML = html;
+    chipsEl.querySelectorAll('.cmp-chip').forEach(chip => {
+      chip.addEventListener('click', (e) => {
+        if (e.target.classList.contains('cmp-chip-code') || e.target.classList.contains('cmp-chip-cnt')) return;
+        chipsEl.querySelectorAll('.cmp-chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        currentCompareFilter = chip.dataset.topic || chip.dataset.track || 'all';
+        renderCompareTable();
+      });
+    });
+    // 分类名点击 = 筛选整条赛道
+    chipsEl.querySelectorAll('.cat-name[data-track]').forEach(el => {
+      el.addEventListener('click', () => {
+        chipsEl.querySelectorAll('.cmp-chip').forEach(c => c.classList.remove('active'));
+        currentCompareFilter = el.dataset.track;
+        renderCompareTable();
+      });
+    });
+    return;
+  }
+
+  // ── 兜底模式：硬编码 compareData ──
   let html = '';
   // 第一行：「全部」单独成行，居中
   html += '<div class="cmp-filter-all"><span class="cmp-chip active" data-track="all">📋 全部产业赛道（共' + compareData.length + '条）</span></div>';
-  // 后续 3 行：每行一个分类
+  // 后续每行：一个分类
   compareCategories.forEach(cat => {
     const tracks = compareData.filter(d => d.track === cat.key);
+    if (!tracks.length) return;
     html += `<div class="cmp-filter-row" style="--track-color:${cat.color}">`;
-    // 左侧：分类标签（名称 + 门类代码 + 十五五重点）
     html += `<div class="cmp-row-label">`;
     html += `<span class="cat-name">${cat.icon} ${cat.label}</span>`;
     html += `<span class="cat-codes">${cat.codes}</span>`;
     html += `<span class="cat-focus">${cat.focus}</span>`;
     html += `</div>`;
-    // 右侧：赛道 chips（含行业代码）
     html += '<div class="cmp-row-chips">';
     tracks.forEach(item => {
       const idx = compareData.indexOf(item);
@@ -1033,10 +1100,8 @@ function renderCompareFilter() {
   });
   chipsEl.innerHTML = html;
 
-  // 绑定点击事件（.cmp-chip 已排除 .cmp-chip-code 内部点击冒泡）
   chipsEl.querySelectorAll('.cmp-chip').forEach(chip => {
     chip.addEventListener('click', (e) => {
-      // 点到 cmp-chip-code 内部不触发
       if (e.target.classList.contains('cmp-chip-code')) return;
       chipsEl.querySelectorAll('.cmp-chip').forEach(c => c.classList.remove('active'));
       chip.classList.add('active');
@@ -1058,6 +1123,62 @@ function renderCompareTable() {
   const tableEl = document.getElementById('cmpTable');
   if (!tableEl) return;
 
+  // ── 自动模式 ──
+  if (compareAuto && compareAuto.topics && compareAuto.topics.length) {
+    const years = compareAuto.years;
+    let items = compareAuto.topics;
+    if (currentCompareFilter === 'all') {
+      // 全部
+    } else if (items.some(t => t.key === currentCompareFilter)) {
+      items = items.filter(t => t.key === currentCompareFilter);
+    } else {
+      items = items.filter(t => t.track === currentCompareFilter);
+    }
+
+    const asOf = compareAuto.asOf ? ` <span style="font-weight:400;color:var(--text-muted)">(${compareAuto.asOf}在途)</span>` : '';
+    let html = `<div class="cmp-hd-row">
+      <div>产业主题 / 部门（发文密度）</div>
+      ${years.map((y, i) => `<div>${y}年${i === years.length - 1 ? asOf : ''} <span style="font-weight:400;color:var(--text-muted)">(附原文)</span></div>`).join('')}
+      <div>差异说明（力度·性质·节奏）</div>
+    </div>`;
+
+    items.forEach(item => {
+      const trackClass = 'cmp-track-' + item.track;
+      const cntHtml = years.map(y => {
+        const n = (item.counts || {})[String(y)] || 0;
+        const cls = n === 0 ? 'cmp-cnt-zero' : (n >= 20 ? 'cmp-cnt-hot' : '');
+        return `<span class="cmp-cnt ${cls}">${y % 100}·${n}</span>`;
+      }).join('');
+      html += `
+        <div class="cmp-parent ${trackClass}">
+          <div class="cmp-parent-topic"><span class="cmp-chip-code">${item.code}</span>${item.label}<span class="cmp-cnt-row">${cntHtml}</span></div>
+          ${item.diff ? `<div class="cmp-topic-diff">${item.diff}</div>` : ''}
+        </div>
+      `;
+      (item.children || []).forEach(ch => {
+        const renderYr = (y) => {
+          const cell = (ch.years || {})[String(y)];
+          if (!cell) return '<div class="cmp-child-yr"><div class="cmp-yr-empty">—</div></div>';
+          const kwHtml = (cell.kw || []).map(k => `<span class="kw-tag kw-${k.type}">${k.text}</span>`).join('');
+          const linkHtml = cell.url ? `<a href="${cell.url}" target="_blank" class="cmp-yr-link">↗ 原文</a>` : '';
+          const noHtml = cell.docno ? `<span class="cmp-docno">${cell.docno}</span>` : '';
+          const ksHtml = cell.keySentence ? `<div class="cmp-keysent">${cell.keySentence}</div>` : '';
+          return `<div class="cmp-child-yr"><div class="cmp-yr-text">${kwHtml}${noHtml}<a href="${cell.url || '#'}" target="_blank" class="cmp-yr-title" rel="noopener">${cell.text}</a></div>${ksHtml}${linkHtml}</div>`;
+        };
+        html += `
+          <div class="cmp-child ${trackClass}">
+            <div class="cmp-child-dept"><span class="dept-icon">📄</span>${ch.dept}</div>
+            ${years.map(y => renderYr(y)).join('')}
+            <div class="cmp-child-note">${ch.diff || '—'}</div>
+          </div>
+        `;
+      });
+    });
+    tableEl.innerHTML = html;
+    return;
+  }
+
+  // ── 兜底模式：硬编码 compareData ──
   let items = [];
   if (currentCompareFilter === 'all') {
     items = compareData;
@@ -1077,18 +1198,15 @@ function renderCompareTable() {
     </div>
   `;
 
-  // 差异说明：基于"定调词+动词+程度词"三要素提炼每年关键点，呈现政策阶段变化
   const buildChildNote = (ch) => ch.note || '—';
 
   items.forEach(item => {
     const trackClass = 'cmp-track-' + item.track;
-    // 父行：仅主题（产业标题旁边不写近三年表述变化）
     html += `
       <div class="cmp-parent ${trackClass}">
         <div class="cmp-parent-topic"><span class="cmp-chip-code">${item.code}</span>${item.topic}</div>
       </div>
     `;
-    // 子行：差异说明栏展示该部门三年表述变化
     item.children.forEach(ch => {
       const renderYr = (yr) => {
         if (!yr || yr.empty) {
@@ -1533,5 +1651,20 @@ fetch('data/csrc.json?t=' + Date.now())
     if (d && (d.penalty || d.approval || d.review || d.media)) {
       csrcData = d;
       renderCsrc();
+    }
+  });
+
+// Async: L3 历年政策对比（data/compare.json，每日随抓取任务更新）
+// 自动检索近三年「同一主题×同一部门」文件并生成力度/性质/节奏差异说明；
+// 抓不到时回退到内置 compareData 硬编码兜底
+fetch('data/compare.json?t=' + Date.now())
+  .then(function(r) { return r.ok ? r.json() : null; })
+  .catch(function() { return null; })
+  .then(function(c) {
+    if (c && c.topics && c.topics.length) {
+      compareAuto = c;
+      currentCompareFilter = 'all';
+      renderCompareFilter();
+      renderCompareTable();
     }
   });

@@ -1273,6 +1273,13 @@ def main():
     except Exception as e:
         print(f"  证监会动态更新失败（不影响政策数据）: {e}")
 
+    # 12. L3 历年政策对比（近三年同主题×同部门文件检索 + 关键词差异说明）
+    try:
+        import update_compare
+        update_compare.main()
+    except Exception as e:
+        print(f"  历年政策对比更新失败（不影响政策数据）: {e}")
+
 
 if __name__ == "__main__":
     main()
