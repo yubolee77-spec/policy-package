@@ -1259,6 +1259,13 @@ def main():
     print(f"  Date: {today_str}")
     print(f"  Timeline entries: {len(result['timeline'])}")
 
+    # 10. L0 宏观指标（独立数据源，失败不影响政策数据）
+    try:
+        import update_macro
+        update_macro.update_macro()
+    except Exception as e:
+        print(f"  宏观指标更新失败（不影响政策数据）: {e}")
+
 
 if __name__ == "__main__":
     main()

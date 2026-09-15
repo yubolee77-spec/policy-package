@@ -59,19 +59,41 @@ const macroData = {
   ]
 };
 
+// L0 宏观数据：macroAuto 来自 data/macro.json（每日自动抓取，东方财富数据中心），
+// 抓不到的指标（社融/失业率等）回退到内置 macroData 兜底卡。
+var macroAuto = null;
+var currentMacroPeriod = 'year';
+
+function getMacroCards(period) {
+  var auto = macroAuto && macroAuto.cards ? macroAuto.cards : [];
+  var names = {};
+  auto.forEach(function(c) { names[c.name] = true; });
+  var fallback = macroData[period]
+    .filter(function(c) { return !names[c.name]; })
+    .map(function(c) {
+      var copy = {};
+      for (var k in c) copy[k] = c[k];
+      copy.fallback = true;
+      copy.sub = c.sub + '（自动数据源暂缺·手工值）';
+      return copy;
+    });
+  return auto.concat(fallback);
+}
+
 function renderMacroCards(period) {
+  currentMacroPeriod = period;
   const grid = document.getElementById('macroGrid');
   grid.innerHTML = '';
-  macroData[period].forEach(item => {
+  getMacroCards(period).forEach(item => {
     const card = document.createElement('a');
     card.href = item.url;
     card.target = '_blank';
-    card.className = 'data-card';
+    card.className = 'data-card' + (item.fallback ? ' card-fallback' : '');
     const arrow = item.dir === 'pos' ? '▲' : (item.dir === 'neg' ? '▼' : '→');
     card.innerHTML = `
       <div class="card-hd">
         <div>
-          <div class="card-title">${item.name}</div>
+          <div class="card-title">${item.name}${item.fallback ? ' <span class="fb-tag">兜底</span>' : ''}</div>
           <div class="card-sub">${item.sub}</div>
         </div>
         <a href="${item.url}" target="_blank" class="card-src">数据源 ↗</a>
@@ -91,14 +113,21 @@ function renderMacroCards(period) {
 let macroChart = null;
 function renderMacroChart() {
   if (!macroChart) macroChart = echarts.init(document.getElementById('macroChart'));
-  // 2026年1-7月真实月度数据（来源：国家统计局）
-  const monthLabels = ['2026-01','2026-02','2026-03','2026-04','2026-05','2026-06','2026-07'];
-  // CPI同比(%)：1月数据未单列(1-2月平均0.8%)，2-7月真实数据
-  const cpiData = [null, 1.3, 1.0, 1.2, 1.2, 1.0, 0.5];
-  // PPI同比(%)：仅6月4.1%、7月3.5%查证到具体数字
-  const ppiData = [null, null, null, null, null, 4.1, 3.5];
-  // PMI(%)：完整月度数据
-  const pmiData = [49.3, 49.0, 50.4, 50.3, 50.0, 50.3, 49.2];
+  // 优先用 data/macro.json 的自动序列（近13个月）；无则回退内置 2026年1-7月数据
+  let monthLabels, cpiData, ppiData, pmiData;
+  if (macroAuto && macroAuto.series && macroAuto.series.dates && macroAuto.series.dates.length) {
+    const s = macroAuto.series;
+    monthLabels = s.dates;
+    cpiData = s.cpi.slice();
+    ppiData = s.ppi.slice();
+    pmiData = s.pmi.slice();
+  } else {
+    monthLabels = ['2026-01','2026-02','2026-03','2026-04','2026-05','2026-06','2026-07'];
+    cpiData = [null, 1.3, 1.0, 1.2, 1.2, 1.0, 0.5];
+    ppiData = [null, null, null, null, null, 4.1, 3.5];
+    pmiData = [49.3, 49.0, 50.4, 50.3, 50.0, 50.3, 49.2];
+  }
+  const chartTitle = '核心宏观指标趋势（' + monthLabels[0] + ' 至 ' + monthLabels[monthLabels.length - 1] + '）';
   const softAmber = '#c9a86a';
   const softRed  = '#c97878';
   const softGreen = '#7ab88c';
@@ -106,8 +135,8 @@ function renderMacroChart() {
   const option = {
     backgroundColor: 'transparent',
     title: {
-      text: '核心宏观指标趋势（2026年1-7月）',
-      subtext: '数据来源：国家统计局 · CPI/PPI 同比(%)、PMI · 缺失月份未查证到具体数字',
+      text: chartTitle,
+      subtext: macroAuto ? '数据来源：国家统计局 · 每日自动更新（' + (macroAuto.lastUpdated || '') + ' 抓取）' : '数据来源：国家统计局 · CPI/PPI 同比(%)、PMI',
       left: 'center',
       textStyle: { color: '#d0d0d0', fontSize: 13, fontWeight: 500 },
       subtextStyle: { color: '#9e9e9e', fontSize: 10 }
@@ -1222,3 +1251,15 @@ loadLatestData().then(function(data) {
     renderMonthlyDocs(currentMonthlyPeriod);
   }
 });
+
+// Async: L0 宏观指标（data/macro.json，每日随抓取任务更新）
+fetch('data/macro.json?t=' + Date.now())
+  .then(function(r) { return r.ok ? r.json() : null; })
+  .catch(function() { return null; })
+  .then(function(m) {
+    if (m && m.cards && m.cards.length) {
+      macroAuto = m;
+      renderMacroCards(currentMacroPeriod);
+      renderMacroChart();
+    }
+  });
