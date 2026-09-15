@@ -1266,6 +1266,13 @@ def main():
     except Exception as e:
         print(f"  宏观指标更新失败（不影响政策数据）: {e}")
 
+    # 11. L5 证监会动态（负面清单/正面试点/审核进度/官媒定调，失败不影响政策数据）
+    try:
+        import update_csrc
+        update_csrc.build()
+    except Exception as e:
+        print(f"  证监会动态更新失败（不影响政策数据）: {e}")
+
 
 if __name__ == "__main__":
     main()

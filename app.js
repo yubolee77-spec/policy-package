@@ -1122,7 +1122,7 @@ const chartRenderers = {
   source: () => {},
   compare: () => { renderCompareFilter(); renderCompareTable(); },
   monthly: () => { renderMonthlyDocs(currentMonthlyPeriod); },
-  csrc: () => {},
+  csrc: () => { renderCsrc(); },
   flow: () => {}  // 资金流向页已改为纯列表形式，无需渲染图表
 };
 
@@ -1153,7 +1153,8 @@ function renderLatestBlocks() {
     var items = blocks[src];
     if (!items || !items.length) return;
     total += items.length;
-    html += '<details class="lf-src" open>';
+    // L5 的主角是「监管对账单 / 审核进度」，合并流默认折叠，点开再看，避免把页面撑得太长
+    html += '<details class="lf-src">';
     html += '<summary class="lf-src-hd">';
     html += '<span class="lf-src-name">' + (SRC_ICONS[src] || '📡') + ' ' + escapeHtml(src) + '</span>';
     html += '<span class="lf-count">' + items.length + ' 条</span>';
@@ -1172,6 +1173,265 @@ function renderLatestBlocks() {
     dateEl.textContent = '抓取于 ' + latestRawData.lastUpdated;
   }
 }
+
+
+// ============================================================
+// L5「证监会动态」—— data/csrc.json 驱动
+//   数据由 scripts/update_csrc.py 每日抓取生成，四块内容：
+//     ① 负面清单  证监会官网「监管动态」栏目（处罚 / 措施 / 禁入）—— 谁被罚了
+//     ② 正面试点  注册批复 / 政策法规 —— 谁被放行了
+//     ③ 审核进度  在审状态快照 + 审批周期趋势 —— 实时试点进度条
+//     ④ 官媒定调  首例 / 首单 / 首个 —— 国家级试点信号
+//   周期口径与 L1／L4 共用 filterByPeriod，保证各页数字一致。
+// ============================================================
+var csrcData = null;
+var currentCsrcPeriod = 'day';
+var CSRC_LIST_CAP = 60;
+
+var CSRC_PERIOD_LABEL = { day: '近 3 天', week: '近 7 天', month: '近 30 天', year: '本年度' };
+
+// 标签 → 视觉强度：heavy=重罚 / mid=一般监管 / light=轻
+var CSRC_TAG_KIND = {
+  '市场禁入': 'heavy', '行政处罚': 'heavy', '立案调查': 'heavy', '公开谴责': 'heavy',
+  '监管措施': 'mid',
+  '警示函': 'light', '监管谈话': 'light', '责令改正': 'light',
+  'REITs·商业不动产': 'pilot', 'REITs·基础设施': 'pilot',
+  'IPO注册': 'approve', '核准批复': 'approve', '并购重组': 'approve', '基金注册': 'approve',
+  '政策法规': 'policy', '审核进度公示': 'policy',
+  '境外投资者资格': 'qual', '做市资格': 'qual', '托管资格': 'qual',
+  '业务资格': 'qual', '机构合并': 'qual'
+};
+
+function csrcTagKind(tag) { return CSRC_TAG_KIND[tag] || 'mid'; }
+
+// 清单单条：日期 · 类型标签 · 标题 · 直达原文
+function renderCsrcItem(it) {
+  var kind = csrcTagKind(it.tag);
+  var isNew = it.date && isWithinDays(it.date, 3);
+  return '<a class="cl-item cl-item--' + kind + '" href="' + it.url + '" target="_blank" rel="noopener">'
+    + '<span class="cl-item-date">' + (it.date ? it.date.slice(5) : '—') + '</span>'
+    + '<span class="cl-tag cl-tag--' + kind + '">' + escapeHtml(it.tag) + '</span>'
+    + '<span class="cl-item-title">' + (isNew ? '<span class="lf-new-dot"></span>' : '')
+    + escapeHtml(it.title) + '</span>'
+    + '<span class="cl-item-go">↗</span></a>';
+}
+
+// 统计条：本周期条数 + 按类型分布（只统计当前周期，干净反映这一期在罚什么）
+function csrcStatHtml(rows) {
+  if (!rows.length) return '<span class="cl-stat-empty">本周期无记录</span>';
+  var counts = {}, order = [];
+  rows.forEach(function(r) {
+    if (!(r.tag in counts)) { counts[r.tag] = 0; order.push(r.tag); }
+    counts[r.tag]++;
+  });
+  order.sort(function(a, b) { return counts[b] - counts[a]; });
+  var chips = order.map(function(t) {
+    return '<span class="cl-stat-chip cl-stat-chip--' + csrcTagKind(t) + '">'
+      + escapeHtml(t) + ' <b>' + counts[t] + '</b></span>';
+  }).join('');
+  return '<span class="cl-stat-total">共 <b>' + rows.length + '</b> 条</span>' + chips;
+}
+
+function fillCsrcList(id, rows) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  if (!rows.length) {
+    el.innerHTML = '<div class="cl-empty">本周期暂无记录 · 换一个周期看看</div>';
+    return;
+  }
+  var shown = rows.slice(0, CSRC_LIST_CAP);
+  var html = shown.map(renderCsrcItem).join('');
+  if (rows.length > shown.length) {
+    html += '<div class="cl-more">仅列最新 ' + shown.length + ' 条（本周期共 '
+      + rows.length + ' 条）</div>';
+  }
+  el.innerHTML = html;
+}
+
+function renderCsrcLedger() {
+  if (!csrcData) return;
+  var period = currentCsrcPeriod;
+  var pen = filterByPeriod(csrcData.penalty || [], period);
+  var app = filterByPeriod(csrcData.approval || [], period);
+  var label = CSRC_PERIOD_LABEL[period] || '';
+
+  var el = document.getElementById('csrcPenaltyMeta');
+  if (el) el.textContent = label;
+  el = document.getElementById('csrcApprovalMeta');
+  if (el) el.textContent = label;
+
+  el = document.getElementById('csrcPenaltyStat');
+  if (el) el.innerHTML = csrcStatHtml(pen);
+  el = document.getElementById('csrcApprovalStat');
+  if (el) el.innerHTML = csrcStatHtml(app);
+
+  fillCsrcList('csrcPenaltyList', pen);
+  fillCsrcList('csrcApprovalList', app);
+}
+
+function renderCsrcBars(id, rows, cls) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  rows = rows || [];
+  if (!rows.length) { el.innerHTML = '<div class="cl-empty">暂无数据</div>'; return; }
+  var max = 1;
+  rows.forEach(function(x) { if (x.count > max) max = x.count; });
+  el.innerHTML = rows.map(function(x) {
+    var pct = Math.max(6, Math.round(x.count / max * 100));
+    return '<div class="rv-bar-row">'
+      + '<span class="rv-bar-name" title="' + escapeHtml(x.name) + '">' + escapeHtml(x.name) + '</span>'
+      + '<span class="rv-bar-track"><i class="' + cls + '" style="width:' + pct + '%"></i></span>'
+      + '<span class="rv-bar-val">' + x.count + '</span></div>';
+  }).join('');
+}
+
+// 审批周期趋势：内联 SVG 柱状图（近 12 个自然月「受理→注册生效」平均天数，越矮越快）
+function csrcCycleSvg(byMonth) {
+  if (!byMonth || byMonth.length < 2) {
+    return '<div class="cl-empty">样本不足，暂不绘制趋势</div>';
+  }
+  var W = 560, H = 165, L = 26, R = 6, T = 20, B = 26;
+  var n = byMonth.length;
+  var vals = byMonth.map(function(m) { return m.avg; });
+  var hi = Math.max.apply(null, vals), lo = Math.min.apply(null, vals);
+  var pad = Math.max(28, (hi - lo) * 0.35);
+  var top = hi + pad, bot = Math.max(0, lo - pad);
+  var span = Math.max(1, top - bot);
+  var iw = (W - L - R) / n;
+  var bw = Math.max(5, iw * 0.5);
+
+  var out = '<svg class="rv-svg" viewBox="0 0 ' + W + ' ' + H + '" role="img">';
+  out += '<line x1="' + L + '" y1="' + (H - B) + '" x2="' + (W - R) + '" y2="' + (H - B) + '" class="rv-axis"/>';
+  byMonth.forEach(function(m, i) {
+    var x = L + iw * i + (iw - bw) / 2;
+    var hh = Math.max(2, (m.avg - bot) / span * (H - T - B));
+    var y = H - B - hh;
+    out += '<rect x="' + x.toFixed(1) + '" y="' + y.toFixed(1) + '" width="' + bw.toFixed(1)
+      + '" height="' + hh.toFixed(1) + '" rx="2" class="rv-bar"/>';
+    out += '<text x="' + (x + bw / 2).toFixed(1) + '" y="' + (y - 4).toFixed(1)
+      + '" text-anchor="middle" class="rv-bar-val">' + m.avg + '</text>';
+    out += '<text x="' + (x + bw / 2).toFixed(1) + '" y="' + (H - B + 14).toFixed(1)
+      + '" text-anchor="middle" class="rv-bar-x">' + m.month + '</text>';
+  });
+  out += '</svg>';
+  out += '<div class="rv-chart-note">柱高＝当月「受理→注册生效」平均天数 · 越矮提速越明显 · 单位：天</div>';
+  return out;
+}
+
+function renderCsrcReview() {
+  if (!csrcData || !csrcData.review) return;
+  var r = csrcData.review;
+  var cy = r.cycle || {};
+
+  var meta = document.getElementById('csrcReviewMeta');
+  if (meta) meta.textContent = '数据截至 ' + (r.asOf || '—') + ' · 近两年在审口径';
+
+  // KPI 条：审批周期变快算「好」
+  var faster = cy.deltaPct != null && cy.deltaPct < 0;
+  var kpis = [
+    { k: '在审企业', v: r.activeTotal, u: ' 家', n: '受理 / 问询 / 过会 / 提交注册' },
+    { k: '已注册生效', v: r.successTotal, u: ' 家', n: '近两年累计放行' },
+    { k: '已终止撤回', v: r.failTotal, u: ' 家', n: '近两年出局' },
+    { k: '审批周期', v: cy.recentAvg, u: ' 天',
+      n: '近 90 天均值 · ' + (cy.verdict || ''), cls: cy.deltaPct == null ? '' : (faster ? 'good' : 'warn') }
+  ];
+  var kpiEl = document.getElementById('csrcReviewKpis');
+  if (kpiEl) {
+    kpiEl.innerHTML = kpis.map(function(x) {
+      return '<div class="rv-kpi' + (x.cls ? ' rv-kpi--' + x.cls : '') + '">'
+        + '<div class="rv-kpi-k">' + x.k + '</div>'
+        + '<div class="rv-kpi-v">' + (x.v == null ? '—' : x.v)
+        + '<span class="rv-kpi-u">' + x.u + '</span></div>'
+        + '<div class="rv-kpi-n">' + escapeHtml(x.n) + '</div></div>';
+    }).join('');
+  }
+
+  // 在审状态漏斗
+  var stEl = document.getElementById('csrcReviewStages');
+  if (stEl) {
+    var stages = r.stages || [];
+    var max = 1;
+    stages.forEach(function(s) { if (s.count > max) max = s.count; });
+    stEl.innerHTML = stages.map(function(s) {
+      var pct = Math.max(3, Math.round(s.count / max * 100));
+      return '<div class="rv-stage rv-stage--' + s.kind + '">'
+        + '<div class="rv-stage-name">' + escapeHtml(s.name) + '</div>'
+        + '<div class="rv-stage-bar"><i style="width:' + pct + '%"></i></div>'
+        + '<div class="rv-stage-num">' + s.count + '</div></div>';
+    }).join('');
+  }
+
+  renderCsrcBars('csrcReviewMarkets', r.markets, 'bar-cyan');
+  renderCsrcBars('csrcReviewIndustries', r.industries, 'bar-sand');
+
+  var chEl = document.getElementById('csrcReviewCycle');
+  if (chEl) chEl.innerHTML = csrcCycleSvg(cy.byMonth);
+
+  // 最近放行（注册生效）
+  var apEl = document.getElementById('csrcReviewApproved');
+  if (apEl) {
+    var rows = (r.recentApproved || []).slice(0, 12);
+    if (!rows.length) {
+      apEl.innerHTML = '<div class="cl-empty">暂无记录</div>';
+    } else {
+      apEl.innerHTML =
+        '<div class="rv-tbl-head"><span>日期</span><span>企业</span><span>板块</span>'
+        + '<span>行业</span><span>周期</span></div>'
+        + rows.map(function(x) {
+            var fast = x.days != null && x.days <= 300;
+            return '<div class="rv-tbl-row">'
+              + '<span class="rv-td-date">' + (x.date || '').slice(5) + '</span>'
+              + '<span class="rv-td-name">' + escapeHtml(x.company) + '</span>'
+              + '<span class="rv-td-market">' + escapeHtml(x.market || '—') + '</span>'
+              + '<span class="rv-td-ind" title="' + escapeHtml(x.industry) + '">'
+              + escapeHtml((x.industry || '—').slice(0, 14)) + '</span>'
+              + '<span class="rv-td-days' + (fast ? ' rv-td-days--fast' : '') + '">'
+              + (x.days == null ? '—' : x.days + '天') + '</span></div>';
+          }).join('');
+    }
+  }
+}
+
+function renderCsrcMedia() {
+  if (!csrcData) return;
+  var el = document.getElementById('csrcMediaList');
+  if (!el) return;
+  var rows = filterByPeriod(csrcData.media || [], currentCsrcPeriod);
+  if (!rows.length) {
+    el.innerHTML = '<div class="cl-empty">本周期暂无官媒定调报道 · 换一个周期看看</div>';
+    return;
+  }
+  el.innerHTML = rows.slice(0, 40).map(function(m) {
+    var topics = (m.topics || []).map(function(t) {
+      return '<span class="media-topic">' + escapeHtml(t) + '</span>';
+    }).join('');
+    return '<a class="media-item' + (m.strong ? ' media-item--strong' : '')
+      + '" href="' + m.url + '" target="_blank" rel="noopener">'
+      + '<span class="media-date">' + (m.date || '').slice(5) + '</span>'
+      + '<span class="media-src">' + escapeHtml(m.media) + '</span>'
+      + '<span class="media-kw">' + escapeHtml(m.keyword) + '</span>'
+      + '<span class="media-title">' + escapeHtml(m.title) + '</span>'
+      + topics + '</a>';
+  }).join('');
+}
+
+function renderCsrc() {
+  renderCsrcLedger();
+  renderCsrcReview();
+  renderCsrcMedia();
+}
+
+// L5 周期切换（日 / 周 / 月 / 年）—— 只影响清单与官媒列表，
+// 「发行上市审核」是当前快照，不随周期变化。
+document.querySelectorAll('[data-cperiod]').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('[data-cperiod]').forEach(function(b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+    currentCsrcPeriod = btn.dataset.cperiod;
+    renderCsrcLedger();
+    renderCsrcMedia();
+  });
+});
 
 // ============================================================
 // Auto-update: fetch latest data from data/latest.json
@@ -1261,5 +1521,17 @@ fetch('data/macro.json?t=' + Date.now())
       macroAuto = m;
       renderMacroCards(currentMacroPeriod);
       renderMacroChart();
+    }
+  });
+
+// Async: L5 证监会动态（data/csrc.json，每日随抓取任务更新）
+// 四块内容：负面清单 / 正面试点 / 发行上市审核进度 / 官媒定调
+fetch('data/csrc.json?t=' + Date.now())
+  .then(function(r) { return r.ok ? r.json() : null; })
+  .catch(function() { return null; })
+  .then(function(d) {
+    if (d && (d.penalty || d.approval || d.review || d.media)) {
+      csrcData = d;
+      renderCsrc();
     }
   });

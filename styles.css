@@ -588,3 +588,173 @@ a:hover{color:inherit}
   .lf-row-src{display:none}
   .lf-row-title{white-space:normal}
 }
+
+/* ============================================================
+   L5「证监会动态」—— 监管对账单 / 审核进度 / 官媒定调
+   配色沿用站点深色主题变量
+   ============================================================ */
+
+/* ---------- ① 监管对账单：负面清单 vs 正面试点 ---------- */
+.csrc-ledger{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:16px 0}
+
+.csrc-col{background:var(--bg-card);border:1px solid var(--border-primary);border-radius:8px;padding:14px;display:flex;flex-direction:column;min-width:0}
+.csrc-col--penalty{border-left:3px solid var(--accent-red)}
+.csrc-col--approval{border-left:3px solid var(--accent-green)}
+
+.cl-hd{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border-primary)}
+.cl-title{font-size:13px;font-weight:600;color:var(--text-primary);font-family:var(--font-mono);letter-spacing:.3px}
+.cl-meta{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);flex-shrink:0}
+
+/* 统计条：本周期条数 + 类型分布 */
+.cl-stat{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-bottom:10px;min-height:22px}
+.cl-stat-total{font-size:11px;color:var(--text-secondary);font-family:var(--font-mono);padding-right:4px;border-right:1px solid var(--border-primary);margin-right:3px}
+.cl-stat-total b{font-size:13px;color:var(--text-primary)}
+.cl-stat-chip{font-size:10px;padding:2px 7px;border-radius:10px;font-family:var(--font-mono);white-space:nowrap;background:var(--bg-hover);color:var(--text-secondary);border:1px solid transparent}
+.cl-stat-chip b{color:var(--text-primary);font-weight:600}
+.cl-stat-chip--heavy{background:rgba(224,112,112,.14);border-color:rgba(224,112,112,.35);color:var(--accent-red)}
+.cl-stat-chip--mid{background:rgba(255,183,77,.12);border-color:rgba(255,183,77,.3);color:var(--accent-orange)}
+.cl-stat-chip--light{background:rgba(128,128,128,.14);border-color:rgba(128,128,128,.3);color:var(--text-secondary)}
+.cl-stat-chip--pilot{background:rgba(77,166,154,.16);border-color:rgba(77,166,154,.4);color:var(--accent-teal)}
+.cl-stat-chip--approve{background:rgba(91,191,125,.14);border-color:rgba(91,191,125,.35);color:var(--accent-green)}
+.cl-stat-chip--policy{background:rgba(201,168,106,.14);border-color:rgba(201,168,106,.35);color:var(--accent-sand)}
+.cl-stat-chip--qual{background:rgba(128,128,128,.12);border-color:rgba(128,128,128,.26);color:var(--text-secondary)}
+.cl-stat-empty{font-size:11px;color:var(--text-muted);font-family:var(--font-mono)}
+
+/* 清单列表：一行一条，日期｜标签｜标题｜↗ */
+.cl-list{display:flex;flex-direction:column;gap:1px;flex:1;min-height:0}
+.cl-item{display:grid;grid-template-columns:46px auto 1fr 14px;align-items:baseline;gap:8px;
+  padding:6px 8px;border-radius:4px;text-decoration:none;color:inherit;
+  border-left:2px solid transparent;transition:background .12s,border-color .12s}
+.cl-item:hover{background:var(--bg-hover)}
+.cl-item--heavy{border-left-color:rgba(224,112,112,.6)}
+.cl-item--mid{border-left-color:rgba(255,183,77,.5)}
+.cl-item--light{border-left-color:rgba(128,128,128,.4)}
+.cl-item--pilot{border-left-color:rgba(77,166,154,.7)}
+.cl-item--approve{border-left-color:rgba(91,191,125,.55)}
+.cl-item--policy{border-left-color:rgba(201,168,106,.5)}
+.cl-item--qual{border-left-color:rgba(128,128,128,.35)}
+
+.cl-item-date{font-size:10.5px;color:var(--text-muted);font-family:var(--font-mono)}
+.cl-tag{font-size:9.5px;padding:1px 6px;border-radius:8px;font-family:var(--font-mono);white-space:nowrap;justify-self:start;line-height:1.6}
+.cl-tag--heavy{background:rgba(224,112,112,.16);color:var(--accent-red)}
+.cl-tag--mid{background:rgba(255,183,77,.14);color:var(--accent-orange)}
+.cl-tag--light{background:rgba(128,128,128,.16);color:var(--text-secondary)}
+.cl-tag--pilot{background:rgba(77,166,154,.18);color:var(--accent-teal)}
+.cl-tag--approve{background:rgba(91,191,125,.15);color:var(--accent-green)}
+.cl-tag--policy{background:rgba(201,168,106,.15);color:var(--accent-sand)}
+.cl-tag--qual{background:rgba(128,128,128,.12);color:var(--text-secondary)}
+
+.cl-item-title{font-size:12px;color:var(--text-primary);line-height:1.5}
+.cl-item:hover .cl-item-title{color:var(--accent-amber)}
+.cl-item-go{font-size:10px;color:var(--text-muted);opacity:0;transition:opacity .12s}
+.cl-item:hover .cl-item-go{opacity:1;color:var(--accent-amber)}
+
+.cl-empty{font-size:11.5px;color:var(--text-muted);font-family:var(--font-mono);padding:16px 0;text-align:center}
+.cl-more{font-size:10.5px;color:var(--text-muted);font-family:var(--font-mono);padding:8px 8px 2px;border-top:1px dashed var(--border-primary);margin-top:6px}
+
+/* ---------- ② 发行上市审核进度 ---------- */
+.rv-box{background:var(--bg-card);border:1px solid var(--border-primary);border-radius:8px;padding:16px;margin-bottom:16px}
+.rv-hd{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.rv-title{font-size:14px;font-weight:600;color:var(--text-primary);font-family:var(--font-mono);letter-spacing:.3px}
+.rv-meta{font-size:10.5px;color:var(--text-muted);font-family:var(--font-mono)}
+.rv-sub-title{font-size:12px;color:var(--accent-sand);font-family:var(--font-mono);letter-spacing:.4px;
+  margin:16px 0 10px;padding-bottom:6px;border-bottom:1px dashed var(--border-primary)}
+
+/* KPI 条 */
+.rv-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.rv-kpi{background:var(--bg-secondary);border:1px solid var(--border-primary);border-left:3px solid var(--border-primary);
+  border-radius:6px;padding:10px 12px}
+.rv-kpi--good{border-left-color:var(--accent-green)}
+.rv-kpi--warn{border-left-color:var(--accent-orange)}
+.rv-kpi-k{font-size:10.5px;color:var(--text-muted);font-family:var(--font-mono);margin-bottom:4px}
+.rv-kpi-v{font-size:22px;font-weight:600;color:var(--text-primary);font-family:var(--font-mono);line-height:1.1}
+.rv-kpi--good .rv-kpi-v{color:var(--accent-green)}
+.rv-kpi--warn .rv-kpi-v{color:var(--accent-orange)}
+.rv-kpi-u{font-size:11px;color:var(--text-muted);margin-left:3px;font-weight:400}
+.rv-kpi-n{font-size:10px;color:var(--text-muted);margin-top:5px;line-height:1.5}
+
+/* 在审状态分布（横向条形） */
+.rv-stages{display:flex;flex-direction:column;gap:7px}
+.rv-stage{display:grid;grid-template-columns:104px 1fr 52px;align-items:center;gap:10px}
+.rv-stage-name{font-size:11px;color:var(--text-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rv-stage-bar{height:14px;background:var(--bg-secondary);border-radius:3px;overflow:hidden}
+.rv-stage-bar i{display:block;height:100%;border-radius:3px;background:var(--accent-amber);transition:width .5s ease}
+.rv-stage--active .rv-stage-bar i{background:linear-gradient(90deg,rgba(224,160,48,.55),var(--accent-amber))}
+.rv-stage--success .rv-stage-bar i{background:linear-gradient(90deg,rgba(91,191,125,.55),var(--accent-green))}
+.rv-stage--fail .rv-stage-bar i{background:linear-gradient(90deg,rgba(224,112,112,.4),var(--accent-red))}
+.rv-stage-num{font-size:12px;font-family:var(--font-mono);color:var(--text-primary);text-align:right}
+.rv-stage--fail .rv-stage-num{color:var(--text-muted)}
+
+/* 板块 / 行业分布 */
+.rv-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:4px}
+.rv-panel{background:var(--bg-secondary);border:1px solid var(--border-primary);border-radius:6px;padding:12px}
+.rv-panel--wide{grid-column:1 / -1}
+.rv-panel-title{font-size:11px;color:var(--text-muted);font-family:var(--font-mono);margin-bottom:10px}
+.rv-bars{display:flex;flex-direction:column;gap:6px}
+.rv-bar-row{display:grid;grid-template-columns:78px 1fr 34px;align-items:center;gap:8px}
+.rv-bar-name{font-size:10.5px;color:var(--text-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rv-bar-track{height:11px;background:var(--bg-card);border-radius:3px;overflow:hidden}
+.rv-bar-track i{display:block;height:100%;border-radius:3px}
+.rv-bar-track i.bar-cyan{background:linear-gradient(90deg,rgba(77,166,154,.5),var(--accent-teal))}
+.rv-bar-track i.bar-sand{background:linear-gradient(90deg,rgba(201,168,106,.45),var(--accent-sand))}
+.rv-bar-val{font-size:10.5px;font-family:var(--font-mono);color:var(--text-secondary);text-align:right}
+
+/* 审批周期趋势（内联 SVG） */
+.rv-chart{width:100%}
+.rv-svg{width:100%;height:auto;display:block}
+.rv-axis{stroke:var(--border-primary);stroke-width:1}
+.rv-bar{fill:rgba(224,160,48,.75)}
+.rv-bar-val{fill:var(--text-secondary);font-size:9px;font-family:var(--font-mono)}
+.rv-bar-x{fill:var(--text-muted);font-size:8.5px;font-family:var(--font-mono)}
+.rv-chart-note{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);margin-top:6px;text-align:center}
+
+/* 最近放行表格 */
+.rv-table{display:flex;flex-direction:column}
+.rv-tbl-head,.rv-tbl-row{display:grid;grid-template-columns:48px 1.5fr 62px 1fr 62px;align-items:center;gap:8px}
+.rv-tbl-head{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);
+  padding:0 8px 6px;border-bottom:1px solid var(--border-primary)}
+.rv-tbl-row{padding:6px 8px;border-radius:4px;font-size:11.5px}
+.rv-tbl-row:hover{background:var(--bg-secondary)}
+.rv-td-date{font-family:var(--font-mono);color:var(--text-muted);font-size:10.5px}
+.rv-td-name{color:var(--text-primary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rv-td-market{font-size:10.5px;color:var(--accent-teal);font-family:var(--font-mono)}
+.rv-td-ind{font-size:10.5px;color:var(--text-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rv-td-days{font-family:var(--font-mono);font-size:11px;color:var(--text-secondary);text-align:right}
+.rv-td-days--fast{color:var(--accent-green);font-weight:600}
+
+/* ---------- ③ 官媒定调 ---------- */
+.media-list{display:flex;flex-direction:column;gap:1px}
+.media-item{display:grid;grid-template-columns:46px 96px 40px 1fr auto;align-items:baseline;gap:8px;
+  padding:7px 8px;border-radius:4px;text-decoration:none;color:inherit;
+  border-left:2px solid rgba(128,128,128,.28);transition:background .12s,border-color .12s}
+.media-item:hover{background:var(--bg-secondary);border-left-color:var(--accent-amber)}
+.media-item--strong{border-left-color:rgba(224,160,48,.8);background:rgba(224,160,48,.04)}
+.media-date{font-size:10.5px;color:var(--text-muted);font-family:var(--font-mono)}
+.media-src{font-size:10.5px;color:var(--accent-teal);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.media-kw{font-size:9.5px;padding:1px 6px;border-radius:8px;text-align:center;
+  background:rgba(224,160,48,.15);color:var(--accent-amber);font-family:var(--font-mono);line-height:1.6}
+.media-item--strong .media-kw{background:rgba(224,160,48,.26);font-weight:600}
+.media-title{font-size:12px;color:var(--text-primary);line-height:1.5}
+.media-item:hover .media-title{color:var(--accent-amber)}
+.media-topic{font-size:9.5px;padding:1px 6px;border-radius:8px;white-space:nowrap;
+  background:rgba(77,166,154,.14);color:var(--accent-teal);font-family:var(--font-mono);line-height:1.6}
+
+/* ---------- 跨页去重指引 ---------- */
+.cross-ref{font-size:11.5px;line-height:1.7;color:var(--text-secondary);
+  background:var(--bg-card);border:1px dashed var(--border-primary);border-radius:6px;
+  padding:10px 14px;margin-top:4px}
+.cross-ref b{color:var(--text-primary)}
+.cross-ref a{color:var(--accent-amber);text-decoration:none;border-bottom:1px dotted var(--accent-amber)}
+.cross-ref a:hover{color:var(--accent-orange)}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:900px){
+  .csrc-ledger{grid-template-columns:1fr}
+  .rv-grid{grid-template-columns:1fr}
+  .rv-tbl-head,.rv-tbl-row{grid-template-columns:44px 1.4fr 56px 60px}
+  .rv-td-ind{display:none}
+  .media-item{grid-template-columns:42px 1fr;row-gap:4px}
+  .media-kw,.media-topic{justify-self:start}
+  .media-title{grid-column:1 / -1}
+  .rv-stage{grid-template-columns:86px 1fr 44px}
+}

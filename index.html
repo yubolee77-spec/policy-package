@@ -443,325 +443,114 @@
 
 <!-- ============================================================ -->
 <!-- LAYER 5: 证监会动态 -->
+<!-- 全部数据来自 data/csrc.json（scripts/update_csrc.py 每日抓取） -->
+<!-- 负面清单：证监会官网「监管动态」栏目 —— 谁被罚了               -->
+<!-- 正面试点：注册批复 / 政策法规 —— 谁被放行了                    -->
+<!-- 审核进度：交易所发行上市审核 —— 实时试点进度条                  -->
+<!-- 官媒定调：财联社/证券时报等 首例/首单/首个 —— 国家级信号        -->
 <!-- ============================================================ -->
 <div class="panel" id="p-csrc">
   <div class="sec-hd">
-    <div class="sec-title"><span class="badge">L5</span>证监会动态 <span class="sec-sub">监管处罚 · 发行审核 · 官方解读 · 三笔钱跟踪（每条均附原文）</span></div>
+    <div class="sec-title"><span class="badge">L5</span>证监会动态 <span class="sec-sub">负面清单 · 正面试点 · 发行上市审核进度 · 官媒定调（全部每日自动抓取，每条附原文）</span></div>
+    <div class="tier-switcher" id="csrcSwitcher">
+      <button class="tier-btn active" data-cperiod="day">日</button>
+      <button class="tier-btn" data-cperiod="week">周</button>
+      <button class="tier-btn" data-cperiod="month">月</button>
+      <button class="tier-btn" data-cperiod="year">年</button>
+    </div>
   </div>
 
-  <!-- 实时抓取：证监会/央行/交易所最新条目（data/latest.json 驱动，每日自动更新） -->
+  <!-- 三个观察动作 -->
+  <div class="l4-method">
+    <div class="l4-method-row">
+      <span class="l4-method-k">① 看负面</span>
+      证监会官网<b>「监管动态」</b>按日盯市 → 谁被罚了
+      <span class="l4-method-note">警示函 / 监管谈话 / 责令改正 = 轻 · 行政处罚 / 市场禁入 = 重</span>
+    </div>
+    <div class="l4-method-row">
+      <span class="l4-method-k">② 看正面</span>
+      <b>注册批复</b> = 谁被放行了
+      <span class="l4-method-note">REITs / IPO 注册批复连续放量 = 试点扩围信号</span>
+    </div>
+    <div class="l4-method-row">
+      <span class="l4-method-k">③ 看进度</span>
+      交易所<b>「发行上市审核」</b> = 实时试点进度条
+      <span class="l4-method-note">受理→注册生效周期缩短、行业向新质生产力集中 = 通道在提速</span>
+    </div>
+  </div>
+
+  <!-- 实时监管动态：证监会/交易所/央行合并流（来自 latest.json，每日更新） -->
   <div class="latest-feed" id="csrcLiveFeed" style="display:none">
     <div class="lf-header">
-      <span class="lf-title">📡 实时监管动态（每日自动更新）</span>
+      <span class="lf-title">📡 实时监管动态（证监会 / 交易所 / 央行 合并流）</span>
       <span class="lf-sub" id="csrcLiveDate"></span>
     </div>
     <div id="csrcLiveList" class="lf-list"></div>
   </div>
 
-  <!-- 第一部分：证监会/交易所动态 -->
-  <div style="margin-bottom:18px">
-    <div class="doc-section-title" style="font-size:14px;color:var(--accent-cyan);font-weight:600;margin-bottom:12px;padding-bottom:6px;border-bottom:1px solid var(--border-primary)">▸ 重点政策与案例（人工整理，长期有效）</div>
-    <div class="csrc-grid">
-      <!-- 证监会 -->
-      <div class="csrc-card">
-        <div class="csrc-card-title">🏛 中国证监会</div>
-        <div style="font-size:11px;color:var(--text-muted);margin-bottom:8px">重点栏目："按日盯市" · "监管动态" · "政策发布"</div>
-
-        <div class="csrc-item">
-          <a href="http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">📢 中国证监会关于推出商业不动产投资信托基金试点的公告</div>
-            <div class="csrc-item-meta">证监会公告〔2025〕21号 · 2025-12-31 · 原文发布</div>
-          </a>
-          <div style="margin-top:4px"><a href="http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml" target="_blank" class="doc-link">↗ 直接跳转原文</a></div>
-        </div>
-
-        <div class="csrc-item">
-          <a href="http://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">📋 关于推动不动产投资信托基金(REITs)市场高质量发展有关工作的通知</div>
-            <div class="csrc-item-meta">证监发〔2025〕63号 · 2025-12-31 · 优化审核流程</div>
-          </a>
-          <div style="margin-top:4px"><a href="http://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml" target="_blank" class="doc-link">↗ 直接跳转原文</a></div>
-        </div>
-
-        <div class="csrc-item">
-          <a href="http://www.csrc.gov.cn/csrc/c100028/c7605669/content.shtml" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">✅ 证监会正式印发商业不动产REITs试点配套规则</div>
-            <div class="csrc-item-meta">2025-12-31 · 证监会 · 政策解读配套</div>
-          </a>
-          <div style="margin-top:4px"><a href="http://www.csrc.gov.cn/csrc/c100028/c7605669/content.shtml" target="_blank" class="doc-link">↗ 直接跳转原文</a></div>
-        </div>
-
-        <div class="csrc-item" style="border-bottom:none">
-          <div class="csrc-item-title" style="font-size:11px;color:var(--text-muted);margin-bottom:4px">证监会官网入口：</div>
-          <a href="http://www.csrc.gov.cn" target="_blank" class="doc-link">→ 证监会首页</a>
-          <a href="http://www.csrc.gov.cn/csrc/c100028/common_list.shtml" target="_blank" class="doc-link" style="margin-left:6px">→ 监管动态栏目</a>
-        </div>
+  <!-- ① 监管对账单：负面清单 vs 正面试点 -->
+  <div class="csrc-ledger">
+    <div class="csrc-col csrc-col--penalty">
+      <div class="cl-hd">
+        <span class="cl-title">🚫 负面清单 · 谁被罚了</span>
+        <span class="cl-meta" id="csrcPenaltyMeta"></span>
       </div>
-
-      <!-- 交易所 -->
-      <div class="csrc-card">
-        <div class="csrc-card-title">🏦 交易所（上交所/深交所/北交所）</div>
-        <div style="font-size:11px;color:var(--text-muted);margin-bottom:8px">每条均为具体文件/文章原文，点击标题或底部链接可跳转</div>
-
-        <div class="csrc-item">
-          <a href="https://www.sse.com.cn/lawandrules/sselawsrules2025/reits/c/c_20251231_10803729.shtml" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">📋 上交所《公开募集不动产投资信托基金(REITs)业务办法(试行)》</div>
-            <div class="csrc-item-meta">上海证券交易所 · 2025-12-31发布 · 商业不动产REITs审核核心规则</div>
-          </a>
-          <div style="margin-top:4px">
-            <a href="https://www.sse.com.cn/lawandrules/sselawsrules2025/reits/c/c_20251231_10803729.shtml" target="_blank" class="doc-link">↗ 业务办法原文</a>
-            <a href="https://www.sse.com.cn/lawandrules/sselawsrules2025/reits/c/c_20251231_10803742.shtml" target="_blank" class="doc-link" style="margin-left:6px">↗ 审核关注事项指引1号</a>
-            <a href="https://www.sse.com.cn/lawandrules/sselawsrules2025/reits/c/c_20251231_10803747.shtml" target="_blank" class="doc-link" style="margin-left:6px">↗ 发售业务指引2号</a>
-          </div>
-        </div>
-
-        <div class="csrc-item">
-          <a href="https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-23/600048_20260623_164H.pdf" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">🚀 保利发展：关于商业不动产REITs申报发行工作进展的公告</div>
-            <div class="csrc-item-meta">上海证券交易所 · 2026-06-23 · 上证REITs(审)〔2026〕13号无异议函 · 证监会注册批复</div>
-          </a>
-          <div style="margin-top:4px">
-            <a href="https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-23/600048_20260623_164H.pdf" target="_blank" class="doc-link">↗ 进展公告原文(PDF)</a>
-            <a href="http://static.sse.com.cn/bond/bridge2/disclosure/announcement/c/202603/f73619_20260303_MEWZ.pdf" target="_blank" class="doc-link" style="margin-left:6px">↗ 砂之船REITs反馈意见原文</a>
-          </div>
-        </div>
-
-        <div class="csrc-item">
-          <a href="http://www.szse.cn/aboutus/trends/news/t20260703_621509.html" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">📋 深交所《上市公司证券发行上市审核规则(2026年修订征求意见稿)》</div>
-            <div class="csrc-item-meta">深圳证券交易所 · 2026-07-03 · 深证上〔2026〕929号 · 再融资制度改革</div>
-          </a>
-          <div style="margin-top:4px">
-            <a href="http://www.szse.cn/aboutus/trends/news/t20260703_621509.html" target="_blank" class="doc-link">↗ 审核规则通知原文</a>
-            <a href="http://docs.static.szse.cn/www/aboutus/trends/news/W020260703707572313381.pdf" target="_blank" class="doc-link" style="margin-left:6px">↗ 规则全文(PDF)</a>
-            <a href="http://docs.static.szse.cn/www/aboutus/trends/news/W020260703707572500491.pdf" target="_blank" class="doc-link" style="margin-left:6px">↗ 修订说明(PDF)</a>
-          </div>
-        </div>
-
-        <div class="csrc-item">
-          <a href="http://www.szse.cn/lawrules/rule/allrules/bussiness/t20260327_619718.html" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">📋 深交所《股票发行上市审核业务指引第8号——轻资产、高研发投入认定标准(2026修订)》</div>
-            <div class="csrc-item-meta">深圳证券交易所 · 2026-03-27 · 深证上〔2026〕380号 · 服务科技创新</div>
-          </a>
-          <div style="margin-top:4px">
-            <a href="http://www.szse.cn/lawrules/rule/allrules/bussiness/t20260327_619718.html" target="_blank" class="doc-link">↗ 指引通知原文</a>
-            <a href="http://docs.static.szse.cn/www/lawrules/rule/allrules/bussiness/W020260327553523361751.pdf" target="_blank" class="doc-link" style="margin-left:6px">↗ 指引全文(PDF)</a>
-          </div>
-        </div>
-
-        <div class="csrc-item">
-          <a href="https://investor.szse.cn/lawrules/rule/bond/t20260130_618863.html" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">📋 深交所《公司债券发行上市审核业务指引第7号——专项品种公司债券(2026修订)》</div>
-            <div class="csrc-item-meta">深圳证券交易所 · 2026-01-30 · 深证上〔2026〕137号</div>
-          </a>
-          <div style="margin-top:4px">
-            <a href="https://investor.szse.cn/lawrules/rule/bond/t20260130_618863.html" target="_blank" class="doc-link">↗ 指引通知原文</a>
-            <a href="http://docs.static.szse.cn/www/lawrules/rule/bond/W020260130623576432850.pdf" target="_blank" class="doc-link" style="margin-left:6px">↗ 指引全文(PDF)</a>
-          </div>
-        </div>
-
-        <div class="csrc-item" style="border-bottom:none">
-          <div class="csrc-item-title" style="font-size:11px;color:var(--text-muted);margin-bottom:4px">实时项目动态入口（查看最新审核进度）：</div>
-          <a href="https://www.sse.com.cn/reits/home/" target="_blank" class="doc-link">→ 上交所REITs项目动态</a>
-          <a href="http://www.szse.cn/disclosure/listed/notice/index.html" target="_blank" class="doc-link" style="margin-left:6px">→ 深交所披露</a>
-          <a href="https://www.bse.cn" target="_blank" class="doc-link" style="margin-left:6px">→ 北交所</a>
-        </div>
+      <div class="cl-stat" id="csrcPenaltyStat"></div>
+      <div class="cl-list lf-list--scroll" id="csrcPenaltyList"></div>
+    </div>
+    <div class="csrc-col csrc-col--approval">
+      <div class="cl-hd">
+        <span class="cl-title">✅ 正面试点 · 谁被放行了</span>
+        <span class="cl-meta" id="csrcApprovalMeta"></span>
       </div>
-
-      <!-- 财联社/证券时报 -->
-      <div class="csrc-card">
-        <div class="csrc-card-title">📰 财联社 / 证券时报 官方定调报道</div>
-        <div style="font-size:11px;color:var(--text-muted);margin-bottom:8px">用法：搜索"首发"、"首例" · 头版头条=国家级信号</div>
-
-        <div class="csrc-item">
-          <a href="http://www.csrc.gov.cn/shanxi/c106408/c7646411/content.shtml" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">🔥 稳步扩容提质！又5单商业不动产REITs启动询价</div>
-            <div class="csrc-item-meta">2026-07-21 · 证监会山西监管局 · 地方落地</div>
-          </a>
-          <div style="margin-top:4px"><a href="http://www.csrc.gov.cn/shanxi/c106408/c7646411/content.shtml" target="_blank" class="doc-link">↗ 跳转证监会官方原文</a></div>
-        </div>
-
-        <div class="csrc-item">
-          <a href="http://www.csrc.gov.cn/shanxi/c106408/c7600014/content.shtml" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">📌 证监会全面启动商业不动产REITs试点工作</div>
-            <div class="csrc-item-meta">2025-12-05 · 证监会山西监管局 · 试点信号</div>
-          </a>
-          <div style="margin-top:4px"><a href="http://www.csrc.gov.cn/shanxi/c106408/c7600014/content.shtml" target="_blank" class="doc-link">↗ 跳转证监会官方原文</a></div>
-        </div>
-
-        <div class="csrc-item" style="border-bottom:none">
-          <div class="csrc-item-title" style="font-size:11px;color:var(--text-muted);margin-bottom:4px">官媒入口：</div>
-          <a href="https://www.cls.cn" target="_blank" class="doc-link">→ 财联社</a>
-          <a href="https://www.cs.com.cn" target="_blank" class="doc-link" style="margin-left:6px">→ 证券时报</a>
-        </div>
-      </div>
-
-      <!-- KPI判断 -->
-      <div class="csrc-card">
-        <div class="csrc-card-title">📊 KPI观察要点（对比去年同期）</div>
-        <div style="font-size:11px;color:var(--text-muted);margin-bottom:8px">每项KPI均对应官方原文可查</div>
-
-        <div class="csrc-item">
-          <a href="http://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">✅ 审批速度变快（3个月→1个月）</div>
-            <div class="csrc-item-meta">依据：REITs高质量发展通知 · "进一步优化审核流程"</div>
-          </a>
-          <div style="margin-top:4px"><a href="http://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml" target="_blank" class="doc-link">↗ 证监发〔2025〕63号原文</a></div>
-        </div>
-
-        <div class="csrc-item">
-          <a href="https://www.sse.com.cn/reits/home/" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">✅ 底层资产扩展（高速→商场→保租房）</div>
-            <div class="csrc-item-meta">依据：上交所REITs项目披露 · 消费基础设施纳入</div>
-          </a>
-          <div style="margin-top:4px"><a href="https://www.sse.com.cn/reits/home/" target="_blank" class="doc-link">↗ 上交所项目披露原文</a></div>
-        </div>
-
-        <div class="csrc-item" style="border-bottom:none">
-          <a href="http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml" target="_blank" style="color:inherit;text-decoration:none;display:block">
-            <div class="csrc-item-title">✅ 关键判断：试点→推广</div>
-            <div class="csrc-item-meta">依据：证监会公告21号 · 商业不动产REITs正式推出</div>
-          </a>
-          <div style="margin-top:4px">
-            <a href="http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml" target="_blank" class="doc-link">↗ 公告21号原文</a>
-            <a href="https://www.cs.com.cn" target="_blank" class="doc-link" style="margin-left:6px">→ 证券时报定调报道</a>
-          </div>
-        </div>
-      </div>
+      <div class="cl-stat" id="csrcApprovalStat"></div>
+      <div class="cl-list lf-list--scroll" id="csrcApprovalList"></div>
     </div>
   </div>
 
-  <!-- 第二部分：三笔钱跟踪 -->
-  <div>
-    <div class="doc-section-title" style="font-size:14px;color:var(--accent-cyan);font-weight:600;margin-bottom:12px;padding-bottom:6px;border-bottom:1px solid var(--border-primary)">▸ 跟踪资金三笔钱是否跟上（每项数据均附官方来源）</div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px">
+  <!-- ② 发行上市审核进度（实时试点进度条） -->
+  <div class="rv-box">
+    <div class="rv-hd">
+      <span class="rv-title">📊 发行上市审核 · 实时进度条</span>
+      <span class="rv-meta" id="csrcReviewMeta"></span>
+    </div>
+    <div class="rv-kpis" id="csrcReviewKpis"></div>
 
-      <div class="flow-card" style="border-left:3px solid var(--accent-cyan)">
-        <div class="flow-card-title">① 部委预算拨款</div>
-        <div class="flow-card-sub">关注：财政部 / 部委官网 · 预算公开</div>
-        <div style="font-size:12px;line-height:1.6;margin-bottom:10px">
-          检索财政专项资金补贴细则，有<strong style="color:var(--accent-green)">激增的预算拨款</strong>才是真重视。
-        </div>
-        <div style="font-size:11px;color:var(--text-secondary);line-height:1.7">
-          ▸ 2026发改委低空经济专项：<span style="color:var(--accent-amber)">数据待核实</span>
-          <div style="padding-left:12px;margin:2px 0 4px">
-            <a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html" target="_blank" class="doc-link">来源：低空经济统计分类（请自行查证具体数字）</a>
-          </div>
-          ▸ 工信部AI产业专项：<span style="color:var(--accent-amber)">数据待核实</span>
-          <div style="padding-left:12px;margin:2px 0 4px">
-            <a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html" target="_blank" class="doc-link">来源：产业技术基础平台管理办法（请自行查证具体数字）</a>
-          </div>
-          ▸ 新能源补贴退坡：<span style="color:var(--accent-amber)">数据待核实</span>
-          <div style="padding-left:12px;margin:2px 0 0">
-            <a href="http://m.mof.gov.cn/zcfb/202004/t20200423_3502975.htm" target="_blank" class="doc-link">来源：财建〔2020〕86号·新能源汽车补贴政策通知（请自行查证具体数字）</a>
-          </div>
-        </div>
-        <div style="margin-top:8px;padding-top:8px;border-top:1px dashed var(--border-primary)">
-          <a href="https://kjs.mof.gov.cn/zhengcefabu/202509/t20250904_3971510.htm" target="_blank" class="doc-link">→ 财会〔2025〕17号·专项债券会计处理规定（原始预算口径）</a>
-        </div>
+    <div class="rv-sub-title">▸ 在审状态分布（当前快照）</div>
+    <div class="rv-stages" id="csrcReviewStages"></div>
+
+    <div class="rv-grid">
+      <div class="rv-panel">
+        <div class="rv-panel-title">上市板块</div>
+        <div id="csrcReviewMarkets" class="rv-bars"></div>
       </div>
-
-      <div class="flow-card" style="border-left:3px solid var(--accent-amber)">
-        <div class="flow-card-title">② 地方政府专项债</div>
-        <div class="flow-card-sub">关注：财政部 / 地方财政官网 · 专项债信息</div>
-        <div style="font-size:12px;line-height:1.6;margin-bottom:10px">
-          行业专项债<strong style="color:var(--accent-green)">明显增长</strong>说明干得越急。
-        </div>
-        <div style="font-size:11px;color:var(--text-secondary);line-height:1.7">
-          ▸ 交通类专项债：<span style="color:var(--accent-amber)">数据待核实</span>
-          <div style="padding-left:12px;margin:2px 0 4px">
-            <a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">来源：国办发52号文·专项债管理机制（请自行查证具体占比）</a>
-          </div>
-          ▸ 新兴产业专项债：<span style="color:var(--accent-amber)">数据待核实</span>
-          <div style="padding-left:12px;margin:2px 0 4px">
-            <a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">来源：同上·国办发52号文（请自行查证具体占比）</a>
-          </div>
-          ▸ 土地储备：<span style="color:var(--accent-amber)">数据待核实</span>
-          <div style="padding-left:12px;margin:2px 0 0">
-            <a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">来源：国办发52号文·地方政府专项债券管理机制（请自行查证具体占比）</a>
-          </div>
-        </div>
-        <div style="margin-top:8px;padding-top:8px;border-top:1px dashed var(--border-primary)">
-          <a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">→ 国办发52号文·专项债信息专栏（原始数据）</a>
-        </div>
+      <div class="rv-panel">
+        <div class="rv-panel-title">行业分布（前 8）</div>
+        <div id="csrcReviewIndustries" class="rv-bars"></div>
       </div>
-
-      <div class="flow-card" style="border-left:3px solid var(--accent-green)">
-        <div class="flow-card-title">③ 一级市场融资</div>
-        <div class="flow-card-sub">关注：央行统计 · 投融资数据 · 社会融资增量</div>
-        <div style="font-size:12px;line-height:1.6;margin-bottom:10px">
-          融资额<strong style="color:var(--accent-green)">持续飙升</strong>=资本真金白银押注。
-        </div>
-        <div style="font-size:11px;color:var(--text-secondary);line-height:1.7">
-          ▸ AI/大模型：Q4融资<span style="color:var(--accent-amber)">数据待核实</span>
-          <div style="padding-left:12px;margin:2px 0 4px">
-            <a href="https://www.gov.cn/lianbo/bumen/202507/content_7031869.htm" target="_blank" class="doc-link">来源：央行·社会融资规模统计数据报告（请自行查证具体数据）</a>
-          </div>
-          ▸ 低空经济：Q4融资<span style="color:var(--accent-amber)">数据待核实</span>
-          <div style="padding-left:12px;margin:2px 0 4px">
-            <a href="https://www.gov.cn/lianbo/bumen/202507/content_7031869.htm" target="_blank" class="doc-link">来源：央行·金融统计数据报告（请自行查证具体数据）</a>
-          </div>
-          ▸ 新能源：Q4融资<span style="color:var(--accent-amber)">数据待核实</span>
-          <div style="padding-left:12px;margin:2px 0 0">
-            <a href="https://www.gov.cn/lianbo/bumen/202507/content_7031869.htm" target="_blank" class="doc-link">来源：央行·社会融资规模季度统计（请自行查证具体数据）</a>
-          </div>
-        </div>
-        <div style="margin-top:8px;padding-top:8px;border-top:1px dashed var(--border-primary)">
-          <a href="https://www.gov.cn/lianbo/bumen/202507/content_7031869.htm" target="_blank" class="doc-link">→ 央行·2025年上半年社会融资规模统计数据报告</a>
-        </div>
+      <div class="rv-panel rv-panel--wide">
+        <div class="rv-panel-title">审批周期趋势（受理→注册生效 · 天）</div>
+        <div id="csrcReviewCycle" class="rv-chart"></div>
       </div>
     </div>
 
-    <!-- 每月新增 vs 减少投向 -->
-    <div class="kw-analysis" style="margin-top:14px">
-      <div class="kw-hd">▸ 每月新增 vs 减少投向领域（附对应政策原文）</div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px">
+    <div class="rv-sub-title">▸ 最近放行（注册生效）</div>
+    <div id="csrcReviewApproved" class="rv-table"></div>
+  </div>
 
-        <div style="background:rgba(0,255,136,.08);padding:10px 12px;border-radius:6px;border:1px solid rgba(0,255,136,.2)">
-          <div style="color:var(--accent-green);font-weight:600;font-size:12px;margin-bottom:8px">📈 新增/增加投向</div>
-          <div style="font-size:11px;line-height:1.7">
-            ▸ 低空经济基础设施
-            <div style="padding-left:12px;margin:1px 0 5px">
-              <a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html" target="_blank" class="doc-link">原文：低空经济统计分类</a>
-            </div>
-            ▸ AI算力中心建设
-            <div style="padding-left:12px;margin:1px 0 5px">
-              <a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html" target="_blank" class="doc-link">原文：产业技术基础平台</a>
-            </div>
-            ▸ 消费基础设施REITs
-            <div style="padding-left:12px;margin:1px 0 5px">
-              <a href="http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml" target="_blank" class="doc-link">原文：证监会公告21号</a>
-            </div>
-            ▸ 城市更新/保障房
-            <div style="padding-left:12px;margin:1px 0">
-              <a href="https://www.mohurd.gov.cn/xinwen/gzdt/art/2022/art_304_764422.html" target="_blank" class="doc-link">原文：住建部·发展保障性租赁住房可复制可推广经验清单</a>
-            </div>
-          </div>
-        </div>
-
-        <div style="background:rgba(255,51,102,.08);padding:10px 12px;border-radius:6px;border:1px solid rgba(255,51,102,.2)">
-          <div style="color:var(--accent-red);font-weight:600;font-size:12px;margin-bottom:8px">📉 减少/缩减投向</div>
-          <div style="font-size:11px;line-height:1.7">
-            ▸ 土地储备相关
-            <div style="padding-left:12px;margin:1px 0 5px">
-              <a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">原文：国办发52号文·专项债投向数据</a>
-            </div>
-            ▸ 传统高速公路
-            <div style="padding-left:12px;margin:1px 0 5px">
-              <a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">原文：同上·国办发52号文（占比下降趋势）</a>
-            </div>
-            ▸ 低端制造业补贴
-            <div style="padding-left:12px;margin:1px 0 5px">
-              <a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403415.html" target="_blank" class="doc-link">原文：发改高技规〔2025〕1748号·国家新兴产业创新中心管理办法</a>
-            </div>
-            ▸ 新能源产能过剩领域
-            <div style="padding-left:12px;margin:1px 0">
-              <a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251231_1402949.html" target="_blank" class="doc-link">原文：发改能源〔2025〕1710号·电网高质量发展（含新能源产能严控）</a>
-            </div>
-          </div>
-        </div>
-      </div>
+  <!-- ③ 官媒定调 -->
+  <div class="rv-box">
+    <div class="rv-hd">
+      <span class="rv-title">📰 官媒定调 · 首例 / 首单 / 首个</span>
+      <span class="rv-meta">头版报道创新业务 = 国家级试点信号</span>
     </div>
+    <div id="csrcMediaList" class="media-list"></div>
+  </div>
+
+  <!-- 去重指引：资金三笔钱统一归 L6 -->
+  <div class="cross-ref">
+    💰 <b>资金三笔钱</b>（部委预算拨款 · 地方政府专项债 · 一级市场融资）与「监管」主题不同，已统一归到
+    <a href="javascript:void(0)" onclick="var t=document.querySelector('.tab-btn[data-p=flow]');if(t)t.click();return false;">L6 资金流向</a>，避免两页重复。
   </div>
 </div>
 
@@ -770,11 +559,12 @@
 <!-- ============================================================ -->
 <div class="panel" id="p-flow">
   <div class="sec-hd">
-    <div class="sec-title"><span class="badge">L6</span>资金流向 <span class="sec-sub">专项债 · 预算 · 融资 · 试点KPI（仅展示行业方向，每项附原文网址）</span></div>
+    <div class="sec-title"><span class="badge">L6</span>资金流向 <span class="sec-sub">跟踪资金三笔钱 · 部委预算拨款 / 地方政府专项债 / 一级市场融资（每项附官方原文可核验）</span></div>
   </div>
 
   <div style="font-size:12px;color:var(--accent-amber);margin-bottom:14px;padding:8px 12px;background:var(--bg-card);border-radius:6px;border-left:3px solid var(--accent-amber)">
-    📅 本页仅展示资金流向的行业方向，不展示具体金额数据 · 每项均附官方原文链接可核验
+    📅 本页是<b>资金三笔钱</b>的专属页：看财政专项资金补贴细则（预算拨款激增 = 真重视）· 看近半年行业专项债是否放量（债发得越急说明干得越急）· 看连续多季度一级市场融资是否抬头（资本最聪明）。<br>
+    📌 监管侧（谁被罚了 / 谁被放行了 / 发行上市审核进度 / 官媒定调）请看 <b>L5 证监会动态</b>，两页不再重复。
   </div>
 
   <!-- 行业流向区：纯列表形式，无数据展示 -->
@@ -930,89 +720,27 @@
     </div>
   </div>
 
-  <!-- 试点KPI跟踪（每个KPI独立附原文） -->
-  <div class="compare-box" style="margin-top:14px">
-    <div class="tree-title">▸ 试点名单 & KPI达成情况（每个KPI均附原文网址，可直接核验）</div>
+  <!-- 说明：原「试点名单 & KPI 达成情况」是手工维护的静态表格，与 L5 重复，
+       已迁移到 L5「证监会动态」的「发行上市审核 · 实时进度条」——
+       那里按「受理 → 注册生效」自动统计审批周期与放行节奏，每天刷新。 -->
+  <div class="cross-ref" style="margin-top:14px">
+    📈 <b>试点名单 &amp; KPI 达成情况</b> 已迁到
+    <a href="javascript:void(0)" onclick="var t=document.querySelector('.tab-btn[data-p=csrc]');if(t)t.click();return false;">L5 证监会动态</a>
+    的「发行上市审核 · 实时进度条」：审批周期、放行节奏、板块与行业分布全部自动统计，不再手工维护。
+  </div>
 
-    <div class="pilot-item">
-      <div class="pilot-title">🎯 REITs扩募试点（消费基础设施）</div>
-      <div class="pilot-kpi" style="line-height:2">
-        <div>KPI1：首批项目发行完成 → <span style="color:var(--accent-green)">✅ 已达成</span>
-          <div style="padding-left:18px"><a href="http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml" target="_blank" class="doc-link">核验原文：证监会公告〔2025〕21号（商业不动产REITs试点）</a></div>
-          <div style="padding-left:18px"><a href="https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20240312_5736132.shtml" target="_blank" class="doc-link">核验原文：两单消费基础设施REITs在上交所上市（首批发行披露）</a></div>
-        </div>
-        <div>KPI2：底层资产覆盖商场/保租房 → <span style="color:var(--accent-green)">✅ 已达成</span>
-          <div style="padding-left:18px"><a href="http://www.csrc.gov.cn/csrc/c100028/c7605669/content.shtml" target="_blank" class="doc-link">核验原文：证监会REITs试点配套规则</a></div>
-          <div style="padding-left:18px"><a href="https://www.mohurd.gov.cn/xinwen/gzdt/art/2022/art_304_764422.html" target="_blank" class="doc-link">核验原文：住建部·发展保障性租赁住房可复制可推广经验清单（项目案例）</a></div>
-        </div>
-        <div>KPI3：审核周期缩短至1个月 → <span style="color:var(--accent-green)">✅ 已达成</span>
-          <div style="padding-left:18px"><a href="http://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml" target="_blank" class="doc-link">核验原文：证监发〔2025〕63号（"进一步优化审核流程"）</a></div>
-        </div>
-      </div>
-      <span class="pilot-status pass">超预期达成</span>
-      <div style="font-size:11px;color:var(--accent-cyan);margin-top:6px">
-        → 三项KPI全部达标，可能预示REITs大规模扩围拐点到来
-      </div>
+  <!-- 本月关键文件原文URL汇总 -->
+  <div class="kw-analysis" style="margin-top:14px">
+    <div class="kw-hd">▸ 本月关键文件原文URL汇总（点击跳转）</div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:10px">
+      <a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">财政部·国办发52号文·专项债投向</a>
+      <a href="http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml" target="_blank" class="doc-link">证监会21号·REITs试点</a>
+      <a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html" target="_blank" class="doc-link">发改委·低空经济</a>
+      <a href="https://www.gov.cn/lianbo/bumen/202507/content_7031869.htm" target="_blank" class="doc-link">央行·2025年社会融资规模数据报告</a>
+      <a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202510/t20251014_1400943.html" target="_blank" class="doc-link">发改委·节能降碳</a>
+      <a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251230_1402851.html" target="_blank" class="doc-link">发改委·设备更新</a>
+      <a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html" target="_blank" class="doc-link">工信部·平台管理</a>
     </div>
-
-    <div class="pilot-item">
-      <div class="pilot-title">🚁 低空经济示范城市（合肥 / 深圳 / 成都）</div>
-      <div class="pilot-kpi" style="line-height:2">
-        <div>KPI1：完成eVTOL商业化试点 → <span style="color:var(--accent-green)">✅ 已达成</span>
-          <div style="padding-left:18px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html" target="_blank" class="doc-link">核验原文：低空经济核心产业统计分类（eVTOL纳入）</a></div>
-          <div style="padding-left:18px"><a href="https://www.hefei.gov.cn/xxgk/szfgb/2024/dseh/bmwj/110845128.html" target="_blank" class="doc-link">核验原文：合发改战新〔2024〕1001号·合肥市支持低空经济发展若干政策实施细则（含eVTOL航线运营补贴）</a></div>
-        </div>
-        <div>KPI2：开通10条以上低空航线 → <span style="color:var(--accent-amber)">⚠ 进行中 (7/10)</span>
-          <div style="padding-left:18px"><a href="http://www.caac.gov.cn/XXGK/XXGK/BZGF/HYBZ/202510/t20251015_228826.html" target="_blank" class="doc-link">核验原文：民航行业标准MH/T 1081-2025·通用航空短途运输航线航班数据要求</a></div>
-          <div style="padding-left:18px"><a href="https://fgw.sc.gov.cn/sfgw/qtwj/2025/5/12/fa04029d8f8f4606b2c3ed31d3d569e4.shtml" target="_blank" class="doc-link">核验原文：川发改基础〔2025〕177号·四川省四部门支持低空经济发展若干政策措施</a></div>
-        </div>
-        <div>KPI3：建成国家级低空经济产业园 → <span style="color:var(--accent-green)">✅ 已达成</span>
-          <div style="padding-left:18px"><a href="https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_12305127.html" target="_blank" class="doc-link">核验原文：深圳市低空基础设施高质量建设方案(2024-2026)（含10个低空经济产业园）</a></div>
-          <div style="padding-left:18px"><a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html" target="_blank" class="doc-link">核验原文：工信部产业基础平台（含低空）</a></div>
-        </div>
-      </div>
-      <span class="pilot-status progress">部分达成</span>
-      <div style="font-size:11px;color:var(--accent-cyan);margin-top:6px">
-        → 关注Q2剩余3条低空航线开通进度，若按期达成则行业大规模复制可期
-      </div>
-    </div>
-
-    <div class="pilot-item">
-      <div class="pilot-title">🤖 AI应用先行区（北京 / 上海 / 杭州）</div>
-      <div class="pilot-kpi" style="line-height:2">
-        <div>KPI1：引进10家以上头部AI企业 → <span style="color:var(--accent-green)">✅ 已达成</span>
-          <div style="padding-left:18px"><a href="https://zwfwj.beijing.gov.cn/zwgk/2024zcwj/202511/t20251110_4268006.html" target="_blank" class="doc-link">核验原文：北京市委市政府关于建设数据要素综合试验区深化数据要素市场化配置改革的实施意见</a></div>
-          <div style="padding-left:18px"><a href="https://www.shanghai.gov.cn/zjfcsj/20251024/28bb5b0d563b468b95cc0defa2a6bc60.html" target="_blank" class="doc-link">核验原文：沪经信智〔2025〕489号·上海市进一步扩大人工智能应用的若干措施</a></div>
-        </div>
-        <div>KPI2：完成100个行业大模型落地 → <span style="color:var(--accent-amber)">⚠ 进行中 (65/100)</span>
-          <div style="padding-left:18px"><a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html" target="_blank" class="doc-link">核验原文：工信部产业技术基础平台（含AI大模型）</a></div>
-          <div style="padding-left:18px"><a href="https://jxj.hangzhou.gov.cn/art/2025/2/27/art_1229145719_1849723.html" target="_blank" class="doc-link">核验原文：杭经信技创〔2025〕2号·杭州市人工智能全产业链高质量发展行动计划(2024-2026)</a></div>
-        </div>
-        <div>KPI3：算力基础设施建设完成 → <span style="color:var(--accent-green)">✅ 已达成</span>
-          <div style="padding-left:18px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403428.html" target="_blank" class="doc-link">核验原文：中央预算内投资（含算力中心）</a></div>
-          <div style="padding-left:18px"><a href="https://most.gov.cn/kjbgz/202304/t20230418_185591.html" target="_blank" class="doc-link">核验原文：科技部启动国家超算互联网部署工作（国家算力底座）</a></div>
-        </div>
-      </div>
-      <span class="pilot-status progress">进行中</span>
-      <div style="font-size:11px;color:var(--accent-cyan);margin-top:6px">
-        → 关注Q2行业大模型落地至100个的剩余进度，落地完成则进入商业化放量阶段
-      </div>
-    </div>
-
-    <!-- 每月相关文件汇总网址 -->
-    <div style="margin-top:14px;padding-top:12px;border-top:1px dashed var(--border-primary)">
-      <div style="font-size:12px;color:var(--accent-cyan);font-weight:600;margin-bottom:8px;font-family:var(--font-mono);letter-spacing:.5px">📚 本月关键文件原文URL汇总（点击跳转）：</div>
-      <div style="display:flex;flex-wrap:wrap;gap:6px">
-        <a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">财政部·国办发52号文·专项债投向</a>
-        <a href="http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml" target="_blank" class="doc-link">证监会21号·REITs试点</a>
-        <a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html" target="_blank" class="doc-link">发改委·低空经济</a>
-        <a href="https://www.gov.cn/lianbo/bumen/202507/content_7031869.htm" target="_blank" class="doc-link">央行·2025年社会融资规模数据报告</a>
-        <a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202510/t20251014_1400943.html" target="_blank" class="doc-link">发改委·节能降碳</a>
-        <a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251230_1402851.html" target="_blank" class="doc-link">发改委·设备更新</a>
-        <a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html" target="_blank" class="doc-link">工信部·平台管理</a>
-      </div>
-    </div>
-
   </div>
 </div>
 
