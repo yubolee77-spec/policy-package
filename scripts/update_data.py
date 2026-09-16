@@ -955,6 +955,32 @@ def fetch_paper_comments(days, known=None):
 QS_AUTHOR_RE = re.compile(r'作者[：:]\s*([^<>\r\n]{1,40})')
 QS_SOURCE_RE = re.compile(r'来源[：:]\s*([^<>\r\n]{1,40})')
 QS_GENERIC_BYLINE = "求是网评论员"      # 早期版本写死的兜底署名
+# 无「作者：」字段时的署名类别（如《求是》社论），按长优先匹配
+QS_LABEL_RE = re.compile(r'《求是》[^<>：:\r\n]{0,6}?(?:特约评论员|评论员|社论|编辑部)'
+                         r'|求是网评论员|《求是》[^<>：:\r\n]{0,6}?评论')
+# bylineChecked 的版本号：1 = 只解析「作者：」字段；2 = 追加标题前缀推断
+QS_BYLINE_VERSION = 2
+
+
+def parse_qs_section_label(html):
+    """无「作者：」字段时，从 <h1>/<title> 的标题前缀推断署名类别。
+
+    例：「《求是》社论：在新征程上奋力谱写强党强国新篇章」→「《求是》社论」。
+    这类文章（社论/编辑部文章）本就不署个人名，但也不能笼统算作
+    「求是网评论员」——那是网站评论员的署名，两者主体不同。
+    """
+    if not html:
+        return ""
+    for pat in (r'<h1[^>]*>(.*?)</h1>', r'<title[^>]*>(.*?)</title>'):
+        m = re.search(pat, html, re.S)
+        if not m:
+            continue
+        head = re.sub(r'<[^>]+>', '', m.group(1))
+        head = re.split(r'[：:]', head, 1)[0]        # 只在前缀里找，避免正文噪声
+        lm = QS_LABEL_RE.search(head)
+        if lm:
+            return lm.group(0)
+    return ""
 
 
 def parse_qs_byline(html):
@@ -964,15 +990,17 @@ def parse_qs_byline(html):
     · 不是化名 → 返回页面上的原始署名（例如「《求是》杂志评论员」），
       而不是笼统的「求是网评论员」——后者既不含刊期信息，也把中央党刊
       评论员与网站评论员混为一谈
+    · 整篇无「作者：」字段（社论 / 编辑部文章）→ 退回标题前缀推断，
+      推不出才返回空串，交由调用方决定兜底策略
     """
     if not html:
         return ""
     m = QS_AUTHOR_RE.search(html)
     if not m:
-        return ""
+        return parse_qs_section_label(html)
     author = re.sub(r'<[^>]+>', '', m.group(1)).strip().strip("：:·").strip()
     if not author:
-        return ""
+        return parse_qs_section_label(html)
     norm = norm_byline(author)
     hit = next((b for b in BYLINE_MAP if b in norm), "")
     return hit or author
@@ -1004,25 +1032,30 @@ def fetch_qstheory_comments(known=None):
         if href in known:                 # 已入库的交给 backfill 处理，不重复抓
             continue
         author = parse_qs_byline(safe_fetch(href, timeout=12))
-        if not author:
+        resolved = bool(author)
+        if not resolved:
             print(f"    · 求是网署名未解析出，沿用兜底: {title[:22]}")
             author = QS_GENERIC_BYLINE
-        out.append({"url": href, "title": title, "author": author,
-                    "byline": author, "date": pub, "body": "",
-                    "bylineChecked": 1})
+        item = {"url": href, "title": title, "author": author,
+                "byline": author, "date": pub, "body": ""}
+        if resolved:                      # 未解析出的不写标记，交给 backfill 下轮重试
+            item["bylineChecked"] = QS_BYLINE_VERSION
+        out.append(item)
     return out[:20]
 
 
 def backfill_qstheory_bylines(existing):
-    """一次性回填求是网历史条目的署名。
+    """回填求是网历史条目的署名（按 QS_BYLINE_VERSION 幂等升级）。
 
     早期版本把这一源的署名写死成「求是网评论员」，导致
     · 化名（秋石等）从未被识别
     · 中央党刊评论员被笼统标成网站评论员
-    这里对未处理过的条目重新解析一次，并写 bylineChecked 标记，之后不再重复请求。
+    v1 修「作者：」字段解析，v2 再补标题前缀推断（《求是》社论 一类）；
+    标记低于当前版本的条目会被重新解析，解析成功才写标记，失败留待下轮。
     """
     todo = [x for x in existing
-            if "qstheory" in (x.get("url") or "") and not x.get("bylineChecked")]
+            if "qstheory" in (x.get("url") or "")
+            and int(x.get("bylineChecked") or 0) < QS_BYLINE_VERSION]
     if not todo:
         return 0
     changed = 0
@@ -1032,11 +1065,13 @@ def backfill_qstheory_bylines(existing):
                     lambda x: (x, safe_fetch(x["url"], timeout=12)), todo):
                 if not html:                    # 抓不到就留着下轮再试，不写标记
                     continue
-                author = parse_qs_byline(html) or it.get("byline") or QS_GENERIC_BYLINE
+                author = parse_qs_byline(html)
+                if not author:                  # 仍解析不出，保留原值等下一版本
+                    continue
                 if author != it.get("byline"):
                     changed += 1
                 it["author"] = it["byline"] = author
-                it["bylineChecked"] = 1
+                it["bylineChecked"] = QS_BYLINE_VERSION
     except Exception as e:                      # noqa: BLE001
         print(f"  求是网署名回填异常: {e}")
     print(f"  求是网署名回填: 处理 {len(todo)} 条，修正 {changed} 条")
