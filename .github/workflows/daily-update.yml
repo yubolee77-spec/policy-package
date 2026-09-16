@@ -2,16 +2,20 @@ name: Daily Policy Data Update
 
 on:
   schedule:
-    # 每天 UTC 23:00 = 北京时间次日 07:00
-    # 原为 0 0 * * *（北京时间 08:00）；GitHub 定时任务经常延后 10~60 分钟，
-    # 加上官方数据多在上午发布，原时间点导致"当天看不到当天的政策"。
-    # 提前到北京早 7 点跑，上班前就能看到前一日汇总。
-    - cron: '0 23 * * *'
+    # 每日三轮抓取（注释为北京时间；GitHub cron 用 UTC，常有 10~60 分钟延后）
+    # 第一轮 北京 05:30：把昨天一整天的政策全部收进来，上班前打开就是新的
+    - cron: '30 21 * * *'
+    # 第二轮 北京 13:00：补进当天上午发布的新政策
+    - cron: '0 5 * * *'
+    # 第三轮 北京 17:30：收尾当天下午发布的内容
+    - cron: '30 9 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
-
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
