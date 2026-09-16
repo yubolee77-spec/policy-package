@@ -951,8 +951,40 @@ def fetch_paper_comments(days, known=None):
     return out
 
 
-def fetch_qstheory_comments():
-    """求是网「社论评论」栏目（定期更新，非每日）。"""
+# 求是网详情页的结构化署名：「作者：《求是》杂志评论员」「来源：《求是》2026/18」
+QS_AUTHOR_RE = re.compile(r'作者[：:]\s*([^<>\r\n]{1,40})')
+QS_SOURCE_RE = re.compile(r'来源[：:]\s*([^<>\r\n]{1,40})')
+QS_GENERIC_BYLINE = "求是网评论员"      # 早期版本写死的兜底署名
+
+
+def parse_qs_byline(html):
+    """从求是网详情页解析真实署名。
+
+    · 命中化名表（秋石 / 石平 …）→ 返回化名本身，供 tier=central 判定使用
+    · 不是化名 → 返回页面上的原始署名（例如「《求是》杂志评论员」），
+      而不是笼统的「求是网评论员」——后者既不含刊期信息，也把中央党刊
+      评论员与网站评论员混为一谈
+    """
+    if not html:
+        return ""
+    m = QS_AUTHOR_RE.search(html)
+    if not m:
+        return ""
+    author = re.sub(r'<[^>]+>', '', m.group(1)).strip().strip("：:·").strip()
+    if not author:
+        return ""
+    norm = norm_byline(author)
+    hit = next((b for b in BYLINE_MAP if b in norm), "")
+    return hit or author
+
+
+def fetch_qstheory_comments(known=None):
+    """求是网「社论评论」栏目（定期更新，非每日）。
+
+    栏目页只有标题，真实署名在详情页里 —— 必须逐篇抓详情页解析，
+    否则「秋石」（《求是》重要评论）这类化名永远识别不出来。
+    """
+    known = known or set()
     url = "https://www.qstheory.cn/v9zhuanqu/zhuanqu/slpl/index.htm"
     html = safe_fetch(url, timeout=15)
     if not html:
@@ -969,9 +1001,46 @@ def fetch_qstheory_comments():
         if href in seen:
             continue
         seen.add(href)
-        out.append({"url": href, "title": title, "author": "求是网评论员",
-                    "byline": "求是网评论员", "date": pub, "body": ""})
+        if href in known:                 # 已入库的交给 backfill 处理，不重复抓
+            continue
+        author = parse_qs_byline(safe_fetch(href, timeout=12))
+        if not author:
+            print(f"    · 求是网署名未解析出，沿用兜底: {title[:22]}")
+            author = QS_GENERIC_BYLINE
+        out.append({"url": href, "title": title, "author": author,
+                    "byline": author, "date": pub, "body": "",
+                    "bylineChecked": 1})
     return out[:20]
+
+
+def backfill_qstheory_bylines(existing):
+    """一次性回填求是网历史条目的署名。
+
+    早期版本把这一源的署名写死成「求是网评论员」，导致
+    · 化名（秋石等）从未被识别
+    · 中央党刊评论员被笼统标成网站评论员
+    这里对未处理过的条目重新解析一次，并写 bylineChecked 标记，之后不再重复请求。
+    """
+    todo = [x for x in existing
+            if "qstheory" in (x.get("url") or "") and not x.get("bylineChecked")]
+    if not todo:
+        return 0
+    changed = 0
+    try:
+        with ThreadPoolExecutor(max_workers=COMMENTARY_WORKERS) as pool:
+            for it, html in pool.map(
+                    lambda x: (x, safe_fetch(x["url"], timeout=12)), todo):
+                if not html:                    # 抓不到就留着下轮再试，不写标记
+                    continue
+                author = parse_qs_byline(html) or it.get("byline") or QS_GENERIC_BYLINE
+                if author != it.get("byline"):
+                    changed += 1
+                it["author"] = it["byline"] = author
+                it["bylineChecked"] = 1
+    except Exception as e:                      # noqa: BLE001
+        print(f"  求是网署名回填异常: {e}")
+    print(f"  求是网署名回填: 处理 {len(todo)} 条，修正 {changed} 条")
+    return changed
 
 
 def fetch_ce_comments():
@@ -1045,6 +1114,10 @@ def fetch_commentary(existing=None, bootstrap=False):
     existing = existing if isinstance(existing, list) else []
     known = {x.get("url") for x in existing if x.get("url")}
 
+    # 求是网历史条目署名回填（早期版本写死了兜底署名）
+    if existing:
+        backfill_qstheory_bylines(existing)
+
     days = COMMENTARY_LOOKBACK_DAYS
     if bootstrap:
         days = COMMENTARY_BOOTSTRAP_DAYS
@@ -1052,7 +1125,7 @@ def fetch_commentary(existing=None, bootstrap=False):
 
     fresh = []
     for name, fn in (("党媒数字报", lambda: fetch_paper_comments(days, known)),
-                     ("求是网", fetch_qstheory_comments),
+                     ("求是网", lambda: fetch_qstheory_comments(known)),
                      ("经济日报网", fetch_ce_comments)):
         try:
             got = fn()
