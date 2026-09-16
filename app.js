@@ -656,6 +656,21 @@ function filterByPeriod(articles, period) {
 // 「从上往下看」的层级标签：中央定方向 → 部委细化路径 → 地方落实执行
 var TIER_LABEL = { central: '中央', dept: '部委', local: '地方' };
 
+// 化名表（须与 scripts/update_data.py 的 BYLINE_MAP 保持一致）。
+// 只有这些集体笔名才算「化名文章」；《求是》社论、《求是》杂志评论员、
+// 求是网评论员属于刊物 / 机构署名，一概标成化名会失真。
+var PEN_NAMES = ['钟才文', '钟才平', '任仲平', '金轩', '仲音', '任平', '国纪平',
+                 '金社平', '柯教平', '钟声', '仲祖文', '吴哲', '秋石', '石平',
+                 '金观平', '钟经文'];
+
+function bylineNote(byline) {
+  if (!byline) return '';
+  if (PEN_NAMES.indexOf(byline) >= 0) return '化名文章 · 重点';
+  if (byline.indexOf('社论') >= 0) return '无个人署名 · 社论';
+  if (byline.indexOf('评论员') >= 0 || byline.indexOf('编辑部') >= 0) return '评论员署名';
+  return '';
+}
+
 function renderDocItem(item) {
   var dateStr = (item.date || '').slice(5);
   var src = item.media || item.source || '';
@@ -676,8 +691,9 @@ function renderDocItem(item) {
   html += '<div class="doc-body">';
   html += '<div class="doc-title">' + escapeHtml(item.title) + '</div>';
   if (byline) {
+    var note = bylineNote(byline);
     html += '<div class="doc-byline">★ ' + escapeHtml(byline) +
-            '<span class="byline-note">化名文章 · 重点</span></div>';
+            (note ? '<span class="byline-note">' + note + '</span>' : '') + '</div>';
   }
   if (item.summary) {
     html += '<div class="doc-summary">' + escapeHtml(item.summary) + '</div>';
