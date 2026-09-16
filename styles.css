@@ -818,3 +818,10 @@ a:hover{color:inherit}
   .freshness{font-size:10px;gap:4px 12px}
   .fresh-sched{margin-left:0}
 }
+
+/* 官媒定调：本次抓取未命中时的溯源标注（CI 境外 IP 受限时脚本沿用上一版数据） */
+.media-stale{
+  margin:0 0 8px;padding:6px 10px;border-radius:6px;font-size:11px;
+  background:var(--bg-secondary);border-left:2px solid var(--accent-orange);
+  color:var(--text-muted);line-height:1.5;
+}

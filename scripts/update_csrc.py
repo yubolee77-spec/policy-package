@@ -566,6 +566,27 @@ def build():
         print("    ! 官媒搜索失败: %s" % str(e)[:100])
         media = []
 
+    # —— 官媒定调兜底 ——
+    # 东财搜索接口对境外 IP（GitHub Actions 跑在美国）会返回空结果，
+    # 而本地跑同一份代码能拿到 30~40 条。若不兜底，每轮 CI 都会把线上
+    # 「官媒定调」板块静默清空。这里在零命中时沿用上一版数据，并用
+    # mediaFetchedAt / mediaStale 标注它的真实抓取时间与来源，保证可溯源。
+    media_fetched_at = generated
+    media_stale = False
+    if not media:
+        try:
+            with open(OUTPUT_FILE, encoding="utf-8") as f:
+                prev = json.load(f)
+            prev_media = prev.get("media") or []
+            if prev_media:
+                media = prev_media
+                media_fetched_at = prev.get("mediaFetchedAt") or prev.get("generatedAt") or ""
+                media_stale = True
+                print("    ! 本次官媒零命中（CI 境外 IP 被限流），沿用上一版 %d 条（抓取于 %s）"
+                      % (len(media), media_fetched_at or "未知"))
+        except Exception:                              # noqa: BLE001 - 首次生成时文件不存在
+            pass
+
     # —— 监管 KPI：从上面数据自动汇总 ——
     ym = datetime.date.today().strftime("%Y-%m")
     month = lambda rows: sum(1 for r in rows if str(r.get("date") or "").startswith(ym))  # noqa: E731
@@ -593,6 +614,9 @@ def build():
 
     result = {
         "generatedAt": generated,
+        # 官媒定调的真实抓取时间与是否为上一版沿用（供前端标注「数据抓取于…」）
+        "mediaFetchedAt": media_fetched_at,
+        "mediaStale": media_stale,
         "kpi": kpi,
         "penalty": penalty[:400],
         "approval": approval[:300],

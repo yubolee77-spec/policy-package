@@ -1515,11 +1515,16 @@ function renderCsrcMedia() {
   var el = document.getElementById('csrcMediaList');
   if (!el) return;
   var rows = filterByPeriod(csrcData.media || [], currentCsrcPeriod);
+  // 数据来源溯源：CI（境外 IP）抓不到官媒时，脚本会沿用上一版，这里如实标注
+  var stale = (csrcData.mediaStale && csrcData.mediaFetchedAt)
+    ? '<div class="media-stale">本次抓取未命中官媒（境外网络受限）· 以下为 '
+      + escapeHtml(csrcData.mediaFetchedAt) + ' 抓取的数据</div>'
+    : '';
   if (!rows.length) {
-    el.innerHTML = '<div class="cl-empty">本周期暂无官媒定调报道 · 换一个周期看看</div>';
+    el.innerHTML = stale + '<div class="cl-empty">本周期暂无官媒定调报道 · 换一个周期看看</div>';
     return;
   }
-  el.innerHTML = rows.slice(0, 40).map(function(m) {
+  el.innerHTML = stale + rows.slice(0, 40).map(function(m) {
     var topics = (m.topics || []).map(function(t) {
       return '<span class="media-topic">' + escapeHtml(t) + '</span>';
     }).join('');
