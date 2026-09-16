@@ -160,6 +160,12 @@ MAX_DOCS_PER_YEAR = 3
 MAX_DEPTS_PER_TOPIC = 3
 
 
+def _bj_now(fmt="%Y-%m-%d %H:%M"):
+    """北京时间字符串（Actions 环境为 UTC，需 +8）"""
+    from datetime import datetime as _d, timezone as _tz, timedelta as _td
+    return (_d.now(_tz.utc) + _td(hours=8)).strftime(fmt)
+
+
 def _rank_dept(puborg):
     """按部门权威度打分；多部门联合发文取最高分。无署名的（gov.cn 新闻/解读）最低。"""
     org = puborg or ""
@@ -459,7 +465,7 @@ def main():
                 print(f"    ... {done}/{len(tasks)}")
 
     result = {
-        "generatedAt": time.strftime("%Y-%m-%d %H:%M"),
+        "generatedAt": _bj_now(),
         "asOf": AS_OF,
         "years": YEARS,
         "topics": topics_out,

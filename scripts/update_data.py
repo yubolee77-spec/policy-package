@@ -43,6 +43,11 @@ HEADERS = {
     "Referer": "https://sousuo.www.gov.cn/",
 }
 
+# ── 北京时间工具（Actions 环境是 UTC，统一转成北京时间输出，避免前端显示困惑）──
+def bj_now(fmt="%Y-%m-%d %H:%M"):
+    import datetime as _dt
+    return (_dt.datetime.now(_dt.timezone.utc) + _dt.timedelta(hours=8)).strftime(fmt)
+
 MONTH_LABEL = f"{date.today().year}年{date.today().month}月"
 
 # ── 垃圾标题/URL 过滤关键词 ──────────────────────────────────────
@@ -1077,6 +1082,7 @@ def main():
     today_str = date.today().strftime("%Y-%m-%d")
     result = {
         "lastUpdated": today_str,
+    "fetchedAt": bj_now(),        # 北京时间，前端「数据更新于」用
         "monthLabel": MONTH_LABEL,
         "timeline": [],
         "commentary": [],

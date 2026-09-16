@@ -1605,6 +1605,76 @@ function applyLatestData(data) {
     var item = el ? el.closest('.status-item') : null;
     if (item) item.title = '抓取任务最近一次成功运行日期';
   }
+  // 新鲜度：抓取时间 + 最新政策日期与条数 + 评论最新日期
+  freshnessState.fetched = data.fetchedAt || data.lastUpdated || '';
+  freshnessState.latestDate = data.lastUpdated || '';
+  var tl = (data.timeline || []).filter(function(x) { return x.date; });
+  if (tl.length) {
+    var ds = tl.map(function(x) { return x.date; }).sort();
+    var newest = ds[ds.length - 1];
+    var n = tl.filter(function(x) { return x.date === newest; }).length;
+    freshnessState.newestPolicy = newest + '（' + n + ' 条）';
+  }
+  var com = (data.commentary || []).filter(function(x) { return x.date; });
+  if (com.length) {
+    var cds = com.map(function(x) { return x.date; }).sort();
+    freshnessState.commentary = cds[cds.length - 1];
+  }
+  renderFreshness();
+}
+
+// ============================================================
+// 数据新鲜度状态条：聚合各板块生成时间，让「今天更新没有」一目了然
+// ============================================================
+var freshnessState = {
+  fetched: '', latestDate: '', newestPolicy: '',
+  macro: '', commentary: '', csrc: '', compare: ''
+};
+
+function setFreshText(id, val) {
+  var el = document.getElementById(id);
+  if (el) el.textContent = val || '--';
+}
+
+function renderFreshness() {
+  var bar = document.getElementById('freshnessBar');
+  if (!bar) return;
+  var f = freshnessState;
+
+  // 主状态：抓取时间是否为今天
+  var now = new Date();
+  var pad = function(n) { return String(n).padStart(2, '0'); };
+  var todayStr = now.getFullYear() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate());
+  var fetchedDay = (f.fetched || '').slice(0, 10);
+  var isToday = fetchedDay === todayStr;
+
+  var dot = document.getElementById('freshDot');
+  var main = document.getElementById('freshMain');
+  if (main) {
+    if (!f.fetched) {
+      main.textContent = '数据加载中…';
+      bar.classList.remove('is-stale');
+      if (dot) dot.className = 'fresh-dot';
+    } else if (isToday) {
+      main.textContent = '今日已更新 · ' + f.fetched.slice(5);
+      bar.classList.remove('is-stale');
+      if (dot) dot.className = 'fresh-dot ok';
+    } else {
+      main.textContent = '今日尚未更新 · 上次 ' + (f.fetched || f.latestDate);
+      bar.classList.add('is-stale');
+      if (dot) dot.className = 'fresh-dot stale';
+    }
+  }
+  setFreshText('freshLatestPolicy', f.newestPolicy);
+  // 各板块生成时间统一显示 MM-DD HH:MM
+  var mm = function(v) {
+    if (!v) return '--';
+    return v.length >= 16 ? v.slice(5, 16) : v;
+  };
+  setFreshText('freshMacro', mm(f.macro));
+  setFreshText('freshCommentary', f.commentary || '--');
+  setFreshText('freshCsrc', mm(f.csrc));
+  setFreshText('freshCompare', mm(f.compare));
 }
 
 // ============================================================
@@ -1639,6 +1709,8 @@ fetch('data/macro.json?t=' + Date.now())
       macroAuto = m;
       renderMacroCards(currentMacroPeriod);
       renderMacroChart();
+      freshnessState.macro = m.generatedAt || m.lastUpdated || '';
+      renderFreshness();
     }
   });
 
@@ -1651,6 +1723,8 @@ fetch('data/csrc.json?t=' + Date.now())
     if (d && (d.penalty || d.approval || d.review || d.media)) {
       csrcData = d;
       renderCsrc();
+      freshnessState.csrc = d.generatedAt || '';
+      renderFreshness();
     }
   });
 
@@ -1666,5 +1740,7 @@ fetch('data/compare.json?t=' + Date.now())
       currentCompareFilter = 'all';
       renderCompareFilter();
       renderCompareTable();
+      freshnessState.compare = c.generatedAt || '';
+      renderFreshness();
     }
   });

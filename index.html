@@ -26,6 +26,18 @@
   </div>
 </div>
 
+<!-- 数据新鲜度状态条：一眼判断「今天到底更新没有」 -->
+<div class="freshness" id="freshnessBar">
+  <span class="fresh-item fresh-main"><span class="fresh-dot" id="freshDot"></span><b id="freshMain">数据加载中…</b></span>
+  <span class="fresh-item">最新政策 <b id="freshLatestPolicy">--</b></span>
+  <span class="fresh-item">L0 宏观 <b id="freshMacro">--</b></span>
+  <span class="fresh-item">L4 评论 <b id="freshCommentary">--</b></span>
+  <span class="fresh-item">L5 监管 <b id="freshCsrc">--</b></span>
+  <span class="fresh-item">L3 对比 <b id="freshCompare">--</b></span>
+  <!-- 时间表需与 .github/workflows/daily-update.yml 的 cron 保持一致 -->
+  <span class="fresh-item fresh-sched" id="freshSched">每日 05:30 / 13:00 / 17:30 自动抓取 · 北京时间</span>
+</div>
+
 <!-- TABS -->
 <div class="tab-nav" id="tabNav">
   <button class="tab-btn active" data-p="macro">核心宏观指标</button>

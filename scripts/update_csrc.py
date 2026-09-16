@@ -541,7 +541,8 @@ def fetch_media_signals(max_per_kw=50):
 # 主流程
 # ---------------------------------------------------------------------------
 def build():
-    generated = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    generated = (datetime.datetime.now(datetime.timezone.utc)
+                 + datetime.timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")  # 北京时间
     print("[csrc] 开始抓取 …")
 
     print("  [1/3] 证监会官网栏目（负面清单 / 正面试点）")

@@ -21,6 +21,13 @@ from datetime import date
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_FILE = os.path.join(PROJECT_DIR, "data", "macro.json")
 
+# ── 北京时间工具（Actions 环境是 UTC，统一转北京时间输出，避免前端显示困惑）──
+def bj_now(fmt="%Y-%m-%d %H:%M"):
+    import datetime as _dt
+    return (_dt.datetime.now(_dt.timezone.utc) + _dt.timedelta(hours=8)).strftime(fmt)
+
+
+
 _UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36"
 _API = ("https://datacenter-web.eastmoney.com/api/data/v1/get"
         "?columns=ALL&pageSize={size}&sortColumns=TIME&sortTypes=-1&reportName={name}")
@@ -270,7 +277,8 @@ def build_macro():
     period_label = (series["dates"][-1] if series["dates"] else
                     (money[-1][1] if money else ""))
     return {
-        "lastUpdated": date.today().strftime("%Y-%m-%d"),
+        "lastUpdated": bj_now("%Y-%m-%d"),
+    "generatedAt": bj_now(),
         "periodLabel": period_label,
         "cards": cards,
         "series": series,

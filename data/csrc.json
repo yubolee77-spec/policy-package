@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-16 09:13",
+ "generatedAt": "2026-09-16 16:31",
  "kpi": {
   "penaltyTotal": 234,
   "penaltyMonth": 112,
@@ -7,8 +7,8 @@
   "approvalMonth": 12,
   "reitsApproved30d": 10,
   "ipoApproved30d": 9,
-  "mediaTotal": 0,
-  "mediaStrong": 0,
+  "mediaTotal": 39,
+  "mediaStrong": 25,
   "activeTotal": 377,
   "successTotal": 163,
   "cycleRecentAvg": 241,
@@ -35,26 +35,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/qingdao/c101719/c7658727/content.shtml"
-  },
-  {
-   "date": "2026-09-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "深圳证监局关于对赵燕、黄雅莉、强勇采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7659033/content.shtml"
-  },
-  {
-   "date": "2026-09-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "深圳证监局关于对财富在线（深圳）科技有限公司采取责令改正并责令暂停新增客户措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7659030/content.shtml"
   },
   {
    "date": "2026-09-16",
@@ -795,6 +775,26 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7657468/content.shtml"
+  },
+  {
+   "date": "2026-09-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对固力发集团股份有限公司及相关人员采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7657466/content.shtml"
+  },
+  {
+   "date": "2026-09-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对东阳元一传媒股份有限公司及相关人员采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7657448/content.shtml"
   },
   {
    "date": "2026-09-08",
@@ -4039,7 +4039,377 @@
    "url": "https://www.csrc.gov.cn/csrc/c105892/c1004918/content.shtml"
   }
  ],
- "media": [],
+ "media": [
+  {
+   "date": "2026-09-16",
+   "media": "上海证券报·中国证券网",
+   "title": "广东落地银行间市场首单“绿色+支持革命老区+乡村振兴”债券信用衍生品业务",
+   "url": "http://bond.eastmoney.com/a/202609163876007061.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "上海证券报·中国证券网",
+   "title": "丹东港完成首单玉米期货仓单注册",
+   "url": "http://finance.eastmoney.com/a/202609163875942241.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "证券时报网",
+   "title": "宁夏实现首单公募REITs突破",
+   "url": "http://finance.eastmoney.com/a/202609163875771590.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs",
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "界面新闻",
+   "title": "欧盟委员会主席提议加拿大成为欧盟首个“准成员国”",
+   "url": "http://finance.eastmoney.com/a/202609163876060865.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "财联社",
+   "title": "港交所据悉将于2026年底前推出首个债券指数",
+   "url": "http://finance.eastmoney.com/a/202609163876024453.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "中国证券报",
+   "title": "支持相关企业赴港上市，一文看懂香港首个五年规划",
+   "url": "http://finance.eastmoney.com/a/202609163876013027.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "财联社",
+   "title": "香港首个五年规划谱写金融新蓝图 黄金、股债、离岸人民币迎多线布局",
+   "url": "http://finance.eastmoney.com/a/202609163876013325.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "21世纪经济报道",
+   "title": "华为发布全球首个3D数据中心，科创半导体ETF华夏（588170）受资金关注",
+   "url": "http://stock.eastmoney.com/a/202609163875981220.html",
+   "keyword": "首个",
+   "topics": [
+    "集成电路"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "每日经济新闻",
+   "title": "香港特区首个五年规划今天正式公布！恒生科技ETF天弘（520920）标的指数盘中涨近1%，近20日净流入近3亿元",
+   "url": "http://stock.eastmoney.com/a/202609163875975670.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "上海证券报",
+   "title": "香港公布首个五年规划！涉资本市场，信息量巨大",
+   "url": "http://finance.eastmoney.com/a/202609163875958716.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "上海证券报·中国证券网",
+   "title": "香港特区首个五年规划提出：全面壮大离岸人民币业务规模",
+   "url": "http://finance.eastmoney.com/a/202609163875951877.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "每日经济新闻",
+   "title": "香港首个五年规划｜现有口岸在条件许可下亦考虑引入“合作查验、一次放行”的新型通关模式",
+   "url": "http://finance.eastmoney.com/a/202609163875986762.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "证券时报",
+   "title": "信息量巨大，香港公布首个五年规划！",
+   "url": "http://finance.eastmoney.com/a/202609163875948292.html",
+   "keyword": "首个",
+   "topics": [
+    "集成电路"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "每日经济新闻",
+   "title": "首批算力ETF持有人结构浮现：个人占比超90%，私募也积极布局",
+   "url": "http://stock.eastmoney.com/a/202609163876022460.html",
+   "keyword": "首批",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "中证网",
+   "title": "盘前资讯｜首批创业板算力ETF相继成立",
+   "url": "http://stock.eastmoney.com/a/202609163875814772.html",
+   "keyword": "首批",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "上海证券报·中国证券网",
+   "title": "海南首批跨国公司本外币跨境资金集中运营业务落地",
+   "url": "http://finance.eastmoney.com/a/202609163876009327.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-16",
+   "media": "界面新闻",
+   "title": "主动ETF30天加速推进，平安基金为何跻身首批？",
+   "url": "http://stock.eastmoney.com/a/202609163876001537.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-16",
+   "media": "证券日报",
+   "title": "比依股份持续推进新兴业务产业落地 AR眼镜已完成首批订单出货",
+   "url": "http://finance.eastmoney.com/a/202609163875988092.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-16",
+   "media": "每日经济新闻",
+   "title": "首批券商中期分红来了，招商证券12亿红包到账；中信证券：公开发行不超过400亿元永续次级债券获批 | 券商基金早参",
+   "url": "http://finance.eastmoney.com/a/202609163875668874.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-16",
+   "media": "每日经济新闻",
+   "title": "全国统一医保医疗服务项目目录首次制定 首批覆盖13个类别",
+   "url": "http://finance.eastmoney.com/a/202609163875555830.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-16",
+   "media": "界面新闻",
+   "title": "首次制定全国统一医保医疗服务项目目录，首批覆盖13个类别",
+   "url": "http://finance.eastmoney.com/a/202609163875521225.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-16",
+   "media": "央视新闻",
+   "title": "国家医保局出台方案 启动首批全国统一医保医疗服务项目目录编制",
+   "url": "http://finance.eastmoney.com/a/202609163875410195.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-15",
+   "media": "央广财经",
+   "title": "资本深一度｜首例三家券商换股合并，券业整合步入深水区",
+   "url": "http://finance.eastmoney.com/a/202609153874889529.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-15",
+   "media": "上海证券报·中国证券网",
+   "title": "内蒙古完成首单词元场内交易",
+   "url": "http://finance.eastmoney.com/a/202609153875011330.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-15",
+   "media": "证券时报网",
+   "title": "楼市新政后A股房企首单再融资 保利发展拟发行50亿元定向可转债",
+   "url": "http://finance.eastmoney.com/a/202609153873866940.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-15",
+   "media": "证券时报",
+   "title": "楼市新政后上市房企首单再融资 保利发展拟发行五十亿元定向可转债",
+   "url": "http://finance.eastmoney.com/a/202609153873807751.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-15",
+   "media": "财联社",
+   "title": "悦龙科技：公司作为国内首家具备API17K深海软管量产落地能力的企业 高端海工软管国产替代空间较为显著",
+   "url": "http://finance.eastmoney.com/a/202609153875119379.html",
+   "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-14",
+   "media": "上海证券报·中国证券网",
+   "title": "擅自复制《原神》游戏角色声音 上海首例涉AI声音仿冒不正当竞争案宣判",
+   "url": "http://finance.eastmoney.com/a/202609143873672382.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-14",
+   "media": "中国证券报·中证金牛座",
+   "title": "国金基金助力宁夏首单公募REIT获批",
+   "url": "http://finance.eastmoney.com/a/202609143873633370.html",
+   "keyword": "首单",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-14",
+   "media": "每日经济新闻",
+   "title": "今年首单获批的仓储物流REITs来了！监管发声支持市场供需两端稳步发展",
+   "url": "http://fund.eastmoney.com/a/202609143873740880.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs",
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-14",
+   "media": "新华财经",
+   "title": "对接“六张网”建设：山西首单公募REITs正式设立 盘活城市地下管网资产",
+   "url": "http://finance.eastmoney.com/a/202609143873461240.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-14",
+   "media": "证券日报",
+   "title": "黔源电力成功发行全国首单“碳中和绿色+乡村振兴+科技创新+生物多样性挂钩+支持生态文明建设先行区”公募公司债券",
+   "url": "http://finance.eastmoney.com/a/202609143873389766.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-14",
+   "media": "上海证券报·中国证券网",
+   "title": "“保险＋信托”双擎护航 “六维一体”守护特殊家庭 ——中诚信托落地人保集团首单养老服务信托项目",
+   "url": "http://insurance.eastmoney.com/a/202609143873341937.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-11",
+   "media": "每日经济新闻",
+   "title": "文远知行获西班牙首张L4自动驾驶乘用车牌照；燃料电池电动汽车安全要求强制性国标公开征求意见丨汽车早参",
+   "url": "http://finance.eastmoney.com/a/202609113871018895.html",
+   "keyword": "首张",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-10",
+   "media": "中国新闻网",
+   "title": "中国自动驾驶科技公司获西班牙首张L4级自动驾驶乘用车运营牌照",
+   "url": "http://finance.eastmoney.com/a/202609103870774685.html",
+   "keyword": "首张",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-10",
+   "media": "证券日报",
+   "title": "文远知行获西班牙首张L4级自动驾驶乘用车运营牌照 Robotaxi商业化服务年内上线",
+   "url": "http://finance.eastmoney.com/a/202609103870743641.html",
+   "keyword": "首张",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-10",
+   "media": "界面新闻",
+   "title": "首个国产基因疗法终于开出首张处方",
+   "url": "http://finance.eastmoney.com/a/202609103870921115.html",
+   "keyword": "首张",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-10",
+   "media": "界面新闻",
+   "title": "文远知行获西班牙首张L4级自动驾驶乘用车运营牌照",
+   "url": "http://finance.eastmoney.com/a/202609103870613383.html",
+   "keyword": "首张",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-09",
+   "media": "央视新闻",
+   "title": "全国首张“岸海船星”海洋专网发布 可守护超10万艘渔船通信",
+   "url": "http://finance.eastmoney.com/a/202609093869341430.html",
+   "keyword": "首张",
+   "topics": [],
+   "strong": false
+  }
+ ],
  "review": {
   "asOf": "2026-09-15",
   "total": 4400,
