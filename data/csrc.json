@@ -1,5 +1,7 @@
 {
- "generatedAt": "2026-09-16 16:31",
+ "generatedAt": "2026-09-16 17:41",
+ "mediaFetchedAt": "2026-09-16 16:31",
+ "mediaStale": true,
  "kpi": {
   "penaltyTotal": 234,
   "penaltyMonth": 112,
@@ -35,6 +37,26 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/qingdao/c101719/c7658727/content.shtml"
+  },
+  {
+   "date": "2026-09-16",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "深圳证监局关于对赵燕、黄雅莉、强勇采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7659033/content.shtml"
+  },
+  {
+   "date": "2026-09-16",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "深圳证监局关于对财富在线（深圳）科技有限公司采取责令改正并责令暂停新增客户措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7659030/content.shtml"
   },
   {
    "date": "2026-09-16",
@@ -775,26 +797,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7657468/content.shtml"
-  },
-  {
-   "date": "2026-09-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对固力发集团股份有限公司及相关人员采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7657466/content.shtml"
-  },
-  {
-   "date": "2026-09-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对东阳元一传媒股份有限公司及相关人员采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7657448/content.shtml"
   },
   {
    "date": "2026-09-08",
