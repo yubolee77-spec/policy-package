@@ -876,6 +876,20 @@ def _paper_day_cids(site, day):
     return cids
 
 
+def norm_byline(s):
+    """把署名/标题归一化后再匹配化名表（去掉所有空白与零宽字符）。
+
+    中文报纸的数字报会把两字名排成「任 平」「钟 声」（两端对齐需要），
+    详情页 <author> 里带着这个空格。若直接做子串匹配，化名表里的两字化名
+    —— 任平 / 仲音 / 钟声 / 吴哲 / 秋石 / 石平 / 金轩 —— 会全部漏抓。
+    （2026-09-16 实测：人民日报「任 平《以正确政绩观推动高质量发展行稳致远》」
+    就是这么被漏掉的，导致 L4 看起来「没更新」。）
+    """
+    if not s:
+        return ""
+    return _TITLE_NOISE.sub("", re.sub(r"\s+", "", s))
+
+
 def _paper_probe(args):
     """抓一篇数字报文章的详情页，解析标题/署名/日期/正文。"""
     site, ym, dd, cid = args
@@ -922,7 +936,7 @@ def fetch_paper_comments(days, known=None):
             for art in pool.map(_paper_probe, jobs):
                 if not art or not art["title"]:
                     continue
-                hit = next((b for b in BYLINE_MAP if b in art["author"]), "")
+                hit = next((b for b in BYLINE_MAP if b in norm_byline(art["author"])), "")
                 if not hit:
                     continue
                 # 同一篇文章常在要闻版与评论版各登一次（版面 ID 不同），按标题去重
@@ -976,8 +990,9 @@ def fetch_ce_comments():
             if len(title) < 8 or href in seen:
                 continue
             byline = ""
+            title_norm = norm_byline(title)
             for b in BYLINE_MAP:
-                if b in title:
+                if b in title_norm:
                     byline = b
                     break
             if not byline and "评论员" in title:

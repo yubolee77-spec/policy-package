@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-16 17:41",
- "mediaFetchedAt": "2026-09-16 16:31",
- "mediaStale": true,
+ "generatedAt": "2026-09-16 20:13",
+ "mediaFetchedAt": "2026-09-16 20:13",
+ "mediaStale": false,
  "kpi": {
   "penaltyTotal": 234,
   "penaltyMonth": 112,
@@ -9,8 +9,8 @@
   "approvalMonth": 12,
   "reitsApproved30d": 10,
   "ipoApproved30d": 9,
-  "mediaTotal": 39,
-  "mediaStrong": 25,
+  "mediaTotal": 32,
+  "mediaStrong": 22,
   "activeTotal": 377,
   "successTotal": 163,
   "cycleRecentAvg": 241,
@@ -4074,6 +4074,62 @@
   },
   {
    "date": "2026-09-16",
+   "media": "第一财经",
+   "title": "2026年底前推出首个债券指数？港交所：正在筹备",
+   "url": "http://finance.eastmoney.com/a/202609163876178514.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "中国证券报·中证金牛座",
+   "title": "【求证】2026年底前推出首个债券指数？港交所：正在筹备",
+   "url": "http://finance.eastmoney.com/a/202609163876173866.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "财联社",
+   "title": "香港发布首个五年规划 汇丰廖宜建：香港具备区域黄金清算枢纽条件 可发力人民币计价黄金产品",
+   "url": "http://finance.eastmoney.com/a/202609163876161593.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "财联社",
+   "title": "加拿大要入欧盟？欧盟主席：拟接纳其作为首个“准成员国”",
+   "url": "http://finance.eastmoney.com/a/202609163876206443.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "央视新闻",
+   "title": "我国首个“熔盐储能+二氧化碳发电”项目开工 预计2027年建成投产",
+   "url": "http://finance.eastmoney.com/a/202609163876115353.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
+   "media": "证券日报之声",
+   "title": "香港公布首个五年规划！关于港股市场，信息量巨大！",
+   "url": "http://finance.eastmoney.com/a/202609163876073725.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-16",
    "media": "界面新闻",
    "title": "欧盟委员会主席提议加拿大成为欧盟首个“准成员国”",
    "url": "http://finance.eastmoney.com/a/202609163876060865.html",
@@ -4101,87 +4157,9 @@
   },
   {
    "date": "2026-09-16",
-   "media": "财联社",
-   "title": "香港首个五年规划谱写金融新蓝图 黄金、股债、离岸人民币迎多线布局",
-   "url": "http://finance.eastmoney.com/a/202609163876013325.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "21世纪经济报道",
-   "title": "华为发布全球首个3D数据中心，科创半导体ETF华夏（588170）受资金关注",
-   "url": "http://stock.eastmoney.com/a/202609163875981220.html",
-   "keyword": "首个",
-   "topics": [
-    "集成电路"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "每日经济新闻",
-   "title": "香港特区首个五年规划今天正式公布！恒生科技ETF天弘（520920）标的指数盘中涨近1%，近20日净流入近3亿元",
-   "url": "http://stock.eastmoney.com/a/202609163875975670.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "上海证券报",
-   "title": "香港公布首个五年规划！涉资本市场，信息量巨大",
-   "url": "http://finance.eastmoney.com/a/202609163875958716.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "上海证券报·中国证券网",
-   "title": "香港特区首个五年规划提出：全面壮大离岸人民币业务规模",
-   "url": "http://finance.eastmoney.com/a/202609163875951877.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "每日经济新闻",
-   "title": "香港首个五年规划｜现有口岸在条件许可下亦考虑引入“合作查验、一次放行”的新型通关模式",
-   "url": "http://finance.eastmoney.com/a/202609163875986762.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "证券时报",
-   "title": "信息量巨大，香港公布首个五年规划！",
-   "url": "http://finance.eastmoney.com/a/202609163875948292.html",
-   "keyword": "首个",
-   "topics": [
-    "集成电路"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
    "media": "每日经济新闻",
    "title": "首批算力ETF持有人结构浮现：个人占比超90%，私募也积极布局",
    "url": "http://stock.eastmoney.com/a/202609163876022460.html",
-   "keyword": "首批",
-   "topics": [
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "中证网",
-   "title": "盘前资讯｜首批创业板算力ETF相继成立",
-   "url": "http://stock.eastmoney.com/a/202609163875814772.html",
    "keyword": "首批",
    "topics": [
     "算力/AI"
@@ -4211,42 +4189,6 @@
    "media": "证券日报",
    "title": "比依股份持续推进新兴业务产业落地 AR眼镜已完成首批订单出货",
    "url": "http://finance.eastmoney.com/a/202609163875988092.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-16",
-   "media": "每日经济新闻",
-   "title": "首批券商中期分红来了，招商证券12亿红包到账；中信证券：公开发行不超过400亿元永续次级债券获批 | 券商基金早参",
-   "url": "http://finance.eastmoney.com/a/202609163875668874.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-16",
-   "media": "每日经济新闻",
-   "title": "全国统一医保医疗服务项目目录首次制定 首批覆盖13个类别",
-   "url": "http://finance.eastmoney.com/a/202609163875555830.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-16",
-   "media": "界面新闻",
-   "title": "首次制定全国统一医保医疗服务项目目录，首批覆盖13个类别",
-   "url": "http://finance.eastmoney.com/a/202609163875521225.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-16",
-   "media": "央视新闻",
-   "title": "国家医保局出台方案 启动首批全国统一医保医疗服务项目目录编制",
-   "url": "http://finance.eastmoney.com/a/202609163875410195.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
@@ -4349,15 +4291,6 @@
    "strong": true
   },
   {
-   "date": "2026-09-14",
-   "media": "上海证券报·中国证券网",
-   "title": "“保险＋信托”双擎护航 “六维一体”守护特殊家庭 ——中诚信托落地人保集团首单养老服务信托项目",
-   "url": "http://insurance.eastmoney.com/a/202609143873341937.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
    "date": "2026-09-11",
    "media": "每日经济新闻",
    "title": "文远知行获西班牙首张L4自动驾驶乘用车牌照；燃料电池电动汽车安全要求强制性国标公开征求意见丨汽车早参",
@@ -4413,7 +4346,7 @@
   }
  ],
  "review": {
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-16",
   "total": 4400,
   "pipelineTotal": 875,
   "activeTotal": 377,
@@ -4427,12 +4360,12 @@
    },
    {
     "name": "已问询",
-    "count": 328,
+    "count": 327,
     "kind": "active"
    },
    {
     "name": "上市委会议通过",
-    "count": 13,
+    "count": 14,
     "kind": "active"
    },
    {
@@ -4796,6 +4729,16 @@
   ],
   "recentActive": [
    {
+    "date": "2026-09-16",
+    "acceptDate": "2025-09-18",
+    "company": "烟台九目化学股份有限公司",
+    "market": "北交所",
+    "industry": "化学原料和化学制品制造业",
+    "state": "上市委会议通过",
+    "region": "山东省 烟台市",
+    "sponsor": "中信证券股份有限公司"
+   },
+   {
     "date": "2026-09-15",
     "acceptDate": "2026-06-09",
     "company": "山东一诺生物质材料股份有限公司",
@@ -4823,6 +4766,16 @@
     "industry": "橡胶和塑料制品业",
     "state": "已问询",
     "region": "江苏省 常州市",
+    "sponsor": "华泰联合证券有限责任公司"
+   },
+   {
+    "date": "2026-09-15",
+    "acceptDate": "2026-04-24",
+    "company": "苏州朗高电机科技股份有限公司",
+    "market": "创业板",
+    "industry": "电气机械和器材制造业",
+    "state": "已问询",
+    "region": "江苏",
     "sponsor": "华泰联合证券有限责任公司"
    },
    {
@@ -4887,13 +4840,13 @@
    },
    {
     "date": "2026-09-09",
-    "acceptDate": "2025-09-18",
-    "company": "烟台九目化学股份有限公司",
+    "acceptDate": "2025-10-23",
+    "company": "安徽泓毅汽车技术股份有限公司",
     "market": "北交所",
-    "industry": "化学原料和化学制品制造业",
-    "state": "已问询",
-    "region": "山东省 烟台市",
-    "sponsor": "中信证券股份有限公司"
+    "industry": "汽车制造业",
+    "state": "提交注册",
+    "region": "安徽省 芜湖市",
+    "sponsor": "中国银河证券股份有限公司"
    },
    {
     "date": "2026-09-09",
@@ -4914,16 +4867,6 @@
     "state": "已问询",
     "region": "江苏",
     "sponsor": "广发证券股份有限公司"
-   },
-   {
-    "date": "2026-09-09",
-    "acceptDate": "2025-10-23",
-    "company": "安徽泓毅汽车技术股份有限公司",
-    "market": "北交所",
-    "industry": "汽车制造业",
-    "state": "提交注册",
-    "region": "安徽省 芜湖市",
-    "sponsor": "中国银河证券股份有限公司"
    },
    {
     "date": "2026-09-08",
@@ -5014,16 +4957,6 @@
     "state": "已问询",
     "region": "广东",
     "sponsor": "招商证券股份有限公司"
-   },
-   {
-    "date": "2026-09-03",
-    "acceptDate": "2026-04-24",
-    "company": "苏州朗高电机科技股份有限公司",
-    "market": "创业板",
-    "industry": "电气机械和器材制造业",
-    "state": "已问询",
-    "region": "江苏",
-    "sponsor": "华泰联合证券有限责任公司"
    },
    {
     "date": "2026-09-03",
