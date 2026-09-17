@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-17 22:35",
+ "generatedAt": "2026-09-18 07:47",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 243,
+ "candidateCount": 244,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-18 · 评判投资成效不能仅看增速高低（经济日报）",
+     "title": "评判投资成效不能仅看增速高低",
+     "url": "http://paper.ce.cn/pc/content/202609/18/content_339018.html",
+     "date": "2026-09-18",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-09-17 · 国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见（国务院最新政策文件）",
      "title": "国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见",
      "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081357.htm",
@@ -313,14 +321,6 @@
      "label": "2026-09-15 · 8月份国民经济运行平稳、发展向新向优（国家统计局最新数据发布）",
      "title": "8月份国民经济运行平稳、发展向新向优",
      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965307.html",
-     "date": "2026-09-15",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-09-15 · 2026年8月份规模以上工业增加值增长5.2%（国家统计局最新数据发布）",
-     "title": "2026年8月份规模以上工业增加值增长5.2%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965308.html",
      "date": "2026-09-15",
      "source": "国家统计局最新数据发布",
      "noise": false

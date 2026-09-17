@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-17 22:35",
+ "generatedAt": "2026-09-18 07:47",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-17 22:35",
-   "ageDays": 0
+   "fetchedAt": "2026-09-18 07:47",
+   "ageDays": 1
   },
   {
    "key": "bond",
@@ -26,17 +26,17 @@
    "indexLabel": "财政部预算司·国债发行",
    "include": "国债",
    "exclude": "会见|会谈|座谈|巡视|招聘|任免|公示|考试|培训",
-   "href": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202609/t20260917_3997584.htm",
+   "href": "https://www.gov.cn/zhengce/202607/content_7076206.htm",
    "latest": {
-    "title": "关于2026年记账式贴现（六十一期）国债发行工作有关事宜的通知",
-    "url": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202609/t20260917_3997584.htm",
-    "date": "2026-09-17",
-    "source": "财政部"
+    "title": "220亿元超长期特别国债，支持老旧营运货车报废更新",
+    "url": "https://www.gov.cn/zhengce/202607/content_7076206.htm",
+    "date": "2026-07-21",
+    "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 13,
-   "fetchedAt": "2026-09-17 22:35",
-   "ageDays": 0
+   "total": 12,
+   "fetchedAt": "2026-09-18 07:47",
+   "ageDays": 59
   },
   {
    "key": "localbond",
@@ -54,8 +54,8 @@
    },
    "stale": false,
    "total": 4,
-   "fetchedAt": "2026-09-17 22:35",
-   "ageDays": 321
+   "fetchedAt": "2026-09-18 07:47",
+   "ageDays": 322
   },
   {
    "key": "media",
@@ -63,16 +63,16 @@
    "indexUrl": "http://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202609/17/content_338966.html",
+   "href": "http://paper.ce.cn/pc/content/202609/18/content_339018.html",
    "latest": {
-    "title": "打通堵点全链条扩大汽车消费",
-    "url": "http://paper.ce.cn/pc/content/202609/17/content_338966.html",
-    "date": "2026-09-17",
+    "title": "评判投资成效不能仅看增速高低",
+    "url": "http://paper.ce.cn/pc/content/202609/18/content_339018.html",
+    "date": "2026-09-18",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 107,
-   "fetchedAt": "2026-09-17 22:35",
+   "total": 108,
+   "fetchedAt": "2026-09-18 07:47",
    "ageDays": 0
   }
  ],
