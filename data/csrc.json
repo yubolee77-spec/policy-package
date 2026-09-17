@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-17 17:45",
+ "generatedAt": "2026-09-17 22:26",
  "mediaFetchedAt": "2026-09-17 17:01",
  "mediaStale": true,
  "kpi": {
@@ -47,6 +47,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/zhejiang/c100657/c7659178/content.shtml"
+  },
+  {
+   "date": "2026-09-17",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对广东君溢私募基金管理有限公司采取责令改正措施的决定〔2026〕116号",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7659379/content.shtml"
   },
   {
    "date": "2026-09-17",
@@ -727,16 +737,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7658380/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对江苏保千里视像科技集团股份有限公司、丁立红采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103893/c7658367/content.shtml"
   },
   {
    "date": "2026-09-10",
