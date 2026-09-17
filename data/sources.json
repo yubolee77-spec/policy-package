@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-17 16:35",
+ "generatedAt": "2026-09-17 16:59",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-17 16:35",
+   "fetchedAt": "2026-09-17 16:59",
    "ageDays": 6
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 15,
-   "fetchedAt": "2026-09-17 16:35",
+   "fetchedAt": "2026-09-17 16:59",
    "ageDays": 2
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 4,
-   "fetchedAt": "2026-09-17 16:35",
+   "total": 21,
+   "fetchedAt": "2026-09-17 16:59",
    "ageDays": 321
   },
   {
@@ -72,7 +72,7 @@
    },
    "stale": false,
    "total": 107,
-   "fetchedAt": "2026-09-17 16:35",
+   "fetchedAt": "2026-09-17 16:59",
    "ageDays": 0
   }
  ],

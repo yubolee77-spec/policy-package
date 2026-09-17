@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-17 16:24",
- "mediaFetchedAt": "2026-09-16 20:13",
- "mediaStale": true,
+ "generatedAt": "2026-09-17 16:51",
+ "mediaFetchedAt": "2026-09-17 16:51",
+ "mediaStale": false,
  "kpi": {
   "penaltyTotal": 234,
   "penaltyMonth": 113,
@@ -9,8 +9,8 @@
   "approvalMonth": 12,
   "reitsApproved30d": 8,
   "ipoApproved30d": 8,
-  "mediaTotal": 32,
-  "mediaStrong": 22,
+  "mediaTotal": 34,
+  "mediaStrong": 21,
   "activeTotal": 377,
   "successTotal": 163,
   "cycleRecentAvg": 241,
@@ -18,6 +18,16 @@
   "cycleVerdict": "加快 18%"
  },
  "penalty": [
+  {
+   "date": "2026-09-17",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对沈阳市电信规划设计院股份有限公司、辽宁双宇企业管理有限责任公司、苏宇、朱宇、杨洋、王晓参、兰庆强采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/liaoning/c103750/c7659267/content.shtml"
+  },
   {
    "date": "2026-09-17",
    "channel": "监管工作",
@@ -37,36 +47,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/zhejiang/c100657/c7659178/content.shtml"
-  },
-  {
-   "date": "2026-09-17",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对沈阳市电信规划设计院股份有限公司、辽宁双宇企业管理有限责任公司、苏宇、朱宇、杨洋、王晓参、兰庆强采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/liaoning/c103750/c7659267/content.shtml"
-  },
-  {
-   "date": "2026-09-16",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "福建证监局联合福建省委金融办举办福建金融干部REITs市场培训班",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c100733/c7658869/content.shtml"
-  },
-  {
-   "date": "2026-09-16",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "深化资本市场服务 赋能实体经济转型升级——青岛证监局开展“走进深交所”专题活动",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7658727/content.shtml"
   },
   {
    "date": "2026-09-16",
@@ -149,6 +129,66 @@
    "url": "https://www.csrc.gov.cn/shandong/c104218/c7658870/content.shtml"
   },
   {
+   "date": "2026-09-16",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "福建证监局联合福建省委金融办举办福建金融干部REITs市场培训班",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c100733/c7658869/content.shtml"
+  },
+  {
+   "date": "2026-09-16",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "深化资本市场服务 赋能实体经济转型升级——青岛证监局开展“走进深交所”专题活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7658727/content.shtml"
+  },
+  {
+   "date": "2026-09-15",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对中源协和细胞基因工程股份有限公司、龚虹嘉、WANG HONGQI（王洪琦）、陈轶青采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/tianjin/c103610/c7658671/content.shtml"
+  },
+  {
+   "date": "2026-09-15",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对东方汇金期货有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658620/content.shtml"
+  },
+  {
+   "date": "2026-09-15",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对李泽侯采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658612/content.shtml"
+  },
+  {
+   "date": "2026-09-15",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对于怀宇采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658608/content.shtml"
+  },
+  {
    "date": "2026-09-15",
    "channel": "监管工作",
    "column": "辖区监管动态",
@@ -172,36 +212,6 @@
    "date": "2026-09-15",
    "channel": "监管工作",
    "column": "辖区监管动态",
-   "tag": "责令改正",
-   "title": "关于对东方汇金期货有限公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658620/content.shtml"
-  },
-  {
-   "date": "2026-09-15",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "警示函",
-   "title": "关于对李泽侯采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658612/content.shtml"
-  },
-  {
-   "date": "2026-09-15",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "警示函",
-   "title": "关于对于怀宇采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658608/content.shtml"
-  },
-  {
-   "date": "2026-09-15",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
    "tag": "监管措施",
    "title": "厦门证监局投资者保护工作提质增效",
    "docNo": "",
@@ -217,16 +227,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/tianjin/c100315/c7658559/content.shtml"
-  },
-  {
-   "date": "2026-09-15",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对中源协和细胞基因工程股份有限公司、龚虹嘉、WANG HONGQI（王洪琦）、陈轶青采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/tianjin/c103610/c7658671/content.shtml"
   },
   {
    "date": "2026-09-14",
@@ -290,66 +290,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "责令改正",
-   "title": "关于对李锐采取责令改正行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658198/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "责令改正",
-   "title": "关于对张智河、李涛采取责令改正行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658193/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管谈话",
-   "title": "关于对国融证券股份有限公司采取监管谈话行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658187/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "工作动态",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "深圳证监局多点发力开展金融教育宣传周活动",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shenzhen/c101531/c7658182/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-9-11",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7658058/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "陕西证监局组织开展2026年金融教育宣传周活动启动仪式",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shaanxi/c101303/c7658538/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "行政监管措施",
    "column": "监管措施",
    "tag": "责令改正",
@@ -397,6 +337,36 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/beijing/c105547/c7658199/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对李锐采取责令改正行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658198/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对张智河、李涛采取责令改正行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658193/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "监管谈话",
+   "title": "关于对国融证券股份有限公司采取监管谈话行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658187/content.shtml"
   },
   {
    "date": "2026-09-11",
@@ -629,34 +599,34 @@
    "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7658364/content.shtml"
   },
   {
-   "date": "2026-09-10",
-   "channel": "监管工作",
+   "date": "2026-09-11",
+   "channel": "工作动态",
    "column": "辖区监管动态",
    "tag": "监管措施",
-   "title": "重庆辖区举办上市公司审计委员会工作实务交流会",
+   "title": "深圳证监局多点发力开展金融教育宣传周活动",
    "docNo": "",
    "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c101075/c7657788/content.shtml"
+   "url": "https://www.csrc.gov.cn/shenzhen/c101531/c7658182/content.shtml"
   },
   {
-   "date": "2026-09-10",
+   "date": "2026-09-11",
    "channel": "通知公告",
    "column": "辖区监管动态",
    "tag": "监管措施",
-   "title": "湖北辖区2026年8月末在辅导企业基本情况及辅导监管相关工作信息表",
+   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-9-11",
    "docNo": "",
    "party": "",
-   "url": "https://www.csrc.gov.cn/hubei/c105453/c7657778/content.shtml"
+   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7658058/content.shtml"
   },
   {
-   "date": "2026-09-10",
+   "date": "2026-09-11",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
-   "title": "“硬核科技”乘“资本东风”聚力启新程——电科思仪成功登陆创业板",
+   "title": "陕西证监局组织开展2026年金融教育宣传周活动启动仪式",
    "docNo": "",
    "party": "",
-   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7657702/content.shtml"
+   "url": "https://www.csrc.gov.cn/shaanxi/c101303/c7658538/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -739,6 +709,56 @@
    "url": "https://www.csrc.gov.cn/xinjiang/c104370/c7657732/content.shtml"
   },
   {
+   "date": "2026-09-10",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "重庆辖区举办上市公司审计委员会工作实务交流会",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c101075/c7657788/content.shtml"
+  },
+  {
+   "date": "2026-09-10",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "湖北辖区2026年8月末在辅导企业基本情况及辅导监管相关工作信息表",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hubei/c105453/c7657778/content.shtml"
+  },
+  {
+   "date": "2026-09-10",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "“硬核科技”乘“资本东风”聚力启新程——电科思仪成功登陆创业板",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7657702/content.shtml"
+  },
+  {
+   "date": "2026-09-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对华投（平潭综合实验区）股权投资基金管理有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658217/content.shtml"
+  },
+  {
+   "date": "2026-09-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对博富科技股份有限公司、张世栋、张亦弛采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7657475/content.shtml"
+  },
+  {
    "date": "2026-09-09",
    "channel": "通知公告",
    "column": "辖区监管动态",
@@ -787,26 +807,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jilin/c100505/c7657446/content.shtml"
-  },
-  {
-   "date": "2026-09-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对华投（平潭综合实验区）股权投资基金管理有限公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658217/content.shtml"
-  },
-  {
-   "date": "2026-09-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对博富科技股份有限公司、张世栋、张亦弛采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7657475/content.shtml"
   },
   {
    "date": "2026-09-08",
@@ -4043,6 +4043,226 @@
  ],
  "media": [
   {
+   "date": "2026-09-17",
+   "media": "第一财经",
+   "title": "健友股份：门冬胰岛素虽已获美国FDA批件 暂未实现首单销售",
+   "url": "http://finance.eastmoney.com/a/202609173877118358.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "财联社",
+   "title": "智谱GLM公开国内大模型首个RSI实践：AI在十万卡国产集群上自建推理系统",
+   "url": "http://finance.eastmoney.com/a/202609173877338160.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "上海证券报·中国证券网",
+   "title": "港交所：正在筹备推出首个债券指数，支持人民币国际化进程",
+   "url": "http://finance.eastmoney.com/a/202609173877323821.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "上海证券报·中国证券网",
+   "title": "本土化创新持续推进 赛百味“百味新江湖”战略迎来首个联名新品",
+   "url": "http://finance.eastmoney.com/a/202609173877286691.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "证券时报网",
+   "title": "卫光生物：白俄罗斯输血中心合作项目正式交付 完成国内首个血液制品技术输出",
+   "url": "http://finance.eastmoney.com/a/202609173877258441.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "上海证券报",
+   "title": "华为光互联产品亮相全联接大会 汪涛：这是业界首个量产NPO产品",
+   "url": "http://finance.eastmoney.com/a/202609173877239438.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "每日经济新闻",
+   "title": "华为发布全球首个采用NPO技术的超节点昇腾960！创业板算力ETF天弘（158061）标的指数涨近1%，换手率超35%",
+   "url": "http://stock.eastmoney.com/a/202609173877228744.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "每日经济新闻",
+   "title": "华为首个3D数据中心+昇腾超节点亮相！创业板算力 ETF 华夏（158041.SZ）上市走强",
+   "url": "http://stock.eastmoney.com/a/202609173877212018.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "界面新闻",
+   "title": "华为推出业界首个采用NPO技术的超节点",
+   "url": "http://finance.eastmoney.com/a/202609173877202428.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI",
+    "集成电路"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "财联社",
+   "title": "首个采用NPO的昇腾960超节点来了！华为新款AI芯片将提前推出",
+   "url": "http://finance.eastmoney.com/a/202609173877189490.html",
+   "keyword": "首个",
+   "topics": [
+    "集成电路"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "澎湃新闻",
+   "title": "华为昇腾960超节点发布：业界首个采用NPO的超节点 支持十万亿大模型训练和推理",
+   "url": "http://finance.eastmoney.com/a/202609173877166119.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "每日经济新闻",
+   "title": "香港特区首个五年规划正式公布，港股医药逆势反弹，关注港股通创新药医疗ETF富国（159506）",
+   "url": "http://stock.eastmoney.com/a/202609173877215513.html",
+   "keyword": "首个",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "第一财经",
+   "title": "华为发布业内首个基于NPO的超节点昇腾960超节点 明年三季度上市",
+   "url": "http://finance.eastmoney.com/a/202609173877142355.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "上海证券报·中国证券网",
+   "title": "首批2只创业板算力基础设施ETF早盘上涨",
+   "url": "http://stock.eastmoney.com/a/202609173877151421.html",
+   "keyword": "首批",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-17",
+   "media": "财联社",
+   "title": "上海国投科创策源基金二期首批项目签约 二期总规模4.5亿元",
+   "url": "http://finance.eastmoney.com/a/202609173877340444.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-17",
+   "media": "财联社",
+   "title": "最快下周一？主动ETF获批倒计时，首批公募要面对哪些挑战？",
+   "url": "http://stock.eastmoney.com/a/202609173877318723.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-17",
+   "media": "21世纪经济报道",
+   "title": "首批目录13类，中医暂不纳入：医疗服务项目医保支付加快全国统一",
+   "url": "http://finance.eastmoney.com/a/202609173877291773.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-17",
+   "media": "中国证券报·中证金牛座",
+   "title": "市场监管总局：首批国产肿瘤全营养特医食品获批注册",
+   "url": "http://finance.eastmoney.com/a/202609173877251536.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-17",
+   "media": "界面新闻",
+   "title": "首批主动ETF为什么都选“稳健”起步？",
+   "url": "http://stock.eastmoney.com/a/202609173877246766.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-17",
+   "media": "新华财经",
+   "title": "上海等11城链家门店安装首批AED",
+   "url": "http://finance.eastmoney.com/a/202609173877155433.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-17",
+   "media": "每日经济新闻",
+   "title": "首批国产肿瘤全营养特医食品获批注册",
+   "url": "http://finance.eastmoney.com/a/202609173877260648.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-16",
+   "media": "中国新闻网",
+   "title": "宁夏首单基础设施公募REITs获批 新能源存量资产迎来资本新通道",
+   "url": "http://finance.eastmoney.com/a/202609163876272075.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs",
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
    "date": "2026-09-16",
    "media": "上海证券报·中国证券网",
    "title": "广东落地银行间市场首单“绿色+支持革命老区+乡村振兴”债券信用衍生品业务",
@@ -4073,127 +4293,6 @@
    "strong": true
   },
   {
-   "date": "2026-09-16",
-   "media": "第一财经",
-   "title": "2026年底前推出首个债券指数？港交所：正在筹备",
-   "url": "http://finance.eastmoney.com/a/202609163876178514.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "中国证券报·中证金牛座",
-   "title": "【求证】2026年底前推出首个债券指数？港交所：正在筹备",
-   "url": "http://finance.eastmoney.com/a/202609163876173866.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "财联社",
-   "title": "香港发布首个五年规划 汇丰廖宜建：香港具备区域黄金清算枢纽条件 可发力人民币计价黄金产品",
-   "url": "http://finance.eastmoney.com/a/202609163876161593.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "财联社",
-   "title": "加拿大要入欧盟？欧盟主席：拟接纳其作为首个“准成员国”",
-   "url": "http://finance.eastmoney.com/a/202609163876206443.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "央视新闻",
-   "title": "我国首个“熔盐储能+二氧化碳发电”项目开工 预计2027年建成投产",
-   "url": "http://finance.eastmoney.com/a/202609163876115353.html",
-   "keyword": "首个",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "证券日报之声",
-   "title": "香港公布首个五年规划！关于港股市场，信息量巨大！",
-   "url": "http://finance.eastmoney.com/a/202609163876073725.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "界面新闻",
-   "title": "欧盟委员会主席提议加拿大成为欧盟首个“准成员国”",
-   "url": "http://finance.eastmoney.com/a/202609163876060865.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "财联社",
-   "title": "港交所据悉将于2026年底前推出首个债券指数",
-   "url": "http://finance.eastmoney.com/a/202609163876024453.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "中国证券报",
-   "title": "支持相关企业赴港上市，一文看懂香港首个五年规划",
-   "url": "http://finance.eastmoney.com/a/202609163876013027.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "每日经济新闻",
-   "title": "首批算力ETF持有人结构浮现：个人占比超90%，私募也积极布局",
-   "url": "http://stock.eastmoney.com/a/202609163876022460.html",
-   "keyword": "首批",
-   "topics": [
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-16",
-   "media": "上海证券报·中国证券网",
-   "title": "海南首批跨国公司本外币跨境资金集中运营业务落地",
-   "url": "http://finance.eastmoney.com/a/202609163876009327.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-16",
-   "media": "界面新闻",
-   "title": "主动ETF30天加速推进，平安基金为何跻身首批？",
-   "url": "http://stock.eastmoney.com/a/202609163876001537.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-16",
-   "media": "证券日报",
-   "title": "比依股份持续推进新兴业务产业落地 AR眼镜已完成首批订单出货",
-   "url": "http://finance.eastmoney.com/a/202609163875988092.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
    "date": "2026-09-15",
    "media": "央广财经",
    "title": "资本深一度｜首例三家券商换股合并，券业整合步入深水区",
@@ -4212,81 +4311,11 @@
    "strong": true
   },
   {
-   "date": "2026-09-15",
-   "media": "证券时报网",
-   "title": "楼市新政后A股房企首单再融资 保利发展拟发行50亿元定向可转债",
-   "url": "http://finance.eastmoney.com/a/202609153873866940.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-15",
-   "media": "证券时报",
-   "title": "楼市新政后上市房企首单再融资 保利发展拟发行五十亿元定向可转债",
-   "url": "http://finance.eastmoney.com/a/202609153873807751.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-15",
-   "media": "财联社",
-   "title": "悦龙科技：公司作为国内首家具备API17K深海软管量产落地能力的企业 高端海工软管国产替代空间较为显著",
-   "url": "http://finance.eastmoney.com/a/202609153875119379.html",
-   "keyword": "首家",
-   "topics": [],
-   "strong": false
-  },
-  {
    "date": "2026-09-14",
    "media": "上海证券报·中国证券网",
    "title": "擅自复制《原神》游戏角色声音 上海首例涉AI声音仿冒不正当竞争案宣判",
    "url": "http://finance.eastmoney.com/a/202609143873672382.html",
    "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-14",
-   "media": "中国证券报·中证金牛座",
-   "title": "国金基金助力宁夏首单公募REIT获批",
-   "url": "http://finance.eastmoney.com/a/202609143873633370.html",
-   "keyword": "首单",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-14",
-   "media": "每日经济新闻",
-   "title": "今年首单获批的仓储物流REITs来了！监管发声支持市场供需两端稳步发展",
-   "url": "http://fund.eastmoney.com/a/202609143873740880.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs",
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-14",
-   "media": "新华财经",
-   "title": "对接“六张网”建设：山西首单公募REITs正式设立 盘活城市地下管网资产",
-   "url": "http://finance.eastmoney.com/a/202609143873461240.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-14",
-   "media": "证券日报",
-   "title": "黔源电力成功发行全国首单“碳中和绿色+乡村振兴+科技创新+生物多样性挂钩+支持生态文明建设先行区”公募公司债券",
-   "url": "http://finance.eastmoney.com/a/202609143873389766.html",
-   "keyword": "首单",
    "topics": [],
    "strong": true
   },
