@@ -172,6 +172,24 @@ a:hover{color:inherit}
 .src-desc{font-size:12px;color:var(--text-secondary);line-height:1.6;margin-bottom:10px}
 .src-tag{display:inline-block;font-size:10px;padding:2px 6px;background:rgba(224,160,48,.15);color:var(--accent-amber);border-radius:3px;margin-right:4px;font-family:var(--font-mono);margin-bottom:4px}
 .src-url{font-family:var(--font-mono);font-size:11px;color:var(--accent-amber);display:flex;align-items:center;gap:5px;margin-top:6px}
+/* 「最近更新」块：由 data/sources.json 每日刷新（原先这些信息是手写在 HTML 里的死链接） */
+.src-latest{
+  margin-top:10px;padding:8px 10px;border-radius:5px;
+  background:rgba(90,190,170,.07);border-left:3px solid var(--accent-teal);
+  display:flex;flex-direction:column;gap:3px;
+}
+.src-latest-hd{font-family:var(--font-mono);font-size:10px;color:var(--accent-teal);font-weight:600}
+.src-latest-title{font-size:11.5px;color:var(--text-primary);line-height:1.5}
+.src-latest-src{font-size:10px;color:var(--text-muted);font-family:var(--font-mono)}
+.src-latest-note{font-size:10px;color:var(--accent-amber);line-height:1.5}
+/* 来源栏目长期未更新（不是本站没抓） */
+.src-latest--old{background:rgba(224,160,48,.07);border-left-color:var(--accent-amber)}
+.src-latest--old .src-latest-hd{color:var(--accent-amber)}
+/* 本次抓取零命中，沿用上一版 */
+.src-latest--stale{background:rgba(224,90,90,.08);border-left-color:#e05a5a}
+.src-latest--stale .src-latest-hd{color:#e05a5a}
+/* L3 新增赛道兜底行（app.js 分类表未登记时不丢数据） */
+.cmp-row-orphan{border-left-style:dashed}
 .cmp-table{width:100%;background:var(--bg-panel);border:1px solid var(--border-primary);border-radius:8px;overflow:hidden}
 .cmp-hd{display:grid;grid-template-columns:1.2fr 2fr 2fr 2fr 1.2fr;padding:12px 16px;background:var(--bg-secondary);border-bottom:1px solid var(--border-primary);font-size:11px;color:var(--accent-amber);font-family:var(--font-mono);font-weight:600;letter-spacing:.5px}
 .cmp-row{display:grid;grid-template-columns:1.2fr 2fr 2fr 2fr 1.2fr;padding:14px 16px;border-bottom:1px solid var(--border-primary);transition:background .2s;font-size:12px}
@@ -502,6 +520,29 @@ a:hover{color:inherit}
 .at-kp b{color:var(--text-primary);font-weight:600}
 .at-kp .at-kw{margin-left:6px}
 .at-doc-list{display:flex;flex-direction:column;gap:5px;margin-top:4px}
+/* 自动收录条目：与人工整理的原文链接区分开（带真实日期与来源标签） */
+.at-doc-auto{
+  background:rgba(90,190,170,.08);
+  color:var(--text-secondary);
+  align-items:flex-start;
+}
+.at-doc-auto::before{content:'⚡'}
+.at-doc-auto:hover{background:rgba(90,190,170,.16);text-decoration:underline}
+.at-doc-date{
+  font-family:var(--font-mono);
+  font-size:10px;
+  color:var(--accent-teal);
+  flex-shrink:0;
+  padding-right:2px;
+}
+.at-doc-src{
+  font-size:9.5px;
+  color:var(--text-muted);
+  border:1px solid var(--border-primary);
+  border-radius:3px;
+  padding:0 4px;
+  flex-shrink:0;
+}
 .at-doc{
   font-size:10.5px;
   color:var(--accent-amber);

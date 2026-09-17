@@ -1420,6 +1420,20 @@ def main():
     except Exception as e:
         print(f"  历年政策对比更新失败（不影响政策数据）: {e}")
 
+    # 13. L1 年度政策时间线（节点状态按北京时间判定 + 按周期窗口自动收录真实条目）
+    try:
+        import update_timeline
+        update_timeline.main()
+    except Exception as e:
+        print(f"  年度政策时间线更新失败（不影响政策数据）: {e}")
+
+    # 14. L2 政策信息源卡片（国债/地方债/政策库/官媒解读的最新文件）
+    try:
+        import update_sources
+        update_sources.main()
+    except Exception as e:
+        print(f"  政策信息源更新失败（不影响政策数据）: {e}")
+
 
 if __name__ == "__main__":
     main()

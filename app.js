@@ -404,18 +404,30 @@ const annualTimelineNodes = [
   }
 ];
 
+// 自动生成的时间线（data/timeline.json，每日随抓取任务重算）：
+// 覆盖节点 status（按北京时间判定）与本周期自动收录条目；缺失时回退到上方内置文案
+var timelineAuto = null;
+
 /**
  * 渲染年度政策时间线（竖线+圆点节点+details下拉展开）
+ *
+ * 节点状态与「本周期自动收录」都优先用 data/timeline.json：
+ * 该文件每天随抓取任务重算（status 按北京时间判定、条目按周期窗口自动筛选），
+ * 因此 9 月不会再出现「1-2月 = 🔥 当前阶段」这类过期标注。
+ * 拿不到文件时回退到内置的 annualTimelineNodes（status 为人工兜底值）。
  */
 function renderAnnualTimeline() {
   const list = document.getElementById('annualTimeline');
   if (!list) return;
   list.innerHTML = '<div class="at-list"></div>';
   const wrap = list.querySelector('.at-list');
+  const autoNodes = (timelineAuto && timelineAuto.nodes) || {};
 
   annualTimelineNodes.forEach(node => {
+    const auto = autoNodes[node.period] || null;
+    const status = (auto && auto.status) ? auto.status : node.status;
     const wrapEl = document.createElement('div');
-    wrapEl.className = 'at-node at-' + node.status;
+    wrapEl.className = 'at-node at-' + status;
 
     // 关键词 chip 拼接
     const kpHtml = (node.keypoints || []).map(kp => {
@@ -428,8 +440,16 @@ function renderAnnualTimeline() {
       return `<a href="${d.url}" target="_blank" class="at-doc">${d.label}</a>`;
     }).join('');
 
+    // 本周期自动收录（来自当日抓取结果，随政策发布滚动更新）
+    const autoDocs = (auto && auto.docs) || [];
+    const autoDocHtml = autoDocs.map(d => {
+      const s = d.source ? `<span class="at-doc-src">${escapeHtml(d.source)}</span>` : '';
+      return `<a href="${d.url}" target="_blank" class="at-doc at-doc-auto">` +
+             `<span class="at-doc-date">${d.date}</span>${escapeHtml(d.title)}${s}</a>`;
+    }).join('');
+
     // 未来阶段提示
-    const futureNote = node.status === 'future'
+    const futureNote = status === 'future'
       ? '<div class="at-future-note">⏳ 该阶段属未来政策窗口，当前展示的是<strong>历史节奏模板</strong>与<strong>往年原文入口</strong>，方便届时快速对照；实际事件需等待会议召开后更新。</div>'
       : '';
 
@@ -443,7 +463,7 @@ function renderAnnualTimeline() {
     const detailsEl = document.createElement('details');
     detailsEl.className = 'at-details';
     // 让当前默认展开，方便用户第一眼看到
-    if (node.status === 'hot') detailsEl.open = true;
+    if (status === 'hot') detailsEl.open = true;
 
     detailsEl.innerHTML = `
       <summary class="at-summary">
@@ -451,7 +471,7 @@ function renderAnnualTimeline() {
           <span class="at-period">${node.period}</span>
           <span class="at-slogan">${node.slogan}</span>
         </div>
-        <span class="at-meta">${metaMap[node.status] || ''}</span>
+        <span class="at-meta">${metaMap[status] || ''}</span>
       </summary>
       <div class="at-body">
         ${futureNote}
@@ -459,6 +479,8 @@ function renderAnnualTimeline() {
         <div class="at-body-summary">${node.summary}</div>
         <div class="at-section-hd">▸ 关键政策要点（关键词定调标注）</div>
         <div class="at-kp-list">${kpHtml || '<div style="padding:8px 12px;font-size:11px;color:var(--text-muted)">暂无要点</div>'}</div>
+        ${autoDocs.length ? `<div class="at-section-hd">▸ 本周期自动收录（${auto.window || ''} · ${autoDocs.length} 条 · 随每日抓取滚动更新）</div>
+        <div class="at-doc-list">${autoDocHtml}</div>` : ''}
         <div class="at-section-hd">▸ 政策原文件 / 权威解读原文链接</div>
         <div class="at-doc-list">${docHtml || '<div style="padding:8px 12px;font-size:11px;color:var(--text-muted)">暂无链接</div>'}</div>
       </div>
@@ -1072,6 +1094,24 @@ function renderCompareFilter() {
       });
       html += '</div></div>';
     });
+    // 兜底：compare.json 里出现 app.js 分类表未登记的新赛道时，不能静默丢弃
+    // （否则 update_compare.py 新增赛道后，页面上永远看不到）
+    const knownTracks = compareCategories.map(c => c.key);
+    const orphan = topics.filter(t => knownTracks.indexOf(t.track) < 0);
+    if (orphan.length) {
+      html += '<div class="cmp-filter-row cmp-row-orphan" style="--track-color:var(--text-muted)">';
+      html += '<div class="cmp-row-label">';
+      html += `<span class="cat-name" style="cursor:pointer" data-track="${orphan[0].track}" title="点击筛选整个赛道">🧩 其他赛道（${orphan.length}）</span>`;
+      html += '<span class="cat-codes">app.js 的赛道分类表待补充</span>';
+      html += '<span class="cat-focus">新增赛道自动兜底显示</span>';
+      html += '</div>';
+      html += '<div class="cmp-row-chips">';
+      orphan.forEach(t => {
+        const total = Object.values(t.counts || {}).reduce((a, b) => a + b, 0);
+        html += `<span class="cmp-chip" data-topic="${t.key}"><span class="cmp-chip-code">${t.code}</span>${t.label}<span class="cmp-chip-cnt">${total}</span></span>`;
+      });
+      html += '</div></div>';
+    }
     chipsEl.innerHTML = html;
     chipsEl.querySelectorAll('.cmp-chip').forEach(chip => {
       chip.addEventListener('click', (e) => {
@@ -1248,12 +1288,61 @@ function renderCompareTable() {
 }
 
 // ============================================================
+// L2 政策信息源：四张卡片的最新文件（data/sources.json，每日随抓取任务更新）
+// 卡片本身（图标/描述/标签）是编辑内容，保留 HTML 静态结构；
+// 这里只把「数据」部分换掉：卡片指向最新命中文件，并插入「最近更新」一行。
+// ============================================================
+var sourcesAuto = null;
+
+function renderSources() {
+  var grid = document.getElementById('srcGrid');
+  if (!grid || !sourcesAuto || !sourcesAuto.cards) return;
+  sourcesAuto.cards.forEach(function(c) {
+    var card = grid.querySelector('[data-src-key="' + c.key + '"]');
+    if (!card) return;
+    var lt = c.latest || null;
+    var box = card.querySelector('.src-latest');
+
+    if (!lt) {                       // 完全没数据：留一句提示，不动卡片链接
+      if (box) box.parentNode.removeChild(box);
+      return;
+    }
+    // 卡片整体指向最新命中文件（不在 <a> 里再嵌 <a>，避免非法嵌套）
+    card.href = c.href || c.indexUrl;
+
+    var age = (typeof c.ageDays === 'number') ? c.ageDays : null;
+    var cls = 'src-latest';
+    var note = '';
+    if (c.stale) {
+      cls += ' src-latest--stale';
+      note = '本次抓取未命中（境外网络受限），以下为上一次成功抓取的数据';
+    } else if (age !== null && age > 90) {
+      cls += ' src-latest--old';
+      note = '来源栏目已 ' + age + ' 天未发布新文件（不是本站未抓取）';
+    }
+    var html =
+      '<span class="src-latest-hd">最近更新 · ' + escapeHtml(lt.date || '') + '</span>' +
+      '<span class="src-latest-title">' + escapeHtml(lt.title || '') + '</span>' +
+      (lt.source ? '<span class="src-latest-src">' + escapeHtml(lt.source) + '</span>' : '') +
+      (note ? '<span class="src-latest-note">' + note + '</span>' : '');
+
+    if (!box) {
+      box = document.createElement('div');
+      var urlEl = card.querySelector('.src-url');
+      if (urlEl) card.insertBefore(box, urlEl); else card.appendChild(box);
+    }
+    box.className = cls;
+    box.innerHTML = html;
+  });
+}
+
+// ============================================================
 // Chart management: render charts only when visible
 // ============================================================
 const chartRenderers = {
   macro: () => { renderMacroChart(); },
   gov: () => { renderTimeline(); renderAnnualTimeline(); },
-  source: () => {},
+  source: () => { renderSources(); },
   compare: () => { renderCompareFilter(); renderCompareTable(); },
   monthly: () => { renderMonthlyDocs(currentMonthlyPeriod); },
   csrc: () => { renderCsrc(); },
@@ -1763,5 +1852,29 @@ fetch('data/compare.json?t=' + Date.now())
       renderCompareTable();
       freshnessState.compare = c.generatedAt || '';
       renderFreshness();
+    }
+  });
+
+// Async: L1 年度政策时间线（data/timeline.json，每日随抓取任务更新）
+// 覆盖节点 status（按北京时间判定）与本周期自动收录条目
+fetch('data/timeline.json?t=' + Date.now())
+  .then(function(r) { return r.ok ? r.json() : null; })
+  .catch(function() { return null; })
+  .then(function(t) {
+    if (t && t.nodes) {
+      timelineAuto = t;
+      renderAnnualTimeline();
+    }
+  });
+
+// Async: L2 政策信息源卡片（data/sources.json，每日随抓取任务更新）
+// 四张卡片各自的「最近更新」文件与直达链接
+fetch('data/sources.json?t=' + Date.now())
+  .then(function(r) { return r.ok ? r.json() : null; })
+  .catch(function() { return null; })
+  .then(function(s) {
+    if (s && s.cards && s.cards.length) {
+      sourcesAuto = s;
+      renderSources();
     }
   });

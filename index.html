@@ -287,11 +287,11 @@
 <!-- ============================================================ -->
 <div class="panel" id="p-source">
   <div class="sec-hd">
-    <div class="sec-title"><span class="badge">L2</span>政策信息源 <span class="sec-sub">四大类信息源汇总</span></div>
+    <div class="sec-title"><span class="badge">L2</span>政策信息源 <span class="sec-sub">四大类信息源汇总 · 每张卡片的「最近更新」每日随抓取任务自动刷新，点击直达最新文件</span></div>
   </div>
-  <div class="src-grid">
+  <div class="src-grid" id="srcGrid">
     <!-- 政策汇总库 -->
-    <a href="https://www.gov.cn/zhengce/zuixin.htm" target="_blank" class="src-card">
+    <a href="https://www.gov.cn/zhengce/zuixin.htm" target="_blank" class="src-card" data-src-key="policy">
       <div class="src-icon">📋</div>
       <div class="src-title">政策汇总库</div>
       <div class="src-desc">权威政策原文数据库，涵盖国务院政府文件库、政府信息公开库、国研网政策库等。是获取中央和部委正式政策文本的第一来源，确保政策解读的准确性和完整性。</div>
@@ -302,29 +302,29 @@
     </a>
 
     <!-- 国债汇总 -->
-    <a href="https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202509/t20250930_3973650.htm" target="_blank" class="src-card">
+    <a href="https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/" target="_blank" class="src-card" data-src-key="bond">
       <div class="src-icon">💰</div>
       <div class="src-title">国债汇总</div>
       <div class="src-desc">国家债务发行与管理信息汇总，包括记账式国债、储蓄国债、特别国债等。用于跟踪国家财政融资节奏、债务结构变化和财政政策力度。</div>
       <span class="src-tag">记账式国债</span>
       <span class="src-tag">储蓄国债</span>
       <span class="src-tag">特别国债</span>
-      <div class="src-url">→ 财办库〔2025〕188号·2025年Q4国债发行安排</div>
+      <div class="src-url">→ 财政部预算司·国债发行通知（每日逐笔）</div>
     </a>
 
     <!-- 地方债汇总 -->
-    <a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="src-card">
+    <a href="https://yss.mof.gov.cn/zhuantilanmu/dfzgl/sjtj/" target="_blank" class="src-card" data-src-key="localbond">
       <div class="src-icon">🏗</div>
       <div class="src-title">地方债汇总</div>
       <div class="src-desc">地方政府债券发行与使用信息，包括一般债券、专项债券。专项债投向是观察财政政策"真金白银"流向的核心指标，债发得越多说明干得越急。</div>
       <span class="src-tag">一般债券</span>
       <span class="src-tag">专项债券</span>
       <span class="src-tag">项目收益债</span>
-      <div class="src-url">→ 国办发〔2024〕52号·专项债券管理机制意见</div>
+      <div class="src-url">→ 财政部预算司·地方债数据与政策法规</div>
     </a>
 
     <!-- 官方解读汇总 -->
-    <a href="http://www.people.com.cn" target="_blank" class="src-card">
+    <a href="http://www.people.com.cn" target="_blank" class="src-card" data-src-key="media">
       <div class="src-icon">📰</div>
       <div class="src-title">官方解读汇总</div>
       <div class="src-desc">权威媒体政策解读文章汇总，包括人民日报头版评论员文章、求是网、新华财经、财联社、国新办发布会。官媒定调往往带有政策信号，头版头条报道即国家级信号。</div>

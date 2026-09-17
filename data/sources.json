@@ -1,0 +1,81 @@
+{
+ "generatedAt": "2026-09-17 16:09",
+ "cards": [
+  {
+   "key": "policy",
+   "title": "政策汇总库",
+   "indexUrl": "https://www.gov.cn/zhengce/zuixin.htm",
+   "indexLabel": "gov.cn/zhengce 最新政策",
+   "from": "gov",
+   "href": "https://www.gov.cn/zhengce/zhengceku/202609/content_7080736.htm",
+   "latest": {
+    "title": "市场监督管理所条例",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7080736.htm",
+    "date": "2026-09-11",
+    "source": "国务院最新政策文件"
+   },
+   "stale": false,
+   "total": 96,
+   "fetchedAt": "2026-09-17 16:09",
+   "ageDays": 6
+  },
+  {
+   "key": "bond",
+   "title": "国债汇总",
+   "indexUrl": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/",
+   "indexLabel": "财政部预算司·国债发行",
+   "include": "国债",
+   "exclude": "会见|会谈|座谈|巡视|招聘|任免|公示|考试|培训",
+   "href": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202609/t20260915_3997439.htm",
+   "latest": {
+    "title": "关于2026年记账式附息（十七期）国债第一次续发行工作有关事宜的通知",
+    "url": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202609/t20260915_3997439.htm",
+    "date": "2026-09-15",
+    "source": "财政部"
+   },
+   "stale": false,
+   "total": 15,
+   "fetchedAt": "2026-09-17 16:09",
+   "ageDays": 2
+  },
+  {
+   "key": "localbond",
+   "title": "地方债汇总",
+   "indexUrl": "https://yss.mof.gov.cn/zhuantilanmu/dfzgl/sjtj/",
+   "indexLabel": "财政部预算司·地方债数据",
+   "include": "地方政府债券|专项债|地方债|一般债券|债务余额",
+   "exclude": "会见|会谈|座谈|巡视|招聘|任免",
+   "href": "https://www.gov.cn/zhengce/202510/content_7046648.htm",
+   "latest": {
+    "title": "新增2000亿元专项债券额度，专门用于支持部分省份投资建设",
+    "url": "https://www.gov.cn/zhengce/202510/content_7046648.htm",
+    "date": "2025-10-31",
+    "source": "gov.cn 文件库"
+   },
+   "stale": false,
+   "total": 21,
+   "fetchedAt": "2026-09-17 16:09",
+   "ageDays": 321
+  },
+  {
+   "key": "media",
+   "title": "官方解读汇总",
+   "indexUrl": "http://www.people.com.cn",
+   "indexLabel": "people.com.cn",
+   "from": "commentary",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/16/content_30181321.html",
+   "latest": {
+    "title": "以正确政绩观推动高质量发展行稳致远",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/16/content_30181321.html",
+    "date": "2026-09-16",
+    "source": "人民日报"
+   },
+   "stale": false,
+   "total": 106,
+   "fetchedAt": "2026-09-17 16:09",
+   "ageDays": 1
+  }
+ ],
+ "stale": false,
+ "staleKeys": []
+}

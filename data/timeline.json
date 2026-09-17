@@ -1,0 +1,342 @@
+{
+ "generatedAt": "2026-09-17 16:09",
+ "month": 9,
+ "hotPeriod": "9-10月",
+ "candidateCount": 242,
+ "nodes": {
+  "1-2月": {
+   "status": "pass",
+   "docs": [
+    {
+     "label": "2026-02-28 · 进一步增强宏观政策取向一致性（党媒）",
+     "title": "进一步增强宏观政策取向一致性",
+     "url": "https://www.qstheory.cn/20260228/59487a407900464d918db8b7f1c29c96/c.html",
+     "date": "2026-02-28",
+     "source": "党媒",
+     "noise": false
+    },
+    {
+     "label": "2026-02-28 · 以正确政绩观开创中国式现代化新局面（党媒）",
+     "title": "以正确政绩观开创中国式现代化新局面",
+     "url": "https://www.qstheory.cn/20260228/aaa5c4439e54499883e90f3c4cc1aa01/c.html",
+     "date": "2026-02-28",
+     "source": "党媒",
+     "noise": false
+    },
+    {
+     "label": "2026-02-14 · 促进城乡居民收入稳步增长（党媒）",
+     "title": "促进城乡居民收入稳步增长",
+     "url": "https://www.qstheory.cn/20260214/5f6eae815da849aa94050101184fbfcd/c.html",
+     "date": "2026-02-14",
+     "source": "党媒",
+     "noise": false
+    },
+    {
+     "label": "2026-02-13 · 国务院关于同意河北雄安高新技术产业开发区升级为国家高新技术产业开发区的批复（国务院最新政策文件）",
+     "title": "国务院关于同意河北雄安高新技术产业开发区升级为国家高新技术产业开发区的批复",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7057926.htm",
+     "date": "2026-02-13",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-02-12 · 金轩：以有效投资为高质量发展提供坚实支撑（人民日报）",
+     "title": "金轩：以有效投资为高质量发展提供坚实支撑",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202602/t20260212_2769406.shtml",
+     "date": "2026-02-12",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-02-11 · 国务院办公厅关于完善全国统一电力市场体系的实施意见（国务院最新政策文件）",
+     "title": "国务院办公厅关于完善全国统一电力市场体系的实施意见",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7057745.htm",
+     "date": "2026-02-11",
+     "source": "国务院最新政策文件",
+     "noise": false
+    }
+   ],
+   "window": "2026年1-2月"
+  },
+  "3月": {
+   "status": "pass",
+   "docs": [
+    {
+     "label": "2026-03-31 · 积极推动进出口平衡发展（党媒）",
+     "title": "积极推动进出口平衡发展",
+     "url": "https://www.qstheory.cn/20260331/2224116a00f940c09f8d34b1d388eda1/c.html",
+     "date": "2026-03-31",
+     "source": "党媒",
+     "noise": false
+    },
+    {
+     "label": "2026-03-30 · 任仲平：从中国式现代化理论领悟为什么中国一定能成功（人民日报）",
+     "title": "任仲平：从中国式现代化理论领悟为什么中国一定能成功",
+     "url": "http://opinion.people.com.cn/n1/2026/0330/c461529-40691063.html",
+     "date": "2026-03-30",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-03-26 · 全国农业普查条例（国务院最新政策文件）",
+     "title": "全国农业普查条例",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202603/content_7063864.htm",
+     "date": "2026-03-26",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-03-19 · 国务院关于同意将四川省眉山市列为国家历史文化名城的批复（国务院最新政策文件）",
+     "title": "国务院关于同意将四川省眉山市列为国家历史文化名城的批复",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202603/content_7063205.htm",
+     "date": "2026-03-19",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-03-17 · 国务院关于修改《社会团体登记管理条例》的决定（国务院最新政策文件）",
+     "title": "国务院关于修改《社会团体登记管理条例》的决定",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202603/content_7063045.htm",
+     "date": "2026-03-17",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-03-15 · 求是杂志评论员：凝心聚力奋进中国式现代化（求是网）",
+     "title": "求是杂志评论员：凝心聚力奋进中国式现代化",
+     "url": "http://www.qstheory.cn/20260314/70a1bcaa409e4cb3bfb7c6f72c73694c/c.html",
+     "date": "2026-03-15",
+     "source": "求是网",
+     "noise": false
+    }
+   ],
+   "window": "2026年3月"
+  },
+  "4月": {
+   "status": "pass",
+   "docs": [
+    {
+     "label": "2026-04-30 · 以更大力度促进区域协调发展（党媒）",
+     "title": "以更大力度促进区域协调发展",
+     "url": "https://www.qstheory.cn/20260430/4a7f7e91a94c40a7b26ce0e915697a58/c.html",
+     "date": "2026-04-30",
+     "source": "党媒",
+     "noise": false
+    },
+    {
+     "label": "2026-04-21 · 国务院关于推进服务业扩能提质的意见（国务院最新政策文件）",
+     "title": "国务院关于推进服务业扩能提质的意见",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7066484.htm",
+     "date": "2026-04-21",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-04-18 · 金观平：刺破\"开票经济\"的数字泡沫（经济日报）",
+     "title": "金观平：刺破\"开票经济\"的数字泡沫",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202604/t20260418_2912361.shtml",
+     "date": "2026-04-18",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-04-17 · 国务院办公厅转发海关总署《关于促进综合保税区扩能提质的若干措施》的通知（国务院最新政策文件）",
+     "title": "国务院办公厅转发海关总署《关于促进综合保税区扩能提质的若干措施》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7066114.htm",
+     "date": "2026-04-17",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-04-15 · 国务院办公厅关于深化投资审批制度改革的意见（国务院最新政策文件）",
+     "title": "国务院办公厅关于深化投资审批制度改革的意见",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7065688.htm",
+     "date": "2026-04-15",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-04-15 · 把服务业发展摆在更加突出位置（党媒）",
+     "title": "把服务业发展摆在更加突出位置",
+     "url": "https://www.qstheory.cn/20260415/cee158437daf4457a7a268a3d8898090/c.html",
+     "date": "2026-04-15",
+     "source": "党媒",
+     "noise": false
+    }
+   ],
+   "window": "2026年4月"
+  },
+  "5-6月": {
+   "status": "pass",
+   "docs": [
+    {
+     "label": "2026-06-30 · 退役军人就业创业促进条例（国务院最新政策文件）",
+     "title": "退役军人就业创业促进条例",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7073789.htm",
+     "date": "2026-06-30",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-06-29 · 国务院关于印发《教育发展“十五五”规划》的通知（国务院最新政策文件）",
+     "title": "国务院关于印发《教育发展“十五五”规划》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7073641.htm",
+     "date": "2026-06-29",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-06-25 · 国务院办公厅关于进一步完善大中型水库移民后期扶持政策的通知（国务院最新政策文件）",
+     "title": "国务院办公厅关于进一步完善大中型水库移民后期扶持政策的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7073260.htm",
+     "date": "2026-06-25",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-06-25 · 关于印发《新型能源体系建设“十五五”规划》的通知（发改委最新政策文件）",
+     "title": "关于印发《新型能源体系建设“十五五”规划》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7073322.htm",
+     "date": "2026-06-25",
+     "source": "发改委最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-06-17 · 国务院关于浙江、福建、山东等3省国家级自然保护区和国家级风景名胜区整合优化方案的批复（国务院最新政策文件）",
+     "title": "国务院关于浙江、福建、山东等3省国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7072484.htm",
+     "date": "2026-06-17",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-06-17 · 国务院关于印发《实施就业优先战略“十五五”规划》的通知（国务院最新政策文件）",
+     "title": "国务院关于印发《实施就业优先战略“十五五”规划》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7072482.htm",
+     "date": "2026-06-17",
+     "source": "国务院最新政策文件",
+     "noise": false
+    }
+   ],
+   "window": "2026年5-6月"
+  },
+  "7月": {
+   "status": "pass",
+   "docs": [
+    {
+     "label": "2026-08-31 · 用好规划这台“导航仪”（经济日报）",
+     "title": "用好规划这台“导航仪”",
+     "url": "http://paper.ce.cn/pc/content/202608/31/content_338080.html",
+     "date": "2026-08-31",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-08-31 · 在激发社会活力中增强高质量发展动力（党媒）",
+     "title": "在激发社会活力中增强高质量发展动力",
+     "url": "https://www.qstheory.cn/20260831/55155cd732b545f89e406bd344f2c539/c.html",
+     "date": "2026-08-31",
+     "source": "党媒",
+     "noise": false
+    },
+    {
+     "label": "2026-08-31 · 把正确政绩观熔铸于魂、力践于行（党媒）",
+     "title": "把正确政绩观熔铸于魂、力践于行",
+     "url": "https://www.qstheory.cn/20260831/2145ab98774b4c6d8597330fbc88c8e2/c.html",
+     "date": "2026-08-31",
+     "source": "党媒",
+     "noise": false
+    },
+    {
+     "label": "2026-08-30 · 高标准农田建好更要管好用好（经济日报）",
+     "title": "高标准农田建好更要管好用好",
+     "url": "http://paper.ce.cn/pc/content/202608/30/content_338039.html",
+     "date": "2026-08-30",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-08-28 · 关于印发《物流网建设实施方案》的通知（发改委最新政策文件）",
+     "title": "关于印发《物流网建设实施方案》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202608/content_7079397.htm",
+     "date": "2026-08-28",
+     "source": "发改委最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-08-27 · 跳出只看贷款增速的思维惯性（经济日报）",
+     "title": "跳出只看贷款增速的思维惯性",
+     "url": "http://paper.ce.cn/pc/content/202608/27/content_337890.html",
+     "date": "2026-08-27",
+     "source": "经济日报",
+     "noise": false
+    }
+   ],
+   "window": "2026年7月"
+  },
+  "9-10月": {
+   "status": "hot",
+   "docs": [
+    {
+     "label": "2026-09-16 · 以正确政绩观推动高质量发展行稳致远（人民日报）",
+     "title": "以正确政绩观推动高质量发展行稳致远",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/16/content_30181321.html",
+     "date": "2026-09-16",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-09-15 · 两部门关于印发《电子信息制造业发展“十五五”规划》的通知（工信部最新政策文件）",
+     "title": "两部门关于印发《电子信息制造业发展“十五五”规划》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081160.htm",
+     "date": "2026-09-15",
+     "source": "工信部最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-09-15 · 8月份国民经济运行平稳、发展向新向优（国家统计局最新数据发布）",
+     "title": "8月份国民经济运行平稳、发展向新向优",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965307.html",
+     "date": "2026-09-15",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
+     "label": "2026-09-15 · 2026年8月份规模以上工业增加值增长5.2%（国家统计局最新数据发布）",
+     "title": "2026年8月份规模以上工业增加值增长5.2%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965308.html",
+     "date": "2026-09-15",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
+     "label": "2026-09-15 · 2026年1—8月份全国固定资产投资基本情况（国家统计局最新数据发布）",
+     "title": "2026年1—8月份全国固定资产投资基本情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965309.html",
+     "date": "2026-09-15",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
+     "label": "2026-09-15 · 2026年1—8月份全国房地产市场基本情况（国家统计局最新数据发布）",
+     "title": "2026年1—8月份全国房地产市场基本情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965310.html",
+     "date": "2026-09-15",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    }
+   ],
+   "window": "2026年9-10月"
+  },
+  "11月": {
+   "status": "future",
+   "docs": [],
+   "window": "2026年11月"
+  },
+  "12月": {
+   "status": "future",
+   "docs": [],
+   "window": "2026年12月"
+  }
+ }
+}
