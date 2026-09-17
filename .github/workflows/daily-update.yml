@@ -20,8 +20,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
     # 评论抓取要遍历党媒数字报（人民日报 + 经济日报）的多日版面，
-    # 首次初始化回溯较多，给足超时余量
-    timeout-minutes: 30
+    # 历年对比要按 30+ 产业主题翻页检索。实测单轮约 24 分钟（2026-09-17 run #30），
+    # 原来 30 分钟的余量太紧 —— 一旦被超时杀掉，这一轮抓取同样白跑，故放宽到 45。
+    timeout-minutes: 45
     permissions:
       contents: write
     steps:
@@ -54,4 +55,25 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           git commit -m "Auto-update policy data + commentary"
-          git push
+          # 远端 main 可能在本轮运行期间被别的提交推进（仓库主人推代码、本地 backfill、手工 api-push）。
+          # 裸 git push 会被拒（rejected / fetch first），本轮抓到的数据整批作废，
+          # 站点就停在上一轮时间 —— 2026-09-17 run #29 就是这么白跑了 24 分钟。
+          # 所以先 rebase 再推，并留几次重试窗口。
+          for i in 1 2 3 4; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "push 成功（第 $i 次尝试）"
+              exit 0
+            fi
+            # rebase 若因数据文件与远端同改而冲突，则退化为 merge：
+            # -X ours 让「本次抓取的数据」优先于远端旧数据，避免整轮成果丢失。
+            git rebase --abort 2>/dev/null || true
+            echo "第 $i 次 push 失败，改用 merge 合并远端后重试"
+            git fetch origin main
+            git merge -X ours --no-edit origin/main || {
+              echo "::error::合并远端 main 失败，需人工介入"
+              exit 1
+            }
+            sleep 5
+          done
+          echo "::error::连续 4 次 push 失败，请检查是否有并发提交长期占用 main"
+          exit 1
