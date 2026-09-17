@@ -30,6 +30,8 @@
 <div class="freshness" id="freshnessBar">
   <span class="fresh-item fresh-main"><span class="fresh-dot" id="freshDot"></span><b id="freshMain">数据加载中…</b></span>
   <span class="fresh-item">最新政策 <b id="freshLatestPolicy">--</b></span>
+  <!-- 单源零命中时（境外 CI 抓不到某个国内站点）显示沿用情况，避免「无声变少」 -->
+  <span class="fresh-item is-hidden" id="freshCarriedItem">沿用上一版 <b id="freshCarried">--</b></span>
   <span class="fresh-item">L0 宏观 <b id="freshMacro">--</b></span>
   <span class="fresh-item">L4 评论 <b id="freshCommentary">--</b></span>
   <span class="fresh-item">L5 监管 <b id="freshCsrc">--</b></span>

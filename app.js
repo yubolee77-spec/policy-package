@@ -1730,6 +1730,12 @@ function applyLatestData(data) {
     var cds = com.map(function(x) { return x.date; }).sort();
     freshnessState.commentary = cds[cds.length - 1];
   }
+  // 单源零命中兜底：后端在某个来源本轮 0 条时会沿用上一版，这里如实标注
+  var carried = data.carriedSources || {};
+  var ckeys = Object.keys(carried);
+  freshnessState.carried = ckeys.length
+    ? ckeys.map(function(k) { return k.replace(/(最新动态|最新政策文件|最新数据发布)$/, '') + ' ' + carried[k] + ' 条'; }).join('、')
+    : '';
   renderFreshness();
 }
 
@@ -1738,7 +1744,7 @@ function applyLatestData(data) {
 // ============================================================
 var freshnessState = {
   fetched: '', latestDate: '', newestPolicy: '',
-  macro: '', commentary: '', csrc: '', compare: ''
+  macro: '', commentary: '', csrc: '', compare: '', carried: ''
 };
 
 function setFreshText(id, val) {
@@ -1776,6 +1782,17 @@ function renderFreshness() {
     }
   }
   setFreshText('freshLatestPolicy', f.newestPolicy);
+  // 沿用标注：有兜底才显示，并给出「哪些来源、各几条」的明细
+  var cItem = document.getElementById('freshCarriedItem');
+  if (cItem) {
+    if (f.carried) {
+      cItem.classList.remove('is-hidden');
+      cItem.title = '本轮未抓到这些来源（境外 CI 常见），已沿用上一版数据：' + f.carried;
+      setFreshText('freshCarried', f.carried);
+    } else {
+      cItem.classList.add('is-hidden');
+    }
+  }
   // 各板块生成时间统一显示 MM-DD HH:MM
   var mm = function(v) {
     if (!v) return '--';

@@ -1212,6 +1212,38 @@ HTML_FETCHERS = {
 }
 
 
+def carry_over_missing_sources(result, prev_timeline, prev_fetched, sources):
+    """单源零命中兜底：某个来源本轮 0 条时，沿用上一版里该来源的条目。
+
+    为什么需要：CI 跑在 GitHub 美国 runner，个别国内站点会「静默」返回 0 条
+    （不抛错、日志只写一句「0 条 (本次未抓到)」），于是站点上该来源的政策
+    无声消失（实测 136 → 128，丢的全是证监会 8 条）。用户只会觉得「这块不更新了」。
+
+    返回 {来源: 沿用条数}；同时给沿用条目打 carried / carriedFrom 标记，
+    便于前端或排查时区分「本轮新抓」与「沿用上一版」。
+    """
+    if not prev_timeline:
+        return {}
+    have = {x.get("url") for x in result["timeline"] if x.get("url")}
+    carried = {}
+    for src in sources:
+        if any(x.get("desc") == src for x in result["timeline"]):
+            continue                          # 本轮抓到了，无需兜底
+        old = [x for x in prev_timeline
+               if x.get("desc") == src and x.get("url") and x["url"] not in have]
+        if not old:
+            continue
+        for x in old:
+            have.add(x["url"])
+            x["carried"] = True
+            x["carriedFrom"] = prev_fetched
+        result["timeline"].extend(old)
+        carried[src] = len(old)
+    if carried:
+        result["timeline"].sort(key=lambda x: (x.get("date") or "0000-00-00"), reverse=True)
+    return carried
+
+
 def main():
     today_str = bj_now("%Y-%m-%d")          # 必须用北京时间（CI runner 是 UTC）
     result = {
@@ -1325,9 +1357,30 @@ def main():
         x for x in unique if x["desc"] != SRC_EXCHANGE
     ]
 
+    # 6b. 单源零命中兜底（见 carry_over_missing_sources 的说明）
+    #     整体 0 条的兜底在第 9 步；这里处理「只有个别来源失效」的情况。
+    prev_fetched, prev_timeline = "", []
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, encoding="utf-8") as f:
+                _prev = json.load(f) or {}
+            prev_fetched = _prev.get("fetchedAt") or ""
+            prev_timeline = _prev.get("timeline") or []
+        except Exception as e:
+            print(f"  读取上一版 latest.json 失败（跳过单源兜底）: {e}")
+
+    carried = carry_over_missing_sources(result, prev_timeline, prev_fetched, ALL_SOURCES)
+    if carried:
+        result["carriedSources"] = carried
+        result["carriedFrom"] = prev_fetched
+        print(f"\n单源零命中兜底（沿用上一版 @ {prev_fetched or '未知'}）:")
+        for src, n in carried.items():
+            print(f"  {src}: 本轮 0 条 → 沿用 {n} 条")
+
     # 7. blocks：按来源分组，供前端「证监会动态」等板块自动渲染
     for src in ALL_SOURCES:
-        group = [x for x in unique if x["desc"] == src]
+        # 用 result["timeline"] 而不是 unique，才能把上面兜底沿用的条目也带进 blocks
+        group = [x for x in result["timeline"] if x["desc"] == src]
         if group:
             result["blocks"][src] = group[:BLOCK_SIZE]
     if exchange_items:
