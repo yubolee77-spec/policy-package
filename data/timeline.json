@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-17 16:59",
+ "generatedAt": "2026-09-17 17:09",
  "month": 9,
  "hotPeriod": "9-10月",
  "candidateCount": 243,
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-17 · 国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见（国务院最新政策文件）",
+     "title": "国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081357.htm",
+     "date": "2026-09-17",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-09-17 · 打通堵点全链条扩大汽车消费（经济日报）",
      "title": "打通堵点全链条扩大汽车消费",
      "url": "http://paper.ce.cn/pc/content/202609/17/content_338966.html",
@@ -313,14 +321,6 @@
      "label": "2026-09-15 · 2026年8月份规模以上工业增加值增长5.2%（国家统计局最新数据发布）",
      "title": "2026年8月份规模以上工业增加值增长5.2%",
      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965308.html",
-     "date": "2026-09-15",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-09-15 · 2026年1—8月份全国固定资产投资基本情况（国家统计局最新数据发布）",
-     "title": "2026年1—8月份全国固定资产投资基本情况",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965309.html",
      "date": "2026-09-15",
      "source": "国家统计局最新数据发布",
      "noise": false

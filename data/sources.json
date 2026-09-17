@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-17 16:59",
+ "generatedAt": "2026-09-17 17:09",
  "cards": [
   {
    "key": "policy",
@@ -7,17 +7,17 @@
    "indexUrl": "https://www.gov.cn/zhengce/zuixin.htm",
    "indexLabel": "gov.cn/zhengce 最新政策",
    "from": "gov",
-   "href": "https://www.gov.cn/zhengce/zhengceku/202609/content_7080736.htm",
+   "href": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081357.htm",
    "latest": {
-    "title": "市场监督管理所条例",
-    "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7080736.htm",
-    "date": "2026-09-11",
+    "title": "国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081357.htm",
+    "date": "2026-09-17",
     "source": "国务院最新政策文件"
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-17 16:59",
-   "ageDays": 6
+   "fetchedAt": "2026-09-17 17:09",
+   "ageDays": 0
   },
   {
    "key": "bond",
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 15,
-   "fetchedAt": "2026-09-17 16:59",
+   "fetchedAt": "2026-09-17 17:09",
    "ageDays": 2
   },
   {
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-09-17 16:59",
+   "fetchedAt": "2026-09-17 17:09",
    "ageDays": 321
   },
   {
@@ -72,7 +72,7 @@
    },
    "stale": false,
    "total": 107,
-   "fetchedAt": "2026-09-17 16:59",
+   "fetchedAt": "2026-09-17 17:09",
    "ageDays": 0
   }
  ],
