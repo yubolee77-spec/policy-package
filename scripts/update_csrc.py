@@ -588,7 +588,10 @@ def build():
             pass
 
     # —— 监管 KPI：从上面数据自动汇总 ——
-    ym = datetime.date.today().strftime("%Y-%m")
+    # 月份必须用北京时间：CI runner 是 UTC，月初北京上午跑时 date.today() 还停在上月，
+    # 会把「本月」统计成上个月（显示 0 条）。
+    ym = (datetime.datetime.now(datetime.timezone.utc)
+          + datetime.timedelta(hours=8)).strftime("%Y-%m")
     month = lambda rows: sum(1 for r in rows if str(r.get("date") or "").startswith(ym))  # noqa: E731
 
     kpi = {

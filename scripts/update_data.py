@@ -48,7 +48,18 @@ def bj_now(fmt="%Y-%m-%d %H:%M"):
     import datetime as _dt
     return (_dt.datetime.now(_dt.timezone.utc) + _dt.timedelta(hours=8)).strftime(fmt)
 
-MONTH_LABEL = f"{date.today().year}年{date.today().month}月"
+def bj_today():
+    """北京时间的 date 对象。
+
+    注意：绝不要用 date.today() —— CI 的 runner 时区是 UTC，
+    北京上午的抓取（UTC 前一天傍晚）会拿到「昨天」，导致 lastUpdated
+    固化成昨天的日期，前端顶部「数据更新」因此永远显示昨天。
+    """
+    import datetime as _dt
+    return (_dt.datetime.now(_dt.timezone.utc) + _dt.timedelta(hours=8)).date()
+
+_BJ_TODAY = bj_today()
+MONTH_LABEL = f"{_BJ_TODAY.year}年{_BJ_TODAY.month}月"
 
 # ── 垃圾标题/URL 过滤关键词 ──────────────────────────────────────
 JUNK_KEYWORDS = [
@@ -490,7 +501,7 @@ def date_from_md(md):
     mo, d = int(m.group(1)), int(m.group(2))
     if not (1 <= mo <= 12 and 1 <= d <= 31):
         return ""
-    today = date.today()
+    today = bj_today()          # 北京日期：UTC runner 上 date.today() 会偏成前一天
     for y in (today.year, today.year - 1):
         try:
             cand = date(y, mo, d)
@@ -920,7 +931,7 @@ def fetch_paper_comments(days, known=None):
     jobs = []
     for site in PAPER_SITES:
         for i in range(days):
-            day = date.today() - timedelta(days=i)
+            day = _BJ_TODAY - timedelta(days=i)     # 北京日期（UTC runner 上会整体回退一天，漏掉当天版面）
             ym, dd = day.strftime("%Y%m"), day.strftime("%d")
             for cid in _paper_day_cids(site, day):
                 url = site["article"].format(ym=ym, dd=dd, cid=cid)
@@ -1202,7 +1213,7 @@ HTML_FETCHERS = {
 
 
 def main():
-    today_str = date.today().strftime("%Y-%m-%d")
+    today_str = bj_now("%Y-%m-%d")          # 必须用北京时间（CI runner 是 UTC）
     result = {
         "lastUpdated": today_str,
     "fetchedAt": bj_now(),        # 北京时间，前端「数据更新于」用
