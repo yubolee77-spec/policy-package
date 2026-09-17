@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-17 17:12",
+ "generatedAt": "2026-09-17 17:45",
  "mediaFetchedAt": "2026-09-17 17:01",
  "mediaStale": true,
  "kpi": {
   "penaltyTotal": 234,
-  "penaltyMonth": 113,
+  "penaltyMonth": 114,
   "approvalTotal": 168,
   "approvalMonth": 12,
   "reitsApproved30d": 8,
@@ -20,13 +20,13 @@
  "penalty": [
   {
    "date": "2026-09-17",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对沈阳市电信规划设计院股份有限公司、辽宁双宇企业管理有限责任公司、苏宇、朱宇、杨洋、王晓参、兰庆强采取出具警示函措施的决定",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "深耕陇原沃土 聚力产业腾飞——甘肃上市公司半年报亮点频现",
    "docNo": "",
    "party": "",
-   "url": "https://www.csrc.gov.cn/liaoning/c103750/c7659267/content.shtml"
+   "url": "https://www.csrc.gov.cn/gansu/c101379/c7659345/content.shtml"
   },
   {
    "date": "2026-09-17",
@@ -47,6 +47,46 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/zhejiang/c100657/c7659178/content.shtml"
+  },
+  {
+   "date": "2026-09-17",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对何秋田采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xinjiang/c104370/c7659341/content.shtml"
+  },
+  {
+   "date": "2026-09-17",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对沈阳市电信规划设计院股份有限公司、辽宁双宇企业管理有限责任公司、苏宇、朱宇、杨洋、王晓参、兰庆强采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/liaoning/c103750/c7659267/content.shtml"
+  },
+  {
+   "date": "2026-09-16",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "福建证监局联合福建省委金融办举办福建金融干部REITs市场培训班",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c100733/c7658869/content.shtml"
+  },
+  {
+   "date": "2026-09-16",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "深化资本市场服务 赋能实体经济转型升级——青岛证监局开展“走进深交所”专题活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7658727/content.shtml"
   },
   {
    "date": "2026-09-16",
@@ -129,66 +169,6 @@
    "url": "https://www.csrc.gov.cn/shandong/c104218/c7658870/content.shtml"
   },
   {
-   "date": "2026-09-16",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "福建证监局联合福建省委金融办举办福建金融干部REITs市场培训班",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c100733/c7658869/content.shtml"
-  },
-  {
-   "date": "2026-09-16",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "深化资本市场服务 赋能实体经济转型升级——青岛证监局开展“走进深交所”专题活动",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7658727/content.shtml"
-  },
-  {
-   "date": "2026-09-15",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对中源协和细胞基因工程股份有限公司、龚虹嘉、WANG HONGQI（王洪琦）、陈轶青采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/tianjin/c103610/c7658671/content.shtml"
-  },
-  {
-   "date": "2026-09-15",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对东方汇金期货有限公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658620/content.shtml"
-  },
-  {
-   "date": "2026-09-15",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对李泽侯采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658612/content.shtml"
-  },
-  {
-   "date": "2026-09-15",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对于怀宇采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658608/content.shtml"
-  },
-  {
    "date": "2026-09-15",
    "channel": "监管工作",
    "column": "辖区监管动态",
@@ -212,6 +192,36 @@
    "date": "2026-09-15",
    "channel": "监管工作",
    "column": "辖区监管动态",
+   "tag": "责令改正",
+   "title": "关于对东方汇金期货有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658620/content.shtml"
+  },
+  {
+   "date": "2026-09-15",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对李泽侯采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658612/content.shtml"
+  },
+  {
+   "date": "2026-09-15",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对于怀宇采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7658608/content.shtml"
+  },
+  {
+   "date": "2026-09-15",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
    "tag": "监管措施",
    "title": "厦门证监局投资者保护工作提质增效",
    "docNo": "",
@@ -227,6 +237,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/tianjin/c100315/c7658559/content.shtml"
+  },
+  {
+   "date": "2026-09-15",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对中源协和细胞基因工程股份有限公司、龚虹嘉、WANG HONGQI（王洪琦）、陈轶青采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/tianjin/c103610/c7658671/content.shtml"
   },
   {
    "date": "2026-09-14",
@@ -263,6 +283,36 @@
    "channel": "行政监管措施",
    "column": "监管措施",
    "tag": "警示函",
+   "title": "关于对福建成达兴智能科技股份有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104066/c7659269/content.shtml"
+  },
+  {
+   "date": "2026-09-14",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对黄振辉采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104066/c7659266/content.shtml"
+  },
+  {
+   "date": "2026-09-14",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对黄惠云采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104066/c7659264/content.shtml"
+  },
+  {
+   "date": "2026-09-14",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
    "title": "关于对新疆兴华富疆股权投资管理有限公司采取出具警示函措施的决定",
    "docNo": "",
    "party": "",
@@ -290,6 +340,66 @@
   },
   {
    "date": "2026-09-11",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "责令改正",
+   "title": "关于对李锐采取责令改正行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658198/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "责令改正",
+   "title": "关于对张智河、李涛采取责令改正行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658193/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管谈话",
+   "title": "关于对国融证券股份有限公司采取监管谈话行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658187/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "工作动态",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "深圳证监局多点发力开展金融教育宣传周活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shenzhen/c101531/c7658182/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-9-11",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7658058/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "陕西证监局组织开展2026年金融教育宣传周活动启动仪式",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shaanxi/c101303/c7658538/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
    "channel": "行政监管措施",
    "column": "监管措施",
    "tag": "责令改正",
@@ -297,6 +407,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/hubei/c104408/c7658152/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对黄智能采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658968/content.shtml"
   },
   {
    "date": "2026-09-11",
@@ -313,10 +433,70 @@
    "channel": "行政监管措施",
    "column": "监管措施",
    "tag": "警示函",
+   "title": "关于对陈瑞典采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658956/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对刘平山采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658951/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对钟剑锋采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658947/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
    "title": "关于对中国中金财富证券有限公司宁波海晏北路证券营业部采取出具警示函措施的决定",
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/ningbo/c104130/c7658221/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对弘扬软件股份有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658941/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对福建南方制药股份有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658939/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对神小明采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658936/content.shtml"
   },
   {
    "date": "2026-09-11",
@@ -337,36 +517,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/beijing/c105547/c7658199/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对李锐采取责令改正行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658198/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对张智河、李涛采取责令改正行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658193/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "监管谈话",
-   "title": "关于对国融证券股份有限公司采取监管谈话行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7658187/content.shtml"
   },
   {
    "date": "2026-09-11",
@@ -589,126 +739,6 @@
    "url": "https://www.csrc.gov.cn/jiangsu/c103893/c7658367/content.shtml"
   },
   {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对苏州百联节能科技股份有限公司、刘文辉、刘丰采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7658364/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "工作动态",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "深圳证监局多点发力开展金融教育宣传周活动",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shenzhen/c101531/c7658182/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-9-11",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7658058/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "陕西证监局组织开展2026年金融教育宣传周活动启动仪式",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shaanxi/c101303/c7658538/content.shtml"
-  },
-  {
-   "date": "2026-09-10",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对四川赛狄信息技术股份公司、肖红、肖英、唐黎采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/sichuan/c104902/c7657865/content.shtml"
-  },
-  {
-   "date": "2026-09-10",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对王辰宇采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7657828/content.shtml"
-  },
-  {
-   "date": "2026-09-10",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对彭斌采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7657825/content.shtml"
-  },
-  {
-   "date": "2026-09-10",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对中融汇信期货有限公司重庆营业部采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7657822/content.shtml"
-  },
-  {
-   "date": "2026-09-10",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "深圳证监局关于对梁慧荣采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7657810/content.shtml"
-  },
-  {
-   "date": "2026-09-10",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "深圳证监局关于对深圳市前海鸿顺和投资管理有限公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7657807/content.shtml"
-  },
-  {
-   "date": "2026-09-10",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对中国建设银行股份有限公司德州分行采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shandong/c104218/c7657766/content.shtml"
-  },
-  {
-   "date": "2026-09-10",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对北京国枫律师事务所、郭昕、杨惠然采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/xinjiang/c104370/c7657732/content.shtml"
-  },
-  {
    "date": "2026-09-10",
    "channel": "监管工作",
    "column": "辖区监管动态",
@@ -737,26 +767,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/qingdao/c101719/c7657702/content.shtml"
-  },
-  {
-   "date": "2026-09-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对华投（平潭综合实验区）股权投资基金管理有限公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658217/content.shtml"
-  },
-  {
-   "date": "2026-09-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对博富科技股份有限公司、张世栋、张亦弛采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7657475/content.shtml"
   },
   {
    "date": "2026-09-09",
@@ -1147,16 +1157,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/shaanxi/c104628/c7657382/content.shtml"
-  },
-  {
-   "date": "2026-08-31",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "青岛证监局召开辖区上市公司业财融合专题座谈会",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7655548/content.shtml"
   },
   {
    "date": "2026-08-28",
