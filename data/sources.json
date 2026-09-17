@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-17 16:09",
+ "generatedAt": "2026-09-17 16:35",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-17 16:09",
+   "fetchedAt": "2026-09-17 16:35",
    "ageDays": 6
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 15,
-   "fetchedAt": "2026-09-17 16:09",
+   "fetchedAt": "2026-09-17 16:35",
    "ageDays": 2
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 21,
-   "fetchedAt": "2026-09-17 16:09",
+   "total": 4,
+   "fetchedAt": "2026-09-17 16:35",
    "ageDays": 321
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "http://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/16/content_30181321.html",
+   "href": "http://paper.ce.cn/pc/content/202609/17/content_338966.html",
    "latest": {
-    "title": "以正确政绩观推动高质量发展行稳致远",
-    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/16/content_30181321.html",
-    "date": "2026-09-16",
-    "source": "人民日报"
+    "title": "打通堵点全链条扩大汽车消费",
+    "url": "http://paper.ce.cn/pc/content/202609/17/content_338966.html",
+    "date": "2026-09-17",
+    "source": "经济日报"
    },
    "stale": false,
-   "total": 106,
-   "fetchedAt": "2026-09-17 16:09",
-   "ageDays": 1
+   "total": 107,
+   "fetchedAt": "2026-09-17 16:35",
+   "ageDays": 0
   }
  ],
  "stale": false,
