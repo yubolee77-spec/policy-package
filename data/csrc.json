@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-17 17:01",
+ "generatedAt": "2026-09-17 17:12",
  "mediaFetchedAt": "2026-09-17 17:01",
- "mediaStale": false,
+ "mediaStale": true,
  "kpi": {
   "penaltyTotal": 234,
   "penaltyMonth": 113,
@@ -4375,7 +4375,7 @@
   }
  ],
  "review": {
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-17",
   "total": 4400,
   "pipelineTotal": 875,
   "activeTotal": 377,
@@ -4758,6 +4758,16 @@
   ],
   "recentActive": [
    {
+    "date": "2026-09-17",
+    "acceptDate": "2026-06-30",
+    "company": "江苏神州半导体科技股份有限公司",
+    "market": "科创板",
+    "industry": "专用设备制造业",
+    "state": "已问询",
+    "region": "江苏",
+    "sponsor": "国泰海通证券股份有限公司"
+   },
+   {
     "date": "2026-09-16",
     "acceptDate": "2025-09-18",
     "company": "烟台九目化学股份有限公司",
@@ -4776,6 +4786,16 @@
     "state": "上市委会议通过",
     "region": "广东",
     "sponsor": "中国国际金融股份有限公司"
+   },
+   {
+    "date": "2026-09-16",
+    "acceptDate": "2026-06-04",
+    "company": "深圳市邦正精密机械股份有限公司",
+    "market": "北交所",
+    "industry": "专用设备制造业",
+    "state": "已问询",
+    "region": "广东省 深圳市",
+    "sponsor": "国联民生证券承销保荐有限公司"
    },
    {
     "date": "2026-09-16",
@@ -5136,26 +5156,6 @@
     "state": "上市委会议通过",
     "region": "浙江省 湖州市",
     "sponsor": "开源证券股份有限公司"
-   },
-   {
-    "date": "2026-08-21",
-    "acceptDate": "2026-06-30",
-    "company": "上海羲禾科技股份有限公司",
-    "market": "科创板",
-    "industry": "软件和信息技术服务业",
-    "state": "已问询",
-    "region": "上海",
-    "sponsor": "国泰海通证券股份有限公司"
-   },
-   {
-    "date": "2026-08-21",
-    "acceptDate": "2026-05-15",
-    "company": "济南奥图自动化股份有限公司",
-    "market": "北交所",
-    "industry": "专用设备制造业",
-    "state": "已问询",
-    "region": "山东省 济南市",
-    "sponsor": "中泰证券股份有限公司"
    }
   ]
  }
