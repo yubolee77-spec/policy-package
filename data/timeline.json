@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-18 16:19",
+ "generatedAt": "2026-09-18 17:29",
  "month": 9,
  "hotPeriod": "9-10月",
  "candidateCount": 244,
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-18 · 国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知（国务院最新政策文件）",
+     "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081442.htm",
+     "date": "2026-09-18",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-09-18 · 评判投资成效不能仅看增速高低（经济日报）",
      "title": "评判投资成效不能仅看增速高低",
      "url": "http://paper.ce.cn/pc/content/202609/18/content_339018.html",
@@ -315,14 +323,6 @@
      "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081160.htm",
      "date": "2026-09-15",
      "source": "工信部最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-09-15 · 8月份国民经济运行平稳、发展向新向优（国家统计局最新数据发布）",
-     "title": "8月份国民经济运行平稳、发展向新向优",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965307.html",
-     "date": "2026-09-15",
-     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],
