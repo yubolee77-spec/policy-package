@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-18 19:23",
+ "generatedAt": "2026-09-18 21:56",
  "month": 9,
  "hotPeriod": "9-10月",
  "candidateCount": 244,
@@ -286,6 +286,14 @@
      "noise": false
     },
     {
+     "label": "2026-09-18 · 工业和信息化部等十部门关于印发《医药工业发展“十五五”规划》的通知（工信部最新政策文件）",
+     "title": "工业和信息化部等十部门关于印发《医药工业发展“十五五”规划》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081457.htm",
+     "date": "2026-09-18",
+     "source": "工信部最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-09-18 · 中老跨境数字支付互联互通正式启动（央行最新动态）",
      "title": "中老跨境数字支付互联互通正式启动",
      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091815494839605/index.html",
@@ -315,14 +323,6 @@
      "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081357.htm",
      "date": "2026-09-17",
      "source": "国务院最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-09-17 · 打通堵点全链条扩大汽车消费（经济日报）",
-     "title": "打通堵点全链条扩大汽车消费",
-     "url": "http://paper.ce.cn/pc/content/202609/17/content_338966.html",
-     "date": "2026-09-17",
-     "source": "经济日报",
      "noise": false
     }
    ],

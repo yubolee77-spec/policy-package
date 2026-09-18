@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-18 19:15",
+ "generatedAt": "2026-09-18 21:46",
  "mediaFetchedAt": "2026-09-18 19:15",
- "mediaStale": false,
+ "mediaStale": true,
  "kpi": {
   "penaltyTotal": 234,
   "penaltyMonth": 116,
@@ -11,7 +11,7 @@
   "ipoApproved30d": 10,
   "mediaTotal": 28,
   "mediaStrong": 18,
-  "activeTotal": 377,
+  "activeTotal": 375,
   "successTotal": 163,
   "cycleRecentAvg": 241,
   "cyclePrevAvg": 294,
@@ -4313,7 +4313,7 @@
   "asOf": "2026-09-18",
   "total": 4400,
   "pipelineTotal": 875,
-  "activeTotal": 377,
+  "activeTotal": 375,
   "successTotal": 163,
   "failTotal": 209,
   "stages": [
@@ -4334,7 +4334,7 @@
    },
    {
     "name": "提交注册",
-    "count": 31,
+    "count": 29,
     "kind": "active"
    },
    {
@@ -4704,6 +4704,16 @@
    },
    {
     "date": "2026-09-18",
+    "acceptDate": "2026-04-29",
+    "company": "广东纽恩泰新能源科技股份有限公司",
+    "market": "深主板",
+    "industry": "通用设备制造业",
+    "state": "已问询",
+    "region": "广东",
+    "sponsor": "国联民生证券承销保荐有限公司"
+   },
+   {
+    "date": "2026-09-18",
     "acceptDate": "2026-06-18",
     "company": "兰升生物科技集团股份有限公司",
     "market": "深主板",
@@ -4721,6 +4731,16 @@
     "state": "已问询",
     "region": "北京",
     "sponsor": "招商证券股份有限公司"
+   },
+   {
+    "date": "2026-09-18",
+    "acceptDate": "2026-06-10",
+    "company": "江苏长晶科技股份有限公司",
+    "market": "深主板",
+    "industry": "计算机、通信和其他电子设备制造业",
+    "state": "已问询",
+    "region": "江苏",
+    "sponsor": "华泰联合证券有限责任公司"
    },
    {
     "date": "2026-09-17",
@@ -5071,26 +5091,6 @@
     "state": "提交注册",
     "region": "山东省 济南市",
     "sponsor": "国联民生证券承销保荐有限公司"
-   },
-   {
-    "date": "2026-08-28",
-    "acceptDate": "2026-05-15",
-    "company": "苏州华太电子技术股份有限公司",
-    "market": "科创板",
-    "industry": "计算机、通信和其他电子设备制造业",
-    "state": "已问询",
-    "region": "江苏",
-    "sponsor": "华泰联合证券有限责任公司"
-   },
-   {
-    "date": "2026-08-28",
-    "acceptDate": "2025-12-30",
-    "company": "常州环能涡轮动力股份有限公司",
-    "market": "北交所",
-    "industry": "汽车制造业",
-    "state": "提交注册",
-    "region": "江苏省 常州市",
-    "sponsor": "国投证券股份有限公司"
    }
   ]
  }
