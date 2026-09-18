@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-18 23:13",
+ "generatedAt": "2026-09-19 07:30",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 244,
+ "candidateCount": 246,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-19 · 持续做大做强先进制造业（人民日报）",
+     "title": "持续做大做强先进制造业",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/19/content_30181972.html",
+     "date": "2026-09-19",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-09-19 · 莫以产能过剩之名行贸易保护之实（经济日报）",
+     "title": "莫以产能过剩之名行贸易保护之实",
+     "url": "http://paper.ce.cn/pc/content/202609/19/content_339066.html",
+     "date": "2026-09-19",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-09-18 · 国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知（国务院最新政策文件）",
      "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
      "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081442.htm",
@@ -307,22 +323,6 @@
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7659506/content.shtml",
      "date": "2026-09-18",
      "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-09-18 · 评判投资成效不能仅看增速高低（经济日报）",
-     "title": "评判投资成效不能仅看增速高低",
-     "url": "http://paper.ce.cn/pc/content/202609/18/content_339018.html",
-     "date": "2026-09-18",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-17 · 国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见（国务院最新政策文件）",
-     "title": "国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081357.htm",
-     "date": "2026-09-17",
-     "source": "国务院最新政策文件",
      "noise": false
     }
    ],
