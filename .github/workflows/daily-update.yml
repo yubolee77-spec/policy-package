@@ -2,13 +2,21 @@ name: Daily Policy Data Update
 
 on:
   schedule:
-    # 每日三轮抓取（注释为北京时间；GitHub cron 用 UTC，常有 10~60 分钟延后）
-    # 第一轮 北京 05:30：把昨天一整天的政策全部收进来，上班前打开就是新的
-    - cron: '30 21 * * *'
-    # 第二轮 北京 13:00：补进当天上午发布的新政策
-    - cron: '0 5 * * *'
-    # 第三轮 北京 17:30：收尾当天下午发布的内容
-    - cron: '30 9 * * *'
+    # ── 针对 GitHub cron 漂移的三项加固（2026-09-18）──
+    # 1) 分钟全部避开 :00 与 :30 —— 这两个分钟是 GitHub 内部 cron 分派集群的尖峰，
+    #    本站原配置 30 21 / 0 5 / 30 9 三条全部踩在尖峰上，实测一天只落地约 1 轮。
+    # 2) 每轮铺 2 个槽位（抖动后的分钟 + 1.5 小时后的冗余槽），任一落地即当轮生效。
+    # 3) 冗余槽靠下面的 guard 步骤做幂等短路，已落地的轮次秒退，不会重复抓取。
+    #
+    # 早班：北京 05:17 / 06:43 —— 收进前一天全天政策，上班前打开就是新的
+    - cron: '17 21 * * *'
+    - cron: '43 22 * * *'
+    # 午班：北京 12:37 / 14:07 —— 补当天上午发布的新政策
+    - cron: '37 4 * * *'
+    - cron: '7 6 * * *'
+    # 晚班：北京 17:23 / 18:53 —— 收尾当天下午发布的内容
+    - cron: '23 9 * * *'
+    - cron: '53 10 * * *'
   workflow_dispatch:
 
 permissions:
@@ -34,11 +42,61 @@ jobs:
         with:
           python-version: '3.12'
 
+      # ── 幂等短路：本轮窗口已经有数据就秒退 ──
+      # 冗余槽位必须配这一步，否则 6 条 cron 全落地会重复抓 6 次。
+      # 判据是 data/latest.json 的 fetchedAt（北京时间，格式 YYYY-MM-DD HH:MM）：
+      # 早班看「今天是否已有数据」，午班看「>= 今天 11:00」，晚班看「>= 今天 15:00」。
+      # 于是三轮各最多真抓一次，总抓取量与本轮改动前一致。
+      - name: Skip if this round already landed
+        id: guard
+        env:
+          SCHED: ${{ github.event.schedule }}
+        run: |
+          python - <<'PY'
+          import datetime, json, os
+
+          WINDOW_START = {
+              '17 21 * * *': '00:00',
+              '43 22 * * *': '00:00',
+              '37 4 * * *':  '11:00',
+              '7 6 * * *':   '11:00',
+              '23 9 * * *':  '15:00',
+              '53 10 * * *': '15:00',
+          }
+          sched = (os.environ.get('SCHED') or '').strip()
+          out = os.environ['GITHUB_OUTPUT']
+          start = WINDOW_START.get(sched)
+
+          if not start:
+              print(f'非排程触发（schedule={sched!r}），直接执行抓取')
+              skip = 'false'
+          else:
+              try:
+                  with open('data/latest.json', encoding='utf-8') as f:
+                      current = json.load(f).get('fetchedAt', '')
+              except Exception as exc:
+                  print(f'读 data/latest.json 失败（{exc}），按未落地处理')
+                  current = ''
+              bj_now = datetime.datetime.utcnow() + datetime.timedelta(hours=8)
+              target = f"{bj_now:%Y-%m-%d} {start}"
+              if current and current >= target:
+                  print(f'本轮窗口（>= {target}）已有数据 {current}，跳过')
+                  skip = 'true'
+              else:
+                  print(f'本轮窗口（>= {target}）尚无数据（当前 {current}），执行抓取')
+                  skip = 'false'
+
+          with open(out, 'a', encoding='utf-8') as f:
+              f.write(f'skip={skip}\n')
+          PY
+
       - name: Run update script
+        if: steps.guard.outputs.skip != 'true'
         run: python scripts/update_data.py
 
       - name: Check changes
         id: diff
+        if: steps.guard.outputs.skip != 'true'
         # 用 git status 而不是 git diff：评论累积库首次生成时是 untracked 文件，
         # git diff 看不到，会导致「有新数据却不提交」
         run: |
@@ -49,7 +107,7 @@ jobs:
           fi
 
       - name: Commit and push
-        if: steps.diff.outputs.changed == 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
