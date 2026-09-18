@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-18",
-  "fetchedAt": "2026-09-18 21:44",
+  "fetchedAt": "2026-09-18 23:01",
   "monthLabel": "2026年9月",
   "timeline": [
     {
@@ -324,13 +324,9 @@
       "desc": "工信部最新政策文件",
       "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7080773.htm",
       "date": "2026-09-11",
-      "summary": "现将《“人工智能+软件”专项行动实施方案》印发给你们，请结合实际，抓好贯彻落实。",
+      "summary": "现将《“人工智能+软件”专项行动实施方",
       "tier": "dept",
       "keywords": [
-        {
-          "type": "verb",
-          "text": "落实"
-        },
         {
           "type": "verb",
           "text": "实施"
@@ -6581,13 +6577,9 @@
         "desc": "工信部最新政策文件",
         "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7080773.htm",
         "date": "2026-09-11",
-        "summary": "现将《“人工智能+软件”专项行动实施方案》印发给你们，请结合实际，抓好贯彻落实。",
+        "summary": "现将《“人工智能+软件”专项行动实施方",
         "tier": "dept",
         "keywords": [
-          {
-            "type": "verb",
-            "text": "落实"
-          },
           {
             "type": "verb",
             "text": "实施"
