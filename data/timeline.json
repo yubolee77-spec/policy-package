@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-18 17:29",
+ "generatedAt": "2026-09-18 19:23",
  "month": 9,
  "hotPeriod": "9-10月",
  "candidateCount": 244,
@@ -286,6 +286,22 @@
      "noise": false
     },
     {
+     "label": "2026-09-18 · 中老跨境数字支付互联互通正式启动（央行最新动态）",
+     "title": "中老跨境数字支付互联互通正式启动",
+     "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091815494839605/index.html",
+     "date": "2026-09-18",
+     "source": "央行最新动态",
+     "noise": false
+    },
+    {
+     "label": "2026-09-18 · 中国证监会拟对17起案件线索的“吹哨人”给予奖励（证监会最新动态）",
+     "title": "中国证监会拟对17起案件线索的“吹哨人”给予奖励",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7659506/content.shtml",
+     "date": "2026-09-18",
+     "source": "证监会最新动态",
+     "noise": false
+    },
+    {
      "label": "2026-09-18 · 评判投资成效不能仅看增速高低（经济日报）",
      "title": "评判投资成效不能仅看增速高低",
      "url": "http://paper.ce.cn/pc/content/202609/18/content_339018.html",
@@ -307,22 +323,6 @@
      "url": "http://paper.ce.cn/pc/content/202609/17/content_338966.html",
      "date": "2026-09-17",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-16 · 以正确政绩观推动高质量发展行稳致远（人民日报）",
-     "title": "以正确政绩观推动高质量发展行稳致远",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/16/content_30181321.html",
-     "date": "2026-09-16",
-     "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-15 · 两部门关于印发《电子信息制造业发展“十五五”规划》的通知（工信部最新政策文件）",
-     "title": "两部门关于印发《电子信息制造业发展“十五五”规划》的通知",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081160.htm",
-     "date": "2026-09-15",
-     "source": "工信部最新政策文件",
      "noise": false
     }
    ],
