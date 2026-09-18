@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-09-18 07:38",
- "mediaFetchedAt": "2026-09-17 17:01",
- "mediaStale": true,
+ "generatedAt": "2026-09-18 16:11",
+ "mediaFetchedAt": "2026-09-18 16:11",
+ "mediaStale": false,
  "kpi": {
   "penaltyTotal": 234,
   "penaltyMonth": 114,
   "approvalTotal": 168,
   "approvalMonth": 12,
-  "reitsApproved30d": 8,
+  "reitsApproved30d": 5,
   "ipoApproved30d": 8,
-  "mediaTotal": 34,
-  "mediaStrong": 21,
+  "mediaTotal": 28,
+  "mediaStrong": 20,
   "activeTotal": 377,
   "successTotal": 163,
   "cycleRecentAvg": 241,
@@ -18,6 +18,66 @@
   "cycleVerdict": "加快 18%"
  },
  "penalty": [
+  {
+   "date": "2026-09-18",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对中国银河证券股份有限公司浙江分公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7659517/content.shtml"
+  },
+  {
+   "date": "2026-09-18",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对中国银河证券股份有限公司台州银座北街证券营业部、伍涛采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7659516/content.shtml"
+  },
+  {
+   "date": "2026-09-18",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对刘景峰采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7659514/content.shtml"
+  },
+  {
+   "date": "2026-09-18",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "监管措施",
+   "title": "关于对华源证券股份有限公司温州锦绣路证券营业部采取责令增加内部合规检查次数措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7659513/content.shtml"
+  },
+  {
+   "date": "2026-09-18",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "吉林证监局证券期货经营机构行政许可申请受理及审核情况公示表（截至2026年9月18日)",
+   "docNo": "",
+   "party": "截至2026年9月18日",
+   "url": "https://www.csrc.gov.cn/jilin/c103793/c7659491/content.shtml"
+  },
+  {
+   "date": "2026-09-18",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-9-18",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7659480/content.shtml"
+  },
   {
    "date": "2026-09-17",
    "channel": "行政监管措施",
@@ -670,46 +730,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对苏州金禾新材料科技股份有限公司、金春荣、徐建新采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7658074/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对常州钢劲型钢股份有限公司、陈红谓、王志明采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7658049/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对江苏三艾国际旅游文化发展股份有限公司、韩春东采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7658046/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对昆山金鑫新能源股份有限公司、张晓红、杨桂凤采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103895/c7658380/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "工作动态",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -1137,26 +1157,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jilin/c103788/c7655644/content.shtml"
-  },
-  {
-   "date": "2026-09-01",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "警示函",
-   "title": "关于对西安聚能超导磁体科技股份有限公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shaanxi/c104628/c7657385/content.shtml"
-  },
-  {
-   "date": "2026-09-01",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "警示函",
-   "title": "关于对西安紫光国芯半导体股份有限公司、新紫光集团有限公司、范新、江喜平、吴晓冬采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shaanxi/c104628/c7657382/content.shtml"
   },
   {
    "date": "2026-08-28",
@@ -4043,6 +4043,156 @@
  ],
  "media": [
   {
+   "date": "2026-09-18",
+   "media": "上海证券报·中国证券网",
+   "title": "湖北首单“认股权+担保”登记在武汉股交落地",
+   "url": "http://finance.eastmoney.com/a/202609183878532742.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "证券日报",
+   "title": "中银证券助力国昇资本发行市场首单具身智能主题科技创新公司债券",
+   "url": "http://finance.eastmoney.com/a/202609183878523357.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "上海证券报·中国证券网",
+   "title": "盘活城市地下管网资产 山西首单公募REITs设立",
+   "url": "http://bond.eastmoney.com/a/202609183878490785.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "证券日报",
+   "title": "创新金融工具赋能企业成长 湖北首单“认股权+担保”登记落地武汉股交",
+   "url": "http://finance.eastmoney.com/a/202609183878480858.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "证券时报网",
+   "title": "对接“六张网”建设 盘活城市地下管网资产——山西首单公募REITs正式设立",
+   "url": "http://bond.eastmoney.com/a/202609183878477910.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "财联社",
+   "title": "湖北首单“认股权+担保”登记落地武汉股交",
+   "url": "http://finance.eastmoney.com/a/202609183878447234.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "界面新闻",
+   "title": "打新早报|深市主板首单“H回A”，力勤资源今日申购",
+   "url": "http://finance.eastmoney.com/a/202609183878025735.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "财联社",
+   "title": "阿里AI登顶《科学》：全球首个专家级通用医疗影像模型 一个模型识别146种病症",
+   "url": "http://finance.eastmoney.com/a/202609183878598928.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "上海证券报·中国证券网",
+   "title": "九识建成业内首个L4级智能驾驶万卡集群",
+   "url": "http://finance.eastmoney.com/a/202609183878569941.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "21世纪经济报道",
+   "title": "华为发布业界首个量产NPO光互联产品，中证全指通信设备指数盘中涨超2%，天弘中证全指通信设备指数基金覆盖光模块等全产业链环节",
+   "url": "http://finance.eastmoney.com/a/202609183878564080.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "界面新闻",
+   "title": "中国光伏、入轨太空！首个钙钛矿国标发布，光伏ETF招商(516230)标的指数午后涨2.11%",
+   "url": "http://stock.eastmoney.com/a/202609183878527876.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "每日经济新闻",
+   "title": "国内首个面向AI服务器制造的工业具身智能联合实验室揭牌！创业板算力ETF天弘（158061）标的指数盘中涨超2%，申购达2000万份",
+   "url": "http://stock.eastmoney.com/a/202609183878502438.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI",
+    "集成电路"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "每日经济新闻",
+   "title": "首批国家基本医疗保险医疗服务项目目录制定方案发布！生物医药ETF天弘（159859）标的指数逆市收涨近1%，净申购超7000万份",
+   "url": "http://stock.eastmoney.com/a/202609183878151368.html",
+   "keyword": "首批",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-18",
+   "media": "21世纪经济报道",
+   "title": "首批国产肿瘤全营养特医食品获批注册；恒瑞医药回购A股股份",
+   "url": "http://finance.eastmoney.com/a/202609183877899352.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-18",
+   "media": "上海证券报·中国证券网",
+   "title": "中船七〇四所智能拖曳作业系统获得全球首张型式认可证书",
+   "url": "http://finance.eastmoney.com/a/202609183878475288.html",
+   "keyword": "首张",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-09-17",
    "media": "第一财经",
    "title": "健友股份：门冬胰岛素虽已获美国FDA批件 暂未实现首单销售",
@@ -4053,200 +4203,10 @@
   },
   {
    "date": "2026-09-17",
-   "media": "财联社",
-   "title": "智谱GLM公开国内大模型首个RSI实践：AI在十万卡国产集群上自建推理系统",
-   "url": "http://finance.eastmoney.com/a/202609173877338160.html",
-   "keyword": "首个",
-   "topics": [
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "上海证券报·中国证券网",
-   "title": "港交所：正在筹备推出首个债券指数，支持人民币国际化进程",
-   "url": "http://finance.eastmoney.com/a/202609173877323821.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "上海证券报·中国证券网",
-   "title": "本土化创新持续推进 赛百味“百味新江湖”战略迎来首个联名新品",
-   "url": "http://finance.eastmoney.com/a/202609173877286691.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "证券时报网",
-   "title": "卫光生物：白俄罗斯输血中心合作项目正式交付 完成国内首个血液制品技术输出",
-   "url": "http://finance.eastmoney.com/a/202609173877258441.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "上海证券报",
-   "title": "华为光互联产品亮相全联接大会 汪涛：这是业界首个量产NPO产品",
-   "url": "http://finance.eastmoney.com/a/202609173877239438.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "每日经济新闻",
-   "title": "华为发布全球首个采用NPO技术的超节点昇腾960！创业板算力ETF天弘（158061）标的指数涨近1%，换手率超35%",
-   "url": "http://stock.eastmoney.com/a/202609173877228744.html",
-   "keyword": "首个",
-   "topics": [
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "每日经济新闻",
-   "title": "华为首个3D数据中心+昇腾超节点亮相！创业板算力 ETF 华夏（158041.SZ）上市走强",
-   "url": "http://stock.eastmoney.com/a/202609173877212018.html",
-   "keyword": "首个",
-   "topics": [
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "界面新闻",
-   "title": "华为推出业界首个采用NPO技术的超节点",
-   "url": "http://finance.eastmoney.com/a/202609173877202428.html",
-   "keyword": "首个",
-   "topics": [
-    "算力/AI",
-    "集成电路"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "财联社",
-   "title": "首个采用NPO的昇腾960超节点来了！华为新款AI芯片将提前推出",
-   "url": "http://finance.eastmoney.com/a/202609173877189490.html",
-   "keyword": "首个",
-   "topics": [
-    "集成电路"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "澎湃新闻",
-   "title": "华为昇腾960超节点发布：业界首个采用NPO的超节点 支持十万亿大模型训练和推理",
-   "url": "http://finance.eastmoney.com/a/202609173877166119.html",
-   "keyword": "首个",
-   "topics": [
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "每日经济新闻",
-   "title": "香港特区首个五年规划正式公布，港股医药逆势反弹，关注港股通创新药医疗ETF富国（159506）",
-   "url": "http://stock.eastmoney.com/a/202609173877215513.html",
-   "keyword": "首个",
-   "topics": [
-    "生物医药"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "第一财经",
-   "title": "华为发布业内首个基于NPO的超节点昇腾960超节点 明年三季度上市",
-   "url": "http://finance.eastmoney.com/a/202609173877142355.html",
-   "keyword": "首个",
-   "topics": [
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "上海证券报·中国证券网",
-   "title": "首批2只创业板算力基础设施ETF早盘上涨",
-   "url": "http://stock.eastmoney.com/a/202609173877151421.html",
-   "keyword": "首批",
-   "topics": [
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-17",
-   "media": "财联社",
-   "title": "上海国投科创策源基金二期首批项目签约 二期总规模4.5亿元",
-   "url": "http://finance.eastmoney.com/a/202609173877340444.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-17",
-   "media": "财联社",
-   "title": "最快下周一？主动ETF获批倒计时 首批公募要面对哪些挑战？",
-   "url": "http://stock.eastmoney.com/a/202609173877318723.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-17",
-   "media": "21世纪经济报道",
-   "title": "首批目录13类，中医暂不纳入：医疗服务项目医保支付加快全国统一",
-   "url": "http://finance.eastmoney.com/a/202609173877291773.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-17",
-   "media": "中国证券报·中证金牛座",
-   "title": "市场监管总局：首批国产肿瘤全营养特医食品获批注册",
-   "url": "http://finance.eastmoney.com/a/202609173877251536.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-17",
-   "media": "界面新闻",
-   "title": "首批主动ETF为什么都选“稳健”起步？",
-   "url": "http://stock.eastmoney.com/a/202609173877246766.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-17",
-   "media": "新华财经",
-   "title": "上海等11城链家门店安装首批AED",
-   "url": "http://finance.eastmoney.com/a/202609173877155433.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-17",
-   "media": "每日经济新闻",
-   "title": "首批国产肿瘤全营养特医食品获批注册",
-   "url": "http://finance.eastmoney.com/a/202609173877260648.html",
-   "keyword": "首批",
+   "media": "中国新闻网",
+   "title": "中国首张铁路国际联运电子运单签发",
+   "url": "http://finance.eastmoney.com/a/202609173877620883.html",
+   "keyword": "首张",
    "topics": [],
    "strong": false
   },
@@ -4298,15 +4258,6 @@
    "title": "资本深一度｜首例三家券商换股合并，券业整合步入深水区",
    "url": "http://finance.eastmoney.com/a/202609153874889529.html",
    "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-15",
-   "media": "上海证券报·中国证券网",
-   "title": "内蒙古完成首单词元场内交易",
-   "url": "http://finance.eastmoney.com/a/202609153875011330.html",
-   "keyword": "首单",
    "topics": [],
    "strong": true
   },
@@ -4363,19 +4314,10 @@
    "keyword": "首张",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-09-09",
-   "media": "央视新闻",
-   "title": "全国首张“岸海船星”海洋专网发布 可守护超10万艘渔船通信",
-   "url": "http://finance.eastmoney.com/a/202609093869341430.html",
-   "keyword": "首张",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
-  "asOf": "2026-09-17",
+  "asOf": "2026-09-18",
   "total": 4400,
   "pipelineTotal": 875,
   "activeTotal": 377,
@@ -4758,6 +4700,26 @@
   ],
   "recentActive": [
    {
+    "date": "2026-09-18",
+    "acceptDate": "2026-06-30",
+    "company": "深圳云豹智能股份有限公司",
+    "market": "创业板",
+    "industry": "计算机、通信和其他电子设备制造业",
+    "state": "已问询",
+    "region": "广东",
+    "sponsor": "中信证券股份有限公司"
+   },
+   {
+    "date": "2026-09-18",
+    "acceptDate": "2026-06-18",
+    "company": "兰升生物科技集团股份有限公司",
+    "market": "深主板",
+    "industry": "化学原料及化学制品制造业",
+    "state": "已问询",
+    "region": "河北",
+    "sponsor": "中信建投证券股份有限公司"
+   },
+   {
     "date": "2026-09-17",
     "acceptDate": "2026-06-30",
     "company": "江苏神州半导体科技股份有限公司",
@@ -5136,26 +5098,6 @@
     "state": "上市委会议通过",
     "region": "内蒙古自治区 通辽市",
     "sponsor": "长江证券承销保荐有限公司"
-   },
-   {
-    "date": "2026-08-24",
-    "acceptDate": "2024-11-04",
-    "company": "北京天广实生物技术股份有限公司",
-    "market": "北交所",
-    "industry": "医药制造业",
-    "state": "提交注册",
-    "region": "北京市 大兴区",
-    "sponsor": "中国国际金融股份有限公司"
-   },
-   {
-    "date": "2026-08-21",
-    "acceptDate": "2024-12-31",
-    "company": "浙江正导技术股份有限公司",
-    "market": "北交所",
-    "industry": "电气机械和器材制造业",
-    "state": "上市委会议通过",
-    "region": "浙江省 湖州市",
-    "sponsor": "开源证券股份有限公司"
    }
   ]
  }
