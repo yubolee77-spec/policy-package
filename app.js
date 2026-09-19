@@ -1077,7 +1077,10 @@ function renderCompareFilter() {
   if (compareAuto && compareAuto.topics && compareAuto.topics.length) {
     const topics = compareAuto.topics;
     let html = '';
-    html += '<div class="cmp-filter-all"><span class="cmp-chip active" data-track="all">📋 全部产业主题（共 ' + topics.length + ' 个 · ' + compareAuto.years.join('/') + '）</span></div>';
+    const grand = topics.reduce((a, t) =>
+      a + Object.values(t.counts || {}).reduce((x, y) => x + y, 0), 0);
+    html += '<div class="cmp-filter-all"><span class="cmp-chip active" data-track="all">📋 全部产业主题（共 '
+      + topics.length + ' 个 · ' + compareAuto.years.join('/') + ' · 全库标题命中 ' + grand + ' 条）</span></div>';
     compareCategories.forEach(cat => {
       const inTrack = topics.filter(t => t.track === cat.key);
       if (!inTrack.length) return;
@@ -1192,7 +1195,19 @@ function renderCompareTable() {
     }
 
     const asOf = compareAuto.asOf ? ` <span style="font-weight:400;color:var(--text-muted)">(${compareAuto.asOf}在途)</span>` : '';
-    let html = `<div class="cmp-hd-row">
+    // 口径说明：计数是「全库标题命中数」而非抽样，页面上必须写清楚，
+    // 否则读者会把它当成「近三年发文量」的绝对真值。
+    const yearTot = {};
+    compareAuto.topics.forEach(t => {
+      years.forEach(y => { yearTot[y] = (yearTot[y] || 0) + ((t.counts || {})[String(y)] || 0); });
+    });
+    const noteHtml = `<div class="cmp-count-note"><span class="cmp-count-note-hd">▸ 计数口径</span>`
+      + `全库「标题命中该主题检索词」的政策文件数（同一文件只计一次，非近期抽样）`
+      + ` ｜ 全部主题三年合计：`
+      + years.map(y => `${y}年 <b>${yearTot[y] || 0}</b>`).join(' · ')
+      + (compareAuto.searchKeys ? ` ｜ 检索词 ${compareAuto.searchKeys} 个` : '')
+      + `</div>`;
+    let html = noteHtml + `<div class="cmp-hd-row">
       <div>产业主题 / 部门（发文密度）</div>
       ${years.map((y, i) => `<div>${y}年${i === years.length - 1 ? asOf : ''} <span style="font-weight:400;color:var(--text-muted)">(附原文)</span></div>`).join('')}
       <div>差异说明（力度·性质·节奏）</div>

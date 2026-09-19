@@ -12,7 +12,8 @@
 实现：
   1. 数据源：国务院政策文件库 API（sousuo.www.gov.cn，t=zhengcelibrary）
      —— 覆盖国务院公文 + 各部委文件，url 均为 gov.cn 体系原文页
-  2. 按 35+ 产业主题关键词逐年检索（p=1..2, n=100），标题/摘要二次过滤保相关性
+  2. 按 35+ 产业主题**逐词全库标题检索**（searchfield=title，翻页取尽），
+     再按 `match` 词二次过滤 + 年份分组 —— 计数即「全库标题命中该主题的文件数」
   3. 按 主题 × 部门 × 年份 分组，选代表文件（部门权威度 + 是否带文号）
   4. 每条提取 定调词/动词/程度词（复用 update_data.KEYWORD_RULES），
      代表文件额外抓原文取关键语句
@@ -20,6 +21,26 @@
   6. 输出 data/compare.json，前端 L3 优先读取，硬编码数据降级为兜底
 
 运行：由 scripts/update_data.py 末尾自动调用（try/except 隔离，失败不影响主数据）
+
+── 踩坑记录（2026-09-19 改口径，勿回退）─────────────────────────
+A. `searchfield=title` 不能省。不带它时服务端**忽略 q**，返回的是「综合排序的政策池」
+   （约 300 条/页、可翻很多页），表现为：32 个主题各查 4 页拿到的是**同一批数据**，
+   再靠标题正则在里面挑 —— 于是各年计数只反映「该主题文件在池子里残留多少」，
+   而不是真实发文量。池子的年份分布极不均衡（实测 2026:1124 / 2025:654 / 2024:119），
+   导致 2024 年数字系统性偏低，三年对比失真。
+B. 加了 searchfield=title 之后，检索范围变成**全库标题命中**，翻页到空为止即可取尽
+   （`searchVO.totalCount` 恒为 0，不能用它判总量，只能靠「本页 0 条新增」收手）。
+C. 时间范围参数（publishStart/pubtimeStart/startTime/beginDate/timeStart…）实测**全部无效**，
+   加与不加返回完全一致 —— 所以「逐年检索」只能在本地按 pubtimeStr 分组，别去试参数。
+D. 单主题要靠多个检索词才够：如「房地产」标题命中仅 59 条且 2026 年为零，
+   而「住房」有 405 条（2026:28 条）。故检索词取 kws + match 的并集。
+E. 接口每页上限 300 条（n 参数只在 <300 时起作用）。
+F. **接口有反爬，会临时封 IP**：8 并发 × 143 词（约 180 次请求、~10 req/s）后，所有请求（含不带
+   关键词的）连续返 **403 Forbidden，实测锁了约 7 分钟**。⇒ 打这个接口一律低并发（本文件 2）+ 页间延时
+   + 失败退避重试；任一检索词重试耗尽即 `SearchError` 中止本轮、**不覆盖** compare.json。
+G. **`searchVO=null` 要分两种**：`msg='抱歉，没有找到相关结果'`（code 1001）= 真零命中（如「半导体」
+   在政策库标题里就是没有，别当故障）；其余（含限流期的空响应）= 失败，必须重试。
+   把零命中当失败会让这些词白等退避、最后把整轮拖中止；把限流当零命中则会静默少算 —— 两头都要防。
 """
 
 import json
@@ -82,7 +103,7 @@ TOPICS = [
     dict(key="quantum",  label="量子科技",         track="emerging", code="I65",
          kws=["量子"],           match=["量子", "量子计算", "量子通信", "量子测量"]),
     dict(key="future6g", label="6G/未来通信",      track="emerging", code="I63",
-         kws=["6G"],             match=["6G", "第六代移动", "未来网络", "卫星互联网"]),
+         kws=["6G"],             match=["6G", "第六代移动", "未来网络", "未来通信", "卫星互联网"]),
     # ── 传统支柱产业 traditional ──
     dict(key="steel",    label="钢铁",             track="traditional", code="C31",
          kws=["钢铁"],           match=["钢铁", "产能置换", "粗钢"]),
@@ -97,12 +118,12 @@ TOPICS = [
     dict(key="realest",  label="房地产",           track="traditional", code="K70",
          kws=["房地产"],         match=["房地产", "住房", "城中村", "保障性住房", "止跌回稳"]),
     dict(key="construct",label="建筑业/基建",      track="traditional", code="E48",
-         kws=["建筑业"],         match=["建筑业", "基础设施", "重大工程", "老旧小区"]),
+         kws=["建筑业"],         match=["建筑业", "基建", "基础设施", "重大工程", "老旧小区"]),
     # ── 数字经济与要素 digital ──
     dict(key="digital",  label="数字经济",         track="digital", code="I",
          kws=["数字经济"],       match=["数字经济", "数字中国", "数字化转型"]),
     dict(key="data",     label="数据要素/数据局",  track="digital", code="I65",
-         kws=["数据要素"],       match=["数据要素", "数据资产", "公共数据", "数据流通"]),
+         kws=["数据要素"],       match=["数据要素", "数据资产", "公共数据", "数据流通", "数据局"]),
     dict(key="compute",  label="算力/数据中心",    track="digital", code="I65",
          kws=["算力"],           match=["算力", "数据中心", "东数西算", "智算"]),
     dict(key="platform", label="平台经济",         track="digital", code="I64",
@@ -115,7 +136,7 @@ TOPICS = [
     dict(key="greennew", label="绿色转型/环保",    track="green", code="N77",
          kws=["绿色转型"],       match=["绿色转型", "绿色低碳", "环保", "污染治理", "循环经济"]),
     # ── 现代服务业与民生 service ──
-    dict(key="reits",    label="REITs/资本市场",   track="service", code="J67",
+    dict(key="reits",    label="REITs/基础设施基金", track="service", code="J67",
          kws=["REITs"],          match=["REITs", "不动产投资信托", "基础设施基金"]),
     dict(key="eldercare",label="养老/银发经济",    track="service", code="Q85",
          kws=["养老服务"],       match=["养老", "银发经济", "老年", "适老化"]),
@@ -158,6 +179,22 @@ DING_STRENGTH = {
 # 每年每主题最多取几个代表文件、每部门几条
 MAX_DOCS_PER_YEAR = 3
 MAX_DEPTS_PER_TOPIC = 3
+
+# ── 全库标题检索参数 ────────────────────────────────────────────
+# 翻页上限只取 5：实测「教育」全库 1309 条命中里，2024–2026 窗口内的条目**全在第 1–2 页**
+# （p1 含 2024:78/2025:89/2026:37，p2 含 2024:35，p3 及以后 0 条在窗口内，全是 2024 年之前），
+# 深翻对本层的三年对比没有增量。每页上限 300 条。
+MAX_PAGES_PER_KEY = 5
+# 并发必须压到很低：gov.cn 检索接口有反爬，实测 8 并发 × 143 词（~10 req/s）后**整段 IP 被封**：
+# 所有请求（连不带关键词的普通请求）连续 403 Forbidden，**锁约 7 分钟**才恢复。
+# 压到 2 并发 + 页间延时后，同样的量能安全跑完（旧版 L3 用 ~4 req/s 也没被封过）。
+SEARCH_WORKERS = 2
+PAGE_DELAY = 0.5               # 同词翻页之间的间隔
+RETRY_BACKOFF = (2, 5, 12)     # 单页失败后的退避秒数，用完仍失败即中止本轮
+
+
+class SearchError(Exception):
+    """检索失败（多为被 gov.cn 限流）。触发时**不覆盖** compare.json，保留上一版。"""
 
 
 def _bj_now(fmt="%Y-%m-%d %H:%M"):
@@ -219,38 +256,160 @@ def _short_dept(puborg):
     return org if len(org) <= 14 else org[:13] + "…"
 
 
-def fetch_topic_items(kw, pages=4):
-    """按关键词检索政策文件库（多翻几页，覆盖热门主题把 2024 挤出窗口的问题）。"""
-    items, seen = [], set()
+def search_keys(topic):
+    """一个主题要用哪些词去全库标题检索：`kws` + `match` 全量，保序去重。
+
+    两条约束（改这张表前先看）：
+      ① **必须带上 match 里的词**，而不只是 kws[0]：「房地产」标题命中仅 59 条、2026 年为零，
+         只靠它会把一个活跃主题算成「今年没发文」；补上「住房」才有 405 条。
+      ② **不要挑肥拣瘦地排除「太宽的词」**。曾试过把 消费/文化/医疗/药品/学校/铜铝锂/AI 踢出检索词，
+         结果主题标签与计数口径当场不一致 —— 「文旅/消费」只剩文旅，「医疗卫生」少了医药，
+         数字对不上标题。既然 match 已声明该主题涵盖这些词，检索就必须一视同仁。
+    """
+    keys = []
+    for w in list(topic["kws"]) + list(topic["match"]):
+        if w not in keys:
+            keys.append(w)
+    return keys
+
+
+def _title_page(kw, p):
+    """取一页标题检索结果。返回 (status, payload)：
+
+      ("ok",     [item, ...])  正常
+      ("empty",  [])           服务端明确说「没有找到相关结果」—— 该词真无命中
+      ("retry",  "原因")       被限流/请求失败，应当重试
+    """
+    url = (f"{API_BASE}?t=zhengcelibrary&q={urllib.parse.quote(kw)}"
+           f"&searchfield=title&sort=pubtime&sortType=1&p={p}&n=100")
+    data = safe_fetch_json(url, timeout=20)
+    if data is None:
+        return "retry", "请求失败（403 / 超时）"
+    sv = data.get("searchVO")
+    if sv is None:
+        # 200 但 searchVO 为空有两种来源，必须分开（实测）：
+        #   ① msg='抱歉，没有找到相关结果' code=1001 → **真的零命中**（如「半导体」在政策库标题里就没有），
+        #      当失败处理会让这些词反复重试、最后把整轮 L3 拖到中止；
+        #   ② 其它（含被限流时的空响应）→ 一律重试，避免把「被限流」写成「该主题没文件」而静默少算。
+        if "没有找到" in (data.get("msg") or "") or data.get("code") == 1001:
+            return "empty", []
+        return "retry", f"searchVO 为空（msg={data.get('msg')!r}）"
+    cat_map = sv.get("catMap") or {}
+    items = []
+    # 只取这三类，**不取 gongbao**：catMap 里还有「国务院公报」一类，但公报是对国发/国办发
+    # 文件的**再发布**（同文不同 URL），合并进来会把同一份政策算两遍、把年度计数灌水。
+    # L2/L6 也是这三类，保持一致。
+    for cat in ("gongwen", "bumenfile", "otherfile"):
+        items.extend((cat_map.get(cat) or {}).get("listVO") or [])
+    return "ok", items
+
+
+def fetch_key_hits(kw, pages=MAX_PAGES_PER_KEY):
+    """单个关键词做**标题**检索，翻页到「本页无新增」为止。
+
+    searchfield=title 是关键：省掉它服务端会忽略 q（详见文件头踩坑记录 A）。
+    searchVO.totalCount 恒为 0，无法用它算总量，只能靠空页收手。
+    任一分页重试耗尽即抛 SearchError —— 宁可本轮不更新，也不要写进被少算的数字。
+
+    返回 {"items", "pages", "capped"}。`capped` 表示翻到上限时末页仍有新增，
+    只用于日志告警（实测窗口内条目集中在第 1–2 页，深翻拿到的都是 2024 年之前的，
+    对本层的三年窗口没有增量，所以上限才敢设这么低）。
+    """
+    items, seen, capped, used = [], set(), False, 0
     for p in range(1, pages + 1):
-        url = (f"{API_BASE}?t=zhengcelibrary&q={urllib.parse.quote(kw)}"
-               f"&sort=pubtime&sortType=1&p={p}&n=100")
-        data = safe_fetch_json(url)
-        if not data or "searchVO" not in data:
-            time.sleep(0.5)
-            continue
-        cat_map = data["searchVO"].get("catMap", {}) or {}
+        payload, reason, empty = None, "", False
+        for attempt in range(len(RETRY_BACKOFF) + 1):
+            status, data = _title_page(kw, p)
+            if status == "ok":
+                payload = data
+                break
+            if status == "empty":
+                empty = True
+                break
+            reason = data
+            if attempt == len(RETRY_BACKOFF):
+                raise SearchError(f"「{kw}」第 {p} 页：{reason}")
+            time.sleep(RETRY_BACKOFF[attempt])
+        if empty:
+            break                      # 服务端明确无结果，不必再翻页
+        used = p
         got = 0
-        for cat in ("gongwen", "bumenfile", "otherfile"):
-            for it in (cat_map.get(cat, {}) or {}).get("listVO", []) or []:
-                key = it.get("url") or it.get("id")
-                if not key or key in seen:
-                    continue
-                seen.add(key)
-                items.append(it)
-                got += 1
+        for it in payload:
+            key = it.get("url") or it.get("id")
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            items.append(it)
+            got += 1
         if got == 0:
             break                      # 没有更多页，提前收手
-        time.sleep(0.3)
+        if p == pages:
+            capped = True
+        time.sleep(PAGE_DELAY)
+    return {"items": items, "pages": used, "capped": capped}
+
+
+def build_hit_index(keys):
+    """把所有主题的检索词去重后抓一次，供各主题共用。
+
+    主题之间检索词大量重叠（人工智能/半导体/储能…），逐主题各抓一遍会成倍放大请求数。
+    低并发 + 全量失败中止：任一检索词抓不到就整体放弃，防止把残缺数据写进 compare.json。
+    """
+    index, errors, done, capped = {}, [], 0, []
+    requests = 0
+    with ThreadPoolExecutor(max_workers=SEARCH_WORKERS) as pool:
+        futs = {pool.submit(fetch_key_hits, k): k for k in keys}
+        for fut in as_completed(futs):
+            kw = futs[fut]
+            try:
+                r = fut.result()
+                index[kw] = r["items"]
+                requests += r["pages"]
+                if r["capped"]:
+                    capped.append("%s(%d条)" % (kw, len(r["items"])))
+            except Exception as e:                          # noqa: BLE001
+                index[kw] = []
+                errors.append(str(e)[:140])
+            done += 1
+            if done % 20 == 0:
+                print(f"    ... 检索词 {done}/{len(keys)}（累计失败 {len(errors)}）")
+    print(f"  共 {requests} 次分页请求（{len(keys)} 词）")
+    # 命中量 top5：便于日后判断「还要不要调翻页上限」
+    top = sorted(index.items(), key=lambda kv: -len(kv[1]))[:5]
+    print("  命中 top5：" + " / ".join("%s %d" % (k, len(v)) for k, v in top))
+    zero = [k for k, v in index.items() if not v]
+    if zero:
+        print(f"  零命中检索词 {len(zero)} 个（服务端明确无结果，如 " + "、".join(zero[:5]) + "）")
+    if capped:
+        print(f"  ! 触及 {MAX_PAGES_PER_KEY} 页上限的检索词（末页仍有新增）：" + "、".join(capped))
+    if errors:
+        raise SearchError(
+            f"{len(errors)}/{len(keys)} 个检索词抓取失败（疑似被 gov.cn 限流）：\n      "
+            + "\n      ".join(errors[:6]))
+    return index
+
+
+def fetch_topic_items(topic, index):
+    """把该主题所有检索词的全库命中并起来（按 url 去重）。"""
+    items, seen = [], set()
+    for kw in search_keys(topic):
+        for it in index.get(kw, []):
+            key = it.get("url") or it.get("id")
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            items.append(it)
     return items
 
 
 def filter_year_and_topic(items, topic, years):
     """年份窗口 + 标题关键词过滤。
 
-    API 是全文检索（正文提一句也算命中），会混入大量无关文件
-    （如城市总规里提一句"人工智能"）；只有标题命中主题词的文件
-    才是真正的「该主题政策」，保证对比对象准确可查证。
+    检索侧已是「标题命中」，这里再按 `match` 词过一遍，是为了兜住两种情况：
+      ① 检索词比 match 更宽（如以「储能」捞回的文件 title 只出现「抽水蓄能」——
+         这其实也在 match 里，但换个词表就不一定）；
+      ② 接口可能把标题匹配降级到摘要（观察到过），不能假设它严格只看标题。
+    只有标题命中主题词的文件才是真正的「该主题政策」，保证对比对象准确可查证。
     """
     out = []
     kwset = topic["match"]
@@ -380,15 +539,32 @@ def main():
     print("== L3 历年政策对比抓取 ==")
     print(f"  年份窗口: {YEARS[0]}–{YEARS[-1]}（{YEARS[-1]} 年数据截至 {AS_OF}）")
 
+    # ── ① 全库标题检索：所有主题的检索词去重后并发抓一次 ──────────
+    all_keys = []
+    for topic in TOPICS:
+        for k in search_keys(topic):
+            if k not in all_keys:
+                all_keys.append(k)
+    print(f"  标题检索词 {len(all_keys)} 个（全库，翻页取尽，并发 {SEARCH_WORKERS}）...")
+    try:
+        index = build_hit_index(all_keys)
+    except SearchError as e:
+        print(f"  !! 检索失败，**不覆盖** compare.json（保留上一版 {YEARS[0]}–{YEARS[-1]} 数据）")
+        print(f"     {e}")
+        return 1
+    hit_total = sum(len(v) for v in index.values())
+    print(f"  检索完成：命中合计 {hit_total} 条（去重前）")
+
+    # ── ② 逐主题合并命中 → 过滤 → 分组 ─────────────────────────
     topics_out = []
     for topic in TOPICS:
-        raw = fetch_topic_items(topic["kws"][0], pages=4)
+        raw = fetch_topic_items(topic, index)
         docs = filter_year_and_topic(raw, topic, YEARS)
         if not docs:
             print(f"  [{topic['label']:12s}] 0 条，跳过")
             continue
 
-        # 年度计数（密度信号）
+        # 年度计数（密度信号）：全库标题命中数，同一文件只计一次
         counts = {str(y): sum(1 for d in docs if d["year"] == y) for y in YEARS}
 
         # 每年代表文件
@@ -431,11 +607,13 @@ def main():
             "track": topic["track"],
             "code": topic["code"],
             "counts": counts,
+            "total": len(docs),
+            "searched": search_keys(topic),
             "diff": build_diff({y: year_picks[y] for y in YEARS if year_picks[y]}),
             "children": children,
         })
-        print(f"  [{topic['label']:12s}] 总{len(docs):3d}条  "
-              + " ".join(f"{y}年{counts[str(y)]}" for y in YEARS)
+        print(f"  [{topic['label']:12s}] 总{len(docs):4d}条  "
+              + " ".join(f"{y}年{counts[str(y)]:4d}" for y in YEARS)
               + f"  部门{len(children)}")
 
     # ── 代表文件抓正文取关键语句（每主题每年第一条，并发） ──────
@@ -464,10 +642,18 @@ def main():
             if done % 40 == 0:
                 print(f"    ... {done}/{len(tasks)}")
 
+    year_tot = {str(y): sum(t["counts"].get(str(y), 0) for t in topics_out) for y in YEARS}
     result = {
         "generatedAt": _bj_now(),
         "asOf": AS_OF,
         "years": YEARS,
+        "countMode": "title-full-library",
+        "searchKeys": len(all_keys),
+        "countNote": (
+            "计数口径：国务院政策文件库**全库**标题命中「该主题任一关键词」的文件数，同一文件只计一次，"
+            "与每行标注的「发文密度」同义；2026-09-19 起由「按时间取最新池再筛」改为「逐主题全库标题检索」"
+            "（旧口径是抽样，各年数字不可比，2024 年被系统性压低）。"
+        ),
         "topics": topics_out,
     }
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -475,7 +661,9 @@ def main():
     print(f"\nUpdated {OUTPUT_FILE}")
     print(f"  Topics: {len(topics_out)}")
     print(f"  Window: {YEARS[0]}–{YEARS[-1]} (as of {AS_OF})")
+    print(f"  年度合计: " + " / ".join(f"{y}年{year_tot[str(y)]}条" for y in YEARS))
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

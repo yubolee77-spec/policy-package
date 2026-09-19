@@ -373,9 +373,13 @@ def search_api(q="", pages=MAX_PAGES):
         url = ("%s?t=zhengcelibrary&q=%s&sort=pubtime&sortType=1&p=%d&n=100"
                % (API_BASE, urllib.parse.quote(q), p))
         data = safe_json(url)
-        if not data or "searchVO" not in data:
+        sv = (data or {}).get("searchVO")
+        if sv is None:
+            # 请求失败、或 200 但 searchVO 为空（实测多为**被限流**，见 MEMORY 陷阱 A4）。
+            # 停止翻页即可：本层各周期数字都从累积库算，拿不到新条目只是本轮少收录，
+            # 不会把已有数据写成 0。别在这里改成「当作 0 条」。
             break
-        cat = (data["searchVO"].get("catMap") or {})
+        cat = sv.get("catMap") or {}
         got = 0
         for c in _CAT_KEYS:
             for it in ((cat.get(c) or {}).get("listVO") or []):

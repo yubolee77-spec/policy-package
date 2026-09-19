@@ -247,6 +247,17 @@ a:hover{color:inherit}
   overflow:hidden;
   background:var(--bg-panel);
 }
+/* 计数口径说明：全库标题命中数、不是抽样 —— 必须常显，避免被读成绝对发文量 */
+.cmp-count-note{
+  padding:9px 14px;background:var(--bg-primary);
+  border-bottom:1px solid var(--border-primary);
+  font-size:11px;line-height:1.7;color:var(--text-secondary);
+}
+.cmp-count-note-hd{
+  color:var(--accent-amber);font-weight:600;margin-right:6px;
+  font-family:var(--font-mono);letter-spacing:.5px;
+}
+.cmp-count-note b{color:var(--text-primary);font-family:var(--font-mono)}
 .cmp-hd-row{
   display:grid;grid-template-columns:1.3fr 1.6fr 1.6fr 1.6fr 1.1fr;
   padding:10px 12px;background:var(--bg-secondary);
