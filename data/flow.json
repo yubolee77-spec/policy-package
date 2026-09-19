@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19 12:06",
+  "generatedAt": "2026-09-19 21:40",
   "asOf": "2026-09",
   "asOfLabel": "2026年9月",
   "archiveTotal": 195,
@@ -2399,7 +2399,7 @@
           "url": ""
         },
         {
-          "name": "消费与流通",
+          "name": "生态环保",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2407,7 +2407,7 @@
           "url": ""
         },
         {
-          "name": "生态环保",
+          "name": "消费与流通",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2486,7 +2486,7 @@
           "url": "http://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2494,7 +2494,7 @@
           "url": ""
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
