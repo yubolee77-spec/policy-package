@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-19 21:40",
+ "generatedAt": "2026-09-20 07:19",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-19 21:40",
-   "ageDays": 1
+   "fetchedAt": "2026-09-20 07:19",
+   "ageDays": 2
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-09-19 21:40",
-   "ageDays": 60
+   "fetchedAt": "2026-09-20 07:19",
+   "ageDays": 61
   },
   {
    "key": "localbond",
@@ -54,8 +54,8 @@
    },
    "stale": false,
    "total": 4,
-   "fetchedAt": "2026-09-19 21:40",
-   "ageDays": 323
+   "fetchedAt": "2026-09-20 07:19",
+   "ageDays": 324
   },
   {
    "key": "media",
@@ -63,16 +63,16 @@
    "indexUrl": "http://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/19/content_30181972.html",
+   "href": "http://paper.ce.cn/pc/content/202609/20/content_339116.html",
    "latest": {
-    "title": "持续做大做强先进制造业",
-    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/19/content_30181972.html",
-    "date": "2026-09-19",
-    "source": "人民日报"
+    "title": "新一代通信网不止于扩容升级",
+    "url": "http://paper.ce.cn/pc/content/202609/20/content_339116.html",
+    "date": "2026-09-20",
+    "source": "经济日报"
    },
    "stale": false,
-   "total": 111,
-   "fetchedAt": "2026-09-19 21:40",
+   "total": 114,
+   "fetchedAt": "2026-09-20 07:19",
    "ageDays": 0
   }
  ],
