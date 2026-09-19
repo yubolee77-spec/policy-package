@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-09-19 11:53",
- "mediaFetchedAt": "2026-09-19 11:46",
- "mediaStale": true,
+ "generatedAt": "2026-09-19 16:13",
+ "mediaFetchedAt": "2026-09-19 16:13",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 33,
   "papers": 0
  },
  "kpi": {
@@ -13,8 +13,8 @@
   "approvalMonth": 16,
   "reitsApproved30d": 5,
   "ipoApproved30d": 11,
-  "mediaTotal": 38,
-  "mediaStrong": 23,
+  "mediaTotal": 40,
+  "mediaStrong": 24,
   "activeTotal": 375,
   "successTotal": 163,
   "cycleRecentAvg": 241,
@@ -4077,9 +4077,27 @@
   },
   {
    "date": "2026-09-19",
+   "media": "界面新闻",
+   "title": "2026亚运会开幕：《永劫无间》为中国队首个电竞冲金点",
+   "url": "http://finance.eastmoney.com/a/202609193879200562.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-19",
    "media": "证券时报",
    "title": "首批北交所3个月持有期基金开售",
    "url": "http://stock.eastmoney.com/a/202609193878938640.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-19",
+   "media": "21世纪经济报道",
+   "title": "证监会吹哨人制度兑现！最高奖百万，新规生效后首批奖励申领启动",
+   "url": "http://finance.eastmoney.com/a/202609193879219048.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
