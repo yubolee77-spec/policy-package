@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-09-19 16:13",
- "mediaFetchedAt": "2026-09-19 16:13",
+ "generatedAt": "2026-09-19 19:28",
+ "mediaFetchedAt": "2026-09-19 19:28",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 33,
+  "eastmoney": 34,
   "papers": 0
  },
  "kpi": {
@@ -13,8 +13,8 @@
   "approvalMonth": 16,
   "reitsApproved30d": 5,
   "ipoApproved30d": 11,
-  "mediaTotal": 40,
-  "mediaStrong": 24,
+  "mediaTotal": 42,
+  "mediaStrong": 26,
   "activeTotal": 375,
   "successTotal": 163,
   "cycleRecentAvg": 241,
@@ -4082,6 +4082,26 @@
    "url": "http://finance.eastmoney.com/a/202609193879200562.html",
    "keyword": "首个",
    "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-19",
+   "media": "证券时报网",
+   "title": "西部地区首例 瘫痪病人有望“意念”控制设备",
+   "url": "http://finance.eastmoney.com/a/202609193879233280.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-19",
+   "media": "证券时报网",
+   "title": "全球首个低倾角遥感卫星星座先导A星“出征”",
+   "url": "http://finance.eastmoney.com/a/202609193879229774.html",
+   "keyword": "首个",
+   "topics": [
+    "商业航天"
+   ],
    "strong": true
   },
   {
