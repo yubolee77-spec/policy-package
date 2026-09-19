@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-19 11:27",
+  "generatedAt": "2026-09-19 11:46",
   "asOf": "2026-09",
   "asOfLabel": "2026年9月",
-  "archiveTotal": 189,
-  "archiveAdded": 0,
+  "archiveTotal": 195,
+  "archiveAdded": 6,
   "channels": [
     {
       "key": "special_fund",
@@ -66,7 +66,7 @@
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 20,
+            "n": 21,
             "amountYi": 15100.0,
             "amountCount": 2,
             "industries": {
@@ -76,7 +76,7 @@
               "制造业升级": 3,
               "数据与信息": 1,
               "消费与流通": 3,
-              "生态环保": 1
+              "生态环保": 2
             }
           },
           "prev": {
@@ -97,7 +97,7 @@
               "新兴产业": 1
             }
           },
-          "deltaPct": -16.7,
+          "deltaPct": -12.5,
           "deltaAmountPct": 100.0
         }
       },
@@ -106,7 +106,7 @@
           {
             "key": "2026-01",
             "label": "2026年1月",
-            "n": 12,
+            "n": 13,
             "amountYi": 0.0
           },
           {
@@ -180,7 +180,7 @@
           {
             "key": "2026Q1",
             "label": "2026年第1季度",
-            "n": 13,
+            "n": 14,
             "amountYi": 0.0
           },
           {
@@ -212,7 +212,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 20,
+            "n": 21,
             "amountYi": 15100.0
           }
         ]
@@ -431,6 +431,31 @@
             "totalItems": 2
           },
           {
+            "name": "生态环保",
+            "cur": 2,
+            "prev": 1,
+            "deltaPct": 100.0,
+            "items": [
+              {
+                "title": "关于印发《重点生态保护修复治理资金管理办法》的通知",
+                "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055022.htm",
+                "date": "2026-01-17",
+                "org": "财政部",
+                "amountYi": null,
+                "src": "gov.cn 政策库"
+              },
+              {
+                "title": "《重点生态保护修复治理资金管理办法》修订印发",
+                "url": "http://zyhj.mof.gov.cn/zcfb/202601/t20260114_3981840.htm",
+                "date": "2026-01-14",
+                "org": "财政部",
+                "amountYi": null,
+                "src": "财政部官网栏目"
+              }
+            ],
+            "totalItems": 2
+          },
+          {
             "name": "教科文卫",
             "cur": 1,
             "prev": 4,
@@ -460,23 +485,6 @@
                 "org": "财政部",
                 "amountYi": null,
                 "src": "gov.cn 政策库"
-              }
-            ],
-            "totalItems": 1
-          },
-          {
-            "name": "生态环保",
-            "cur": 1,
-            "prev": 1,
-            "deltaPct": 0.0,
-            "items": [
-              {
-                "title": "《重点生态保护修复治理资金管理办法》修订印发",
-                "url": "http://zyhj.mof.gov.cn/zcfb/202601/t20260114_3981840.htm",
-                "date": "2026-01-14",
-                "org": "财政部",
-                "amountYi": null,
-                "src": "财政部官网栏目"
               }
             ],
             "totalItems": 1
@@ -1336,27 +1344,27 @@
           "prev": {
             "key": "2026Q2",
             "label": "2026年第2季度",
-            "n": 7,
+            "n": 8,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "并购重组": 1,
-              "其他审核": 6
+              "其他审核": 7
             }
           },
-          "deltaPct": 828.6,
+          "deltaPct": 712.5,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 80,
+            "n": 82,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "首发上市（IPO）": 12,
-              "其他审核": 26,
+              "其他审核": 28,
               "并购重组": 5,
               "机构资格": 18,
               "REITs 注册": 10,
@@ -1366,17 +1374,17 @@
           "prev": {
             "key": "2025",
             "label": "2025年",
-            "n": 28,
+            "n": 31,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "机构资格": 1,
-              "其他审核": 20,
+              "其他审核": 23,
               "REITs 注册": 4,
               "并购重组": 3
             }
           },
-          "deltaPct": 185.7,
+          "deltaPct": 164.5,
           "deltaAmountPct": null
         }
       },
@@ -1385,7 +1393,7 @@
           {
             "key": "2026-01",
             "label": "2026年1月",
-            "n": 4,
+            "n": 5,
             "amountYi": 0.0
           },
           {
@@ -1409,7 +1417,7 @@
           {
             "key": "2026-05",
             "label": "2026年5月",
-            "n": 3,
+            "n": 4,
             "amountYi": 0.0
           },
           {
@@ -1459,13 +1467,13 @@
           {
             "key": "2026Q1",
             "label": "2026年第1季度",
-            "n": 8,
+            "n": 9,
             "amountYi": 0.0
           },
           {
             "key": "2026Q2",
             "label": "2026年第2季度",
-            "n": 7,
+            "n": 8,
             "amountYi": 0.0
           },
           {
@@ -1485,13 +1493,13 @@
           {
             "key": "2025",
             "label": "2025年",
-            "n": 28,
+            "n": 31,
             "amountYi": 0.0
           },
           {
             "key": "2026",
             "label": "2026年",
-            "n": 80,
+            "n": 82,
             "amountYi": 0.0
           }
         ]
@@ -1749,8 +1757,8 @@
           {
             "name": "其他审核",
             "cur": 14,
-            "prev": 6,
-            "deltaPct": 133.3,
+            "prev": 7,
+            "deltaPct": 100.0,
             "items": [
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
@@ -2003,9 +2011,9 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 26,
-            "prev": 20,
-            "deltaPct": 30.0,
+            "cur": 28,
+            "prev": 23,
+            "deltaPct": 21.7,
             "items": [
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
@@ -2056,7 +2064,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 26
+            "totalItems": 28
           },
           {
             "name": "机构资格",
@@ -2391,7 +2399,7 @@
           "url": ""
         },
         {
-          "name": "生态环保",
+          "name": "消费与流通",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2399,7 +2407,7 @@
           "url": ""
         },
         {
-          "name": "消费与流通",
+          "name": "生态环保",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2436,20 +2444,20 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7064421.htm"
         },
         {
+          "name": "生态环保",
+          "cur": 3,
+          "prev": 1,
+          "delta": 2,
+          "deltaPct": 200.0,
+          "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055022.htm"
+        },
+        {
           "name": "数据与信息",
           "cur": 2,
           "prev": 1,
           "delta": 1,
           "deltaPct": 100.0,
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055562.htm"
-        },
-        {
-          "name": "生态环保",
-          "cur": 2,
-          "prev": 1,
-          "delta": 1,
-          "deltaPct": 100.0,
-          "url": "http://zyhj.mof.gov.cn/zcfb/202601/t20260114_3981840.htm"
         },
         {
           "name": "能源电力",
@@ -2478,7 +2486,7 @@
           "url": "http://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2486,7 +2494,7 @@
           "url": ""
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -3284,6 +3292,16 @@
       "src": "证监会审核台账"
     },
     {
+      "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7068650.htm",
+      "title": "国家医疗保障局关于印发《医疗保障基金监督检查五年行动计划（2026年—2030年）》的通知",
+      "date": "2026-05-13",
+      "org": "国家医保局",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "gov.cn 政策库"
+    },
+    {
       "url": "https://www.gov.cn/zhengce/202604/content_7066757.htm",
       "title": "农业农村部：稳妥有序推进第二轮土地承包到期后再延长30年整省试点工作",
       "date": "2026-04-24",
@@ -3634,6 +3652,16 @@
       "src": "财政部官网栏目"
     },
     {
+      "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055022.htm",
+      "title": "关于印发《重点生态保护修复治理资金管理办法》的通知",
+      "date": "2026-01-17",
+      "org": "财政部",
+      "channel": "special_fund",
+      "industry": "生态环保",
+      "amountYi": null,
+      "src": "gov.cn 政策库"
+    },
+    {
       "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054814.htm",
       "title": "市场监管总局关于印发《网络市场监管与服务示范区创建管理办法》的通知",
       "date": "2026-01-15",
@@ -3674,6 +3702,16 @@
       "src": "gov.cn 政策库"
     },
     {
+      "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054552.htm",
+      "title": "国家发展改革委等部门关于印发《关于加强政府投资基金布局规划和投向指导的工作办法（试行）》的通知",
+      "date": "2026-01-12",
+      "org": "发改委",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "gov.cn 政策库"
+    },
+    {
       "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054387.htm",
       "title": "商务部关于印发《大连等9城市服务业扩大开放综合试点任务》的通知",
       "date": "2026-01-09",
@@ -3690,36 +3728,6 @@
       "org": "财政部",
       "channel": "pilot",
       "industry": "交通基础设施",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/202601/content_7054119.htm",
-      "title": "支持就业创业，政府性融资担保扩围加力",
-      "date": "2026-01-07",
-      "org": "gov.cn",
-      "channel": "capital",
-      "industry": "其他审核",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7053727.htm",
-      "title": "关于开展有奖发票试点工作的通知",
-      "date": "2026-01-03",
-      "org": "财政部",
-      "channel": "pilot",
-      "industry": "消费与流通",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7053613.htm",
-      "title": "国家金融监督管理总局关于印发《商业银行并购贷款管理办法》的通知",
-      "date": "2026-01-01",
-      "org": "金融监管总局",
-      "channel": "capital",
-      "industry": "并购重组",
       "amountYi": null,
       "src": "gov.cn 政策库"
     }

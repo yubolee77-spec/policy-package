@@ -74,8 +74,6 @@ CHANNELS = [
         key="special_fund", label="专项资金 / 预算下达", icon="💰", dim="行业",
         desc="部委下达的专项资金、补助资金、中央预算内投资与转移支付文件",
         sources="财政部·政策发布 / gov.cn 政策库",
-        queries=["专项资金", "补助资金", "中央预算内投资", "转移支付", "以奖代补",
-                 "预算下达", "贴息"],
         # 必须是「资金类文件」本身，不能只是提到"投资"
         must=r"专项资金|补助资金|预算下达|转移支付|以奖代补|贴息|中央预算内投资|"
              r"资金管理办法|资金分配|拨款",
@@ -89,7 +87,6 @@ CHANNELS = [
         key="bond", label="专项债 / 特别国债", icon="🏗", dim="行业",
         desc="地方政府专项债券、超长期特别国债、债务限额类文件（官方月度统计已停更，见页脚口径说明）",
         sources="gov.cn 政策库",
-        queries=["专项债券", "地方政府债券", "超长期特别国债", "债务限额", "债券资金"],
         must=r"专项债|地方政府债券|特别国债|债务限额|债券资金|债券发行",
         noise=NEWS_NOISE,
         mof_pages=[],
@@ -98,7 +95,6 @@ CHANNELS = [
         key="pilot", label="试点 / 示范 / 先行区", icon="🧪", dim="行业",
         desc="新公布的试点城市、示范工程、先行区与试验区名单",
         sources="gov.cn 政策库",
-        queries=["试点", "示范工程", "先行区", "示范区", "试验区"],
         must=r"试点|示范|先行|试验区",
         noise=NEWS_NOISE + r"|经验|案例|成效|进展",
         mof_pages=[],
@@ -107,7 +103,6 @@ CHANNELS = [
         key="capital", label="一级市场融资", icon="📈", dim="类型",
         desc="REITs、首发上市、并购重组与再融资的放行节奏（不含二级市场行情）",
         sources="证监会审核台账（L5 复用） / gov.cn 政策库",
-        queries=["REITs", "首发上市", "并购重组", "再融资", "上市融资"],
         must=r"REITs|上市|融资|并购|重组|基金|证券",
         noise=NEWS_NOISE + r"|风险提示|投教|投资者",
         mof_pages=[],
@@ -359,12 +354,24 @@ def extract_amount_yi(text):
     return round(best, 2) if best else None
 
 
-# ── 通道 1~4 的 gov.cn 检索通道 ──────────────────────────────
-def search_api(kw, pages=MAX_PAGES):
+# ── 通道 1~4 的 gov.cn 政策文件库通道 ────────────────────────
+def search_api(q="", pages=MAX_PAGES):
+    """gov.cn 政策文件库翻页取文件列表（按发布时间倒序，新版在前）。
+
+    ⚠ 不要试图给这个接口传关键词（踩过两次，记录下来免得再改回去）：
+      ① 只给 q、不给 searchfield 时服务端**直接忽略 q**，返回的是最新列表，
+         不同关键词拿到的是同一批数据；
+      ② 加上 searchfield=title 后 q 才生效，但那个标题索引明显滞后——
+         「专项资金」只检索到 64 条、最新一条到 2025-12，2026 年整年查不到；
+         同一关键词走 ① 的列表能拿到 14 个月内 886 条。
+    所以本层的做法是：拿 ① 的列表当「近期政策文件池」（约 1500 条，正好覆盖
+    LOOKBACK_MONTHS 窗口），各通道再用标题正则（CHANNELS[*]["must"]）在池里
+    挑自己的主题；更早的历史由 flow_archive.json 累积。
+    """
     items, seen = [], set()
     for p in range(1, pages + 1):
         url = ("%s?t=zhengcelibrary&q=%s&sort=pubtime&sortType=1&p=%d&n=100"
-               % (API_BASE, urllib.parse.quote(kw), p))
+               % (API_BASE, urllib.parse.quote(q), p))
         data = safe_json(url)
         if not data or "searchVO" not in data:
             break
@@ -384,33 +391,36 @@ def search_api(kw, pages=MAX_PAGES):
     return items
 
 
-def collect_from_search(ch, cutoff):
-    """按通道检索词收集，做标题级强过滤后产出条目。"""
+def collect_from_search(ch, cutoff, pool):
+    """在「近期政策文件池」里按通道的标题正则筛出该主题的文件。
+
+    池子只取一次（见 search_api 的说明），四个通道共用：
+    原先每个通道各发 5 个关键词 × 5 页 = 25 次请求，拿到的是同一批数据。
+    """
     out = []
-    for kw in ch["queries"]:
-        for it in search_api(kw):
-            title = norm_title(it.get("title"))
-            if not title or re.search(ch["noise"], title):
-                continue
-            if not re.search(ch["must"], title):
-                continue
-            d = parse_date(it.get("pubtimeStr")) or date_from_url(it.get("url", ""))
-            if not d or d < cutoff or d > bj_today():
-                continue
-            url = it.get("url") or ""
-            if not url.startswith("http"):
-                continue
-            summary = norm_title(it.get("summary"))[:180]
-            out.append({
-                "url": url,
-                "title": title,
-                "date": d.isoformat(),
-                "org": short_org(it.get("puborg")),
-                "channel": ch["key"],
-                "industry": classify_dim(ch, title + summary),
-                "amountYi": extract_amount_yi(title + " " + summary),
-                "src": "gov.cn 政策库",
-            })
+    for it in pool:
+        title = norm_title(it.get("title"))
+        if not title or re.search(ch["noise"], title):
+            continue
+        if not re.search(ch["must"], title):
+            continue
+        d = parse_date(it.get("pubtimeStr")) or date_from_url(it.get("url", ""))
+        if not d or d < cutoff or d > bj_today():
+            continue
+        url = it.get("url") or ""
+        if not url.startswith("http"):
+            continue
+        summary = norm_title(it.get("summary"))[:180]
+        out.append({
+            "url": url,
+            "title": title,
+            "date": d.isoformat(),
+            "org": short_org(it.get("puborg")),
+            "channel": ch["key"],
+            "industry": classify_dim(ch, title + summary),
+            "amountYi": extract_amount_yi(title + " " + summary),
+            "src": "gov.cn 政策库",
+        })
     return out
 
 
@@ -670,9 +680,11 @@ def build():
         print("  累积库为空，按 %d 个月回溯打底（%s 起）" % (LOOKBACK_MONTHS, cutoff.isoformat()))
 
     fresh = []
+    pool = search_api()
+    print("  [政策文件池] 近期 %d 条（各通道共用，标题正则筛选）" % len(pool))
     for ch in CHANNELS:
-        got = collect_from_search(ch, cutoff)
-        print("  [检索] %-14s %d 条" % (ch["label"], len(got)))
+        got = collect_from_search(ch, cutoff, pool)
+        print("  [标题筛选] %-14s %d 条" % (ch["label"], len(got)))
         fresh.extend(got)
         if ch["mof_pages"]:
             mof = collect_from_mof(ch, cutoff)

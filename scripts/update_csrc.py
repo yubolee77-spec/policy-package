@@ -715,6 +715,13 @@ def build():
     except Exception as e:                            # noqa: BLE001
         print("    ! 数字报直扫失败: %s" % str(e)[:100])
 
+    # 本轮两条通道各自的实际命中数。判定「本轮是否真的抓到了官媒数据」必须用它，
+    # 不能用合并后的 media —— 合并结果是累积库，只要历史有数据就恒非空，
+    # 会把纯沿用的一轮误标成 mediaStale=False / mediaFetchedAt=本轮时刻，
+    # 进而让本机 20:20 的境内补抓被「今日已刷新」的幂等短路跳过。
+    em_hits = len(media)
+    paper_hits = len(paper_media)
+
     # 合并两条通道：以「标题」去重（同一篇报道在两处都有），保留已有条目的归类
     merged, seen_titles2 = [], set()
     for it in prev_media_all + media + paper_media:
@@ -732,20 +739,17 @@ def build():
         print("    并入累积库后 %d 条（本轮新增 %d 条）" % (len(media), added_media))
 
     # —— 官媒定调兜底 ——
-    # 两条通道都零命中时（极端网络情况）沿用上一版数据，并用
-    # mediaFetchedAt / mediaStale 标注它的真实抓取时间与来源，保证可溯源。
+    # 主通道（东财）零命中时（境外 runner 的常态）沿用累积库，并用
+    # mediaFetchedAt / mediaStale 标注这些条目的真实抓取时间与来源，保证可溯源。
     media_fetched_at = generated
     media_stale = False
-    if not media:
-        if prev_media_all:
-            media = prev_media_all
-            media_fetched_at = prev_doc.get("mediaFetchedAt") or prev_doc.get("generatedAt") or ""
-            media_stale = True
-            print("    ! 两条通道均零命中，沿用上一版 %d 条（抓取于 %s）"
-                  % (len(media), media_fetched_at or "未知"))
-    elif prev_media_all and added_media > 0:
-        # 本轮确实抓到了新条目 → 抓取时间是本轮
-        pass
+    if em_hits == 0 and prev_media_all:
+        media_fetched_at = prev_doc.get("mediaFetchedAt") or prev_doc.get("generatedAt") or ""
+        media_stale = True
+        print("    ! 东财通道零命中（数字报 %d 条），官媒定调沿用累积库 %d 条（数据抓取于 %s）"
+              % (paper_hits, len(media), media_fetched_at or "未知"))
+    elif em_hits == 0:
+        print("    ! 东财通道零命中，且无累积库可沿用（官媒定调为空）")
 
     # —— 监管 KPI：从上面数据自动汇总 ——
     # 月份必须用北京时间：CI runner 是 UTC，月初北京上午跑时 date.today() 还停在上月，
@@ -780,6 +784,8 @@ def build():
         # 官媒定调的真实抓取时间与是否为上一版沿用（供前端标注「数据抓取于…」）
         "mediaFetchedAt": media_fetched_at,
         "mediaStale": media_stale,
+        # 本轮两条通道各自的命中数（可溯源：区分「真抓到」与「沿用累积库」）
+        "mediaChannels": {"eastmoney": em_hits, "papers": paper_hits},
         "kpi": kpi,
         "penalty": penalty[:400],
         "approval": approval[:300],

@@ -141,9 +141,13 @@ def latest_from_mof(card):
 
 
 def latest_from_search(card):
-    """gov.cn 政策文件库检索（全文检索，必须按标题二次过滤，否则混入答记者问之类）。
+    """gov.cn 政策文件库检索（必须按标题二次过滤，否则混入答记者问之类）。
 
     与 update_compare.py 同一接口：真实路径是 searchVO.catMap.{gongwen,bumenfile,otherfile}.listVO。
+    这里的关键词**当前被服务端忽略**（详见 update_flow.search_api 的记录），拿回来的是
+    「最新 300 条政策文件」——正好当近期池用，再按 titleMatch 挑出本卡片的主题。
+    关键词仍照传：接口哪天修好就能自动受益；也**别改成 searchfield=title**，
+    那个标题索引明显滞后（2026 年的文件查不到），会把卡片的最新文件倒退到去年。
     """
     cfg = card.get("search")
     if not cfg:
