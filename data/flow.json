@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-19 11:00",
+  "generatedAt": "2026-09-19 11:27",
   "asOf": "2026-09",
   "asOfLabel": "2026年9月",
   "archiveTotal": 189,
-  "archiveAdded": 189,
+  "archiveAdded": 0,
   "channels": [
     {
       "key": "special_fund",
@@ -2436,20 +2436,20 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7064421.htm"
         },
         {
-          "name": "生态环保",
-          "cur": 2,
-          "prev": 1,
-          "delta": 1,
-          "deltaPct": 100.0,
-          "url": "http://zyhj.mof.gov.cn/zcfb/202601/t20260114_3981840.htm"
-        },
-        {
           "name": "数据与信息",
           "cur": 2,
           "prev": 1,
           "delta": 1,
           "deltaPct": 100.0,
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055562.htm"
+        },
+        {
+          "name": "生态环保",
+          "cur": 2,
+          "prev": 1,
+          "delta": 1,
+          "deltaPct": 100.0,
+          "url": "http://zyhj.mof.gov.cn/zcfb/202601/t20260114_3981840.htm"
         },
         {
           "name": "能源电力",

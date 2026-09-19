@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-19 07:30",
+ "generatedAt": "2026-09-19 11:27",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 246,
+ "candidateCount": 247,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -294,6 +294,14 @@
      "noise": false
     },
     {
+     "label": "2026-09-19 · 持续做大做强先进制造业（人民日报）",
+     "title": "持续做大做强先进制造业",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/19/content_30181998.html",
+     "date": "2026-09-19",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
      "label": "2026-09-18 · 国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知（国务院最新政策文件）",
      "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
      "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081442.htm",
@@ -315,14 +323,6 @@
      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091815494839605/index.html",
      "date": "2026-09-18",
      "source": "央行最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-09-18 · 中国证监会拟对17起案件线索的“吹哨人”给予奖励（证监会最新动态）",
-     "title": "中国证监会拟对17起案件线索的“吹哨人”给予奖励",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7659506/content.shtml",
-     "date": "2026-09-18",
-     "source": "证监会最新动态",
      "noise": false
     }
    ],
