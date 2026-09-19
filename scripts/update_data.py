@@ -1487,6 +1487,14 @@ def main():
     except Exception as e:
         print(f"  政策信息源更新失败（不影响政策数据）: {e}")
 
+    # 15. L6 资金流向（专项资金/专项债/试点示范/一级市场融资的月·季·年节奏与行业分布）
+    #     累积库 data/flow_archive.json，逐日并入；与 L2/L3/L4/L5 的边界见脚本头部说明。
+    try:
+        import update_flow
+        update_flow.main()
+    except Exception as e:
+        print(f"  资金流向更新失败（不影响政策数据）: {e}")
+
 
 if __name__ == "__main__":
     main()

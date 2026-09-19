@@ -569,192 +569,51 @@
 </div>
 
 <!-- ============================================================ -->
-<!-- LAYER 6: 资金流向 -->
+<!-- LAYER 6: 资金流向（数据驱动：data/flow.json） -->
+<!-- 口径：官方「资金类文件」条数 + 抽到的金额，按行业聚合，月/季/年与上周期对比 -->
 <!-- ============================================================ -->
 <div class="panel" id="p-flow">
   <div class="sec-hd">
-    <div class="sec-title"><span class="badge">L6</span>资金流向 <span class="sec-sub">跟踪资金三笔钱 · 部委预算拨款 / 地方政府专项债 / 一级市场融资（每项附官方原文可核验）</span></div>
-  </div>
-
-  <div style="font-size:12px;color:var(--accent-amber);margin-bottom:14px;padding:8px 12px;background:var(--bg-card);border-radius:6px;border-left:3px solid var(--accent-amber)">
-    📅 本页是<b>资金三笔钱</b>的专属页：看财政专项资金补贴细则（预算拨款激增 = 真重视）· 看近半年行业专项债是否放量（债发得越急说明干得越急）· 看连续多季度一级市场融资是否抬头（资本最聪明）。<br>
-    📌 监管侧（谁被罚了 / 谁被放行了 / 发行上市审核进度 / 官媒定调）请看 <b>L5 证监会动态</b>，两页不再重复。
-  </div>
-
-  <!-- 行业流向区：纯列表形式，无数据展示 -->
-  <div class="flow-grid">
-
-    <!-- 专项债行业流向 -->
-    <div class="flow-card">
-      <div class="flow-card-title">专项债行业流向（六大方向）</div>
-      <div class="flow-card-sub">
-        <a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">总数据源：国办发52号文·财政部地方政府债务专栏 ↗</a>
-      </div>
-      <div style="font-size:12px;line-height:1.9;margin-top:12px">
-        <div style="font-weight:500;color:var(--accent-sand);margin-bottom:8px;padding-bottom:6px;border-bottom:1px dashed var(--border-primary)">⮕ 专项债主要投向行业</div>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 16px">
-          <div>▸ 市政和产业园区基础设施
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">国办发52号文 ↗</a></div>
-          </div>
-          <div>▸ 土地储备
-            <div style="padding-left:14px;margin-top:2px"><a href="https://m.mof.gov.cn/zcfb/202503/t20250311_3959680.htm" target="_blank" class="doc-link">自然资发〔2025〕45号 ↗</a></div>
-          </div>
-          <div>▸ 交通基础设施
-            <div style="padding-left:14px;margin-top:2px"><a href="https://xxgk.mot.gov.cn/2020/jigou/cwsjs/202504/t20250410_4166702.html" target="_blank" class="doc-link">交办财审〔2025〕24号 ↗</a></div>
-          </div>
-          <div>▸ 保障性安居工程
-            <div style="padding-left:14px;margin-top:2px"><a href="https://zhs.mof.gov.cn/zhengcefabu/202505/t20250526_3964611.htm" target="_blank" class="doc-link">财综〔2025〕19号 ↗</a></div>
-          </div>
-          <div>▸ 社会事业（教科文卫）
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202507/t20250725_3968586.htm" target="_blank" class="doc-link">上半年财政收支发布会 ↗</a></div>
-          </div>
-          <div>▸ 新兴产业（含低空经济）
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html" target="_blank" class="doc-link">低空经济统计分类 ↗</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 部委预算覆盖行业 -->
-    <div class="flow-card">
-      <div class="flow-card-title">部委预算覆盖行业（六大方向）</div>
-      <div class="flow-card-sub">
-        <a href="https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202507/t20250725_3968586.htm" target="_blank" class="doc-link">总数据源：2025年上半年财政收支情况新闻发布会 ↗</a>
-      </div>
-      <div style="font-size:12px;line-height:1.9;margin-top:12px">
-        <div style="font-weight:500;color:var(--accent-sand);margin-bottom:8px;padding-bottom:6px;border-bottom:1px dashed var(--border-primary)">⮕ 各部委预算支持的行业</div>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 16px">
-          <div>▸ 低空经济
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html" target="_blank" class="doc-link">发改低空〔2025〕1676号 ↗</a></div>
-          </div>
-          <div>▸ AI/大模型
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/bmyjs/202603/P020260326555077683777.pdf" target="_blank" class="doc-link">科技部2026年度部门预算 ↗</a></div>
-          </div>
-          <div>▸ 生物制造
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403415.html" target="_blank" class="doc-link">新兴产业创新中心管理办法 ↗</a></div>
-          </div>
-          <div>▸ 新能源
-            <div style="padding-left:14px;margin-top:2px"><a href="http://m.mof.gov.cn/zcfb/202004/t20200423_3502975.htm" target="_blank" class="doc-link">财建〔2020〕86号·新能源补贴 ↗</a></div>
-          </div>
-          <div>▸ 集成电路
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html" target="_blank" class="doc-link">工信部产业技术基础平台 ↗</a></div>
-          </div>
-          <div>▸ 新材料
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403415.html" target="_blank" class="doc-link">新兴产业创新中心管理办法 ↗</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 一级市场融资活跃行业 -->
-    <div class="flow-card">
-      <div class="flow-card-title">一级市场融资活跃行业（三大方向）</div>
-      <div class="flow-card-sub">
-        <a href="https://m.thepaper.cn/newsDetail_forward_33784453" target="_blank" class="doc-link">总数据源：央行·2026年7月金融统计数据报告 ↗</a>
-      </div>
-      <div style="font-size:12px;line-height:1.9;margin-top:12px">
-        <div style="font-weight:500;color:var(--accent-sand);margin-bottom:8px;padding-bottom:6px;border-bottom:1px dashed var(--border-primary)">⮕ 一级市场融资集中的行业</div>
-        <div style="display:grid;grid-template-columns:1fr;gap:10px">
-          <div>▸ AI/大模型（智算中心+国产算力）
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202507/t20250725_3968586.htm" target="_blank" class="doc-link">2025上半年财政收支发布会·信贷投向 ↗</a></div>
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/bmyjs/202603/P020260326555077683777.pdf" target="_blank" class="doc-link">科技部2026年度部门预算·AI专项 ↗</a></div>
-          </div>
-          <div>▸ 低空经济（通航机场+起降点+通信补盲）
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202507/t20250725_3968586.htm" target="_blank" class="doc-link">2025上半年财政收支·专项债投向 ↗</a></div>
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html" target="_blank" class="doc-link">低空经济产业统计分类·发改委 ↗</a></div>
-          </div>
-          <div>▸ 新能源（电网+新能源汽车+光伏）
-            <div style="padding-left:14px;margin-top:2px"><a href="http://m.mof.gov.cn/zcfb/202004/t20200423_3502975.htm" target="_blank" class="doc-link">财建〔2020〕86号·新能源补贴退坡 ↗</a></div>
-            <div style="padding-left:14px;margin-top:2px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251231_1402949.html" target="_blank" class="doc-link">发改能源〔2025〕1710号·电网高质量 ↗</a></div>
-          </div>
-        </div>
-      </div>
+    <div class="sec-title"><span class="badge">L6</span>资金流向 <span class="sec-sub">四类官方资金文件的月度 / 季度 / 年度节奏：专项资金与预算下达 · 专项债与特别国债 · 试点示范先行区 · 一级市场融资（每条附原文可核验）</span></div>
+    <div class="tier-switcher" id="flowSwitcher">
+      <button class="tier-btn" data-fperiod="year">年度</button>
+      <button class="tier-btn" data-fperiod="quarter">季度</button>
+      <button class="tier-btn active" data-fperiod="month">月度</button>
     </div>
   </div>
 
-  <!-- 每月新增 vs 减少投向（独立板块，每项附原文） -->
+  <div class="flow-note" id="flowNote">资金类文件数据加载中…</div>
+
+  <!-- 本周期 / 上周期 / 环比 / 金额合计 -->
+  <div class="data-grid" id="flowKpis" style="margin-bottom:14px"></div>
+
+  <!-- 四个资金通道：各自本周期 vs 上周期 + 行业分布条 + 原文 -->
+  <div class="flow-grid" id="flowChannels"></div>
+
+  <!-- 行业增减榜：哪些行业本周期拿到更多文件（跨三个行业维度通道汇总） -->
   <div class="kw-analysis" style="margin-top:14px">
-    <div class="kw-hd">▸ 本月（统计至 2026-08）新增 vs 减少投向领域（每项均附原文网址）</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px">
-
-      <div style="background:rgba(0,255,136,.08);padding:12px 14px;border-radius:6px;border:1px solid rgba(0,255,136,.2)">
-        <div style="color:var(--accent-green);font-weight:600;font-size:12px;margin-bottom:10px">📈 新增/增加投向（附原文）</div>
-        <div style="font-size:11px;line-height:1.8">
-          <div>① 低空经济基础设施（通航机场、起降点、通信补盲）
-            <div style="padding-left:12px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html" target="_blank" class="doc-link">原文：发改低空〔2025〕1676号·统计分类</a></div>
-            <div style="padding-left:12px"><a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/yj/art/2025/art_84617e8497d84a3d8b8b3ef847f648d2.html" target="_blank" class="doc-link">原文：工信部卫星通信业务准入</a></div>
-          </div>
-          <div style="margin-top:6px">② AI算力中心建设（智算中心 + 国产算力集群）
-            <div style="padding-left:12px"><a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html" target="_blank" class="doc-link">原文：工信部产业技术基础平台办法</a></div>
-            <div style="padding-left:12px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403428.html" target="_blank" class="doc-link">原文：中央预算内投资计划管理办法</a></div>
-          </div>
-          <div style="margin-top:6px">③ 消费基础设施REITs（商场/购物中心/保租房）
-            <div style="padding-left:12px"><a href="http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml" target="_blank" class="doc-link">原文：证监会公告〔2025〕21号</a></div>
-            <div style="padding-left:12px"><a href="http://www.csrc.gov.cn/csrc/c100028/c7605715/content.shtml" target="_blank" class="doc-link">原文：证监发〔2025〕63号·REITs高质量发展</a></div>
-          </div>
-          <div style="margin-top:6px">④ 城市更新 / 保障性住房（"两新"政策联动）
-            <div style="padding-left:12px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251230_1402851.html" target="_blank" class="doc-link">原文：发改环资〔2025〕1745号·设备更新以旧换新</a></div>
-            <div style="padding-left:12px"><a href="https://zhs.mof.gov.cn/zhengcefabu/202505/t20250526_3964611.htm" target="_blank" class="doc-link">原文：财综〔2025〕19号·保障性安居工程补助资金预算通知</a></div>
-          </div>
-          <div style="margin-top:6px">⑤ 制造业中试平台体系化建设
-            <div style="padding-left:12px"><a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_69551d935e654671a8816123f1b6ec4f.html" target="_blank" class="doc-link">原文：工信厅科函〔2025〕456号·中试平台</a></div>
-          </div>
-          <div style="margin-top:6px">⑥ 节能降碳中央预算内投资（专项资金管理办法）
-            <div style="padding-left:12px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202510/t20251014_1400943.html" target="_blank" class="doc-link">原文：发改环资规〔2025〕1228号</a></div>
-          </div>
-        </div>
-      </div>
-
-      <div style="background:rgba(255,51,102,.08);padding:12px 14px;border-radius:6px;border:1px solid rgba(255,51,102,.2)">
-        <div style="color:var(--accent-red);font-weight:600;font-size:12px;margin-bottom:10px">📉 减少/缩减投向（附原文）</div>
-        <div style="font-size:11px;line-height:1.8">
-          <div>① 土地储备相关专项债（占比下降）
-            <div style="padding-left:12px"><a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">原文：国办发52号文·专项债投向结构统计</a></div>
-            <div style="padding-left:12px"><a href="https://m.mof.gov.cn/zcfb/202503/t20250311_3959680.htm" target="_blank" class="doc-link">原文：自然资发〔2025〕45号·土地储备专项债通知</a></div>
-          </div>
-          <div style="margin-top:6px">② 传统高速公路（交通专项债结构内迁移）
-            <div style="padding-left:12px"><a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">原文：同上·交通分项结构变化</a></div>
-            <div style="padding-left:12px"><a href="https://xxgk.mot.gov.cn/2020/jigou/cwsjs/202504/t20250410_4166702.html" target="_blank" class="doc-link">原文：交办财审〔2025〕24号·收费公路PPP新机制</a></div>
-          </div>
-          <div style="margin-top:6px">③ 低端制造业补贴（退坡 / 转专项）
-            <div style="padding-left:12px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202601/t20260123_1403415.html" target="_blank" class="doc-link">原文：国家新兴产业创新中心管理办法（产业升级转型）</a></div>
-            <div style="padding-left:12px"><a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_69551d935e654671a8816123f1b6ec4f.html" target="_blank" class="doc-link">配套：中试平台替代低端补贴（工信部）</a></div>
-          </div>
-          <div style="margin-top:6px">④ 新能源产能过剩领域（补贴退坡 + 严控新增）
-            <div style="padding-left:12px"><a href="http://m.mof.gov.cn/zcfb/202004/t20200423_3502975.htm" target="_blank" class="doc-link">原文：财建〔2020〕86号·财政部新能源补贴退坡细则</a></div>
-            <div style="padding-left:12px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251231_1402949.html" target="_blank" class="doc-link">原文：发改能源〔2025〕1710号·电网高质量发展</a></div>
-          </div>
-          <div style="margin-top:6px">⑤ 传统火电扩能（双碳约束下预算转绿电）
-            <div style="padding-left:12px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202510/t20251014_1400943.html" target="_blank" class="doc-link">原文：发改环资规〔2025〕1228号·节能降碳专项资金</a></div>
-            <div style="padding-left:12px"><a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251231_1402949.html" target="_blank" class="doc-link">配套：发改能源〔2025〕1710号·电网高质量</a></div>
-          </div>
-        </div>
-      </div>
-
-    </div>
+    <div class="kw-hd" id="flowMoverHd">▸ 行业增减榜</div>
+    <div class="flow-movers" id="flowMovers"></div>
   </div>
 
-  <!-- 说明：原「试点名单 & KPI 达成情况」是手工维护的静态表格，与 L5 重复，
-       已迁移到 L5「证监会动态」的「发行上市审核 · 实时进度条」——
-       那里按「受理 → 注册生效」自动统计审批周期与放行节奏，每天刷新。 -->
+  <!-- 本周期原文清单（全通道合并，点击核验） -->
+  <div class="kw-analysis" style="margin-top:14px">
+    <div class="kw-hd">▸ 本周期文件原文汇总（点击跳转 · 每条均可核验）</div>
+    <div class="cl-list" id="flowDocs"></div>
+  </div>
+
+  <!-- 跨页去重指引：本层只讲「钱投向哪」，不重复其他层的内容 -->
   <div class="cross-ref" style="margin-top:14px">
-    📈 <b>试点名单 &amp; KPI 达成情况</b> 已迁到
-    <a href="javascript:void(0)" onclick="var t=document.querySelector('.tab-btn[data-p=csrc]');if(t)t.click();return false;">L5 证监会动态</a>
-    的「发行上市审核 · 实时进度条」：审批周期、放行节奏、板块与行业分布全部自动统计，不再手工维护。
-  </div>
-
-  <!-- 本月关键文件原文URL汇总 -->
-  <div class="kw-analysis" style="margin-top:14px">
-    <div class="kw-hd">▸ 本月关键文件原文URL汇总（点击跳转）</div>
-    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:10px">
-      <a href="https://www.gov.cn/gongbao/2025/issue_11786/202501/content_6997031.html" target="_blank" class="doc-link">财政部·国办发52号文·专项债投向</a>
-      <a href="http://www.csrc.gov.cn/csrc/c101954/c7605662/content.shtml" target="_blank" class="doc-link">证监会21号·REITs试点</a>
-      <a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251226_1402669.html" target="_blank" class="doc-link">发改委·低空经济</a>
-      <a href="https://www.gov.cn/lianbo/bumen/202507/content_7031869.htm" target="_blank" class="doc-link">央行·2025年社会融资规模数据报告</a>
-      <a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghxwj/202510/t20251014_1400943.html" target="_blank" class="doc-link">发改委·节能降碳</a>
-      <a href="https://www.ndrc.gov.cn/xxgk/zcfb/tz/202512/t20251230_1402851.html" target="_blank" class="doc-link">发改委·设备更新</a>
-      <a href="https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_8d58788c9ccc448fb8428812a1734b86.html" target="_blank" class="doc-link">工信部·平台管理</a>
-    </div>
+    📌 <b>本页只统计「钱投向哪」</b>：资金类官方文件的周期节奏与行业分布（每条附原文）。<br>
+    · 谁被罚了 / 谁被放行了 / 发行上市审核周期 / 官媒定调 → 见
+    <a href="javascript:void(0)" onclick="var t=document.querySelector('.tab-btn[data-p=csrc]');if(t)t.click();return false;">L5 证监会动态</a>；
+    · 政策<b>表述</b>与定调词三年对比 → 见
+    <a href="javascript:void(0)" onclick="var t=document.querySelector('.tab-btn[data-p=compare]');if(t)t.click();return false;">L3 历年政策对比</a>；
+    · 政策原文与党媒评论的当月汇总 → 见
+    <a href="javascript:void(0)" onclick="var t=document.querySelector('.tab-btn[data-p=monthly]');if(t)t.click();return false;">L4 本月文件</a>。<br>
+    ⚠️ 口径说明：① 节奏指标为「官方发布文件条数」，金额仅在原文明示时抽取展示（不做估算）；
+    ② 财政部「地方政府债券发行和债务余额情况」月度数据专栏已停更于 2025-09，
+    专项债行业投向上暂无官方月度细分数据，本层以专项债 / 特别国债相关文件节奏作为替代指标。
   </div>
 </div>
 

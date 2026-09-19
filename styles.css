@@ -867,3 +867,46 @@ a:hover{color:inherit}
   background:var(--bg-secondary);border-left:2px solid var(--accent-orange);
   color:var(--text-muted);line-height:1.5;
 }
+
+
+/* ---------- L6 资金流向（数据驱动：月 / 季 / 年对比） ---------- */
+.flow-note{font-size:11.5px;line-height:1.7;color:var(--text-secondary);
+  background:var(--bg-card);border:1px solid var(--border-primary);border-radius:6px;
+  padding:10px 14px;margin-bottom:14px}
+.flow-note b{color:var(--accent-amber)}
+.flow-kpi{padding:14px}
+.flow-kpi-val{font-size:22px;font-weight:600;color:var(--accent-amber);
+  font-family:var(--font-mono);margin:6px 0 4px}
+.flow-kpi-unit{font-size:11px;color:var(--text-muted);margin-left:3px;font-family:var(--font-sans)}
+.flow-card-kpi{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:8px 0 6px;font-size:12px}
+.flow-card-kpi b{font-size:19px;color:var(--accent-amber);font-family:var(--font-mono)}
+.flow-card-vs{font-size:11px;color:var(--text-muted);font-family:var(--font-mono)}
+.flow-card-amt{font-size:11px;color:var(--accent-teal);font-family:var(--font-mono)}
+.flow-card-desc{font-size:11px;color:var(--text-muted);line-height:1.6;margin-bottom:10px}
+.flow-chip{display:inline-block;font-size:10.5px;padding:2px 7px;border-radius:3px;
+  font-family:var(--font-mono);white-space:nowrap}
+.flow-chip--up{background:rgba(224,112,112,.18);color:var(--accent-red);border:1px solid rgba(224,112,112,.34)}
+.flow-chip--down{background:rgba(91,191,125,.16);color:var(--accent-green);border:1px solid rgba(91,191,125,.34)}
+.flow-chip--flat{background:var(--bg-card);color:var(--text-muted);border:1px solid var(--border-primary)}
+.flow-ind-row{display:grid;grid-template-columns:96px 1fr 92px;align-items:center;gap:8px;margin-bottom:5px}
+.flow-ind-name{font-size:11px;color:var(--text-secondary);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.flow-ind-row .flow-bar{margin-bottom:0;height:16px}
+.flow-ind-row .flow-bar-seg{background:var(--accent-amber);font-size:9px}
+.flow-ind-prev{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);text-align:right}
+.flow-doc-list{margin-top:10px;border-top:1px dashed var(--border-primary);padding-top:8px}
+.flow-doc-list .cl-item{border:none;padding:4px 0}
+.flow-doc-list .cl-item-title{font-size:11.5px}
+.flow-movers{display:flex;flex-direction:column;gap:6px}
+.flow-mover{display:flex;align-items:center;gap:10px;font-size:12px;padding:7px 10px;
+  border-radius:5px;background:var(--bg-panel);border:1px solid var(--border-primary);flex-wrap:wrap}
+.flow-mover-tag{font-size:10px;font-family:var(--font-mono);white-space:nowrap}
+.flow-mover.is-up .flow-mover-tag{color:var(--accent-red)}
+.flow-mover.is-down .flow-mover-tag{color:var(--accent-green)}
+.flow-mover.is-flat .flow-mover-tag{color:var(--text-muted)}
+.flow-mover-name{font-weight:600;min-width:96px}
+.flow-mover-num{color:var(--text-secondary);font-family:var(--font-mono);font-size:11px}
+.flow-mover-num i{color:var(--text-muted);font-style:normal}
+.flow-mover-delta{font-family:var(--font-mono);font-size:11px}
+.flow-mover.is-up .flow-mover-delta{color:var(--accent-red)}
+.flow-mover.is-down .flow-mover-delta{color:var(--accent-green)}
+@media (max-width:900px){.flow-ind-row{grid-template-columns:76px 1fr 76px}}

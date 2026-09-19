@@ -1895,3 +1895,215 @@ fetch('data/sources.json?t=' + Date.now())
       renderSources();
     }
   });
+
+// ============================================================
+// LAYER 6: 资金流向（data/flow.json，每日随抓取任务更新）
+// 口径：官方「资金类文件」条数作为资金节奏指标（每条附原文可核验），
+// 标题/摘要里抽到金额时一并展示；按行业聚合，月 / 季 / 年与上周期对比。
+// ============================================================
+var flowAuto = null;
+var currentFlowPeriod = 'month';
+var FLOW_PERIOD_LABEL = { month: '月度', quarter: '季度', year: '年度' };
+
+// 按周期把 ISO 日期折算成周期 key，与后端 key_of() 保持一致
+function flowKey(kind, iso) {
+  if (!iso || iso.length < 7) return '';
+  var y = parseInt(iso.slice(0, 4), 10);
+  var m = parseInt(iso.slice(5, 7), 10);
+  if (kind === 'month') return iso.slice(0, 7);
+  if (kind === 'quarter') return y + 'Q' + (Math.floor((m - 1) / 3) + 1);
+  return String(y);
+}
+
+// 环比标签：涨用红、跌用绿（国内惯例）；上期为 0 时单独措辞
+function flowDeltaChip(pct, cur, prev) {
+  if (!cur && !prev) return '<span class="flow-chip flow-chip--flat">持平 · 均为 0</span>';
+  if (prev === 0 && cur > 0) return '<span class="flow-chip flow-chip--up">上期为 0 · 本期新增</span>';
+  if (!cur && prev > 0) return '<span class="flow-chip flow-chip--down">本期为 0</span>';
+  if (pct === null || pct === undefined) return '<span class="flow-chip flow-chip--flat">—</span>';
+  var cls = pct > 0 ? 'flow-chip--up' : (pct < 0 ? 'flow-chip--down' : 'flow-chip--flat');
+  var sign = pct > 0 ? '+' : '';
+  return '<span class="flow-chip ' + cls + '">环比 ' + sign + pct + '%</span>';
+}
+
+function flowDocsHtml(items, limit) {
+  if (!items || !items.length) return '<div class="cl-empty">该周期无新条目</div>';
+  var html = '';
+  items.slice(0, limit || 20).forEach(function(it) {
+    html += '<div class="cl-item">'
+      + '<div class="cl-item-title"><a href="' + escapeHtml(it.url) + '" target="_blank" rel="noopener">'
+      + escapeHtml(it.title) + '</a></div>'
+      + '<div class="cl-item-meta">' + escapeHtml(it.date || '')
+      + (it.org ? ' · ' + escapeHtml(it.org) : '')
+      + (it.industry ? ' · ' + escapeHtml(it.industry) : '')
+      + (it.amountYi ? ' · <b>' + it.amountYi + ' 亿元</b>' : '')
+      + (it.src ? ' · ' + escapeHtml(it.src) : '')
+      + '</div></div>';
+  });
+  return html;
+}
+
+function renderFlow() {
+  var f = flowAuto;
+  if (!f || !f.channels) return;
+  var kind = currentFlowPeriod;
+
+  // —— 摘要行：生成时间 + 口径 + 累积库规模 ——
+  var noteEl = document.getElementById('flowNote');
+  if (noteEl) {
+    noteEl.innerHTML = '📅 数据抓取于 <b>' + escapeHtml(f.generatedAt || '--')
+      + '</b> · 口径：' + escapeHtml(f.note || '')
+      + ' · 累积库 ' + (f.archiveTotal || 0) + ' 条（本轮新增 ' + (f.archiveAdded || 0) + ' 条）';
+  }
+
+  // —— 跨通道合计 ——
+  var totCur = 0, totPrev = 0, totAmt = 0, curLabel = '', prevLabel = '';
+  f.channels.forEach(function(ch) {
+    var p = (ch.period || {})[kind];
+    if (!p) return;
+    totCur += p.cur.n || 0;
+    totPrev += p.prev.n || 0;
+    totAmt += p.cur.amountYi || 0;
+    curLabel = p.cur.label || curLabel;
+    prevLabel = p.prev.label || prevLabel;
+  });
+  var kpiEl = document.getElementById('flowKpis');
+  if (kpiEl) {
+    var totalPct = totPrev ? Math.round((totCur - totPrev) * 1000 / totPrev) / 10 : null;
+    kpiEl.innerHTML = ''
+      + '<div class="data-card flow-kpi"><div class="card-title">本周期合计</div>'
+      + '<div class="flow-kpi-val">' + totCur + ' <span class="flow-kpi-unit">件</span></div>'
+      + '<div class="card-sub">' + escapeHtml(curLabel) + '（' + FLOW_PERIOD_LABEL[kind] + '）</div></div>'
+      + '<div class="data-card flow-kpi"><div class="card-title">上周期合计</div>'
+      + '<div class="flow-kpi-val">' + totPrev + ' <span class="flow-kpi-unit">件</span></div>'
+      + '<div class="card-sub">' + escapeHtml(prevLabel) + '</div></div>'
+      + '<div class="data-card flow-kpi"><div class="card-title">环比变化</div>'
+      + '<div class="flow-kpi-val">' + (totalPct === null ? '—' : (totalPct > 0 ? '+' : '') + totalPct + '%')
+      + '</div><div class="card-sub">' + flowDeltaChip(totalPct, totCur, totPrev).replace(/<[^>]+>/g, '') + '</div></div>'
+      + '<div class="data-card flow-kpi"><div class="card-title">抽到金额</div>'
+      + '<div class="flow-kpi-val">' + (totAmt ? totAmt : '—') + '<span class="flow-kpi-unit">亿元</span></div>'
+      + '<div class="card-sub">仅统计原文中明示金额的条目</div></div>';
+  }
+
+  // —— 四个通道 ——
+  var chEl = document.getElementById('flowChannels');
+  if (chEl) {
+    var html = '';
+    f.channels.forEach(function(ch) {
+      var p = (ch.period || {})[kind];
+      if (!p) return;
+      var inds = (ch.industries || {})[kind] || [];
+      var maxN = 1;
+      inds.forEach(function(r) { if (r.cur > maxN) maxN = r.cur; });
+      var bars = '';
+      if (!inds.length) {
+        bars = '<div class="cl-empty">该周期官方暂无新增文件</div>';
+      } else {
+        inds.slice(0, 5).forEach(function(r) {
+          bars += '<div class="flow-ind-row">'
+            + '<div class="flow-ind-name">' + escapeHtml(r.name) + '</div>'
+            + '<div class="flow-bar"><div class="flow-bar-seg" style="width:'
+            + Math.max(6, Math.round(r.cur * 100 / maxN)) + '%">' + r.cur + '</div></div>'
+            + '<div class="flow-ind-prev">上期 ' + r.prev + ' · '
+            + (r.deltaPct === null ? '—' : (r.deltaPct > 0 ? '+' : '') + r.deltaPct + '%') + '</div>'
+            + '</div>';
+        });
+      }
+      var items = [];
+      inds.forEach(function(r) { (r.items || []).forEach(function(x) { items.push(x); }); });
+      items.sort(function(a, b) { return (b.date || '').localeCompare(a.date || ''); });
+      html += '<div class="flow-card">'
+        + '<div class="flow-card-title">' + (ch.icon || '') + ' ' + escapeHtml(ch.label) + '</div>'
+        + '<div class="flow-card-sub">' + escapeHtml(ch.sources || '')
+        + (ch.dim === '类型' ? ' · 按审核类型归类' : ' · 按行业归类') + '</div>'
+        + '<div class="flow-card-kpi"><b>' + p.cur.n + '</b> 件'
+        + '<span class="flow-card-vs">vs 上期 ' + p.prev.n + ' 件</span>'
+        + flowDeltaChip(p.deltaPct, p.cur.n, p.prev.n)
+        + (p.cur.amountYi ? '<span class="flow-card-amt">金额 ' + p.cur.amountYi + ' 亿元</span>' : '')
+        + '</div>'
+        + '<div class="flow-card-desc">' + escapeHtml(ch.desc || '') + '</div>'
+        + bars
+        + '<div class="flow-doc-list">' + flowDocsHtml(items, 4) + '</div>'
+        + '</div>';
+    });
+    chEl.innerHTML = html || '<div class="cl-empty">暂无数据</div>';
+  }
+
+  // —— 行业增减榜 ——
+  var mv = (f.movers || {})[kind] || {};
+  var mvHd = document.getElementById('flowMoverHd');
+  if (mvHd) {
+    mvHd.textContent = '▸ 行业增减榜（' + (FLOW_PERIOD_LABEL[kind] || '') + '对比上期，跨三个行业维度通道）';
+  }
+  var mvEl = document.getElementById('flowMovers');
+  if (mvEl) {
+    var row = function(r, cls, tag) {
+      return '<div class="flow-mover ' + cls + '"><span class="flow-mover-tag">' + tag + '</span>'
+        + '<span class="flow-mover-name">' + escapeHtml(r.name) + '</span>'
+        + '<span class="flow-mover-num">' + r.cur + ' 件 <i>（上期 ' + r.prev + '）</i></span>'
+        + '<span class="flow-mover-delta">' + (r.deltaPct === null ? '—' : (r.deltaPct > 0 ? '+' : '') + r.deltaPct + '%') + '</span>'
+        + (r.url ? '<a class="doc-link" href="' + escapeHtml(r.url) + '" target="_blank" rel="noopener">原文 ↗</a>' : '')
+        + '</div>';
+    };
+    var h = '';
+    (mv.up || []).forEach(function(r) { h += row(r, 'is-up', '📈 增加'); });
+    (mv.down || []).forEach(function(r) { h += row(r, 'is-down', '📉 减少'); });
+    (mv.flat || []).slice(0, 2).forEach(function(r) { h += row(r, 'is-flat', '➖ 持平'); });
+    mvEl.innerHTML = h || '<div class="cl-empty">该周期行业分布无明显变化</div>';
+  }
+
+  // —— 本周期原文清单（全通道合并，按日期倒序）——
+  var docEl = document.getElementById('flowDocs');
+  if (docEl) {
+    var curKey = '';
+    var seen = {}, merged = [];
+    f.channels.forEach(function(ch) {
+      var p = (ch.period || {})[kind];
+      if (p) curKey = p.cur.key;
+      var inds = (ch.industries || {})[kind] || [];
+      inds.forEach(function(r) {
+        (r.items || []).forEach(function(x) {
+          if (seen[x.url]) return;
+          seen[x.url] = 1;
+          x.channel = ch.label;
+          merged.push(x);
+        });
+      });
+    });
+    (f.recent || []).forEach(function(x) {
+      if (seen[x.url]) return;
+      if (flowKey(kind, x.date) !== curKey) return;
+      seen[x.url] = 1;
+      x.channel = x.channel || '';
+      merged.push(x);
+    });
+    merged.sort(function(a, b) { return (b.date || '').localeCompare(a.date || ''); });
+    docEl.innerHTML = flowDocsHtml(merged, 24);
+  }
+}
+
+// 周期切换（年度 / 季度 / 月度）
+(function bindFlowSwitcher() {
+  var wrap = document.getElementById('flowSwitcher');
+  if (!wrap) return;
+  wrap.querySelectorAll('.tier-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      if (btn.dataset.fperiod === currentFlowPeriod) return;
+      wrap.querySelectorAll('.tier-btn').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      currentFlowPeriod = btn.dataset.fperiod;
+      renderFlow();
+    });
+  });
+})();
+
+// Async: L6 资金流向（data/flow.json，每日随抓取任务更新）
+fetch('data/flow.json?t=' + Date.now())
+  .then(function(r) { return r.ok ? r.json() : null; })
+  .catch(function() { return null; })
+  .then(function(f) {
+    if (f && f.channels && f.channels.length) {
+      flowAuto = f;
+      renderFlow();
+    }
+  });

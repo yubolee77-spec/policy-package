@@ -480,6 +480,137 @@ TOPIC_HINTS = [
 ]
 
 
+# ---------------------------------------------------------------------------
+# 三·B 官媒定调的第二条通道：党媒数字报直扫（CI 可达）
+# ---------------------------------------------------------------------------
+# 为什么需要它：东财搜索接口对境外 IP（GitHub Actions 跑在美国）返回空结果，
+# 于是每轮 CI 的「官媒定调」都只能沿用上一版数据（mediaStale=True）。
+# 人民日报 / 经济日报的数字报（paper.people.com.cn、paper.ce.cn）是 L4
+# 已在 CI 里稳定抓到评论文章的通道 —— 同一批版面页里就包含「首单/首例/首批」
+# 这类首创性报道，直接按标题命中关键词产定调条目，即可让本板块自动更新。
+#
+# 版面配置需与 update_data.py 的 PAPER_SITES 保持一致：
+#   人民日报 要闻(01-06) / 评论(05) / 理论(09)
+#   经济日报 要闻(01-03) / 时评(05) / 综合(11)
+PAPER_SITES = [
+    {
+        "media": "人民日报",
+        "layout": "http://paper.people.com.cn/rmrb/pc/layout/{ym}/{dd}/node_{node}.html",
+        "article": "http://paper.people.com.cn/rmrb/pc/content/{ym}/{dd}/content_{cid}.html",
+        "nodes": ["01", "02", "05"],
+    },
+    {
+        "media": "经济日报",
+        "layout": "http://paper.ce.cn/pc/layout/{ym}/{dd}/node_{node}.html",
+        "article": "http://paper.ce.cn/pc/content/{ym}/{dd}/content_{cid}.html",
+        "nodes": ["01", "02"],
+    },
+]
+
+# 实测：日报版面标题里「首例/首单」出现频率很低（6 天 300 篇 0 命中），
+# 所以这条通道定位是「CI 里能捞到就捞」的增量能力，不是主力。
+# 主力仍是东财搜索（覆盖面广），由本地境内在 08:00-21:00 定时补抓推送。
+PAPER_LOOKBACK_DAYS = 3          # 正常只回溯 3 天，控制 CI 耗时（约 20 秒）
+PAPER_BOOTSTRAP_DAYS = 10        # 定调库为空时的首次回溯
+PAPER_WORKERS = 8
+PAPER_MAX = 40                   # 单轮最多入库条数
+
+_P_CID_RE = re.compile(r"content_(\d+)\.html")
+_P_TITLE_RE = re.compile(r"<title>(.*?)</title>", re.S)
+_P_DATE_RE = re.compile(r"<date>(.*?)</date>")
+_P_NOISE_RE = re.compile(r"[\u200b-\u200f\ufeff\u3000]+")
+
+# 定调力度词：与首创性表述同现，说明报道口径更硬
+MEDIA_STRONG_WORDS = ("着力", "大力", "坚决", "加快", "全面", "深入", "统筹",
+                      "持续", "进一步", "有序", "超常规")
+
+
+def _paper_layout_cids(site, day):
+    ym, dd = day.strftime("%Y%m"), day.strftime("%d")
+    cids, seen = [], set()
+    for node in site["nodes"]:
+        html = http_get(site["layout"].format(ym=ym, dd=dd, node=node), timeout=12, tries=1)
+        if not html:
+            continue
+        for m in _P_CID_RE.finditer(html):
+            cid = m.group(1)
+            if cid not in seen:
+                seen.add(cid)
+                cids.append(cid)
+    return cids
+
+
+def _paper_probe_one(args):
+    site, ym, dd, cid = args
+    url = site["article"].format(ym=ym, dd=dd, cid=cid)
+    html = http_get(url, timeout=12, tries=1)
+    if not html:
+        return None
+    m_t = _P_TITLE_RE.search(html)
+    title = _P_NOISE_RE.sub("", _strip_tags(m_t.group(1))) if m_t else ""
+    title = re.sub(r"\s+", "", title)
+    if len(title) < 8:
+        return None
+    m_d = _P_DATE_RE.search(html)
+    pub = (m_d.group(1).strip()[:10] if m_d else "")
+    if not re.match(r"\d{4}-\d{2}-\d{2}", pub):
+        pub = "%s-%s-%s" % (ym[:4], ym[4:6], dd)
+    return {"url": url, "title": title, "date": pub, "media": site["media"],
+            "body": _strip_tags(html)[:4000]}
+
+
+def fetch_media_from_papers(days=PAPER_LOOKBACK_DAYS, known_urls=None):
+    """直扫党媒数字报，标题命中「首例/首单/…」的即作为定调条目。
+
+    这是 CI 可用的通道（人民日报 / 经济日报的版面页在国内外的可达性一致），
+    与东财搜索互为补充：本地跑时两条通道取并集，CI 里靠这条保住每日更新。
+    """
+    known_urls = known_urls or set()
+    today = (datetime.datetime.now(datetime.timezone.utc)
+             + datetime.timedelta(hours=8)).date()          # 北京日期
+    jobs = []
+    for site in PAPER_SITES:
+        for i in range(days):
+            day = today - datetime.timedelta(days=i)
+            ym, dd = day.strftime("%Y%m"), day.strftime("%d")
+            for cid in _paper_layout_cids(site, day):
+                url = site["article"].format(ym=ym, dd=dd, cid=cid)
+                if url in known_urls:
+                    continue
+                jobs.append((site, ym, dd, cid))
+    if not jobs:
+        print("    · 数字报无需新增抓取（已在库）")
+        return []
+    print("    · 数字报待查 %d 篇（回溯 %d 天），并发核验标题…" % (len(jobs), days))
+    out, seen_titles = [], set()
+    with ThreadPoolExecutor(max_workers=PAPER_WORKERS) as pool:
+        for art in pool.map(_paper_probe_one, jobs):
+            if not art:
+                continue
+            hit = next((k for k in MEDIA_KEYWORDS if k in art["title"]), "")
+            if not hit:
+                continue
+            key = re.sub(r"\s+", "", art["title"])
+            if key in seen_titles:
+                continue
+            seen_titles.add(key)
+            low = (art["title"] + " " + art["body"]).lower()
+            topics = [name for name, keys in TOPIC_HINTS if any(k in low for k in keys)]
+            out.append({
+                "date": art["date"],
+                "media": art["media"],
+                "title": art["title"],
+                "url": art["url"],
+                "keyword": hit,
+                "topics": topics[:3],
+                "strong": hit in ("首例", "首单", "首个") or bool(topics),
+                "src": "党媒数字报直扫",
+            })
+    out.sort(key=lambda x: x["date"], reverse=True)
+    print("    · 数字报命中「%s」类报道 %d 条" % ("/".join(MEDIA_KEYWORDS[:4]), len(out)))
+    return out
+
+
 def fetch_media_signals(max_per_kw=50):
     """搜索「首例/首单/…」，只保留官媒 + 标题命中关键词的报道。"""
     out, seen = [], set()
@@ -560,32 +691,61 @@ def build():
         review = None
 
     print("  [3/3] 官媒定调（首例 / 首单 / 首个 / 首批）")
+    media = []
     try:
         media = fetch_media_signals()
+        print("    通道①东财搜索: %d 条" % len(media))
     except Exception as e:                            # noqa: BLE001
         print("    ! 官媒搜索失败: %s" % str(e)[:100])
-        media = []
+
+    # 通道②：党媒数字报直扫（CI 可达，见 fetch_media_from_papers 的说明）
+    # 已入库 URL 直接跳过，避免每天重复抓详情页。
+    prev_doc = {}
+    try:
+        with open(OUTPUT_FILE, encoding="utf-8") as f:
+            prev_doc = json.load(f) or {}
+    except Exception:                                 # noqa: BLE001 - 首次生成时文件不存在
+        prev_doc = {}
+    prev_media_all = prev_doc.get("media") or []
+    known_urls = {m.get("url") for m in prev_media_all if m.get("url")}
+    paper_media = []
+    try:
+        days = PAPER_LOOKBACK_DAYS if prev_media_all else PAPER_BOOTSTRAP_DAYS
+        paper_media = fetch_media_from_papers(days=days, known_urls=known_urls)
+    except Exception as e:                            # noqa: BLE001
+        print("    ! 数字报直扫失败: %s" % str(e)[:100])
+
+    # 合并两条通道：以「标题」去重（同一篇报道在两处都有），保留已有条目的归类
+    merged, seen_titles2 = [], set()
+    for it in prev_media_all + media + paper_media:
+        t = re.sub(r"\s+", "", it.get("title") or "")
+        if not t or t in seen_titles2:
+            continue
+        seen_titles2.add(t)
+        merged.append(it)
+    merged.sort(key=lambda x: (x.get("date") or "", bool(x.get("strong"))), reverse=True)
+
+    # 定调库是累积型（与 L4 评论库同理）：新条目并入旧库，只保留最近 120 条
+    media = merged[:120]
+    added_media = len(media) - len(prev_media_all)
+    if added_media > 0:
+        print("    并入累积库后 %d 条（本轮新增 %d 条）" % (len(media), added_media))
 
     # —— 官媒定调兜底 ——
-    # 东财搜索接口对境外 IP（GitHub Actions 跑在美国）会返回空结果，
-    # 而本地跑同一份代码能拿到 30~40 条。若不兜底，每轮 CI 都会把线上
-    # 「官媒定调」板块静默清空。这里在零命中时沿用上一版数据，并用
+    # 两条通道都零命中时（极端网络情况）沿用上一版数据，并用
     # mediaFetchedAt / mediaStale 标注它的真实抓取时间与来源，保证可溯源。
     media_fetched_at = generated
     media_stale = False
     if not media:
-        try:
-            with open(OUTPUT_FILE, encoding="utf-8") as f:
-                prev = json.load(f)
-            prev_media = prev.get("media") or []
-            if prev_media:
-                media = prev_media
-                media_fetched_at = prev.get("mediaFetchedAt") or prev.get("generatedAt") or ""
-                media_stale = True
-                print("    ! 本次官媒零命中（CI 境外 IP 被限流），沿用上一版 %d 条（抓取于 %s）"
-                      % (len(media), media_fetched_at or "未知"))
-        except Exception:                              # noqa: BLE001 - 首次生成时文件不存在
-            pass
+        if prev_media_all:
+            media = prev_media_all
+            media_fetched_at = prev_doc.get("mediaFetchedAt") or prev_doc.get("generatedAt") or ""
+            media_stale = True
+            print("    ! 两条通道均零命中，沿用上一版 %d 条（抓取于 %s）"
+                  % (len(media), media_fetched_at or "未知"))
+    elif prev_media_all and added_media > 0:
+        # 本轮确实抓到了新条目 → 抓取时间是本轮
+        pass
 
     # —— 监管 KPI：从上面数据自动汇总 ——
     # 月份必须用北京时间：CI runner 是 UTC，月初北京上午跑时 date.today() 还停在上月，
@@ -623,7 +783,7 @@ def build():
         "kpi": kpi,
         "penalty": penalty[:400],
         "approval": approval[:300],
-        "media": media[:80],
+        "media": media[:120],
         "review": review,
     }
 
