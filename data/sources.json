@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-20 20:04",
+ "generatedAt": "2026-09-21 07:29",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-20 20:04",
-   "ageDays": 2
+   "fetchedAt": "2026-09-21 07:29",
+   "ageDays": 3
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 14,
-   "fetchedAt": "2026-09-20 20:04",
-   "ageDays": 3
+   "fetchedAt": "2026-09-21 07:29",
+   "ageDays": 4
   },
   {
    "key": "localbond",
@@ -53,9 +53,9 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 21,
-   "fetchedAt": "2026-09-20 20:04",
-   "ageDays": 324
+   "total": 4,
+   "fetchedAt": "2026-09-21 07:29",
+   "ageDays": 325
   },
   {
    "key": "media",
@@ -63,16 +63,16 @@
    "indexUrl": "http://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202609/20/content_339116.html",
+   "href": "http://paper.ce.cn/pc/content/202609/21/content_339219.html",
    "latest": {
-    "title": "新一代通信网不止于扩容升级",
-    "url": "http://paper.ce.cn/pc/content/202609/20/content_339116.html",
-    "date": "2026-09-20",
+    "title": "坚持“四个注重”做强先进制造业",
+    "url": "http://paper.ce.cn/pc/content/202609/21/content_339219.html",
+    "date": "2026-09-21",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 114,
-   "fetchedAt": "2026-09-20 20:04",
+   "total": 116,
+   "fetchedAt": "2026-09-21 07:29",
    "ageDays": 0
   }
  ],

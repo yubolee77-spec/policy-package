@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-20 20:04",
+ "generatedAt": "2026-09-21 07:29",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 250,
+ "candidateCount": 252,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-21 · 坚持“四个注重”做强先进制造业（经济日报）",
+     "title": "坚持“四个注重”做强先进制造业",
+     "url": "http://paper.ce.cn/pc/content/202609/21/content_339219.html",
+     "date": "2026-09-21",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-09-21 · 金观平：坚持“四个注重”做强先进制造业（党媒）",
+     "title": "金观平：坚持“四个注重”做强先进制造业",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260921_3226215.shtml",
+     "date": "2026-09-21",
+     "source": "党媒",
+     "noise": false
+    },
+    {
      "label": "2026-09-20 · 新一代通信网不止于扩容升级（经济日报）",
      "title": "新一代通信网不止于扩容升级",
      "url": "http://paper.ce.cn/pc/content/202609/20/content_339116.html",
@@ -305,22 +321,6 @@
      "label": "2026-09-19 · 持续做大做强先进制造业（人民日报）",
      "title": "持续做大做强先进制造业",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202609/19/content_30181972.html",
-     "date": "2026-09-19",
-     "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-19 · 莫以产能过剩之名行贸易保护之实（经济日报）",
-     "title": "莫以产能过剩之名行贸易保护之实",
-     "url": "http://paper.ce.cn/pc/content/202609/19/content_339066.html",
-     "date": "2026-09-19",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-19 · 持续做大做强先进制造业（人民日报）",
-     "title": "持续做大做强先进制造业",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/19/content_30181998.html",
      "date": "2026-09-19",
      "source": "人民日报",
      "noise": false
