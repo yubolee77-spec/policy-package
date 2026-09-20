@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20 07:19",
+  "generatedAt": "2026-09-20 17:03",
   "asOf": "2026-09",
   "asOfLabel": "2026年9月",
   "archiveTotal": 195,
@@ -227,7 +227,7 @@
             "items": [
               {
                 "title": "《改善普通高中学校办学条件补助资金管理办法》修订印发",
-                "url": "http://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm",
+                "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm",
                 "date": "2026-09-01",
                 "org": "财政部",
                 "amountYi": null,
@@ -246,7 +246,7 @@
             "items": [
               {
                 "title": "《改善普通高中学校办学条件补助资金管理办法》修订印发",
-                "url": "http://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm",
+                "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm",
                 "date": "2026-09-01",
                 "org": "财政部",
                 "amountYi": null,
@@ -306,7 +306,7 @@
               },
               {
                 "title": "财政部、商务部修订印发《服务业发展资金管理办法》",
-                "url": "http://jjs.mof.gov.cn/zhengcefagui/202606/t20260604_3991164.htm",
+                "url": "https://jjs.mof.gov.cn/zhengcefagui/202606/t20260604_3991164.htm",
                 "date": "2026-06-04",
                 "org": "财政部",
                 "amountYi": null,
@@ -314,7 +314,7 @@
               },
               {
                 "title": "财政部、退役军人事务部制定印发《中央专项彩票公益金支持光荣院能力提升项目资金管理办法》",
-                "url": "http://sbs.mof.gov.cn/zhengcefabu/202604/t20260421_3988007.htm",
+                "url": "https://sbs.mof.gov.cn/zhengcefabu/202604/t20260421_3988007.htm",
                 "date": "2026-04-21",
                 "org": "财政部",
                 "amountYi": null,
@@ -363,7 +363,7 @@
               },
               {
                 "title": "财政部等四部门优化实施设备更新贷款财政贴息政策",
-                "url": "http://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982162.htm",
+                "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982162.htm",
                 "date": "2026-01-19",
                 "org": "财政部",
                 "amountYi": null,
@@ -396,7 +396,7 @@
               },
               {
                 "title": "财政部等三部门优化实施个人消费贷款财政贴息政策",
-                "url": "http://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm",
+                "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm",
                 "date": "2026-01-19",
                 "org": "财政部",
                 "amountYi": null,
@@ -421,7 +421,7 @@
               },
               {
                 "title": "《农村综合改革转移支付资金管理办法》有关事项的补充通知印发",
-                "url": "http://nys.mof.gov.cn/czpjZhengCeFaBu_2_2/202603/t20260302_3984471.htm",
+                "url": "https://nys.mof.gov.cn/czpjZhengCeFaBu_2_2/202603/t20260302_3984471.htm",
                 "date": "2026-03-02",
                 "org": "财政部",
                 "amountYi": null,
@@ -446,7 +446,7 @@
               },
               {
                 "title": "《重点生态保护修复治理资金管理办法》修订印发",
-                "url": "http://zyhj.mof.gov.cn/zcfb/202601/t20260114_3981840.htm",
+                "url": "https://zyhj.mof.gov.cn/zcfb/202601/t20260114_3981840.htm",
                 "date": "2026-01-14",
                 "org": "财政部",
                 "amountYi": null,
@@ -463,7 +463,7 @@
             "items": [
               {
                 "title": "《改善普通高中学校办学条件补助资金管理办法》修订印发",
-                "url": "http://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm",
+                "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm",
                 "date": "2026-09-01",
                 "org": "财政部",
                 "amountYi": null,
@@ -2356,7 +2356,7 @@
           "prev": 0,
           "delta": 1,
           "deltaPct": 100.0,
-          "url": "http://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
+          "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         }
       ],
       "down": [],
@@ -2370,7 +2370,7 @@
           "prev": 0,
           "delta": 1,
           "deltaPct": 100.0,
-          "url": "http://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
+          "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         }
       ],
       "down": [
@@ -2399,7 +2399,7 @@
           "url": ""
         },
         {
-          "name": "消费与流通",
+          "name": "生态环保",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2407,7 +2407,7 @@
           "url": ""
         },
         {
-          "name": "生态环保",
+          "name": "消费与流通",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2483,10 +2483,10 @@
           "prev": 7,
           "delta": -5,
           "deltaPct": -71.4,
-          "url": "http://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
+          "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2494,7 +2494,7 @@
           "url": ""
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2682,7 +2682,7 @@
       "src": "证监会审核台账"
     },
     {
-      "url": "http://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm",
+      "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm",
       "title": "《改善普通高中学校办学条件补助资金管理办法》修订印发",
       "date": "2026-09-01",
       "org": "财政部",
@@ -3242,7 +3242,7 @@
       "src": "gov.cn 政策库"
     },
     {
-      "url": "http://jjs.mof.gov.cn/zhengcefagui/202606/t20260604_3991164.htm",
+      "url": "https://jjs.mof.gov.cn/zhengcefagui/202606/t20260604_3991164.htm",
       "title": "财政部、商务部修订印发《服务业发展资金管理办法》",
       "date": "2026-06-04",
       "org": "财政部",
@@ -3322,7 +3322,7 @@
       "src": "证监会审核台账"
     },
     {
-      "url": "http://sbs.mof.gov.cn/zhengcefabu/202604/t20260421_3988007.htm",
+      "url": "https://sbs.mof.gov.cn/zhengcefabu/202604/t20260421_3988007.htm",
       "title": "财政部、退役军人事务部制定印发《中央专项彩票公益金支持光荣院能力提升项目资金管理办法》",
       "date": "2026-04-21",
       "org": "财政部",
@@ -3462,7 +3462,7 @@
       "src": "证监会审核台账"
     },
     {
-      "url": "http://nys.mof.gov.cn/czpjZhengCeFaBu_2_2/202603/t20260302_3984471.htm",
+      "url": "https://nys.mof.gov.cn/czpjZhengCeFaBu_2_2/202603/t20260302_3984471.htm",
       "title": "《农村综合改革转移支付资金管理办法》有关事项的补充通知印发",
       "date": "2026-03-02",
       "org": "财政部",
@@ -3612,7 +3612,7 @@
       "src": "gov.cn 政策库"
     },
     {
-      "url": "http://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982164.htm",
+      "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982164.htm",
       "title": "财政部等四部门优化实施服务业经营主体贷款贴息政策",
       "date": "2026-01-19",
       "org": "财政部",
@@ -3622,7 +3622,7 @@
       "src": "财政部官网栏目"
     },
     {
-      "url": "http://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982162.htm",
+      "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982162.htm",
       "title": "财政部等四部门优化实施设备更新贷款财政贴息政策",
       "date": "2026-01-19",
       "org": "财政部",
@@ -3632,7 +3632,7 @@
       "src": "财政部官网栏目"
     },
     {
-      "url": "http://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm",
+      "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm",
       "title": "财政部等三部门优化实施个人消费贷款财政贴息政策",
       "date": "2026-01-19",
       "org": "财政部",
@@ -3642,7 +3642,7 @@
       "src": "财政部官网栏目"
     },
     {
-      "url": "http://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982158.htm",
+      "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982158.htm",
       "title": "财政部等五部门联合实施中小微企业贷款贴息政策",
       "date": "2026-01-19",
       "org": "财政部",
@@ -3672,7 +3672,7 @@
       "src": "gov.cn 政策库"
     },
     {
-      "url": "http://zyhj.mof.gov.cn/zcfb/202601/t20260114_3981840.htm",
+      "url": "https://zyhj.mof.gov.cn/zcfb/202601/t20260114_3981840.htm",
       "title": "《重点生态保护修复治理资金管理办法》修订印发",
       "date": "2026-01-14",
       "org": "财政部",

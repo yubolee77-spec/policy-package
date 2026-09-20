@@ -448,7 +448,7 @@ def collect_from_mof(ch, cutoff):
                     continue
                 if not re.search(ch["must"], title):
                     continue
-                url = urllib.parse.urljoin(page, href)
+                url = norm_url(urllib.parse.urljoin(page, href))
                 d = date_from_url(url)
                 if not d or d < cutoff or d > bj_today():
                     continue
@@ -537,12 +537,26 @@ def collect_from_csrc(cutoff):
 
 
 # ── 累积库 ──────────────────────────────────────────────────
+def norm_url(u):
+    """链接规范化。财政部各司局子站（jrs/jkw/jjs/sbs/nys/zyhj….mof.gov.cn）的文章页
+    在列表页里给的是 http://，但 https 全部可用（2026-09-20 逐条实测 9/9 均 200）。
+    从 https 站点跳 http 会被部分浏览器的「仅 HTTPS 模式」拦下，看起来就像『链接打不开』，
+    故一律升级为 https。只在 mof.gov.cn 上做，别动别的域名。"""
+    if isinstance(u, str) and u.startswith("http://") and ".mof.gov.cn" in u[:32]:
+        return "https://" + u[len("http://"):]
+    return u
+
+
 def load_archive():
     try:
         with open(ARCHIVE_FILE, encoding="utf-8") as f:
             arc = json.load(f) or {}
         items = arc.get("items") or []
         if isinstance(items, list):
+            # 旧库存量里的 http 链接就地升级；否则同一文件会以 http/https 两个身份重复入库
+            for it in items:
+                if isinstance(it, dict) and it.get("url"):
+                    it["url"] = norm_url(it["url"])
             return items
     except Exception:
         pass

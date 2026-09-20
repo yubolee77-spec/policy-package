@@ -1696,7 +1696,10 @@ function isWithinDays(dateStr, days) {
 function escapeHtml(s) {
   return String(s == null ? '' : s)
     .replace(/<[^>]*>/g, '')
-    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    // 引号也转义：本函数的结果会同时用在文本节点与 title="…" 属性里
+    // （L6 原文条目的 title 提示）。文本节点里 &quot; 仍渲染为 "，无副作用。
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
 // 表头日期：先立刻填上北京时间，等 latest.json 到达后再换成真实数据日期
@@ -1945,15 +1948,22 @@ function flowDocsHtml(items, limit) {
   if (!items || !items.length) return '<div class="cl-empty">该周期无新条目</div>';
   var html = '';
   items.slice(0, limit || 20).forEach(function(it) {
-    html += '<div class="cl-item">'
-      + '<div class="cl-item-title"><a href="' + escapeHtml(it.url) + '" target="_blank" rel="noopener">'
-      + escapeHtml(it.title) + '</a></div>'
-      + '<div class="cl-item-meta">' + escapeHtml(it.date || '')
-      + (it.org ? ' · ' + escapeHtml(it.org) : '')
-      + (it.industry ? ' · ' + escapeHtml(it.industry) : '')
-      + (it.amountYi ? ' · <b>' + it.amountYi + ' 亿元</b>' : '')
-      + (it.src ? ' · ' + escapeHtml(it.src) : '')
-      + '</div></div>';
+    // 注意：不要复用 .cl-item —— 那是「日期｜标签｜标题｜↗」的四列网格，
+    // 这里只有标题+元信息两个子元素，塞进去标题会落进 46px 的日期列，
+    // 被挤成一条竖排的窄条（2026-09-20 修复的排版事故，链接也因此几乎点不到）。
+    html += '<div class="flow-doc">'
+      + '<span class="flow-doc-date">' + escapeHtml(it.date || '') + '</span>'
+      + '<div class="flow-doc-main">'
+      + '<a class="flow-doc-title" href="' + escapeHtml(it.url) + '" target="_blank" rel="noopener"'
+      + ' title="' + escapeHtml(it.title) + '">' + escapeHtml(it.title) + '</a>'
+      + '<div class="flow-doc-meta">'
+      + (it.org ? '<span>' + escapeHtml(it.org) + '</span>' : '')
+      + (it.industry ? '<span>' + escapeHtml(it.industry) + '</span>' : '')
+      + (it.amountYi ? '<span class="is-amt">' + it.amountYi + ' 亿元</span>' : '')
+      + (it.src ? '<span class="flow-doc-src">来源：' + escapeHtml(it.src) + '</span>' : '')
+      + '</div></div>'
+      + '<span class="flow-doc-go">↗</span>'
+      + '</div>';
   });
   return html;
 }

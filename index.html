@@ -602,6 +602,30 @@
     <div class="cl-list" id="flowDocs"></div>
   </div>
 
+  <!-- 数据出处：通道 → 官方来源 → 抓取方式（链接一律原样取回，不做构造） -->
+  <div class="kw-analysis" style="margin-top:14px">
+    <div class="kw-hd">▸ 数据出处（所有原文链接均指向官方域名，页面不构造、不中转任何链接）</div>
+    <div class="flow-src">
+      <div class="flow-src-row"><span class="flow-src-ch">💰 专项资金 / 预算下达</span>
+        <span>财政部「政策发布」栏目（mof.gov.cn/zhengwuxinxi/zhengcefabu/，列表页原样取回文章链接）
+        ＋ gov.cn 政策库检索接口（sousuo.www.gov.cn，标题命中）</span></div>
+      <div class="flow-src-row"><span class="flow-src-ch">🏗 专项债 / 特别国债</span>
+        <span>gov.cn 政策库检索接口（sousuo.www.gov.cn/search-gov/data，searchfield=title），
+        链接为接口返回的原文地址</span></div>
+      <div class="flow-src-row"><span class="flow-src-ch">🧪 试点 / 示范 / 先行区</span>
+        <span>gov.cn 政策库检索接口（同上）</span></div>
+      <div class="flow-src-row"><span class="flow-src-ch">📈 一级市场融资</span>
+        <span>证监会官网行政许可/审核公示（www.csrc.gov.cn，与 L5 共用同一份台账，列表页原样取回）
+        ＋ 央行 pbc.gov.cn（经 L1 政策速览复用）＋ gov.cn 政策库</span></div>
+    </div>
+    <div class="flow-src-note">
+      可靠性：① 每条原文都在条目上标注了来源（证监会审核台账 / gov.cn 政策库 / 财政部官网栏目 / L1 政策速览），
+      点开即可比对标题与发文单位；② 财政部各司局子站的文章页原本是 http，已统一升级为 https
+      （https 实测可用），避免浏览器「仅 HTTPS 模式」拦截；③ 个别链接临时打不开通常是对方站点限流，
+      稍后重试即可 —— 链接地址本身取自官方页面，不存在过期跳转或第三方中转。
+    </div>
+  </div>
+
   <!-- 跨页去重指引：本层只讲「钱投向哪」，不重复其他层的内容 -->
   <div class="cross-ref" style="margin-top:14px">
     📌 <b>本页只统计「钱投向哪」</b>：资金类官方文件的周期节奏与行业分布（每条附原文）。<br>

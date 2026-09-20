@@ -357,10 +357,10 @@ a:hover{color:inherit}
 .csrc-item-meta{font-size:10.5px;color:var(--text-muted);font-family:var(--font-mono)}
 .flow-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-bottom:16px}
 .flow-card{background:var(--bg-panel);border:1px solid var(--border-primary);border-radius:8px;padding:16px}
-.flow-card-title{font-size:14px;font-weight:600;margin-bottom:4px}
-.flow-card-sub{font-size:11px;color:var(--text-muted);margin-bottom:12px;font-family:var(--font-mono)}
+.flow-card-title{font-size:13px;font-weight:600;margin-bottom:4px}
+.flow-card-sub{font-size:11px;color:var(--text-muted);margin-bottom:12px}
 .flow-bar{height:20px;background:var(--bg-card);border-radius:3px;overflow:hidden;margin-bottom:8px;display:flex}
-.flow-bar-seg{display:flex;align-items:center;justify-content:center;font-size:9px;color:#fff;font-family:var(--font-mono);font-weight:600;padding:0 4px}
+.flow-bar-seg{display:flex;align-items:center;justify-content:center;font-size:10px;color:#fff;font-weight:600;padding:0 4px}
 .flow-legend{display:flex;flex-wrap:wrap;gap:10px;font-size:10.5px;color:var(--text-muted)}
 .flow-legend-item{display:flex;align-items:center;gap:5px}
 .flow-legend-dot{width:8px;height:8px;border-radius:2px}
@@ -880,44 +880,66 @@ a:hover{color:inherit}
 }
 
 
-/* ---------- L6 资金流向（数据驱动：月 / 季 / 年对比） ---------- */
-.flow-note{font-size:11.5px;line-height:1.7;color:var(--text-secondary);
+/* ---------- L6 资金流向（数据驱动：月 / 季 / 年对比） ----------
+   字号只用 11 / 12 / 13 / 15 / 20 五档；等宽字体只用于数字与日期，
+   中文一律走 --font-sans（mono 栈没有 CJK 字形，混排会掉到别的字体上，很丑） */
+.flow-note{font-size:12px;line-height:1.75;color:var(--text-secondary);
   background:var(--bg-card);border:1px solid var(--border-primary);border-radius:6px;
   padding:10px 14px;margin-bottom:14px}
 .flow-note b{color:var(--accent-amber)}
 .flow-kpi{padding:14px}
-.flow-kpi-val{font-size:22px;font-weight:600;color:var(--accent-amber);
+.flow-kpi-val{font-size:20px;font-weight:600;color:var(--accent-amber);
   font-family:var(--font-mono);margin:6px 0 4px}
 .flow-kpi-unit{font-size:11px;color:var(--text-muted);margin-left:3px;font-family:var(--font-sans)}
 .flow-card-kpi{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:8px 0 6px;font-size:12px}
 .flow-card-kpi b{font-size:19px;color:var(--accent-amber);font-family:var(--font-mono)}
 .flow-card-vs{font-size:11px;color:var(--text-muted);font-family:var(--font-mono)}
 .flow-card-amt{font-size:11px;color:var(--accent-teal);font-family:var(--font-mono)}
-.flow-card-desc{font-size:11px;color:var(--text-muted);line-height:1.6;margin-bottom:10px}
-.flow-chip{display:inline-block;font-size:10.5px;padding:2px 7px;border-radius:3px;
-  font-family:var(--font-mono);white-space:nowrap}
+.flow-card-desc{font-size:11px;color:var(--text-muted);line-height:1.65;margin-bottom:10px}
+.flow-chip{display:inline-block;font-size:10.5px;padding:2px 7px;border-radius:3px;white-space:nowrap}
 .flow-chip--up{background:rgba(224,112,112,.18);color:var(--accent-red);border:1px solid rgba(224,112,112,.34)}
 .flow-chip--down{background:rgba(91,191,125,.16);color:var(--accent-green);border:1px solid rgba(91,191,125,.34)}
 .flow-chip--flat{background:var(--bg-card);color:var(--text-muted);border:1px solid var(--border-primary)}
-.flow-ind-row{display:grid;grid-template-columns:96px 1fr 92px;align-items:center;gap:8px;margin-bottom:5px}
+.flow-ind-row{display:grid;grid-template-columns:92px 1fr 86px;align-items:center;gap:8px;margin-bottom:6px}
 .flow-ind-name{font-size:11px;color:var(--text-secondary);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.flow-ind-row .flow-bar{margin-bottom:0;height:16px}
-.flow-ind-row .flow-bar-seg{background:var(--accent-amber);font-size:9px}
-.flow-ind-prev{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);text-align:right}
-.flow-doc-list{margin-top:10px;border-top:1px dashed var(--border-primary);padding-top:8px}
-.flow-doc-list .cl-item{border:none;padding:4px 0}
-.flow-doc-list .cl-item-title{font-size:11.5px}
+.flow-ind-row .flow-bar{margin-bottom:0;height:14px}
+.flow-ind-row .flow-bar-seg{background:var(--accent-amber);font-size:10px}
+.flow-ind-prev{font-size:10.5px;color:var(--text-muted);font-family:var(--font-mono);text-align:right}
+.flow-doc-list{margin-top:10px;border-top:1px dashed var(--border-primary);padding-top:6px}
+/* 原文条目：日期｜标题+元信息｜↗ 三列。别复用 .cl-item（那是四列网格，
+   只塞两个子元素时标题会掉进 46px 的日期列，被挤成竖条 —— 2026-09-20 修的事故） */
+.flow-doc{display:grid;grid-template-columns:64px 1fr 14px;align-items:baseline;
+  gap:0 10px;padding:6px 4px;border-radius:4px}
+.flow-doc:hover{background:var(--bg-hover)}
+.flow-doc-date{font-size:11px;color:var(--text-muted);font-family:var(--font-mono);white-space:nowrap}
+.flow-doc-title{font-size:12px;color:var(--text-primary);line-height:1.55;text-decoration:none;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;word-break:break-all}
+.flow-doc-title:hover{color:var(--accent-amber)}
+.flow-doc:hover .flow-doc-go{opacity:1}
+.flow-doc-go{font-size:10px;color:var(--accent-amber);opacity:0;transition:opacity .12s}
+.flow-doc-meta{display:flex;flex-wrap:wrap;gap:2px 10px;margin-top:3px;font-size:10.5px;color:var(--text-muted)}
+.flow-doc-meta .is-amt{color:var(--accent-teal)}
+.flow-doc-src{color:var(--text-secondary)}
+.flow-doc-src::before{content:'·';margin-right:8px;color:var(--border-primary)}
 .flow-movers{display:flex;flex-direction:column;gap:6px}
 .flow-mover{display:flex;align-items:center;gap:10px;font-size:12px;padding:7px 10px;
   border-radius:5px;background:var(--bg-panel);border:1px solid var(--border-primary);flex-wrap:wrap}
-.flow-mover-tag{font-size:10px;font-family:var(--font-mono);white-space:nowrap}
+.flow-mover-tag{font-size:11px;white-space:nowrap}
 .flow-mover.is-up .flow-mover-tag{color:var(--accent-red)}
 .flow-mover.is-down .flow-mover-tag{color:var(--accent-green)}
 .flow-mover.is-flat .flow-mover-tag{color:var(--text-muted)}
 .flow-mover-name{font-weight:600;min-width:96px}
-.flow-mover-num{color:var(--text-secondary);font-family:var(--font-mono);font-size:11px}
+.flow-mover-num{color:var(--text-secondary);font-size:11.5px}
 .flow-mover-num i{color:var(--text-muted);font-style:normal}
 .flow-mover-delta{font-family:var(--font-mono);font-size:11px}
 .flow-mover.is-up .flow-mover-delta{color:var(--accent-red)}
 .flow-mover.is-down .flow-mover-delta{color:var(--accent-green)}
+/* 数据出处块：通道｜来源 两列，窄屏折成单列 */
+.flow-src{display:flex;flex-direction:column;gap:8px}
+.flow-src-row{display:grid;grid-template-columns:172px 1fr;gap:10px;align-items:baseline;
+  font-size:11.5px;line-height:1.7;color:var(--text-secondary)}
+.flow-src-ch{font-weight:600;color:var(--text-primary);white-space:nowrap}
+.flow-src-note{margin-top:10px;padding-top:10px;border-top:1px dashed var(--border-primary);
+  font-size:11.5px;line-height:1.75;color:var(--text-muted)}
+@media (max-width:900px){.flow-src-row{grid-template-columns:1fr}}
 @media (max-width:900px){.flow-ind-row{grid-template-columns:76px 1fr 76px}}
