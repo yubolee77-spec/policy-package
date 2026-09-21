@@ -22,6 +22,12 @@
   <div class="header-right">
     <div class="status-item"><span class="status-dot"></span>数据同步中</div>
     <div class="status-item"><span class="status-dot amber"></span>数据更新:<span id="headerUpdatedDate">--</span></div>
+    <!-- 字号调节器：整体等比缩放（zoom），比例不变所以版式不会错乱。桌面/平板/手机通用 -->
+    <div class="fs-ctl" id="fsCtl" role="group" aria-label="调整全站字体大小">
+      <button type="button" class="fs-btn" data-fs="-" title="缩小字体" aria-label="缩小字体">A−</button>
+      <span class="fs-val" id="fsVal" title="当前字号档位">标准</span>
+      <button type="button" class="fs-btn" data-fs="+" title="放大字体" aria-label="放大字体">A+</button>
+    </div>
     <div class="clock" id="clockDisplay">--:--:--</div>
   </div>
 </div>
@@ -36,8 +42,9 @@
   <span class="fresh-item">L4 评论 <b id="freshCommentary">--</b></span>
   <span class="fresh-item">L5 监管 <b id="freshCsrc">--</b></span>
   <span class="fresh-item">L3 对比 <b id="freshCompare">--</b></span>
-  <!-- 时间表需与 .github/workflows/daily-update.yml 的 cron 保持一致 -->
-  <span class="fresh-item fresh-sched" id="freshSched">每日 05:30 / 13:00 / 17:30 自动抓取 · 北京时间</span>
+  <!-- 时间表需与 .github/workflows/daily-update.yml 的 cron 保持一致
+       （_test_workflow_guard.py 会校验：这里是各轮的首槽，冗余槽不列） -->
+  <span class="fresh-item fresh-sched" id="freshSched">每日 05:17 / 12:37 / 17:23 自动抓取（每轮 2 个冗余槽）· 北京时间</span>
 </div>
 
 <!-- TABS -->
@@ -289,55 +296,126 @@
 <!-- ============================================================ -->
 <div class="panel" id="p-source">
   <div class="sec-hd">
-    <div class="sec-title"><span class="badge">L2</span>政策信息源 <span class="sec-sub">四大类信息源汇总 · 每张卡片的「最近更新」每日随抓取任务自动刷新，点击直达最新文件</span></div>
+    <div class="sec-title"><span class="badge">L2</span>政策信息源 <span class="sec-sub">四大类官方信息源 · 每张卡片直接列出对应官网入口（链接均为官方域名，点击直达，不中转、不构造）</span></div>
   </div>
   <div class="src-grid" id="srcGrid">
     <!-- 政策汇总库 -->
-    <a href="https://www.gov.cn/zhengce/zuixin.htm" target="_blank" class="src-card" data-src-key="policy">
+    <div class="src-card" data-src-key="policy">
       <div class="src-icon">📋</div>
       <div class="src-title">政策汇总库</div>
-      <div class="src-desc">权威政策原文数据库，涵盖国务院政府文件库、政府信息公开库、国研网政策库等。是获取中央和部委正式政策文本的第一来源，确保政策解读的准确性和完整性。</div>
+      <div class="src-desc">权威政策原文数据库，涵盖国务院文件库、政府信息公开库与部委政策发布栏目。是获取中央和部委正式政策文本的第一来源，确保政策解读的准确性和完整性。</div>
       <span class="src-tag">国务院文件库</span>
       <span class="src-tag">政府信息公开</span>
-      <span class="src-tag">国研网</span>
-      <div class="src-url">→ gov.cn/zhengce</div>
-    </a>
+      <span class="src-tag">部委政策发布</span>
+      <div class="src-sites">
+        <a class="src-site src-site--main" href="https://www.gov.cn/zhengce/zuixin.htm" target="_blank" rel="noopener" data-src-open="policy">
+          <span class="src-site-mark">→</span>
+          <span class="src-site-name">中国政府网 · 最新政策</span>
+          <span class="src-site-host">gov.cn</span>
+        </a>
+        <a class="src-site" href="https://www.gov.cn/zhengce/jiedu/" target="_blank" rel="noopener">
+          <span class="src-site-mark">·</span>
+          <span class="src-site-name">中国政府网 · 政策解读</span>
+          <span class="src-site-host">gov.cn</span>
+        </a>
+        <a class="src-site" href="https://www.ndrc.gov.cn/xxgk/zcfb/" target="_blank" rel="noopener">
+          <span class="src-site-mark">·</span>
+          <span class="src-site-name">国家发改委 · 政策发布</span>
+          <span class="src-site-host">ndrc.gov.cn</span>
+        </a>
+        <a class="src-site" href="https://www.miit.gov.cn/zwgk/zcwj/index.html" target="_blank" rel="noopener">
+          <span class="src-site-mark">·</span>
+          <span class="src-site-name">工业和信息化部 · 政策文件</span>
+          <span class="src-site-host">miit.gov.cn</span>
+        </a>
+      </div>
+    </div>
 
     <!-- 国债汇总 -->
-    <a href="https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/" target="_blank" class="src-card" data-src-key="bond">
+    <div class="src-card" data-src-key="bond">
       <div class="src-icon">💰</div>
       <div class="src-title">国债汇总</div>
       <div class="src-desc">国家债务发行与管理信息汇总，包括记账式国债、储蓄国债、特别国债等。用于跟踪国家财政融资节奏、债务结构变化和财政政策力度。</div>
       <span class="src-tag">记账式国债</span>
       <span class="src-tag">储蓄国债</span>
       <span class="src-tag">特别国债</span>
-      <div class="src-url">→ 财政部预算司·国债发行通知（每日逐笔）</div>
-    </a>
+      <div class="src-sites">
+        <a class="src-site src-site--main" href="https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/" target="_blank" rel="noopener" data-src-open="bond">
+          <span class="src-site-mark">→</span>
+          <span class="src-site-name">财政部预算司 · 国债发行通知（每日逐笔）</span>
+          <span class="src-site-host">bgt.mof.gov.cn</span>
+        </a>
+        <a class="src-site" href="https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/" target="_blank" rel="noopener">
+          <span class="src-site-mark">·</span>
+          <span class="src-site-name">财政部预算司 · 国债管理专栏</span>
+          <span class="src-site-host">bgt.mof.gov.cn</span>
+        </a>
+      </div>
+    </div>
 
     <!-- 地方债汇总 -->
-    <a href="https://yss.mof.gov.cn/zhuantilanmu/dfzgl/sjtj/" target="_blank" class="src-card" data-src-key="localbond">
+    <div class="src-card" data-src-key="localbond">
       <div class="src-icon">🏗</div>
       <div class="src-title">地方债汇总</div>
-      <div class="src-desc">地方政府债券发行与使用信息，包括一般债券、专项债券。专项债投向是观察财政政策"真金白银"流向的核心指标，债发得越多说明干得越急。</div>
+      <div class="src-desc">地方政府债券发行与使用信息，包括一般债券、专项债券。专项债投向是观察财政政策“真金白银”流向的核心指标，债发得越多说明干得越急。</div>
       <span class="src-tag">一般债券</span>
       <span class="src-tag">专项债券</span>
       <span class="src-tag">项目收益债</span>
-      <div class="src-url">→ 财政部预算司·地方债数据与政策法规</div>
-    </a>
+      <div class="src-sites">
+        <a class="src-site src-site--main" href="https://yss.mof.gov.cn/zhuantilanmu/dfzgl/sjtj/" target="_blank" rel="noopener" data-src-open="localbond">
+          <span class="src-site-mark">→</span>
+          <span class="src-site-name">财政部预算司 · 地方债统计数据</span>
+          <span class="src-site-host">yss.mof.gov.cn</span>
+        </a>
+        <a class="src-site" href="https://yss.mof.gov.cn/zhuantilanmu/dfzgl/" target="_blank" rel="noopener">
+          <span class="src-site-mark">·</span>
+          <span class="src-site-name">财政部预算司 · 地方债管理专栏</span>
+          <span class="src-site-host">yss.mof.gov.cn</span>
+        </a>
+        <a class="src-site" href="https://www.celma.org.cn/" target="_blank" rel="noopener">
+          <span class="src-site-mark">·</span>
+          <span class="src-site-name">中国地方政府债券信息公开平台</span>
+          <span class="src-site-host">celma.org.cn</span>
+        </a>
+      </div>
+    </div>
 
     <!-- 官方解读汇总 -->
-    <a href="http://www.people.com.cn" target="_blank" class="src-card" data-src-key="media">
+    <div class="src-card" data-src-key="media">
       <div class="src-icon">📰</div>
       <div class="src-title">官方解读汇总</div>
-      <div class="src-desc">权威媒体政策解读文章汇总，包括人民日报头版评论员文章、求是网、新华财经、财联社、国新办发布会。官媒定调往往带有政策信号，头版头条报道即国家级信号。</div>
+      <div class="src-desc">权威媒体的政策解读栏目，包括人民日报头版评论员文章、求是网、经济日报、新华社。官媒定调往往带有政策信号，头版头条报道即国家级信号。</div>
       <span class="src-tag">人民日报</span>
       <span class="src-tag">求是网</span>
-      <span class="src-tag">新华财经</span>
-      <span class="src-tag">财联社</span>
-      <span class="src-tag">国新办</span>
-      <div class="src-url">→ people.com.cn</div>
-    </a>
+      <span class="src-tag">经济日报</span>
+      <span class="src-tag">新华社</span>
+      <div class="src-sites">
+        <a class="src-site src-site--main" href="https://www.people.com.cn/" target="_blank" rel="noopener" data-src-open="media">
+          <span class="src-site-mark">→</span>
+          <span class="src-site-name">人民日报</span>
+          <span class="src-site-host">people.com.cn</span>
+        </a>
+        <a class="src-site" href="https://www.qstheory.cn/" target="_blank" rel="noopener">
+          <span class="src-site-mark">·</span>
+          <span class="src-site-name">求是网</span>
+          <span class="src-site-host">qstheory.cn</span>
+        </a>
+        <a class="src-site" href="https://www.ce.cn/" target="_blank" rel="noopener">
+          <span class="src-site-mark">·</span>
+          <span class="src-site-name">经济日报</span>
+          <span class="src-site-host">ce.cn</span>
+        </a>
+        <a class="src-site" href="https://www.news.cn/" target="_blank" rel="noopener">
+          <span class="src-site-mark">·</span>
+          <span class="src-site-name">新华社</span>
+          <span class="src-site-host">news.cn</span>
+        </a>
+      </div>
+    </div>
   </div>
+
+  <!-- 抓取口径：入口 URL 由 data/sources.json 每日回填，与实际抓取用的栏目地址保持一致 -->
+  <div class="src-fetch" id="srcFetchNote">官网入口随每日抓取任务核对 · 加载中…</div>
 </div>
 
 <!-- ============================================================ -->
@@ -348,10 +426,18 @@
     <div class="sec-title"><span class="badge">L3</span>历年政策对比 <span class="sec-sub">近三年 按产业赛道 × 部门交叉对比 · 每日对政策文件库做全库标题检索（计数=标题命中数，同一文件只计一次）· 定调词/动词/程度词差异自动提炼</span></div>
   </div>
   <div class="compare-box">
-    <!-- 产业赛道筛选条：3 行布局，按《国民经济行业分类》门类·十五五重点 -->
+    <!-- 产业赛道筛选：34 个主题不铺在页面上，收进下拉（默认收起） -->
     <div class="cmp-filter-bar">
       <div class="cmp-filter-title">▸ 产业赛道筛选（按《国民经济行业分类 GB/T 4754—2017》门类 · 重点关注「十五五」领域）</div>
-      <div class="cmp-filter-rows" id="cmpFilterChips"></div>
+      <div class="cmp-picker" id="cmpPicker">
+        <button type="button" class="cmp-picker-btn" id="cmpPickerBtn"
+                aria-expanded="false" aria-controls="cmpFilterChips">
+          <span class="cmp-picker-label" id="cmpPickerLabel">📋 全部产业主题</span>
+          <span class="cmp-picker-note" id="cmpPickerNote">加载中…</span>
+          <span class="cmp-picker-caret">▾</span>
+        </button>
+        <div class="cmp-picker-panel" id="cmpFilterChips" hidden></div>
+      </div>
     </div>
 
     <!-- 动态渲染的政策对比表格 -->
@@ -493,73 +579,83 @@
     </div>
   </div>
 
-  <!-- 实时监管动态：证监会/交易所/央行合并流（来自 latest.json，每日更新） -->
-  <div class="latest-feed" id="csrcLiveFeed" style="display:none">
-    <div class="lf-header">
+  <!-- 实时监管动态：默认收起（每天几十条，铺开会把页面拉得很长） -->
+  <details class="latest-feed fold fold--feed" id="csrcLiveFeed" style="display:none">
+    <summary>
       <span class="lf-title">📡 实时监管动态（证监会 / 交易所 / 央行 合并流）</span>
-      <span class="lf-sub" id="csrcLiveDate"></span>
+      <span class="fold-hint" id="csrcLiveDate"></span>
+    </summary>
+    <div class="fold-body">
+      <div id="csrcLiveList" class="lf-list"></div>
     </div>
-    <div id="csrcLiveList" class="lf-list"></div>
-  </div>
+  </details>
 
-  <!-- ① 监管对账单：负面清单 vs 正面试点 -->
+  <!-- ① 监管对账单：负面清单 vs 正面试点（默认展开，这是本层最该先看的两栏） -->
   <div class="csrc-ledger">
-    <div class="csrc-col csrc-col--penalty">
-      <div class="cl-hd">
+    <details class="csrc-col csrc-col--penalty fold fold--col" open>
+      <summary>
         <span class="cl-title">🚫 负面清单 · 谁被罚了</span>
-        <span class="cl-meta" id="csrcPenaltyMeta"></span>
+        <span class="fold-hint" id="csrcPenaltyMeta"></span>
+      </summary>
+      <div class="fold-body">
+        <div class="cl-stat" id="csrcPenaltyStat"></div>
+        <div class="cl-list lf-list--scroll" id="csrcPenaltyList"></div>
       </div>
-      <div class="cl-stat" id="csrcPenaltyStat"></div>
-      <div class="cl-list lf-list--scroll" id="csrcPenaltyList"></div>
-    </div>
-    <div class="csrc-col csrc-col--approval">
-      <div class="cl-hd">
+    </details>
+    <details class="csrc-col csrc-col--approval fold fold--col" open>
+      <summary>
         <span class="cl-title">✅ 正面试点 · 谁被放行了</span>
-        <span class="cl-meta" id="csrcApprovalMeta"></span>
+        <span class="fold-hint" id="csrcApprovalMeta"></span>
+      </summary>
+      <div class="fold-body">
+        <div class="cl-stat" id="csrcApprovalStat"></div>
+        <div class="cl-list lf-list--scroll" id="csrcApprovalList"></div>
       </div>
-      <div class="cl-stat" id="csrcApprovalStat"></div>
-      <div class="cl-list lf-list--scroll" id="csrcApprovalList"></div>
-    </div>
+    </details>
   </div>
 
-  <!-- ② 发行上市审核进度（实时试点进度条） -->
-  <div class="rv-box">
-    <div class="rv-hd">
+  <!-- ② 发行上市审核进度：默认收起（KPI + 8 组条形 + 趋势图 + 放行表，整块近 3 屏） -->
+  <details class="rv-box fold" id="csrcReviewBox">
+    <summary>
       <span class="rv-title">📊 发行上市审核 · 实时进度条</span>
-      <span class="rv-meta" id="csrcReviewMeta"></span>
+      <span class="fold-hint" id="csrcReviewMeta"></span>
+    </summary>
+    <div class="fold-body">
+      <div class="rv-kpis" id="csrcReviewKpis"></div>
+
+      <div class="rv-sub-title">▸ 在审状态分布（当前快照）</div>
+      <div class="rv-stages" id="csrcReviewStages"></div>
+
+      <div class="rv-grid">
+        <div class="rv-panel">
+          <div class="rv-panel-title">上市板块</div>
+          <div id="csrcReviewMarkets" class="rv-bars"></div>
+        </div>
+        <div class="rv-panel">
+          <div class="rv-panel-title">行业分布（前 8）</div>
+          <div id="csrcReviewIndustries" class="rv-bars"></div>
+        </div>
+        <div class="rv-panel rv-panel--wide">
+          <div class="rv-panel-title">审批周期趋势（受理→注册生效 · 天）</div>
+          <div id="csrcReviewCycle" class="rv-chart"></div>
+        </div>
+      </div>
+
+      <div class="rv-sub-title">▸ 最近放行（注册生效）</div>
+      <div id="csrcReviewApproved" class="rv-table"></div>
     </div>
-    <div class="rv-kpis" id="csrcReviewKpis"></div>
+  </details>
 
-    <div class="rv-sub-title">▸ 在审状态分布（当前快照）</div>
-    <div class="rv-stages" id="csrcReviewStages"></div>
-
-    <div class="rv-grid">
-      <div class="rv-panel">
-        <div class="rv-panel-title">上市板块</div>
-        <div id="csrcReviewMarkets" class="rv-bars"></div>
-      </div>
-      <div class="rv-panel">
-        <div class="rv-panel-title">行业分布（前 8）</div>
-        <div id="csrcReviewIndustries" class="rv-bars"></div>
-      </div>
-      <div class="rv-panel rv-panel--wide">
-        <div class="rv-panel-title">审批周期趋势（受理→注册生效 · 天）</div>
-        <div id="csrcReviewCycle" class="rv-chart"></div>
-      </div>
-    </div>
-
-    <div class="rv-sub-title">▸ 最近放行（注册生效）</div>
-    <div id="csrcReviewApproved" class="rv-table"></div>
-  </div>
-
-  <!-- ③ 官媒定调 -->
-  <div class="rv-box">
-    <div class="rv-hd">
+  <!-- ③ 官媒定调：默认收起 -->
+  <details class="rv-box fold">
+    <summary>
       <span class="rv-title">📰 官媒定调 · 首例 / 首单 / 首个</span>
-      <span class="rv-meta">头版报道创新业务 = 国家级试点信号</span>
+      <span class="fold-hint">头版报道创新业务 = 国家级试点信号</span>
+    </summary>
+    <div class="fold-body">
+      <div id="csrcMediaList" class="media-list"></div>
     </div>
-    <div id="csrcMediaList" class="media-list"></div>
-  </div>
+  </details>
 
   <!-- 去重指引：资金三笔钱统一归 L6 -->
   <div class="cross-ref">
@@ -590,41 +686,21 @@
   <!-- 四个资金通道：各自本周期 vs 上周期 + 行业分布条 + 原文 -->
   <div class="flow-grid" id="flowChannels"></div>
 
-  <!-- 行业增减榜：哪些行业本周期拿到更多文件（跨三个行业维度通道汇总） -->
-  <div class="kw-analysis" style="margin-top:14px">
-    <div class="kw-hd" id="flowMoverHd">▸ 行业增减榜</div>
-    <div class="flow-movers" id="flowMovers"></div>
-  </div>
-
-  <!-- 本周期原文清单（全通道合并，点击核验） -->
-  <div class="kw-analysis" style="margin-top:14px">
-    <div class="kw-hd">▸ 本周期文件原文汇总（点击跳转 · 每条均可核验）</div>
-    <div class="cl-list" id="flowDocs"></div>
-  </div>
-
-  <!-- 数据出处：通道 → 官方来源 → 抓取方式（链接一律原样取回，不做构造） -->
-  <div class="kw-analysis" style="margin-top:14px">
-    <div class="kw-hd">▸ 数据出处（所有原文链接均指向官方域名，页面不构造、不中转任何链接）</div>
-    <div class="flow-src">
-      <div class="flow-src-row"><span class="flow-src-ch">💰 专项资金 / 预算下达</span>
-        <span>财政部「政策发布」栏目（mof.gov.cn/zhengwuxinxi/zhengcefabu/，列表页原样取回文章链接）
-        ＋ gov.cn 政策库检索接口（sousuo.www.gov.cn，标题命中）</span></div>
-      <div class="flow-src-row"><span class="flow-src-ch">🏗 专项债 / 特别国债</span>
-        <span>gov.cn 政策库检索接口（sousuo.www.gov.cn/search-gov/data，searchfield=title），
-        链接为接口返回的原文地址</span></div>
-      <div class="flow-src-row"><span class="flow-src-ch">🧪 试点 / 示范 / 先行区</span>
-        <span>gov.cn 政策库检索接口（同上）</span></div>
-      <div class="flow-src-row"><span class="flow-src-ch">📈 一级市场融资</span>
-        <span>证监会官网行政许可/审核公示（www.csrc.gov.cn，与 L5 共用同一份台账，列表页原样取回）
-        ＋ 央行 pbc.gov.cn（经 L1 政策速览复用）＋ gov.cn 政策库</span></div>
+  <!-- 行业增减榜：哪些行业本周期拿到更多文件（默认收起） -->
+  <details class="kw-analysis fold fold--kw">
+    <summary id="flowMoverHd">▸ 行业增减榜</summary>
+    <div class="fold-body">
+      <div class="flow-movers" id="flowMovers"></div>
     </div>
-    <div class="flow-src-note">
-      可靠性：① 每条原文都在条目上标注了来源（证监会审核台账 / gov.cn 政策库 / 财政部官网栏目 / L1 政策速览），
-      点开即可比对标题与发文单位；② 财政部各司局子站的文章页原本是 http，已统一升级为 https
-      （https 实测可用），避免浏览器「仅 HTTPS 模式」拦截；③ 个别链接临时打不开通常是对方站点限流，
-      稍后重试即可 —— 链接地址本身取自官方页面，不存在过期跳转或第三方中转。
+  </details>
+
+  <!-- 本周期原文清单（全通道合并，点击核验）· 默认收起 -->
+  <details class="kw-analysis fold fold--kw">
+    <summary>▸ 本周期文件原文汇总（点击跳转 · 每条均可核验）</summary>
+    <div class="fold-body">
+      <div class="cl-list" id="flowDocs"></div>
     </div>
-  </div>
+  </details>
 
   <!-- 跨页去重指引：本层只讲「钱投向哪」，不重复其他层的内容 -->
   <div class="cross-ref" style="margin-top:14px">
@@ -649,7 +725,7 @@
   <a href="https://www.pbc.gov.cn" target="_blank">pbc.gov.cn</a>·
   <a href="https://www.mof.gov.cn" target="_blank">mof.gov.cn</a>·
   <a href="https://www.ndrc.gov.cn" target="_blank">ndrc.gov.cn</a>·
-  <a href="http://www.csrc.gov.cn" target="_blank">csrc.gov.cn</a>
+  <a href="https://www.csrc.gov.cn" target="_blank">csrc.gov.cn</a>
 </div>
 
 </div>

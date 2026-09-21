@@ -314,12 +314,20 @@ def strip_leading_noise(body, title=""):
 
 
 def clean_summary(text, limit=150, title=""):
-    """把正文整理成一条摘要：合并换行、去头部噪声、在句号处收尾。"""
+    """把正文整理成一条摘要：合并换行、去头部噪声、在句号处收尾。
+
+    返回空串表示「这段正文不配当摘要」——宁可页面少一行，也不要一行乱码。
+    """
     if not text:
         return ""
     lines = [l.strip() for l in text.split("\n") if len(l.strip()) >= 12]
     body = re.sub(r'\s+', '', " ".join(lines))
     body = strip_leading_noise(body, title)
+    # 导航面包屑 / 页脚声明不是正文：ce.cn 的列表页曾被当成详情页抓回，
+    # 摘要写成「首页>新闻>国内时政更多新闻×××2026-09-20 05:49 首页>…」，
+    # 在 L4 每一行里就是一段看不懂的乱码感文字。直接判为无效摘要。
+    if _JUNK_SUMMARY_RE.search(body):
+        return ""
     # 公文落款的"附件：xxx"不是内容本身，截掉
     body = re.split(r'附件[:：]', body)[0].strip()
     if not body:
@@ -333,6 +341,35 @@ def clean_summary(text, limit=150, title=""):
         if idx >= limit * 0.6:
             return cut[:idx + 1]
     return cut + "…"
+
+
+# 假摘要特征：站点导航面包屑 / 页脚声明 / 无障碍提示。命中即不当作正文。
+_JUNK_SUMMARY_RE = re.compile(
+    r'(首页\s*[>›》]|更多新闻|责任编辑|京ICP备|网页无障碍|打印本页|分享到|'
+    r'版权所有|主办单位[:：]|网站地图)'
+)
+
+
+def is_junk_summary(text, title=""):
+    """判断一段摘要是不是「没有信息量的噪声」。
+
+    三类：① 导航/页脚文字；② 标题在摘要里复读 ≥2 次；③ 摘要就等于标题。
+    前端 app.js 的 displaySummary() 用同一套判据兜底，两边必须一致。
+    """
+    s = (text or "").strip()
+    if not s:
+        return False
+    if _JUNK_SUMMARY_RE.search(s):
+        return True
+    t = (title or "").strip()
+    if len(t) >= 8:
+        if s.count(t) >= 2:
+            return True
+        _strip = lambda x: re.sub(r'[\s。．，,、；;：:·—\-…“”‘’"\'《》()（）]', '', x)
+        if _strip(s) == _strip(t):
+            return True
+    return False
+
 
 
 # 关键语句里要排除的公文噪声
@@ -837,6 +874,28 @@ BYLINE_MAP = {
     "金观平": "经济日报", "钟经文": "经济日报",
 }
 
+# 域名 → 媒体名。用于「条目没写 media 字段」时兜底：
+# ce.cn（经济日报官网）早期抓回来的条目没有 media，页面上整行抬头就只剩日期，
+# 与相邻的「日期 + 来源」对不齐 —— 用户看到的「每行不规整」一半来自这里。
+MEDIA_HOSTS = (
+    (re.compile(r'(^|\.)paper\.ce\.cn$|(^|\.)ce\.cn$'), "经济日报"),
+    (re.compile(r'(^|\.)paper\.people\.com\.cn$|(^|\.)people\.com\.cn$'), "人民日报"),
+    (re.compile(r'(^|\.)qstheory\.cn$'), "求是网"),
+    (re.compile(r'(^|\.)news\.cn$'), "新华社"),
+)
+
+
+def media_by_host(url):
+    """按域名推断媒体名；识别不了返回空串。"""
+    u = (url or "").strip()
+    if not u:
+        return ""
+    host = re.sub(r'^https?://', '', u).split('/')[0].lower()
+    for rx, name in MEDIA_HOSTS:
+        if rx.search(host):
+            return name
+    return ""
+
 # 党媒电子版（数字报）配置。人民日报与经济日报用的是同一套数字报系统：
 # 版面页列文章链接，详情页带 <author> / <date> 结构化署名 —— 可以精确识别化名。
 PAPER_SITES = [
@@ -1118,8 +1177,57 @@ def fetch_ce_comments():
             if href.startswith("./"):
                 href = "http://www.ce.cn/xwzx/gnsz/gdxw/" + href[2:]
             out.append({"url": href, "title": title, "author": byline,
-                        "byline": byline, "date": date_from_url(href), "body": ""})
+                        "byline": byline, "date": date_from_url(href), "body": "",
+                        # 必须显式写 media：否则页面上这一行抬头只有日期，
+                        # 与相邻的「日期 + 来源」参差不齐（见 L4 排版反馈）。
+                        "media": "经济日报"})
     return out[:20]
+
+
+def repair_commentary_items(items):
+    """就地修复累积库里的历史脏数据，返回 (修摘要数, 补媒体数)。
+
+    累积库是 append-only 的，抓取侧修好之后历史条目并不会自己变干净：
+      · 假摘要（导航面包屑 / 标题复读）会永远留在页面上，而且 enrich_commentary
+        只补「空摘要」的条目，所以坏摘要连重算的机会都没有；
+      · ce.cn 早期条目没有 media 字段，整行抬头只剩日期。
+    所以每轮先过一遍这里：清掉坏摘要（下轮会按正文重新生成）、按域名补 media。
+    """
+    fixed, filled = 0, 0
+    for x in items or []:
+        if is_junk_summary(x.get("summary"), x.get("title")):
+            x["summary"] = ""
+            fixed += 1
+        if not x.get("media"):
+            m = media_by_host(x.get("url")) or BYLINE_MAP.get(x.get("byline") or "", "")
+            if m:
+                x["media"] = m
+                filled += 1
+    return fixed, filled
+
+
+def dedup_commentary_by_title(items):
+    """同一篇文章常同时出现在「数字报」和「官网频道」，URL 不同但标题一模一样。
+
+    浅层后果是页面上同一标题连着出现两次（用户会觉得"重复/错乱"）。
+    保留信息更全的那条：有 media + 有摘要 + 有 keywords 的优先。
+    """
+    def score(x):
+        return (1 if x.get("media") else 0) + (1 if x.get("summary") else 0) \
+            + (1 if x.get("keywords") else 0) + (1 if x.get("keySentence") else 0)
+
+    best, order = {}, []
+    for x in items or []:
+        t = (x.get("title") or "").strip()
+        if not t:
+            continue
+        if t not in best:
+            best[t] = x
+            order.append(t)
+        elif score(x) > score(best[t]):
+            best[t] = x
+    return [best[t] for t in order]
+
 
 
 def enrich_commentary(items):
@@ -1136,8 +1244,11 @@ def enrich_commentary(items):
     for x in items:
         body = x.get("body", "")
         if not x.get("summary"):
-            x["summary"] = clean_summary(body or x["title"], SUMMARY_LIMIT,
-                                         x.get("title", ""))
+            # 只用正文生成摘要。旧版在没抓到正文时拿标题顶上，
+            # 结果页面上「标题」下面又印一遍「标题」，纯噪声。
+            x["summary"] = clean_summary(body, SUMMARY_LIMIT, x.get("title", ""))
+        if not x.get("media"):
+            x["media"] = media_by_host(x.get("url")) or BYLINE_MAP.get(x.get("byline") or "", "")
         x["keywords"] = extract_keywords(x.get("title", ""), x.get("summary", ""),
                                          body[:800])
         x["keySentence"] = (
@@ -1158,11 +1269,17 @@ def _fetch_body_only(item):
 def fetch_commentary(existing=None, bootstrap=False):
     """汇总党媒来源，并与历史累积库合并去重。"""
     existing = existing if isinstance(existing, list) else []
-    known = {x.get("url") for x in existing if x.get("url")}
 
-    # 求是网历史条目署名回填（早期版本写死了兜底署名）
+    # 先修累积库里的历史脏数据（假摘要 / 缺媒体名）。
+    # 顺序很重要：必须在算 known 之前跑，修完的条目才能进入下面的补抓流程。
     if existing:
+        # 求是网历史条目署名回填（早期版本写死了兜底署名）
         backfill_qstheory_bylines(existing)
+        fixed, filled = repair_commentary_items(existing)
+        if fixed or filled:
+            print(f"  累积库自修复：清掉假摘要 {fixed} 条、补齐媒体名 {filled} 条")
+
+    known = {x.get("url") for x in existing if x.get("url")}
 
     days = COMMENTARY_LOOKBACK_DAYS
     if bootstrap:
@@ -1181,10 +1298,22 @@ def fetch_commentary(existing=None, bootstrap=False):
         except Exception as e:
             print(f"  {name} 抓取失败（不影响主流程）: {e}")
 
-    if not fresh:
-        return existing
+    if fresh:
+        enrich_commentary(fresh)
 
-    enrich_commentary(fresh)
+    # 假摘要被清掉的历史条目要重新生成。加 summaryTried 标记，
+    # 否则「正文永远抓不到」的条目每轮都会白等一次 12s 超时。
+    retry = [x for x in existing
+             if not x.get("summary") and not x.get("summaryTried")]
+    if retry:
+        print(f"  重新生成历史条目摘要：{len(retry)} 条")
+        try:
+            enrich_commentary(retry)
+        except Exception as e:
+            print(f"  历史摘要重生成失败（不影响主流程）: {e}")
+        for x in retry:
+            if not x.get("summary"):
+                x["summaryTried"] = 1
 
     merged = existing + fresh
     seen, out = set(), []
@@ -1194,6 +1323,14 @@ def fetch_commentary(existing=None, bootstrap=False):
             continue
         seen.add(u)
         out.append(x)
+
+    # 同一篇文章常同时挂在「数字报」和「官网频道」上（URL 不同、标题一样），
+    # 不去重的话页面上会同一标题连着出现两次，看着就是重复。
+    before = len(out)
+    out = dedup_commentary_by_title(out)
+    if len(out) != before:
+        print(f"  跨源同题去重：{before} → {len(out)} 条")
+
     out.sort(key=lambda x: (x.get("date") or "0000-00-00"), reverse=True)
     return out
 

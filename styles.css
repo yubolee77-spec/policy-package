@@ -1,8 +1,14 @@
-:root{--bg-primary:#1a1a1a;--bg-secondary:#242424;--bg-panel:#1e1e1e;--bg-card:#2a2a2a;--bg-hover:#333333;--border-primary:#3a3a3a;--text-primary:#e8e8e8;--text-secondary:#b0b0b0;--text-muted:#808080;--accent-amber:#e0a030;--accent-green:#5bbf7d;--accent-red:#e07070;--accent-orange:#ffb74d;--accent-sand:#c9a86a;--accent-teal:#4da69a;--shadow-glow:0 0 20px rgba(224,160,48,.15);--font-mono:'SF Mono','JetBrains Mono','Consolas',monospace;--font-sans:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif}
+:root{--bg-primary:#1a1a1a;--bg-secondary:#242424;--bg-panel:#1e1e1e;--bg-card:#2a2a2a;--bg-hover:#333333;--border-primary:#3a3a3a;--text-primary:#e8e8e8;--text-secondary:#b0b0b0;--text-muted:#808080;--accent-amber:#e0a030;--accent-green:#5bbf7d;--accent-red:#e07070;--accent-orange:#ffb74d;--accent-sand:#c9a86a;--accent-teal:#4da69a;--shadow-glow:0 0 20px rgba(224,160,48,.15);--font-mono:'SF Mono','JetBrains Mono','Consolas',monospace;--font-sans:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;
+/* 全站字号调节器：1 = 标准（见 .app 的 zoom）。 */
+--fs-zoom:1}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--bg-primary);color:var(--text-primary);font-family:var(--font-sans);min-height:100vh;overflow-x:hidden}
 body::before{content:'';position:fixed;top:0;left:0;right:0;bottom:0;background-image:linear-gradient(rgba(224,160,48,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(224,160,48,.02) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;z-index:0}
-.app{position:relative;z-index:1;max-width:1440px;margin:0 auto;padding:14px 18px}
+.app{position:relative;z-index:1;margin:0 auto;
+/* 字号调节器：zoom = 放大倍数；外框宽度与内边距同时除以该倍数，
+   所以 --fs-zoom=1 时与原来逐字节等价，放大后也不会横向溢出。 */
+zoom:var(--fs-zoom,1);max-width:calc(1440px / var(--fs-zoom,1));
+padding:calc(14px / var(--fs-zoom,1)) calc(18px / var(--fs-zoom,1))}
 .header{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:linear-gradient(180deg,var(--bg-secondary),var(--bg-primary));border:1px solid var(--border-primary);border-radius:8px;margin-bottom:14px}
 .logo{display:flex;align-items:center;gap:12px;font-family:var(--font-mono)}
 .logo-icon{width:30px;height:30px;background:linear-gradient(135deg,var(--accent-amber),var(--accent-orange));border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:15px;color:var(--bg-primary);font-weight:bold}
@@ -117,7 +123,6 @@ a:hover{color:inherit}
 .latest-feed{background:var(--bg-panel);border:1px solid var(--border-primary);border-radius:8px;padding:18px;margin-bottom:18px;border-left:3px solid var(--accent-amber)}
 .lf-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border-primary)}
 .lf-title{font-size:14px;font-weight:600;color:var(--accent-amber)}
-.lf-sub{font-size:11px;color:var(--text-muted);font-family:var(--font-mono)}
 .lf-group{margin-bottom:16px}
 .lf-group:last-child{margin-bottom:0}
 .lf-group-hd{font-size:12px;color:var(--text-secondary);font-weight:600;margin-bottom:8px;letter-spacing:.5px}
@@ -171,23 +176,6 @@ a:hover{color:inherit}
 .src-title{font-size:15px;font-weight:600;margin-bottom:6px}
 .src-desc{font-size:12px;color:var(--text-secondary);line-height:1.6;margin-bottom:10px}
 .src-tag{display:inline-block;font-size:10px;padding:2px 6px;background:rgba(224,160,48,.15);color:var(--accent-amber);border-radius:3px;margin-right:4px;font-family:var(--font-mono);margin-bottom:4px}
-.src-url{font-family:var(--font-mono);font-size:11px;color:var(--accent-amber);display:flex;align-items:center;gap:5px;margin-top:6px}
-/* 「最近更新」块：由 data/sources.json 每日刷新（原先这些信息是手写在 HTML 里的死链接） */
-.src-latest{
-  margin-top:10px;padding:8px 10px;border-radius:5px;
-  background:rgba(90,190,170,.07);border-left:3px solid var(--accent-teal);
-  display:flex;flex-direction:column;gap:3px;
-}
-.src-latest-hd{font-family:var(--font-mono);font-size:10px;color:var(--accent-teal);font-weight:600}
-.src-latest-title{font-size:11.5px;color:var(--text-primary);line-height:1.5}
-.src-latest-src{font-size:10px;color:var(--text-muted);font-family:var(--font-mono)}
-.src-latest-note{font-size:10px;color:var(--accent-amber);line-height:1.5}
-/* 来源栏目长期未更新（不是本站没抓） */
-.src-latest--old{background:rgba(224,160,48,.07);border-left-color:var(--accent-amber)}
-.src-latest--old .src-latest-hd{color:var(--accent-amber)}
-/* 本次抓取零命中，沿用上一版 */
-.src-latest--stale{background:rgba(224,90,90,.08);border-left-color:#e05a5a}
-.src-latest--stale .src-latest-hd{color:#e05a5a}
 /* L3 新增赛道兜底行（app.js 分类表未登记时不丢数据） */
 .cmp-row-orphan{border-left-style:dashed}
 .cmp-table{width:100%;background:var(--bg-panel);border:1px solid var(--border-primary);border-radius:8px;overflow:hidden}
@@ -202,7 +190,6 @@ a:hover{color:inherit}
 /* ============ 历年政策对比：产业赛道筛选条（3 行布局）+ 父子行表格 ============ */
 .cmp-filter-bar{margin-bottom:14px;padding:12px 14px;background:var(--bg-card);border:1px solid var(--border-primary);border-radius:6px}
 .cmp-filter-title{font-size:12px;color:var(--accent-amber);font-family:var(--font-mono);font-weight:600;margin-bottom:10px;letter-spacing:.3px;line-height:1.5}
-.cmp-filter-rows{display:flex;flex-direction:column;gap:8px}
 /* 「全部」单独一行 */
 .cmp-filter-all{display:flex;justify-content:center;padding:8px;background:var(--bg-primary);border-radius:4px;border:1px dashed var(--border-primary)}
 .cmp-filter-all .cmp-chip{padding:6px 22px;font-size:12px}
@@ -633,7 +620,6 @@ a:hover{color:inherit}
 .doc-kw{margin:5px 0}
 .doc-key{font-size:11px;color:var(--text-secondary);line-height:1.6;padding:5px 8px;background:rgba(88,184,196,.06);border-left:2px solid var(--accent-cyan);border-radius:3px;margin:5px 0}
 .doc-key b{color:var(--accent-cyan);font-size:10px;font-family:var(--font-mono);margin-right:5px}
-.doc-actions{margin-top:5px}
 .doc-body{flex:1;min-width:0}
 
 @media(max-width:768px){
@@ -653,9 +639,7 @@ a:hover{color:inherit}
 .csrc-col--penalty{border-left:3px solid var(--accent-red)}
 .csrc-col--approval{border-left:3px solid var(--accent-green)}
 
-.cl-hd{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border-primary)}
 .cl-title{font-size:13px;font-weight:600;color:var(--text-primary);font-family:var(--font-mono);letter-spacing:.3px}
-.cl-meta{font-size:10px;color:var(--text-muted);font-family:var(--font-mono);flex-shrink:0}
 
 /* 统计条：本周期条数 + 类型分布 */
 .cl-stat{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-bottom:10px;min-height:22px}
@@ -706,9 +690,7 @@ a:hover{color:inherit}
 
 /* ---------- ② 发行上市审核进度 ---------- */
 .rv-box{background:var(--bg-card);border:1px solid var(--border-primary);border-radius:8px;padding:16px;margin-bottom:16px}
-.rv-hd{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
 .rv-title{font-size:14px;font-weight:600;color:var(--text-primary);font-family:var(--font-mono);letter-spacing:.3px}
-.rv-meta{font-size:10.5px;color:var(--text-muted);font-family:var(--font-mono)}
 .rv-sub-title{font-size:12px;color:var(--accent-sand);font-family:var(--font-mono);letter-spacing:.4px;
   margin:16px 0 10px;padding-bottom:6px;border-bottom:1px dashed var(--border-primary)}
 
@@ -934,15 +916,145 @@ a:hover{color:inherit}
 .flow-mover-delta{font-family:var(--font-mono);font-size:11px}
 .flow-mover.is-up .flow-mover-delta{color:var(--accent-red)}
 .flow-mover.is-down .flow-mover-delta{color:var(--accent-green)}
-/* 数据出处块：通道｜来源 两列，窄屏折成单列 */
-.flow-src{display:flex;flex-direction:column;gap:8px}
-.flow-src-row{display:grid;grid-template-columns:172px 1fr;gap:10px;align-items:baseline;
-  font-size:11.5px;line-height:1.7;color:var(--text-secondary)}
-.flow-src-ch{font-weight:600;color:var(--text-primary);white-space:nowrap}
-.flow-src-note{margin-top:10px;padding-top:10px;border-top:1px dashed var(--border-primary);
-  font-size:11.5px;line-height:1.75;color:var(--text-muted)}
-@media (max-width:900px){.flow-src-row{grid-template-columns:1fr}}
 @media (max-width:900px){.flow-ind-row{grid-template-columns:76px 1fr 76px}}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   2026-09-21 新增：字号调节器 / L2 官网入口 / L3 行业下拉 / L5·L6 折叠
+   ⚠️ 这一段是「顶层规则」，必须留在下面那段「设备分档」响应式标记之前 ——
+      _check_css_scope.py 只把标记之后的内容当作追加段来校验。
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* ---------- ① 全站字号调节器（页头右侧，桌面 / 平板 / 手机同一套） ---------- */
+.fs-ctl{display:inline-flex;align-items:stretch;border:1px solid var(--border-primary);
+  border-radius:5px;overflow:hidden;font-family:var(--font-mono);flex-shrink:0}
+.fs-btn{width:26px;padding:0;background:var(--bg-secondary);border:none;
+  color:var(--text-secondary);font-size:13px;line-height:1;cursor:pointer;
+  font-family:var(--font-mono);transition:background .2s,color .2s}
+.fs-btn:hover:not(:disabled){background:var(--bg-hover);color:var(--accent-amber)}
+.fs-btn:disabled{opacity:.3;cursor:not-allowed}
+.fs-val{min-width:40px;display:inline-flex;align-items:center;justify-content:center;
+  padding:0 6px;font-size:10.5px;color:var(--accent-amber);background:var(--bg-panel);
+  border-left:1px solid var(--border-primary);border-right:1px solid var(--border-primary)}
+
+/* ---------- ② L2 信息源：卡片只列「官网入口」，不再挂最新文件 ---------- */
+.src-sites{display:flex;flex-direction:column;gap:1px;margin-top:10px;padding-top:9px;
+  border-top:1px dashed var(--border-primary)}
+.src-site{display:grid;grid-template-columns:auto 1fr auto;align-items:baseline;gap:7px;
+  padding:5px 7px;border-radius:4px;font-size:12px;color:var(--text-secondary);
+  transition:background .2s,color .2s}
+.src-site:hover{background:var(--bg-hover);color:var(--accent-amber)}
+.src-site-mark{flex-shrink:0;color:var(--accent-amber);font-size:11px}
+.src-site-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.src-site-host{font-family:var(--font-mono);font-size:10px;color:var(--text-muted);
+  white-space:nowrap}
+.src-site:hover .src-site-host{color:var(--accent-amber)}
+.src-site--main .src-site-name{font-weight:600;color:var(--text-primary)}
+.src-site--main:hover .src-site-name{color:var(--accent-amber)}
+.src-fetch{margin-top:12px;padding:9px 12px;border-radius:5px;
+  background:rgba(90,190,170,.07);border-left:3px solid var(--accent-teal);
+  font-size:11px;line-height:1.7;color:var(--text-secondary);
+  font-family:var(--font-mono)}
+
+/* ---------- ③ L3 行业目录：整块 chips 收进下拉，页面不再被目录撑长 ---------- */
+.cmp-picker{position:relative;margin-top:2px}
+.cmp-picker-btn{width:100%;display:flex;align-items:center;gap:9px;padding:10px 13px;
+  background:var(--bg-panel);border:1px solid var(--border-primary);border-radius:6px;
+  color:var(--text-primary);font-size:13px;font-family:var(--font-sans);cursor:pointer;
+  text-align:left;transition:border-color .2s,background .2s}
+.cmp-picker-btn:hover{background:var(--bg-hover)}
+.cmp-picker-btn[aria-expanded="true"]{border-color:var(--accent-amber)}
+.cmp-picker-label{flex:1;min-width:0;font-weight:600;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cmp-picker-note{flex-shrink:0;font-family:var(--font-mono);font-size:10.5px;
+  color:var(--text-muted)}
+.cmp-picker-caret{flex-shrink:0;color:var(--accent-amber);font-size:11px;
+  transition:transform .2s}
+.cmp-picker-btn[aria-expanded="true"] .cmp-picker-caret{transform:rotate(180deg)}
+.cmp-picker-panel{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:50;
+  max-height:min(380px,62vh);overflow-y:auto;padding:10px;background:var(--bg-panel);
+  border:1px solid var(--border-primary);border-radius:8px;
+  box-shadow:0 14px 34px rgba(0,0,0,.5)}
+.cmp-picker-panel[hidden]{display:none}
+.cmp-picker-panel::-webkit-scrollbar{width:8px}
+.cmp-picker-panel::-webkit-scrollbar-thumb{background:rgba(255,255,255,.16);border-radius:4px}
+.cmp-picker-panel::-webkit-scrollbar-thumb:hover{background:rgba(224,160,48,.45)}
+/* 下拉内：分类标签改「一行标题 + 下面铺 chips」，比原来的 170px 左栏更适合窄面板 */
+.cmp-picker-panel .cmp-filter-all{justify-content:stretch;padding:0;background:none;
+  border:none;margin-bottom:8px}
+.cmp-picker-panel .cmp-filter-all .cmp-chip{width:100%;padding:8px 12px;
+  justify-content:center;font-size:12px}
+.cmp-picker-panel .cmp-filter-row{display:block;padding:9px 10px;margin-bottom:6px;
+  background:var(--bg-card);border-radius:5px}
+.cmp-picker-panel .cmp-filter-row:last-child{margin-bottom:0}
+.cmp-picker-panel .cmp-row-label{flex-direction:row;flex-wrap:wrap;align-items:baseline;
+  gap:4px 10px;margin-bottom:7px;padding-top:0}
+.cmp-picker-panel .cmp-row-chips{padding-top:0}
+/* 整条赛道被选中（点分类名）时的视觉反馈 */
+.cmp-picker-panel .cat-name{cursor:pointer}
+.cmp-picker-panel .cat-name:hover{text-decoration:underline}
+.cmp-picker-panel .cat-name.is-picked{text-decoration:underline}
+
+/* ---------- ④ L5 / L6 折叠：长区块默认收起，先给结论再展开细节 ---------- */
+.fold{background:var(--bg-card);border:1px solid var(--border-primary);border-radius:8px;
+  margin-bottom:14px;overflow:hidden}
+.fold>summary{list-style:none;cursor:pointer;user-select:none;display:flex;align-items:center;
+  gap:9px;padding:12px 16px;font-size:13.5px;font-weight:600;color:var(--text-primary);
+  font-family:var(--font-sans);transition:background .2s}
+.fold>summary::-webkit-details-marker{display:none}
+.fold>summary::before{content:'▸';flex:0 0 auto;color:var(--accent-amber);font-size:11px;
+  line-height:1;transition:transform .2s}
+.fold[open]>summary::before{transform:rotate(90deg)}
+.fold>summary:hover{background:var(--bg-hover)}
+.fold[open]>summary{border-bottom:1px dashed var(--border-primary)}
+/* flex:0 0 auto 让 hint 不可收缩：hint 文字一长就顶出 summary，被 .fold 的
+   overflow:hidden 吃掉（改 0 1 auto 后只在放不下时才换行，桌面观感不变）。 */
+.fold-hint{margin-left:auto;flex:0 1 auto;min-width:0;overflow-wrap:anywhere;
+  font-family:var(--font-mono);font-size:10.5px;
+  font-weight:400;color:var(--text-muted);text-align:right;line-height:1.5}
+.fold[open] .fold-hint{color:var(--accent-amber)}
+.fold-body{padding:14px 16px}
+/* 变体 A：L5 监管对账单的两列（原来就是 .csrc-col 卡片） */
+.fold--col{padding:14px}
+.fold--col>summary{padding:0 0 9px;font-size:13px;font-family:var(--font-mono);
+  letter-spacing:.3px}
+.fold--col>summary:hover{background:none;color:var(--accent-amber)}
+.fold--col[open]>summary{border-bottom:1px solid var(--border-primary)}
+.fold--col>.fold-body{padding:0}
+/* 变体 B：L5 实时监管动态（沿用 .latest-feed 的左侧色条） */
+.fold--feed{padding:0;border-left:3px solid var(--accent-amber);margin-bottom:18px}
+.fold--feed>summary{padding:13px 18px}
+.fold--feed>.fold-body{padding:0 18px 16px}
+/* 变体 C：L6 的 .kw-analysis 区块 */
+.fold--kw{padding:0;margin-top:14px}
+.fold--kw>summary{font-family:var(--font-mono);font-size:12.5px;letter-spacing:.4px;
+  color:var(--accent-amber)}
+.fold--kw>.fold-body{padding:0 14px 14px}
+/* L4/L1 条目：关键词与「阅读原文」并排，不再让链接孤零零占一行 */
+.doc-kw{display:flex;flex-wrap:wrap;align-items:center;gap:4px}
+/* 抓取时间表是全站最长的一行 nowrap 文本：放大字号后它的可用宽度会按比例缩小，
+   留着 nowrap 就会顶出视口（实测 390px×1.3 倍时超出 103px，整页能左右拖）。
+   允许换行只在放不下时才生效，所以桌面观感不变。 */
+.fresh-sched{white-space:normal}
+/* 赛道差异说明里含「A→B」这类无空格长 token，放大后会顶破 .cmp-table 的 overflow:hidden
+   （实测平板 820px × 1.3 倍时超出 32px）。这条原来只写在手机断点里。
+   min-width:0 只给这一列：它是 grid 项「允许收缩」的开关，缺了它 1.1fr 轨道的
+   最小尺寸会被文字的最小内容宽度顶住，再怎么 overflow-wrap 也压不下来
+   （实测 820px × 1.3 仍超出 16px）。注意**不能**把这个开关推广到 `.cmp-child > div`：
+   年份列一旦可以收缩到 fr 份额以下，里面的标签就会溢出单元格，
+   实测 820px 被裁 31px/85px、桌面 1440px 被裁 17px。 */
+.cmp-child-note{overflow-wrap:anywhere;min-width:0}
+/* L4/L5 条目正文里可能出现无空格长 token（编号、百分比区间等）。这些条目所在的
+   卡片有 overflow-x:clip，token 一长就被裁掉半截（实测 320px × 1.3 倍时
+   .doc-summary 被裁 52px）。允许在任意位置断行即可，正常情况下不会触发。 */
+.doc-summary,.doc-title{overflow-wrap:anywhere}
+/* 极窄视口（≤360px）：页头一行放不下「logo + 状态点/更新日期 + 字号调节器 + 时钟」。
+   .header-right 里的四个子项最小宽度合计就有 264px，而 320px 视口折合只有 222px 可用，
+   时钟会被整块挤出右边界（实测 320px × 1.3 倍时超出 63px，整页可左右拖）。
+   这里让页头与右侧栏都允许换行：≥361px 完全不进这个断点，手机常见宽度观感不变。 */
+@media (max-width:360px){
+  .header{flex-wrap:wrap}
+  .header-right{flex-wrap:wrap}
+}
 
 /* ══════════════════════════════════════════════════════════════════════════
    响应式：设备分档（本段必须留在文件末尾，靠层叠顺序覆盖前面的零散断点）
@@ -1103,10 +1215,56 @@ a:hover{color:inherit}
   .doc-section-title{font-size:13px}
   .doc-title{font-size:13px}
   .doc-summary{font-size:12px;line-height:1.65}
-  .doc-keysent,.doc-key{font-size:11px}
+
+  /* L4/L1 条目在手机上一律「块状堆叠」：
+     日期+来源 单独一条带分隔线的抬头行，正文规规矩矩往下排。
+     原来靠 .doc-meta 的 inline-flex 和 .doc-item 的 align-items:flex-start，
+     日子和来源挤在同一基线、来源短长期错位，整列看起来就是「错乱」。 */
+  .doc-item{display:block;padding:11px 12px}
+  .doc-meta{width:auto;display:flex;flex-wrap:wrap;align-items:center;gap:5px 8px;
+    margin-bottom:7px;padding-bottom:6px;border-bottom:1px dashed var(--border-primary)}
+  .doc-date{font-size:11px}
+  .doc-source{font-size:10.5px;margin-top:0;padding:1px 6px;border-radius:3px;
+    background:rgba(255,255,255,.06);color:var(--text-secondary)}
+  .doc-meta .tier-tag{margin-left:auto}
+  .doc-byline{margin-bottom:5px}
+  .doc-title{margin-bottom:5px;line-height:1.5}
+  .doc-summary{margin-bottom:0}
+  .doc-kw{display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin:7px 0 0}
+  .doc-link{font-size:10.5px}
+  .doc-keysent,.doc-key{font-size:11px;margin-top:7px;margin-bottom:0}
+
+  /* ---------- 字号调节器：页头在手机上要挤得下 ---------- */
+  .header-right{gap:10px}
+  .fs-btn{width:30px;font-size:14px}
+  .fs-val{min-width:42px;font-size:11px}
+
+  /* ---------- L2 官网入口：窄屏让主机名换到第二行，不挤掉站名 ---------- */
+  .src-card{padding:14px}
+  .src-site{grid-template-columns:auto 1fr;gap:4px 7px;padding:6px 7px}
+  .src-site-name{white-space:normal;overflow-wrap:anywhere}
+  .src-site-host{grid-column:2;font-size:9.5px}
+
+  /* ---------- L3 行业下拉：面板铺满整行，内部标签全部左对齐 ---------- */
+  .cmp-filter-bar{padding:10px}
+  .cmp-picker-btn{padding:11px 12px;font-size:12.5px;flex-wrap:wrap;gap:4px 9px}
+  .cmp-picker-note{width:100%;text-align:left;margin-left:14px}
+  .cmp-picker-panel{max-height:60vh;padding:8px}
+  .cmp-picker-panel .cmp-filter-row{padding:9px 10px}
+
+  /* ---------- L5 / L6 折叠头：手机上标题与摘要都换行 ---------- */
+  .fold>summary{padding:12px 13px;font-size:13px;flex-wrap:wrap;gap:4px 9px}
+  /* 独占一行的 hint 用 padding 缩进，不能用 margin：width:100% 算的是内容盒宽度，
+     再叠一个 margin-left 就是 100%+14px，正好顶出 summary 14px（实测 320/390px）。 */
+  .fold-hint{margin-left:0;padding-left:14px;width:100%;text-align:left;font-size:10px}
+  .fold-body{padding:12px 13px}
+  .fold--col>summary{padding:0 0 9px}
+  .fold--feed>summary{padding:12px 14px}
+  .fold--feed>.fold-body{padding:0 14px 14px}
+  .fold--kw>summary{padding:12px 13px}
+  .fold--kw>.fold-body{padding:0 12px 12px}
 
   /* ---------- L5 证监会动态：条目改「日期+标签 / 标题」两行 ---------- */
-  .cl-hd{flex-wrap:wrap;gap:6px}
   .cl-item{grid-template-columns:auto 1fr;gap:2px 8px;padding:8px 10px}
   .cl-item-date{grid-column:1;grid-row:1;font-size:10px}
   .cl-tag{grid-column:2;grid-row:1;font-size:9.5px;padding:1px 6px}
@@ -1114,7 +1272,6 @@ a:hover{color:inherit}
   .cl-item-go{display:none}
   .media-list .media-item{grid-template-columns:42px 1fr;row-gap:4px;padding:8px 10px}
   .media-title{font-size:12.5px}
-  .rv-hd{gap:6px}
   .rv-title{font-size:13px}
   .rv-kpis{grid-template-columns:repeat(2,1fr)}
   .rv-kpi{padding:9px 10px}

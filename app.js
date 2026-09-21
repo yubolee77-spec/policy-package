@@ -12,6 +12,48 @@ function updateClock() {
 setInterval(updateClock, 1000);
 updateClock();
 
+// --- 全站字号调节器（桌面 / 平板 / 手机同一套）---
+// 用 zoom 整体等比缩放，而不是逐个改 font-size：
+// 字号、内边距、进度条、图标同比例放大，版式比例不变，所以「字大了不会错位」。
+// 外框宽度由 styles.css 的 .app 用 calc(1440px / var(--fs-zoom)) 反向补偿，
+// 因此放大后页面依旧不会横向溢出。档位与标签必须同步改。
+var FS_STEPS = [0.9, 1, 1.15, 1.3];
+var FS_LABELS = ['小', '标准', '大', '特大'];
+var FS_KEY = 'policy-pkg-fs';
+
+function applyFontScale(i) {
+  var idx = parseInt(i, 10);
+  if (isNaN(idx)) idx = 1;
+  idx = Math.max(0, Math.min(FS_STEPS.length - 1, idx));
+  document.documentElement.style.setProperty('--fs-zoom', String(FS_STEPS[idx]));
+  var val = document.getElementById('fsVal');
+  if (val) val.textContent = FS_LABELS[idx];
+  document.querySelectorAll('.fs-btn').forEach(function(b) {
+    var d = b.dataset.fs;
+    b.disabled = (d === '-' && idx === 0) || (d === '+' && idx === FS_STEPS.length - 1);
+  });
+  // ECharts 的画布尺寸是 init 时量出来的固定像素，缩放后不会自己跟着变，
+  // 会顶出容器（实测 390px×1.3 倍时 K 线画布溢出 87px）。已有的 resize
+  // 处理器会调 macroChart.resize()，所以这里主动触发一次让它重新量宽高。
+  try { window.dispatchEvent(new Event('resize')); } catch (e) {}
+  try { localStorage.setItem(FS_KEY, String(idx)); } catch (e) {}
+  return idx;
+}
+
+var currentFsIdx = 1;
+(function initFontScale() {
+  var saved = null;
+  try { saved = localStorage.getItem(FS_KEY); } catch (e) {}
+  currentFsIdx = applyFontScale(saved === null ? 1 : saved);
+  var ctl = document.getElementById('fsCtl');
+  if (!ctl) return;
+  ctl.addEventListener('click', function(e) {
+    var btn = e.target.closest ? e.target.closest('.fs-btn') : null;
+    if (!btn || btn.disabled) return;
+    currentFsIdx = applyFontScale(currentFsIdx + (btn.dataset.fs === '+' ? 1 : -1));
+  });
+})();
+
 // --- Tab Navigation ---
 const tabBtns = document.querySelectorAll('.tab-btn');
 const panels = document.querySelectorAll('.panel');
@@ -533,6 +575,28 @@ var FEED_GROUP_SHOW = 12;
 // 默认展开几个来源分组（按最新日期排序，只展开最靠前的几组）
 var FEED_GROUP_OPEN = 2;
 
+// ---- 摘要清洗：把「导航面包屑 / 标题复读」型假摘要挡在页面之外 ----
+// 累积库里混进过这类摘要：经济日报 ce.cn 的列表页曾被当成正文抓回，摘要写成
+// 「首页>新闻>国内时政更多新闻×××2026-09-20 05:49 首页>…」——在 L4 每一行里
+// 就是一段看不出所以然的乱码感文字（用户反馈的「每行的字有点错乱」一半来自这里）。
+// 抓取侧已修（scripts/update_data.py 的 clean_summary 加拦截 + 累积库自修复），
+// 但历史条目不会自己消失，所以渲染时再兜一层。
+var SUMMARY_JUNK_RE = /(首页\s*[>›》]|更多新闻|责任编辑|京ICP备|网页无障碍|打印本页|分享到)/;
+
+// 返回可直接显示的摘要；判定为噪声时返回空串 —— 宁可少一行，也不显示乱码行
+function displaySummary(raw, title) {
+  var s = String(raw == null ? '' : raw).trim();
+  if (!s) return '';
+  if (SUMMARY_JUNK_RE.test(s)) return '';
+  var t = String(title == null ? '' : title).trim();
+  if (t.length >= 8 && s.split(t).length - 1 >= 2) return '';   // 标题在摘要里复读 ≥2 次
+  var strip = function(x) {
+    return x.replace(/[\s。．，,、；;：:·—\-…“‘”’"'《》()（）]/g, '');
+  };
+  if (t && strip(s) === strip(t)) return '';                     // 摘要 == 标题，零信息量
+  return s;
+}
+
 // 渲染单条政策：结构对齐 L4「本月文件」，含摘要 / 关键词 / 关键语句 / 原文链接
 function renderFeedItem(item, srcLabel) {
   var kwHtml = (item.keywords || []).map(function(k) {
@@ -549,8 +613,9 @@ function renderFeedItem(item, srcLabel) {
   h += '<div class="doc-title">' +
        (isNew ? '<span class="lf-new-dot" title="近3天发布"></span>' : '') +
        escapeHtml(item.title) + '</div>';
-  if (item.summary) {
-    h += '<div class="doc-summary">' + escapeHtml(item.summary) + '</div>';
+  var summ = displaySummary(item.summary, item.title);
+  if (summ) {
+    h += '<div class="doc-summary">' + escapeHtml(summ) + '</div>';
   }
   if (item.keySentence) {
     h += '<div class="doc-keysent"><span class="doc-keysent-tag">关键语句</span>' +
@@ -710,19 +775,42 @@ function bylineNote(byline) {
   return '';
 }
 
+// 媒体域名 → 来源名（与 scripts/update_data.py 的 MEDIA_BY_HOST 同口径）。
+// 老条目缺 media 字段时用它兜底，保证每条评论都能显示「哪家媒体」，
+// 否则整行抬头只剩日期，与相邻行参差不齐。
+var MEDIA_HOSTS = [
+  [/(^|\.)paper\.ce\.cn$|(^|\.)ce\.cn$/, '经济日报'],
+  [/(^|\.)paper\.people\.com\.cn$|(^|\.)people\.com\.cn$/, '人民日报'],
+  [/(^|\.)qstheory\.cn$/, '求是网'],
+  [/(^|\.)news\.cn$/, '新华社']
+];
+function MEDIA_BY_HOST(url) {
+  var u = String(url == null ? '' : url);
+  if (!u) return '';
+  var host = u.replace(/^https?:\/\//i, '').split('/')[0].toLowerCase();
+  for (var i = 0; i < MEDIA_HOSTS.length; i++) {
+    if (MEDIA_HOSTS[i][0].test(host)) return MEDIA_HOSTS[i][1];
+  }
+  return '';
+}
+
 function renderDocItem(item) {
   var dateStr = (item.date || '').slice(5);
-  var src = item.media || item.source || '';
+  // 来源兜底：老数据里 ce.cn 这类条目没有 media 字段，抬头就只剩日期，
+  // 与相邻行（日期 + 来源）对不齐 —— 这是「看起来不规整」的主要来源之一。
+  // 抓取侧已补 media（scripts/update_data.py 会自修复累积库），这里按域名再兜一层。
+  var src = item.media || item.source || MEDIA_BY_HOST(item.url) || '';
   var byline = item.byline || '';
   var tier = item.tier || '';
   var kws = (item.keywords || []).map(function(k) {
     return '<span class="kw-tag kw-' + k.type + '">' + k.text + '</span>';
   }).join('');
+  var summ = displaySummary(item.summary, item.title);
 
   var html = '<div class="doc-item' + (byline ? ' doc-byline-item' : '') + '">';
   html += '<div class="doc-meta">';
   html += '<div class="doc-date">' + dateStr + '</div>';
-  html += '<div class="doc-source">' + escapeHtml(src) + '</div>';
+  if (src) html += '<div class="doc-source">' + escapeHtml(src) + '</div>';
   if (tier) {
     html += '<div class="tier-tag tier-' + tier + '">' + (TIER_LABEL[tier] || '') + '</div>';
   }
@@ -734,17 +822,17 @@ function renderDocItem(item) {
     html += '<div class="doc-byline">★ ' + escapeHtml(byline) +
             (note ? '<span class="byline-note">' + note + '</span>' : '') + '</div>';
   }
-  if (item.summary) {
-    html += '<div class="doc-summary">' + escapeHtml(item.summary) + '</div>';
-  }
-  if (kws) {
-    html += '<div class="doc-kw">' + kws + '</div>';
+  if (summ) {
+    html += '<div class="doc-summary">' + escapeHtml(summ) + '</div>';
   }
   if (item.keySentence) {
     html += '<div class="doc-key"><b>关键语句</b>' + escapeHtml(item.keySentence) + '</div>';
   }
-  html += '<div class="doc-actions"><a href="' + item.url +
-          '" target="_blank" class="doc-link">阅读原文 ↗</a></div>';
+  // 关键词与「阅读原文」同处一行（.doc-kw 是 flex-wrap）：旧版把链接单独放在
+  // .doc-actions 里，手机上一行标签 + 一行孤零零的链接，整列看着不整齐。
+  html += '<div class="doc-kw">' + kws +
+          (item.url ? '<a href="' + item.url + '" target="_blank" rel="noopener" class="doc-link">阅读原文 ↗</a>' : '') +
+          '</div>';
   html += '</div></div>';
   return html;
 }
@@ -1082,6 +1170,79 @@ const compareData = [
 
 let currentCompareFilter = 'all';
 
+// ---- L3 行业目录下拉 ----
+// 34 个主题（7 个分类 × 最多 11 个 chip）铺在页面上要占近 500px，比整个对比表还高。
+// 改成「一个按钮 + 点开的面板」：面板就是 #cmpFilterChips（renderCompareFilter 照旧
+// 往里写 chips），按钮文案由选中项上的 data-pick-label / data-pick-cnt 反推，
+// 所以不用改任何筛选逻辑，只加了一层「收/放」。
+function cmpPickerEls() {
+  return {
+    btn: document.getElementById('cmpPickerBtn'),
+    panel: document.getElementById('cmpFilterChips'),
+    label: document.getElementById('cmpPickerLabel'),
+    note: document.getElementById('cmpPickerNote')
+  };
+}
+
+function cmpPickerSync() {
+  var e = cmpPickerEls();
+  if (!e.panel) return;
+  var active = e.panel.querySelector('.cmp-chip.active')
+    || e.panel.querySelector('.cat-name.is-picked');
+  var lbl = (active && active.dataset) ? active.dataset.pickLabel : '';
+  var cnt = (active && active.dataset) ? active.dataset.pickCnt : '';
+  if (e.label) e.label.textContent = lbl || '📋 全部产业主题';
+  if (e.note) e.note.textContent = cnt ? '命中 ' + cnt + ' 条' : '';
+}
+
+function cmpPickerClose() {
+  var e = cmpPickerEls();
+  if (e.panel) e.panel.hidden = true;
+  if (e.btn) e.btn.setAttribute('aria-expanded', 'false');
+}
+
+function cmpPickerToggle() {
+  var e = cmpPickerEls();
+  if (!e.panel || !e.btn) return;
+  var willOpen = e.panel.hidden;
+  e.panel.hidden = !willOpen;
+  e.btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+  if (willOpen) {
+    var active = e.panel.querySelector('.cmp-chip.active');
+    // 展开后把「当前选中」滚到面板可视区，否则 34 个主题里找不到自己选了哪个
+    if (active && active.scrollIntoView) {
+      try { active.scrollIntoView({ block: 'nearest' }); } catch (err) {}
+    }
+  }
+}
+
+(function bindCmpPicker() {
+  var e = cmpPickerEls();
+  if (!e.btn) return;
+  e.btn.addEventListener('click', function(ev) {
+    ev.stopPropagation();
+    cmpPickerToggle();
+  });
+  // 点面板内部不要冒泡到 document，否则「刚点开就自己收起来」
+  if (e.panel) e.panel.addEventListener('click', function(ev) { ev.stopPropagation(); });
+  document.addEventListener('click', function() {
+    var cur = cmpPickerEls();
+    if (cur.panel && !cur.panel.hidden) cmpPickerClose();
+  });
+  document.addEventListener('keydown', function(ev) {
+    if (ev.key === 'Escape') cmpPickerClose();
+  });
+})();
+
+// chips 每次重渲染后调用：刷新按钮文案，并给新节点补「选完自动收起」
+function cmpPickerAfterRender(chipsEl) {
+  cmpPickerSync();
+  if (!chipsEl || !chipsEl.querySelectorAll) return;
+  chipsEl.querySelectorAll('.cmp-chip, .cat-name[data-track]').forEach(el => {
+    el.addEventListener('click', function() { cmpPickerClose(); });
+  });
+}
+
 // 自动对比数据（data/compare.json，每日随抓取任务更新）；
 // 缺失时回退到下方硬编码 compareData（兜底，保证页面永不空白）
 var compareAuto = null;
@@ -1096,21 +1257,22 @@ function renderCompareFilter() {
     let html = '';
     const grand = topics.reduce((a, t) =>
       a + Object.values(t.counts || {}).reduce((x, y) => x + y, 0), 0);
-    html += '<div class="cmp-filter-all"><span class="cmp-chip active" data-track="all">📋 全部产业主题（共 '
+    html += '<div class="cmp-filter-all"><span class="cmp-chip active" data-track="all"'
+      + ' data-pick-label="📋 全部产业主题" data-pick-cnt="' + grand + '">📋 全部产业主题（共 '
       + topics.length + ' 个 · ' + compareAuto.years.join('/') + ' · 全库标题命中 ' + grand + ' 条）</span></div>';
     compareCategories.forEach(cat => {
       const inTrack = topics.filter(t => t.track === cat.key);
       if (!inTrack.length) return;
       html += `<div class="cmp-filter-row" style="--track-color:${cat.color}">`;
       html += `<div class="cmp-row-label">`;
-      html += `<span class="cat-name" style="cursor:pointer" data-track="${cat.key}" title="点击筛选整个赛道">${cat.icon} ${cat.label}（${inTrack.length}）</span>`;
+      html += `<span class="cat-name" style="cursor:pointer" data-track="${cat.key}" title="点击筛选整个赛道" data-pick-label="${cat.icon} ${escapeHtml(cat.label)} · 整条赛道" data-pick-cnt="${inTrack.reduce((a, t) => a + Object.values(t.counts || {}).reduce((x, y) => x + y, 0), 0)}">${cat.icon} ${cat.label}（${inTrack.length}）</span>`;
       html += `<span class="cat-codes">${cat.codes}</span>`;
       html += `<span class="cat-focus">${cat.focus}</span>`;
       html += `</div>`;
       html += '<div class="cmp-row-chips">';
       inTrack.forEach(t => {
         const total = Object.values(t.counts || {}).reduce((a, b) => a + b, 0);
-        html += `<span class="cmp-chip" data-topic="${t.key}"><span class="cmp-chip-code">${t.code}</span>${t.label}<span class="cmp-chip-cnt">${total}</span></span>`;
+        html += `<span class="cmp-chip" data-topic="${t.key}" data-pick-label="${t.code} ${escapeHtml(t.label)}" data-pick-cnt="${total}"><span class="cmp-chip-code">${t.code}</span>${t.label}<span class="cmp-chip-cnt">${total}</span></span>`;
       });
       html += '</div></div>';
     });
@@ -1128,7 +1290,7 @@ function renderCompareFilter() {
       html += '<div class="cmp-row-chips">';
       orphan.forEach(t => {
         const total = Object.values(t.counts || {}).reduce((a, b) => a + b, 0);
-        html += `<span class="cmp-chip" data-topic="${t.key}"><span class="cmp-chip-code">${t.code}</span>${t.label}<span class="cmp-chip-cnt">${total}</span></span>`;
+        html += `<span class="cmp-chip" data-topic="${t.key}" data-pick-label="${t.code} ${escapeHtml(t.label)}" data-pick-cnt="${total}"><span class="cmp-chip-code">${t.code}</span>${t.label}<span class="cmp-chip-cnt">${total}</span></span>`;
       });
       html += '</div></div>';
     }
@@ -1137,6 +1299,7 @@ function renderCompareFilter() {
       chip.addEventListener('click', (e) => {
         if (e.target.classList.contains('cmp-chip-code') || e.target.classList.contains('cmp-chip-cnt')) return;
         chipsEl.querySelectorAll('.cmp-chip').forEach(c => c.classList.remove('active'));
+        chipsEl.querySelectorAll('.cat-name').forEach(c => c.classList.remove('is-picked'));
         chip.classList.add('active');
         currentCompareFilter = chip.dataset.topic || chip.dataset.track || 'all';
         renderCompareTable();
@@ -1146,17 +1309,22 @@ function renderCompareFilter() {
     chipsEl.querySelectorAll('.cat-name[data-track]').forEach(el => {
       el.addEventListener('click', () => {
         chipsEl.querySelectorAll('.cmp-chip').forEach(c => c.classList.remove('active'));
+        chipsEl.querySelectorAll('.cat-name').forEach(c => c.classList.remove('is-picked'));
+        el.classList.add('is-picked');
         currentCompareFilter = el.dataset.track;
         renderCompareTable();
       });
     });
+    cmpPickerAfterRender(chipsEl);
     return;
   }
 
   // ── 兜底模式：硬编码 compareData ──
   let html = '';
   // 第一行：「全部」单独成行，居中
-  html += '<div class="cmp-filter-all"><span class="cmp-chip active" data-track="all">📋 全部产业赛道（共' + compareData.length + '条）</span></div>';
+  html += '<div class="cmp-filter-all"><span class="cmp-chip active" data-track="all"'
+    + ' data-pick-label="📋 全部产业赛道" data-pick-cnt="' + compareData.length
+    + '">📋 全部产业赛道（共' + compareData.length + '条）</span></div>';
   // 后续每行：一个分类
   compareCategories.forEach(cat => {
     const tracks = compareData.filter(d => d.track === cat.key);
@@ -1170,7 +1338,7 @@ function renderCompareFilter() {
     html += '<div class="cmp-row-chips">';
     tracks.forEach(item => {
       const idx = compareData.indexOf(item);
-      html += `<span class="cmp-chip" data-track="${cat.key}" data-idx="${idx}"><span class="cmp-chip-code">${item.code}</span>${item.topic}</span>`;
+      html += `<span class="cmp-chip" data-track="${cat.key}" data-idx="${idx}" data-pick-label="${item.code} ${escapeHtml(item.topic)}"><span class="cmp-chip-code">${item.code}</span>${item.topic}</span>`;
     });
     html += '</div></div>';
   });
@@ -1193,6 +1361,7 @@ function renderCompareFilter() {
       renderCompareTable();
     });
   });
+  cmpPickerAfterRender(chipsEl);
 }
 
 function renderCompareTable() {
@@ -1322,52 +1491,52 @@ function renderCompareTable() {
 }
 
 // ============================================================
-// L2 政策信息源：四张卡片的最新文件（data/sources.json，每日随抓取任务更新）
-// 卡片本身（图标/描述/标签）是编辑内容，保留 HTML 静态结构；
-// 这里只把「数据」部分换掉：卡片指向最新命中文件，并插入「最近更新」一行。
+// L2 政策信息源 —— 只列「官网入口」，不再挂最新文件
+// 卡片里的官网清单是编辑内容（静态 HTML，域名/路径逐条核验过可达）；
+// 这里只做两件事：
+//   ① 把每张卡片的主入口 href 换成 data/sources.json 的 indexUrl ——
+//      那是抓取任务真实在用的栏目地址，等于每天自动核对一次「网址还对不对」；
+//   ② 在面板底部写一行核对结果，让「入口是不是活的」这件事可见。
+// 旧版会把「最近更新 · 标题」注进卡片、并让整卡指向当天那篇文件；
+// 用户明确要求去掉（信息源页要回答的是「去哪找」，不是「今天有什么」）。
 // ============================================================
 var sourcesAuto = null;
 
+// 只接受 http(s) 地址：数据侧被污染时不能把卡片链接写成 javascript: 之类
+function safeIndexUrl(u) {
+  var s = String(u == null ? '' : u).trim();
+  return /^https?:\/\/[^\s]+$/i.test(s) ? s : '';
+}
+
 function renderSources() {
   var grid = document.getElementById('srcGrid');
-  if (!grid || !sourcesAuto || !sourcesAuto.cards) return;
-  sourcesAuto.cards.forEach(function(c) {
+  var noteEl = document.getElementById('srcFetchNote');
+  if (!grid) return;
+
+  var checked = 0, fixed = 0;
+  var cards = (sourcesAuto && sourcesAuto.cards) || [];
+  cards.forEach(function(c) {
     var card = grid.querySelector('[data-src-key="' + c.key + '"]');
     if (!card) return;
-    var lt = c.latest || null;
-    var box = card.querySelector('.src-latest');
+    // 兜底：万一以后又有人把「最新文件」块加回来，渲染时直接清掉
+    var junk = card.querySelector('.src-latest');
+    if (junk && junk.parentNode) junk.parentNode.removeChild(junk);
 
-    if (!lt) {                       // 完全没数据：留一句提示，不动卡片链接
-      if (box) box.parentNode.removeChild(box);
-      return;
+    var link = card.querySelector('[data-src-open]');
+    var url = safeIndexUrl(c.indexUrl);
+    if (link && url) {
+      if (link.getAttribute('href') !== url) { link.setAttribute('href', url); fixed++; }
+      checked++;
     }
-    // 卡片整体指向最新命中文件（不在 <a> 里再嵌 <a>，避免非法嵌套）
-    card.href = c.href || c.indexUrl;
-
-    var age = (typeof c.ageDays === 'number') ? c.ageDays : null;
-    var cls = 'src-latest';
-    var note = '';
-    if (c.stale) {
-      cls += ' src-latest--stale';
-      note = '本次抓取未命中（境外网络受限），以下为上一次成功抓取的数据';
-    } else if (age !== null && age > 90) {
-      cls += ' src-latest--old';
-      note = '来源栏目已 ' + age + ' 天未发布新文件（不是本站未抓取）';
-    }
-    var html =
-      '<span class="src-latest-hd">最近更新 · ' + escapeHtml(lt.date || '') + '</span>' +
-      '<span class="src-latest-title">' + escapeHtml(lt.title || '') + '</span>' +
-      (lt.source ? '<span class="src-latest-src">' + escapeHtml(lt.source) + '</span>' : '') +
-      (note ? '<span class="src-latest-note">' + note + '</span>' : '');
-
-    if (!box) {
-      box = document.createElement('div');
-      var urlEl = card.querySelector('.src-url');
-      if (urlEl) card.insertBefore(box, urlEl); else card.appendChild(box);
-    }
-    box.className = cls;
-    box.innerHTML = html;
   });
+
+  if (noteEl) {
+    var sites = (grid.querySelectorAll ? grid.querySelectorAll('.src-site').length : 0);
+    var at = (sourcesAuto && sourcesAuto.generatedAt) || '';
+    noteEl.textContent = '官网入口 ' + sites + ' 个 · 主入口已按抓取任务的栏目地址核对'
+      + (checked ? '（覆盖 ' + checked + ' 张卡片' + (fixed ? '，本轮修正 ' + fixed + ' 个' : '') + '）' : '')
+      + (at ? ' · 最近核对 ' + at : '');
+  }
 }
 
 // ============================================================
