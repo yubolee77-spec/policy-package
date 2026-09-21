@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-21 15:32",
+ "generatedAt": "2026-09-22 00:02",
  "month": 9,
  "hotPeriod": "9-10月",
  "candidateCount": 250,
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-21 · 2026年8月金融市场运行情况（央行最新动态）",
+     "title": "2026年8月金融市场运行情况",
+     "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092109135798884/index.html",
+     "date": "2026-09-21",
+     "source": "央行最新动态",
+     "noise": false
+    },
+    {
      "label": "2026-09-21 · 坚持“四个注重”做强先进制造业（经济日报）",
      "title": "坚持“四个注重”做强先进制造业",
      "url": "http://paper.ce.cn/pc/content/202609/21/content_339219.html",
@@ -315,14 +323,6 @@
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260920_3224411.shtml",
      "date": "2026-09-20",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-19 · 持续做大做强先进制造业（人民日报）",
-     "title": "持续做大做强先进制造业",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/19/content_30181972.html",
-     "date": "2026-09-19",
-     "source": "人民日报",
      "noise": false
     }
    ],
