@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-09-21 07:29",
+ "generatedAt": "2026-09-21 15:32",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 252,
+ "candidateCount": 250,
  "nodes": {
   "1-2月": {
    "status": "pass",
    "docs": [
     {
-     "label": "2026-02-28 · 进一步增强宏观政策取向一致性（党媒）",
+     "label": "2026-02-28 · 进一步增强宏观政策取向一致性（求是网）",
      "title": "进一步增强宏观政策取向一致性",
      "url": "https://www.qstheory.cn/20260228/59487a407900464d918db8b7f1c29c96/c.html",
      "date": "2026-02-28",
-     "source": "党媒",
+     "source": "求是网",
      "noise": false
     },
     {
-     "label": "2026-02-28 · 以正确政绩观开创中国式现代化新局面（党媒）",
+     "label": "2026-02-28 · 以正确政绩观开创中国式现代化新局面（求是网）",
      "title": "以正确政绩观开创中国式现代化新局面",
      "url": "https://www.qstheory.cn/20260228/aaa5c4439e54499883e90f3c4cc1aa01/c.html",
      "date": "2026-02-28",
-     "source": "党媒",
+     "source": "求是网",
      "noise": false
     },
     {
-     "label": "2026-02-14 · 促进城乡居民收入稳步增长（党媒）",
+     "label": "2026-02-14 · 促进城乡居民收入稳步增长（求是网）",
      "title": "促进城乡居民收入稳步增长",
      "url": "https://www.qstheory.cn/20260214/5f6eae815da849aa94050101184fbfcd/c.html",
      "date": "2026-02-14",
-     "source": "党媒",
+     "source": "求是网",
      "noise": false
     },
     {
@@ -62,11 +62,11 @@
    "status": "pass",
    "docs": [
     {
-     "label": "2026-03-31 · 积极推动进出口平衡发展（党媒）",
+     "label": "2026-03-31 · 积极推动进出口平衡发展（求是网）",
      "title": "积极推动进出口平衡发展",
      "url": "https://www.qstheory.cn/20260331/2224116a00f940c09f8d34b1d388eda1/c.html",
      "date": "2026-03-31",
-     "source": "党媒",
+     "source": "求是网",
      "noise": false
     },
     {
@@ -116,11 +116,11 @@
    "status": "pass",
    "docs": [
     {
-     "label": "2026-04-30 · 以更大力度促进区域协调发展（党媒）",
+     "label": "2026-04-30 · 以更大力度促进区域协调发展（求是网）",
      "title": "以更大力度促进区域协调发展",
      "url": "https://www.qstheory.cn/20260430/4a7f7e91a94c40a7b26ce0e915697a58/c.html",
      "date": "2026-04-30",
-     "source": "党媒",
+     "source": "求是网",
      "noise": false
     },
     {
@@ -156,11 +156,11 @@
      "noise": false
     },
     {
-     "label": "2026-04-15 · 把服务业发展摆在更加突出位置（党媒）",
+     "label": "2026-04-15 · 把服务业发展摆在更加突出位置（求是网）",
      "title": "把服务业发展摆在更加突出位置",
      "url": "https://www.qstheory.cn/20260415/cee158437daf4457a7a268a3d8898090/c.html",
      "date": "2026-04-15",
-     "source": "党媒",
+     "source": "求是网",
      "noise": false
     }
    ],
@@ -232,19 +232,19 @@
      "noise": false
     },
     {
-     "label": "2026-08-31 · 在激发社会活力中增强高质量发展动力（党媒）",
+     "label": "2026-08-31 · 在激发社会活力中增强高质量发展动力（求是网）",
      "title": "在激发社会活力中增强高质量发展动力",
      "url": "https://www.qstheory.cn/20260831/55155cd732b545f89e406bd344f2c539/c.html",
      "date": "2026-08-31",
-     "source": "党媒",
+     "source": "求是网",
      "noise": false
     },
     {
-     "label": "2026-08-31 · 把正确政绩观熔铸于魂、力践于行（党媒）",
+     "label": "2026-08-31 · 把正确政绩观熔铸于魂、力践于行（求是网）",
      "title": "把正确政绩观熔铸于魂、力践于行",
      "url": "https://www.qstheory.cn/20260831/2145ab98774b4c6d8597330fbc88c8e2/c.html",
      "date": "2026-08-31",
-     "source": "党媒",
+     "source": "求是网",
      "noise": false
     },
     {
@@ -286,11 +286,11 @@
      "noise": false
     },
     {
-     "label": "2026-09-21 · 金观平：坚持“四个注重”做强先进制造业（党媒）",
+     "label": "2026-09-21 · 金观平：坚持“四个注重”做强先进制造业（经济日报）",
      "title": "金观平：坚持“四个注重”做强先进制造业",
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260921_3226215.shtml",
      "date": "2026-09-21",
-     "source": "党媒",
+     "source": "经济日报",
      "noise": false
     },
     {
@@ -302,19 +302,19 @@
      "noise": false
     },
     {
-     "label": "2026-09-20 · 经济日报评论员：立足产业规律把握发展大势（党媒）",
+     "label": "2026-09-20 · 经济日报评论员：立足产业规律把握发展大势（经济日报）",
      "title": "经济日报评论员：立足产业规律把握发展大势",
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260920_3224413.shtml",
      "date": "2026-09-20",
-     "source": "党媒",
+     "source": "经济日报",
      "noise": false
     },
     {
-     "label": "2026-09-20 · 金观平：新一代通信网不止于扩容升级（党媒）",
+     "label": "2026-09-20 · 金观平：新一代通信网不止于扩容升级（经济日报）",
      "title": "金观平：新一代通信网不止于扩容升级",
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260920_3224411.shtml",
      "date": "2026-09-20",
-     "source": "党媒",
+     "source": "经济日报",
      "noise": false
     },
     {

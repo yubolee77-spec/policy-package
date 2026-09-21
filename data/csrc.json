@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-09-21 07:19",
- "mediaFetchedAt": "2026-09-20 20:01",
- "mediaStale": true,
+ "generatedAt": "2026-09-21 15:30",
+ "mediaFetchedAt": "2026-09-21 15:30",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 28,
   "papers": 0
  },
  "kpi": {
@@ -11,17 +11,47 @@
   "penaltyMonth": 116,
   "approvalTotal": 168,
   "approvalMonth": 19,
-  "reitsApproved30d": 5,
-  "ipoApproved30d": 11,
-  "mediaTotal": 57,
-  "mediaStrong": 36,
+  "reitsApproved30d": 8,
+  "ipoApproved30d": 10,
+  "mediaTotal": 64,
+  "mediaStrong": 40,
   "activeTotal": 375,
   "successTotal": 162,
-  "cycleRecentAvg": 241,
-  "cyclePrevAvg": 294,
-  "cycleVerdict": "加快 18%"
+  "cycleRecentAvg": 243,
+  "cyclePrevAvg": 288,
+  "cycleVerdict": "加快 16%"
  },
  "penalty": [
+  {
+   "date": "2026-09-21",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "宁夏证监局推动“公平竞争政策宣传周”活动走深走实",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/ningxia/c101455/c7660108/content.shtml"
+  },
+  {
+   "date": "2026-09-21",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "宁夏证监局举办辖区2026年债券市场高质量发展专题培训会",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/ningxia/c101455/c7660107/content.shtml"
+  },
+  {
+   "date": "2026-09-21",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "重庆证监局举办辖区北交所上市公司公司治理专题培训",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c101075/c7660105/content.shtml"
+  },
   {
    "date": "2026-09-20",
    "channel": "行政监管措施",
@@ -1131,36 +1161,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/yunnan/c104785/c7656086/content.shtml"
-  },
-  {
-   "date": "2026-09-02",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "2026年6月云南资本市场概况",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/yunnan/c104785/c7656076/content.shtml"
-  },
-  {
-   "date": "2026-09-02",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "2026年5月云南、昆明证券期货市场基本情况",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/yunnan/c104785/c7656072/content.shtml"
-  },
-  {
-   "date": "2026-09-02",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "2026年5月云南资本市场概况",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/yunnan/c104785/c7656068/content.shtml"
   },
   {
    "date": "2026-09-01",
@@ -4047,6 +4047,74 @@
  ],
  "media": [
   {
+   "date": "2026-09-21",
+   "media": "界面新闻",
+   "title": "政策红利集中释放！医疗器械爆发，透景生命20CM涨停，医疗器械ETF汇添富(159797)标的指数涨超2.5%，全球首个AI+脑机接口医疗器械标准发布",
+   "url": "http://stock.eastmoney.com/a/202609213879947893.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI",
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-21",
+   "media": "证券日报",
+   "title": "新世界发展推进首个港资C-REIT",
+   "url": "http://finance.eastmoney.com/a/202609213879932046.html",
+   "keyword": "首个",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-21",
+   "media": "每日经济新闻",
+   "title": "周云杰的AI故事：当女程序员设计出业内首个“AI之眼” 智慧烤箱，每个人都可以成为自己的CEO",
+   "url": "http://finance.eastmoney.com/a/202609213879898967.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-21",
+   "media": "界面新闻",
+   "title": "大晓机器人进入中石油便利店，首个机器人履约项目启动试运营",
+   "url": "http://finance.eastmoney.com/a/202609213879855595.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-21",
+   "media": "界面新闻",
+   "title": "56家企业和机构获得我国首批数据产权“身份证”",
+   "url": "http://finance.eastmoney.com/a/202609213879768290.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-21",
+   "media": "证券时报",
+   "title": "QDII资格扩围 贝莱德基金成首家获批新设外资公募",
+   "url": "http://finance.eastmoney.com/a/202609213879495964.html",
+   "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-21",
+   "media": "每日经济新闻",
+   "title": "九识获得欧洲首张RoboVan-比利时Y牌；广汽柬埔寨KD工厂正式投产下线丨汽车早参",
+   "url": "http://finance.eastmoney.com/a/202609213879513046.html",
+   "keyword": "首张",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-09-20",
    "media": "人民日报",
    "title": "开幕后首个比赛日，有何看点",
@@ -4596,10 +4664,10 @@
  "review": {
   "asOf": "2026-09-18",
   "total": 4400,
-  "pipelineTotal": 873,
+  "pipelineTotal": 872,
   "activeTotal": 375,
   "successTotal": 162,
-  "failTotal": 208,
+  "failTotal": 207,
   "stages": [
    {
     "name": "已受理",
@@ -4628,7 +4696,7 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 208,
+    "count": 207,
     "kind": "fail"
    }
   ],
@@ -4639,7 +4707,7 @@
    },
    {
     "name": "创业板",
-    "count": 197
+    "count": 196
    },
    {
     "name": "科创板",
@@ -4697,12 +4765,12 @@
    }
   ],
   "cycle": {
-   "recentAvg": 241,
-   "recentN": 23,
-   "prevAvg": 294,
-   "prevN": 15,
-   "deltaPct": -18,
-   "verdict": "加快 18%",
+   "recentAvg": 243,
+   "recentN": 22,
+   "prevAvg": 288,
+   "prevN": 16,
+   "deltaPct": -16,
+   "verdict": "加快 16%",
    "byMonth": [
     {
      "month": "25-10",
