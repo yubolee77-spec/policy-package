@@ -943,3 +943,218 @@ a:hover{color:inherit}
   font-size:11.5px;line-height:1.75;color:var(--text-muted)}
 @media (max-width:900px){.flow-src-row{grid-template-columns:1fr}}
 @media (max-width:900px){.flow-ind-row{grid-template-columns:76px 1fr 76px}}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   响应式：设备分档（本段必须留在文件末尾，靠层叠顺序覆盖前面的零散断点）
+
+   三档划分
+     · 桌面  ≥1025px —— 完全保持原样，本段不做任何覆盖
+     · 平板   641–1024px —— 恢复被 ≤900 断点压成单列的双列布局 + 标签栏可滑
+     · 手机   ≤640px —— 结构性重排（不是把桌面版压扁）
+
+   排障依据（2026-09-17 用无头浏览器在真实视口下实测，非目测）：
+     · 手机 390px：L1 页面横向溢出 96px（.at-slogan 的 nowrap 撑开 .gov-grid）；
+                   L3 对比表 5 列网格被 .cmp-table 的 overflow:hidden 裁掉 295px 内容；
+                   L3 筛选条 .cmp-filter-row 的 170px 标签列把 chips 挤成竖条；
+                   标签栏需要 486px 却只有 390px，且没有任何「可以滑」的提示。
+     · 平板 820px：仅标签栏差 72px，其余正常。
+     · 桌面 1440px：零溢出，不需要改。
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* ───────────────────────── 平板 + 手机：标签栏改胶囊滑动条 ─────────────────────────
+   原规则 .tab-btn{flex:1;min-width:120px} 让 7 个标签至少占 848px，
+   在平板（差 72px）和手机（差 486px）上都溢出。改成可横向滑动 + 吸边 + 右缘渐隐提示。 */
+@media (max-width:1024px){
+  .tab-nav{
+    overflow-x:auto;
+    scroll-snap-type:x proximity;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    /* 右缘渐隐：唯一能提示「右边还有」且不额外占位的做法 */
+    -webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 28px),transparent 100%);
+            mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 28px),transparent 100%);
+  }
+  .tab-nav::-webkit-scrollbar{display:none}
+  .tab-btn{
+    flex:0 0 auto;
+    min-width:auto;
+    padding:10px 15px;
+    scroll-snap-align:center;
+  }
+  /* 副标题绝不再和标题抢同一行 —— 窄屏下会被挤成一字一行 */
+  .sec-title{flex-wrap:wrap}
+}
+
+/* ───────────────────────── 平板 641–1024：把被压成单列的布局放回双列 ───────────────────────── */
+@media (min-width:641px) and (max-width:1024px){
+  .csrc-ledger{grid-template-columns:1fr 1fr}   /* 负面清单 | 正面试点 并排 */
+  .rv-grid{grid-template-columns:1fr 1fr}       /* 上市板块 | 行业分布 并排 */
+  .data-grid{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+  .gov-grid{gap:14px}
+}
+
+/* ═══════════════════════ 手机 ≤640px：按手机重排 ═══════════════════════ */
+@media (max-width:640px){
+
+  /* ---------- 骨架：间距收紧，标题与副标题分行 ---------- */
+  .app{padding:10px 12px}
+  .header{padding:10px 12px;gap:7px}
+  .logo{gap:9px}
+  .logo-icon{width:26px;height:26px;font-size:13px;border-radius:5px}
+  .logo-text{font-size:12px;letter-spacing:.2px}
+  .logo-sub{font-size:10.5px;margin-left:0;display:block}
+  .header-right{width:100%;justify-content:space-between;gap:8px;font-size:10.5px}
+  .clock{font-size:11px}
+
+  .freshness{padding:7px 12px;gap:3px 10px;font-size:10.5px}
+  .fresh-item{font-size:10.5px}
+  /* 抓取时间表独占一行，不再和指标挤在一起 */
+  .fresh-sched{margin-left:0;flex-basis:100%;padding-top:4px;
+    border-top:1px dashed var(--border-primary)}
+
+  .tab-nav{margin-bottom:14px;padding:4px;gap:2px}
+  .tab-btn{padding:10px 14px;font-size:12.5px}
+
+  .sec-hd{margin-bottom:12px;gap:8px}
+  .sec-title{font-size:15px;gap:7px;align-items:center}
+  .sec-sub{flex-basis:100%;font-size:11px;line-height:1.6;margin-top:2px}
+  .badge{font-size:9.5px;padding:2px 6px}
+
+  /* 年度/月度这类切换器铺满整行，点按目标更大 */
+  .sec-hd .tier-switcher{display:flex;width:100%}
+  .sec-hd .tier-btn{flex:1;text-align:center;padding:8px 10px;font-size:12px}
+
+  .data-grid,.src-grid,.flow-grid,.gov-grid,.csrc-grid{grid-template-columns:1fr}
+  .gov-tree,.timeline,.src-card,.compare-box,.monthly-box,.csrc-box,.flow-box,
+  .latest-feed,.rv-box,.csrc-col,.kw-analysis,.cmp-filter-bar,.cmp-source-hint,
+  .l4-method{padding:12px}
+  .chart-box{height:220px;padding:10px}
+  .footer{font-size:10.5px;line-height:1.9;padding:12px 2px}
+
+  /* 兜底：任何卡片都不许被后来的内容撑破 */
+  .gov-tree,.timeline,.rv-box,.csrc-col,.flow-card,.src-card{min-width:0;overflow-x:clip}
+
+  /* ---------- L1 官网与会议：修掉 96px 横向溢出的根因 ----------
+     .at-slogan 的 white-space:nowrap 让 .at-summary 的最小宽度等于整句口号，
+     一路把 .gov-grid 的网格轨撑到 476px（实测：单独取消 nowrap 溢出即从 96px 归零）。 */
+  .at-summary{flex-wrap:wrap;gap:8px}
+  .at-sum-left{flex-wrap:wrap;gap:8px}
+  .at-slogan{white-space:normal;overflow:visible;text-overflow:clip}
+  .at-period{min-width:auto;white-space:nowrap}
+  .at-meta{flex-shrink:1}
+  /* 自动收录条目：日期与来源标签都是 flex-shrink:0，极窄屏（≤320）会把标题挤出去 */
+  .at-doc{flex-wrap:wrap}
+  .tree-title{letter-spacing:0;font-size:11.5px;line-height:1.6}
+  .gov-summary{padding:10px 12px;font-size:12.5px}
+  .gl-desc{font-size:11px}
+  .gl-name{font-size:12.5px}
+
+  .lf-header{flex-wrap:wrap;gap:8px}
+  .lf-head-l{width:100%}
+  .lf-header .tier-switcher{display:flex;width:100%}
+  .lf-header .tier-btn{flex:1;text-align:center;padding:8px 6px}
+  .lf-hint{font-size:11px;line-height:1.75}
+  /* 手机上少一层内部滚动：列表给到接近整屏 */
+  .lf-list--scroll{max-height:72vh}
+  .lf-row{padding:9px 10px;gap:8px}
+  .lf-row-date{width:62px;font-size:10px}
+  .lf-row-title{font-size:13px}
+
+  /* ---------- L3 历年政策对比：5 列网格在手机上必须改成堆叠卡片 ----------
+     实测 .cmp-child 有 295px 内容被 .cmp-table{overflow:hidden} 直接吃掉，
+     且三个年份列各只剩 40px 左右，即便不裁也读不了。表头行随之隐藏，
+     改由每个单元格用 data-year 自带年份标签（见 app.js）。 */
+  .cmp-filter-bar{padding:10px}
+  .cmp-filter-title{font-size:11px;letter-spacing:0;line-height:1.6}
+  .cmp-filter-row{grid-template-columns:1fr;gap:8px;padding:9px 10px}
+  .cmp-row-label{flex-direction:row;flex-wrap:wrap;align-items:baseline;gap:6px}
+  .cmp-row-chips{gap:5px}
+  .cmp-chip{font-size:10.5px;padding:5px 10px;border-radius:10px}
+  .cmp-filter-all .cmp-chip{width:100%;text-align:center;padding:8px 10px}
+  .cmp-count-note{font-size:10.5px;padding:8px 10px;line-height:1.65}
+  .cmp-parent{padding:11px 12px}
+  .cmp-parent-topic{font-size:13px;flex-wrap:wrap;gap:6px}
+
+  .cmp-hd-row{display:none}
+  .cmp-child{grid-template-columns:1fr}
+  .cmp-child-dept{padding:9px 12px;font-size:12.5px;border-right:none;
+    border-bottom:1px dashed var(--border-primary);background:rgba(255,255,255,.02)}
+  .cmp-child-yr{display:block;padding:9px 12px;text-align:left;
+    border-right:none;border-bottom:1px dashed var(--border-primary)}
+  .cmp-child-yr::before{content:attr(data-year);display:block;font-family:var(--font-mono);
+    font-size:10px;color:var(--text-muted);letter-spacing:.4px;margin-bottom:4px}
+  .cmp-yr-text{text-align:left;font-size:12px;
+    /* 堆叠后宽度变窄，文号/文件名这类不含空格的长 token 必须允许断开，
+       否则会顶破 .cmp-table 的 overflow:hidden 被整段吃掉（实测差 23px） */
+    overflow-wrap:anywhere;word-break:break-word}
+  .cmp-yr-empty{text-align:left;padding:2px 0}
+  .cmp-docno{white-space:normal;overflow-wrap:anywhere}
+  .cmp-yr-title{overflow-wrap:anywhere}
+  .cmp-yr-link{white-space:normal;word-break:break-all}
+  .cmp-keysent{font-size:11px;overflow-wrap:anywhere}
+  .cmp-child-note{display:block;padding:8px 12px;text-align:left;
+    border-left:none;border-top:1px dashed var(--border-primary);overflow-wrap:anywhere}
+  .cmp-child-note::before{content:'差异 · ';font-family:var(--font-mono);
+    font-size:10px;color:var(--text-muted)}
+
+  /* ---------- L4 本月文件 ---------- */
+  .l4-method-row{font-size:11.5px;line-height:1.9;gap:4px}
+  .l4-method-k{flex-basis:100%;margin-right:0}
+  .doc-section-title{font-size:13px}
+  .doc-title{font-size:13px}
+  .doc-summary{font-size:12px;line-height:1.65}
+  .doc-keysent,.doc-key{font-size:11px}
+
+  /* ---------- L5 证监会动态：条目改「日期+标签 / 标题」两行 ---------- */
+  .cl-hd{flex-wrap:wrap;gap:6px}
+  .cl-item{grid-template-columns:auto 1fr;gap:2px 8px;padding:8px 10px}
+  .cl-item-date{grid-column:1;grid-row:1;font-size:10px}
+  .cl-tag{grid-column:2;grid-row:1;font-size:9.5px;padding:1px 6px}
+  .cl-item-title{grid-column:1 / -1;grid-row:2;font-size:12.5px}
+  .cl-item-go{display:none}
+  .media-list .media-item{grid-template-columns:42px 1fr;row-gap:4px;padding:8px 10px}
+  .media-title{font-size:12.5px}
+  .rv-hd{gap:6px}
+  .rv-title{font-size:13px}
+  .rv-kpis{grid-template-columns:repeat(2,1fr)}
+  .rv-kpi{padding:9px 10px}
+  .rv-kpi-v{font-size:19px}
+  .rv-stage{grid-template-columns:78px 1fr 46px;gap:8px}
+  .rv-bar-row{grid-template-columns:62px 1fr 30px;gap:6px}
+  .rv-tbl-head{display:none}
+  .rv-tbl-row{grid-template-columns:auto 1fr auto;column-gap:8px;row-gap:2px;
+    padding:8px 10px;border-bottom:1px dashed var(--border-primary)}
+  .rv-td-date{grid-column:1;grid-row:1}
+  .rv-td-name{grid-column:2 / -1;grid-row:1;white-space:normal}
+  .rv-td-market{grid-column:1;grid-row:2;text-align:left}
+  .rv-td-days{grid-column:3;grid-row:2}
+
+  /* ---------- L6 资金流向 ---------- */
+  .flow-kpi{padding:12px}
+  .flow-kpi-val{font-size:19px}
+  .flow-card{padding:12px}
+  .flow-card-kpi b{font-size:18px}
+  .flow-ind-row{grid-template-columns:62px 1fr 56px;gap:6px}
+  /* 日期列要放得下 "2026-09-20"：10px 等宽下约 60px，留到 64px 才不裁字 */
+  .flow-doc{grid-template-columns:64px 1fr;gap:0 8px}
+  .flow-doc-date{font-size:10px}
+  .flow-doc-go{display:none}
+  .flow-doc-title{font-size:12.5px}
+  .flow-mover{gap:6px;padding:8px 10px}
+  .flow-mover-name{min-width:68px}
+  .flow-note{font-size:12px;padding:10px 12px}
+
+  /* ---------- L2 信息源 ---------- */
+  .src-title{font-size:14px}
+  .src-desc{font-size:12.5px;line-height:1.65}
+
+  /* ---------- 通用：长说明段落别用 10px 硬扛 ---------- */
+  .cross-ref{font-size:11.5px;padding:10px 12px}
+  .kw-hd{font-size:12px}
+  .kw-chip{font-size:11px}
+
+  /* 触控目标下限：40px 高左右，避免误点 */
+  .doc-link,.flow-chip,.src-tag{padding:4px 8px}
+  .gl-card{padding:10px 12px}
+}
+

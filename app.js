@@ -15,6 +15,19 @@ updateClock();
 // --- Tab Navigation ---
 const tabBtns = document.querySelectorAll('.tab-btn');
 const panels = document.querySelectorAll('.panel');
+
+// 窄屏下标签栏会退化成横向滑动条（见 styles.css 的 ≤1024px 断点），
+// 此时必须把当前项滚进视野，否则切换后「当前在哪一层」会停在屏幕外看不见。
+function revealTab(btn){
+  if (!btn) return;
+  const nav = btn.parentElement;
+  if (!nav || nav.scrollWidth <= nav.clientWidth + 1) return;   // 放得下就不用管
+  const b = btn.getBoundingClientRect();
+  const n = nav.getBoundingClientRect();
+  const delta = (b.left + b.width / 2) - (n.left + n.width / 2);
+  nav.scrollTo({ left: nav.scrollLeft + delta, behavior: 'smooth' });
+}
+
 tabBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     const target = btn.dataset.p;
@@ -22,10 +35,14 @@ tabBtns.forEach(btn => {
     btn.classList.add('active');
     panels.forEach(p => p.classList.remove('active'));
     document.getElementById('p-' + target).classList.add('active');
+    revealTab(btn);
     // Re-render charts in the visible panel
     setTimeout(() => renderChartsForPanel(target), 50);
   });
 });
+
+// 首屏也要把默认层（L0）摆到可见位置
+window.addEventListener('load', () => revealTab(document.querySelector('.tab-btn.active')));
 
 // ============================================================
 // LAYER 0: Macro Data
@@ -1229,12 +1246,13 @@ function renderCompareTable() {
       (item.children || []).forEach(ch => {
         const renderYr = (y) => {
           const cell = (ch.years || {})[String(y)];
-          if (!cell) return '<div class="cmp-child-yr"><div class="cmp-yr-empty">—</div></div>';
+          // data-year 供窄屏堆叠布局显示年份标签（表头行在手机端被隐藏）
+          if (!cell) return `<div class="cmp-child-yr" data-year="${y}年"><div class="cmp-yr-empty">—</div></div>`;
           const kwHtml = (cell.kw || []).map(k => `<span class="kw-tag kw-${k.type}">${k.text}</span>`).join('');
           const linkHtml = cell.url ? `<a href="${cell.url}" target="_blank" class="cmp-yr-link">↗ 原文</a>` : '';
           const noHtml = cell.docno ? `<span class="cmp-docno">${cell.docno}</span>` : '';
           const ksHtml = cell.keySentence ? `<div class="cmp-keysent">${cell.keySentence}</div>` : '';
-          return `<div class="cmp-child-yr"><div class="cmp-yr-text">${kwHtml}${noHtml}<a href="${cell.url || '#'}" target="_blank" class="cmp-yr-title" rel="noopener">${cell.text}</a></div>${ksHtml}${linkHtml}</div>`;
+          return `<div class="cmp-child-yr" data-year="${y}年"><div class="cmp-yr-text">${kwHtml}${noHtml}<a href="${cell.url || '#'}" target="_blank" class="cmp-yr-title" rel="noopener">${cell.text}</a></div>${ksHtml}${linkHtml}</div>`;
         };
         html += `
           <div class="cmp-child ${trackClass}">
@@ -1279,20 +1297,21 @@ function renderCompareTable() {
       </div>
     `;
     item.children.forEach(ch => {
-      const renderYr = (yr) => {
+      const renderYr = (yr, y) => {
+        // data-year 供窄屏堆叠布局显示年份标签（表头行在手机端被隐藏）
         if (!yr || yr.empty) {
-          return '<div class="cmp-child-yr"><div class="cmp-yr-empty">—</div></div>';
+          return `<div class="cmp-child-yr" data-year="${y}年"><div class="cmp-yr-empty">—</div></div>`;
         }
         const kwHtml = (yr.kw || []).map(k => `<span class="kw-tag kw-${k.t}">${k.v}</span>`).join('');
         const linkHtml = yr.url ? `<a href="${yr.url}" target="_blank" class="cmp-yr-link">↗ 原文</a>` : '';
-        return `<div class="cmp-child-yr"><div class="cmp-yr-text">${kwHtml}${yr.text}</div>${linkHtml}</div>`;
+        return `<div class="cmp-child-yr" data-year="${y}年"><div class="cmp-yr-text">${kwHtml}${yr.text}</div>${linkHtml}</div>`;
       };
       html += `
         <div class="cmp-child ${trackClass}">
           <div class="cmp-child-dept"><span class="dept-icon">${ch.icon || '📄'}</span>${ch.dept}</div>
-          ${renderYr(ch.y2024)}
-          ${renderYr(ch.y2025)}
-          ${renderYr(ch.y2026)}
+          ${renderYr(ch.y2024, 2024)}
+          ${renderYr(ch.y2025, 2025)}
+          ${renderYr(ch.y2026, 2026)}
           <div class="cmp-child-note">${buildChildNote(ch)}</div>
         </div>
       `;
