@@ -72,7 +72,7 @@ CARDS = [
     {
         "key": "media",
         "title": "官方解读汇总",
-        "indexUrl": "http://www.people.com.cn",
+        "indexUrl": "https://www.people.com.cn",
         "indexLabel": "people.com.cn",
         "from": "commentary",
     },
