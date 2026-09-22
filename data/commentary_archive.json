@@ -1,6 +1,35 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "items": [
+    {
+      "url": "http://paper.ce.cn/pc/content/202609/23/content_339283.html",
+      "title": "赛事为机育大国工匠",
+      "author": "□ 金观平",
+      "date": "2026-09-23",
+      "media": "经济日报",
+      "byline": "金观平",
+      "summary": "9月22日至27日，第48届世界技能大赛在上海举办。来自68个国家和地区的1385名选手，将在国家会展中心（上海）同台竞技。这不仅是一场全球技能人才的竞技盛会，更是观察中国技能人才队伍建设成果的重要窗口。技能人才是支撑中国制造、中国创造的重要力量。",
+      "keywords": [
+        {
+          "type": "deg",
+          "text": "不断"
+        },
+        {
+          "type": "deg",
+          "text": "逐步"
+        },
+        {
+          "type": "verb",
+          "text": "推动"
+        },
+        {
+          "type": "verb",
+          "text": "优化"
+        }
+      ],
+      "keySentence": "这支规模不断壮大、结构不断优化的技能人才队伍，是中国制造的根基，也是技术创新的底座。",
+      "tier": ""
+    },
     {
       "url": "http://paper.people.com.cn/rmrb/pc/content/202609/22/content_30182378.html",
       "title": "锚定新定位，推动中美建设性战略稳定关系行稳致远",
@@ -82,7 +111,8 @@
       "summary": "",
       "keywords": [],
       "keySentence": "",
-      "tier": ""
+      "tier": "",
+      "summaryTried": 1
     },
     {
       "url": "http://paper.ce.cn/pc/content/202609/21/content_339219.html",
