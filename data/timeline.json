@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-22 00:46",
+ "generatedAt": "2026-09-22 08:15",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 250,
+ "candidateCount": 253,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,30 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-22 · 锚定新定位，推动中美建设性战略稳定关系行稳致远（人民日报）",
+     "title": "锚定新定位，推动中美建设性战略稳定关系行稳致远",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/22/content_30182378.html",
+     "date": "2026-09-22",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-09-22 · 冲刺汽车强国还需打几场硬仗（经济日报）",
+     "title": "冲刺汽车强国还需打几场硬仗",
+     "url": "http://paper.ce.cn/pc/content/202609/22/content_339227.html",
+     "date": "2026-09-22",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-09-22 · 金观平：冲刺汽车强国还需打几场硬仗（经济日报）",
+     "title": "金观平：冲刺汽车强国还需打几场硬仗",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260922_3228545.shtml",
+     "date": "2026-09-22",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-09-21 · 2026年8月金融市场运行情况（央行最新动态）",
      "title": "2026年8月金融市场运行情况",
      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092109135798884/index.html",
@@ -298,30 +322,6 @@
      "title": "金观平：坚持“四个注重”做强先进制造业",
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260921_3226215.shtml",
      "date": "2026-09-21",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-20 · 新一代通信网不止于扩容升级（经济日报）",
-     "title": "新一代通信网不止于扩容升级",
-     "url": "http://paper.ce.cn/pc/content/202609/20/content_339116.html",
-     "date": "2026-09-20",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-20 · 经济日报评论员：立足产业规律把握发展大势（经济日报）",
-     "title": "经济日报评论员：立足产业规律把握发展大势",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260920_3224413.shtml",
-     "date": "2026-09-20",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-20 · 金观平：新一代通信网不止于扩容升级（经济日报）",
-     "title": "金观平：新一代通信网不止于扩容升级",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260920_3224411.shtml",
-     "date": "2026-09-20",
      "source": "经济日报",
      "noise": false
     }

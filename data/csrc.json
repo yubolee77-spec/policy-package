@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-22 00:42",
+ "generatedAt": "2026-09-22 08:11",
  "mediaFetchedAt": "2026-09-21 15:30",
  "mediaStale": true,
  "mediaChannels": {
@@ -17,9 +17,9 @@
   "mediaStrong": 40,
   "activeTotal": 374,
   "successTotal": 161,
-  "cycleRecentAvg": 243,
-  "cyclePrevAvg": 288,
-  "cycleVerdict": "加快 16%"
+  "cycleRecentAvg": 245,
+  "cyclePrevAvg": 283,
+  "cycleVerdict": "加快 13%"
  },
  "penalty": [
   {
@@ -4765,12 +4765,12 @@
    }
   ],
   "cycle": {
-   "recentAvg": 243,
-   "recentN": 22,
-   "prevAvg": 288,
-   "prevN": 15,
-   "deltaPct": -16,
-   "verdict": "加快 16%",
+   "recentAvg": 245,
+   "recentN": 21,
+   "prevAvg": 283,
+   "prevN": 16,
+   "deltaPct": -13,
+   "verdict": "加快 13%",
    "byMonth": [
     {
      "month": "25-10",
