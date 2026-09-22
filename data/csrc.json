@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-09-22 08:11",
- "mediaFetchedAt": "2026-09-21 15:30",
- "mediaStale": true,
+ "generatedAt": "2026-09-22 15:57",
+ "mediaFetchedAt": "2026-09-22 15:57",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 30,
   "papers": 0
  },
  "kpi": {
-  "penaltyTotal": 234,
-  "penaltyMonth": 116,
+  "penaltyTotal": 235,
+  "penaltyMonth": 117,
   "approvalTotal": 168,
   "approvalMonth": 19,
   "reitsApproved30d": 8,
   "ipoApproved30d": 10,
-  "mediaTotal": 64,
-  "mediaStrong": 40,
+  "mediaTotal": 78,
+  "mediaStrong": 48,
   "activeTotal": 374,
   "successTotal": 161,
   "cycleRecentAvg": 245,
@@ -22,6 +22,46 @@
   "cycleVerdict": "加快 13%"
  },
  "penalty": [
+  {
+   "date": "2026-09-22",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "河北证监局关于2024年上市公司现场检查随机抽查情况的公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hebei/c103640/c7660357/content.shtml"
+  },
+  {
+   "date": "2026-09-22",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对侯庆壮采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7660390/content.shtml"
+  },
+  {
+   "date": "2026-09-22",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对高远（安吉）股权投资基金有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7660389/content.shtml"
+  },
+  {
+   "date": "2026-09-22",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "监管措施",
+   "title": "行政监管措施决定书〔2026〕42号",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hebei/c103648/c7660386/content.shtml"
+  },
   {
    "date": "2026-09-21",
    "channel": "监管工作",
@@ -351,6 +391,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/liaoning/c103750/c7659267/content.shtml"
+  },
+  {
+   "date": "2026-09-17",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "江苏证监局关于对南京金银岛资产管理有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7660354/content.shtml"
   },
   {
    "date": "2026-09-16",
@@ -803,36 +853,6 @@
    "url": "https://www.csrc.gov.cn/beijing/c105547/c7658199/content.shtml"
   },
   {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "深圳证监局关于对刘泽林、张艳威采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7658179/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "深圳证监局关于对广发证券股份有限公司深圳分公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7658176/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对广发证券股份有限公司浙江分公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7658145/content.shtml"
-  },
-  {
    "date": "2026-09-10",
    "channel": "监管工作",
    "column": "辖区监管动态",
@@ -1151,16 +1171,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/yunnan/c104785/c7656094/content.shtml"
-  },
-  {
-   "date": "2026-09-02",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "2026年6月云南、昆明证券期货市场基本情况",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/yunnan/c104785/c7656086/content.shtml"
   },
   {
    "date": "2026-09-01",
@@ -4047,6 +4057,111 @@
  ],
  "media": [
   {
+   "date": "2026-09-22",
+   "media": "新华财经",
+   "title": "【豫财经】河南首单公募REITs，来了",
+   "url": "http://finance.eastmoney.com/a/202609223881230674.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-22",
+   "media": "财联社",
+   "title": "标普：香港首个五年规划为银行保险业开辟新增长空间",
+   "url": "http://bank.eastmoney.com/a/202609223881194712.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-22",
+   "media": "央视财经",
+   "title": "国内首个！2吨级载重“大气球”，成功试运行",
+   "url": "http://finance.eastmoney.com/a/202609223881199620.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-22",
+   "media": "证券日报",
+   "title": "首个AI原生组织转型指南发布：中国人民大学世界一流企业研究院与联想集团联合推出",
+   "url": "http://finance.eastmoney.com/a/202609223881185083.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-22",
+   "media": "科创板日报",
+   "title": "龙芯自研通用GPU加速计算平台首个软件版本面世",
+   "url": "http://finance.eastmoney.com/a/202609223881063171.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-22",
+   "media": "新华财经",
+   "title": "【环球财经】沙特首个本土汽车品牌CEER发布首批车型",
+   "url": "http://finance.eastmoney.com/a/202609223881043051.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-22",
+   "media": "中国新闻网",
+   "title": "广西海事部门护航平陆运河江海联运首批货物顺利到港",
+   "url": "http://finance.eastmoney.com/a/202609223881198336.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-22",
+   "media": "上海证券报·中国证券网",
+   "title": "荣耀新机Magic9系列和荣耀Robot Phone将成为首批搭载Qwen Intelligence的正式机型",
+   "url": "http://finance.eastmoney.com/a/202609223881154170.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-22",
+   "media": "财联社",
+   "title": "荣耀新机首批搭载阿里AI手机解决方案",
+   "url": "http://finance.eastmoney.com/a/202609223881092171.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-22",
+   "media": "证券时报网",
+   "title": "高通与谷歌展开合作 首批Googlebook笔记本电脑搭载骁龙平台",
+   "url": "http://finance.eastmoney.com/a/202609223881047726.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-22",
+   "media": "证券时报网",
+   "title": "首家18C章A+H新股亮相，星环科技上市当日即入港股通",
+   "url": "http://finance.eastmoney.com/a/202609223880641957.html",
+   "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-09-21",
    "media": "界面新闻",
    "title": "政策红利集中释放！医疗器械爆发，透景生命20CM涨停，医疗器械ETF汇添富(159797)标的指数涨超2.5%，全球首个AI+脑机接口医疗器械标准发布",
@@ -4089,6 +4204,26 @@
   },
   {
    "date": "2026-09-21",
+   "media": "每日经济新闻",
+   "title": "2300亿公募REITs市场再迎突破，首单煤电REITs启动询价发售",
+   "url": "http://finance.eastmoney.com/a/202609213880294724.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-21",
+   "media": "中国证券报·中证网",
+   "title": "武汉股权托管交易中心成功办理湖北首单“认股权+担保”登记",
+   "url": "http://finance.eastmoney.com/a/202609213880308220.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-21",
    "media": "界面新闻",
    "title": "56家企业和机构获得我国首批数据产权“身份证”",
    "url": "http://finance.eastmoney.com/a/202609213879768290.html",
@@ -4111,6 +4246,15 @@
    "title": "九识获得欧洲首张RoboVan-比利时Y牌；广汽柬埔寨KD工厂正式投产下线丨汽车早参",
    "url": "http://finance.eastmoney.com/a/202609213879513046.html",
    "keyword": "首张",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-09-21",
+   "media": "财联社",
+   "title": "星环科技港股上市首日破发 18C规则下首家赴港上市A股公司来了",
+   "url": "http://finance.eastmoney.com/a/202609213880356915.html",
+   "keyword": "首家",
    "topics": [],
    "strong": false
   },
@@ -4662,7 +4806,7 @@
   }
  ],
  "review": {
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "total": 4400,
   "pipelineTotal": 872,
   "activeTotal": 374,
@@ -5045,6 +5189,16 @@
   ],
   "recentActive": [
    {
+    "date": "2026-09-22",
+    "acceptDate": "2026-06-22",
+    "company": "广东格兰达精密技术股份有限公司",
+    "market": "北交所",
+    "industry": "金属制品业",
+    "state": "已问询",
+    "region": "广东省 江门市",
+    "sponsor": "兴业证券股份有限公司"
+   },
+   {
     "date": "2026-09-18",
     "acceptDate": "2026-06-30",
     "company": "深圳云豹智能股份有限公司",
@@ -5296,6 +5450,16 @@
    },
    {
     "date": "2026-09-09",
+    "acceptDate": "2026-05-28",
+    "company": "欧尚元智能装备股份有限公司",
+    "market": "创业板",
+    "industry": "专用设备制造业",
+    "state": "已问询",
+    "region": "天津",
+    "sponsor": "国泰海通证券股份有限公司"
+   },
+   {
+    "date": "2026-09-09",
     "acceptDate": "2025-03-11",
     "company": "傲拓科技股份有限公司",
     "market": "科创板",
@@ -5423,26 +5587,6 @@
     "state": "提交注册",
     "region": "江苏省 无锡市",
     "sponsor": "国泰海通证券股份有限公司"
-   },
-   {
-    "date": "2026-09-02",
-    "acceptDate": "2026-06-24",
-    "company": "成立航空股份有限公司",
-    "market": "创业板",
-    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
-    "state": "已问询",
-    "region": "天津",
-    "sponsor": "广发证券股份有限公司"
-   },
-   {
-    "date": "2026-09-01",
-    "acceptDate": "2025-06-13",
-    "company": "广东邦泽创科电器股份有限公司",
-    "market": "北交所",
-    "industry": "通用设备制造业",
-    "state": "提交注册",
-    "region": "广东省 东莞市",
-    "sponsor": "东莞证券股份有限公司"
    }
   ]
  }
