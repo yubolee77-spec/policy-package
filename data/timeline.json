@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-22 15:59",
+ "generatedAt": "2026-09-22 22:11",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 253,
+ "candidateCount": 254,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -302,6 +302,14 @@
      "noise": false
     },
     {
+     "label": "2026-09-22 · 一条高铁话长征（评论员观察）（经济日报）",
+     "title": "一条高铁话长征（评论员观察）",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260922_3230222.shtml",
+     "date": "2026-09-22",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-09-21 · 2026年8月金融市场运行情况（央行最新动态）",
      "title": "2026年8月金融市场运行情况",
      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092109135798884/index.html",
@@ -313,14 +321,6 @@
      "label": "2026-09-21 · 坚持“四个注重”做强先进制造业（经济日报）",
      "title": "坚持“四个注重”做强先进制造业",
      "url": "http://paper.ce.cn/pc/content/202609/21/content_339219.html",
-     "date": "2026-09-21",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-21 · 金观平：坚持“四个注重”做强先进制造业（经济日报）",
-     "title": "金观平：坚持“四个注重”做强先进制造业",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260921_3226215.shtml",
      "date": "2026-09-21",
      "source": "经济日报",
      "noise": false

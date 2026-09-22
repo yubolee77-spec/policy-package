@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-22",
-  "fetchedAt": "2026-09-22 15:57",
+  "fetchedAt": "2026-09-22 22:04",
   "monthLabel": "2026年9月",
   "timeline": [
     {
@@ -809,27 +809,10 @@
       "desc": "国务院最新政策文件",
       "url": "https://www.gov.cn/zhengce/zhengceku/202607/content_7077200.htm",
       "date": "2026-07-31",
-      "summary": "关于印发《知识产权保护和运用各省、自治区、直辖市人民政府，国务院各部委、各直属机构：现将《知识产权保护和运用“十五五”规划》印发给你们，请认真贯彻执行。知识产权保护和运用“十五五”规划知识产权是国家发展的战略性资源和国际竞争力的核心要素。",
+      "summary": "现将《知识产权保护和运用“十五五”规划》印发给你们，请认真",
       "tier": "central",
-      "keywords": [
-        {
-          "type": "ding",
-          "text": "加快"
-        },
-        {
-          "type": "ding",
-          "text": "有力"
-        },
-        {
-          "type": "deg",
-          "text": "进一步"
-        },
-        {
-          "type": "deg",
-          "text": "深入"
-        }
-      ],
-      "keySentence": "为加快建设知识产权强国，根据《中华人民共和国国民经济和社会发展第十五个五年规划纲要》，制定本规划。"
+      "keywords": [],
+      "keySentence": ""
     },
     {
       "title": "国务院关于出境入境管理的规定",
@@ -2844,14 +2827,9 @@
       "desc": "国务院最新政策文件",
       "url": "https://www.gov.cn/zhengce/zhengceku/202510/content_7045362.htm",
       "date": "2025-10-22",
-      "summary": "“全民阅读活动周”的批复国函〔2025〕101号你署关于设立“全民阅读活动周”的请示收悉。同意自2026年起，将每年4月第四周设立为“全民阅读活动周”。具体工作由你署商有关部门组织实施。",
+      "summary": "关于同意设立“全民阅读活动周”的批复国函〔2025〕101号国家新闻出版署：你署关于设立“全民阅读活动周”的请示收悉。同意自2026年起，将每年4月第四周设立为“全民阅读活动周”。具体工",
       "tier": "central",
-      "keywords": [
-        {
-          "type": "verb",
-          "text": "实施"
-        }
-      ],
+      "keywords": [],
       "keySentence": ""
     },
     {
@@ -3156,6 +3134,18 @@
       "keySentence": "",
       "tier": "",
       "summaryTried": 1
+    },
+    {
+      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260922_3230222.shtml",
+      "title": "一条高铁话长征（评论员观察）",
+      "author": "评论员",
+      "byline": "评论员",
+      "date": "2026-09-22",
+      "media": "经济日报",
+      "summary": "",
+      "keywords": [],
+      "keySentence": "",
+      "tier": ""
     },
     {
       "url": "http://paper.ce.cn/pc/content/202609/21/content_339219.html",
