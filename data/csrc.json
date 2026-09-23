@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-09-23 07:40",
- "mediaFetchedAt": "2026-09-22 15:57",
- "mediaStale": true,
+ "generatedAt": "2026-09-23 14:45",
+ "mediaFetchedAt": "2026-09-23 14:45",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 28,
   "papers": 0
  },
  "kpi": {
@@ -13,8 +13,8 @@
   "approvalMonth": 19,
   "reitsApproved30d": 8,
   "ipoApproved30d": 10,
-  "mediaTotal": 78,
-  "mediaStrong": 48,
+  "mediaTotal": 94,
+  "mediaStrong": 63,
   "activeTotal": 373,
   "successTotal": 162,
   "cycleRecentAvg": 260,
@@ -22,6 +22,26 @@
   "cycleVerdict": "加快 8%"
  },
  "penalty": [
+  {
+   "date": "2026-09-23",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "上海证监局组织开展2026年金融教育宣传周活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shanghai/c100581/c7660528/content.shtml"
+  },
+  {
+   "date": "2026-09-23",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "筑牢声誉“护城河” 传递资本市场正能量——山西辖区举办新闻舆论引导与声誉管理交流培训班",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shanxi/c100391/c7660511/content.shtml"
+  },
   {
    "date": "2026-09-22",
    "channel": "监管工作",
@@ -1161,26 +1181,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/qingdao/c101719/c7656307/content.shtml"
-  },
-  {
-   "date": "2026-09-02",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "广西证监局会同自治区有关部门出台金融措施支持救灾和灾后恢复重建工作",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/guangxi/c100999/c7656167/content.shtml"
-  },
-  {
-   "date": "2026-09-02",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "天津证监局与上海证券报社签署合作备忘录",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/tianjin/c100315/c7656115/content.shtml"
   },
   {
    "date": "2026-09-01",
@@ -4067,6 +4067,152 @@
  ],
  "media": [
   {
+   "date": "2026-09-23",
+   "media": "财联社",
+   "title": "“828”新政后首例！这家农商行明确房贷最长期限30年 抢业务不同银行策略明显分化",
+   "url": "http://bank.eastmoney.com/a/202609233882256297.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "证券时报网",
+   "title": "首例！12名LP起诉解散基金，私募控股上市公司的退出困局何解？",
+   "url": "http://finance.eastmoney.com/a/202609223881542656.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "每日经济新闻",
+   "title": "西北首单的背后，陕国投如何用信任破解“托付”难题",
+   "url": "http://finance.eastmoney.com/a/202609233882287932.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "每日经济新闻",
+   "title": "成都首个Token工厂亮相 打造西部算力调度与Token经济枢纽",
+   "url": "http://finance.eastmoney.com/a/202609233882391069.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "每日经济新闻",
+   "title": "华为全联接大会发布全球首个NPO技术超节点昇腾960，创业板算力ETF天弘（158061）标的指数盘中跌0.50%，获申购近1亿份",
+   "url": "http://stock.eastmoney.com/a/202609233882357791.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "21世纪经济报道",
+   "title": "非金属材料概念盘中走强，北京经开区发布全市首个新材料产业专项政策丨异动情报",
+   "url": "http://finance.eastmoney.com/a/202609233882294959.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "21世纪经济报道",
+   "title": "华为全球首个3D数据中心发布，电网设备ETF华夏（159326）盘中交投活跃，成分股东材科技领涨",
+   "url": "http://stock.eastmoney.com/a/202609233882328183.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI",
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "每日经济新闻",
+   "title": "国内首个算力卫星成功发射，创业板算力ETF天弘（158061）标的指数逆市飘红，获申购超8000万份",
+   "url": "http://stock.eastmoney.com/a/202609233882367952.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI",
+    "商业航天"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "科创板日报",
+   "title": "脑机接口+医保：国内首个国家级赛事启幕 搭建技术落地“试验场”",
+   "url": "http://finance.eastmoney.com/a/202609233882261995.html",
+   "keyword": "首个",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "上海证券报·中国证券网",
+   "title": "360首批获得国家级人工智能安全一级资质",
+   "url": "http://finance.eastmoney.com/a/202609233882366058.html",
+   "keyword": "首批",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "证券时报网",
+   "title": "三六零首批获得国家级人工智能安全一级资质",
+   "url": "http://finance.eastmoney.com/a/202609233882297749.html",
+   "keyword": "首批",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "证券时报网",
+   "title": "青岛发布首批10个数字人才和技术服务场景",
+   "url": "http://finance.eastmoney.com/a/202609233881883464.html",
+   "keyword": "首批",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "界面新闻",
+   "title": "全球首条12英寸双极性器件量产生产线落地上海，科创半导体设备ETF华泰柏瑞(588710)助力布局国产替代加速机遇",
+   "url": "http://stock.eastmoney.com/a/202609233882351387.html",
+   "keyword": "首条",
+   "topics": [
+    "集成电路"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "中国证券报",
+   "title": "本轮首家！贝莱德基金摊余成本法债基提前结募",
+   "url": "http://fund.eastmoney.com/a/202609233882264730.html",
+   "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-09-22",
    "media": "新华财经",
    "title": "【豫财经】河南首单公募REITs，来了",
@@ -4124,6 +4270,26 @@
    "url": "http://finance.eastmoney.com/a/202609223881043051.html",
    "keyword": "首个",
    "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-22",
+   "media": "财联社",
+   "title": "亚虹医药：APL-2501完成I期临床试验首例受试者入组",
+   "url": "http://finance.eastmoney.com/a/202609223881320785.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-22",
+   "media": "第一财经",
+   "title": "珠海高栏港新能源汽车整车装箱出口实现首单突破",
+   "url": "http://finance.eastmoney.com/a/202609223881234985.html",
+   "keyword": "首单",
+   "topics": [
+    "新能源"
+   ],
    "strong": true
   },
   {
@@ -4818,10 +4984,10 @@
  "review": {
   "asOf": "2026-09-22",
   "total": 4400,
-  "pipelineTotal": 872,
+  "pipelineTotal": 871,
   "activeTotal": 373,
   "successTotal": 162,
-  "failTotal": 208,
+  "failTotal": 207,
   "stages": [
    {
     "name": "已受理",
@@ -4850,7 +5016,7 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 208,
+    "count": 207,
     "kind": "fail"
    }
   ],
@@ -4861,7 +5027,7 @@
    },
    {
     "name": "创业板",
-    "count": 197
+    "count": 196
    },
    {
     "name": "科创板",
@@ -4903,7 +5069,7 @@
    },
    {
     "name": "软件和信息技术服务业",
-    "count": 43
+    "count": 42
    },
    {
     "name": "医药制造业",
