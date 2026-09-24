@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-24 14:42",
+  "generatedAt": "2026-09-24 22:21",
   "asOf": "2026-09",
   "asOfLabel": "2026年9月",
-  "archiveTotal": 198,
-  "archiveAdded": 0,
+  "archiveTotal": 201,
+  "archiveAdded": 3,
   "channels": [
     {
       "key": "special_fund",
@@ -1297,15 +1297,15 @@
           "cur": {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 20,
+            "n": 23,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 8,
+              "机构资格": 4,
               "首发上市（IPO）": 3,
-              "其他审核": 4,
-              "并购重组": 2,
-              "机构资格": 3
+              "其他审核": 6,
+              "并购重组": 2
             }
           },
           "prev": {
@@ -1322,22 +1322,22 @@
               "再融资": 1
             }
           },
-          "deltaPct": -20.0,
+          "deltaPct": -8.0,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 68,
+            "n": 71,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 13,
+              "机构资格": 19,
               "首发上市（IPO）": 12,
-              "其他审核": 14,
+              "其他审核": 16,
               "并购重组": 2,
-              "机构资格": 18,
               "再融资": 9
             }
           },
@@ -1352,22 +1352,22 @@
               "其他审核": 7
             }
           },
-          "deltaPct": 750.0,
+          "deltaPct": 787.5,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 85,
+            "n": 88,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 13,
+              "机构资格": 19,
               "首发上市（IPO）": 12,
-              "其他审核": 28,
+              "其他审核": 30,
               "并购重组": 5,
-              "机构资格": 18,
               "再融资": 9
             }
           },
@@ -1384,7 +1384,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 174.2,
+          "deltaPct": 183.9,
           "deltaAmountPct": null
         }
       },
@@ -1441,7 +1441,7 @@
           {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 20,
+            "n": 23,
             "amountYi": 0.0
           },
           {
@@ -1479,7 +1479,7 @@
           {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 68,
+            "n": 71,
             "amountYi": 0.0
           },
           {
@@ -1499,7 +1499,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 85,
+            "n": 88,
             "amountYi": 0.0
           }
         ]
@@ -1565,9 +1565,9 @@
           },
           {
             "name": "其他审核",
-            "cur": 4,
+            "cur": 6,
             "prev": 7,
-            "deltaPct": -42.9,
+            "deltaPct": -14.3,
             "items": [
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
@@ -1586,6 +1586,22 @@
                 "src": "L1 政策速览"
               },
               {
+                "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
+                "date": "2026-09-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意四川菊乐食品股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661119/content.shtml",
+                "date": "2026-09-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
                 "title": "关于同意北京天广实生物技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101830/c7659093/content.shtml",
                 "date": "2026-09-03",
@@ -1602,14 +1618,22 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 4
+            "totalItems": 6
           },
           {
             "name": "机构资格",
-            "cur": 3,
+            "cur": 4,
             "prev": 7,
-            "deltaPct": -57.1,
+            "deltaPct": -42.9,
             "items": [
+              {
+                "title": "关于核准德邦证券股份有限公司变更主要股东的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101846/c7661133/content.shtml",
+                "date": "2026-09-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准贝莱德基金管理有限公司合格境内机构投资者资格的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101888/c7659624/content.shtml",
@@ -1635,7 +1659,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 3
+            "totalItems": 4
           },
           {
             "name": "首发上市（IPO）",
@@ -1707,10 +1731,18 @@
         "quarter": [
           {
             "name": "机构资格",
-            "cur": 18,
+            "cur": 19,
             "prev": 0,
             "deltaPct": 100.0,
             "items": [
+              {
+                "title": "关于核准德邦证券股份有限公司变更主要股东的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101846/c7661133/content.shtml",
+                "date": "2026-09-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准贝莱德基金管理有限公司合格境内机构投资者资格的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101888/c7659624/content.shtml",
@@ -1750,23 +1782,15 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准胜诺国际贸易有限公司合格境外投资者资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101885/c7657866/content.shtml",
-                "date": "2026-08-21",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 18
+            "totalItems": 19
           },
           {
             "name": "其他审核",
-            "cur": 14,
+            "cur": 16,
             "prev": 7,
-            "deltaPct": 100.0,
+            "deltaPct": 128.6,
             "items": [
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
@@ -1785,6 +1809,22 @@
                 "src": "L1 政策速览"
               },
               {
+                "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
+                "date": "2026-09-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意四川菊乐食品股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661119/content.shtml",
+                "date": "2026-09-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
                 "title": "关于同意北京天广实生物技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101830/c7659093/content.shtml",
                 "date": "2026-09-03",
@@ -1799,25 +1839,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意贵州南方乳业股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7656788/content.shtml",
-                "date": "2026-08-27",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意淮南文峰光电科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7658095/content.shtml",
-                "date": "2026-08-27",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 14
+            "totalItems": 16
           },
           {
             "name": "REITs 注册",
@@ -2019,9 +2043,9 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 28,
+            "cur": 30,
             "prev": 23,
-            "deltaPct": 21.7,
+            "deltaPct": 30.4,
             "items": [
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
@@ -2040,6 +2064,22 @@
                 "src": "L1 政策速览"
               },
               {
+                "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
+                "date": "2026-09-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意四川菊乐食品股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661119/content.shtml",
+                "date": "2026-09-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
                 "title": "关于同意北京天广实生物技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101830/c7659093/content.shtml",
                 "date": "2026-09-03",
@@ -2054,32 +2094,24 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意贵州南方乳业股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7656788/content.shtml",
-                "date": "2026-08-27",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意淮南文峰光电科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7658095/content.shtml",
-                "date": "2026-08-27",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 28
+            "totalItems": 30
           },
           {
             "name": "机构资格",
-            "cur": 18,
+            "cur": 19,
             "prev": 1,
-            "deltaPct": 1700.0,
+            "deltaPct": 1800.0,
             "items": [
+              {
+                "title": "关于核准德邦证券股份有限公司变更主要股东的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101846/c7661133/content.shtml",
+                "date": "2026-09-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准贝莱德基金管理有限公司合格境内机构投资者资格的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101888/c7659624/content.shtml",
@@ -2119,17 +2151,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准胜诺国际贸易有限公司合格境外投资者资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101885/c7657866/content.shtml",
-                "date": "2026-08-21",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 18
+            "totalItems": 19
           },
           {
             "name": "REITs 注册",
@@ -2570,6 +2594,16 @@
       "src": "证监会审核台账"
     },
     {
+      "url": "https://www.csrc.gov.cn/csrc/c101846/c7661133/content.shtml",
+      "title": "关于核准德邦证券股份有限公司变更主要股东的批复",
+      "date": "2026-09-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
       "url": "https://www.csrc.gov.cn/csrc/c105906/c7659607/content.shtml",
       "title": "关于同意傲拓科技股份有限公司首次公开发行股票注册的批复",
       "date": "2026-09-18",
@@ -2646,6 +2680,26 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "首发上市（IPO）",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
+      "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+      "date": "2026-09-10",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7661119/content.shtml",
+      "title": "关于同意四川菊乐食品股份有限公司向不特定合格投资者公开发行股票注册的批复",
+      "date": "2026-09-10",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -3706,36 +3760,6 @@
       "org": "市场监管总局",
       "channel": "pilot",
       "industry": "数据与信息",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://zyhj.mof.gov.cn/zcfb/202601/t20260114_3981840.htm",
-      "title": "《重点生态保护修复治理资金管理办法》修订印发",
-      "date": "2026-01-14",
-      "org": "财政部",
-      "channel": "special_fund",
-      "industry": "生态环保",
-      "amountYi": null,
-      "src": "财政部官网栏目"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/202601/content_7054584.htm",
-      "title": "政府投资基金进入规范发展新阶段",
-      "date": "2026-01-13",
-      "org": "gov.cn",
-      "channel": "capital",
-      "industry": "并购重组",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/202601/content_7054491.htm",
-      "title": "大连等9个城市试点任务明确——服务业扩大开放“路线图”上新",
-      "date": "2026-01-12",
-      "org": "gov.cn",
-      "channel": "pilot",
-      "industry": "对外开放",
       "amountYi": null,
       "src": "gov.cn 政策库"
     }

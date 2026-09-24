@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24 14:42",
+  "updated": "2026-09-24 22:21",
   "items": [
     {
       "url": "https://www.csrc.gov.cn/csrc/c101895/c7659932/content.shtml",
@@ -28,6 +28,16 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "REITs 注册",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101846/c7661133/content.shtml",
+      "title": "关于核准德邦证券股份有限公司变更主要股东的批复",
+      "date": "2026-09-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -108,6 +118,26 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "首发上市（IPO）",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
+      "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+      "date": "2026-09-10",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7661119/content.shtml",
+      "title": "关于同意四川菊乐食品股份有限公司向不特定合格投资者公开发行股票注册的批复",
+      "date": "2026-09-10",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
     },

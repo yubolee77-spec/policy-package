@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-24 14:42",
+ "generatedAt": "2026-09-24 22:21",
  "cards": [
   {
    "key": "policy",
@@ -7,17 +7,17 @@
    "indexUrl": "https://www.gov.cn/zhengce/zuixin.htm",
    "indexLabel": "gov.cn/zhengce 最新政策",
    "from": "gov",
-   "href": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081881.htm",
+   "href": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081973.htm",
    "latest": {
-    "title": "国务院办公厅关于印发《“高效办成一件事”2026年度第二批重点事项清单》的通知",
-    "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081881.htm",
-    "date": "2026-09-23",
+    "title": "中华人民共和国审计法实施条例",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081973.htm",
+    "date": "2026-09-24",
     "source": "国务院最新政策文件"
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-24 14:42",
-   "ageDays": 1
+   "fetchedAt": "2026-09-24 22:21",
+   "ageDays": 0
   },
   {
    "key": "bond",
@@ -26,17 +26,17 @@
    "indexLabel": "财政部预算司·国债发行",
    "include": "国债",
    "exclude": "会见|会谈|座谈|巡视|招聘|任免|公示|考试|培训",
-   "href": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202609/t20260922_3997959.htm",
+   "href": "https://www.gov.cn/zhengce/202607/content_7076206.htm",
    "latest": {
-    "title": "关于2026年记账式贴现（六十二期）国债发行工作有关事宜的通知",
-    "url": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202609/t20260922_3997959.htm",
-    "date": "2026-09-22",
-    "source": "财政部"
+    "title": "220亿元超长期特别国债，支持老旧营运货车报废更新",
+    "url": "https://www.gov.cn/zhengce/202607/content_7076206.htm",
+    "date": "2026-07-21",
+    "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 13,
-   "fetchedAt": "2026-09-24 14:42",
-   "ageDays": 2
+   "total": 12,
+   "fetchedAt": "2026-09-24 22:21",
+   "ageDays": 65
   },
   {
    "key": "localbond",
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 21,
-   "fetchedAt": "2026-09-24 14:42",
+   "total": 4,
+   "fetchedAt": "2026-09-24 22:21",
    "ageDays": 328
   },
   {
@@ -72,7 +72,7 @@
    },
    "stale": false,
    "total": 120,
-   "fetchedAt": "2026-09-24 14:42",
+   "fetchedAt": "2026-09-24 22:21",
    "ageDays": 0
   }
  ],
