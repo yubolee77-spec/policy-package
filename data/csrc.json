@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-09-24 07:46",
- "mediaFetchedAt": "2026-09-23 14:45",
- "mediaStale": true,
+ "generatedAt": "2026-09-24 14:40",
+ "mediaFetchedAt": "2026-09-24 14:40",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 24,
   "papers": 0
  },
  "kpi": {
-  "penaltyTotal": 235,
-  "penaltyMonth": 117,
+  "penaltyTotal": 233,
+  "penaltyMonth": 115,
   "approvalTotal": 168,
   "approvalMonth": 19,
   "reitsApproved30d": 8,
   "ipoApproved30d": 10,
-  "mediaTotal": 94,
-  "mediaStrong": 63,
+  "mediaTotal": 103,
+  "mediaStrong": 71,
   "activeTotal": 374,
   "successTotal": 162,
   "cycleRecentAvg": 260,
@@ -22,6 +22,46 @@
   "cycleVerdict": "加快 8%"
  },
  "penalty": [
+  {
+   "date": "2026-09-24",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对姜洪国采取出具警示函监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7660935/content.shtml"
+  },
+  {
+   "date": "2026-09-24",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对方正证券股份有限公司延吉爱丹路证券营业部采取出具警示函监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103779/c7660925/content.shtml"
+  },
+  {
+   "date": "2026-09-24",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "跨部门协同宣教 筑金融安全防线 ——吉林局开展2026年金融教育宣传周系列活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c100505/c7660847/content.shtml"
+  },
+  {
+   "date": "2026-09-24",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对郴州市发展投资集团有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hunan/c104484/c7660923/content.shtml"
+  },
   {
    "date": "2026-09-23",
    "channel": "监管工作",
@@ -291,6 +331,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/shanghai/c103864/c7660632/content.shtml"
+  },
+  {
+   "date": "2026-09-20",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "湖北证监局关于对武汉金瑞麟资产管理有限公司、闵志鹏、王坤采取出具警示函行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hubei/c104408/c7660891/content.shtml"
   },
   {
    "date": "2026-09-18",
@@ -923,46 +973,6 @@
    "url": "https://www.csrc.gov.cn/fujian/c104066/c7658956/content.shtml"
   },
   {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对刘平山采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658951/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对钟剑锋采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658947/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对中国中金财富证券有限公司宁波海晏北路证券营业部采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/ningbo/c104130/c7658221/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对弘扬软件股份有限公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104066/c7658941/content.shtml"
-  },
-  {
    "date": "2026-09-10",
    "channel": "监管工作",
    "column": "辖区监管动态",
@@ -1141,36 +1151,6 @@
    "docNo": "",
    "party": "总第31期",
    "url": "https://www.csrc.gov.cn/ningxia/c101455/c7656622/content.shtml"
-  },
-  {
-   "date": "2026-09-04",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "辽宁证监局关于2026年上市公司现场检查随机抽取结果的公示",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/liaoning/c100467/c7656576/content.shtml"
-  },
-  {
-   "date": "2026-09-04",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "广东证监局举办“走进深交所”债券业务交流活动",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/guangdong/c100961/c7656572/content.shtml"
-  },
-  {
-   "date": "2026-09-04",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "吉林辖区新三板挂牌公司基本信息2026年8月",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c103781/c7656568/content.shtml"
   },
   {
    "date": "2026-09-01",
@@ -4057,6 +4037,71 @@
  ],
  "media": [
   {
+   "date": "2026-09-24",
+   "media": "界面新闻",
+   "title": "腾讯发布首个面向海外用户的来华支付应用TenPayGo",
+   "url": "http://finance.eastmoney.com/a/202609243883629280.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-24",
+   "media": "上海证券报·中国证券网",
+   "title": "全国首个“社会急救生态圈”在深圳正式启动 各互联网企业协同合作",
+   "url": "http://biz.eastmoney.com/a/202609243883569150.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-24",
+   "media": "财联社",
+   "title": "我国首个规模化应用18兆瓦海上风机项目投运",
+   "url": "http://finance.eastmoney.com/a/202609243883534134.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-24",
+   "media": "财联社",
+   "title": "腾讯正式发布首个面向境外用户来华支付工具“TenPay Go”",
+   "url": "http://finance.eastmoney.com/a/202609243883534011.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-24",
+   "media": "科创板日报",
+   "title": "智元、长隆集团与中国移动联合发布首个文旅场景大规模 5G-A 具身智能创新应用",
+   "url": "http://finance.eastmoney.com/a/202609243883497468.html",
+   "keyword": "首个",
+   "topics": [
+    "消费/文旅"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-24",
+   "media": "界面新闻",
+   "title": "全国首个50公里海域连续监测网：宁德核电把海洋生物入侵“算”在前面",
+   "url": "http://finance.eastmoney.com/a/202609243883466861.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-24",
+   "media": "新华财经",
+   "title": "国产极氪9X首批大规模出海",
+   "url": "http://finance.eastmoney.com/a/202609243883532196.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-09-23",
    "media": "财联社",
    "title": "“828”新政后首例！这家农商行明确房贷最长期限30年 抢业务不同银行策略明显分化",
@@ -4191,6 +4236,24 @@
    "topics": [
     "集成电路"
    ],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "21世纪经济报道",
+   "title": "证券业首例“三合一”合并正式落地，证券ETF华夏（515010）持仓股中金公司涨超2%",
+   "url": "http://stock.eastmoney.com/a/202609233882403218.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-09-23",
+   "media": "21世纪经济报道",
+   "title": "打破有房没钱与失能失智困局 全国首单多类资产特需家庭信托落地",
+   "url": "http://bank.eastmoney.com/a/202609233882705336.html",
+   "keyword": "首单",
+   "topics": [],
    "strong": true
   },
   {
