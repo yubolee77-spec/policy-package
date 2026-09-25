@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-24 22:21",
+ "generatedAt": "2026-09-25 08:02",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-24 22:21",
-   "ageDays": 0
+   "fetchedAt": "2026-09-25 08:02",
+   "ageDays": 1
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-09-24 22:21",
-   "ageDays": 65
+   "fetchedAt": "2026-09-25 08:02",
+   "ageDays": 66
   },
   {
    "key": "localbond",
@@ -54,8 +54,8 @@
    },
    "stale": false,
    "total": 4,
-   "fetchedAt": "2026-09-24 22:21",
-   "ageDays": 328
+   "fetchedAt": "2026-09-25 08:02",
+   "ageDays": 329
   },
   {
    "key": "media",
@@ -63,16 +63,16 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202609/24/content_339343.html",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/25/content_30183020.html",
    "latest": {
-    "title": "构建普惠包容的数字贸易体系",
-    "url": "http://paper.ce.cn/pc/content/202609/24/content_339343.html",
-    "date": "2026-09-24",
-    "source": "经济日报"
+    "title": "北斗为新兴支柱产业打造重要增长极",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/25/content_30183020.html",
+    "date": "2026-09-25",
+    "source": "人民日报"
    },
    "stale": false,
-   "total": 120,
-   "fetchedAt": "2026-09-24 22:21",
+   "total": 121,
+   "fetchedAt": "2026-09-25 08:02",
    "ageDays": 0
   }
  ],
