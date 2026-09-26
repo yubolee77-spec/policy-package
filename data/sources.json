@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26 19:33",
+ "generatedAt": "2026-09-27 07:44",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-26 19:33",
-   "ageDays": 2
+   "fetchedAt": "2026-09-27 07:44",
+   "ageDays": 3
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 13,
-   "fetchedAt": "2026-09-26 19:33",
-   "ageDays": 4
+   "fetchedAt": "2026-09-27 07:44",
+   "ageDays": 5
   },
   {
    "key": "localbond",
@@ -53,9 +53,9 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 21,
-   "fetchedAt": "2026-09-26 19:33",
-   "ageDays": 330
+   "total": 4,
+   "fetchedAt": "2026-09-27 07:44",
+   "ageDays": 331
   },
   {
    "key": "media",
@@ -63,16 +63,16 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/26/content_30183112.html",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/27/content_30183294.html",
    "latest": {
-    "title": "生物制造为未来产业发展打造新引擎",
-    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/26/content_30183112.html",
-    "date": "2026-09-26",
+    "title": "智能经济何以塑造中国发展新优势",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/27/content_30183294.html",
+    "date": "2026-09-27",
     "source": "人民日报"
    },
    "stale": false,
-   "total": 124,
-   "fetchedAt": "2026-09-26 19:33",
+   "total": 126,
+   "fetchedAt": "2026-09-27 07:44",
    "ageDays": 0
   }
  ],
