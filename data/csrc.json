@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-25 22:42",
+ "generatedAt": "2026-09-26 07:59",
  "mediaFetchedAt": "2026-09-25 14:40",
  "mediaStale": true,
  "mediaChannels": {
   "eastmoney": 0,
-  "papers": 0
+  "papers": 1
  },
  "kpi": {
   "penaltyTotal": 236,
@@ -13,7 +13,7 @@
   "approvalMonth": 22,
   "reitsApproved30d": 8,
   "ipoApproved30d": 12,
-  "mediaTotal": 106,
+  "mediaTotal": 107,
   "mediaStrong": 73,
   "activeTotal": 371,
   "successTotal": 162,
@@ -4066,6 +4066,16 @@
   }
  ],
  "media": [
+  {
+   "date": "2026-09-26",
+   "media": "人民日报",
+   "title": "平陆运河首条外贸航线首艘货船抵达越南芹苴港",
+   "url": "http://paper.people.com.cn/rmrb/pc/content/202609/26/content_30183109.html",
+   "keyword": "首条",
+   "topics": [],
+   "strong": false,
+   "src": "党媒数字报直扫"
+  },
   {
    "date": "2026-09-24",
    "media": "界面新闻",

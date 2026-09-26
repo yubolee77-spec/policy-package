@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-25 22:47",
+ "generatedAt": "2026-09-26 08:03",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 257,
+ "candidateCount": 260,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,30 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-26 · 生物制造为未来产业发展打造新引擎（人民日报）",
+     "title": "生物制造为未来产业发展打造新引擎",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/26/content_30183112.html",
+     "date": "2026-09-26",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-09-26 · 引导企业布局深耕基础研究（经济日报）",
+     "title": "引导企业布局深耕基础研究",
+     "url": "http://paper.ce.cn/pc/content/202609/26/content_339438.html",
+     "date": "2026-09-26",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-09-26 · 金观平：引导企业布局深耕基础研究（经济日报）",
+     "title": "金观平：引导企业布局深耕基础研究",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260926_3235763.shtml",
+     "date": "2026-09-26",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-09-25 · 北斗为新兴支柱产业打造重要增长极（人民日报）",
      "title": "北斗为新兴支柱产业打造重要增长极",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202609/25/content_30183020.html",
@@ -299,30 +323,6 @@
      "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026092416074632670/index.html",
      "date": "2026-09-24",
      "source": "央行最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-09-24 · 2021年9月24日新闻发布会（证监会最新动态）",
-     "title": "2021年9月24日新闻发布会",
-     "url": "https://www.csrc.gov.cn/csrc/c100029/c1494133/content.shtml",
-     "date": "2026-09-24",
-     "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-09-24 · 构建普惠包容的数字贸易体系（经济日报）",
-     "title": "构建普惠包容的数字贸易体系",
-     "url": "http://paper.ce.cn/pc/content/202609/24/content_339343.html",
-     "date": "2026-09-24",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-23 · 国务院办公厅关于印发《“高效办成一件事”2026年度第二批重点事项清单》的通知（国务院最新政策文件）",
-     "title": "国务院办公厅关于印发《“高效办成一件事”2026年度第二批重点事项清单》的通知",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081881.htm",
-     "date": "2026-09-23",
-     "source": "国务院最新政策文件",
      "noise": false
     }
    ],

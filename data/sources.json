@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-25 22:47",
+ "generatedAt": "2026-09-26 08:03",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-25 22:47",
-   "ageDays": 1
+   "fetchedAt": "2026-09-26 08:03",
+   "ageDays": 2
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-09-25 22:47",
-   "ageDays": 66
+   "fetchedAt": "2026-09-26 08:03",
+   "ageDays": 67
   },
   {
    "key": "localbond",
@@ -53,9 +53,9 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 11,
-   "fetchedAt": "2026-09-25 22:47",
-   "ageDays": 329
+   "total": 4,
+   "fetchedAt": "2026-09-26 08:03",
+   "ageDays": 330
   },
   {
    "key": "media",
@@ -63,16 +63,16 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/25/content_30183020.html",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/26/content_30183112.html",
    "latest": {
-    "title": "北斗为新兴支柱产业打造重要增长极",
-    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/25/content_30183020.html",
-    "date": "2026-09-25",
+    "title": "生物制造为未来产业发展打造新引擎",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/26/content_30183112.html",
+    "date": "2026-09-26",
     "source": "人民日报"
    },
    "stale": false,
-   "total": 121,
-   "fetchedAt": "2026-09-25 22:47",
+   "total": 124,
+   "fetchedAt": "2026-09-26 08:03",
    "ageDays": 0
   }
  ],
