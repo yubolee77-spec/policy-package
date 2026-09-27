@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-27 18:08",
+ "generatedAt": "2026-09-28 07:55",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 262,
+ "candidateCount": 265,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,30 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-28 · 现代综合交通运输体系铺就高质量发展“快车道”（人民日报）",
+     "title": "现代综合交通运输体系铺就高质量发展“快车道”",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/28/content_30183362.html",
+     "date": "2026-09-28",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-09-28 · 明规立制让拖欠账款不敢为不能为（经济日报）",
+     "title": "明规立制让拖欠账款不敢为不能为",
+     "url": "http://paper.ce.cn/pc/content/202609/28/content_339496.html",
+     "date": "2026-09-28",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-09-28 · 金观平：明规立制让拖欠账款不敢为不能为（经济日报）",
+     "title": "金观平：明规立制让拖欠账款不敢为不能为",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260928_3237801.shtml",
+     "date": "2026-09-28",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-09-27 · 智能经济何以塑造中国发展新优势（人民日报）",
      "title": "智能经济何以塑造中国发展新优势",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202609/27/content_30183294.html",
@@ -298,30 +322,6 @@
      "title": "生物制造为未来产业发展打造新引擎",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202609/26/content_30183112.html",
      "date": "2026-09-26",
-     "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-26 · 引导企业布局深耕基础研究（经济日报）",
-     "title": "引导企业布局深耕基础研究",
-     "url": "http://paper.ce.cn/pc/content/202609/26/content_339438.html",
-     "date": "2026-09-26",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-26 · 金观平：引导企业布局深耕基础研究（经济日报）",
-     "title": "金观平：引导企业布局深耕基础研究",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260926_3235763.shtml",
-     "date": "2026-09-26",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-25 · 北斗为新兴支柱产业打造重要增长极（人民日报）",
-     "title": "北斗为新兴支柱产业打造重要增长极",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/25/content_30183020.html",
-     "date": "2026-09-25",
      "source": "人民日报",
      "noise": false
     }
