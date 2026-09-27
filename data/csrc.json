@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-09-27 07:40",
- "mediaFetchedAt": "2026-09-26 19:31",
- "mediaStale": true,
+ "generatedAt": "2026-09-27 18:06",
+ "mediaFetchedAt": "2026-09-27 18:06",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 17,
   "papers": 0
  },
  "kpi": {
@@ -12,11 +12,11 @@
   "approvalTotal": 168,
   "approvalMonth": 22,
   "reitsApproved30d": 8,
-  "ipoApproved30d": 12,
+  "ipoApproved30d": 9,
   "mediaTotal": 109,
   "mediaStrong": 74,
   "activeTotal": 371,
-  "successTotal": 162,
+  "successTotal": 161,
   "cycleRecentAvg": 262,
   "cyclePrevAvg": 279,
   "cycleVerdict": "加快 6%"
@@ -171,6 +171,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/chongqing/c104814/c7661283/content.shtml"
+  },
+  {
+   "date": "2026-09-24",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对南京晶升装备股份有限公司及相关责任人采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103893/c7661178/content.shtml"
   },
   {
    "date": "2026-09-24",
@@ -851,16 +861,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/xinjiang/c104370/c7659711/content.shtml"
-  },
-  {
-   "date": "2026-09-18",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对岭南生态文旅股份有限公司采取责令改正措施并对陈健波、尹洪卫、张平采取出具警示函措施的决定〔2026〕119号",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7659631/content.shtml"
   },
   {
    "date": "2026-09-17",
@@ -5126,10 +5126,10 @@
  "review": {
   "asOf": "2026-09-24",
   "total": 4400,
-  "pipelineTotal": 867,
+  "pipelineTotal": 864,
   "activeTotal": 371,
-  "successTotal": 162,
-  "failTotal": 206,
+  "successTotal": 161,
+  "failTotal": 204,
   "stages": [
    {
     "name": "已受理",
@@ -5153,12 +5153,12 @@
    },
    {
     "name": "注册生效",
-    "count": 162,
+    "count": 161,
     "kind": "success"
    },
    {
     "name": "已终止 / 撤回",
-    "count": 206,
+    "count": 204,
     "kind": "fail"
    }
   ],
@@ -5169,11 +5169,11 @@
    },
    {
     "name": "创业板",
-    "count": 195
+    "count": 193
    },
    {
     "name": "科创板",
-    "count": 131
+    "count": 130
    },
    {
     "name": "沪主板",
@@ -5191,7 +5191,7 @@
    },
    {
     "name": "专用设备制造业",
-    "count": 118
+    "count": 116
    },
    {
     "name": "汽车制造业",
