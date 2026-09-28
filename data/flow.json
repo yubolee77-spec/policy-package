@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-28 14:55",
+  "generatedAt": "2026-09-29 01:52",
   "asOf": "2026-09",
   "asOfLabel": "2026年9月",
-  "archiveTotal": 201,
-  "archiveAdded": 0,
+  "archiveTotal": 203,
+  "archiveAdded": 2,
   "channels": [
     {
       "key": "special_fund",
@@ -1297,46 +1297,46 @@
           "cur": {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 23,
+            "n": 24,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 8,
               "机构资格": 4,
               "首发上市（IPO）": 3,
-              "其他审核": 6,
+              "其他审核": 7,
               "并购重组": 2
             }
           },
           "prev": {
             "key": "2026-08",
             "label": "2026年8月",
-            "n": 25,
+            "n": 26,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "机构资格": 7,
               "首发上市（IPO）": 5,
-              "其他审核": 7,
+              "其他审核": 8,
               "REITs 注册": 5,
               "再融资": 1
             }
           },
-          "deltaPct": -8.0,
+          "deltaPct": -7.7,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 71,
+            "n": 73,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 13,
               "机构资格": 19,
               "首发上市（IPO）": 12,
-              "其他审核": 16,
+              "其他审核": 18,
               "并购重组": 2,
               "再融资": 9
             }
@@ -1352,21 +1352,21 @@
               "其他审核": 7
             }
           },
-          "deltaPct": 787.5,
+          "deltaPct": 812.5,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 88,
+            "n": 90,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 13,
               "机构资格": 19,
               "首发上市（IPO）": 12,
-              "其他审核": 30,
+              "其他审核": 32,
               "并购重组": 5,
               "再融资": 9
             }
@@ -1384,7 +1384,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 183.9,
+          "deltaPct": 190.3,
           "deltaAmountPct": null
         }
       },
@@ -1435,13 +1435,13 @@
           {
             "key": "2026-08",
             "label": "2026年8月",
-            "n": 25,
+            "n": 26,
             "amountYi": 0.0
           },
           {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 23,
+            "n": 24,
             "amountYi": 0.0
           },
           {
@@ -1479,7 +1479,7 @@
           {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 71,
+            "n": 73,
             "amountYi": 0.0
           },
           {
@@ -1499,7 +1499,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 88,
+            "n": 90,
             "amountYi": 0.0
           }
         ]
@@ -1565,9 +1565,9 @@
           },
           {
             "name": "其他审核",
-            "cur": 6,
-            "prev": 7,
-            "deltaPct": -14.3,
+            "cur": 7,
+            "prev": 8,
+            "deltaPct": -12.5,
             "items": [
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
@@ -1584,6 +1584,14 @@
                 "org": "央行",
                 "amountYi": null,
                 "src": "L1 政策速览"
+              },
+              {
+                "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml",
+                "date": "2026-09-11",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
               },
               {
                 "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
@@ -1608,17 +1616,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意德阳天元重工股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7659089/content.shtml",
-                "date": "2026-09-01",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 6
+            "totalItems": 7
           },
           {
             "name": "机构资格",
@@ -1788,9 +1788,9 @@
           },
           {
             "name": "其他审核",
-            "cur": 16,
+            "cur": 18,
             "prev": 7,
-            "deltaPct": 128.6,
+            "deltaPct": 157.1,
             "items": [
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
@@ -1807,6 +1807,14 @@
                 "org": "央行",
                 "amountYi": null,
                 "src": "L1 政策速览"
+              },
+              {
+                "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml",
+                "date": "2026-09-11",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
               },
               {
                 "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
@@ -1831,17 +1839,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意德阳天元重工股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7659089/content.shtml",
-                "date": "2026-09-01",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 16
+            "totalItems": 18
           },
           {
             "name": "REITs 注册",
@@ -2043,9 +2043,9 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 30,
+            "cur": 32,
             "prev": 23,
-            "deltaPct": 30.4,
+            "deltaPct": 39.1,
             "items": [
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
@@ -2062,6 +2062,14 @@
                 "org": "央行",
                 "amountYi": null,
                 "src": "L1 政策速览"
+              },
+              {
+                "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml",
+                "date": "2026-09-11",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
               },
               {
                 "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
@@ -2086,17 +2094,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意德阳天元重工股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7659089/content.shtml",
-                "date": "2026-09-01",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 30
+            "totalItems": 32
           },
           {
             "name": "机构资格",
@@ -2431,7 +2431,7 @@
           "url": ""
         },
         {
-          "name": "生态环保",
+          "name": "消费与流通",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2439,7 +2439,7 @@
           "url": ""
         },
         {
-          "name": "消费与流通",
+          "name": "生态环保",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2518,7 +2518,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2526,7 +2526,7 @@
           "url": ""
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2684,6 +2684,16 @@
       "src": "证监会审核台账"
     },
     {
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml",
+      "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+      "date": "2026-09-11",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
       "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
       "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
       "date": "2026-09-10",
@@ -2830,6 +2840,16 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "首发上市（IPO）",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml",
+      "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+      "date": "2026-08-28",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -3742,26 +3762,6 @@
       "industry": "综合与其他",
       "amountYi": null,
       "src": "财政部官网栏目"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055022.htm",
-      "title": "关于印发《重点生态保护修复治理资金管理办法》的通知",
-      "date": "2026-01-17",
-      "org": "财政部",
-      "channel": "special_fund",
-      "industry": "生态环保",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054814.htm",
-      "title": "市场监管总局关于印发《网络市场监管与服务示范区创建管理办法》的通知",
-      "date": "2026-01-15",
-      "org": "市场监管总局",
-      "channel": "pilot",
-      "industry": "数据与信息",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
     }
   ],
   "note": "口径：以官方发布的资金类文件条数作为资金节奏指标（每项均附原文可核验）；标题或摘要中出现金额时抽取为亿元一并展示，未抽取到的不做估算。行业归类按国民经济行业分类门类归并。"

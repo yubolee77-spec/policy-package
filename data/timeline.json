@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-28 14:55",
+ "generatedAt": "2026-09-29 01:52",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 265,
+ "candidateCount": 258,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-28 · 中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》（央行最新动态）",
+     "title": "中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082302.htm",
+     "date": "2026-09-28",
+     "source": "央行最新动态",
+     "noise": false
+    },
+    {
+     "label": "2026-09-28 · 湖北证监局原党委书记、局长王广幼被开除党籍（证监会最新动态）",
+     "title": "湖北证监局原党委书记、局长王广幼被开除党籍",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7661513/content.shtml",
+     "date": "2026-09-28",
+     "source": "证监会最新动态",
+     "noise": false
+    },
+    {
      "label": "2026-09-28 · 2026年1—8月份全国规模以上工业企业利润增长15.7%（国家统计局最新数据发布）",
      "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260928_1965425.html",
@@ -306,22 +322,6 @@
      "title": "金观平：明规立制让拖欠账款不敢为不能为",
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260928_3237801.shtml",
      "date": "2026-09-28",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-27 · 智能经济何以塑造中国发展新优势（人民日报）",
-     "title": "智能经济何以塑造中国发展新优势",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/27/content_30183294.html",
-     "date": "2026-09-27",
-     "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-27 · 系统谋划夯实金融强国根基（经济日报）",
-     "title": "系统谋划夯实金融强国根基",
-     "url": "http://paper.ce.cn/pc/content/202609/27/content_339468.html",
-     "date": "2026-09-27",
      "source": "经济日报",
      "noise": false
     }
