@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-28 07:55",
+ "generatedAt": "2026-09-28 14:55",
  "month": 9,
  "hotPeriod": "9-10月",
  "candidateCount": 265,
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-28 · 2026年1—8月份全国规模以上工业企业利润增长15.7%（国家统计局最新数据发布）",
+     "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260928_1965425.html",
+     "date": "2026-09-28",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-09-28 · 现代综合交通运输体系铺就高质量发展“快车道”（人民日报）",
      "title": "现代综合交通运输体系铺就高质量发展“快车道”",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202609/28/content_30183362.html",
@@ -315,14 +323,6 @@
      "url": "http://paper.ce.cn/pc/content/202609/27/content_339468.html",
      "date": "2026-09-27",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-26 · 生物制造为未来产业发展打造新引擎（人民日报）",
-     "title": "生物制造为未来产业发展打造新引擎",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/26/content_30183112.html",
-     "date": "2026-09-26",
-     "source": "人民日报",
      "noise": false
     }
    ],

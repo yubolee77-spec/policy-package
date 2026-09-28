@@ -1,8 +1,18 @@
 {
   "lastUpdated": "2026-09-28",
-  "fetchedAt": "2026-09-28 07:49",
+  "fetchedAt": "2026-09-28 14:53",
   "monthLabel": "2026年9月",
   "timeline": [
+    {
+      "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
+      "desc": "国家统计局最新数据发布",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260928_1965425.html",
+      "date": "2026-09-28",
+      "summary": "",
+      "tier": "dept",
+      "keywords": [],
+      "keySentence": "表22026年1-8月份规模以上工业企业经济效益指标。"
+    },
     {
       "title": "中华人民共和国审计法实施条例",
       "desc": "国务院最新政策文件",
@@ -421,16 +431,6 @@
       "tier": "dept",
       "keywords": [],
       "keySentence": "版权所有:国家统计局联系我们服务条款网站地图。"
-    },
-    {
-      "title": "2026年8月份70个大中城市商品住宅销售价格变动情况",
-      "desc": "国家统计局最新数据发布",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965304.html",
-      "date": "2026-09-15",
-      "summary": "",
-      "tier": "dept",
-      "keywords": [],
-      "keySentence": "表2：2026年8月70个大中城市二手住宅销售价格指数。"
     },
     {
       "title": "2026年8月金融统计数据报告",
@@ -3158,7 +3158,8 @@
       "summary": "",
       "keywords": [],
       "keySentence": "",
-      "tier": ""
+      "tier": "",
+      "summaryTried": 1
     },
     {
       "url": "http://paper.people.com.cn/rmrb/pc/content/202609/27/content_30183294.html",
@@ -7250,6 +7251,16 @@
     ],
     "国家统计局最新数据发布": [
       {
+        "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
+        "desc": "国家统计局最新数据发布",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260928_1965425.html",
+        "date": "2026-09-28",
+        "summary": "",
+        "tier": "dept",
+        "keywords": [],
+        "keySentence": "表22026年1-8月份规模以上工业企业经济效益指标。"
+      },
+      {
         "title": "2026年9月中旬流通领域重要生产资料市场价格变动情况",
         "desc": "国家统计局最新数据发布",
         "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260923_1965403.html",
@@ -7323,16 +7334,6 @@
         "tier": "dept",
         "keywords": [],
         "keySentence": "版权所有:国家统计局联系我们服务条款网站地图。"
-      },
-      {
-        "title": "2026年8月份70个大中城市商品住宅销售价格变动情况",
-        "desc": "国家统计局最新数据发布",
-        "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965304.html",
-        "date": "2026-09-15",
-        "summary": "",
-        "tier": "dept",
-        "keywords": [],
-        "keySentence": "表2：2026年8月70个大中城市二手住宅销售价格指数。"
       }
     ],
     "交易所最新公告": [
