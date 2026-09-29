@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30 00:06",
+ "generatedAt": "2026-09-30 00:47",
  "month": 9,
  "hotPeriod": "9-10月",
  "candidateCount": 260,
@@ -310,19 +310,19 @@
      "noise": false
     },
     {
-     "label": "2026-09-28 · 湖北证监局原党委书记、局长王广幼被开除党籍（证监会最新动态）",
-     "title": "湖北证监局原党委书记、局长王广幼被开除党籍",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7661513/content.shtml",
-     "date": "2026-09-28",
-     "source": "证监会最新动态",
-     "noise": false
-    },
-    {
      "label": "2026-09-28 · 2026年1—8月份全国规模以上工业企业利润增长15.7%（国家统计局最新数据发布）",
      "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260928_1965425.html",
      "date": "2026-09-28",
      "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
+     "label": "2026-09-28 · 湖北证监局原党委书记、局长王广幼被开除党籍（证监会最新动态）",
+     "title": "湖北证监局原党委书记、局长王广幼被开除党籍",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7661513/content.shtml",
+     "date": "2026-09-28",
+     "source": "证监会最新动态",
      "noise": false
     }
    ],
