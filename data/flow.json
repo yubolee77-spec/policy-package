@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-29 09:06",
+  "generatedAt": "2026-09-29 18:58",
   "asOf": "2026-09",
   "asOfLabel": "2026年9月",
-  "archiveTotal": 203,
-  "archiveAdded": 0,
+  "archiveTotal": 206,
+  "archiveAdded": 3,
   "channels": [
     {
       "key": "special_fund",
@@ -18,10 +18,11 @@
           "cur": {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 1,
+            "n": 2,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "金融与资本": 1,
               "教科文卫": 1
             }
           },
@@ -40,10 +41,11 @@
           "cur": {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 2,
+            "n": 3,
             "amountYi": 7550.0,
             "amountCount": 1,
             "industries": {
+              "金融与资本": 1,
               "教科文卫": 1,
               "综合与其他": 1
             }
@@ -59,17 +61,18 @@
               "农业农村": 1
             }
           },
-          "deltaPct": -60.0,
+          "deltaPct": -40.0,
           "deltaAmountPct": 0.0
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 21,
+            "n": 22,
             "amountYi": 15100.0,
             "amountCount": 2,
             "industries": {
+              "金融与资本": 1,
               "教科文卫": 1,
               "综合与其他": 9,
               "农业农村": 2,
@@ -97,7 +100,7 @@
               "新兴产业": 1
             }
           },
-          "deltaPct": -12.5,
+          "deltaPct": -8.3,
           "deltaAmountPct": 100.0
         }
       },
@@ -154,7 +157,7 @@
           {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 1,
+            "n": 2,
             "amountYi": 0.0
           },
           {
@@ -192,7 +195,7 @@
           {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 2,
+            "n": 3,
             "amountYi": 7550.0
           },
           {
@@ -212,7 +215,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 21,
+            "n": 22,
             "amountYi": 15100.0
           }
         ]
@@ -229,6 +232,23 @@
                 "title": "《改善普通高中学校办学条件补助资金管理办法》修订印发",
                 "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm",
                 "date": "2026-09-01",
+                "org": "财政部",
+                "amountYi": null,
+                "src": "财政部官网栏目"
+              }
+            ],
+            "totalItems": 1
+          },
+          {
+            "name": "金融与资本",
+            "cur": 1,
+            "prev": 0,
+            "deltaPct": 100.0,
+            "items": [
+              {
+                "title": "财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知",
+                "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm",
+                "date": "2026-09-29",
                 "org": "财政部",
                 "amountYi": null,
                 "src": "财政部官网栏目"
@@ -268,6 +288,23 @@
                 "org": "gov.cn",
                 "amountYi": 7550.0,
                 "src": "gov.cn 政策库"
+              }
+            ],
+            "totalItems": 1
+          },
+          {
+            "name": "金融与资本",
+            "cur": 1,
+            "prev": 0,
+            "deltaPct": 100.0,
+            "items": [
+              {
+                "title": "财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知",
+                "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm",
+                "date": "2026-09-29",
+                "org": "财政部",
+                "amountYi": null,
+                "src": "财政部官网栏目"
               }
             ],
             "totalItems": 1
@@ -485,6 +522,23 @@
                 "org": "财政部",
                 "amountYi": null,
                 "src": "gov.cn 政策库"
+              }
+            ],
+            "totalItems": 1
+          },
+          {
+            "name": "金融与资本",
+            "cur": 1,
+            "prev": 0,
+            "deltaPct": 100.0,
+            "items": [
+              {
+                "title": "财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知",
+                "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm",
+                "date": "2026-09-29",
+                "org": "财政部",
+                "amountYi": null,
+                "src": "财政部官网栏目"
               }
             ],
             "totalItems": 1
@@ -1297,14 +1351,14 @@
           "cur": {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 24,
+            "n": 26,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 8,
               "机构资格": 4,
               "首发上市（IPO）": 3,
-              "其他审核": 7,
+              "其他审核": 9,
               "并购重组": 2
             }
           },
@@ -1322,21 +1376,21 @@
               "再融资": 1
             }
           },
-          "deltaPct": -7.7,
+          "deltaPct": 0.0,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 73,
+            "n": 75,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 13,
               "机构资格": 19,
               "首发上市（IPO）": 12,
-              "其他审核": 18,
+              "其他审核": 20,
               "并购重组": 2,
               "再融资": 9
             }
@@ -1352,21 +1406,21 @@
               "其他审核": 7
             }
           },
-          "deltaPct": 812.5,
+          "deltaPct": 837.5,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 90,
+            "n": 92,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 13,
               "机构资格": 19,
               "首发上市（IPO）": 12,
-              "其他审核": 32,
+              "其他审核": 34,
               "并购重组": 5,
               "再融资": 9
             }
@@ -1384,7 +1438,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 190.3,
+          "deltaPct": 196.8,
           "deltaAmountPct": null
         }
       },
@@ -1441,7 +1495,7 @@
           {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 24,
+            "n": 26,
             "amountYi": 0.0
           },
           {
@@ -1479,7 +1533,7 @@
           {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 73,
+            "n": 75,
             "amountYi": 0.0
           },
           {
@@ -1499,13 +1553,70 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 90,
+            "n": 92,
             "amountYi": 0.0
           }
         ]
       },
       "industries": {
         "month": [
+          {
+            "name": "其他审核",
+            "cur": 9,
+            "prev": 8,
+            "deltaPct": 12.5,
+            "items": [
+              {
+                "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
+                "url": "https://www.csrc.gov.cn/csrc/c106250/c1029662/content.shtml",
+                "date": "2026-09-18",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意广东邦泽创科电器股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662023/content.shtml",
+                "date": "2026-09-18",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意青岛华晟智能装备股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662018/content.shtml",
+                "date": "2026-09-18",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "中国人民银行副行长宣昌能会见伦敦证券交易所集团富时罗素首席执行官菲奥娜·巴塞特",
+                "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091611280492893/index.html",
+                "date": "2026-09-16",
+                "org": "央行",
+                "amountYi": null,
+                "src": "L1 政策速览"
+              },
+              {
+                "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml",
+                "date": "2026-09-11",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
+                "date": "2026-09-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 9
+          },
           {
             "name": "REITs 注册",
             "cur": 8,
@@ -1562,63 +1673,6 @@
               }
             ],
             "totalItems": 8
-          },
-          {
-            "name": "其他审核",
-            "cur": 7,
-            "prev": 8,
-            "deltaPct": -12.5,
-            "items": [
-              {
-                "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
-                "url": "https://www.csrc.gov.cn/csrc/c106250/c1029662/content.shtml",
-                "date": "2026-09-18",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "中国人民银行副行长宣昌能会见伦敦证券交易所集团富时罗素首席执行官菲奥娜·巴塞特",
-                "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091611280492893/index.html",
-                "date": "2026-09-16",
-                "org": "央行",
-                "amountYi": null,
-                "src": "L1 政策速览"
-              },
-              {
-                "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-                "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml",
-                "date": "2026-09-11",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
-                "date": "2026-09-10",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意四川菊乐食品股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661119/content.shtml",
-                "date": "2026-09-10",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意北京天广实生物技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7659093/content.shtml",
-                "date": "2026-09-03",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              }
-            ],
-            "totalItems": 7
           },
           {
             "name": "机构资格",
@@ -1730,6 +1784,63 @@
         ],
         "quarter": [
           {
+            "name": "其他审核",
+            "cur": 20,
+            "prev": 7,
+            "deltaPct": 185.7,
+            "items": [
+              {
+                "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
+                "url": "https://www.csrc.gov.cn/csrc/c106250/c1029662/content.shtml",
+                "date": "2026-09-18",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意广东邦泽创科电器股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662023/content.shtml",
+                "date": "2026-09-18",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意青岛华晟智能装备股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662018/content.shtml",
+                "date": "2026-09-18",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "中国人民银行副行长宣昌能会见伦敦证券交易所集团富时罗素首席执行官菲奥娜·巴塞特",
+                "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091611280492893/index.html",
+                "date": "2026-09-16",
+                "org": "央行",
+                "amountYi": null,
+                "src": "L1 政策速览"
+              },
+              {
+                "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml",
+                "date": "2026-09-11",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
+                "date": "2026-09-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 20
+          },
+          {
             "name": "机构资格",
             "cur": 19,
             "prev": 0,
@@ -1785,63 +1896,6 @@
               }
             ],
             "totalItems": 19
-          },
-          {
-            "name": "其他审核",
-            "cur": 18,
-            "prev": 7,
-            "deltaPct": 157.1,
-            "items": [
-              {
-                "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
-                "url": "https://www.csrc.gov.cn/csrc/c106250/c1029662/content.shtml",
-                "date": "2026-09-18",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "中国人民银行副行长宣昌能会见伦敦证券交易所集团富时罗素首席执行官菲奥娜·巴塞特",
-                "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091611280492893/index.html",
-                "date": "2026-09-16",
-                "org": "央行",
-                "amountYi": null,
-                "src": "L1 政策速览"
-              },
-              {
-                "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-                "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml",
-                "date": "2026-09-11",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
-                "date": "2026-09-10",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意四川菊乐食品股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661119/content.shtml",
-                "date": "2026-09-10",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意北京天广实生物技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7659093/content.shtml",
-                "date": "2026-09-03",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              }
-            ],
-            "totalItems": 18
           },
           {
             "name": "REITs 注册",
@@ -2043,13 +2097,29 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 32,
+            "cur": 34,
             "prev": 23,
-            "deltaPct": 39.1,
+            "deltaPct": 47.8,
             "items": [
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
                 "url": "https://www.csrc.gov.cn/csrc/c106250/c1029662/content.shtml",
+                "date": "2026-09-18",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意广东邦泽创科电器股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662023/content.shtml",
+                "date": "2026-09-18",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意青岛华晟智能装备股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662018/content.shtml",
                 "date": "2026-09-18",
                 "org": "证监会",
                 "amountYi": null,
@@ -2078,25 +2148,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意四川菊乐食品股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661119/content.shtml",
-                "date": "2026-09-10",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意北京天广实生物技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7659093/content.shtml",
-                "date": "2026-09-03",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 32
+            "totalItems": 34
           },
           {
             "name": "机构资格",
@@ -2389,6 +2443,14 @@
           "delta": 1,
           "deltaPct": 100.0,
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
+        },
+        {
+          "name": "金融与资本",
+          "cur": 1,
+          "prev": 0,
+          "delta": 1,
+          "deltaPct": 100.0,
+          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
         }
       ],
       "down": [],
@@ -2396,6 +2458,14 @@
     },
     "quarter": {
       "up": [
+        {
+          "name": "金融与资本",
+          "cur": 1,
+          "prev": 0,
+          "delta": 1,
+          "deltaPct": 100.0,
+          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
+        },
         {
           "name": "教科文卫",
           "cur": 1,
@@ -2532,14 +2602,6 @@
           "delta": -2,
           "deltaPct": -100.0,
           "url": ""
-        },
-        {
-          "name": "金融与资本",
-          "cur": 0,
-          "prev": 1,
-          "delta": -1,
-          "deltaPct": -100.0,
-          "url": ""
         }
       ],
       "flat": [
@@ -2550,6 +2612,14 @@
           "delta": 0,
           "deltaPct": 0.0,
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm"
+        },
+        {
+          "name": "金融与资本",
+          "cur": 1,
+          "prev": 1,
+          "delta": 0,
+          "deltaPct": 0.0,
+          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
         },
         {
           "name": "交通基础设施",
@@ -2563,6 +2633,16 @@
     }
   },
   "recent": [
+    {
+      "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm",
+      "title": "财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知",
+      "date": "2026-09-29",
+      "org": "财政部",
+      "channel": "special_fund",
+      "industry": "金融与资本",
+      "amountYi": null,
+      "src": "财政部官网栏目"
+    },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101895/c7659932/content.shtml",
       "title": "关于准予招商资管招商蛇口封闭式商业不动产证券投资基金注册的批复",
@@ -2640,6 +2720,26 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "并购重组",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7662023/content.shtml",
+      "title": "关于同意广东邦泽创科电器股份有限公司向不特定合格投资者公开发行股票注册的批复",
+      "date": "2026-09-18",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7662018/content.shtml",
+      "title": "关于同意青岛华晟智能装备股份有限公司向不特定合格投资者公开发行股票注册的批复",
+      "date": "2026-09-18",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -3726,36 +3826,6 @@
     {
       "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982164.htm",
       "title": "财政部等四部门优化实施服务业经营主体贷款贴息政策",
-      "date": "2026-01-19",
-      "org": "财政部",
-      "channel": "special_fund",
-      "industry": "综合与其他",
-      "amountYi": null,
-      "src": "财政部官网栏目"
-    },
-    {
-      "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982162.htm",
-      "title": "财政部等四部门优化实施设备更新贷款财政贴息政策",
-      "date": "2026-01-19",
-      "org": "财政部",
-      "channel": "special_fund",
-      "industry": "制造业升级",
-      "amountYi": null,
-      "src": "财政部官网栏目"
-    },
-    {
-      "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982160.htm",
-      "title": "财政部等三部门优化实施个人消费贷款财政贴息政策",
-      "date": "2026-01-19",
-      "org": "财政部",
-      "channel": "special_fund",
-      "industry": "消费与流通",
-      "amountYi": null,
-      "src": "财政部官网栏目"
-    },
-    {
-      "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982158.htm",
-      "title": "财政部等五部门联合实施中小微企业贷款贴息政策",
       "date": "2026-01-19",
       "org": "财政部",
       "channel": "special_fund",
