@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29 18:58",
+ "generatedAt": "2026-09-30 00:06",
  "cards": [
   {
    "key": "policy",
@@ -7,17 +7,17 @@
    "indexUrl": "https://www.gov.cn/zhengce/zuixin.htm",
    "indexLabel": "gov.cn/zhengce 最新政策",
    "from": "gov",
-   "href": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081973.htm",
+   "href": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082379.htm",
    "latest": {
-    "title": "中华人民共和国审计法实施条例",
-    "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7081973.htm",
-    "date": "2026-09-24",
+    "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082379.htm",
+    "date": "2026-09-29",
     "source": "国务院最新政策文件"
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-29 18:58",
-   "ageDays": 5
+   "fetchedAt": "2026-09-30 00:06",
+   "ageDays": 1
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-09-29 18:58",
-   "ageDays": 70
+   "fetchedAt": "2026-09-30 00:06",
+   "ageDays": 71
   },
   {
    "key": "localbond",
@@ -54,8 +54,8 @@
    },
    "stale": false,
    "total": 14,
-   "fetchedAt": "2026-09-29 18:58",
-   "ageDays": 333
+   "fetchedAt": "2026-09-30 00:06",
+   "ageDays": 334
   },
   {
    "key": "media",
@@ -72,8 +72,8 @@
    },
    "stale": false,
    "total": 131,
-   "fetchedAt": "2026-09-29 18:58",
-   "ageDays": 0
+   "fetchedAt": "2026-09-30 00:06",
+   "ageDays": 1
   }
  ],
  "stale": false,

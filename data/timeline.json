@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29 18:58",
+ "generatedAt": "2026-09-30 00:06",
  "month": 9,
  "hotPeriod": "9-10月",
  "candidateCount": 260,
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-29 · 国务院关于《医疗康复护理扩容提升工程实施方案》的批复（国务院最新政策文件）",
+     "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082379.htm",
+     "date": "2026-09-29",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-09-29 · 从物流效率变革看高质量发展成色（人民日报）",
      "title": "从物流效率变革看高质量发展成色",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202609/29/content_30183719.html",
@@ -315,14 +323,6 @@
      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260928_1965425.html",
      "date": "2026-09-28",
      "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-09-28 · 现代综合交通运输体系铺就高质量发展“快车道”（人民日报）",
-     "title": "现代综合交通运输体系铺就高质量发展“快车道”",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/28/content_30183362.html",
-     "date": "2026-09-28",
-     "source": "人民日报",
      "noise": false
     }
    ],
