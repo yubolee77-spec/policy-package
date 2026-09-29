@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29 02:22",
+ "generatedAt": "2026-09-29 09:06",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-29 02:22",
+   "fetchedAt": "2026-09-29 09:06",
    "ageDays": 5
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 13,
-   "fetchedAt": "2026-09-29 02:22",
+   "fetchedAt": "2026-09-29 09:06",
    "ageDays": 7
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 11,
-   "fetchedAt": "2026-09-29 02:22",
+   "total": 4,
+   "fetchedAt": "2026-09-29 09:06",
    "ageDays": 333
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/28/content_30183362.html",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/29/content_30183719.html",
    "latest": {
-    "title": "现代综合交通运输体系铺就高质量发展“快车道”",
-    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/28/content_30183362.html",
-    "date": "2026-09-28",
+    "title": "从物流效率变革看高质量发展成色",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/29/content_30183719.html",
+    "date": "2026-09-29",
     "source": "人民日报"
    },
    "stale": false,
-   "total": 129,
-   "fetchedAt": "2026-09-29 02:22",
-   "ageDays": 1
+   "total": 131,
+   "fetchedAt": "2026-09-29 09:06",
+   "ageDays": 0
   }
  ],
  "stale": false,

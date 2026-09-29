@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-29 02:22",
+ "generatedAt": "2026-09-29 09:06",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 258,
+ "candidateCount": 260,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-29 · 从物流效率变革看高质量发展成色（人民日报）",
+     "title": "从物流效率变革看高质量发展成色",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/29/content_30183719.html",
+     "date": "2026-09-29",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-09-29 · 协同助企纾困讲究快准稳（经济日报）",
+     "title": "协同助企纾困讲究快准稳",
+     "url": "http://paper.ce.cn/pc/content/202609/29/content_339543.html",
+     "date": "2026-09-29",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-09-28 · 中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》（央行最新动态）",
      "title": "中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》",
      "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082302.htm",
@@ -307,22 +323,6 @@
      "url": "http://paper.people.com.cn/rmrb/pc/content/202609/28/content_30183362.html",
      "date": "2026-09-28",
      "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-28 · 明规立制让拖欠账款不敢为不能为（经济日报）",
-     "title": "明规立制让拖欠账款不敢为不能为",
-     "url": "http://paper.ce.cn/pc/content/202609/28/content_339496.html",
-     "date": "2026-09-28",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-28 · 金观平：明规立制让拖欠账款不敢为不能为（经济日报）",
-     "title": "金观平：明规立制让拖欠账款不敢为不能为",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202609/t20260928_3237801.shtml",
-     "date": "2026-09-28",
-     "source": "经济日报",
      "noise": false
     }
    ],
