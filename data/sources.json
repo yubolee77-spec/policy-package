@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30 00:47",
+ "generatedAt": "2026-09-30 08:40",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-09-30 00:47",
+   "fetchedAt": "2026-09-30 08:40",
    "ageDays": 1
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-09-30 00:47",
+   "fetchedAt": "2026-09-30 08:40",
    "ageDays": 71
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 4,
-   "fetchedAt": "2026-09-30 00:47",
+   "total": 11,
+   "fetchedAt": "2026-09-30 08:40",
    "ageDays": 334
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/29/content_30183719.html",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202609/30/content_30183842.html",
    "latest": {
-    "title": "从物流效率变革看高质量发展成色",
-    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/29/content_30183719.html",
-    "date": "2026-09-29",
+    "title": "以高水平安全护航高质量发展行稳致远",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202609/30/content_30183842.html",
+    "date": "2026-09-30",
     "source": "人民日报"
    },
    "stale": false,
-   "total": 131,
-   "fetchedAt": "2026-09-30 00:47",
-   "ageDays": 1
+   "total": 133,
+   "fetchedAt": "2026-09-30 08:40",
+   "ageDays": 0
   }
  ],
  "stale": false,
