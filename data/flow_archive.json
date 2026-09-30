@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-30 15:46",
+  "updated": "2026-09-30 19:29",
   "items": [
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101895/c7662083/content.shtml",
+      "title": "关于准予中金开元旅业封闭式商业不动产证券投资基金注册的批复",
+      "date": "2026-09-30",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "REITs 注册",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
     {
       "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm",
       "title": "财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知",
@@ -48,6 +58,16 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7662553/content.shtml",
+      "title": "关于同意安徽泓毅汽车技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
+      "date": "2026-09-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
     },

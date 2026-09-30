@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-30 15:45",
+  "generatedAt": "2026-09-30 19:29",
   "asOf": "2026-09",
   "asOfLabel": "2026年9月",
-  "archiveTotal": 206,
-  "archiveAdded": 0,
+  "archiveTotal": 208,
+  "archiveAdded": 2,
   "channels": [
     {
       "key": "special_fund",
@@ -1351,14 +1351,14 @@
           "cur": {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 26,
+            "n": 28,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
-              "REITs 注册": 8,
+              "REITs 注册": 9,
               "机构资格": 4,
+              "其他审核": 10,
               "首发上市（IPO）": 3,
-              "其他审核": 9,
               "并购重组": 2
             }
           },
@@ -1376,21 +1376,21 @@
               "再融资": 1
             }
           },
-          "deltaPct": 0.0,
+          "deltaPct": 7.7,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 75,
+            "n": 77,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
-              "REITs 注册": 13,
+              "REITs 注册": 14,
               "机构资格": 19,
+              "其他审核": 21,
               "首发上市（IPO）": 12,
-              "其他审核": 20,
               "并购重组": 2,
               "再融资": 9
             }
@@ -1406,21 +1406,21 @@
               "其他审核": 7
             }
           },
-          "deltaPct": 837.5,
+          "deltaPct": 862.5,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 92,
+            "n": 94,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
-              "REITs 注册": 13,
+              "REITs 注册": 14,
               "机构资格": 19,
+              "其他审核": 35,
               "首发上市（IPO）": 12,
-              "其他审核": 34,
               "并购重组": 5,
               "再融资": 9
             }
@@ -1438,7 +1438,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 196.8,
+          "deltaPct": 203.2,
           "deltaAmountPct": null
         }
       },
@@ -1495,7 +1495,7 @@
           {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 26,
+            "n": 28,
             "amountYi": 0.0
           },
           {
@@ -1533,7 +1533,7 @@
           {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 75,
+            "n": 77,
             "amountYi": 0.0
           },
           {
@@ -1553,7 +1553,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 92,
+            "n": 94,
             "amountYi": 0.0
           }
         ]
@@ -1562,10 +1562,18 @@
         "month": [
           {
             "name": "其他审核",
-            "cur": 9,
+            "cur": 10,
             "prev": 8,
-            "deltaPct": 12.5,
+            "deltaPct": 25.0,
             "items": [
+              {
+                "title": "关于同意安徽泓毅汽车技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662553/content.shtml",
+                "date": "2026-09-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
                 "url": "https://www.csrc.gov.cn/csrc/c106250/c1029662/content.shtml",
@@ -1605,24 +1613,24 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
-                "date": "2026-09-10",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 9
+            "totalItems": 10
           },
           {
             "name": "REITs 注册",
-            "cur": 8,
+            "cur": 9,
             "prev": 5,
-            "deltaPct": 60.0,
+            "deltaPct": 80.0,
             "items": [
+              {
+                "title": "关于准予中金开元旅业封闭式商业不动产证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7662083/content.shtml",
+                "date": "2026-09-30",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于准予招商资管招商蛇口封闭式商业不动产证券投资基金注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101895/c7659932/content.shtml",
@@ -1662,17 +1670,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于准予中金菜鸟仓储物流封闭式基础设施证券投资基金注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101895/c7656589/content.shtml",
-                "date": "2026-09-04",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 8
+            "totalItems": 9
           },
           {
             "name": "机构资格",
@@ -1785,10 +1785,18 @@
         "quarter": [
           {
             "name": "其他审核",
-            "cur": 20,
+            "cur": 21,
             "prev": 7,
-            "deltaPct": 185.7,
+            "deltaPct": 200.0,
             "items": [
+              {
+                "title": "关于同意安徽泓毅汽车技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662553/content.shtml",
+                "date": "2026-09-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
                 "url": "https://www.csrc.gov.cn/csrc/c106250/c1029662/content.shtml",
@@ -1828,17 +1836,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
-                "date": "2026-09-10",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 20
+            "totalItems": 21
           },
           {
             "name": "机构资格",
@@ -1899,10 +1899,18 @@
           },
           {
             "name": "REITs 注册",
-            "cur": 13,
+            "cur": 14,
             "prev": 0,
             "deltaPct": 100.0,
             "items": [
+              {
+                "title": "关于准予中金开元旅业封闭式商业不动产证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7662083/content.shtml",
+                "date": "2026-09-30",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于准予招商资管招商蛇口封闭式商业不动产证券投资基金注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101895/c7659932/content.shtml",
@@ -1942,17 +1950,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于准予中金菜鸟仓储物流封闭式基础设施证券投资基金注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101895/c7656589/content.shtml",
-                "date": "2026-09-04",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 13
+            "totalItems": 14
           },
           {
             "name": "首发上市（IPO）",
@@ -2097,10 +2097,18 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 34,
+            "cur": 35,
             "prev": 23,
-            "deltaPct": 47.8,
+            "deltaPct": 52.2,
             "items": [
+              {
+                "title": "关于同意安徽泓毅汽车技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662553/content.shtml",
+                "date": "2026-09-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
                 "url": "https://www.csrc.gov.cn/csrc/c106250/c1029662/content.shtml",
@@ -2140,17 +2148,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7661132/content.shtml",
-                "date": "2026-09-10",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 34
+            "totalItems": 35
           },
           {
             "name": "机构资格",
@@ -2211,10 +2211,18 @@
           },
           {
             "name": "REITs 注册",
-            "cur": 13,
+            "cur": 14,
             "prev": 4,
-            "deltaPct": 225.0,
+            "deltaPct": 250.0,
             "items": [
+              {
+                "title": "关于准予中金开元旅业封闭式商业不动产证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7662083/content.shtml",
+                "date": "2026-09-30",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于准予招商资管招商蛇口封闭式商业不动产证券投资基金注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101895/c7659932/content.shtml",
@@ -2254,17 +2262,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于准予中金菜鸟仓储物流封闭式基础设施证券投资基金注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101895/c7656589/content.shtml",
-                "date": "2026-09-04",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 13
+            "totalItems": 14
           },
           {
             "name": "首发上市（IPO）",
@@ -2437,20 +2437,20 @@
     "month": {
       "up": [
         {
-          "name": "教科文卫",
-          "cur": 1,
-          "prev": 0,
-          "delta": 1,
-          "deltaPct": 100.0,
-          "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
-        },
-        {
           "name": "金融与资本",
           "cur": 1,
           "prev": 0,
           "delta": 1,
           "deltaPct": 100.0,
           "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
+        },
+        {
+          "name": "教科文卫",
+          "cur": 1,
+          "prev": 0,
+          "delta": 1,
+          "deltaPct": 100.0,
+          "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         }
       ],
       "down": [],
@@ -2459,20 +2459,20 @@
     "quarter": {
       "up": [
         {
-          "name": "教科文卫",
-          "cur": 1,
-          "prev": 0,
-          "delta": 1,
-          "deltaPct": 100.0,
-          "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
-        },
-        {
           "name": "金融与资本",
           "cur": 1,
           "prev": 0,
           "delta": 1,
           "deltaPct": 100.0,
           "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
+        },
+        {
+          "name": "教科文卫",
+          "cur": 1,
+          "prev": 0,
+          "delta": 1,
+          "deltaPct": 100.0,
+          "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         }
       ],
       "down": [
@@ -2501,7 +2501,7 @@
           "url": ""
         },
         {
-          "name": "生态环保",
+          "name": "消费与流通",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2509,7 +2509,7 @@
           "url": ""
         },
         {
-          "name": "消费与流通",
+          "name": "生态环保",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2588,7 +2588,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2596,7 +2596,7 @@
           "url": ""
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2614,25 +2614,35 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm"
         },
         {
-          "name": "金融与资本",
-          "cur": 1,
-          "prev": 1,
-          "delta": 0,
-          "deltaPct": 0.0,
-          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
-        },
-        {
           "name": "交通基础设施",
           "cur": 1,
           "prev": 1,
           "delta": 0,
           "deltaPct": 0.0,
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
+        },
+        {
+          "name": "金融与资本",
+          "cur": 1,
+          "prev": 1,
+          "delta": 0,
+          "deltaPct": 0.0,
+          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
         }
       ]
     }
   },
   "recent": [
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101895/c7662083/content.shtml",
+      "title": "关于准予中金开元旅业封闭式商业不动产证券投资基金注册的批复",
+      "date": "2026-09-30",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "REITs 注册",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
     {
       "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm",
       "title": "财政部中国人民银行金融监管总局关于实施居民购房贷款贴息政策的通知",
@@ -2680,6 +2690,16 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7662553/content.shtml",
+      "title": "关于同意安徽泓毅汽车技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
+      "date": "2026-09-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -3812,26 +3832,6 @@
       "industry": "综合与其他",
       "amountYi": null,
       "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/yaowen/liebiao/202601/content_7055475.htm",
-      "title": "2025年安排超长期特别国债资金支持大概有8400个设备更新项目",
-      "date": "2026-01-20",
-      "org": "gov.cn",
-      "channel": "bond",
-      "industry": "制造业升级",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202601/t20260119_3982164.htm",
-      "title": "财政部等四部门优化实施服务业经营主体贷款贴息政策",
-      "date": "2026-01-19",
-      "org": "财政部",
-      "channel": "special_fund",
-      "industry": "综合与其他",
-      "amountYi": null,
-      "src": "财政部官网栏目"
     }
   ],
   "note": "口径：以官方发布的资金类文件条数作为资金节奏指标（每项均附原文可核验）；标题或摘要中出现金额时抽取为亿元一并展示，未抽取到的不做估算。行业归类按国民经济行业分类门类归并。"

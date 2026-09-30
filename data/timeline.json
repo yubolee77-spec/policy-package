@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30 15:45",
+ "generatedAt": "2026-09-30 19:28",
  "month": 9,
  "hotPeriod": "9-10月",
  "candidateCount": 263,
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-30 · 国务院办公厅关于发展体育赛事激发消费活力的意见（国务院最新政策文件）",
+     "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082493.htm",
+     "date": "2026-09-30",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-09-30 · 2026年9月中国采购经理指数运行情况（国家统计局最新数据发布）",
      "title": "2026年9月中国采购经理指数运行情况",
      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260930_1965449.html",
@@ -315,14 +323,6 @@
      "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082379.htm",
      "date": "2026-09-29",
      "source": "国务院最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-09-29 · 从物流效率变革看高质量发展成色（人民日报）",
-     "title": "从物流效率变革看高质量发展成色",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/29/content_30183719.html",
-     "date": "2026-09-29",
-     "source": "人民日报",
      "noise": false
     }
    ],
