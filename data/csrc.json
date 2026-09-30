@@ -1,21 +1,21 @@
 {
- "generatedAt": "2026-09-30 19:26",
+ "generatedAt": "2026-10-01 00:36",
  "mediaFetchedAt": "2026-09-30 19:26",
- "mediaStale": false,
+ "mediaStale": true,
  "mediaChannels": {
-  "eastmoney": 26,
+  "eastmoney": 0,
   "papers": 0
  },
  "kpi": {
   "penaltyTotal": 234,
-  "penaltyMonth": 117,
+  "penaltyMonth": 0,
   "approvalTotal": 168,
-  "approvalMonth": 27,
+  "approvalMonth": 0,
   "reitsApproved30d": 8,
   "ipoApproved30d": 10,
   "mediaTotal": 120,
   "mediaStrong": 88,
-  "activeTotal": 213,
+  "activeTotal": 142,
   "successTotal": 162,
   "cycleRecentAvg": 269,
   "cyclePrevAvg": 270,
@@ -5226,8 +5226,8 @@
  "review": {
   "asOf": "2026-09-30",
   "total": 4403,
-  "pipelineTotal": 861,
-  "activeTotal": 213,
+  "pipelineTotal": 863,
+  "activeTotal": 142,
   "successTotal": 162,
   "failTotal": 200,
   "stages": [
@@ -5238,17 +5238,17 @@
    },
    {
     "name": "已问询",
-    "count": 176,
+    "count": 108,
     "kind": "active"
    },
    {
     "name": "上市委会议通过",
-    "count": 8,
+    "count": 6,
     "kind": "active"
    },
    {
     "name": "提交注册",
-    "count": 23,
+    "count": 22,
     "kind": "active"
    },
    {
@@ -5281,7 +5281,7 @@
    },
    {
     "name": "深主板",
-    "count": 58
+    "count": 60
    }
   ],
   "industries": [
@@ -5625,16 +5625,6 @@
     "state": "已问询",
     "region": "浙江省 绍兴市",
     "sponsor": "国信证券股份有限公司"
-   },
-   {
-    "date": "2026-09-30",
-    "acceptDate": "2026-06-08",
-    "company": "中圣科技(江苏)集团股份有限公司",
-    "market": "深主板",
-    "industry": "专用设备制造业",
-    "state": "已问询",
-    "region": "江苏",
-    "sponsor": "国联民生证券承销保荐有限公司"
    },
    {
     "date": "2026-09-30",
@@ -5998,13 +5988,23 @@
    },
    {
     "date": "2026-09-18",
-    "acceptDate": "2026-04-29",
-    "company": "广东纽恩泰新能源科技股份有限公司",
+    "acceptDate": "2023-03-02",
+    "company": "东莞证券股份有限公司",
     "market": "深主板",
-    "industry": "通用设备制造业",
+    "industry": "资本市场服务",
+    "state": "已受理",
+    "region": "广东",
+    "sponsor": "东方证券股份有限公司"
+   },
+   {
+    "date": "2026-09-17",
+    "acceptDate": "2026-04-28",
+    "company": "广东微容电子科技股份有限公司",
+    "market": "创业板",
+    "industry": "计算机、通信和其他电子设备制造业",
     "state": "已问询",
     "region": "广东",
-    "sponsor": "国联民生证券承销保荐有限公司"
+    "sponsor": "华泰联合证券有限责任公司"
    }
   ]
  }
