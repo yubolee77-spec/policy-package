@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-09-30 08:40",
+ "generatedAt": "2026-09-30 15:45",
  "month": 9,
  "hotPeriod": "9-10月",
- "candidateCount": 262,
+ "candidateCount": 263,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-09-30 · 2026年9月中国采购经理指数运行情况（国家统计局最新数据发布）",
+     "title": "2026年9月中国采购经理指数运行情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260930_1965449.html",
+     "date": "2026-09-30",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-09-30 · 以高水平安全护航高质量发展行稳致远（人民日报）",
      "title": "以高水平安全护航高质量发展行稳致远",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202609/30/content_30183842.html",
@@ -294,6 +302,14 @@
      "noise": false
     },
     {
+     "label": "2026-09-30 · 着力提高干部队伍现代化建设本领（求是网）",
+     "title": "着力提高干部队伍现代化建设本领",
+     "url": "https://www.qstheory.cn/20260930/7954896185e440418eb2aa25a2628aac/c.html",
+     "date": "2026-09-30",
+     "source": "求是网",
+     "noise": false
+    },
+    {
      "label": "2026-09-29 · 国务院关于《医疗康复护理扩容提升工程实施方案》的批复（国务院最新政策文件）",
      "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
      "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082379.htm",
@@ -307,22 +323,6 @@
      "url": "http://paper.people.com.cn/rmrb/pc/content/202609/29/content_30183719.html",
      "date": "2026-09-29",
      "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-29 · 协同助企纾困讲究快准稳（经济日报）",
-     "title": "协同助企纾困讲究快准稳",
-     "url": "http://paper.ce.cn/pc/content/202609/29/content_339543.html",
-     "date": "2026-09-29",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-28 · 中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》（央行最新动态）",
-     "title": "中国人民银行等八部门联合印发《关于金融支持服务业扩能提质的指导意见》",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082302.htm",
-     "date": "2026-09-28",
-     "source": "央行最新动态",
      "noise": false
     }
    ],
