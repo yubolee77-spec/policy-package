@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-01 17:00",
- "mediaFetchedAt": "2026-10-01 17:00",
+ "generatedAt": "2026-10-01 20:08",
+ "mediaFetchedAt": "2026-10-01 20:08",
  "mediaStale": false,
  "mediaChannels": {
   "eastmoney": 31,
@@ -14,7 +14,7 @@
   "reitsApproved30d": 9,
   "ipoApproved30d": 10,
   "mediaTotal": 120,
-  "mediaStrong": 86,
+  "mediaStrong": 85,
   "activeTotal": 142,
   "successTotal": 161,
   "cycleRecentAvg": 269,
@@ -4105,6 +4105,15 @@
    "strong": false
   },
   {
+   "date": "2026-10-01",
+   "media": "上海证券报·中国证券网",
+   "title": "中金公司跻身国内首批穆迪“A3”长期发行人主体评级券商",
+   "url": "http://finance.eastmoney.com/a/202610013888244082.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-09-30",
    "media": "新华财经",
    "title": "中国工商银行成功发行中东北非地区首单自贸离岸债",
@@ -5205,17 +5214,6 @@
    "url": "http://finance.eastmoney.com/a/202609183878480858.html",
    "keyword": "首单",
    "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-18",
-   "media": "证券时报网",
-   "title": "对接“六张网”建设 盘活城市地下管网资产——山西首单公募REITs正式设立",
-   "url": "http://bond.eastmoney.com/a/202609183878477910.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
    "strong": true
   }
  ],
