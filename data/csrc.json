@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-01 00:36",
+ "generatedAt": "2026-10-01 08:36",
  "mediaFetchedAt": "2026-09-30 19:26",
  "mediaStale": true,
  "mediaChannels": {
@@ -11,12 +11,12 @@
   "penaltyMonth": 0,
   "approvalTotal": 168,
   "approvalMonth": 0,
-  "reitsApproved30d": 8,
+  "reitsApproved30d": 9,
   "ipoApproved30d": 10,
   "mediaTotal": 120,
   "mediaStrong": 88,
   "activeTotal": 142,
-  "successTotal": 162,
+  "successTotal": 161,
   "cycleRecentAvg": 269,
   "cyclePrevAvg": 270,
   "cycleVerdict": "基本持平"
@@ -5226,9 +5226,9 @@
  "review": {
   "asOf": "2026-09-30",
   "total": 4403,
-  "pipelineTotal": 863,
+  "pipelineTotal": 862,
   "activeTotal": 142,
-  "successTotal": 162,
+  "successTotal": 161,
   "failTotal": 200,
   "stages": [
    {
@@ -5253,7 +5253,7 @@
    },
    {
     "name": "注册生效",
-    "count": 162,
+    "count": 161,
     "kind": "success"
    },
    {
@@ -5273,7 +5273,7 @@
    },
    {
     "name": "科创板",
-    "count": 129
+    "count": 128
    },
    {
     "name": "沪主板",
@@ -5303,7 +5303,7 @@
    },
    {
     "name": "通用设备制造业",
-    "count": 62
+    "count": 61
    },
    {
     "name": "化学原料和化学制品制造业",
@@ -5334,11 +5334,6 @@
    "deltaPct": 0,
    "verdict": "基本持平",
    "byMonth": [
-    {
-     "month": "25-10",
-     "avg": 553,
-     "n": 8
-    },
     {
      "month": "25-11",
      "avg": 437,

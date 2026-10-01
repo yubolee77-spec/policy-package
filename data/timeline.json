@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-01 00:47",
+ "generatedAt": "2026-10-01 08:40",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 263,
+ "candidateCount": 264,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-01 · 服务业打开内需新空间（人民日报）",
+     "title": "服务业打开内需新空间",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/01/content_30184044.html",
+     "date": "2026-10-01",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
      "label": "2026-09-30 · 国务院办公厅关于发展体育赛事激发消费活力的意见（国务院最新政策文件）",
      "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
      "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082493.htm",
@@ -315,14 +323,6 @@
      "url": "https://www.qstheory.cn/20260930/7954896185e440418eb2aa25a2628aac/c.html",
      "date": "2026-09-30",
      "source": "求是网",
-     "noise": false
-    },
-    {
-     "label": "2026-09-29 · 国务院关于《医疗康复护理扩容提升工程实施方案》的批复（国务院最新政策文件）",
-     "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082379.htm",
-     "date": "2026-09-29",
-     "source": "国务院最新政策文件",
      "noise": false
     }
    ],
