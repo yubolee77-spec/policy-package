@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-01 20:08",
+ "generatedAt": "2026-10-02 00:36",
  "mediaFetchedAt": "2026-10-01 20:08",
- "mediaStale": false,
+ "mediaStale": true,
  "mediaChannels": {
-  "eastmoney": 31,
+  "eastmoney": 0,
   "papers": 0
  },
  "kpi": {
