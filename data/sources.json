@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02 01:15",
+ "generatedAt": "2026-10-02 08:57",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-02 01:15",
+   "fetchedAt": "2026-10-02 08:57",
    "ageDays": 2
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-02 01:15",
+   "fetchedAt": "2026-10-02 08:57",
    "ageDays": 73
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 14,
-   "fetchedAt": "2026-10-02 01:15",
+   "total": 4,
+   "fetchedAt": "2026-10-02 08:57",
    "ageDays": 336
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.people.com.cn/rmrb/pc/content/202610/01/content_30184044.html",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202610/02/content_30184123.html",
    "latest": {
-    "title": "服务业打开内需新空间",
-    "url": "http://paper.people.com.cn/rmrb/pc/content/202610/01/content_30184044.html",
-    "date": "2026-10-01",
+    "title": "新场景激活发展新动能",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202610/02/content_30184123.html",
+    "date": "2026-10-02",
     "source": "人民日报"
    },
    "stale": false,
-   "total": 135,
-   "fetchedAt": "2026-10-02 01:15",
-   "ageDays": 1
+   "total": 136,
+   "fetchedAt": "2026-10-02 08:57",
+   "ageDays": 0
   }
  ],
  "stale": false,

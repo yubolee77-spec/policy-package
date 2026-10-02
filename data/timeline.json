@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-02 01:15",
+ "generatedAt": "2026-10-02 08:57",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 264,
+ "candidateCount": 265,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-02 · 新场景激活发展新动能（人民日报）",
+     "title": "新场景激活发展新动能",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/02/content_30184123.html",
+     "date": "2026-10-02",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-01 · 服务业打开内需新空间（人民日报）",
      "title": "服务业打开内需新空间",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/01/content_30184044.html",
@@ -315,14 +323,6 @@
      "url": "http://paper.ce.cn/pc/content/202609/30/content_339595.html",
      "date": "2026-09-30",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-30 · 着力提高干部队伍现代化建设本领（求是网）",
-     "title": "着力提高干部队伍现代化建设本领",
-     "url": "https://www.qstheory.cn/20260930/7954896185e440418eb2aa25a2628aac/c.html",
-     "date": "2026-09-30",
-     "source": "求是网",
      "noise": false
     }
    ],

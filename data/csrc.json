@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02 01:11",
+ "generatedAt": "2026-10-02 08:53",
  "mediaFetchedAt": "2026-10-01 20:08",
  "mediaStale": true,
  "mediaChannels": {
@@ -12,7 +12,7 @@
   "approvalTotal": 168,
   "approvalMonth": 0,
   "reitsApproved30d": 9,
-  "ipoApproved30d": 10,
+  "ipoApproved30d": 9,
   "mediaTotal": 120,
   "mediaStrong": 85,
   "activeTotal": 142,
@@ -5322,9 +5322,9 @@
   ],
   "cycle": {
    "recentAvg": 269,
-   "recentN": 19,
+   "recentN": 18,
    "prevAvg": 270,
-   "prevN": 19,
+   "prevN": 20,
    "deltaPct": 0,
    "verdict": "基本持平",
    "byMonth": [
