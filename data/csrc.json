@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-02 08:53",
- "mediaFetchedAt": "2026-10-01 20:08",
- "mediaStale": true,
+ "generatedAt": "2026-10-02 14:42",
+ "mediaFetchedAt": "2026-10-02 14:42",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 34,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 9,
   "ipoApproved30d": 9,
   "mediaTotal": 120,
-  "mediaStrong": 85,
+  "mediaStrong": 86,
   "activeTotal": 142,
   "successTotal": 161,
   "cycleRecentAvg": 269,
@@ -4047,6 +4047,57 @@
  ],
  "media": [
   {
+   "date": "2026-10-02",
+   "media": "中国新闻网",
+   "title": "浙江舟山落地首单码头保税LNG船对船加注业务",
+   "url": "http://xianhuo.eastmoney.com/a/202610023888350088.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-02",
+   "media": "界面新闻",
+   "title": "我国首个百兆瓦级压缩二氧化碳储能项目并网",
+   "url": "http://finance.eastmoney.com/a/202610023888338822.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-10-02",
+   "media": "财联社",
+   "title": "我国首个百兆瓦级 这个巨型“充电宝”成功并网",
+   "url": "http://finance.eastmoney.com/a/202610023888335796.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-10-02",
+   "media": "中国新闻网",
+   "title": "全国首个人机协同智慧岗亭亮相杭州街头",
+   "url": "http://finance.eastmoney.com/a/202610023888329044.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-02",
+   "media": "新华社",
+   "title": "德国防军将于2027年组建首个无人机团",
+   "url": "http://finance.eastmoney.com/a/202610023888314842.html",
+   "keyword": "首个",
+   "topics": [
+    "低空经济"
+   ],
+   "strong": true
+  },
+  {
    "date": "2026-10-01",
    "media": "中国新闻网",
    "title": "山西首单离境退税业务落地 助力“山西游、山西购”",
@@ -5168,53 +5219,6 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-09-19",
-   "media": "21世纪经济报道",
-   "title": "证监会吹哨人制度兑现！最高奖百万，新规生效后首批奖励申领启动",
-   "url": "http://finance.eastmoney.com/a/202609193879219048.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-18",
-   "media": "上海证券报·中国证券网",
-   "title": "湖北首单“认股权+担保”登记在武汉股交落地",
-   "url": "http://finance.eastmoney.com/a/202609183878532742.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-18",
-   "media": "证券日报",
-   "title": "中银证券助力国昇资本发行市场首单具身智能主题科技创新公司债券",
-   "url": "http://finance.eastmoney.com/a/202609183878523357.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-18",
-   "media": "上海证券报·中国证券网",
-   "title": "盘活城市地下管网资产 山西首单公募REITs设立",
-   "url": "http://bond.eastmoney.com/a/202609183878490785.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-18",
-   "media": "证券日报",
-   "title": "创新金融工具赋能企业成长 湖北首单“认股权+担保”登记落地武汉股交",
-   "url": "http://finance.eastmoney.com/a/202609183878480858.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
   }
  ],
  "review": {
