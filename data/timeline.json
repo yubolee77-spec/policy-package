@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-03 19:28",
+ "generatedAt": "2026-10-04 07:52",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 267,
+ "candidateCount": 270,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,30 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-04 · 加快建设强大国内市场（人民日报）",
+     "title": "加快建设强大国内市场",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184201.html",
+     "date": "2026-10-04",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-04 · 释放历史经典产业消费潜能（经济日报）",
+     "title": "释放历史经典产业消费潜能",
+     "url": "http://paper.ce.cn/pc/content/202610/04/content_339793.html",
+     "date": "2026-10-04",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-04 · 金观平：释放历史经典产业消费潜能（经济日报）",
+     "title": "金观平：释放历史经典产业消费潜能",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261004_3247656.shtml",
+     "date": "2026-10-04",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-03 · 支持民营企业在高质量发展中大显身手（人民日报）",
      "title": "支持民营企业在高质量发展中大显身手",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/03/content_30184167.html",
@@ -299,30 +323,6 @@
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/02/content_30184123.html",
      "date": "2026-10-02",
      "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-01 · 服务业打开内需新空间（人民日报）",
-     "title": "服务业打开内需新空间",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/01/content_30184044.html",
-     "date": "2026-10-01",
-     "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-30 · 国务院办公厅关于发展体育赛事激发消费活力的意见（国务院最新政策文件）",
-     "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082493.htm",
-     "date": "2026-09-30",
-     "source": "国务院最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-09-30 · 2026年9月中国采购经理指数运行情况（国家统计局最新数据发布）",
-     "title": "2026年9月中国采购经理指数运行情况",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260930_1965449.html",
-     "date": "2026-09-30",
-     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],

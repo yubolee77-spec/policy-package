@@ -1,6 +1,76 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "items": [
+    {
+      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184201.html",
+      "title": "加快建设强大国内市场",
+      "author": "金 轩",
+      "date": "2026-10-04",
+      "media": "人民日报",
+      "byline": "金轩",
+      "summary": "习近平总书记高度重视扩大内需，强调“要坚持以国内大循环为主体，正确处理消费和投资、需求和供给的关系”“让内需成为经济发展的主动力”。当前，外部环境复杂严峻，必须坚定实施扩大内需战略，以内需的稳定发展对冲外需的不确定性。",
+      "keywords": [
+        {
+          "type": "ding",
+          "text": "着力"
+        },
+        {
+          "type": "ding",
+          "text": "加快"
+        },
+        {
+          "type": "deg",
+          "text": "持续"
+        },
+        {
+          "type": "deg",
+          "text": "进一步"
+        }
+      ],
+      "keySentence": "今年以来，各地区各部门认真贯彻落实党中央、国务院部署要求，坚定实施扩大内需战略，着力促消费稳投资，为经济平稳运行打下良好基础。",
+      "tier": ""
+    },
+    {
+      "url": "http://paper.ce.cn/pc/content/202610/04/content_339793.html",
+      "title": "释放历史经典产业消费潜能",
+      "author": "□ 金观平",
+      "date": "2026-10-04",
+      "media": "经济日报",
+      "byline": "金观平",
+      "summary": "历史经典产业脱胎于千百年的生产生活实践，凝结着独特的传统技艺、地域特色与民族审美，是增强文化自信的重要载体。工业和信息化部等六部门近期联合印发《关于推动历史经典产业高质量发展的意见》，从国家层面系统部署保护传承与创新发展工作。",
+      "keywords": [
+        {
+          "type": "ding",
+          "text": "加强"
+        },
+        {
+          "type": "deg",
+          "text": "持续"
+        },
+        {
+          "type": "deg",
+          "text": "逐步"
+        },
+        {
+          "type": "verb",
+          "text": "推动"
+        }
+      ],
+      "keySentence": "当前，我国居民消费结构持续向文化型、体验型、个性化消费转型。",
+      "tier": ""
+    },
+    {
+      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261004_3247656.shtml",
+      "title": "金观平：释放历史经典产业消费潜能",
+      "author": "金观平",
+      "byline": "金观平",
+      "date": "2026-10-04",
+      "media": "经济日报",
+      "summary": "",
+      "keywords": [],
+      "keySentence": "",
+      "tier": ""
+    },
     {
       "url": "http://paper.people.com.cn/rmrb/pc/content/202610/03/content_30184167.html",
       "title": "支持民营企业在高质量发展中大显身手",
