@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-03 08:33",
- "mediaFetchedAt": "2026-10-02 14:42",
- "mediaStale": true,
+ "generatedAt": "2026-10-03 16:03",
+ "mediaFetchedAt": "2026-10-03 16:03",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 31,
   "papers": 0
  },
  "kpi": {
@@ -4047,6 +4047,51 @@
  ],
  "media": [
   {
+   "date": "2026-10-03",
+   "media": "证券时报网",
+   "title": "呼和浩特市首单启运港退税业务正式落地",
+   "url": "http://finance.eastmoney.com/a/202610033888461327.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-03",
+   "media": "央视新闻",
+   "title": "我国首个深水油田流花油田取得新突破 “国之重器”协同运转",
+   "url": "http://finance.eastmoney.com/a/202610033888470027.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-03",
+   "media": "界面新闻",
+   "title": "我国首个深水油田流花油田取得新突破",
+   "url": "http://finance.eastmoney.com/a/202610033888470616.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-03",
+   "media": "中国新闻网",
+   "title": "中国最北高铁首个黄金周：高寒铁道打通小兴安岭旅游新通道",
+   "url": "http://biz.eastmoney.com/a/202610033888468716.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-03",
+   "media": "人民日报",
+   "title": "首批30名“新生”分科实训，持证上岗—— 杭州有个机器人学校（新生活新体验）",
+   "url": "http://finance.eastmoney.com/a/202610033888444323.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-10-02",
    "media": "中国新闻网",
    "title": "浙江舟山落地首单码头保税LNG船对船加注业务",
@@ -5172,53 +5217,6 @@
     "新能源"
    ],
    "strong": true
-  },
-  {
-   "date": "2026-09-19",
-   "media": "新华社",
-   "title": "综述：香港首个五年规划描绘内联外通发展新图景",
-   "url": "http://finance.eastmoney.com/a/202609193879156588.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-19",
-   "media": "界面新闻",
-   "title": "2026亚运会开幕：《永劫无间》为中国队首个电竞冲金点",
-   "url": "http://finance.eastmoney.com/a/202609193879200562.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-19",
-   "media": "证券时报网",
-   "title": "西部地区首例 瘫痪病人有望“意念”控制设备",
-   "url": "http://finance.eastmoney.com/a/202609193879233280.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-19",
-   "media": "证券时报网",
-   "title": "全球首个低倾角遥感卫星星座先导A星“出征”",
-   "url": "http://finance.eastmoney.com/a/202609193879229774.html",
-   "keyword": "首个",
-   "topics": [
-    "商业航天"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-19",
-   "media": "证券时报",
-   "title": "首批北交所3个月持有期基金开售",
-   "url": "http://stock.eastmoney.com/a/202609193878938640.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
