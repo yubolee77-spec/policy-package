@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-03",
-  "fetchedAt": "2026-10-03 00:23",
+  "fetchedAt": "2026-10-03 08:32",
   "monthLabel": "2026年10月",
   "timeline": [
     {
@@ -2975,6 +2975,52 @@
     }
   ],
   "commentary": [
+    {
+      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/03/content_30184167.html",
+      "title": "支持民营企业在高质量发展中大显身手",
+      "author": "金 轩",
+      "date": "2026-10-03",
+      "media": "人民日报",
+      "byline": "金轩",
+      "summary": "企业有活力，经济发展就有动力。新时代以来，广大民营企业锐意进取，民营经济持续发展壮大，在稳定增长、促进创新、增加就业、改善民生等方面发挥重要作用。今年以来，民营企业继续保持第一大外贸主体地位，国际竞争力不断增强，前8个月，民营企业进出口19.79万亿元，增长17.6%，占我国进出口总额的56.9%。",
+      "keywords": [
+        {
+          "type": "deg",
+          "text": "持续"
+        },
+        {
+          "type": "deg",
+          "text": "进一步"
+        },
+        {
+          "type": "verb",
+          "text": "推动"
+        },
+        {
+          "type": "verb",
+          "text": "促进"
+        }
+      ],
+      "keySentence": "发展动力和大国韧性持续增强，为民营经济提供了稳定宏观环境和广阔市场空间。",
+      "tier": ""
+    },
+    {
+      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261003_3247308.shtml",
+      "title": "金轩：支持民营企业在高质量发展中大显身手",
+      "author": "金轩",
+      "byline": "金轩",
+      "date": "2026-10-03",
+      "media": "经济日报",
+      "summary": "",
+      "keywords": [
+        {
+          "type": "verb",
+          "text": "支持"
+        }
+      ],
+      "keySentence": "",
+      "tier": ""
+    },
     {
       "url": "http://paper.people.com.cn/rmrb/pc/content/202610/02/content_30184123.html",
       "title": "新场景激活发展新动能",

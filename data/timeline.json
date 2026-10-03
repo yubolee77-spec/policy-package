@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-03 00:29",
+ "generatedAt": "2026-10-03 08:37",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 265,
+ "candidateCount": 267,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-03 · 支持民营企业在高质量发展中大显身手（人民日报）",
+     "title": "支持民营企业在高质量发展中大显身手",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/03/content_30184167.html",
+     "date": "2026-10-03",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-03 · 金轩：支持民营企业在高质量发展中大显身手（经济日报）",
+     "title": "金轩：支持民营企业在高质量发展中大显身手",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261003_3247308.shtml",
+     "date": "2026-10-03",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-02 · 新场景激活发展新动能（人民日报）",
      "title": "新场景激活发展新动能",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/02/content_30184123.html",
@@ -307,22 +323,6 @@
      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260930_1965449.html",
      "date": "2026-09-30",
      "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-09-30 · 以高水平安全护航高质量发展行稳致远（人民日报）",
-     "title": "以高水平安全护航高质量发展行稳致远",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202609/30/content_30183842.html",
-     "date": "2026-09-30",
-     "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-09-30 · 打破边界培育消费新场景（经济日报）",
-     "title": "打破边界培育消费新场景",
-     "url": "http://paper.ce.cn/pc/content/202609/30/content_339595.html",
-     "date": "2026-09-30",
-     "source": "经济日报",
      "noise": false
     }
    ],
