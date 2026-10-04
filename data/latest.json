@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-04",
-  "fetchedAt": "2026-10-04 07:47",
+  "fetchedAt": "2026-10-04 15:30",
   "monthLabel": "2026年10月",
   "timeline": [
     {
@@ -145,8 +145,21 @@
       "date": "2026-09-24",
       "summary": "",
       "tier": "dept",
-      "keywords": [],
-      "keySentence": ""
+      "keywords": [
+        {
+          "type": "verb",
+          "text": "提高"
+        },
+        {
+          "type": "restrict",
+          "text": "严禁"
+        },
+        {
+          "type": "restrict",
+          "text": "打击"
+        }
+      ],
+      "keySentence": "答:以市值管理之名行操纵市场、内幕交易之实,借“伪市值管理”牟取非法利益的行为严重破坏资本市场公平秩序,严重干扰资本市场功能发挥,严重损害投资者合法权益,也不利于上市公司质量提高,是证监会长期以来严厉打击的重点。"
     },
     {
       "title": "国务院办公厅关于印发《“高效办成一件事”2026年度第二批重点事项清单》的通知",
@@ -3030,7 +3043,8 @@
       "summary": "",
       "keywords": [],
       "keySentence": "",
-      "tier": ""
+      "tier": "",
+      "summaryTried": 1
     },
     {
       "url": "http://paper.people.com.cn/rmrb/pc/content/202610/03/content_30184167.html",
@@ -7040,8 +7054,21 @@
         "date": "2026-09-24",
         "summary": "",
         "tier": "dept",
-        "keywords": [],
-        "keySentence": ""
+        "keywords": [
+          {
+            "type": "verb",
+            "text": "提高"
+          },
+          {
+            "type": "restrict",
+            "text": "严禁"
+          },
+          {
+            "type": "restrict",
+            "text": "打击"
+          }
+        ],
+        "keySentence": "答:以市值管理之名行操纵市场、内幕交易之实,借“伪市值管理”牟取非法利益的行为严重破坏资本市场公平秩序,严重干扰资本市场功能发挥,严重损害投资者合法权益,也不利于上市公司质量提高,是证监会长期以来严厉打击的重点。"
       },
       {
         "title": "中国证监会拟对17起案件线索的“吹哨人”给予奖励",
