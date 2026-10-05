@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-04 23:02",
+ "generatedAt": "2026-10-05 08:04",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 270,
+ "candidateCount": 272,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-05 · 生态出海扩大中国制造朋友圈（经济日报）",
+     "title": "生态出海扩大中国制造朋友圈",
+     "url": "http://paper.ce.cn/pc/content/202610/05/content_339831.html",
+     "date": "2026-10-05",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-05 · 金观平：生态出海扩大中国制造朋友圈（经济日报）",
+     "title": "金观平：生态出海扩大中国制造朋友圈",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261005_3247931.shtml",
+     "date": "2026-10-05",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-04 · 加快建设强大国内市场（人民日报）",
      "title": "加快建设强大国内市场",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184201.html",
@@ -306,22 +322,6 @@
      "title": "支持民营企业在高质量发展中大显身手",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/03/content_30184167.html",
      "date": "2026-10-03",
-     "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-03 · 金轩：支持民营企业在高质量发展中大显身手（经济日报）",
-     "title": "金轩：支持民营企业在高质量发展中大显身手",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261003_3247308.shtml",
-     "date": "2026-10-03",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-02 · 新场景激活发展新动能（人民日报）",
-     "title": "新场景激活发展新动能",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/02/content_30184123.html",
-     "date": "2026-10-02",
      "source": "人民日报",
      "noise": false
     }

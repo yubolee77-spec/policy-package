@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-04 23:02",
+ "generatedAt": "2026-10-05 08:04",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-04 23:02",
-   "ageDays": 4
+   "fetchedAt": "2026-10-05 08:04",
+   "ageDays": 5
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-04 23:02",
-   "ageDays": 75
+   "fetchedAt": "2026-10-05 08:04",
+   "ageDays": 76
   },
   {
    "key": "localbond",
@@ -54,8 +54,8 @@
    },
    "stale": false,
    "total": 14,
-   "fetchedAt": "2026-10-04 23:02",
-   "ageDays": 338
+   "fetchedAt": "2026-10-05 08:04",
+   "ageDays": 339
   },
   {
    "key": "media",
@@ -63,16 +63,16 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184201.html",
+   "href": "http://paper.ce.cn/pc/content/202610/05/content_339831.html",
    "latest": {
-    "title": "加快建设强大国内市场",
-    "url": "http://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184201.html",
-    "date": "2026-10-04",
-    "source": "人民日报"
+    "title": "生态出海扩大中国制造朋友圈",
+    "url": "http://paper.ce.cn/pc/content/202610/05/content_339831.html",
+    "date": "2026-10-05",
+    "source": "经济日报"
    },
    "stale": false,
-   "total": 141,
-   "fetchedAt": "2026-10-04 23:02",
+   "total": 143,
+   "fetchedAt": "2026-10-05 08:04",
    "ageDays": 0
   }
  ],
