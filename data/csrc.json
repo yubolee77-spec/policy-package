@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-05 08:00",
- "mediaFetchedAt": "2026-10-04 15:32",
- "mediaStale": true,
+ "generatedAt": "2026-10-05 16:41",
+ "mediaFetchedAt": "2026-10-05 16:41",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 27,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 7,
   "mediaTotal": 120,
-  "mediaStrong": 86,
+  "mediaStrong": 88,
   "activeTotal": 142,
   "successTotal": 161,
   "cycleRecentAvg": 282,
@@ -4047,6 +4047,15 @@
  ],
  "media": [
   {
+   "date": "2026-10-05",
+   "media": "界面新闻",
+   "title": "香港立法会将合并辩论首个五年规划及新一份施政报告",
+   "url": "http://finance.eastmoney.com/a/202610053888622428.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
    "date": "2026-10-04",
    "media": "第一财经",
    "title": "我国首个海上注碳增气平台主体建造完工",
@@ -4060,6 +4069,15 @@
    "media": "光明日报",
    "title": "我国首个深水油田二次开发项目累产原油突破200万吨",
    "url": "http://finance.eastmoney.com/a/202610043888523070.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-04",
+   "media": "中国新闻网",
+   "title": "中国首个海上注碳增气平台主体建造完工",
+   "url": "http://finance.eastmoney.com/a/202610043888548662.html",
    "keyword": "首个",
    "topics": [],
    "strong": true
@@ -5194,24 +5212,6 @@
    "media": "上海证券报·中国证券网",
    "title": "楚天科技入选全国首批国家新兴产业发展示范基地企业",
    "url": "http://finance.eastmoney.com/a/202609203879427412.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-20",
-   "media": "第一财经",
-   "title": "首批18只主动ETF获批在即，公募基金运营大考在上市后",
-   "url": "http://stock.eastmoney.com/a/202609203879428241.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-20",
-   "media": "界面新闻",
-   "title": "跨国公司本外币跨境资金集中运营业务全国推广，汇丰中国成为首批参与外资银行",
-   "url": "http://forex.eastmoney.com/a/202609203879396788.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
