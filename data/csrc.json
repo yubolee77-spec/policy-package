@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-06 19:31",
- "mediaFetchedAt": "2026-10-05 19:50",
- "mediaStale": true,
+ "generatedAt": "2026-10-06 20:20",
+ "mediaFetchedAt": "2026-10-06 20:20",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 24,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 7,
   "mediaTotal": 120,
-  "mediaStrong": 88,
+  "mediaStrong": 91,
   "activeTotal": 142,
   "successTotal": 161,
   "cycleRecentAvg": 282,
@@ -4047,10 +4047,39 @@
  ],
  "media": [
   {
+   "date": "2026-10-06",
+   "media": "财联社",
+   "title": "肯尼亚确诊首例本迪布焦型埃博拉病例",
+   "url": "http://finance.eastmoney.com/a/202610063888790589.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-06",
+   "media": "央视财经",
+   "title": "首台、首批，刷新纪录！高燃名场面上新！",
+   "url": "http://finance.eastmoney.com/a/202610063888705562.html",
+   "keyword": "首批",
+   "topics": [
+    "商业航天"
+   ],
+   "strong": true
+  },
+  {
    "date": "2026-10-05",
    "media": "界面新闻",
    "title": "香港立法会将合并辩论首个五年规划及新一份施政报告",
    "url": "http://finance.eastmoney.com/a/202610053888622428.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-05",
+   "media": "每日经济新闻",
+   "title": "美国、德国3人获奖，2026年首个诺贝尔奖揭晓！这项发现，让人类第一次控制大脑",
+   "url": "http://finance.eastmoney.com/a/202610053888671680.html",
    "keyword": "首个",
    "topics": [],
    "strong": true
@@ -5188,42 +5217,15 @@
     "REITs"
    ],
    "strong": true
-  },
-  {
-   "date": "2026-09-20",
-   "media": "科创板日报",
-   "title": "九识获得欧洲首张RoboVan-比利时Y牌",
-   "url": "http://finance.eastmoney.com/a/202609203879344053.html",
-   "keyword": "首张",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-20",
-   "media": "界面新闻",
-   "title": "九识智能获得欧洲首张RoboVan-比利时Y牌",
-   "url": "http://finance.eastmoney.com/a/202609203879303342.html",
-   "keyword": "首张",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-20",
-   "media": "上海证券报·中国证券网",
-   "title": "楚天科技入选全国首批国家新兴产业发展示范基地企业",
-   "url": "http://finance.eastmoney.com/a/202609203879427412.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-06",
   "total": 4403,
   "pipelineTotal": 862,
   "activeTotal": 142,
   "successTotal": 161,
-  "failTotal": 201,
+  "failTotal": 202,
   "stages": [
    {
     "name": "已受理",
@@ -5252,7 +5254,7 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 201,
+    "count": 202,
     "kind": "fail"
    }
   ],
