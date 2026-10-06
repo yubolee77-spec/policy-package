@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06 03:34",
+ "generatedAt": "2026-10-06 09:57",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-06 03:34",
+   "fetchedAt": "2026-10-06 09:57",
    "ageDays": 6
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-06 03:34",
+   "fetchedAt": "2026-10-06 09:57",
    "ageDays": 77
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 14,
-   "fetchedAt": "2026-10-06 03:34",
+   "total": 21,
+   "fetchedAt": "2026-10-06 09:57",
    "ageDays": 340
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202610/05/content_339831.html",
+   "href": "http://paper.ce.cn/pc/content/202610/06/content_339856.html",
    "latest": {
-    "title": "生态出海扩大中国制造朋友圈",
-    "url": "http://paper.ce.cn/pc/content/202610/05/content_339831.html",
-    "date": "2026-10-05",
+    "title": "锻造高素质技能人才队伍",
+    "url": "http://paper.ce.cn/pc/content/202610/06/content_339856.html",
+    "date": "2026-10-06",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 143,
-   "fetchedAt": "2026-10-06 03:34",
-   "ageDays": 1
+   "total": 144,
+   "fetchedAt": "2026-10-06 09:57",
+   "ageDays": 0
   }
  ],
  "stale": false,
