@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-07 01:04",
+ "generatedAt": "2026-10-07 08:50",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-07 01:04",
+   "fetchedAt": "2026-10-07 08:50",
    "ageDays": 7
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-07 01:04",
+   "fetchedAt": "2026-10-07 08:50",
    "ageDays": 78
   },
   {
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 14,
-   "fetchedAt": "2026-10-07 01:04",
+   "fetchedAt": "2026-10-07 08:50",
    "ageDays": 341
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202610/06/content_339856.html",
+   "href": "http://paper.ce.cn/pc/content/202610/07/content_339882.html",
    "latest": {
-    "title": "锻造高素质技能人才队伍",
-    "url": "http://paper.ce.cn/pc/content/202610/06/content_339856.html",
-    "date": "2026-10-06",
+    "title": "历史经典产业要走好市场化新路",
+    "url": "http://paper.ce.cn/pc/content/202610/07/content_339882.html",
+    "date": "2026-10-07",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 144,
-   "fetchedAt": "2026-10-07 01:04",
-   "ageDays": 1
+   "total": 145,
+   "fetchedAt": "2026-10-07 08:50",
+   "ageDays": 0
   }
  ],
  "stale": false,
