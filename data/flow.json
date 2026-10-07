@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07 16:37",
+  "generatedAt": "2026-10-07 19:54",
   "asOf": "2026-10",
   "asOfLabel": "2026年10月",
   "archiveTotal": 208,
@@ -1991,7 +1991,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -1999,7 +1999,7 @@
           "url": ""
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2017,20 +2017,20 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm"
         },
         {
-          "name": "金融与资本",
-          "cur": 1,
-          "prev": 1,
-          "delta": 0,
-          "deltaPct": 0.0,
-          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
-        },
-        {
           "name": "交通基础设施",
           "cur": 1,
           "prev": 1,
           "delta": 0,
           "deltaPct": 0.0,
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
+        },
+        {
+          "name": "金融与资本",
+          "cur": 1,
+          "prev": 1,
+          "delta": 0,
+          "deltaPct": 0.0,
+          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
         }
       ]
     }
