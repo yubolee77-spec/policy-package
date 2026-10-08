@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08 15:52",
+ "generatedAt": "2026-10-08 19:33",
  "month": 10,
  "hotPeriod": "9-10月",
  "candidateCount": 275,
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-08 · 国务院关于《国家残疾预防行动计划（2026—2030年）》的批复（国务院最新政策文件）",
+     "title": "国务院关于《国家残疾预防行动计划（2026—2030年）》的批复",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7082738.htm",
+     "date": "2026-10-08",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-10-08 · 深化开放合作加快原始创新（经济日报）",
      "title": "深化开放合作加快原始创新",
      "url": "http://paper.ce.cn/pc/content/202610/08/content_339913.html",
@@ -315,14 +323,6 @@
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261005_3247931.shtml",
      "date": "2026-10-05",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-04 · 加快建设强大国内市场（人民日报）",
-     "title": "加快建设强大国内市场",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184201.html",
-     "date": "2026-10-04",
-     "source": "人民日报",
      "noise": false
     }
    ],

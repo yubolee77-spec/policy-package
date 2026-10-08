@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08 15:52",
+ "generatedAt": "2026-10-08 19:33",
  "cards": [
   {
    "key": "policy",
@@ -7,17 +7,17 @@
    "indexUrl": "https://www.gov.cn/zhengce/zuixin.htm",
    "indexLabel": "gov.cn/zhengce 最新政策",
    "from": "gov",
-   "href": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082493.htm",
+   "href": "https://www.gov.cn/zhengce/zhengceku/202610/content_7082738.htm",
    "latest": {
-    "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
-    "url": "https://www.gov.cn/zhengce/zhengceku/202609/content_7082493.htm",
-    "date": "2026-09-30",
+    "title": "国务院关于《国家残疾预防行动计划（2026—2030年）》的批复",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7082738.htm",
+    "date": "2026-10-08",
     "source": "国务院最新政策文件"
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-08 15:52",
-   "ageDays": 8
+   "fetchedAt": "2026-10-08 19:33",
+   "ageDays": 0
   },
   {
    "key": "bond",
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 13,
-   "fetchedAt": "2026-10-08 15:52",
+   "fetchedAt": "2026-10-08 19:33",
    "ageDays": 9
   },
   {
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-10-08 15:52",
+   "fetchedAt": "2026-10-08 19:33",
    "ageDays": 342
   },
   {
@@ -72,7 +72,7 @@
    },
    "stale": false,
    "total": 146,
-   "fetchedAt": "2026-10-08 15:52",
+   "fetchedAt": "2026-10-08 19:33",
    "ageDays": 0
   }
  ],
