@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08 01:39",
+ "generatedAt": "2026-10-08 09:11",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-08 01:39",
+   "fetchedAt": "2026-10-08 09:11",
    "ageDays": 8
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-08 01:39",
+   "fetchedAt": "2026-10-08 09:11",
    "ageDays": 79
   },
   {
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 4,
-   "fetchedAt": "2026-10-08 01:39",
+   "fetchedAt": "2026-10-08 09:11",
    "ageDays": 342
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202610/07/content_339882.html",
+   "href": "http://paper.ce.cn/pc/content/202610/08/content_339913.html",
    "latest": {
-    "title": "历史经典产业要走好市场化新路",
-    "url": "http://paper.ce.cn/pc/content/202610/07/content_339882.html",
-    "date": "2026-10-07",
+    "title": "深化开放合作加快原始创新",
+    "url": "http://paper.ce.cn/pc/content/202610/08/content_339913.html",
+    "date": "2026-10-08",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 145,
-   "fetchedAt": "2026-10-08 01:39",
-   "ageDays": 1
+   "total": 146,
+   "fetchedAt": "2026-10-08 09:11",
+   "ageDays": 0
   }
  ],
  "stale": false,

@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-08 01:39",
+ "generatedAt": "2026-10-08 09:11",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 274,
+ "candidateCount": 275,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-08 · 深化开放合作加快原始创新（经济日报）",
+     "title": "深化开放合作加快原始创新",
+     "url": "http://paper.ce.cn/pc/content/202610/08/content_339913.html",
+     "date": "2026-10-08",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-07 · 历史经典产业要走好市场化新路（经济日报）",
      "title": "历史经典产业要走好市场化新路",
      "url": "http://paper.ce.cn/pc/content/202610/07/content_339882.html",
@@ -315,14 +323,6 @@
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/04/content_30184201.html",
      "date": "2026-10-04",
      "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-04 · 释放历史经典产业消费潜能（经济日报）",
-     "title": "释放历史经典产业消费潜能",
-     "url": "http://paper.ce.cn/pc/content/202610/04/content_339793.html",
-     "date": "2026-10-04",
-     "source": "经济日报",
      "noise": false
     }
    ],
