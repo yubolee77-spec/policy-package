@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-08 19:31",
+ "generatedAt": "2026-10-09 00:39",
  "mediaFetchedAt": "2026-10-08 19:31",
- "mediaStale": false,
+ "mediaStale": true,
  "mediaChannels": {
-  "eastmoney": 21,
+  "eastmoney": 0,
   "papers": 0
  },
  "kpi": {
@@ -2506,16 +2506,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "政策解读",
    "column": "政策解读",
    "tag": "政策法规",
@@ -2523,6 +2513,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "IPO注册",
+   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2636,6 +2636,16 @@
   },
   {
    "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -2663,16 +2673,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -5593,6 +5593,16 @@
   "recentActive": [
    {
     "date": "2026-10-08",
+    "acceptDate": "2026-06-30",
+    "company": "上海羲禾科技股份有限公司",
+    "market": "科创板",
+    "industry": "软件和信息技术服务业",
+    "state": "已问询",
+    "region": "上海",
+    "sponsor": "国泰海通证券股份有限公司"
+   },
+   {
+    "date": "2026-10-08",
     "acceptDate": "2026-06-10",
     "company": "上海季丰电子股份有限公司",
     "market": "创业板",
@@ -5870,16 +5880,6 @@
     "state": "已问询",
     "region": "湖北省 武汉市",
     "sponsor": "申港证券股份有限公司"
-   },
-   {
-    "date": "2026-09-28",
-    "acceptDate": "2026-06-30",
-    "company": "上海羲禾科技股份有限公司",
-    "market": "科创板",
-    "industry": "软件和信息技术服务业",
-    "state": "已问询",
-    "region": "上海",
-    "sponsor": "国泰海通证券股份有限公司"
    },
    {
     "date": "2026-09-28",
