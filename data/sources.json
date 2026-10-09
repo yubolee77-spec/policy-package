@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09 01:48",
+ "generatedAt": "2026-10-09 09:22",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-09 01:48",
+   "fetchedAt": "2026-10-09 09:22",
    "ageDays": 1
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-09 01:48",
+   "fetchedAt": "2026-10-09 09:22",
    "ageDays": 80
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 4,
-   "fetchedAt": "2026-10-09 01:48",
+   "total": 21,
+   "fetchedAt": "2026-10-09 09:22",
    "ageDays": 343
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202610/08/content_339913.html",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202610/09/content_30184634.html",
    "latest": {
-    "title": "深化开放合作加快原始创新",
-    "url": "http://paper.ce.cn/pc/content/202610/08/content_339913.html",
-    "date": "2026-10-08",
-    "source": "经济日报"
+    "title": "四重视角看中华民族的文化主体性",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202610/09/content_30184634.html",
+    "date": "2026-10-09",
+    "source": "人民日报"
    },
    "stale": false,
-   "total": 146,
-   "fetchedAt": "2026-10-09 01:48",
-   "ageDays": 1
+   "total": 149,
+   "fetchedAt": "2026-10-09 09:22",
+   "ageDays": 0
   }
  ],
  "stale": false,

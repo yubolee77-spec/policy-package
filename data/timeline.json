@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-09 01:48",
+ "generatedAt": "2026-10-09 09:22",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 275,
+ "candidateCount": 278,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,30 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-09 · 四重视角看中华民族的文化主体性（人民日报）",
+     "title": "四重视角看中华民族的文化主体性",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/09/content_30184634.html",
+     "date": "2026-10-09",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-09 · 上下协同稳投资要把握三个维度（经济日报）",
+     "title": "上下协同稳投资要把握三个维度",
+     "url": "http://paper.ce.cn/pc/content/202610/09/content_339967.html",
+     "date": "2026-10-09",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-09 · 金观平：上下协同稳投资要把握三个维度（经济日报）",
+     "title": "金观平：上下协同稳投资要把握三个维度",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261009_3250143.shtml",
+     "date": "2026-10-09",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-08 · 国务院关于《国家残疾预防行动计划（2026—2030年）》的批复（国务院最新政策文件）",
      "title": "国务院关于《国家残疾预防行动计划（2026—2030年）》的批复",
      "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7082738.htm",
@@ -298,30 +322,6 @@
      "title": "历史经典产业要走好市场化新路",
      "url": "http://paper.ce.cn/pc/content/202610/07/content_339882.html",
      "date": "2026-10-07",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-06 · 锻造高素质技能人才队伍（经济日报）",
-     "title": "锻造高素质技能人才队伍",
-     "url": "http://paper.ce.cn/pc/content/202610/06/content_339856.html",
-     "date": "2026-10-06",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-05 · 生态出海扩大中国制造朋友圈（经济日报）",
-     "title": "生态出海扩大中国制造朋友圈",
-     "url": "http://paper.ce.cn/pc/content/202610/05/content_339831.html",
-     "date": "2026-10-05",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-05 · 金观平：生态出海扩大中国制造朋友圈（经济日报）",
-     "title": "金观平：生态出海扩大中国制造朋友圈",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261005_3247931.shtml",
-     "date": "2026-10-05",
      "source": "经济日报",
      "noise": false
     }
