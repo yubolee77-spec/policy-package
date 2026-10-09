@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-09 15:18",
+  "generatedAt": "2026-10-09 19:42",
   "asOf": "2026-10",
   "asOfLabel": "2026年10月",
-  "archiveTotal": 208,
-  "archiveAdded": 0,
+  "archiveTotal": 209,
+  "archiveAdded": 1,
   "channels": [
     {
       "key": "special_fund",
@@ -1239,10 +1239,12 @@
           "cur": {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 0,
+            "n": 1,
             "amountYi": 0.0,
             "amountCount": 0,
-            "industries": {}
+            "industries": {
+              "机构资格": 1
+            }
           },
           "prev": {
             "key": "2026-09",
@@ -1258,17 +1260,19 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -100.0,
+          "deltaPct": -96.4,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 0,
+            "n": 1,
             "amountYi": 0.0,
             "amountCount": 0,
-            "industries": {}
+            "industries": {
+              "机构资格": 1
+            }
           },
           "prev": {
             "key": "2026Q3",
@@ -1285,19 +1289,19 @@
               "再融资": 9
             }
           },
-          "deltaPct": -100.0,
+          "deltaPct": -98.7,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 94,
+            "n": 95,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "机构资格": 20,
               "REITs 注册": 14,
-              "机构资格": 19,
               "其他审核": 35,
               "首发上市（IPO）": 12,
               "并购重组": 5,
@@ -1317,7 +1321,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 203.2,
+          "deltaPct": 206.5,
           "deltaAmountPct": null
         }
       },
@@ -1380,7 +1384,7 @@
           {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 0,
+            "n": 1,
             "amountYi": 0.0
           },
           {
@@ -1418,7 +1422,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 0,
+            "n": 1,
             "amountYi": 0.0
           }
         ],
@@ -1432,13 +1436,30 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 94,
+            "n": 95,
             "amountYi": 0.0
           }
         ]
       },
       "industries": {
         "month": [
+          {
+            "name": "机构资格",
+            "cur": 1,
+            "prev": 4,
+            "deltaPct": -75.0,
+            "items": [
+              {
+                "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
+                "date": "2026-10-08",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 1
+          },
           {
             "name": "REITs 注册",
             "cur": 0,
@@ -1464,14 +1485,6 @@
             "totalItems": 0
           },
           {
-            "name": "机构资格",
-            "cur": 0,
-            "prev": 4,
-            "deltaPct": -100.0,
-            "items": [],
-            "totalItems": 0
-          },
-          {
             "name": "首发上市（IPO）",
             "cur": 0,
             "prev": 3,
@@ -1481,6 +1494,23 @@
           }
         ],
         "quarter": [
+          {
+            "name": "机构资格",
+            "cur": 1,
+            "prev": 19,
+            "deltaPct": -94.7,
+            "items": [
+              {
+                "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
+                "date": "2026-10-08",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 1
+          },
           {
             "name": "REITs 注册",
             "cur": 0,
@@ -1509,14 +1539,6 @@
             "name": "并购重组",
             "cur": 0,
             "prev": 2,
-            "deltaPct": -100.0,
-            "items": [],
-            "totalItems": 0
-          },
-          {
-            "name": "机构资格",
-            "cur": 0,
-            "prev": 19,
             "deltaPct": -100.0,
             "items": [],
             "totalItems": 0
@@ -1590,10 +1612,18 @@
           },
           {
             "name": "机构资格",
-            "cur": 19,
+            "cur": 20,
             "prev": 1,
-            "deltaPct": 1800.0,
+            "deltaPct": 1900.0,
             "items": [
+              {
+                "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
+                "date": "2026-10-08",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准德邦证券股份有限公司变更主要股东的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101846/c7661133/content.shtml",
@@ -1633,17 +1663,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准五锐集团（新加坡）有限公司合格境外投资者资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101885/c7657876/content.shtml",
-                "date": "2026-08-21",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 19
+            "totalItems": 20
           },
           {
             "name": "REITs 注册",
@@ -1991,7 +2013,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -1999,7 +2021,7 @@
           "url": ""
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2017,25 +2039,35 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm"
         },
         {
-          "name": "金融与资本",
-          "cur": 1,
-          "prev": 1,
-          "delta": 0,
-          "deltaPct": 0.0,
-          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
-        },
-        {
           "name": "交通基础设施",
           "cur": 1,
           "prev": 1,
           "delta": 0,
           "deltaPct": 0.0,
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
+        },
+        {
+          "name": "金融与资本",
+          "cur": 1,
+          "prev": 1,
+          "delta": 0,
+          "deltaPct": 0.0,
+          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
         }
       ]
     }
   },
   "recent": [
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
+      "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
+      "date": "2026-10-08",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101895/c7662083/content.shtml",
       "title": "关于准予中金开元旅业封闭式商业不动产证券投资基金注册的批复",
@@ -3223,16 +3255,6 @@
       "org": "gov.cn",
       "channel": "special_fund",
       "industry": "消费与流通",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/yaowen/liebiao/202601/content_7055490.htm",
-      "title": "财政部：2025年发行超长期特别国债1.3万亿元，持续支持“两重”、“两新”",
-      "date": "2026-01-20",
-      "org": "gov.cn",
-      "channel": "bond",
-      "industry": "综合与其他",
       "amountYi": null,
       "src": "gov.cn 政策库"
     }

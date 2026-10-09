@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09 15:18",
+ "generatedAt": "2026-10-09 19:42",
  "month": 10,
  "hotPeriod": "9-10月",
  "candidateCount": 278,
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-09 · 中国证监会就《公开募集证券投资基金运作管理办法（征求意见稿）》及配套规则公开征求意见（证监会最新动态）",
+     "title": "中国证监会就《公开募集证券投资基金运作管理办法（征求意见稿）》及配套规则公开征求意见",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7663393/content.shtml",
+     "date": "2026-10-09",
+     "source": "证监会最新动态",
+     "noise": false
+    },
+    {
      "label": "2026-10-09 · 四重视角看中华民族的文化主体性（人民日报）",
      "title": "四重视角看中华民族的文化主体性",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/09/content_30184634.html",
@@ -315,14 +323,6 @@
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261008_1965465.html",
      "date": "2026-10-08",
      "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-10-08 · 深化开放合作加快原始创新（经济日报）",
-     "title": "深化开放合作加快原始创新",
-     "url": "http://paper.ce.cn/pc/content/202610/08/content_339913.html",
-     "date": "2026-10-08",
-     "source": "经济日报",
      "noise": false
     }
    ],
