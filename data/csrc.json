@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-10-09 09:18",
- "mediaFetchedAt": "2026-10-08 19:31",
- "mediaStale": true,
+ "generatedAt": "2026-10-09 15:16",
+ "mediaFetchedAt": "2026-10-09 15:16",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 20,
   "papers": 0
  },
  "kpi": {
-  "penaltyTotal": 234,
-  "penaltyMonth": 11,
+  "penaltyTotal": 232,
+  "penaltyMonth": 22,
   "approvalTotal": 168,
   "approvalMonth": 0,
   "reitsApproved30d": 5,
   "ipoApproved30d": 7,
   "mediaTotal": 120,
-  "mediaStrong": 88,
+  "mediaStrong": 89,
   "activeTotal": 141,
   "successTotal": 161,
   "cycleRecentAvg": 282,
@@ -22,6 +22,116 @@
   "cycleVerdict": "放缓 6%"
  },
  "penalty": [
+  {
+   "date": "2026-10-09",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "责令改正",
+   "title": "关于对哈尔滨经云创业投资有限公司采取责令改正行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7663129/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对刘晓雪采取出具警示函行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7663126/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对高芹芹采取出具警示函的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7663291/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对卢胜军采取出具警示函的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7663284/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对庄立婷采取出具警示函的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7663278/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对权爱东采取出具警示函的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7663273/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "监管谈话",
+   "title": "关于对乔光豪采取监管谈话的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7663269/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对海南港澳资讯产业股份有限公司济南分公司采取责令改正的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7663267/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对广发证券大连中山路证券营业部采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/dalian/c104244/c7663225/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对湖州倍格曼新材料股份有限公司采取责令改正、对周国旗及杨勇采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7663139/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对广东四通集团股份有限公司采取责令改正措施并对邓建华、蔡镇通、张平采取出具警示函措施的决定〔2026〕122号",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7663123/content.shtml"
+  },
   {
    "date": "2026-10-08",
    "channel": "监管工作",
@@ -823,116 +933,6 @@
    "url": "https://www.csrc.gov.cn/liaoning/c103750/c7661225/content.shtml"
   },
   {
-   "date": "2026-09-24",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对国融证券股份有限公司南京大桥北路证券营业部采取出具警示函行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103892/c7661182/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对徐炜中采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103899/c7661174/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对山东舜天信诚会计师事务所（特殊普通合伙）及刘增玉、王在安采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shandong/c104218/c7661159/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "监管谈话",
-   "title": "江苏证监局关于对国联期货股份有限公司采取监管谈话措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103899/c7661156/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对陈宣义采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7661149/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对金元证券股份有限公司温州汤家桥路证券营业部采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7661147/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "江苏证监局关于对常熟乔博信通投资咨询管理有限公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7661146/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对华源证券股份有限公司浙江分公司、罗迪采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7661145/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "江苏证监局关于对国润创业投资（苏州）管理有限公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7661134/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对中兴财光华会计师事务所（特殊普通合伙）、彭国栋、刘希采取出具警示函措施的决定〔2026〕124号",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7661128/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对林雪霜采取出具警示函行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/sichuan/c104902/c7661126/content.shtml"
-  },
-  {
    "date": "2026-09-23",
    "channel": "监管工作",
    "column": "辖区监管动态",
@@ -1141,26 +1141,6 @@
    "docNo": "",
    "party": "截至2026年9月18日",
    "url": "https://www.csrc.gov.cn/jilin/c103793/c7659491/content.shtml"
-  },
-  {
-   "date": "2026-09-18",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-9-18",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7659480/content.shtml"
-  },
-  {
-   "date": "2026-09-17",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "深耕陇原沃土 聚力产业腾飞——甘肃上市公司半年报亮点频现",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/gansu/c101379/c7659345/content.shtml"
   },
   {
    "date": "2026-09-01",
@@ -4047,6 +4027,46 @@
  ],
  "media": [
   {
+   "date": "2026-10-09",
+   "media": "央视新闻",
+   "title": "“中国天眼”发现首例原生演化脉冲星三体系统",
+   "url": "http://finance.eastmoney.com/a/202610093890772197.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-09",
+   "media": "21世纪经济报道",
+   "title": "我国首个三塔光伏光热基地成功并网发电，光伏ETF天弘（159857）近3日“吸金”近3000万元",
+   "url": "http://stock.eastmoney.com/a/202610093890505869.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-10-09",
+   "media": "科创板日报",
+   "title": "AI竞争跑出新变量？大湾区首家大模型初创公司，刷新全球dLLM融资纪录",
+   "url": "http://finance.eastmoney.com/a/202610093890705119.html",
+   "keyword": "首家",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-10-09",
+   "media": "21世纪经济报道",
+   "title": "首批基层病种单行发布，医保支付改革助力分级诊疗提质增效",
+   "url": "http://finance.eastmoney.com/a/202610093891183220.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-10-08",
    "media": "界面新闻",
    "title": "海南封关运作后首个国庆假期，迎来免税消费热",
@@ -4082,6 +4102,17 @@
    "url": "http://finance.eastmoney.com/a/202610083889659419.html",
    "keyword": "首个",
    "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-08",
+   "media": "财联社",
+   "title": "国内首例BAW滤波器侵权案宣判 这家“小巨人”企业获赔150万元 侵权产品主要销往手机客户",
+   "url": "http://finance.eastmoney.com/a/202610083889842298.html",
+   "keyword": "首例",
+   "topics": [
+    "集成电路"
+   ],
    "strong": true
   },
   {
@@ -5163,54 +5194,6 @@
    "keyword": "首家",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-09-21",
-   "media": "每日经济新闻",
-   "title": "九识获得欧洲首张RoboVan-比利时Y牌；广汽柬埔寨KD工厂正式投产下线丨汽车早参",
-   "url": "http://finance.eastmoney.com/a/202609213879513046.html",
-   "keyword": "首张",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-21",
-   "media": "财联社",
-   "title": "星环科技港股上市首日破发 18C规则下首家赴港上市A股公司来了",
-   "url": "http://finance.eastmoney.com/a/202609213880356915.html",
-   "keyword": "首家",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-20",
-   "media": "人民日报",
-   "title": "开幕后首个比赛日，有何看点",
-   "url": "http://paper.people.com.cn/rmrb/pc/content/202609/20/content_30182009.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true,
-   "src": "党媒数字报直扫"
-  },
-  {
-   "date": "2026-09-20",
-   "media": "界面新闻",
-   "title": "lululemon全球首个综合服务中心落地中国",
-   "url": "http://finance.eastmoney.com/a/202609203879349458.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-20",
-   "media": "上海证券报·中国证券网",
-   "title": "智元携手长隆集团打造全球首个大型具身智能主题乐园",
-   "url": "http://finance.eastmoney.com/a/202609203879341458.html",
-   "keyword": "首个",
-   "topics": [
-    "消费/文旅"
-   ],
-   "strong": true
   }
  ],
  "review": {
