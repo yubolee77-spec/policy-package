@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-10 01:18",
+ "generatedAt": "2026-10-10 09:01",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-10 01:18",
+   "fetchedAt": "2026-10-10 09:01",
    "ageDays": 2
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-10 01:18",
+   "fetchedAt": "2026-10-10 09:01",
    "ageDays": 81
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 14,
-   "fetchedAt": "2026-10-10 01:18",
+   "total": 4,
+   "fetchedAt": "2026-10-10 09:01",
    "ageDays": 344
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.people.com.cn/rmrb/pc/content/202610/09/content_30184634.html",
+   "href": "http://paper.ce.cn/pc/content/202610/10/content_340015.html",
    "latest": {
-    "title": "四重视角看中华民族的文化主体性",
-    "url": "http://paper.people.com.cn/rmrb/pc/content/202610/09/content_30184634.html",
-    "date": "2026-10-09",
-    "source": "人民日报"
+    "title": "基础研究亟待“开渠引水”",
+    "url": "http://paper.ce.cn/pc/content/202610/10/content_340015.html",
+    "date": "2026-10-10",
+    "source": "经济日报"
    },
    "stale": false,
-   "total": 149,
-   "fetchedAt": "2026-10-10 01:18",
-   "ageDays": 1
+   "total": 151,
+   "fetchedAt": "2026-10-10 09:01",
+   "ageDays": 0
   }
  ],
  "stale": false,

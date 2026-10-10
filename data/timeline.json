@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-10 01:18",
+ "generatedAt": "2026-10-10 09:01",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 278,
+ "candidateCount": 280,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-10 · 基础研究亟待“开渠引水”（经济日报）",
+     "title": "基础研究亟待“开渠引水”",
+     "url": "http://paper.ce.cn/pc/content/202610/10/content_340015.html",
+     "date": "2026-10-10",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-10 · 金观平：基础研究亟待“开渠引水”（经济日报）",
+     "title": "金观平：基础研究亟待“开渠引水”",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261010_3252558.shtml",
+     "date": "2026-10-10",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-09 · 中国证监会就《公开募集证券投资基金运作管理办法（征求意见稿）》及配套规则公开征求意见（证监会最新动态）",
      "title": "中国证监会就《公开募集证券投资基金运作管理办法（征求意见稿）》及配套规则公开征求意见",
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7663393/content.shtml",
@@ -307,22 +323,6 @@
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261009_3250143.shtml",
      "date": "2026-10-09",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-08 · 国务院关于《国家残疾预防行动计划（2026—2030年）》的批复（国务院最新政策文件）",
-     "title": "国务院关于《国家残疾预防行动计划（2026—2030年）》的批复",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7082738.htm",
-     "date": "2026-10-08",
-     "source": "国务院最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-10-08 · 2026年9月下旬流通领域重要生产资料市场价格变动情况（国家统计局最新数据发布）",
-     "title": "2026年9月下旬流通领域重要生产资料市场价格变动情况",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261008_1965465.html",
-     "date": "2026-10-08",
-     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],
