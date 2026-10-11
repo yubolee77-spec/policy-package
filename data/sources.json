@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-11 19:06",
+ "generatedAt": "2026-10-12 00:31",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-11 19:06",
-   "ageDays": 3
+   "fetchedAt": "2026-10-12 00:31",
+   "ageDays": 4
   },
   {
    "key": "bond",
@@ -26,17 +26,17 @@
    "indexLabel": "财政部预算司·国债发行",
    "include": "国债",
    "exclude": "会见|会谈|座谈|巡视|招聘|任免|公示|考试|培训",
-   "href": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202610/t20261010_4002491.htm",
+   "href": "https://www.gov.cn/zhengce/202607/content_7076206.htm",
    "latest": {
-    "title": "关于2026年记账式附息（十七期）国债第二次续发行工作有关事宜的通知",
-    "url": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202610/t20261010_4002491.htm",
-    "date": "2026-10-10",
-    "source": "财政部"
+    "title": "220亿元超长期特别国债，支持老旧营运货车报废更新",
+    "url": "https://www.gov.cn/zhengce/202607/content_7076206.htm",
+    "date": "2026-07-21",
+    "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 13,
-   "fetchedAt": "2026-10-11 19:06",
-   "ageDays": 1
+   "total": 12,
+   "fetchedAt": "2026-10-12 00:31",
+   "ageDays": 83
   },
   {
    "key": "localbond",
@@ -54,8 +54,8 @@
    },
    "stale": false,
    "total": 4,
-   "fetchedAt": "2026-10-11 19:06",
-   "ageDays": 345
+   "fetchedAt": "2026-10-12 00:31",
+   "ageDays": 346
   },
   {
    "key": "media",
@@ -72,8 +72,8 @@
    },
    "stale": false,
    "total": 152,
-   "fetchedAt": "2026-10-11 19:06",
-   "ageDays": 0
+   "fetchedAt": "2026-10-12 00:31",
+   "ageDays": 1
   }
  ],
  "stale": false,
