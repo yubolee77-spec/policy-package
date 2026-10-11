@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-10 18:54",
+ "generatedAt": "2026-10-11 08:20",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 280,
+ "candidateCount": 281,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-11 · 不搞竞争性货币贬值，中国有底气（经济日报）",
+     "title": "不搞竞争性货币贬值，中国有底气",
+     "url": "http://paper.ce.cn/pc/content/202610/11/content_340065.html",
+     "date": "2026-10-11",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-10 · 基础研究亟待“开渠引水”（经济日报）",
      "title": "基础研究亟待“开渠引水”",
      "url": "http://paper.ce.cn/pc/content/202610/10/content_340015.html",
@@ -313,14 +321,6 @@
      "label": "2026-10-09 · 上下协同稳投资要把握三个维度（经济日报）",
      "title": "上下协同稳投资要把握三个维度",
      "url": "http://paper.ce.cn/pc/content/202610/09/content_339967.html",
-     "date": "2026-10-09",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-09 · 金观平：上下协同稳投资要把握三个维度（经济日报）",
-     "title": "金观平：上下协同稳投资要把握三个维度",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261009_3250143.shtml",
      "date": "2026-10-09",
      "source": "经济日报",
      "noise": false
