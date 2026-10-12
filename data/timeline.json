@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-12 00:31",
+ "generatedAt": "2026-10-12 08:40",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 281,
+ "candidateCount": 283,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-12 · “半条被子”和“半截皮带”（人民日报）",
+     "title": "“半条被子”和“半截皮带”",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/12/content_30185061.html",
+     "date": "2026-10-12",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-12 · 用好保障人民健康的“大处方”（经济日报）",
+     "title": "用好保障人民健康的“大处方”",
+     "url": "http://paper.ce.cn/pc/content/202610/12/content_340111.html",
+     "date": "2026-10-12",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-11 · 不搞竞争性货币贬值，中国有底气（经济日报）",
      "title": "不搞竞争性货币贬值，中国有底气",
      "url": "http://paper.ce.cn/pc/content/202610/11/content_340065.html",
@@ -307,22 +323,6 @@
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7663393/content.shtml",
      "date": "2026-10-09",
      "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-10-09 · 四重视角看中华民族的文化主体性（人民日报）",
-     "title": "四重视角看中华民族的文化主体性",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/09/content_30184634.html",
-     "date": "2026-10-09",
-     "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-09 · 上下协同稳投资要把握三个维度（经济日报）",
-     "title": "上下协同稳投资要把握三个维度",
-     "url": "http://paper.ce.cn/pc/content/202610/09/content_339967.html",
-     "date": "2026-10-09",
-     "source": "经济日报",
      "noise": false
     }
    ],

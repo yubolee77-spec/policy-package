@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-12 00:31",
+ "generatedAt": "2026-10-12 08:40",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-12 00:31",
+   "fetchedAt": "2026-10-12 08:40",
    "ageDays": 4
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-12 00:31",
+   "fetchedAt": "2026-10-12 08:40",
    "ageDays": 83
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 4,
-   "fetchedAt": "2026-10-12 00:31",
+   "total": 11,
+   "fetchedAt": "2026-10-12 08:40",
    "ageDays": 346
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202610/11/content_340065.html",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202610/12/content_30185061.html",
    "latest": {
-    "title": "不搞竞争性货币贬值，中国有底气",
-    "url": "http://paper.ce.cn/pc/content/202610/11/content_340065.html",
-    "date": "2026-10-11",
-    "source": "经济日报"
+    "title": "“半条被子”和“半截皮带”",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202610/12/content_30185061.html",
+    "date": "2026-10-12",
+    "source": "人民日报"
    },
    "stale": false,
-   "total": 152,
-   "fetchedAt": "2026-10-12 00:31",
-   "ageDays": 1
+   "total": 154,
+   "fetchedAt": "2026-10-12 08:40",
+   "ageDays": 0
   }
  ],
  "stale": false,
