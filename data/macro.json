@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-13",
-  "generatedAt": "2026-10-13 10:40",
+  "generatedAt": "2026-10-13 20:08",
   "periodLabel": "2026-09",
   "cards": [
     {
@@ -74,6 +74,15 @@
       "dir": "pos",
       "sub": "2026年8月·规上工业增加值·1-8月累计5.3%",
       "url": "https://data.eastmoney.com/cjsj/gyzjz.html"
+    },
+    {
+      "name": "社会消费品零售总额",
+      "val": "0.4",
+      "unit": "%",
+      "chg": "2026年8月同比",
+      "dir": "neg",
+      "sub": "2026年8月·社会消费品零售总额·1-8月累计同比1.1%",
+      "url": "https://data.eastmoney.com/cjsj/qgsssr.html"
     }
   ],
   "series": {
