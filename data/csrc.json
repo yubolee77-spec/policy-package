@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13 04:02",
+ "generatedAt": "2026-10-13 10:40",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -7,8 +7,8 @@
   "papers": 0
  },
  "kpi": {
-  "penaltyTotal": 235,
-  "penaltyMonth": 70,
+  "penaltyTotal": 237,
+  "penaltyMonth": 72,
   "approvalTotal": 167,
   "approvalMonth": 4,
   "reitsApproved30d": 5,
@@ -17,9 +17,9 @@
   "mediaStrong": 89,
   "activeTotal": 139,
   "successTotal": 161,
-  "cycleRecentAvg": 288,
-  "cyclePrevAvg": 264,
-  "cycleVerdict": "放缓 9%"
+  "cycleRecentAvg": 303,
+  "cyclePrevAvg": 257,
+  "cycleVerdict": "放缓 18%"
  },
  "penalty": [
   {
@@ -101,6 +101,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/tianjin/c103610/c7663927/content.shtml"
+  },
+  {
+   "date": "2026-10-12",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对容诚会计师事务所（特殊普通合伙）、梁宝珠、林辉钦、余璐楠采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103901/c7664178/content.shtml"
   },
   {
    "date": "2026-10-10",
@@ -571,6 +581,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/guangdong/c104560/c7663123/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "江苏证监局关于对南京建邺三正厚德投资管理有限公司采取责令改正行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7664182/content.shtml"
   },
   {
    "date": "2026-10-09",
@@ -5320,12 +5340,12 @@
    }
   ],
   "cycle": {
-   "recentAvg": 288,
-   "recentN": 15,
-   "prevAvg": 264,
-   "prevN": 21,
-   "deltaPct": 9,
-   "verdict": "放缓 9%",
+   "recentAvg": 303,
+   "recentN": 13,
+   "prevAvg": 257,
+   "prevN": 23,
+   "deltaPct": 18,
+   "verdict": "放缓 18%",
    "byMonth": [
     {
      "month": "25-11",
@@ -5385,18 +5405,6 @@
    ],
    "fastest": [
     {
-     "company": "上海燧原科技股份有限公司",
-     "days": 173,
-     "date": "2026-07-14",
-     "market": "科创板"
-    },
-    {
-     "company": "天博智能科技(山东)股份有限公司",
-     "days": 196,
-     "date": "2026-07-14",
-     "market": "沪主板"
-    },
-    {
      "company": "江苏高凯精密流体技术股份有限公司",
      "days": 203,
      "date": "2026-07-20",
@@ -5413,6 +5421,18 @@
      "days": 221,
      "date": "2026-08-03",
      "market": "沪主板"
+    },
+    {
+     "company": "宁波力勤资源科技股份有限公司",
+     "days": 226,
+     "date": "2026-08-14",
+     "market": "深主板"
+    },
+    {
+     "company": "苏州猎奇智能设备股份有限公司",
+     "days": 238,
+     "date": "2026-08-21",
+     "market": "创业板"
     }
    ]
   },
