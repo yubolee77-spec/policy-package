@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13 20:08",
+ "generatedAt": "2026-10-14 01:04",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -5856,6 +5856,16 @@
    },
    {
     "date": "2026-09-30",
+    "acceptDate": "2026-03-27",
+    "company": "力高新能源技术股份有限公司",
+    "market": "创业板",
+    "industry": "电气机械和器材制造业",
+    "state": "已问询",
+    "region": "山东",
+    "sponsor": "中信建投证券股份有限公司"
+   },
+   {
+    "date": "2026-09-30",
     "acceptDate": "2026-04-22",
     "company": "杭州玄机科技股份有限公司",
     "market": "北交所",
@@ -5963,16 +5973,6 @@
     "state": "已问询",
     "region": "上海",
     "sponsor": "国泰海通证券股份有限公司"
-   },
-   {
-    "date": "2026-09-29",
-    "acceptDate": "2026-03-27",
-    "company": "力高新能源技术股份有限公司",
-    "market": "创业板",
-    "industry": "电气机械和器材制造业",
-    "state": "已问询",
-    "region": "山东",
-    "sponsor": "中信建投证券股份有限公司"
    },
    {
     "date": "2026-09-29",
