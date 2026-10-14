@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-14 08:25",
+ "generatedAt": "2026-10-14 17:47",
  "month": 10,
  "hotPeriod": "9-10月",
  "candidateCount": 284,
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-14 · 2026年9月份居民消费价格同比上涨0.9%（国家统计局最新数据发布）",
+     "title": "2026年9月份居民消费价格同比上涨0.9%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261014_1965477.html",
+     "date": "2026-10-14",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
+     "label": "2026-10-14 · 2026年9月份工业生产者出厂价格同比上涨5.0% 环比上涨1.2%（国家统计局最新数据发布）",
+     "title": "2026年9月份工业生产者出厂价格同比上涨5.0% 环比上涨1.2%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261014_1965476.html",
+     "date": "2026-10-14",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-10-13 · 坚定不移实施健康优先发展战略（经济日报）",
      "title": "坚定不移实施健康优先发展战略",
      "url": "http://paper.ce.cn/pc/content/202610/13/content_340162.html",
@@ -306,22 +322,6 @@
      "title": "不搞竞争性货币贬值，中国有底气",
      "url": "http://paper.ce.cn/pc/content/202610/11/content_340065.html",
      "date": "2026-10-11",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-10 · 基础研究亟待“开渠引水”（经济日报）",
-     "title": "基础研究亟待“开渠引水”",
-     "url": "http://paper.ce.cn/pc/content/202610/10/content_340015.html",
-     "date": "2026-10-10",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-10 · 金观平：基础研究亟待“开渠引水”（经济日报）",
-     "title": "金观平：基础研究亟待“开渠引水”",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261010_3252558.shtml",
-     "date": "2026-10-10",
      "source": "经济日报",
      "noise": false
     }
