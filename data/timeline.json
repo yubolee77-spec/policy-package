@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-15 08:07",
+ "generatedAt": "2026-10-15 17:31",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 285,
+ "candidateCount": 286,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -286,6 +286,14 @@
      "noise": false
     },
     {
+     "label": "2026-10-15 · 夯实中国式现代化的健康根基（求是网）",
+     "title": "夯实中国式现代化的健康根基",
+     "url": "https://www.qstheory.cn/20261015/0051c0554f624c2f98db08159281281c/c.html",
+     "date": "2026-10-15",
+     "source": "求是网",
+     "noise": false
+    },
+    {
      "label": "2026-10-14 · 2026年9月份居民消费价格同比上涨0.9%（国家统计局最新数据发布）",
      "title": "2026年9月份居民消费价格同比上涨0.9%",
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261014_1965477.html",
@@ -315,14 +323,6 @@
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/12/content_30185061.html",
      "date": "2026-10-12",
      "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-12 · 用好保障人民健康的“大处方”（经济日报）",
-     "title": "用好保障人民健康的“大处方”",
-     "url": "http://paper.ce.cn/pc/content/202610/12/content_340111.html",
-     "date": "2026-10-12",
-     "source": "经济日报",
      "noise": false
     }
    ],

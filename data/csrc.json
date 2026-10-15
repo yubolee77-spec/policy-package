@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15 08:00",
+ "generatedAt": "2026-10-15 17:23",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -8,7 +8,7 @@
  },
  "kpi": {
   "penaltyTotal": 237,
-  "penaltyMonth": 87,
+  "penaltyMonth": 92,
   "approvalTotal": 167,
   "approvalMonth": 4,
   "reitsApproved30d": 4,
@@ -23,6 +23,96 @@
  },
  "penalty": [
   {
+   "date": "2026-10-15",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对山东添翼资产评估有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7664863/content.shtml"
+  },
+  {
+   "date": "2026-10-15",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对北京立友土地房地产资产评估有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7664861/content.shtml"
+  },
+  {
+   "date": "2026-10-15",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对浙江启源股权投资基金管理有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/ningbo/c104130/c7664831/content.shtml"
+  },
+  {
+   "date": "2026-10-15",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "广东证监局2027年度考试录用公务员公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangdong/c104552/c7664858/content.shtml"
+  },
+  {
+   "date": "2026-10-15",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "深学细悟明方向 立足基层抓落实——青岛局党委理论中心组（扩大）学习会深入学习贯彻习近平总书记关于基层工作方法的重要论述",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7664805/content.shtml"
+  },
+  {
+   "date": "2026-10-15",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "大连辖区举办2026年度上市公司董事及高级管理人员（第二期）培训",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/dalian/c101569/c7664803/content.shtml"
+  },
+  {
+   "date": "2026-10-15",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "厦门辖区召开私募基金规范发展会议",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c101757/c7664373/content.shtml"
+  },
+  {
+   "date": "2026-10-15",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "上海辖区证券期货市场概况（2026年9月）",
+   "docNo": "",
+   "party": "2026年9月",
+   "url": "https://www.csrc.gov.cn/shanghai/c100581/c7664767/content.shtml"
+  },
+  {
+   "date": "2026-10-14",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对中大建设股份有限公司、彭国禄、黄云采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangxi/c104168/c7664622/content.shtml"
+  },
+  {
    "date": "2026-10-14",
    "channel": "行政监管措施",
    "column": "监管措施",
@@ -30,7 +120,7 @@
    "title": "关于对汪峰采取出具警示函措施的决定",
    "docNo": "",
    "party": "",
-   "url": "https://www.csrc.gov.cn/jiangxi/c104168/c7664652/content.shtml"
+   "url": "https://www.csrc.gov.cn/jiangxi/c104168/c7664760/content.shtml"
   },
   {
    "date": "2026-10-14",
@@ -101,6 +191,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/beijing/c100277/c7664057/content.shtml"
+  },
+  {
+   "date": "2026-10-13",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对宜兴华软投资管理有限公司采取出具警示函行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7664812/content.shtml"
   },
   {
    "date": "2026-10-13",
@@ -181,6 +281,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7664016/content.shtml"
+  },
+  {
+   "date": "2026-10-12",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对上海宝聿资产管理有限公司、刘伟文采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shanghai/c103864/c7664823/content.shtml"
   },
   {
    "date": "2026-10-12",
@@ -784,66 +894,6 @@
   },
   {
    "date": "2026-10-08",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对李根采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104066/c7664317/content.shtml"
-  },
-  {
-   "date": "2026-10-08",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对俞少钦采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104066/c7664315/content.shtml"
-  },
-  {
-   "date": "2026-10-08",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对蔡娜娜采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104066/c7664312/content.shtml"
-  },
-  {
-   "date": "2026-10-08",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对赵世镇采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104066/c7664307/content.shtml"
-  },
-  {
-   "date": "2026-10-08",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对CHEOW SAO FAI采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104066/c7664305/content.shtml"
-  },
-  {
-   "date": "2026-10-08",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对福建环海生物科技股份有限公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104066/c7664298/content.shtml"
-  },
-  {
-   "date": "2026-10-08",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -1141,56 +1191,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/qinghai/c101417/c7661575/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "四川局联合省委金融办开展上市公司财务造假防控专题培训",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/sichuan/c101113/c7661144/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "海南自由贸易港跨境资产管理试点业务试点机构备案公告（截至2026年9月23日）",
-   "docNo": "",
-   "party": "截至2026年9月23日",
-   "url": "https://www.csrc.gov.cn/hainan/c104728/c7661137/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "甘肃证监局组织召开辖区上市公司规范发展监管座谈会",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/gansu/c101379/c7660975/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "辽宁辖区证券期货市场概况（2026年8月）",
-   "docNo": "",
-   "party": "2026年8月",
-   "url": "https://www.csrc.gov.cn/liaoning/c100467/c7660953/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "辖区市场统计月报（2026年8月）",
-   "docNo": "",
-   "party": "2026年8月",
-   "url": "https://www.csrc.gov.cn/shanxi/c100391/c7660951/content.shtml"
   },
   {
    "date": "2026-09-01",
@@ -2546,16 +2546,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "IPO注册",
@@ -2563,6 +2553,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2676,16 +2676,6 @@
   },
   {
    "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -2713,6 +2703,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
