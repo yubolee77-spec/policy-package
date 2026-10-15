@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-14 17:47",
+ "generatedAt": "2026-10-15 08:07",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-14 17:47",
-   "ageDays": 6
+   "fetchedAt": "2026-10-15 08:07",
+   "ageDays": 7
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-14 17:47",
-   "ageDays": 85
+   "fetchedAt": "2026-10-15 08:07",
+   "ageDays": 86
   },
   {
    "key": "localbond",
@@ -53,9 +53,9 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 4,
-   "fetchedAt": "2026-10-14 17:47",
-   "ageDays": 348
+   "total": 11,
+   "fetchedAt": "2026-10-15 08:07",
+   "ageDays": 349
   },
   {
    "key": "media",
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202610/13/content_340162.html",
+   "href": "http://paper.ce.cn/pc/content/202610/15/content_340282.html",
    "latest": {
-    "title": "坚定不移实施健康优先发展战略",
-    "url": "http://paper.ce.cn/pc/content/202610/13/content_340162.html",
-    "date": "2026-10-13",
+    "title": "优质供给让稳外贸底气更足",
+    "url": "http://paper.ce.cn/pc/content/202610/15/content_340282.html",
+    "date": "2026-10-15",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 155,
-   "fetchedAt": "2026-10-14 17:47",
-   "ageDays": 1
+   "total": 156,
+   "fetchedAt": "2026-10-15 08:07",
+   "ageDays": 0
   }
  ],
  "stale": false,

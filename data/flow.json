@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-14 17:47",
+  "generatedAt": "2026-10-15 08:07",
   "asOf": "2026-10",
   "asOfLabel": "2026年10月",
-  "archiveTotal": 209,
-  "archiveAdded": 0,
+  "archiveTotal": 210,
+  "archiveAdded": 1,
   "channels": [
     {
       "key": "special_fund",
@@ -1239,10 +1239,11 @@
           "cur": {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 1,
+            "n": 2,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "其他审核": 1,
               "机构资格": 1
             }
           },
@@ -1260,17 +1261,18 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -96.4,
+          "deltaPct": -92.9,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 1,
+            "n": 2,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "其他审核": 1,
               "机构资格": 1
             }
           },
@@ -1289,20 +1291,20 @@
               "再融资": 9
             }
           },
-          "deltaPct": -98.7,
+          "deltaPct": -97.4,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 95,
+            "n": 96,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "其他审核": 36,
               "机构资格": 20,
               "REITs 注册": 14,
-              "其他审核": 35,
               "首发上市（IPO）": 12,
               "并购重组": 5,
               "再融资": 9
@@ -1321,7 +1323,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 206.5,
+          "deltaPct": 209.7,
           "deltaAmountPct": null
         }
       },
@@ -1384,7 +1386,7 @@
           {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 1,
+            "n": 2,
             "amountYi": 0.0
           },
           {
@@ -1422,7 +1424,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 1,
+            "n": 2,
             "amountYi": 0.0
           }
         ],
@@ -1436,13 +1438,30 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 95,
+            "n": 96,
             "amountYi": 0.0
           }
         ]
       },
       "industries": {
         "month": [
+          {
+            "name": "其他审核",
+            "cur": 1,
+            "prev": 10,
+            "deltaPct": -90.0,
+            "items": [
+              {
+                "title": "前三季度金融数据出炉多元化融资特征鲜明",
+                "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
+                "date": "2026-10-14",
+                "org": "gov.cn",
+                "amountYi": null,
+                "src": "gov.cn 政策库"
+              }
+            ],
+            "totalItems": 1
+          },
           {
             "name": "机构资格",
             "cur": 1,
@@ -1469,14 +1488,6 @@
             "totalItems": 0
           },
           {
-            "name": "其他审核",
-            "cur": 0,
-            "prev": 10,
-            "deltaPct": -100.0,
-            "items": [],
-            "totalItems": 0
-          },
-          {
             "name": "并购重组",
             "cur": 0,
             "prev": 2,
@@ -1494,6 +1505,23 @@
           }
         ],
         "quarter": [
+          {
+            "name": "其他审核",
+            "cur": 1,
+            "prev": 21,
+            "deltaPct": -95.2,
+            "items": [
+              {
+                "title": "前三季度金融数据出炉多元化融资特征鲜明",
+                "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
+                "date": "2026-10-14",
+                "org": "gov.cn",
+                "amountYi": null,
+                "src": "gov.cn 政策库"
+              }
+            ],
+            "totalItems": 1
+          },
           {
             "name": "机构资格",
             "cur": 1,
@@ -1515,14 +1543,6 @@
             "name": "REITs 注册",
             "cur": 0,
             "prev": 14,
-            "deltaPct": -100.0,
-            "items": [],
-            "totalItems": 0
-          },
-          {
-            "name": "其他审核",
-            "cur": 0,
-            "prev": 21,
             "deltaPct": -100.0,
             "items": [],
             "totalItems": 0
@@ -1555,10 +1575,18 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 35,
+            "cur": 36,
             "prev": 23,
-            "deltaPct": 52.2,
+            "deltaPct": 56.5,
             "items": [
+              {
+                "title": "前三季度金融数据出炉多元化融资特征鲜明",
+                "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
+                "date": "2026-10-14",
+                "org": "gov.cn",
+                "amountYi": null,
+                "src": "gov.cn 政策库"
+              },
               {
                 "title": "关于同意安徽泓毅汽车技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101830/c7662553/content.shtml",
@@ -1598,17 +1626,9 @@
                 "org": "央行",
                 "amountYi": null,
                 "src": "L1 政策速览"
-              },
-              {
-                "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-                "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml",
-                "date": "2026-09-11",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 35
+            "totalItems": 36
           },
           {
             "name": "机构资格",
@@ -2013,7 +2033,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2021,7 +2041,7 @@
           "url": ""
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2039,25 +2059,35 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm"
         },
         {
-          "name": "金融与资本",
-          "cur": 1,
-          "prev": 1,
-          "delta": 0,
-          "deltaPct": 0.0,
-          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
-        },
-        {
           "name": "交通基础设施",
           "cur": 1,
           "prev": 1,
           "delta": 0,
           "deltaPct": 0.0,
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
+        },
+        {
+          "name": "金融与资本",
+          "cur": 1,
+          "prev": 1,
+          "delta": 0,
+          "deltaPct": 0.0,
+          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
         }
       ]
     }
   },
   "recent": [
+    {
+      "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
+      "title": "前三季度金融数据出炉多元化融资特征鲜明",
+      "date": "2026-10-14",
+      "org": "gov.cn",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "gov.cn 政策库"
+    },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
       "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
@@ -3245,16 +3275,6 @@
       "org": "gov.cn",
       "channel": "special_fund",
       "industry": "综合与其他",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/yaowen/liebiao/202601/content_7055491.htm",
-      "title": "财政部：个人消费贷款可享受1个百分点的贴息",
-      "date": "2026-01-20",
-      "org": "gov.cn",
-      "channel": "special_fund",
-      "industry": "消费与流通",
       "amountYi": null,
       "src": "gov.cn 政策库"
     }
