@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15 17:23",
+ "generatedAt": "2026-10-15 22:15",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -8,14 +8,14 @@
  },
  "kpi": {
   "penaltyTotal": 237,
-  "penaltyMonth": 92,
+  "penaltyMonth": 94,
   "approvalTotal": 167,
   "approvalMonth": 4,
   "reitsApproved30d": 4,
   "ipoApproved30d": 4,
   "mediaTotal": 120,
   "mediaStrong": 89,
-  "activeTotal": 139,
+  "activeTotal": 140,
   "successTotal": 161,
   "cycleRecentAvg": 303,
   "cyclePrevAvg": 257,
@@ -51,6 +51,26 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/ningbo/c104130/c7664831/content.shtml"
+  },
+  {
+   "date": "2026-10-15",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "2026年8月云南、昆明证券期货市场基本情况",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/yunnan/c104785/c7664883/content.shtml"
+  },
+  {
+   "date": "2026-10-15",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "2026年8月云南资本市场概况",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/yunnan/c104785/c7664873/content.shtml"
   },
   {
    "date": "2026-10-15",
@@ -1171,26 +1191,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/tianjin/c100315/c7661434/content.shtml"
-  },
-  {
-   "date": "2026-09-28",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "市政府新闻办举行“开局起步‘十五五’”系列主题新闻发布会 介绍“十五五”时期天津金融领域重点工作",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/tianjin/c100315/c7661432/content.shtml"
-  },
-  {
-   "date": "2026-09-24",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "坚守投教初心使命  护航群众投资权益——青海辖区青年志愿者服务队投教工作纪实",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/qinghai/c101417/c7661575/content.shtml"
   },
   {
    "date": "2026-09-01",
@@ -2546,16 +2546,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "政策解读",
    "column": "政策解读",
    "tag": "政策法规",
@@ -2563,6 +2553,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "IPO注册",
+   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2676,6 +2676,16 @@
   },
   {
    "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -2703,16 +2713,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -5237,10 +5237,10 @@
   }
  ],
  "review": {
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "total": 4403,
   "pipelineTotal": 859,
-  "activeTotal": 139,
+  "activeTotal": 140,
   "successTotal": 161,
   "failTotal": 204,
   "stages": [
@@ -5256,7 +5256,7 @@
    },
    {
     "name": "上市委会议通过",
-    "count": 4,
+    "count": 5,
     "kind": "active"
    },
    {
@@ -5615,6 +5615,16 @@
   ],
   "recentActive": [
    {
+    "date": "2026-10-15",
+    "acceptDate": "2026-06-10",
+    "company": "上海季丰电子股份有限公司",
+    "market": "创业板",
+    "industry": "专业技术服务业",
+    "state": "上市委会议通过",
+    "region": "上海",
+    "sponsor": "光大证券股份有限公司"
+   },
+   {
     "date": "2026-10-14",
     "acceptDate": "2026-06-30",
     "company": "上海羲禾科技股份有限公司",
@@ -5763,16 +5773,6 @@
     "state": "已问询",
     "region": "境外",
     "sponsor": "中信证券股份有限公司"
-   },
-   {
-    "date": "2026-10-08",
-    "acceptDate": "2026-06-10",
-    "company": "上海季丰电子股份有限公司",
-    "market": "创业板",
-    "industry": "专业技术服务业",
-    "state": "已问询",
-    "region": "上海",
-    "sponsor": "光大证券股份有限公司"
    },
    {
     "date": "2026-09-30",
