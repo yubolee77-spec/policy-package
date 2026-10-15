@@ -1,6 +1,47 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "items": [
+    {
+      "url": "http://paper.ce.cn/pc/content/202610/16/content_340331.html",
+      "title": "理性看待IMF微调中国经济增速预期",
+      "author": "□ 金观平",
+      "date": "2026-10-16",
+      "media": "经济日报",
+      "byline": "金观平",
+      "summary": "国际货币基金组织（IMF）近日发布《世界经济展望报告》，将今年中国经济增长预期从4.6%调整为4.5%。有外媒依此唱衰中国经济前景。事实上，读懂这份报告，既要看预测值的调整方向和幅度，也要结合全球经济形势与中国所处的发展阶段。将预测值的小幅波动渲染为经济基本面趋势性变化，实属歪曲数据、误导舆论。",
+      "keywords": [
+        {
+          "type": "ding",
+          "text": "着力"
+        },
+        {
+          "type": "deg",
+          "text": "持续"
+        },
+        {
+          "type": "deg",
+          "text": "进一步"
+        },
+        {
+          "type": "verb",
+          "text": "推动"
+        }
+      ],
+      "keySentence": "对于处在转型升级过程中的中国经济来说，发展既要保持合理增速，也要着力推动产业升级、提高资源配置效率、增强抵御风险的能力。",
+      "tier": ""
+    },
+    {
+      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261016_3259661.shtml",
+      "title": "金观平：理性看待IMF微调中国经济增速预期",
+      "author": "金观平",
+      "byline": "金观平",
+      "date": "2026-10-16",
+      "media": "经济日报",
+      "summary": "",
+      "keywords": [],
+      "keySentence": "",
+      "tier": ""
+    },
     {
       "url": "http://paper.ce.cn/pc/content/202610/15/content_340282.html",
       "title": "优质供给让稳外贸底气更足",

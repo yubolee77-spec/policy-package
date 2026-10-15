@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15 22:19",
+ "generatedAt": "2026-10-16 07:47",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-15 22:19",
-   "ageDays": 7
+   "fetchedAt": "2026-10-16 07:47",
+   "ageDays": 8
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 14,
-   "fetchedAt": "2026-10-15 22:19",
-   "ageDays": 2
+   "fetchedAt": "2026-10-16 07:47",
+   "ageDays": 3
   },
   {
    "key": "localbond",
@@ -54,8 +54,8 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-10-15 22:19",
-   "ageDays": 349
+   "fetchedAt": "2026-10-16 07:47",
+   "ageDays": 350
   },
   {
    "key": "media",
@@ -63,16 +63,16 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202610/15/content_340282.html",
+   "href": "http://paper.ce.cn/pc/content/202610/16/content_340331.html",
    "latest": {
-    "title": "优质供给让稳外贸底气更足",
-    "url": "http://paper.ce.cn/pc/content/202610/15/content_340282.html",
-    "date": "2026-10-15",
+    "title": "理性看待IMF微调中国经济增速预期",
+    "url": "http://paper.ce.cn/pc/content/202610/16/content_340331.html",
+    "date": "2026-10-16",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 157,
-   "fetchedAt": "2026-10-15 22:19",
+   "total": 159,
+   "fetchedAt": "2026-10-16 07:47",
    "ageDays": 0
   }
  ],
