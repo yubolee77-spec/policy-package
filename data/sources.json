@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16 22:08",
+ "generatedAt": "2026-10-17 07:43",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-16 22:08",
-   "ageDays": 8
+   "fetchedAt": "2026-10-17 07:43",
+   "ageDays": 9
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-16 22:08",
-   "ageDays": 87
+   "fetchedAt": "2026-10-17 07:43",
+   "ageDays": 88
   },
   {
    "key": "localbond",
@@ -53,9 +53,9 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 14,
-   "fetchedAt": "2026-10-16 22:08",
-   "ageDays": 350
+   "total": 21,
+   "fetchedAt": "2026-10-17 07:43",
+   "ageDays": 351
   },
   {
    "key": "media",
@@ -63,16 +63,16 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202610/16/content_340331.html",
+   "href": "http://paper.ce.cn/pc/content/202610/17/content_340380.html",
    "latest": {
-    "title": "理性看待IMF微调中国经济增速预期",
-    "url": "http://paper.ce.cn/pc/content/202610/16/content_340331.html",
-    "date": "2026-10-16",
+    "title": "守住“不为”边界当好有为政府",
+    "url": "http://paper.ce.cn/pc/content/202610/17/content_340380.html",
+    "date": "2026-10-17",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 160,
-   "fetchedAt": "2026-10-16 22:08",
+   "total": 161,
+   "fetchedAt": "2026-10-17 07:43",
    "ageDays": 0
   }
  ],

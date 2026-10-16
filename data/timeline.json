@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-16 22:08",
+ "generatedAt": "2026-10-17 07:43",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 289,
+ "candidateCount": 290,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-17 · 守住“不为”边界当好有为政府（经济日报）",
+     "title": "守住“不为”边界当好有为政府",
+     "url": "http://paper.ce.cn/pc/content/202610/17/content_340380.html",
+     "date": "2026-10-17",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-16 · 国家发展改革委 民政部 国家卫生健康委关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见（发改委最新政策文件）",
      "title": "国家发展改革委 民政部 国家卫生健康委关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见",
      "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7083441.htm",
@@ -315,14 +323,6 @@
      "url": "http://paper.ce.cn/pc/content/202610/15/content_340282.html",
      "date": "2026-10-15",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-15 · 夯实中国式现代化的健康根基（求是网）",
-     "title": "夯实中国式现代化的健康根基",
-     "url": "https://www.qstheory.cn/20261015/0051c0554f624c2f98db08159281281c/c.html",
-     "date": "2026-10-15",
-     "source": "求是网",
      "noise": false
     }
    ],

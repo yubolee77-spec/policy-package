@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-16 22:04",
+ "generatedAt": "2026-10-17 07:40",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
   "eastmoney": 0,
-  "papers": 0
+  "papers": 1
  },
  "kpi": {
   "penaltyTotal": 238,
@@ -14,7 +14,7 @@
   "reitsApproved30d": 4,
   "ipoApproved30d": 5,
   "mediaTotal": 120,
-  "mediaStrong": 89,
+  "mediaStrong": 90,
   "activeTotal": 139,
   "successTotal": 160,
   "cycleRecentAvg": 294,
@@ -624,16 +624,6 @@
   },
   {
    "date": "2026-10-10",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2026〕57号 · 苏州清越光电科技股份有限公司",
-   "docNo": "〔2026〕57号",
-   "party": "苏州清越光电科技股份有限公司",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665091/content.shtml"
-  },
-  {
-   "date": "2026-10-10",
    "channel": "行政监管措施",
    "column": "监管措施",
    "tag": "警示函",
@@ -861,6 +851,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/qinghai/c101417/c7663585/content.shtml"
+  },
+  {
+   "date": "2026-10-10",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕57号 · 苏州清越光电科技股份有限公司",
+   "docNo": "〔2026〕57号",
+   "party": "苏州清越光电科技股份有限公司",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665091/content.shtml"
   },
   {
    "date": "2026-10-09",
@@ -4077,6 +4077,16 @@
  ],
  "media": [
   {
+   "date": "2026-10-17",
+   "media": "人民日报",
+   "title": "我国首个百万吨级低浓度CCUS全链条示范工程开工",
+   "url": "http://paper.people.com.cn/rmrb/pc/content/202610/17/content_30186225.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true,
+   "src": "党媒数字报直扫"
+  },
+  {
    "date": "2026-10-09",
    "media": "央视新闻",
    "title": "“中国天眼”发现首例原生演化脉冲星三体系统",
@@ -5235,15 +5245,6 @@
    "keyword": "首单",
    "topics": [],
    "strong": true
-  },
-  {
-   "date": "2026-09-21",
-   "media": "界面新闻",
-   "title": "56家企业和机构获得我国首批数据产权“身份证”",
-   "url": "http://finance.eastmoney.com/a/202609213879768290.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
