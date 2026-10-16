@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16 17:16",
+ "generatedAt": "2026-10-16 22:04",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -8,20 +8,70 @@
  },
  "kpi": {
   "penaltyTotal": 238,
-  "penaltyMonth": 100,
+  "penaltyMonth": 102,
   "approvalTotal": 167,
-  "approvalMonth": 6,
+  "approvalMonth": 7,
   "reitsApproved30d": 4,
   "ipoApproved30d": 5,
   "mediaTotal": 120,
   "mediaStrong": 89,
-  "activeTotal": 141,
-  "successTotal": 159,
-  "cycleRecentAvg": 303,
+  "activeTotal": 139,
+  "successTotal": 160,
+  "cycleRecentAvg": 294,
   "cyclePrevAvg": 257,
-  "cycleVerdict": "放缓 18%"
+  "cycleVerdict": "放缓 14%"
  },
  "penalty": [
+  {
+   "date": "2026-10-16",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对佳缘科技股份有限公司采取责令改正措施并对王进等相关责任人采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/sichuan/c104902/c7665177/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对北京和海益制冷科技股份有限公司、曹宏、侯子午采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c105547/c7665246/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对北京聚智未来科技股份有限公司、方雪采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c105547/c7665242/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对北京赛融信科技股份有限公司、苏畅坤采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c105547/c7665238/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对中投汇恒（北京）投资基金管理有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c105547/c7665234/content.shtml"
+  },
   {
    "date": "2026-10-16",
    "channel": "行政监管措施",
@@ -181,6 +231,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7664974/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "投资者保护工作动态2026年第3期（总第3期）",
+   "docNo": "",
+   "party": "总第3期",
+   "url": "https://www.csrc.gov.cn/ningxia/c101455/c7665204/content.shtml"
   },
   {
    "date": "2026-10-16",
@@ -564,6 +624,16 @@
   },
   {
    "date": "2026-10-10",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕57号 · 苏州清越光电科技股份有限公司",
+   "docNo": "〔2026〕57号",
+   "party": "苏州清越光电科技股份有限公司",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665091/content.shtml"
+  },
+  {
+   "date": "2026-10-10",
    "channel": "行政监管措施",
    "column": "监管措施",
    "tag": "警示函",
@@ -797,6 +867,26 @@
    "channel": "行政监管措施",
    "column": "监管措施",
    "tag": "警示函",
+   "title": "关于对北京东宏世家资产管理有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c105547/c7665221/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对刘江红采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c105547/c7665193/content.shtml"
+  },
+  {
+   "date": "2026-10-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
    "title": "关于对张玉波采取出具警示函措施的决定",
    "docNo": "〔2026〕31号",
    "party": "",
@@ -861,76 +951,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7663293/content.shtml"
-  },
-  {
-   "date": "2026-10-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对高芹芹采取出具警示函的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shandong/c104218/c7663291/content.shtml"
-  },
-  {
-   "date": "2026-10-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对李琼采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7663289/content.shtml"
-  },
-  {
-   "date": "2026-10-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对卢胜军采取出具警示函的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shandong/c104218/c7663284/content.shtml"
-  },
-  {
-   "date": "2026-10-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对杭州图灵资产管理有限公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7663280/content.shtml"
-  },
-  {
-   "date": "2026-10-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对庄立婷采取出具警示函的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shandong/c104218/c7663278/content.shtml"
-  },
-  {
-   "date": "2026-10-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对权爱东采取出具警示函的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shandong/c104218/c7663273/content.shtml"
-  },
-  {
-   "date": "2026-10-09",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "监管谈话",
-   "title": "关于对乔光豪采取监管谈话的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shandong/c104218/c7663269/content.shtml"
   },
   {
    "date": "2026-10-09",
@@ -1193,14 +1213,84 @@
    "url": "https://www.csrc.gov.cn/hainan/c101037/c7661846/content.shtml"
   },
   {
-   "date": "2026-09-28",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "青海证券业协会联合太平洋证券青海分公司走进西宁市中小学社会实践教育中心开展财商启蒙教育活动",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/qinghai/c101417/c7661577/content.shtml"
+   "date": "2026-09-24",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕55号 · 和信会计师事务所",
+   "docNo": "〔2026〕55号",
+   "party": "和信会计师事务所",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665087/content.shtml"
+  },
+  {
+   "date": "2026-09-24",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕53号 · 北京中同华资产评估有限公司",
+   "docNo": "〔2026〕53号",
+   "party": "北京中同华资产评估有限公司",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665085/content.shtml"
+  },
+  {
+   "date": "2026-09-21",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕51号 · 罗振坤",
+   "docNo": "〔2026〕51号",
+   "party": "罗振坤",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665072/content.shtml"
+  },
+  {
+   "date": "2026-09-21",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕50号 · 周依蓉",
+   "docNo": "〔2026〕50号",
+   "party": "周依蓉",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665067/content.shtml"
+  },
+  {
+   "date": "2026-09-21",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕49号 · 魏承荣",
+   "docNo": "〔2026〕49号",
+   "party": "魏承荣",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665064/content.shtml"
+  },
+  {
+   "date": "2026-09-21",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕48号 · 陈小程",
+   "docNo": "〔2026〕48号",
+   "party": "陈小程",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665062/content.shtml"
+  },
+  {
+   "date": "2026-09-21",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕47号 · 陈秋航",
+   "docNo": "〔2026〕47号",
+   "party": "陈秋航",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665059/content.shtml"
+  },
+  {
+   "date": "2026-09-14",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕46号 · 周吉锋",
+   "docNo": "〔2026〕46号",
+   "party": "周吉锋",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665055/content.shtml"
   },
   {
    "date": "2026-09-01",
@@ -1711,96 +1801,6 @@
    "docNo": "〔2025〕144号",
    "party": "湖北九有投资股份有限公司",
    "url": "https://www.csrc.gov.cn/csrc/c101928/c7601621/content.shtml"
-  },
-  {
-   "date": "2025-11-19",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2025〕134号 · 上海市通力律师事务所",
-   "docNo": "〔2025〕134号",
-   "party": "上海市通力律师事务所",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7599889/content.shtml"
-  },
-  {
-   "date": "2025-11-12",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2025〕133号 · 陈芹燕",
-   "docNo": "〔2025〕133号",
-   "party": "陈芹燕",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7599893/content.shtml"
-  },
-  {
-   "date": "2025-11-12",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2025〕132号 · 黄克",
-   "docNo": "〔2025〕132号",
-   "party": "黄克",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7599902/content.shtml"
-  },
-  {
-   "date": "2025-11-05",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2025〕131号 · 北京中方信富投资管理咨询有限公司",
-   "docNo": "〔2025〕131号",
-   "party": "北京中方信富投资管理咨询有限公司",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7595378/content.shtml"
-  },
-  {
-   "date": "2025-10-27",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2025〕130号 · 利安达会计师事务所",
-   "docNo": "〔2025〕130号",
-   "party": "利安达会计师事务所",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7595376/content.shtml"
-  },
-  {
-   "date": "2025-10-27",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2025〕129号 · 利安达会计师事务所",
-   "docNo": "〔2025〕129号",
-   "party": "利安达会计师事务所",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7595373/content.shtml"
-  },
-  {
-   "date": "2025-10-24",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2025〕128号",
-   "docNo": "〔2025〕128号",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7593821/content.shtml"
-  },
-  {
-   "date": "2025-10-17",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2025〕127号 · 于懿",
-   "docNo": "〔2025〕127号",
-   "party": "于懿",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7595364/content.shtml"
-  },
-  {
-   "date": "2025-10-17",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2025〕126号 · 南京越博动力系统股份有限公司",
-   "docNo": "〔2025〕126号",
-   "party": "南京越博动力系统股份有限公司",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7595362/content.shtml"
   },
   {
    "date": "2024-04-25",
@@ -2418,6 +2418,16 @@
    "date": "2026-10-16",
    "channel": "许可审核进度",
    "column": "许可审核进度",
+   "tag": "审核进度公示",
+   "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c106250/c1029662/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
+   "channel": "许可审核进度",
+   "column": "许可审核进度",
    "tag": "并购重组",
    "title": "【行政许可事项】2026年创业板并购重组申请注册企业基本情况公示",
    "docNo": "",
@@ -2445,14 +2455,14 @@
    "url": "https://www.csrc.gov.cn/csrc/c101830/c7665162/content.shtml"
   },
   {
-   "date": "2026-10-09",
-   "channel": "许可审核进度",
-   "column": "许可审核进度",
-   "tag": "审核进度公示",
-   "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
+   "date": "2026-10-10",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "核准批复",
+   "title": "关于核准广发基金管理有限公司在香港特别行政区设立广发基金国际控股有限公司的批复",
    "docNo": "",
    "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c106250/c1029662/content.shtml"
+   "url": "https://www.csrc.gov.cn/csrc/c101880/c7665188/content.shtml"
   },
   {
    "date": "2026-10-08",
@@ -2473,6 +2483,56 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c101895/c7662083/content.shtml"
+  },
+  {
+   "date": "2026-09-29",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准南强资产管理有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665310/content.shtml"
+  },
+  {
+   "date": "2026-09-22",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准博拉夏克投资有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665308/content.shtml"
+  },
+  {
+   "date": "2026-09-21",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准千禧资源有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665306/content.shtml"
+  },
+  {
+   "date": "2026-09-20",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准亨通光电国际有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665295/content.shtml"
+  },
+  {
+   "date": "2026-09-20",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准澳镐资产管理有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665293/content.shtml"
   },
   {
    "date": "2026-09-20",
@@ -2555,6 +2615,26 @@
    "url": "https://www.csrc.gov.cn/csrc/c105906/c7659607/content.shtml"
   },
   {
+   "date": "2026-09-17",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准建发钢铁国际贸易有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665291/content.shtml"
+  },
+  {
+   "date": "2026-09-17",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准信为资管(香港)有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665289/content.shtml"
+  },
+  {
    "date": "2026-09-16",
    "channel": "结果公示",
    "column": "结果公示",
@@ -2563,6 +2643,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c101888/c7659624/content.shtml"
+  },
+  {
+   "date": "2026-09-14",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准迪普芬研究有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665287/content.shtml"
   },
   {
    "date": "2026-09-14",
@@ -2598,6 +2688,16 @@
    "date": "2026-09-10",
    "channel": "结果公示",
    "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准中国工商银行（亚洲）有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665276/content.shtml"
+  },
+  {
+   "date": "2026-09-10",
+   "channel": "结果公示",
+   "column": "结果公示",
    "tag": "IPO注册",
    "title": "关于同意济南森峰激光科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
    "docNo": "",
@@ -2613,6 +2713,26 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c101830/c7661119/content.shtml"
+  },
+  {
+   "date": "2026-09-09",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准纳维资本管理公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665274/content.shtml"
+  },
+  {
+   "date": "2026-09-07",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准东方资本管理有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665263/content.shtml"
   },
   {
    "date": "2026-09-04",
@@ -2683,6 +2803,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c101857/c7656827/content.shtml"
+  },
+  {
+   "date": "2026-09-02",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准卫星国际（新加坡）有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665260/content.shtml"
   },
   {
    "date": "2026-09-01",
@@ -2923,136 +3053,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c106385/c7650718/content.shtml"
-  },
-  {
-   "date": "2026-08-07",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意湖州安达汽车配件股份有限公司向不特定合格投资者公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101830/c7653661/content.shtml"
-  },
-  {
-   "date": "2026-08-06",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意江苏宇特光电科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101830/c7655151/content.shtml"
-  },
-  {
-   "date": "2026-08-05",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意江苏凯达重工股份有限公司向不特定合格投资者公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101830/c7653733/content.shtml"
-  },
-  {
-   "date": "2026-08-04",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "核准批复",
-   "title": "关于核准长安基金管理有限公司变更主要股东、实际控制人的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101881/c7650772/content.shtml"
-  },
-  {
-   "date": "2026-07-31",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "核准批复",
-   "title": "关于同意通用技术集团昆明机床股份有限公司向特定对象发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101830/c7652540/content.shtml"
-  },
-  {
-   "date": "2026-07-31",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "境外投资者资格",
-   "title": "关于核准睿目投资管理有限公司合格境外投资者资格的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101885/c7651835/content.shtml"
-  },
-  {
-   "date": "2026-07-31",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "核准批复",
-   "title": "关于同意烟台银行股份有限公司向特定对象发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101830/c7650764/content.shtml"
-  },
-  {
-   "date": "2026-07-31",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意常州百瑞吉生物医药股份有限公司向不特定合格投资者公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101830/c7652265/content.shtml"
-  },
-  {
-   "date": "2026-07-31",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意郑州新世纪数码科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101830/c7652244/content.shtml"
-  },
-  {
-   "date": "2026-07-31",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意广州通则康威科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c105917/c7649089/content.shtml"
-  },
-  {
-   "date": "2026-07-30",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "核准批复",
-   "title": "关于核准金信基金管理有限公司变更持股5%以上股东的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101881/c7650780/content.shtml"
-  },
-  {
-   "date": "2026-07-30",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意沈鼓集团股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c106385/c7648909/content.shtml"
-  },
-  {
-   "date": "2026-07-27",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "境外投资者资格",
-   "title": "关于核准迪亚琦华有限公司合格境外投资者资格的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101885/c7651811/content.shtml"
   },
   {
    "date": "2026-05-22",
@@ -5250,9 +5250,9 @@
   "asOf": "2026-10-16",
   "total": 4403,
   "pipelineTotal": 856,
-  "activeTotal": 141,
-  "successTotal": 159,
-  "failTotal": 203,
+  "activeTotal": 139,
+  "successTotal": 160,
+  "failTotal": 204,
   "stages": [
    {
     "name": "已受理",
@@ -5271,17 +5271,17 @@
    },
    {
     "name": "提交注册",
-    "count": 25,
+    "count": 23,
     "kind": "active"
    },
    {
     "name": "注册生效",
-    "count": 159,
+    "count": 160,
     "kind": "success"
    },
    {
     "name": "已终止 / 撤回",
-    "count": 203,
+    "count": 204,
     "kind": "fail"
    }
   ],
@@ -5350,12 +5350,12 @@
    }
   ],
   "cycle": {
-   "recentAvg": 303,
-   "recentN": 13,
+   "recentAvg": 294,
+   "recentN": 14,
    "prevAvg": 257,
    "prevN": 23,
-   "deltaPct": 18,
-   "verdict": "放缓 18%",
+   "deltaPct": 14,
+   "verdict": "放缓 14%",
    "byMonth": [
     {
      "month": "25-11",
@@ -5411,9 +5411,20 @@
      "month": "26-09",
      "avg": 378,
      "n": 4
+    },
+    {
+     "month": "26-10",
+     "avg": 175,
+     "n": 1
     }
    ],
    "fastest": [
+    {
+     "company": "苏州朗高电机科技股份有限公司",
+     "days": 175,
+     "date": "2026-10-16",
+     "market": "创业板"
+    },
     {
      "company": "江苏高凯精密流体技术股份有限公司",
      "days": 203,
@@ -5437,16 +5448,17 @@
      "days": 226,
      "date": "2026-08-14",
      "market": "深主板"
-    },
-    {
-     "company": "苏州猎奇智能设备股份有限公司",
-     "days": 238,
-     "date": "2026-08-21",
-     "market": "创业板"
     }
    ]
   },
   "recentApproved": [
+   {
+    "date": "2026-10-16",
+    "company": "苏州朗高电机科技股份有限公司",
+    "market": "创业板",
+    "industry": "电气机械和器材制造业",
+    "days": 175
+   },
    {
     "date": "2026-09-22",
     "company": "傲拓科技股份有限公司",
@@ -5614,13 +5626,6 @@
     "market": "科创板",
     "industry": "计算机、通信和其他电子设备制造业",
     "days": 196
-   },
-   {
-    "date": "2026-06-15",
-    "company": "国仪量子技术(合肥)股份有限公司",
-    "market": "科创板",
-    "industry": "仪器仪表制造业",
-    "days": 187
    }
   ],
   "recentActive": [

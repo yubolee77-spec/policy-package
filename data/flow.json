@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-16 17:20",
+  "generatedAt": "2026-10-16 22:08",
   "asOf": "2026-10",
   "asOfLabel": "2026年10月",
-  "archiveTotal": 212,
-  "archiveAdded": 2,
+  "archiveTotal": 225,
+  "archiveAdded": 13,
   "channels": [
     {
       "key": "special_fund",
@@ -1239,74 +1239,74 @@
           "cur": {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 4,
+            "n": 5,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "首发上市（IPO）": 1,
               "其他审核": 2,
-              "机构资格": 1
+              "机构资格": 2
             }
           },
           "prev": {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 28,
+            "n": 40,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 9,
-              "机构资格": 4,
+              "机构资格": 16,
               "其他审核": 10,
               "首发上市（IPO）": 3,
               "并购重组": 2
             }
           },
-          "deltaPct": -85.7,
+          "deltaPct": -87.5,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 4,
+            "n": 5,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "首发上市（IPO）": 1,
               "其他审核": 2,
-              "机构资格": 1
+              "机构资格": 2
             }
           },
           "prev": {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 77,
+            "n": 89,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 14,
-              "机构资格": 19,
+              "机构资格": 31,
               "其他审核": 21,
               "首发上市（IPO）": 12,
               "并购重组": 2,
               "再融资": 9
             }
           },
-          "deltaPct": -94.8,
+          "deltaPct": -94.4,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 98,
+            "n": 111,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "首发上市（IPO）": 13,
               "其他审核": 37,
-              "机构资格": 20,
+              "机构资格": 33,
               "REITs 注册": 14,
               "并购重组": 5,
               "再融资": 9
@@ -1325,7 +1325,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 216.1,
+          "deltaPct": 258.1,
           "deltaAmountPct": null
         }
       },
@@ -1382,13 +1382,13 @@
           {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 28,
+            "n": 40,
             "amountYi": 0.0
           },
           {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 4,
+            "n": 5,
             "amountYi": 0.0
           },
           {
@@ -1420,13 +1420,13 @@
           {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 77,
+            "n": 89,
             "amountYi": 0.0
           },
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 4,
+            "n": 5,
             "amountYi": 0.0
           }
         ],
@@ -1440,7 +1440,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 98,
+            "n": 111,
             "amountYi": 0.0
           }
         ]
@@ -1474,10 +1474,18 @@
           },
           {
             "name": "机构资格",
-            "cur": 1,
-            "prev": 4,
-            "deltaPct": -75.0,
+            "cur": 2,
+            "prev": 16,
+            "deltaPct": -87.5,
             "items": [
+              {
+                "title": "关于核准广发基金管理有限公司在香港特别行政区设立广发基金国际控股有限公司的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101880/c7665188/content.shtml",
+                "date": "2026-10-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
@@ -1487,7 +1495,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 1
+            "totalItems": 2
           },
           {
             "name": "首发上市（IPO）",
@@ -1551,10 +1559,18 @@
           },
           {
             "name": "机构资格",
-            "cur": 1,
-            "prev": 19,
-            "deltaPct": -94.7,
+            "cur": 2,
+            "prev": 31,
+            "deltaPct": -93.5,
             "items": [
+              {
+                "title": "关于核准广发基金管理有限公司在香港特别行政区设立广发基金国际控股有限公司的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101880/c7665188/content.shtml",
+                "date": "2026-10-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
@@ -1564,7 +1580,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 1
+            "totalItems": 2
           },
           {
             "name": "首发上市（IPO）",
@@ -1668,14 +1684,46 @@
           },
           {
             "name": "机构资格",
-            "cur": 20,
+            "cur": 33,
             "prev": 1,
-            "deltaPct": 1900.0,
+            "deltaPct": 3200.0,
             "items": [
+              {
+                "title": "关于核准广发基金管理有限公司在香港特别行政区设立广发基金国际控股有限公司的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101880/c7665188/content.shtml",
+                "date": "2026-10-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
                 "date": "2026-10-08",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于核准南强资产管理有限公司合格境外投资者资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101885/c7665310/content.shtml",
+                "date": "2026-09-29",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于核准博拉夏克投资有限公司合格境外投资者资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101885/c7665308/content.shtml",
+                "date": "2026-09-22",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于核准千禧资源有限公司合格境外投资者资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101885/c7665306/content.shtml",
+                "date": "2026-09-21",
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
@@ -1687,41 +1735,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准贝莱德基金管理有限公司合格境内机构投资者资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101888/c7659624/content.shtml",
-                "date": "2026-09-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准开源证券股份有限公司上市证券做市交易业务资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101857/c7656827/content.shtml",
-                "date": "2026-09-03",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准申银万国期货有限公司吸收合并宏源期货有限公司的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101909/c7656648/content.shtml",
-                "date": "2026-09-01",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准东吴证券股份有限公司证券投资基金托管资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101884/c7659731/content.shtml",
-                "date": "2026-08-28",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 20
+            "totalItems": 33
           },
           {
             "name": "REITs 注册",
@@ -1952,7 +1968,7 @@
       "up": [],
       "down": [
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -1960,7 +1976,7 @@
           "url": ""
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -1982,7 +1998,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -1990,7 +2006,7 @@
           "url": ""
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2069,7 +2085,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2077,7 +2093,7 @@
           "url": ""
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2095,20 +2111,20 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm"
         },
         {
-          "name": "交通基础设施",
-          "cur": 1,
-          "prev": 1,
-          "delta": 0,
-          "deltaPct": 0.0,
-          "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
-        },
-        {
           "name": "金融与资本",
           "cur": 1,
           "prev": 1,
           "delta": 0,
           "deltaPct": 0.0,
           "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
+        },
+        {
+          "name": "交通基础设施",
+          "cur": 1,
+          "prev": 1,
+          "delta": 0,
+          "deltaPct": 0.0,
+          "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
         }
       ]
     }
@@ -2145,6 +2161,16 @@
       "src": "证监会审核台账"
     },
     {
+      "url": "https://www.csrc.gov.cn/csrc/c101880/c7665188/content.shtml",
+      "title": "关于核准广发基金管理有限公司在香港特别行政区设立广发基金国际控股有限公司的批复",
+      "date": "2026-10-10",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
       "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
       "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
       "date": "2026-10-08",
@@ -2173,6 +2199,36 @@
       "industry": "金融与资本",
       "amountYi": null,
       "src": "财政部官网栏目"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665310/content.shtml",
+      "title": "关于核准南强资产管理有限公司合格境外投资者资格的批复",
+      "date": "2026-09-29",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665308/content.shtml",
+      "title": "关于核准博拉夏克投资有限公司合格境外投资者资格的批复",
+      "date": "2026-09-22",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665306/content.shtml",
+      "title": "关于核准千禧资源有限公司合格境外投资者资格的批复",
+      "date": "2026-09-21",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
     },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101895/c7659932/content.shtml",
@@ -2221,6 +2277,26 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665295/content.shtml",
+      "title": "关于核准亨通光电国际有限公司合格境外投资者资格的批复",
+      "date": "2026-09-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665293/content.shtml",
+      "title": "关于核准澳镐资产管理有限公司合格境外投资者资格的批复",
+      "date": "2026-09-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -2285,6 +2361,26 @@
       "src": "证监会审核台账"
     },
     {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665291/content.shtml",
+      "title": "关于核准建发钢铁国际贸易有限公司合格境外投资者资格的批复",
+      "date": "2026-09-17",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665289/content.shtml",
+      "title": "关于核准信为资管(香港)有限公司合格境外投资者资格的批复",
+      "date": "2026-09-17",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
       "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091611280492893/index.html",
       "title": "中国人民银行副行长宣昌能会见伦敦证券交易所集团富时罗素首席执行官菲奥娜·巴塞特",
       "date": "2026-09-16",
@@ -2311,6 +2407,16 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "REITs 注册",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665287/content.shtml",
+      "title": "关于核准迪普芬研究有限公司合格境外投资者资格的批复",
+      "date": "2026-09-14",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -2351,6 +2457,36 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665276/content.shtml",
+      "title": "关于核准中国工商银行（亚洲）有限公司合格境外投资者资格的批复",
+      "date": "2026-09-10",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665274/content.shtml",
+      "title": "关于核准纳维资本管理公司合格境外投资者资格的批复",
+      "date": "2026-09-09",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665263/content.shtml",
+      "title": "关于核准东方资本管理有限公司合格境外投资者资格的批复",
+      "date": "2026-09-07",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -2418,6 +2554,16 @@
       "url": "https://www.csrc.gov.cn/csrc/c101857/c7656827/content.shtml",
       "title": "关于核准开源证券股份有限公司上市证券做市交易业务资格的批复",
       "date": "2026-09-03",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665260/content.shtml",
+      "title": "关于核准卫星国际（新加坡）有限公司合格境外投资者资格的批复",
+      "date": "2026-09-02",
       "org": "证监会",
       "channel": "capital",
       "industry": "机构资格",
@@ -3181,136 +3327,6 @@
       "org": "gov.cn",
       "channel": "pilot",
       "industry": "农业农村",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7619936/content.shtml",
-      "title": "中国证监会修订发布《公开募集证券投资基金信息披露内容与格式准则第2号—定期报告的内容与格式》",
-      "date": "2026-03-13",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "其他审核",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/202603/content_7061359.htm",
-      "title": "商务部：推动增值电信、生物技术、外商独资医院等领域开放试点",
-      "date": "2026-03-07",
-      "org": "gov.cn",
-      "channel": "pilot",
-      "industry": "教科文卫",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7618628/content.shtml",
-      "title": "证监会发布《关于短线交易监管的若干规定》",
-      "date": "2026-03-06",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "其他审核",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://nys.mof.gov.cn/czpjZhengCeFaBu_2_2/202603/t20260302_3984471.htm",
-      "title": "《农村综合改革转移支付资金管理办法》有关事项的补充通知印发",
-      "date": "2026-03-02",
-      "org": "财政部",
-      "channel": "special_fund",
-      "industry": "农业农村",
-      "amountYi": null,
-      "src": "财政部官网栏目"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202602/content_7059835.htm",
-      "title": "中国人民银行关于银行业金融机构人民币跨境同业融资业务有关事宜的通知",
-      "date": "2026-02-27",
-      "org": "央行",
-      "channel": "capital",
-      "industry": "其他审核",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7616846/content.shtml",
-      "title": "中国证监会发布《私募投资基金信息披露监督管理办法》",
-      "date": "2026-02-27",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "其他审核",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/202602/content_7057814.htm",
-      "title": "50个城市开展有奖发票试点",
-      "date": "2026-02-12",
-      "org": "gov.cn",
-      "channel": "pilot",
-      "industry": "综合与其他",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/202602/content_7057114.htm",
-      "title": "今年29个省（区、市）将全面开展二轮土地延包试点",
-      "date": "2026-02-05",
-      "org": "gov.cn",
-      "channel": "pilot",
-      "industry": "综合与其他",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7056020.htm",
-      "title": "国家发展改革委关于印发《中央预算内投资计划管理办法》的通知",
-      "date": "2026-01-24",
-      "org": "发改委",
-      "channel": "special_fund",
-      "industry": "综合与其他",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7610827/content.shtml",
-      "title": "中国证监会发布《公开募集证券投资基金业绩比较基准指引》",
-      "date": "2026-01-23",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "其他审核",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm",
-      "title": "关于实施中小微企业贷款贴息政策的通知",
-      "date": "2026-01-21",
-      "org": "发改委",
-      "channel": "special_fund",
-      "industry": "制造业升级",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055562.htm",
-      "title": "关于优化实施服务业经营主体贷款贴息政策的通知",
-      "date": "2026-01-21",
-      "org": "财政部",
-      "channel": "special_fund",
-      "industry": "数据与信息",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055549.htm",
-      "title": "关于优化实施设备更新贷款财政贴息政策的通知",
-      "date": "2026-01-21",
-      "org": "发改委",
-      "channel": "special_fund",
-      "industry": "制造业升级",
       "amountYi": null,
       "src": "gov.cn 政策库"
     }

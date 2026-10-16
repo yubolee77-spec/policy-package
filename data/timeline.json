@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16 17:20",
+ "generatedAt": "2026-10-16 22:08",
  "month": 10,
  "hotPeriod": "9-10月",
  "candidateCount": 289,
@@ -194,14 +194,6 @@
      "noise": false
     },
     {
-     "label": "2026-06-25 · 关于印发《新型能源体系建设“十五五”规划》的通知（发改委最新政策文件）",
-     "title": "关于印发《新型能源体系建设“十五五”规划》的通知",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7073322.htm",
-     "date": "2026-06-25",
-     "source": "发改委最新政策文件",
-     "noise": false
-    },
-    {
      "label": "2026-06-17 · 国务院关于浙江、福建、山东等3省国家级自然保护区和国家级风景名胜区整合优化方案的批复（国务院最新政策文件）",
      "title": "国务院关于浙江、福建、山东等3省国家级自然保护区和国家级风景名胜区整合优化方案的批复",
      "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7072484.htm",
@@ -215,6 +207,14 @@
      "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7072482.htm",
      "date": "2026-06-17",
      "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-06-16 · 深入学习宣传贯彻习近平党建思想不断开创管党治党、兴党强党新局面（求是网）",
+     "title": "深入学习宣传贯彻习近平党建思想不断开创管党治党、兴党强党新局面",
+     "url": "https://www.qstheory.cn/20260616/f9957621388a4f68ae60dd32abb69c65/c.html",
+     "date": "2026-06-16",
+     "source": "求是网",
      "noise": false
     }
    ],
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-16 · 国家发展改革委 民政部 国家卫生健康委关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见（发改委最新政策文件）",
+     "title": "国家发展改革委 民政部 国家卫生健康委关于进一步完善价格形成机制 推动普惠养老服务提质扩面的指导意见",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7083441.htm",
+     "date": "2026-10-16",
+     "source": "发改委最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-10-16 · 2025年全国科技经费投入统计公报（国家统计局最新数据发布）",
      "title": "2025年全国科技经费投入统计公报",
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261016_1965512.html",
@@ -313,14 +321,6 @@
      "label": "2026-10-15 · 夯实中国式现代化的健康根基（求是网）",
      "title": "夯实中国式现代化的健康根基",
      "url": "https://www.qstheory.cn/20261015/0051c0554f624c2f98db08159281281c/c.html",
-     "date": "2026-10-15",
-     "source": "求是网",
-     "noise": false
-    },
-    {
-     "label": "2026-10-15 · 以政策协同破解供强需弱矛盾（求是网）",
-     "title": "以政策协同破解供强需弱矛盾",
-     "url": "https://www.qstheory.cn/20261015/9d952f955fd34b64bcc90ed192e0f523/c.html",
      "date": "2026-10-15",
      "source": "求是网",
      "noise": false

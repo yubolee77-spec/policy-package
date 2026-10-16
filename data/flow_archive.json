@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16 17:20",
+  "updated": "2026-10-16 22:09",
   "items": [
     {
       "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml",
@@ -32,6 +32,16 @@
       "src": "证监会审核台账"
     },
     {
+      "url": "https://www.csrc.gov.cn/csrc/c101880/c7665188/content.shtml",
+      "title": "关于核准广发基金管理有限公司在香港特别行政区设立广发基金国际控股有限公司的批复",
+      "date": "2026-10-10",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
       "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
       "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
       "date": "2026-10-08",
@@ -60,6 +70,36 @@
       "industry": "金融与资本",
       "amountYi": null,
       "src": "财政部官网栏目"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665310/content.shtml",
+      "title": "关于核准南强资产管理有限公司合格境外投资者资格的批复",
+      "date": "2026-09-29",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665308/content.shtml",
+      "title": "关于核准博拉夏克投资有限公司合格境外投资者资格的批复",
+      "date": "2026-09-22",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665306/content.shtml",
+      "title": "关于核准千禧资源有限公司合格境外投资者资格的批复",
+      "date": "2026-09-21",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
     },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101895/c7659932/content.shtml",
@@ -108,6 +148,26 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665295/content.shtml",
+      "title": "关于核准亨通光电国际有限公司合格境外投资者资格的批复",
+      "date": "2026-09-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665293/content.shtml",
+      "title": "关于核准澳镐资产管理有限公司合格境外投资者资格的批复",
+      "date": "2026-09-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -172,6 +232,26 @@
       "src": "证监会审核台账"
     },
     {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665291/content.shtml",
+      "title": "关于核准建发钢铁国际贸易有限公司合格境外投资者资格的批复",
+      "date": "2026-09-17",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665289/content.shtml",
+      "title": "关于核准信为资管(香港)有限公司合格境外投资者资格的批复",
+      "date": "2026-09-17",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
       "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091611280492893/index.html",
       "title": "中国人民银行副行长宣昌能会见伦敦证券交易所集团富时罗素首席执行官菲奥娜·巴塞特",
       "date": "2026-09-16",
@@ -198,6 +278,16 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "REITs 注册",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665287/content.shtml",
+      "title": "关于核准迪普芬研究有限公司合格境外投资者资格的批复",
+      "date": "2026-09-14",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -238,6 +328,36 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665276/content.shtml",
+      "title": "关于核准中国工商银行（亚洲）有限公司合格境外投资者资格的批复",
+      "date": "2026-09-10",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665274/content.shtml",
+      "title": "关于核准纳维资本管理公司合格境外投资者资格的批复",
+      "date": "2026-09-09",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665263/content.shtml",
+      "title": "关于核准东方资本管理有限公司合格境外投资者资格的批复",
+      "date": "2026-09-07",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -305,6 +425,16 @@
       "url": "https://www.csrc.gov.cn/csrc/c101857/c7656827/content.shtml",
       "title": "关于核准开源证券股份有限公司上市证券做市交易业务资格的批复",
       "date": "2026-09-03",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7665260/content.shtml",
+      "title": "关于核准卫星国际（新加坡）有限公司合格境外投资者资格的批复",
+      "date": "2026-09-02",
       "org": "证监会",
       "channel": "capital",
       "industry": "机构资格",
