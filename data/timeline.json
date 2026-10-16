@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-16 07:47",
+ "generatedAt": "2026-10-16 17:20",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 288,
+ "candidateCount": 289,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-16 · 2025年全国科技经费投入统计公报（国家统计局最新数据发布）",
+     "title": "2025年全国科技经费投入统计公报",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261016_1965512.html",
+     "date": "2026-10-16",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-10-16 · 理性看待IMF微调中国经济增速预期（经济日报）",
      "title": "理性看待IMF微调中国经济增速预期",
      "url": "http://paper.ce.cn/pc/content/202610/16/content_340331.html",
@@ -310,19 +318,11 @@
      "noise": false
     },
     {
-     "label": "2026-10-14 · 2026年9月份居民消费价格同比上涨0.9%（国家统计局最新数据发布）",
-     "title": "2026年9月份居民消费价格同比上涨0.9%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261014_1965477.html",
-     "date": "2026-10-14",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-10-14 · 2026年9月份工业生产者出厂价格同比上涨5.0% 环比上涨1.2%（国家统计局最新数据发布）",
-     "title": "2026年9月份工业生产者出厂价格同比上涨5.0% 环比上涨1.2%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261014_1965476.html",
-     "date": "2026-10-14",
-     "source": "国家统计局最新数据发布",
+     "label": "2026-10-15 · 以政策协同破解供强需弱矛盾（求是网）",
+     "title": "以政策协同破解供强需弱矛盾",
+     "url": "https://www.qstheory.cn/20261015/9d952f955fd34b64bcc90ed192e0f523/c.html",
+     "date": "2026-10-15",
+     "source": "求是网",
      "noise": false
     }
    ],

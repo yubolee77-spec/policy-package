@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16 07:47",
+ "generatedAt": "2026-10-16 17:20",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-16 07:47",
+   "fetchedAt": "2026-10-16 17:20",
    "ageDays": 8
   },
   {
@@ -26,17 +26,17 @@
    "indexLabel": "财政部预算司·国债发行",
    "include": "国债",
    "exclude": "会见|会谈|座谈|巡视|招聘|任免|公示|考试|培训",
-   "href": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202610/t20261013_4002703.htm",
+   "href": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202610/t20261016_4002911.htm",
    "latest": {
-    "title": "关于2026年记账式贴现（六十五期）国债发行工作有关事宜的通知",
-    "url": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202610/t20261013_4002703.htm",
-    "date": "2026-10-13",
+    "title": "财政部将于10月在香港发行155亿元人民币国债",
+    "url": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202610/t20261016_4002911.htm",
+    "date": "2026-10-16",
     "source": "财政部"
    },
    "stale": false,
-   "total": 14,
-   "fetchedAt": "2026-10-16 07:47",
-   "ageDays": 3
+   "total": 15,
+   "fetchedAt": "2026-10-16 17:20",
+   "ageDays": 0
   },
   {
    "key": "localbond",
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 21,
-   "fetchedAt": "2026-10-16 07:47",
+   "total": 14,
+   "fetchedAt": "2026-10-16 17:20",
    "ageDays": 350
   },
   {
@@ -71,8 +71,8 @@
     "source": "经济日报"
    },
    "stale": false,
-   "total": 159,
-   "fetchedAt": "2026-10-16 07:47",
+   "total": 160,
+   "fetchedAt": "2026-10-16 17:20",
    "ageDays": 0
   }
  ],

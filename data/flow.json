@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-16 07:47",
+  "generatedAt": "2026-10-16 17:20",
   "asOf": "2026-10",
   "asOfLabel": "2026年10月",
-  "archiveTotal": 210,
-  "archiveAdded": 0,
+  "archiveTotal": 212,
+  "archiveAdded": 2,
   "channels": [
     {
       "key": "special_fund",
@@ -1239,11 +1239,12 @@
           "cur": {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 2,
+            "n": 4,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
-              "其他审核": 1,
+              "首发上市（IPO）": 1,
+              "其他审核": 2,
               "机构资格": 1
             }
           },
@@ -1261,18 +1262,19 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -92.9,
+          "deltaPct": -85.7,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 2,
+            "n": 4,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
-              "其他审核": 1,
+              "首发上市（IPO）": 1,
+              "其他审核": 2,
               "机构资格": 1
             }
           },
@@ -1291,21 +1293,21 @@
               "再融资": 9
             }
           },
-          "deltaPct": -97.4,
+          "deltaPct": -94.8,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 96,
+            "n": 98,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
-              "其他审核": 36,
+              "首发上市（IPO）": 13,
+              "其他审核": 37,
               "机构资格": 20,
               "REITs 注册": 14,
-              "首发上市（IPO）": 12,
               "并购重组": 5,
               "再融资": 9
             }
@@ -1323,7 +1325,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 209.7,
+          "deltaPct": 216.1,
           "deltaAmountPct": null
         }
       },
@@ -1386,7 +1388,7 @@
           {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 2,
+            "n": 4,
             "amountYi": 0.0
           },
           {
@@ -1424,7 +1426,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 2,
+            "n": 4,
             "amountYi": 0.0
           }
         ],
@@ -1438,7 +1440,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 96,
+            "n": 98,
             "amountYi": 0.0
           }
         ]
@@ -1447,9 +1449,9 @@
         "month": [
           {
             "name": "其他审核",
-            "cur": 1,
+            "cur": 2,
             "prev": 10,
-            "deltaPct": -90.0,
+            "deltaPct": -80.0,
             "items": [
               {
                 "title": "前三季度金融数据出炉多元化融资特征鲜明",
@@ -1458,9 +1460,17 @@
                 "org": "gov.cn",
                 "amountYi": null,
                 "src": "gov.cn 政策库"
+              },
+              {
+                "title": "关于同意无锡鑫巨宏智能科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7665162/content.shtml",
+                "date": "2026-10-12",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 1
+            "totalItems": 2
           },
           {
             "name": "机构资格",
@@ -1472,6 +1482,23 @@
                 "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
                 "date": "2026-10-08",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 1
+          },
+          {
+            "name": "首发上市（IPO）",
+            "cur": 1,
+            "prev": 3,
+            "deltaPct": -66.7,
+            "items": [
+              {
+                "title": "关于同意苏州朗高电机科技股份有限公司首次公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml",
+                "date": "2026-10-16",
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
@@ -1494,22 +1521,14 @@
             "deltaPct": -100.0,
             "items": [],
             "totalItems": 0
-          },
-          {
-            "name": "首发上市（IPO）",
-            "cur": 0,
-            "prev": 3,
-            "deltaPct": -100.0,
-            "items": [],
-            "totalItems": 0
           }
         ],
         "quarter": [
           {
             "name": "其他审核",
-            "cur": 1,
+            "cur": 2,
             "prev": 21,
-            "deltaPct": -95.2,
+            "deltaPct": -90.5,
             "items": [
               {
                 "title": "前三季度金融数据出炉多元化融资特征鲜明",
@@ -1518,9 +1537,17 @@
                 "org": "gov.cn",
                 "amountYi": null,
                 "src": "gov.cn 政策库"
+              },
+              {
+                "title": "关于同意无锡鑫巨宏智能科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7665162/content.shtml",
+                "date": "2026-10-12",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 1
+            "totalItems": 2
           },
           {
             "name": "机构资格",
@@ -1532,6 +1559,23 @@
                 "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
                 "date": "2026-10-08",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 1
+          },
+          {
+            "name": "首发上市（IPO）",
+            "cur": 1,
+            "prev": 12,
+            "deltaPct": -91.7,
+            "items": [
+              {
+                "title": "关于同意苏州朗高电机科技股份有限公司首次公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml",
+                "date": "2026-10-16",
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
@@ -1562,22 +1606,14 @@
             "deltaPct": -100.0,
             "items": [],
             "totalItems": 0
-          },
-          {
-            "name": "首发上市（IPO）",
-            "cur": 0,
-            "prev": 12,
-            "deltaPct": -100.0,
-            "items": [],
-            "totalItems": 0
           }
         ],
         "year": [
           {
             "name": "其他审核",
-            "cur": 36,
+            "cur": 37,
             "prev": 23,
-            "deltaPct": 56.5,
+            "deltaPct": 60.9,
             "items": [
               {
                 "title": "前三季度金融数据出炉多元化融资特征鲜明",
@@ -1586,6 +1622,14 @@
                 "org": "gov.cn",
                 "amountYi": null,
                 "src": "gov.cn 政策库"
+              },
+              {
+                "title": "关于同意无锡鑫巨宏智能科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7665162/content.shtml",
+                "date": "2026-10-12",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
               },
               {
                 "title": "关于同意安徽泓毅汽车技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
@@ -1618,17 +1662,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "中国人民银行副行长宣昌能会见伦敦证券交易所集团富时罗素首席执行官菲奥娜·巴塞特",
-                "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026091611280492893/index.html",
-                "date": "2026-09-16",
-                "org": "央行",
-                "amountYi": null,
-                "src": "L1 政策速览"
               }
             ],
-            "totalItems": 36
+            "totalItems": 37
           },
           {
             "name": "机构资格",
@@ -1746,10 +1782,18 @@
           },
           {
             "name": "首发上市（IPO）",
-            "cur": 12,
+            "cur": 13,
             "prev": 0,
             "deltaPct": 100.0,
             "items": [
+              {
+                "title": "关于同意苏州朗高电机科技股份有限公司首次公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于同意傲拓科技股份有限公司首次公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c105906/c7659607/content.shtml",
@@ -1789,17 +1833,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意苏州猎奇智能设备股份有限公司首次公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c105917/c7653685/content.shtml",
-                "date": "2026-08-21",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 12
+            "totalItems": 13
           },
           {
             "name": "再融资",
@@ -1916,7 +1952,7 @@
       "up": [],
       "down": [
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -1924,7 +1960,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -1946,7 +1982,7 @@
           "url": ""
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -1954,7 +1990,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2033,7 +2069,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2041,7 +2077,7 @@
           "url": ""
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2079,6 +2115,16 @@
   },
   "recent": [
     {
+      "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml",
+      "title": "关于同意苏州朗高电机科技股份有限公司首次公开发行股票注册的批复",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "首发上市（IPO）",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
       "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
       "title": "前三季度金融数据出炉多元化融资特征鲜明",
       "date": "2026-10-14",
@@ -2087,6 +2133,16 @@
       "industry": "其他审核",
       "amountYi": null,
       "src": "gov.cn 政策库"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7665162/content.shtml",
+      "title": "关于同意无锡鑫巨宏智能科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+      "date": "2026-10-12",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
     },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
@@ -3255,26 +3311,6 @@
       "org": "发改委",
       "channel": "special_fund",
       "industry": "制造业升级",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055545.htm",
-      "title": "关于优化实施个人消费贷款财政贴息政策有关事项的通知",
-      "date": "2026-01-21",
-      "org": "财政部",
-      "channel": "special_fund",
-      "industry": "消费与流通",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/yaowen/liebiao/202601/content_7055492.htm",
-      "title": "财政部：对相关科技创新类的贷款给予财政贴息",
-      "date": "2026-01-20",
-      "org": "gov.cn",
-      "channel": "special_fund",
-      "industry": "综合与其他",
       "amountYi": null,
       "src": "gov.cn 政策库"
     }
