@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-17",
-  "fetchedAt": "2026-10-17 16:45",
+  "fetchedAt": "2026-10-17 21:03",
   "monthLabel": "2026年10月",
   "timeline": [
     {
@@ -78,7 +78,9 @@
       "summary": "",
       "tier": "dept",
       "keywords": [],
-      "keySentence": ""
+      "keySentence": "",
+      "carried": true,
+      "carriedFrom": "2026-10-17 16:45"
     },
     {
       "title": "中国证监会召开资本市场和金融形势专家座谈会",
@@ -105,7 +107,9 @@
           "text": "进一步"
         }
       ],
-      "keySentence": "推动有条件的上市公司加大分红回购力度，完善投资者回报和权益保护机制。"
+      "keySentence": "推动有条件的上市公司加大分红回购力度，完善投资者回报和权益保护机制。",
+      "carried": true,
+      "carriedFrom": "2026-10-17 16:45"
     },
     {
       "title": "中国证监会就《公开募集证券投资基金运作管理办法（征求意见稿）》及配套规则公开征求意见",
@@ -115,7 +119,9 @@
       "summary": "",
       "tier": "dept",
       "keywords": [],
-      "keySentence": ""
+      "keySentence": "",
+      "carried": true,
+      "carriedFrom": "2026-10-17 16:45"
     },
     {
       "title": "国务院关于《国家残疾预防行动计划（2026—2030年）》的批复",
@@ -246,16 +252,6 @@
       "keySentence": "《意见》强调，要构建多层次组织服务体系，加大生产性服务业金融支持力度，助力提升科技服务、现代物流、商务服务等发展能级。"
     },
     {
-      "title": "湖北证监局原党委书记、局长王广幼被开除党籍",
-      "desc": "证监会最新动态",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7661513/content.shtml",
-      "date": "2026-09-28",
-      "summary": "",
-      "tier": "dept",
-      "keywords": [],
-      "keySentence": ""
-    },
-    {
       "title": "2026年1—8月份全国规模以上工业企业利润增长15.7%",
       "desc": "国家统计局最新数据发布",
       "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260928_1965425.html",
@@ -264,6 +260,18 @@
       "tier": "dept",
       "keywords": [],
       "keySentence": "表22026年1-8月份规模以上工业企业经济效益指标。"
+    },
+    {
+      "title": "湖北证监局原党委书记、局长王广幼被开除党籍",
+      "desc": "证监会最新动态",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7661513/content.shtml",
+      "date": "2026-09-28",
+      "summary": "",
+      "tier": "dept",
+      "keywords": [],
+      "keySentence": "",
+      "carried": true,
+      "carriedFrom": "2026-10-17 16:45"
     },
     {
       "title": "中华人民共和国审计法实施条例",
@@ -292,7 +300,9 @@
       "summary": "",
       "tier": "dept",
       "keywords": [],
-      "keySentence": ""
+      "keySentence": "",
+      "carried": true,
+      "carriedFrom": "2026-10-17 16:45"
     },
     {
       "title": "国务院办公厅关于印发《“高效办成一件事”2026年度第二批重点事项清单》的通知",
@@ -404,7 +414,9 @@
       "summary": "",
       "tier": "dept",
       "keywords": [],
-      "keySentence": ""
+      "keySentence": "",
+      "carried": true,
+      "carriedFrom": "2026-10-17 16:45"
     },
     {
       "title": "国务院办公厅关于进一步加强烟花爆竹全链条安全监管的意见",
@@ -441,7 +453,9 @@
       "summary": "",
       "tier": "dept",
       "keywords": [],
-      "keySentence": "（中央纪委国家监委驻中国证券监督管理委员会纪检监察组、河南省纪委监委）。"
+      "keySentence": "（中央纪委国家监委驻中国证券监督管理委员会纪检监察组、河南省纪委监委）。",
+      "carried": true,
+      "carriedFrom": "2026-10-17 16:45"
     },
     {
       "title": "两部门关于印发《电子信息制造业发展“十五五”规划》的通知",
@@ -550,7 +564,9 @@
           "text": "实施"
         }
       ],
-      "keySentence": ""
+      "keySentence": "",
+      "carried": true,
+      "carriedFrom": "2026-10-17 16:45"
     },
     {
       "title": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
@@ -7548,7 +7564,9 @@
         "summary": "",
         "tier": "dept",
         "keywords": [],
-        "keySentence": ""
+        "keySentence": "",
+        "carried": true,
+        "carriedFrom": "2026-10-17 16:45"
       },
       {
         "title": "中国证监会召开资本市场和金融形势专家座谈会",
@@ -7575,7 +7593,9 @@
             "text": "进一步"
           }
         ],
-        "keySentence": "推动有条件的上市公司加大分红回购力度，完善投资者回报和权益保护机制。"
+        "keySentence": "推动有条件的上市公司加大分红回购力度，完善投资者回报和权益保护机制。",
+        "carried": true,
+        "carriedFrom": "2026-10-17 16:45"
       },
       {
         "title": "中国证监会就《公开募集证券投资基金运作管理办法（征求意见稿）》及配套规则公开征求意见",
@@ -7585,7 +7605,9 @@
         "summary": "",
         "tier": "dept",
         "keywords": [],
-        "keySentence": ""
+        "keySentence": "",
+        "carried": true,
+        "carriedFrom": "2026-10-17 16:45"
       },
       {
         "title": "湖北证监局原党委书记、局长王广幼被开除党籍",
@@ -7595,7 +7617,9 @@
         "summary": "",
         "tier": "dept",
         "keywords": [],
-        "keySentence": ""
+        "keySentence": "",
+        "carried": true,
+        "carriedFrom": "2026-10-17 16:45"
       },
       {
         "title": "2021年9月24日新闻发布会",
@@ -7605,7 +7629,9 @@
         "summary": "",
         "tier": "dept",
         "keywords": [],
-        "keySentence": ""
+        "keySentence": "",
+        "carried": true,
+        "carriedFrom": "2026-10-17 16:45"
       },
       {
         "title": "中国证监会拟对17起案件线索的“吹哨人”给予奖励",
@@ -7615,7 +7641,9 @@
         "summary": "",
         "tier": "dept",
         "keywords": [],
-        "keySentence": ""
+        "keySentence": "",
+        "carried": true,
+        "carriedFrom": "2026-10-17 16:45"
       },
       {
         "title": "河南证监局原党委书记、局长牛雪峰接受纪律审查和监察调查",
@@ -7625,7 +7653,9 @@
         "summary": "",
         "tier": "dept",
         "keywords": [],
-        "keySentence": "（中央纪委国家监委驻中国证券监督管理委员会纪检监察组、河南省纪委监委）。"
+        "keySentence": "（中央纪委国家监委驻中国证券监督管理委员会纪检监察组、河南省纪委监委）。",
+        "carried": true,
+        "carriedFrom": "2026-10-17 16:45"
       },
       {
         "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
@@ -7640,7 +7670,9 @@
             "text": "实施"
           }
         ],
-        "keySentence": ""
+        "keySentence": "",
+        "carried": true,
+        "carriedFrom": "2026-10-17 16:45"
       }
     ],
     "工信部最新政策文件": [
@@ -7912,5 +7944,9 @@
         "summary": ""
       }
     ]
-  }
+  },
+  "carriedSources": {
+    "证监会最新动态": 8
+  },
+  "carriedFrom": "2026-10-17 16:45"
 }
