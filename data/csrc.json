@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-17 07:40",
+ "generatedAt": "2026-10-17 16:48",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
   "eastmoney": 0,
-  "papers": 1
+  "papers": 0
  },
  "kpi": {
   "penaltyTotal": 238,
@@ -12,7 +12,7 @@
   "approvalTotal": 167,
   "approvalMonth": 7,
   "reitsApproved30d": 4,
-  "ipoApproved30d": 5,
+  "ipoApproved30d": 6,
   "mediaTotal": 120,
   "mediaStrong": 90,
   "activeTotal": 139,
@@ -744,6 +744,16 @@
   },
   {
    "date": "2026-10-10",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕57号 · 苏州清越光电科技股份有限公司",
+   "docNo": "〔2026〕57号",
+   "party": "苏州清越光电科技股份有限公司",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665091/content.shtml"
+  },
+  {
+   "date": "2026-10-10",
    "channel": "通知公告",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -851,16 +861,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/qinghai/c101417/c7663585/content.shtml"
-  },
-  {
-   "date": "2026-10-10",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2026〕57号 · 苏州清越光电科技股份有限公司",
-   "docNo": "〔2026〕57号",
-   "party": "苏州清越光电科技股份有限公司",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665091/content.shtml"
   },
   {
    "date": "2026-10-09",
@@ -2666,16 +2666,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "IPO注册",
@@ -2683,6 +2673,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2836,16 +2836,6 @@
   },
   {
    "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -2873,6 +2863,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -5248,12 +5248,12 @@
   }
  ],
  "review": {
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-17",
   "total": 4403,
   "pipelineTotal": 856,
   "activeTotal": 139,
   "successTotal": 160,
-  "failTotal": 204,
+  "failTotal": 205,
   "stages": [
    {
     "name": "已受理",
@@ -5282,7 +5282,7 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 204,
+    "count": 205,
     "kind": "fail"
    }
   ],
