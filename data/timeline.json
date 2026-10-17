@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-17 21:10",
+ "generatedAt": "2026-10-18 07:15",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 290,
+ "candidateCount": 293,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,30 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-18 · 协同联动防止产业单兵突进（经济日报）",
+     "title": "协同联动防止产业单兵突进",
+     "url": "http://paper.ce.cn/pc/content/202610/18/content_340489.html",
+     "date": "2026-10-18",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-18 · 经济日报评论员：让群众就近看得上病看得好病（经济日报）",
+     "title": "经济日报评论员：让群众就近看得上病看得好病",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261018_3261560.shtml",
+     "date": "2026-10-18",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-18 · 金观平：协同联动防止产业单兵突进——把握好发展新质生产力实践的总要求②（经济日报）",
+     "title": "金观平：协同联动防止产业单兵突进——把握好发展新质生产力实践的总要求②",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261018_3261557.shtml",
+     "date": "2026-10-18",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-17 · 守住“不为”边界当好有为政府（经济日报）",
      "title": "守住“不为”边界当好有为政府",
      "url": "http://paper.ce.cn/pc/content/202610/17/content_340380.html",
@@ -299,30 +323,6 @@
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261016_1965512.html",
      "date": "2026-10-16",
      "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-10-16 · 理性看待IMF微调中国经济增速预期（经济日报）",
-     "title": "理性看待IMF微调中国经济增速预期",
-     "url": "http://paper.ce.cn/pc/content/202610/16/content_340331.html",
-     "date": "2026-10-16",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-16 · 金观平：理性看待IMF微调中国经济增速预期（经济日报）",
-     "title": "金观平：理性看待IMF微调中国经济增速预期",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261016_3259661.shtml",
-     "date": "2026-10-16",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-15 · 优质供给让稳外贸底气更足（经济日报）",
-     "title": "优质供给让稳外贸底气更足",
-     "url": "http://paper.ce.cn/pc/content/202610/15/content_340282.html",
-     "date": "2026-10-15",
-     "source": "经济日报",
      "noise": false
     }
    ],
