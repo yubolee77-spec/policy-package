@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-18 21:23",
+ "generatedAt": "2026-10-19 07:19",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -734,16 +734,6 @@
   },
   {
    "date": "2026-10-10",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2026〕57号 · 苏州清越光电科技股份有限公司",
-   "docNo": "〔2026〕57号",
-   "party": "苏州清越光电科技股份有限公司",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665091/content.shtml"
-  },
-  {
-   "date": "2026-10-10",
    "channel": "行政监管措施",
    "column": "监管措施",
    "tag": "警示函",
@@ -861,6 +851,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/xiamen/c104104/c7663595/content.shtml"
+  },
+  {
+   "date": "2026-10-10",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕57号 · 苏州清越光电科技股份有限公司",
+   "docNo": "〔2026〕57号",
+   "party": "苏州清越光电科技股份有限公司",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665091/content.shtml"
   },
   {
    "date": "2026-10-09",
@@ -2406,6 +2406,16 @@
  "approval": [
   {
    "date": "2026-10-16",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "IPO注册",
+   "title": "关于同意苏州朗高电机科技股份有限公司首次公开发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
    "channel": "许可审核进度",
    "column": "许可审核进度",
    "tag": "审核进度公示",
@@ -2433,16 +2443,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c106392/c7608152/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意苏州朗高电机科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml"
   },
   {
    "date": "2026-10-12",
@@ -3156,36 +3156,6 @@
   },
   {
    "date": "2025-12-31",
-   "channel": "许可审核进度",
-   "column": "许可审核进度",
-   "tag": "并购重组",
-   "title": "【行政许可事项】2025年主板并购重组申请注册企业基本情况公示",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c106392/c7534410/content.shtml"
-  },
-  {
-   "date": "2025-12-31",
-   "channel": "许可审核进度",
-   "column": "许可审核进度",
-   "tag": "并购重组",
-   "title": "【行政许可事项】2025年科创板并购重组申请注册企业基本情况公示",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c106191/c7532777/content.shtml"
-  },
-  {
-   "date": "2025-12-31",
-   "channel": "许可审核进度",
-   "column": "许可审核进度",
-   "tag": "并购重组",
-   "title": "【行政许可事项】2025年创业板并购重组申请注册企业基本情况公示",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c106194/c7534213/content.shtml"
-  },
-  {
-   "date": "2025-12-31",
    "channel": "政策解读",
    "column": "政策解读",
    "tag": "政策法规",
@@ -3223,6 +3193,36 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c100028/c7605669/content.shtml"
+  },
+  {
+   "date": "2025-12-31",
+   "channel": "许可审核进度",
+   "column": "许可审核进度",
+   "tag": "并购重组",
+   "title": "【行政许可事项】2025年主板并购重组申请注册企业基本情况公示",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c106392/c7534410/content.shtml"
+  },
+  {
+   "date": "2025-12-31",
+   "channel": "许可审核进度",
+   "column": "许可审核进度",
+   "tag": "并购重组",
+   "title": "【行政许可事项】2025年科创板并购重组申请注册企业基本情况公示",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c106191/c7532777/content.shtml"
+  },
+  {
+   "date": "2025-12-31",
+   "channel": "许可审核进度",
+   "column": "许可审核进度",
+   "tag": "并购重组",
+   "title": "【行政许可事项】2025年创业板并购重组申请注册企业基本情况公示",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c106194/c7534213/content.shtml"
   },
   {
    "date": "2025-10-27",
@@ -3496,6 +3496,16 @@
   },
   {
    "date": "2024-12-31",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "最高人民法院、中国证监会联合发布《关于切实审理好上市公司破产重整案件工作座谈会纪要》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7529725/content.shtml"
+  },
+  {
+   "date": "2024-12-31",
    "channel": "许可审核进度",
    "column": "许可审核进度",
    "tag": "并购重组",
@@ -3523,16 +3533,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c106194/c7494224/content.shtml"
-  },
-  {
-   "date": "2024-12-31",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "最高人民法院、中国证监会联合发布《关于切实审理好上市公司破产重整案件工作座谈会纪要》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7529725/content.shtml"
   },
   {
    "date": "2024-12-27",
