@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-18 07:11",
+ "generatedAt": "2026-10-18 17:03",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -15,11 +15,11 @@
   "ipoApproved30d": 6,
   "mediaTotal": 120,
   "mediaStrong": 90,
-  "activeTotal": 139,
+  "activeTotal": 138,
   "successTotal": 160,
   "cycleRecentAvg": 294,
-  "cyclePrevAvg": 257,
-  "cycleVerdict": "放缓 14%"
+  "cyclePrevAvg": 255,
+  "cycleVerdict": "放缓 15%"
  },
  "penalty": [
   {
@@ -5250,8 +5250,8 @@
  "review": {
   "asOf": "2026-10-17",
   "total": 4403,
-  "pipelineTotal": 856,
-  "activeTotal": 139,
+  "pipelineTotal": 855,
+  "activeTotal": 138,
   "successTotal": 160,
   "failTotal": 205,
   "stages": [
@@ -5301,7 +5301,7 @@
    },
    {
     "name": "沪主板",
-    "count": 78
+    "count": 77
    },
    {
     "name": "深主板",
@@ -5323,7 +5323,7 @@
    },
    {
     "name": "电气机械和器材制造业",
-    "count": 69
+    "count": 68
    },
    {
     "name": "通用设备制造业",
@@ -5353,10 +5353,10 @@
   "cycle": {
    "recentAvg": 294,
    "recentN": 14,
-   "prevAvg": 257,
-   "prevN": 23,
-   "deltaPct": 14,
-   "verdict": "放缓 14%",
+   "prevAvg": 255,
+   "prevN": 22,
+   "deltaPct": 15,
+   "verdict": "放缓 15%",
    "byMonth": [
     {
      "month": "25-11",
