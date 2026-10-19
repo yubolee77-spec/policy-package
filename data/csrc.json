@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19 18:14",
+ "generatedAt": "2026-10-20 00:34",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -15,7 +15,7 @@
   "ipoApproved30d": 3,
   "mediaTotal": 120,
   "mediaStrong": 90,
-  "activeTotal": 138,
+  "activeTotal": 139,
   "successTotal": 160,
   "cycleRecentAvg": 301,
   "cyclePrevAvg": 253,
@@ -5301,7 +5301,7 @@
   "asOf": "2026-10-19",
   "total": 4403,
   "pipelineTotal": 853,
-  "activeTotal": 138,
+  "activeTotal": 139,
   "successTotal": 160,
   "failTotal": 204,
   "stages": [
@@ -5312,7 +5312,7 @@
    },
    {
     "name": "已问询",
-    "count": 105,
+    "count": 106,
     "kind": "active"
    },
    {
@@ -5701,6 +5701,16 @@
     "sponsor": "中信证券股份有限公司"
    },
    {
+    "date": "2026-10-19",
+    "acceptDate": "2026-06-30",
+    "company": "深圳市华普微电子股份有限公司",
+    "market": "创业板",
+    "industry": "计算机、通信和其他电子设备制造业",
+    "state": "已问询",
+    "region": "广东",
+    "sponsor": "国泰海通证券股份有限公司"
+   },
+   {
     "date": "2026-10-16",
     "acceptDate": "2025-11-21",
     "company": "长沙北斗产业安全技术研究院集团股份有限公司",
@@ -6069,16 +6079,6 @@
     "state": "已问询",
     "region": "上海",
     "sponsor": "国泰海通证券股份有限公司"
-   },
-   {
-    "date": "2026-09-29",
-    "acceptDate": "2025-12-26",
-    "company": "苏州同心医疗科技股份有限公司",
-    "market": "科创板",
-    "industry": "专用设备制造业",
-    "state": "已问询",
-    "region": "江苏",
-    "sponsor": "中信证券股份有限公司"
    }
   ]
  }

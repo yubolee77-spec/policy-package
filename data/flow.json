@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-19 18:19",
+  "generatedAt": "2026-10-20 00:38",
   "asOf": "2026-10",
   "asOfLabel": "2026年10月",
-  "archiveTotal": 231,
-  "archiveAdded": 6,
+  "archiveTotal": 232,
+  "archiveAdded": 1,
   "channels": [
     {
       "key": "special_fund",
@@ -1239,13 +1239,13 @@
           "cur": {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 11,
+            "n": 12,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "其他审核": 6,
               "首发上市（IPO）": 1,
               "再融资": 3,
-              "其他审核": 5,
               "机构资格": 2
             }
           },
@@ -1263,20 +1263,20 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -72.5,
+          "deltaPct": -70.0,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 11,
+            "n": 12,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "其他审核": 6,
               "首发上市（IPO）": 1,
               "再融资": 3,
-              "其他审核": 5,
               "机构资格": 2
             }
           },
@@ -1295,20 +1295,20 @@
               "再融资": 9
             }
           },
-          "deltaPct": -87.6,
+          "deltaPct": -86.5,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 117,
+            "n": 118,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "其他审核": 41,
               "首发上市（IPO）": 13,
               "再融资": 12,
-              "其他审核": 40,
               "机构资格": 33,
               "REITs 注册": 14,
               "并购重组": 5
@@ -1327,7 +1327,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 277.4,
+          "deltaPct": 280.6,
           "deltaAmountPct": null
         }
       },
@@ -1390,7 +1390,7 @@
           {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 11,
+            "n": 12,
             "amountYi": 0.0
           },
           {
@@ -1428,7 +1428,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 11,
+            "n": 12,
             "amountYi": 0.0
           }
         ],
@@ -1442,7 +1442,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 117,
+            "n": 118,
             "amountYi": 0.0
           }
         ]
@@ -1451,10 +1451,18 @@
         "month": [
           {
             "name": "其他审核",
-            "cur": 5,
+            "cur": 6,
             "prev": 10,
-            "deltaPct": -50.0,
+            "deltaPct": -40.0,
             "items": [
+              {
+                "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
+                "date": "2026-10-19",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "L1 政策速览"
+              },
               {
                 "title": "【行政许可事项】创业板提交注册申请企业基本情况",
                 "url": "https://www.csrc.gov.cn/csrc/c105914/c1514593/content.shtml",
@@ -1496,7 +1504,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 5
+            "totalItems": 6
           },
           {
             "name": "再融资",
@@ -1593,10 +1601,18 @@
         "quarter": [
           {
             "name": "其他审核",
-            "cur": 5,
+            "cur": 6,
             "prev": 21,
-            "deltaPct": -76.2,
+            "deltaPct": -71.4,
             "items": [
+              {
+                "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
+                "date": "2026-10-19",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "L1 政策速览"
+              },
               {
                 "title": "【行政许可事项】创业板提交注册申请企业基本情况",
                 "url": "https://www.csrc.gov.cn/csrc/c105914/c1514593/content.shtml",
@@ -1638,7 +1654,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 5
+            "totalItems": 6
           },
           {
             "name": "再融资",
@@ -1735,10 +1751,18 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 40,
+            "cur": 41,
             "prev": 23,
-            "deltaPct": 73.9,
+            "deltaPct": 78.3,
             "items": [
+              {
+                "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
+                "date": "2026-10-19",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "L1 政策速览"
+              },
               {
                 "title": "【行政许可事项】创业板提交注册申请企业基本情况",
                 "url": "https://www.csrc.gov.cn/csrc/c105914/c1514593/content.shtml",
@@ -1778,17 +1802,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意安徽泓毅汽车技术股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662553/content.shtml",
-                "date": "2026-09-20",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 40
+            "totalItems": 41
           },
           {
             "name": "机构资格",
@@ -2076,7 +2092,7 @@
       "up": [],
       "down": [
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2084,7 +2100,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2219,25 +2235,35 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm"
         },
         {
-          "name": "交通基础设施",
-          "cur": 1,
-          "prev": 1,
-          "delta": 0,
-          "deltaPct": 0.0,
-          "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
-        },
-        {
           "name": "金融与资本",
           "cur": 1,
           "prev": 1,
           "delta": 0,
           "deltaPct": 0.0,
           "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
+        },
+        {
+          "name": "交通基础设施",
+          "cur": 1,
+          "prev": 1,
+          "delta": 0,
+          "deltaPct": 0.0,
+          "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
         }
       ]
     }
   },
   "recent": [
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
+      "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
+      "date": "2026-10-19",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "L1 政策速览"
+    },
     {
       "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml",
       "title": "关于同意苏州朗高电机科技股份有限公司首次公开发行股票注册的批复",
@@ -3422,16 +3448,6 @@
       "url": "https://www.gov.cn/zhengce/202604/content_7065258.htm",
       "title": "19项改革创新举措打造联通内外、辐射周边的“五个中心”——内蒙古自贸试验区这样建设",
       "date": "2026-04-11",
-      "org": "gov.cn",
-      "channel": "pilot",
-      "industry": "对外开放",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/202604/content_7065218.htm",
-      "title": "新设内蒙古自贸试验区推出19项改革创新举措",
-      "date": "2026-04-10",
       "org": "gov.cn",
       "channel": "pilot",
       "industry": "对外开放",
