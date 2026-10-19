@@ -1,15 +1,15 @@
 {
   "lastUpdated": "2026-10-19",
-  "generatedAt": "2026-10-19 07:19",
+  "generatedAt": "2026-10-19 18:14",
   "periodLabel": "2026-09",
   "cards": [
     {
       "name": "GDP",
-      "val": "4.7",
+      "val": "4.6",
       "unit": "%",
-      "chg": "上半年同比",
+      "chg": "前三季度同比",
       "dir": "neg",
-      "sub": "上半年·GDP 695,704亿元·较上期-0.3pct",
+      "sub": "前三季度·GDP 1,071,071亿元·较上期-0.1pct",
       "url": "https://data.eastmoney.com/cjsj/gdp.html"
     },
     {
@@ -68,20 +68,20 @@
     },
     {
       "name": "工业增加值",
-      "val": "5.2",
+      "val": "5.5",
       "unit": "%",
-      "chg": "2026年8月同比",
+      "chg": "2026年9月同比",
       "dir": "pos",
-      "sub": "2026年8月·规上工业增加值·1-8月累计5.3%",
+      "sub": "2026年9月·规上工业增加值·1-9月累计5.3%",
       "url": "https://data.eastmoney.com/cjsj/gyzjz.html"
     },
     {
       "name": "社会消费品零售总额",
-      "val": "0.4",
+      "val": "1.1",
       "unit": "%",
-      "chg": "2026年8月同比",
-      "dir": "neg",
-      "sub": "2026年8月·社会消费品零售总额·1-8月累计同比1.1%",
+      "chg": "2026年9月同比",
+      "dir": "pos",
+      "sub": "2026年9月·社会消费品零售总额·1-9月累计同比1.1%",
       "url": "https://data.eastmoney.com/cjsj/qgsssr.html"
     }
   ],

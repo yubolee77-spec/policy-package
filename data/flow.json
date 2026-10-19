@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-19 07:26",
+  "generatedAt": "2026-10-19 18:19",
   "asOf": "2026-10",
   "asOfLabel": "2026年10月",
-  "archiveTotal": 225,
-  "archiveAdded": 0,
+  "archiveTotal": 231,
+  "archiveAdded": 6,
   "channels": [
     {
       "key": "special_fund",
@@ -1239,12 +1239,13 @@
           "cur": {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 5,
+            "n": 11,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "首发上市（IPO）": 1,
-              "其他审核": 2,
+              "再融资": 3,
+              "其他审核": 5,
               "机构资格": 2
             }
           },
@@ -1262,19 +1263,20 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -87.5,
+          "deltaPct": -72.5,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 5,
+            "n": 11,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "首发上市（IPO）": 1,
-              "其他审核": 2,
+              "再融资": 3,
+              "其他审核": 5,
               "机构资格": 2
             }
           },
@@ -1293,23 +1295,23 @@
               "再融资": 9
             }
           },
-          "deltaPct": -94.4,
+          "deltaPct": -87.6,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 111,
+            "n": 117,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "首发上市（IPO）": 13,
-              "其他审核": 37,
+              "再融资": 12,
+              "其他审核": 40,
               "机构资格": 33,
               "REITs 注册": 14,
-              "并购重组": 5,
-              "再融资": 9
+              "并购重组": 5
             }
           },
           "prev": {
@@ -1325,7 +1327,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 258.1,
+          "deltaPct": 277.4,
           "deltaAmountPct": null
         }
       },
@@ -1388,7 +1390,7 @@
           {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 5,
+            "n": 11,
             "amountYi": 0.0
           },
           {
@@ -1426,7 +1428,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 5,
+            "n": 11,
             "amountYi": 0.0
           }
         ],
@@ -1440,7 +1442,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 111,
+            "n": 117,
             "amountYi": 0.0
           }
         ]
@@ -1449,10 +1451,34 @@
         "month": [
           {
             "name": "其他审核",
-            "cur": 2,
+            "cur": 5,
             "prev": 10,
-            "deltaPct": -80.0,
+            "deltaPct": -50.0,
             "items": [
+              {
+                "title": "【行政许可事项】创业板提交注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105914/c1514593/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】科创板提交注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105903/c1489522/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】主板提交注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c106381/c7322612/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "前三季度金融数据出炉多元化融资特征鲜明",
                 "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
@@ -1470,7 +1496,40 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 2
+            "totalItems": 5
+          },
+          {
+            "name": "再融资",
+            "cur": 3,
+            "prev": 0,
+            "deltaPct": 100.0,
+            "items": [
+              {
+                "title": "【行政许可事项】创业板提交再融资注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105919/c1514590/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】科创板提交再融资注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105908/c1489525/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】主板提交再融资注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c106382/c7314794/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 3
           },
           {
             "name": "机构资格",
@@ -1534,10 +1593,34 @@
         "quarter": [
           {
             "name": "其他审核",
-            "cur": 2,
+            "cur": 5,
             "prev": 21,
-            "deltaPct": -90.5,
+            "deltaPct": -76.2,
             "items": [
+              {
+                "title": "【行政许可事项】创业板提交注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105914/c1514593/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】科创板提交注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105903/c1489522/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】主板提交注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c106381/c7322612/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "前三季度金融数据出炉多元化融资特征鲜明",
                 "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
@@ -1555,7 +1638,40 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 2
+            "totalItems": 5
+          },
+          {
+            "name": "再融资",
+            "cur": 3,
+            "prev": 9,
+            "deltaPct": -66.7,
+            "items": [
+              {
+                "title": "【行政许可事项】创业板提交再融资注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105919/c1514590/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】科创板提交再融资注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105908/c1489525/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】主板提交再融资注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c106382/c7314794/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 3
           },
           {
             "name": "机构资格",
@@ -1608,14 +1724,6 @@
             "totalItems": 0
           },
           {
-            "name": "再融资",
-            "cur": 0,
-            "prev": 9,
-            "deltaPct": -100.0,
-            "items": [],
-            "totalItems": 0
-          },
-          {
             "name": "并购重组",
             "cur": 0,
             "prev": 2,
@@ -1627,10 +1735,34 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 37,
+            "cur": 40,
             "prev": 23,
-            "deltaPct": 60.9,
+            "deltaPct": 73.9,
             "items": [
+              {
+                "title": "【行政许可事项】创业板提交注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105914/c1514593/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】科创板提交注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105903/c1489522/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】主板提交注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c106381/c7322612/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "前三季度金融数据出炉多元化融资特征鲜明",
                 "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
@@ -1654,33 +1786,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "【行政许可事项】证券、基金经营机构行政许可申请受理及审核情况公示",
-                "url": "https://www.csrc.gov.cn/csrc/c106250/c1029662/content.shtml",
-                "date": "2026-09-18",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意广东邦泽创科电器股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662023/content.shtml",
-                "date": "2026-09-18",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意青岛华晟智能装备股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7662018/content.shtml",
-                "date": "2026-09-18",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 37
+            "totalItems": 40
           },
           {
             "name": "机构资格",
@@ -1855,10 +1963,34 @@
           },
           {
             "name": "再融资",
-            "cur": 9,
+            "cur": 12,
             "prev": 0,
             "deltaPct": 100.0,
             "items": [
+              {
+                "title": "【行政许可事项】创业板提交再融资注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105919/c1514590/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】科创板提交再融资注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c105908/c1489525/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "【行政许可事项】主板提交再融资注册申请企业基本情况",
+                "url": "https://www.csrc.gov.cn/csrc/c106382/c7314794/content.shtml",
+                "date": "2026-10-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于同意广州银行股份有限公司向特定对象发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101830/c7652528/content.shtml",
@@ -1882,33 +2014,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意浙江绍兴恒信农村商业银行股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7649129/content.shtml",
-                "date": "2026-07-27",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意江苏靖江农村商业银行股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7649144/content.shtml",
-                "date": "2026-07-23",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意山西柳林农村商业银行股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7649133/content.shtml",
-                "date": "2026-07-20",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 9
+            "totalItems": 12
           },
           {
             "name": "并购重组",
@@ -1998,7 +2106,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2006,7 +2114,7 @@
           "url": ""
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2085,7 +2193,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2093,7 +2201,7 @@
           "url": ""
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2137,6 +2245,66 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "首发上市（IPO）",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105919/c1514590/content.shtml",
+      "title": "【行政许可事项】创业板提交再融资注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105914/c1514593/content.shtml",
+      "title": "【行政许可事项】创业板提交注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105908/c1489525/content.shtml",
+      "title": "【行政许可事项】科创板提交再融资注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c106382/c7314794/content.shtml",
+      "title": "【行政许可事项】主板提交再融资注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105903/c1489522/content.shtml",
+      "title": "【行政许可事项】科创板提交注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c106381/c7322612/content.shtml",
+      "title": "【行政许可事项】主板提交注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -3267,66 +3435,6 @@
       "org": "gov.cn",
       "channel": "pilot",
       "industry": "对外开放",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7625742/content.shtml",
-      "title": "中国证监会印发2026年度立法工作计划",
-      "date": "2026-04-10",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "其他审核",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7625370/content.shtml",
-      "title": "中国证监会发布《关于深化创业板改革更好服务新质生产力发展的意见》",
-      "date": "2026-04-10",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "其他审核",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7065010.htm",
-      "title": "国务院关于印发《中国（内蒙古）自由贸易试验区总体方案》的通知",
-      "date": "2026-04-09",
-      "org": "国务院",
-      "channel": "pilot",
-      "industry": "对外开放",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7064421.htm",
-      "title": "财政部农业农村部国家发展改革委国家民委国家林草局关于印发《中央财政常态化帮扶资金管理办法》的通知",
-      "date": "2026-04-01",
-      "org": "发改委",
-      "channel": "special_fund",
-      "industry": "农业农村",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202603/content_7063704.htm",
-      "title": "工业和信息化部财政部国家发展改革委关于开展氢能综合应用试点工作的通知",
-      "date": "2026-03-25",
-      "org": "发改委",
-      "channel": "pilot",
-      "industry": "能源电力",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/202603/content_7063154.htm",
-      "title": "再延长30年！我国全面开展农村承包地二轮到期延包整省试点",
-      "date": "2026-03-18",
-      "org": "gov.cn",
-      "channel": "pilot",
-      "industry": "农业农村",
       "amountYi": null,
       "src": "gov.cn 政策库"
     }

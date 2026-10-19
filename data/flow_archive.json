@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19 07:26",
+  "updated": "2026-10-19 18:19",
   "items": [
     {
       "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml",
@@ -8,6 +8,66 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "首发上市（IPO）",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105919/c1514590/content.shtml",
+      "title": "【行政许可事项】创业板提交再融资注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105914/c1514593/content.shtml",
+      "title": "【行政许可事项】创业板提交注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105908/c1489525/content.shtml",
+      "title": "【行政许可事项】科创板提交再融资注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c106382/c7314794/content.shtml",
+      "title": "【行政许可事项】主板提交再融资注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105903/c1489522/content.shtml",
+      "title": "【行政许可事项】科创板提交注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c106381/c7322612/content.shtml",
+      "title": "【行政许可事项】主板提交注册申请企业基本情况",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
     },
