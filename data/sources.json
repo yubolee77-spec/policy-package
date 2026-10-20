@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20 01:18",
+ "generatedAt": "2026-10-20 08:31",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-20 01:18",
+   "fetchedAt": "2026-10-20 08:31",
    "ageDays": 12
   },
   {
@@ -26,17 +26,17 @@
    "indexLabel": "财政部预算司·国债发行",
    "include": "国债",
    "exclude": "会见|会谈|座谈|巡视|招聘|任免|公示|考试|培训",
-   "href": "https://www.gov.cn/zhengce/202607/content_7076206.htm",
+   "href": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202610/t20261019_4003003.htm",
    "latest": {
-    "title": "220亿元超长期特别国债，支持老旧营运货车报废更新",
-    "url": "https://www.gov.cn/zhengce/202607/content_7076206.htm",
-    "date": "2026-07-21",
-    "source": "gov.cn 文件库"
+    "title": "关于2026年记账式贴现（六十六期）国债发行工作有关事宜的通知",
+    "url": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202610/t20261019_4003003.htm",
+    "date": "2026-10-19",
+    "source": "财政部"
    },
    "stale": false,
-   "total": 12,
-   "fetchedAt": "2026-10-20 01:18",
-   "ageDays": 91
+   "total": 14,
+   "fetchedAt": "2026-10-20 08:31",
+   "ageDays": 1
   },
   {
    "key": "localbond",
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 21,
-   "fetchedAt": "2026-10-20 01:18",
+   "total": 14,
+   "fetchedAt": "2026-10-20 08:31",
    "ageDays": 354
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202610/19/content_340492.html",
+   "href": "http://paper.ce.cn/pc/content/202610/20/content_340547.html",
    "latest": {
-    "title": "改革发展并重塑造新型生产关系",
-    "url": "http://paper.ce.cn/pc/content/202610/19/content_340492.html",
-    "date": "2026-10-19",
+    "title": "为世界经济注入宝贵确定性",
+    "url": "http://paper.ce.cn/pc/content/202610/20/content_340547.html",
+    "date": "2026-10-20",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 165,
-   "fetchedAt": "2026-10-20 01:18",
-   "ageDays": 1
+   "total": 166,
+   "fetchedAt": "2026-10-20 08:31",
+   "ageDays": 0
   }
  ],
  "stale": false,

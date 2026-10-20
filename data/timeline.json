@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-20 01:18",
+ "generatedAt": "2026-10-20 08:31",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 294,
+ "candidateCount": 295,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,27 +278,11 @@
    "status": "hot",
    "docs": [
     {
-     "label": "2026-10-19 · 中国证监会就《证券市场先行赔付指导意见》公开征求意见（证监会最新动态）",
-     "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml",
-     "date": "2026-10-19",
-     "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-10-19 · 中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问（证监会最新动态）",
-     "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7665427/content.shtml",
-     "date": "2026-10-19",
-     "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-10-19 · 中国证监会发布《违规转让证券案件行政处罚实施规则》（证监会最新动态）",
-     "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
-     "date": "2026-10-19",
-     "source": "证监会最新动态",
+     "label": "2026-10-20 · 为世界经济注入宝贵确定性（经济日报）",
+     "title": "为世界经济注入宝贵确定性",
+     "url": "http://paper.ce.cn/pc/content/202610/20/content_340547.html",
+     "date": "2026-10-20",
+     "source": "经济日报",
      "noise": false
     },
     {
@@ -321,6 +305,22 @@
      "label": "2026-10-19 · 2026年1—9月份全国固定资产投资基本情况（国家统计局最新数据发布）",
      "title": "2026年1—9月份全国固定资产投资基本情况",
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965616.html",
+     "date": "2026-10-19",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
+     "label": "2026-10-19 · 2026年1—9月份全国房地产市场基本情况（国家统计局最新数据发布）",
+     "title": "2026年1—9月份全国房地产市场基本情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965615.html",
+     "date": "2026-10-19",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
+     "label": "2026-10-19 · 2026年1—9月份社会消费品零售总额增长1.1%（国家统计局最新数据发布）",
+     "title": "2026年1—9月份社会消费品零售总额增长1.1%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965614.html",
      "date": "2026-10-19",
      "source": "国家统计局最新数据发布",
      "noise": false
