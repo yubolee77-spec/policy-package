@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21 07:57",
+ "generatedAt": "2026-10-21 17:34",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -8,20 +8,30 @@
  },
  "kpi": {
   "penaltyTotal": 235,
-  "penaltyMonth": 106,
+  "penaltyMonth": 107,
   "approvalTotal": 173,
   "approvalMonth": 13,
-  "reitsApproved30d": 4,
-  "ipoApproved30d": 3,
+  "reitsApproved30d": 1,
+  "ipoApproved30d": 2,
   "mediaTotal": 120,
   "mediaStrong": 90,
-  "activeTotal": 139,
+  "activeTotal": 140,
   "successTotal": 160,
   "cycleRecentAvg": 301,
   "cyclePrevAvg": 253,
   "cycleVerdict": "放缓 19%"
  },
  "penalty": [
+  {
+   "date": "2026-10-21",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "统筹发展和安全 坚持开放与合作 奋力谱写资本市场“十五五”高质量发展新篇章——吴清主席在2026金融街论坛年会上的主题演讲",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c101075/c7665855/content.shtml"
+  },
   {
    "date": "2026-10-20",
    "channel": "行政监管措施",
@@ -1171,16 +1181,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7662219/content.shtml"
-  },
-  {
-   "date": "2026-09-30",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "警示函",
-   "title": "关于对谭晔琼采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7662212/content.shtml"
   },
   {
    "date": "2026-09-24",
@@ -2696,16 +2696,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "IPO注册",
@@ -2713,6 +2703,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2866,16 +2866,6 @@
   },
   {
    "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -2903,6 +2893,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -5278,10 +5278,10 @@
   }
  ],
  "review": {
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "total": 4403,
   "pipelineTotal": 853,
-  "activeTotal": 139,
+  "activeTotal": 140,
   "successTotal": 160,
   "failTotal": 204,
   "stages": [
@@ -5292,7 +5292,7 @@
    },
    {
     "name": "已问询",
-    "count": 106,
+    "count": 107,
     "kind": "active"
    },
    {
@@ -5661,6 +5661,26 @@
   ],
   "recentActive": [
    {
+    "date": "2026-10-21",
+    "acceptDate": "2026-06-16",
+    "company": "江苏安澜万锦电子股份有限公司",
+    "market": "沪主板",
+    "industry": "计算机、通信和其他电子设备制造业",
+    "state": "已问询",
+    "region": "江苏",
+    "sponsor": "东方证券股份有限公司"
+   },
+   {
+    "date": "2026-10-21",
+    "acceptDate": "2026-06-29",
+    "company": "绽妍生物科技股份有限公司",
+    "market": "北交所",
+    "industry": "化学原料和化学制品制造业",
+    "state": "已问询",
+    "region": "四川省 成都市",
+    "sponsor": "中国国际金融股份有限公司"
+   },
+   {
     "date": "2026-10-20",
     "acceptDate": "2026-05-13",
     "company": "广东保伦电子股份有限公司",
@@ -5679,6 +5699,16 @@
     "state": "已问询",
     "region": "安徽省 芜湖市",
     "sponsor": "招商证券股份有限公司"
+   },
+   {
+    "date": "2026-10-20",
+    "acceptDate": "2026-06-29",
+    "company": "浙江亿得新材料股份有限公司",
+    "market": "北交所",
+    "industry": "化学原料和化学制品制造业",
+    "state": "已问询",
+    "region": "浙江省 绍兴市",
+    "sponsor": "财通证券股份有限公司"
    },
    {
     "date": "2026-10-19",
@@ -6029,36 +6059,6 @@
     "state": "已问询",
     "region": "江苏",
     "sponsor": "华泰联合证券有限责任公司"
-   },
-   {
-    "date": "2026-09-29",
-    "acceptDate": "2026-06-16",
-    "company": "江苏安澜万锦电子股份有限公司",
-    "market": "沪主板",
-    "industry": "计算机、通信和其他电子设备制造业",
-    "state": "已问询",
-    "region": "江苏",
-    "sponsor": "东方证券股份有限公司"
-   },
-   {
-    "date": "2026-09-29",
-    "acceptDate": "2026-06-11",
-    "company": "博睿康技术(上海)股份有限公司",
-    "market": "科创板",
-    "industry": "专用设备制造业",
-    "state": "已问询",
-    "region": "上海",
-    "sponsor": "中信证券股份有限公司"
-   },
-   {
-    "date": "2026-09-29",
-    "acceptDate": "2026-06-30",
-    "company": "东方晶源微电子科技(北京)股份有限公司",
-    "market": "科创板",
-    "industry": "专用设备制造业",
-    "state": "已问询",
-    "region": "北京",
-    "sponsor": "中信建投证券股份有限公司"
    }
   ]
  }
