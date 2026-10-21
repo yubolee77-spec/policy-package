@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-20 17:43",
+ "generatedAt": "2026-10-21 08:00",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 295,
+ "candidateCount": 297,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-21 · 深刻认识中国经济运行的三个突出特点（人民日报）",
+     "title": "深刻认识中国经济运行的三个突出特点",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186860.html",
+     "date": "2026-10-21",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-21 · 统筹用好两个市场两种资源（经济日报）",
+     "title": "统筹用好两个市场两种资源",
+     "url": "http://paper.ce.cn/pc/content/202610/21/content_340597.html",
+     "date": "2026-10-21",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-20 · 2026年三季度国内生产总值初步核算结果（国家统计局最新数据发布）",
      "title": "2026年三季度国内生产总值初步核算结果",
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html",
@@ -294,35 +310,19 @@
      "noise": false
     },
     {
-     "label": "2026-10-19 · 前三季度经济运行总体平稳 高质量发展取得新成效（国家统计局最新数据发布）",
-     "title": "前三季度经济运行总体平稳 高质量发展取得新成效",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965618.html",
+     "label": "2026-10-19 · 中国证监会就《证券市场先行赔付指导意见》公开征求意见（证监会最新动态）",
+     "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml",
      "date": "2026-10-19",
-     "source": "国家统计局最新数据发布",
+     "source": "证监会最新动态",
      "noise": false
     },
     {
-     "label": "2026-10-19 · 2026年9月份规模以上工业增加值增长5.5%（国家统计局最新数据发布）",
-     "title": "2026年9月份规模以上工业增加值增长5.5%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965617.html",
+     "label": "2026-10-19 · 中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问（证监会最新动态）",
+     "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7665427/content.shtml",
      "date": "2026-10-19",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-10-19 · 2026年1—9月份全国固定资产投资基本情况（国家统计局最新数据发布）",
-     "title": "2026年1—9月份全国固定资产投资基本情况",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965616.html",
-     "date": "2026-10-19",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-10-19 · 2026年1—9月份全国房地产市场基本情况（国家统计局最新数据发布）",
-     "title": "2026年1—9月份全国房地产市场基本情况",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965615.html",
-     "date": "2026-10-19",
-     "source": "国家统计局最新数据发布",
+     "source": "证监会最新动态",
      "noise": false
     }
    ],
