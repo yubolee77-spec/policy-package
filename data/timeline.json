@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-21 17:42",
+ "generatedAt": "2026-10-22 08:09",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 297,
+ "candidateCount": 300,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,38 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-22 · 在新长征路上阔步前行（人民日报）",
+     "title": "在新长征路上阔步前行",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187095.html",
+     "date": "2026-10-22",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-22 · 努力实现发展和安全良性互动（经济日报）",
+     "title": "努力实现发展和安全良性互动",
+     "url": "http://paper.ce.cn/pc/content/202610/22/content_340651.html",
+     "date": "2026-10-22",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-22 · 金观平：努力实现发展和安全良性互动（经济日报）",
+     "title": "金观平：努力实现发展和安全良性互动",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/view/ent/202610/t20261022_3267271.shtml",
+     "date": "2026-10-22",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-21 · 工业和信息化部关于印发《加快构建工业和信息化领域碳排放双控工作体系实施方案（2026—2030年）》的通知（工信部最新政策文件）",
+     "title": "工业和信息化部关于印发《加快构建工业和信息化领域碳排放双控工作体系实施方案（2026—2030年）》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7083953.htm",
+     "date": "2026-10-21",
+     "source": "工信部最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-10-21 · 深刻认识中国经济运行的三个突出特点（人民日报）",
      "title": "深刻认识中国经济运行的三个突出特点",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186860.html",
@@ -291,38 +323,6 @@
      "url": "http://paper.ce.cn/pc/content/202610/21/content_340597.html",
      "date": "2026-10-21",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-20 · 2026年三季度国内生产总值初步核算结果（国家统计局最新数据发布）",
-     "title": "2026年三季度国内生产总值初步核算结果",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261020_1965658.html",
-     "date": "2026-10-20",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-10-20 · 为世界经济注入宝贵确定性（经济日报）",
-     "title": "为世界经济注入宝贵确定性",
-     "url": "http://paper.ce.cn/pc/content/202610/20/content_340547.html",
-     "date": "2026-10-20",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-19 · 中国证监会就《证券市场先行赔付指导意见》公开征求意见（证监会最新动态）",
-     "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7665462/content.shtml",
-     "date": "2026-10-19",
-     "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-10-19 · 中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问（证监会最新动态）",
-     "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7665427/content.shtml",
-     "date": "2026-10-19",
-     "source": "证监会最新动态",
      "noise": false
     }
    ],
