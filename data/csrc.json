@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22 08:02",
+ "generatedAt": "2026-10-22 17:36",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -22,6 +22,26 @@
   "cycleVerdict": "放缓 20%"
  },
  "penalty": [
+  {
+   "date": "2026-10-22",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对山西鼎隆智装科技股份有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shanxi/c103686/c7666095/content.shtml"
+  },
+  {
+   "date": "2026-10-22",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "深圳证监局关于对策牛（深圳）科技发展有限公司、沈洁采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7666089/content.shtml"
+  },
   {
    "date": "2026-10-21",
    "channel": "监管工作",
@@ -861,26 +881,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/chongqing/c104814/c7663788/content.shtml"
-  },
-  {
-   "date": "2026-10-10",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对重庆市永川区惠通建设发展有限公司及皮继泽、李丹丹采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7663785/content.shtml"
-  },
-  {
-   "date": "2026-10-10",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对李名芳采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7663782/content.shtml"
   },
   {
    "date": "2026-10-10",
@@ -5662,13 +5662,13 @@
   "recentActive": [
    {
     "date": "2026-10-21",
-    "acceptDate": "2026-06-16",
-    "company": "江苏安澜万锦电子股份有限公司",
-    "market": "沪主板",
-    "industry": "计算机、通信和其他电子设备制造业",
+    "acceptDate": "2026-06-29",
+    "company": "广东日信高精密科技股份有限公司",
+    "market": "北交所",
+    "industry": "专用设备制造业",
     "state": "已问询",
-    "region": "江苏",
-    "sponsor": "东方证券股份有限公司"
+    "region": "广东省 东莞市",
+    "sponsor": "国联民生证券承销保荐有限公司"
    },
    {
     "date": "2026-10-21",
@@ -5679,6 +5679,16 @@
     "state": "已问询",
     "region": "四川省 成都市",
     "sponsor": "中国国际金融股份有限公司"
+   },
+   {
+    "date": "2026-10-21",
+    "acceptDate": "2026-06-16",
+    "company": "江苏安澜万锦电子股份有限公司",
+    "market": "沪主板",
+    "industry": "计算机、通信和其他电子设备制造业",
+    "state": "已问询",
+    "region": "江苏",
+    "sponsor": "东方证券股份有限公司"
    },
    {
     "date": "2026-10-20",
@@ -6049,16 +6059,6 @@
     "state": "已受理",
     "region": "浙江省 湖州市",
     "sponsor": "兴业证券股份有限公司"
-   },
-   {
-    "date": "2026-09-29",
-    "acceptDate": "2026-03-30",
-    "company": "飞依诺科技股份有限公司",
-    "market": "创业板",
-    "industry": "专用设备制造业",
-    "state": "已问询",
-    "region": "江苏",
-    "sponsor": "华泰联合证券有限责任公司"
    }
   ]
  }

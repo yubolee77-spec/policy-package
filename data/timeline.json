@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22 08:09",
+ "generatedAt": "2026-10-22 17:39",
  "month": 10,
  "hotPeriod": "9-10月",
  "candidateCount": 300,
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-22 · 工业和信息化部等八部门关于印发《产业基础能力提升“十五五”规划》的通知（工信部最新政策文件）",
+     "title": "工业和信息化部等八部门关于印发《产业基础能力提升“十五五”规划》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084022.htm",
+     "date": "2026-10-22",
+     "source": "工信部最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-10-22 · 在新长征路上阔步前行（人民日报）",
      "title": "在新长征路上阔步前行",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187095.html",
@@ -315,14 +323,6 @@
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186860.html",
      "date": "2026-10-21",
      "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-21 · 统筹用好两个市场两种资源（经济日报）",
-     "title": "统筹用好两个市场两种资源",
-     "url": "http://paper.ce.cn/pc/content/202610/21/content_340597.html",
-     "date": "2026-10-21",
-     "source": "经济日报",
      "noise": false
     }
    ],
