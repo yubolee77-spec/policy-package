@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23 08:05",
+ "generatedAt": "2026-10-23 17:37",
  "month": 10,
  "hotPeriod": "9-10月",
  "candidateCount": 300,
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-23 · 国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见（国务院最新政策文件）",
+     "title": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084108.htm",
+     "date": "2026-10-23",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-10-23 · 2025年中国创新指数比上年增长6.4%（国家统计局最新数据发布）",
+     "title": "2025年中国创新指数比上年增长6.4%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965677.html",
+     "date": "2026-10-23",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-10-22 · 工业和信息化部等八部门关于印发《产业基础能力提升“十五五”规划》的通知（工信部最新政策文件）",
      "title": "工业和信息化部等八部门关于印发《产业基础能力提升“十五五”规划》的通知",
      "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084022.htm",
@@ -307,22 +323,6 @@
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/view/ent/202610/t20261022_3267271.shtml",
      "date": "2026-10-22",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-21 · 工业和信息化部关于印发《加快构建工业和信息化领域碳排放双控工作体系实施方案（2026—2030年）》的通知（工信部最新政策文件）",
-     "title": "工业和信息化部关于印发《加快构建工业和信息化领域碳排放双控工作体系实施方案（2026—2030年）》的通知",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7083953.htm",
-     "date": "2026-10-21",
-     "source": "工信部最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-10-21 · 深刻认识中国经济运行的三个突出特点（人民日报）",
-     "title": "深刻认识中国经济运行的三个突出特点",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/21/content_30186860.html",
-     "date": "2026-10-21",
-     "source": "人民日报",
      "noise": false
     }
    ],

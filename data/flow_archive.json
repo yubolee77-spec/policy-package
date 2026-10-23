@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-23 08:05",
+  "updated": "2026-10-23 17:38",
   "items": [
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105906/c7666326/content.shtml",
+      "title": "关于同意上海羲禾科技股份有限公司首次公开发行股票注册的批复",
+      "date": "2026-10-23",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "首发上市（IPO）",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101841/c7666345/content.shtml",
+      "title": "关于核准设立花旗证券（中国）有限公司的批复",
+      "date": "2026-10-23",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
     {
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
       "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-23 08:05",
+  "generatedAt": "2026-10-23 17:37",
   "asOf": "2026-10",
   "asOfLabel": "2026年10月",
-  "archiveTotal": 234,
+  "archiveTotal": 236,
   "archiveAdded": 2,
   "channels": [
     {
@@ -1239,14 +1239,14 @@
           "cur": {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 12,
+            "n": 14,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "首发上市（IPO）": 2,
+              "机构资格": 3,
               "其他审核": 6,
-              "首发上市（IPO）": 1,
-              "再融资": 3,
-              "机构资格": 2
+              "再融资": 3
             }
           },
           "prev": {
@@ -1264,21 +1264,21 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -71.4,
+          "deltaPct": -66.7,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 12,
+            "n": 14,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "首发上市（IPO）": 2,
+              "机构资格": 3,
               "其他审核": 6,
-              "首发上市（IPO）": 1,
-              "再融资": 3,
-              "机构资格": 2
+              "再融资": 3
             }
           },
           "prev": {
@@ -1296,21 +1296,21 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -86.8,
+          "deltaPct": -84.6,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 120,
+            "n": 122,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "首发上市（IPO）": 14,
+              "机构资格": 34,
               "其他审核": 41,
-              "首发上市（IPO）": 13,
               "再融资": 14,
-              "机构资格": 33,
               "REITs 注册": 14,
               "并购重组": 5
             }
@@ -1328,7 +1328,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 287.1,
+          "deltaPct": 293.5,
           "deltaAmountPct": null
         }
       },
@@ -1391,7 +1391,7 @@
           {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 12,
+            "n": 14,
             "amountYi": 0.0
           },
           {
@@ -1429,7 +1429,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 12,
+            "n": 14,
             "amountYi": 0.0
           }
         ],
@@ -1443,7 +1443,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 120,
+            "n": 122,
             "amountYi": 0.0
           }
         ]
@@ -1542,10 +1542,18 @@
           },
           {
             "name": "机构资格",
-            "cur": 2,
+            "cur": 3,
             "prev": 16,
-            "deltaPct": -87.5,
+            "deltaPct": -81.2,
             "items": [
+              {
+                "title": "关于核准设立花旗证券（中国）有限公司的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101841/c7666345/content.shtml",
+                "date": "2026-10-23",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准广发基金管理有限公司在香港特别行政区设立广发基金国际控股有限公司的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101880/c7665188/content.shtml",
@@ -1563,14 +1571,22 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 2
+            "totalItems": 3
           },
           {
             "name": "首发上市（IPO）",
-            "cur": 1,
+            "cur": 2,
             "prev": 3,
-            "deltaPct": -66.7,
+            "deltaPct": -33.3,
             "items": [
+              {
+                "title": "关于同意上海羲禾科技股份有限公司首次公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c105906/c7666326/content.shtml",
+                "date": "2026-10-23",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于同意苏州朗高电机科技股份有限公司首次公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml",
@@ -1580,7 +1596,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 1
+            "totalItems": 2
           },
           {
             "name": "REITs 注册",
@@ -1692,10 +1708,18 @@
           },
           {
             "name": "机构资格",
-            "cur": 2,
+            "cur": 3,
             "prev": 31,
-            "deltaPct": -93.5,
+            "deltaPct": -90.3,
             "items": [
+              {
+                "title": "关于核准设立花旗证券（中国）有限公司的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101841/c7666345/content.shtml",
+                "date": "2026-10-23",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准广发基金管理有限公司在香港特别行政区设立广发基金国际控股有限公司的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101880/c7665188/content.shtml",
@@ -1713,14 +1737,22 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 2
+            "totalItems": 3
           },
           {
             "name": "首发上市（IPO）",
-            "cur": 1,
+            "cur": 2,
             "prev": 12,
-            "deltaPct": -91.7,
+            "deltaPct": -83.3,
             "items": [
+              {
+                "title": "关于同意上海羲禾科技股份有限公司首次公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c105906/c7666326/content.shtml",
+                "date": "2026-10-23",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于同意苏州朗高电机科技股份有限公司首次公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml",
@@ -1730,7 +1762,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 1
+            "totalItems": 2
           },
           {
             "name": "REITs 注册",
@@ -1809,10 +1841,18 @@
           },
           {
             "name": "机构资格",
-            "cur": 33,
+            "cur": 34,
             "prev": 1,
-            "deltaPct": 3200.0,
+            "deltaPct": 3300.0,
             "items": [
+              {
+                "title": "关于核准设立花旗证券（中国）有限公司的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101841/c7666345/content.shtml",
+                "date": "2026-10-23",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准广发基金管理有限公司在香港特别行政区设立广发基金国际控股有限公司的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101880/c7665188/content.shtml",
@@ -1852,17 +1892,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准德邦证券股份有限公司变更主要股东的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101846/c7661133/content.shtml",
-                "date": "2026-09-20",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 33
+            "totalItems": 34
           },
           {
             "name": "REITs 注册",
@@ -1980,10 +2012,18 @@
           },
           {
             "name": "首发上市（IPO）",
-            "cur": 13,
+            "cur": 14,
             "prev": 0,
             "deltaPct": 100.0,
             "items": [
+              {
+                "title": "关于同意上海羲禾科技股份有限公司首次公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c105906/c7666326/content.shtml",
+                "date": "2026-10-23",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于同意苏州朗高电机科技股份有限公司首次公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml",
@@ -2023,17 +2063,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意重庆宇隆光电科技股份有限公司首次公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml",
-                "date": "2026-08-28",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 13
+            "totalItems": 14
           },
           {
             "name": "并购重组",
@@ -2093,7 +2125,7 @@
       "up": [],
       "down": [
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2101,7 +2133,7 @@
           "url": ""
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2123,7 +2155,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2131,7 +2163,7 @@
           "url": ""
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2210,7 +2242,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2218,7 +2250,7 @@
           "url": ""
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2255,6 +2287,26 @@
     }
   },
   "recent": [
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105906/c7666326/content.shtml",
+      "title": "关于同意上海羲禾科技股份有限公司首次公开发行股票注册的批复",
+      "date": "2026-10-23",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "首发上市（IPO）",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101841/c7666345/content.shtml",
+      "title": "关于核准设立花旗证券（中国）有限公司的批复",
+      "date": "2026-10-23",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
     {
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
       "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
@@ -3434,26 +3486,6 @@
       "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
-    },
-    {
-      "url": "https://sbs.mof.gov.cn/zhengcefabu/202604/t20260421_3988007.htm",
-      "title": "财政部、退役军人事务部制定印发《中央专项彩票公益金支持光荣院能力提升项目资金管理办法》",
-      "date": "2026-04-21",
-      "org": "财政部",
-      "channel": "special_fund",
-      "industry": "综合与其他",
-      "amountYi": null,
-      "src": "财政部官网栏目"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/202604/content_7066128.htm",
-      "title": "国家发改委：推动7550亿元中央预算内投资、1万亿元超长期特别国债于6月底前基本下达完毕",
-      "date": "2026-04-17",
-      "org": "gov.cn",
-      "channel": "special_fund",
-      "industry": "综合与其他",
-      "amountYi": 7550.0,
-      "src": "gov.cn 政策库"
     }
   ],
   "note": "口径：以官方发布的资金类文件条数作为资金节奏指标（每项均附原文可核验）；标题或摘要中出现金额时抽取为亿元一并展示，未抽取到的不做估算。行业归类按国民经济行业分类门类归并。"
