@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-23 17:34",
+ "generatedAt": "2026-10-24 07:54",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -10,9 +10,9 @@
   "penaltyTotal": 236,
   "penaltyMonth": 113,
   "approvalTotal": 173,
-  "approvalMonth": 15,
+  "approvalMonth": 18,
   "reitsApproved30d": 1,
-  "ipoApproved30d": 2,
+  "ipoApproved30d": 3,
   "mediaTotal": 120,
   "mediaStrong": 90,
   "activeTotal": 145,
@@ -22,6 +22,26 @@
   "cycleVerdict": "放缓 20%"
  },
  "penalty": [
+  {
+   "date": "2026-10-23",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "云南辖区拟上市企业辅导备案工作进展情况表（截至2026年8月31日）",
+   "docNo": "",
+   "party": "截至2026年8月31日",
+   "url": "https://www.csrc.gov.cn/yunnan/c105481/c7666417/content.shtml"
+  },
+  {
+   "date": "2026-10-23",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-10-23",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7666081/content.shtml"
+  },
   {
    "date": "2026-10-23",
    "channel": "行政监管措施",
@@ -204,26 +224,6 @@
   },
   {
    "date": "2026-10-23",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "云南辖区拟上市企业辅导备案工作进展情况表（截至2026年8月31日）",
-   "docNo": "",
-   "party": "截至2026年8月31日",
-   "url": "https://www.csrc.gov.cn/yunnan/c105481/c7666417/content.shtml"
-  },
-  {
-   "date": "2026-10-23",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-10-23",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7666081/content.shtml"
-  },
-  {
-   "date": "2026-10-23",
    "channel": "行政处罚决定",
    "column": "行政处罚决定",
    "tag": "行政处罚",
@@ -231,6 +231,26 @@
    "docNo": "〔2026〕52号",
    "party": "佳缘科技股份有限公司",
    "url": "https://www.csrc.gov.cn/csrc/c101971/c7666338/content.shtml"
+  },
+  {
+   "date": "2026-10-22",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "山东辖区召开北交所上市公司高质量发展座谈会",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c100809/c7666107/content.shtml"
+  },
+  {
+   "date": "2026-10-22",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "关于福建辖区2026年度律师事务所从事证券法律业务检查随机抽取结果的公示",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/fujian/c104058/c7666244/content.shtml"
   },
   {
    "date": "2026-10-22",
@@ -283,26 +303,6 @@
    "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7666089/content.shtml"
   },
   {
-   "date": "2026-10-22",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "山东辖区召开北交所上市公司高质量发展座谈会",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shandong/c100809/c7666107/content.shtml"
-  },
-  {
-   "date": "2026-10-22",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "关于福建辖区2026年度律师事务所从事证券法律业务检查随机抽取结果的公示",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104058/c7666244/content.shtml"
-  },
-  {
    "date": "2026-10-21",
    "channel": "监管工作",
    "column": "辖区监管动态",
@@ -314,13 +314,23 @@
   },
   {
    "date": "2026-10-20",
-   "channel": "行政监管措施",
-   "column": "监管措施",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
    "tag": "警示函",
    "title": "关于对内蒙古金煤化工科技股份有限公司及相关责任人员采取出具警示函措施的决定",
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7665726/content.shtml"
+  },
+  {
+   "date": "2026-10-20",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "辽宁辖区2026年8月期货经营机构及市场概况",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/liaoning/c100467/c7665713/content.shtml"
   },
   {
    "date": "2026-10-20",
@@ -363,14 +373,34 @@
    "url": "https://www.csrc.gov.cn/xinjiang/c104370/c7665671/content.shtml"
   },
   {
-   "date": "2026-10-20",
+   "date": "2026-10-19",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
-   "title": "辽宁辖区2026年8月期货经营机构及市场概况",
+   "title": "四川局加大债券融资支持，提升辖区债券市场服务普惠金融效能",
    "docNo": "",
    "party": "",
-   "url": "https://www.csrc.gov.cn/liaoning/c100467/c7665713/content.shtml"
+   "url": "https://www.csrc.gov.cn/sichuan/c101113/c7665569/content.shtml"
+  },
+  {
+   "date": "2026-10-19",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "贵州证监局行政许可申请、受理及审核情况公示表（截至2026年10月16日）",
+   "docNo": "",
+   "party": "截至2026年10月16日",
+   "url": "https://www.csrc.gov.cn/guizhou/c104856/c7665708/content.shtml"
+  },
+  {
+   "date": "2026-10-19",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对蓝桃文化（西安）股份有限公司及闫强、闫伟、莫苇杭采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shaanxi/c104628/c7665481/content.shtml"
   },
   {
    "date": "2026-10-19",
@@ -421,16 +451,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7665501/content.shtml"
-  },
-  {
-   "date": "2026-10-19",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对蓝桃文化（西安）股份有限公司及闫强、闫伟、莫苇杭采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shaanxi/c104628/c7665481/content.shtml"
   },
   {
    "date": "2026-10-19",
@@ -503,24 +523,64 @@
    "url": "https://www.csrc.gov.cn/dalian/c104244/c7665408/content.shtml"
   },
   {
-   "date": "2026-10-19",
+   "date": "2026-10-16",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
-   "title": "四川局加大债券融资支持，提升辖区债券市场服务普惠金融效能",
+   "title": "投资者保护工作动态2026年第3期（总第3期）",
    "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/sichuan/c101113/c7665569/content.shtml"
+   "party": "总第3期",
+   "url": "https://www.csrc.gov.cn/ningxia/c101455/c7665204/content.shtml"
   },
   {
-   "date": "2026-10-19",
+   "date": "2026-10-16",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对江海证券有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7665134/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
    "channel": "通知公告",
    "column": "辖区监管动态",
    "tag": "监管措施",
-   "title": "贵州证监局行政许可申请、受理及审核情况公示表（截至2026年10月16日）",
+   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-10-16",
    "docNo": "",
-   "party": "截至2026年10月16日",
-   "url": "https://www.csrc.gov.cn/guizhou/c104856/c7665708/content.shtml"
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7664804/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "2026年8月吉林辖区资本市场概况",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c100505/c7664968/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "吉林辖区“消夏 投教”系列宣传完美收官",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c100505/c7664967/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "山东辖区举办上市公司出海专题培训会",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c100809/c7664960/content.shtml"
   },
   {
    "date": "2026-10-16",
@@ -601,16 +661,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/chongqing/c104814/c7665146/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对江海证券有限公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7665134/content.shtml"
   },
   {
    "date": "2026-10-16",
@@ -711,56 +761,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7665035/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "投资者保护工作动态2026年第3期（总第3期）",
-   "docNo": "",
-   "party": "总第3期",
-   "url": "https://www.csrc.gov.cn/ningxia/c101455/c7665204/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-10-16",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7664804/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "2026年8月吉林辖区资本市场概况",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c100505/c7664968/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "吉林辖区“消夏 投教”系列宣传完美收官",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c100505/c7664967/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "山东辖区举办上市公司出海专题培训会",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shandong/c100809/c7664960/content.shtml"
   },
   {
    "date": "2026-10-15",
@@ -2495,6 +2495,26 @@
    "url": "https://www.csrc.gov.cn/csrc/c106381/c7322612/content.shtml"
   },
   {
+   "date": "2026-10-20",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "核准批复",
+   "title": "关于同意浙江温州洞头农村商业银行股份有限公司向特定对象发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101830/c7666483/content.shtml"
+  },
+  {
+   "date": "2026-10-16",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "核准批复",
+   "title": "关于同意济南农村商业银行股份有限公司向特定对象发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101830/c7666479/content.shtml"
+  },
+  {
    "date": "2026-10-16",
    "channel": "结果公示",
    "column": "结果公示",
@@ -2503,6 +2523,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml"
+  },
+  {
+   "date": "2026-10-14",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "IPO注册",
+   "title": "关于同意上海百英生物科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101830/c7666431/content.shtml"
   },
   {
    "date": "2026-10-12",
@@ -3063,36 +3093,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c101895/c7652866/content.shtml"
-  },
-  {
-   "date": "2026-08-18",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "REITs·基础设施",
-   "title": "关于准予国泰海通中国建筑租赁住房封闭式基础设施证券投资基金注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101895/c7652863/content.shtml"
-  },
-  {
-   "date": "2026-08-17",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "REITs·基础设施",
-   "title": "关于准予博时山东铁投路桥封闭式基础设施证券投资基金注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101895/c7652868/content.shtml"
-  },
-  {
-   "date": "2026-08-17",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "REITs·商业不动产",
-   "title": "关于准予华泰紫金华住安住封闭式商业不动产证券投资基金注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101895/c7652840/content.shtml"
   },
   {
    "date": "2026-05-22",
@@ -5293,7 +5293,7 @@
   "pipelineTotal": 849,
   "activeTotal": 145,
   "successTotal": 158,
-  "failTotal": 203,
+  "failTotal": 204,
   "stages": [
    {
     "name": "已受理",
@@ -5302,7 +5302,7 @@
    },
    {
     "name": "已问询",
-    "count": 112,
+    "count": 114,
     "kind": "active"
    },
    {
@@ -5312,7 +5312,7 @@
    },
    {
     "name": "提交注册",
-    "count": 25,
+    "count": 23,
     "kind": "active"
    },
    {
@@ -5322,7 +5322,7 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 203,
+    "count": 204,
     "kind": "fail"
    }
   ],
@@ -5672,13 +5672,13 @@
   "recentActive": [
    {
     "date": "2026-10-23",
-    "acceptDate": "2026-06-17",
-    "company": "上海天泽云泰生物医药股份有限公司",
+    "acceptDate": "2026-06-30",
+    "company": "江苏鲁汶仪器股份有限公司",
     "market": "科创板",
-    "industry": "医药制造业",
+    "industry": "专用设备制造业",
     "state": "已问询",
-    "region": "上海",
-    "sponsor": "国泰海通证券股份有限公司"
+    "region": "江苏",
+    "sponsor": "中信证券股份有限公司"
    },
    {
     "date": "2026-10-23",
@@ -5701,6 +5701,16 @@
     "sponsor": "国泰海通证券股份有限公司"
    },
    {
+    "date": "2026-10-23",
+    "acceptDate": "2026-06-17",
+    "company": "上海天泽云泰生物医药股份有限公司",
+    "market": "科创板",
+    "industry": "医药制造业",
+    "state": "已问询",
+    "region": "上海",
+    "sponsor": "国泰海通证券股份有限公司"
+   },
+   {
     "date": "2026-10-22",
     "acceptDate": "2026-06-25",
     "company": "深圳市裕富照明股份有限公司",
@@ -5719,6 +5729,16 @@
     "state": "已收到注册申请材料",
     "region": "江苏",
     "sponsor": "广发证券股份有限公司"
+   },
+   {
+    "date": "2026-10-22",
+    "acceptDate": "2026-06-25",
+    "company": "雅安百图高新材料股份有限公司",
+    "market": "北交所",
+    "industry": "非金属矿物制品业",
+    "state": "已问询",
+    "region": "四川省 雅安市",
+    "sponsor": "中国国际金融股份有限公司"
    },
    {
     "date": "2026-10-22",
@@ -5829,6 +5849,26 @@
     "state": "已问询",
     "region": "湖南",
     "sponsor": "中泰证券股份有限公司"
+   },
+   {
+    "date": "2026-10-15",
+    "acceptDate": "2026-05-11",
+    "company": "纽氏达特行星传动系统技术(淄博)股份有限公司",
+    "market": "创业板",
+    "industry": "通用设备制造业",
+    "state": "已问询",
+    "region": "山东",
+    "sponsor": "东方证券股份有限公司"
+   },
+   {
+    "date": "2026-10-15",
+    "acceptDate": "2026-06-30",
+    "company": "苏州冠礼科技股份有限公司",
+    "market": "创业板",
+    "industry": "专用设备制造业",
+    "state": "已问询",
+    "region": "江苏",
+    "sponsor": "东吴证券股份有限公司"
    },
    {
     "date": "2026-10-14",
@@ -6029,46 +6069,6 @@
     "state": "已问询",
     "region": "浙江",
     "sponsor": "国泰海通证券股份有限公司"
-   },
-   {
-    "date": "2026-09-30",
-    "acceptDate": "2026-06-30",
-    "company": "上海隐冠半导体技术股份有限公司",
-    "market": "科创板",
-    "industry": "专用设备制造业",
-    "state": "已问询",
-    "region": "上海",
-    "sponsor": "华泰联合证券有限责任公司"
-   },
-   {
-    "date": "2026-09-30",
-    "acceptDate": "2026-05-15",
-    "company": "苏州华太电子技术股份有限公司",
-    "market": "科创板",
-    "industry": "计算机、通信和其他电子设备制造业",
-    "state": "已问询",
-    "region": "江苏",
-    "sponsor": "华泰联合证券有限责任公司"
-   },
-   {
-    "date": "2026-09-30",
-    "acceptDate": "2026-06-24",
-    "company": "成立航空股份有限公司",
-    "market": "创业板",
-    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
-    "state": "已问询",
-    "region": "天津",
-    "sponsor": "广发证券股份有限公司"
-   },
-   {
-    "date": "2026-09-30",
-    "acceptDate": "2026-03-27",
-    "company": "力高新能源技术股份有限公司",
-    "market": "创业板",
-    "industry": "电气机械和器材制造业",
-    "state": "已问询",
-    "region": "山东",
-    "sponsor": "中信建投证券股份有限公司"
    }
   ]
  }

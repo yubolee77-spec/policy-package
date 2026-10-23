@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23 17:38",
+  "updated": "2026-10-24 07:58",
   "items": [
     {
       "url": "https://www.csrc.gov.cn/csrc/c105906/c7666326/content.shtml",
@@ -18,6 +18,16 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7666483/content.shtml",
+      "title": "关于同意浙江温州洞头农村商业银行股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-10-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -102,6 +112,16 @@
       "src": "证监会审核台账"
     },
     {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7666479/content.shtml",
+      "title": "关于同意济南农村商业银行股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-10-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
       "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
       "title": "前三季度金融数据出炉多元化融资特征鲜明",
       "date": "2026-10-14",
@@ -110,6 +130,16 @@
       "industry": "其他审核",
       "amountYi": null,
       "src": "gov.cn 政策库"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7666431/content.shtml",
+      "title": "关于同意上海百英生物科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+      "date": "2026-10-14",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
     },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101830/c7665162/content.shtml",
