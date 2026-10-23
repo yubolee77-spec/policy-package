@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22 17:39",
+ "generatedAt": "2026-10-23 08:05",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-22 17:39",
-   "ageDays": 14
+   "fetchedAt": "2026-10-23 08:05",
+   "ageDays": 15
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 15,
-   "fetchedAt": "2026-10-22 17:39",
-   "ageDays": 2
+   "fetchedAt": "2026-10-23 08:05",
+   "ageDays": 3
   },
   {
    "key": "localbond",
@@ -53,9 +53,9 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 21,
-   "fetchedAt": "2026-10-22 17:39",
-   "ageDays": 356
+   "total": 14,
+   "fetchedAt": "2026-10-23 08:05",
+   "ageDays": 357
   },
   {
    "key": "media",
@@ -72,8 +72,8 @@
    },
    "stale": false,
    "total": 171,
-   "fetchedAt": "2026-10-22 17:39",
-   "ageDays": 0
+   "fetchedAt": "2026-10-23 08:05",
+   "ageDays": 1
   }
  ],
  "stale": false,

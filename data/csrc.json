@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-22 17:36",
+ "generatedAt": "2026-10-23 08:01",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -8,20 +8,50 @@
  },
  "kpi": {
   "penaltyTotal": 235,
-  "penaltyMonth": 107,
+  "penaltyMonth": 108,
   "approvalTotal": 173,
   "approvalMonth": 13,
   "reitsApproved30d": 1,
   "ipoApproved30d": 2,
   "mediaTotal": 120,
   "mediaStrong": 90,
-  "activeTotal": 143,
+  "activeTotal": 145,
   "successTotal": 158,
   "cycleRecentAvg": 301,
   "cyclePrevAvg": 251,
   "cycleVerdict": "放缓 20%"
  },
  "penalty": [
+  {
+   "date": "2026-10-22",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对姜云飞采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7666105/content.shtml"
+  },
+  {
+   "date": "2026-10-22",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对长安期货有限公司山东分公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7666103/content.shtml"
+  },
+  {
+   "date": "2026-10-22",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对山东致群信息技术股份有限公司及李致文、李莉采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7666101/content.shtml"
+  },
   {
    "date": "2026-10-22",
    "channel": "行政监管措施",
@@ -41,6 +71,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7666089/content.shtml"
+  },
+  {
+   "date": "2026-10-22",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "山东辖区召开北交所上市公司高质量发展座谈会",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c100809/c7666107/content.shtml"
   },
   {
    "date": "2026-10-21",
@@ -834,26 +874,6 @@
   },
   {
    "date": "2026-10-12",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对天津广正建设项目咨询股份有限公司及刘弘、王海娜、张宇采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/tianjin/c103610/c7663927/content.shtml"
-  },
-  {
-   "date": "2026-10-12",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对容诚会计师事务所（特殊普通合伙）、梁宝珠、林辉钦、余璐楠采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103901/c7664178/content.shtml"
-  },
-  {
-   "date": "2026-10-12",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -871,16 +891,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/tianjin/c100315/c7663989/content.shtml"
-  },
-  {
-   "date": "2026-10-10",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对重庆市潼南区城市建设投资（集团）有限公司及张超、徐佰仪采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7663788/content.shtml"
   },
   {
    "date": "2026-10-10",
@@ -1171,16 +1181,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7662222/content.shtml"
-  },
-  {
-   "date": "2026-09-30",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "警示函",
-   "title": "关于对莫崇国采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7662219/content.shtml"
   },
   {
    "date": "2026-09-24",
@@ -2525,6 +2525,16 @@
    "url": "https://www.csrc.gov.cn/csrc/c101885/c7665310/content.shtml"
   },
   {
+   "date": "2026-09-24",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "核准批复",
+   "title": "关于同意江西于都农村商业银行股份有限公司向特定对象发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101830/c7666197/content.shtml"
+  },
+  {
    "date": "2026-09-22",
    "channel": "结果公示",
    "column": "结果公示",
@@ -2533,6 +2543,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c101885/c7665308/content.shtml"
+  },
+  {
+   "date": "2026-09-21",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "核准批复",
+   "title": "关于同意临商银行股份有限公司向特定对象发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101830/c7666201/content.shtml"
   },
   {
    "date": "2026-09-21",
@@ -3063,26 +3083,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c106385/c7652176/content.shtml"
-  },
-  {
-   "date": "2026-08-10",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "核准批复",
-   "title": "关于同意广州银行股份有限公司向特定对象发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101830/c7652528/content.shtml"
-  },
-  {
-   "date": "2026-08-07",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意宁波力勤资源科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c106385/c7650718/content.shtml"
   },
   {
    "date": "2026-05-22",
@@ -5278,12 +5278,12 @@
   }
  ],
  "review": {
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "total": 4403,
   "pipelineTotal": 849,
-  "activeTotal": 143,
+  "activeTotal": 145,
   "successTotal": 158,
-  "failTotal": 202,
+  "failTotal": 203,
   "stages": [
    {
     "name": "已受理",
@@ -5292,7 +5292,7 @@
    },
    {
     "name": "已问询",
-    "count": 110,
+    "count": 112,
     "kind": "active"
    },
    {
@@ -5312,7 +5312,7 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 202,
+    "count": 203,
     "kind": "fail"
    }
   ],
@@ -5660,6 +5660,16 @@
    }
   ],
   "recentActive": [
+   {
+    "date": "2026-10-22",
+    "acceptDate": "2026-06-29",
+    "company": "百川生物科技股份有限公司",
+    "market": "北交所",
+    "industry": "农副食品加工业",
+    "state": "已问询",
+    "region": "浙江省 温州市",
+    "sponsor": "财通证券股份有限公司"
+   },
    {
     "date": "2026-10-21",
     "acceptDate": "2026-06-29",
@@ -6049,16 +6059,6 @@
     "state": "已问询",
     "region": "辽宁",
     "sponsor": "国泰海通证券股份有限公司"
-   },
-   {
-    "date": "2026-09-29",
-    "acceptDate": "2026-09-29",
-    "company": "浙江凯瑞博科技股份有限公司",
-    "market": "北交所",
-    "industry": "纺织服装、服饰业",
-    "state": "已受理",
-    "region": "浙江省 湖州市",
-    "sponsor": "兴业证券股份有限公司"
    }
   ]
  }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22 17:40",
+  "updated": "2026-10-23 08:05",
   "items": [
     {
       "url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
@@ -152,6 +152,16 @@
       "src": "证监会审核台账"
     },
     {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7666197/content.shtml",
+      "title": "关于同意江西于都农村商业银行股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-09-24",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
       "url": "https://www.csrc.gov.cn/csrc/c101885/c7665308/content.shtml",
       "title": "关于核准博拉夏克投资有限公司合格境外投资者资格的批复",
       "date": "2026-09-22",
@@ -168,6 +178,16 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7666201/content.shtml",
+      "title": "关于同意临商银行股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-09-21",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
       "amountYi": null,
       "src": "证监会审核台账"
     },
