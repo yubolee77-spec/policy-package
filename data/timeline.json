@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-24 07:58",
+ "generatedAt": "2026-10-24 17:09",
  "month": 10,
  "hotPeriod": "9-10月",
  "candidateCount": 300,
@@ -294,6 +294,14 @@
      "noise": false
     },
     {
+     "label": "2026-10-23 · 2026年10月中旬流通领域重要生产资料市场价格变动情况（国家统计局最新数据发布）",
+     "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965679.html",
+     "date": "2026-10-23",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-10-23 · 2025年中国创新指数比上年增长6.4%（国家统计局最新数据发布）",
      "title": "2025年中国创新指数比上年增长6.4%",
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965677.html",
@@ -315,14 +323,6 @@
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187095.html",
      "date": "2026-10-22",
      "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-22 · 努力实现发展和安全良性互动（经济日报）",
-     "title": "努力实现发展和安全良性互动",
-     "url": "http://paper.ce.cn/pc/content/202610/22/content_340651.html",
-     "date": "2026-10-22",
-     "source": "经济日报",
      "noise": false
     }
    ],
