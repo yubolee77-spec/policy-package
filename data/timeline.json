@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-25 21:54",
+ "generatedAt": "2026-10-26 07:26",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 300,
+ "candidateCount": 302,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,19 +278,27 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-26 · 在新征程上持之以恒推进全面从严治党（人民日报）",
+     "title": "在新征程上持之以恒推进全面从严治党",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/26/content_30187527.html",
+     "date": "2026-10-26",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-26 · “四个坚持”促科技和产业双向奔赴（经济日报）",
+     "title": "“四个坚持”促科技和产业双向奔赴",
+     "url": "http://paper.ce.cn/pc/content/202610/26/content_340871.html",
+     "date": "2026-10-26",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-23 · 国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见（国务院最新政策文件）",
      "title": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
      "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084108.htm",
      "date": "2026-10-23",
      "source": "国务院最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-10-23 · 中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见（证监会最新动态）",
-     "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7666352/content.shtml",
-     "date": "2026-10-23",
-     "source": "证监会最新动态",
      "noise": false
     },
     {
@@ -310,19 +318,11 @@
      "noise": false
     },
     {
-     "label": "2026-10-22 · 工业和信息化部等八部门关于印发《产业基础能力提升“十五五”规划》的通知（工信部最新政策文件）",
-     "title": "工业和信息化部等八部门关于印发《产业基础能力提升“十五五”规划》的通知",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084022.htm",
-     "date": "2026-10-22",
-     "source": "工信部最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-10-22 · 在新长征路上阔步前行（人民日报）",
-     "title": "在新长征路上阔步前行",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/22/content_30187095.html",
-     "date": "2026-10-22",
-     "source": "人民日报",
+     "label": "2026-10-23 · 中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见（证监会最新动态）",
+     "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7666352/content.shtml",
+     "date": "2026-10-23",
+     "source": "证监会最新动态",
      "noise": false
     }
    ],
