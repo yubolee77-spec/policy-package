@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25 17:22",
+ "generatedAt": "2026-10-25 21:47",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -2776,16 +2776,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "IPO注册",
@@ -2793,6 +2783,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2946,16 +2946,6 @@
   },
   {
    "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -2983,6 +2973,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -3196,6 +3196,36 @@
   },
   {
    "date": "2025-12-31",
+   "channel": "许可审核进度",
+   "column": "许可审核进度",
+   "tag": "并购重组",
+   "title": "【行政许可事项】2025年主板并购重组申请注册企业基本情况公示",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c106392/c7534410/content.shtml"
+  },
+  {
+   "date": "2025-12-31",
+   "channel": "许可审核进度",
+   "column": "许可审核进度",
+   "tag": "并购重组",
+   "title": "【行政许可事项】2025年科创板并购重组申请注册企业基本情况公示",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c106191/c7532777/content.shtml"
+  },
+  {
+   "date": "2025-12-31",
+   "channel": "许可审核进度",
+   "column": "许可审核进度",
+   "tag": "并购重组",
+   "title": "【行政许可事项】2025年创业板并购重组申请注册企业基本情况公示",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c106194/c7534213/content.shtml"
+  },
+  {
+   "date": "2025-12-31",
    "channel": "政策解读",
    "column": "政策解读",
    "tag": "政策法规",
@@ -3233,36 +3263,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c100028/c7605669/content.shtml"
-  },
-  {
-   "date": "2025-12-31",
-   "channel": "许可审核进度",
-   "column": "许可审核进度",
-   "tag": "并购重组",
-   "title": "【行政许可事项】2025年主板并购重组申请注册企业基本情况公示",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c106392/c7534410/content.shtml"
-  },
-  {
-   "date": "2025-12-31",
-   "channel": "许可审核进度",
-   "column": "许可审核进度",
-   "tag": "并购重组",
-   "title": "【行政许可事项】2025年科创板并购重组申请注册企业基本情况公示",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c106191/c7532777/content.shtml"
-  },
-  {
-   "date": "2025-12-31",
-   "channel": "许可审核进度",
-   "column": "许可审核进度",
-   "tag": "并购重组",
-   "title": "【行政许可事项】2025年创业板并购重组申请注册企业基本情况公示",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c106194/c7534213/content.shtml"
   },
   {
    "date": "2025-10-27",
@@ -3536,16 +3536,6 @@
   },
   {
    "date": "2024-12-31",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "最高人民法院、中国证监会联合发布《关于切实审理好上市公司破产重整案件工作座谈会纪要》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7529725/content.shtml"
-  },
-  {
-   "date": "2024-12-31",
    "channel": "许可审核进度",
    "column": "许可审核进度",
    "tag": "并购重组",
@@ -3573,6 +3563,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c106194/c7494224/content.shtml"
+  },
+  {
+   "date": "2024-12-31",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "最高人民法院、中国证监会联合发布《关于切实审理好上市公司破产重整案件工作座谈会纪要》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7529725/content.shtml"
   },
   {
    "date": "2024-12-27",
