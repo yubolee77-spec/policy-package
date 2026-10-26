@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26 07:26",
+ "generatedAt": "2026-10-26 18:32",
  "month": 10,
  "hotPeriod": "9-10月",
  "candidateCount": 302,
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-26 · 事业单位登记管理条例（国务院最新政策文件）",
+     "title": "事业单位登记管理条例",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084280.htm",
+     "date": "2026-10-26",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-10-26 · 在新征程上持之以恒推进全面从严治党（人民日报）",
      "title": "在新征程上持之以恒推进全面从严治党",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/26/content_30187527.html",
@@ -302,27 +310,19 @@
      "noise": false
     },
     {
-     "label": "2026-10-23 · 2026年10月中旬流通领域重要生产资料市场价格变动情况（国家统计局最新数据发布）",
-     "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965679.html",
-     "date": "2026-10-23",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-10-23 · 2025年中国创新指数比上年增长6.4%（国家统计局最新数据发布）",
-     "title": "2025年中国创新指数比上年增长6.4%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965677.html",
-     "date": "2026-10-23",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
      "label": "2026-10-23 · 中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见（证监会最新动态）",
      "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7666352/content.shtml",
      "date": "2026-10-23",
      "source": "证监会最新动态",
+     "noise": false
+    },
+    {
+     "label": "2026-10-23 · 2026年10月中旬流通领域重要生产资料市场价格变动情况（国家统计局最新数据发布）",
+     "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965679.html",
+     "date": "2026-10-23",
+     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],

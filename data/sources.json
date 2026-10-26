@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26 07:26",
+ "generatedAt": "2026-10-26 18:32",
  "cards": [
   {
    "key": "policy",
@@ -7,17 +7,17 @@
    "indexUrl": "https://www.gov.cn/zhengce/zuixin.htm",
    "indexLabel": "gov.cn/zhengce 最新政策",
    "from": "gov",
-   "href": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084108.htm",
+   "href": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084280.htm",
    "latest": {
-    "title": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
-    "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084108.htm",
-    "date": "2026-10-23",
+    "title": "事业单位登记管理条例",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084280.htm",
+    "date": "2026-10-26",
     "source": "国务院最新政策文件"
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-26 07:26",
-   "ageDays": 3
+   "fetchedAt": "2026-10-26 18:32",
+   "ageDays": 0
   },
   {
    "key": "bond",
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-26 07:26",
+   "fetchedAt": "2026-10-26 18:32",
    "ageDays": 97
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 11,
-   "fetchedAt": "2026-10-26 07:26",
+   "total": 21,
+   "fetchedAt": "2026-10-26 18:32",
    "ageDays": 360
   },
   {
@@ -72,7 +72,7 @@
    },
    "stale": false,
    "total": 173,
-   "fetchedAt": "2026-10-26 07:26",
+   "fetchedAt": "2026-10-26 18:32",
    "ageDays": 0
   }
  ],
