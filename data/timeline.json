@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-27 01:15",
+ "generatedAt": "2026-10-27 08:35",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 302,
+ "candidateCount": 304,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-27 · 红梢林与红苹果（人民日报）",
+     "title": "红梢林与红苹果",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/27/content_30187763.html",
+     "date": "2026-10-27",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-27 · 政策接续发力激发经济动能（经济日报）",
+     "title": "政策接续发力激发经济动能",
+     "url": "http://paper.ce.cn/pc/content/202610/27/content_340937.html",
+     "date": "2026-10-27",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-26 · 事业单位登记管理条例（国务院最新政策文件）",
      "title": "事业单位登记管理条例",
      "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084280.htm",
@@ -307,22 +323,6 @@
      "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084108.htm",
      "date": "2026-10-23",
      "source": "国务院最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-10-23 · 中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见（证监会最新动态）",
-     "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7666352/content.shtml",
-     "date": "2026-10-23",
-     "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-10-23 · 2026年10月中旬流通领域重要生产资料市场价格变动情况（国家统计局最新数据发布）",
-     "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965679.html",
-     "date": "2026-10-23",
-     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],
