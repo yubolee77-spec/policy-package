@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-28 00:10",
+ "generatedAt": "2026-10-28 08:38",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 304,
+ "candidateCount": 305,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-28 · 有的放矢提高基础研究实力（经济日报）",
+     "title": "有的放矢提高基础研究实力",
+     "url": "http://paper.ce.cn/pc/content/202610/28/content_340985.html",
+     "date": "2026-10-28",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-27 · 2026年1—9月份全国规模以上工业企业利润增长15.5%（国家统计局最新数据发布）",
      "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html",
@@ -315,14 +323,6 @@
      "url": "http://paper.people.com.cn/rmrb/pc/content/202610/26/content_30187527.html",
      "date": "2026-10-26",
      "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-26 · “四个坚持”促科技和产业双向奔赴（经济日报）",
-     "title": "“四个坚持”促科技和产业双向奔赴",
-     "url": "http://paper.ce.cn/pc/content/202610/26/content_340871.html",
-     "date": "2026-10-26",
-     "source": "经济日报",
      "noise": false
     }
    ],

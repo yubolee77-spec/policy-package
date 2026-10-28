@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-28",
-  "fetchedAt": "2026-10-28 00:05",
+  "fetchedAt": "2026-10-28 08:32",
   "monthLabel": "2026年10月",
   "timeline": [
     {
@@ -3062,6 +3062,35 @@
     }
   ],
   "commentary": [
+    {
+      "url": "http://paper.ce.cn/pc/content/202610/28/content_340985.html",
+      "title": "有的放矢提高基础研究实力",
+      "author": "□ 金观平",
+      "date": "2026-10-28",
+      "media": "经济日报",
+      "byline": "金观平",
+      "summary": "随着新一轮科技革命和产业变革加速突破，全球科技竞争更加聚焦基础前沿领域，原创性颠覆性创新的重要性日益凸显。人工智能驱动科研范式变革，数据和模型成为战略性和基础性科研资源。应对新形势新挑战，亟须优化基础研究系统布局，从源头上夯实原始创新的质量根基。",
+      "keywords": [
+        {
+          "type": "ding",
+          "text": "加大"
+        },
+        {
+          "type": "deg",
+          "text": "系统"
+        },
+        {
+          "type": "deg",
+          "text": "分类"
+        },
+        {
+          "type": "verb",
+          "text": "推动"
+        }
+      ],
+      "keySentence": "强弱项，重在矫正学科结构失衡，筑牢数学等基础学科根基，加大对冷门薄弱学科、新兴交叉学科的扶持力度，让学科建设更加均衡。",
+      "tier": ""
+    },
     {
       "url": "http://paper.people.com.cn/rmrb/pc/content/202610/27/content_30187763.html",
       "title": "红梢林与红苹果",
