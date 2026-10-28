@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28 08:34",
+ "generatedAt": "2026-10-28 18:48",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -22,6 +22,56 @@
   "cycleVerdict": "放缓 12%"
  },
  "penalty": [
+  {
+   "date": "2026-10-28",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对立信会计师事务所（特殊普通合伙）、陈勇波、梁谦海、王文俊、马玥采取出具警示函措施的决定〔2026〕133号",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7667229/content.shtml"
+  },
+  {
+   "date": "2026-10-28",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对大华会计师事务所（特殊普通合伙）、江山、潘红卫采取出具警示函措施的决定〔2026〕132号",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7667226/content.shtml"
+  },
+  {
+   "date": "2026-10-28",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对财达证券股份有限公司湖南分公司采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hunan/c104484/c7667167/content.shtml"
+  },
+  {
+   "date": "2026-10-28",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对陈娜采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hunan/c104484/c7667159/content.shtml"
+  },
+  {
+   "date": "2026-10-28",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "重庆辖区举办期货机构中层管理人员业务培训暨廉洁文化教育活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c101075/c7667172/content.shtml"
+  },
   {
    "date": "2026-10-27",
    "channel": "行政监管措施",
@@ -714,46 +764,6 @@
   },
   {
    "date": "2026-10-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对北京和海益制冷科技股份有限公司、曹宏、侯子午采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/beijing/c105547/c7665246/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对北京聚智未来科技股份有限公司、方雪采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/beijing/c105547/c7665242/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对北京赛融信科技股份有限公司、苏畅坤采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/beijing/c105547/c7665238/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对中投汇恒（北京）投资基金管理有限公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/beijing/c105547/c7665234/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -1171,16 +1181,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/henan/c100847/c7663804/content.shtml"
-  },
-  {
-   "date": "2026-10-08",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "贵州证监局行政许可申请、受理及审核情况公示表（截至2026年9月30日）",
-   "docNo": "",
-   "party": "截至2026年9月30日",
-   "url": "https://www.csrc.gov.cn/guizhou/c104856/c7663756/content.shtml"
   },
   {
    "date": "2026-09-24",
@@ -2766,16 +2766,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "IPO注册",
@@ -2783,6 +2773,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2936,16 +2936,6 @@
   },
   {
    "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -2973,6 +2963,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -5672,6 +5672,26 @@
    },
    {
     "date": "2026-10-27",
+    "acceptDate": "2026-06-29",
+    "company": "广州腾龙健康实业股份有限公司",
+    "market": "北交所",
+    "industry": "电气机械和器材制造业",
+    "state": "已问询",
+    "region": "广东省 广州市",
+    "sponsor": "国信证券股份有限公司"
+   },
+   {
+    "date": "2026-10-27",
+    "acceptDate": "2026-06-26",
+    "company": "合肥昊翔智能科技股份有限公司",
+    "market": "北交所",
+    "industry": "汽车制造业",
+    "state": "已问询",
+    "region": "安徽省 合肥市",
+    "sponsor": "财通证券股份有限公司"
+   },
+   {
+    "date": "2026-10-27",
     "acceptDate": "2026-06-30",
     "company": "江苏神州半导体科技股份有限公司",
     "market": "科创板",
@@ -6039,26 +6059,6 @@
     "state": "已问询",
     "region": "境外",
     "sponsor": "中信证券股份有限公司"
-   },
-   {
-    "date": "2026-09-30",
-    "acceptDate": "2022-10-18",
-    "company": "上海恒润达生生物科技股份有限公司",
-    "market": "科创板",
-    "industry": "医药制造业",
-    "state": "已问询",
-    "region": "上海",
-    "sponsor": "中国国际金融股份有限公司"
-   },
-   {
-    "date": "2026-09-30",
-    "acceptDate": "2026-06-26",
-    "company": "浙江安特磁材股份有限公司",
-    "market": "北交所",
-    "industry": "计算机、通信和其他电子设备制造业",
-    "state": "已问询",
-    "region": "浙江省 绍兴市",
-    "sponsor": "国信证券股份有限公司"
    }
   ]
  }
