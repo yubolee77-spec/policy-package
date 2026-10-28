@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28 18:48",
+ "generatedAt": "2026-10-29 00:11",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -15,7 +15,7 @@
   "ipoApproved30d": 4,
   "mediaTotal": 120,
   "mediaStrong": 90,
-  "activeTotal": 149,
+  "activeTotal": 151,
   "successTotal": 159,
   "cycleRecentAvg": 285,
   "cyclePrevAvg": 255,
@@ -414,6 +414,16 @@
   },
   {
    "date": "2026-10-23",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕52号 · 佳缘科技股份有限公司",
+   "docNo": "〔2026〕52号",
+   "party": "佳缘科技股份有限公司",
+   "url": "https://www.csrc.gov.cn/csrc/c101971/c7666338/content.shtml"
+  },
+  {
+   "date": "2026-10-23",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -441,16 +451,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/xiamen/c104096/c7666081/content.shtml"
-  },
-  {
-   "date": "2026-10-23",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2026〕52号 · 佳缘科技股份有限公司",
-   "docNo": "〔2026〕52号",
-   "party": "佳缘科技股份有限公司",
-   "url": "https://www.csrc.gov.cn/csrc/c101971/c7666338/content.shtml"
   },
   {
    "date": "2026-10-22",
@@ -1004,6 +1004,16 @@
   },
   {
    "date": "2026-10-10",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕57号 · 苏州清越光电科技股份有限公司",
+   "docNo": "〔2026〕57号",
+   "party": "苏州清越光电科技股份有限公司",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665091/content.shtml"
+  },
+  {
+   "date": "2026-10-10",
    "channel": "通知公告",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -1111,16 +1121,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/qinghai/c101417/c7663585/content.shtml"
-  },
-  {
-   "date": "2026-10-10",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2026〕57号 · 苏州清越光电科技股份有限公司",
-   "docNo": "〔2026〕57号",
-   "party": "苏州清越光电科技股份有限公司",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7665091/content.shtml"
   },
   {
    "date": "2026-10-09",
@@ -2766,16 +2766,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "政策解读",
    "column": "政策解读",
    "tag": "政策法规",
@@ -2783,6 +2773,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "IPO注册",
+   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2936,6 +2936,16 @@
   },
   {
    "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -2963,16 +2973,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -5278,10 +5278,10 @@
   }
  ],
  "review": {
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-28",
   "total": 4403,
   "pipelineTotal": 847,
-  "activeTotal": 149,
+  "activeTotal": 151,
   "successTotal": 159,
   "failTotal": 202,
   "stages": [
@@ -5292,7 +5292,7 @@
    },
    {
     "name": "已问询",
-    "count": 117,
+    "count": 119,
     "kind": "active"
    },
    {
@@ -5660,6 +5660,16 @@
    }
   ],
   "recentActive": [
+   {
+    "date": "2026-10-28",
+    "acceptDate": "2026-06-30",
+    "company": "上海隐冠半导体技术股份有限公司",
+    "market": "科创板",
+    "industry": "专用设备制造业",
+    "state": "已问询",
+    "region": "上海",
+    "sponsor": "华泰联合证券有限责任公司"
+   },
    {
     "date": "2026-10-27",
     "acceptDate": "2026-05-13",
@@ -6049,16 +6059,6 @@
     "state": "已问询",
     "region": "北京市 通州区",
     "sponsor": "国联民生证券承销保荐有限公司"
-   },
-   {
-    "date": "2026-10-09",
-    "acceptDate": "2026-06-12",
-    "company": "映恩生物(Duality Biotherapeutics Inc)",
-    "market": "科创板",
-    "industry": "医药制造业",
-    "state": "已问询",
-    "region": "境外",
-    "sponsor": "中信证券股份有限公司"
    }
   ]
  }
