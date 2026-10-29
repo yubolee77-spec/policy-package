@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-29 00:58",
+ "generatedAt": "2026-10-29 09:05",
  "month": 10,
  "hotPeriod": "9-10月",
- "candidateCount": 305,
+ "candidateCount": 306,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-29 · 坚定践行“抓民生也是抓发展”（经济日报）",
+     "title": "坚定践行“抓民生也是抓发展”",
+     "url": "http://paper.ce.cn/pc/content/202610/29/content_341037.html",
+     "date": "2026-10-29",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-10-28 · 有的放矢提高基础研究实力（经济日报）",
      "title": "有的放矢提高基础研究实力",
      "url": "http://paper.ce.cn/pc/content/202610/28/content_340985.html",
@@ -315,14 +323,6 @@
      "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084280.htm",
      "date": "2026-10-26",
      "source": "国务院最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-10-26 · 在新征程上持之以恒推进全面从严治党（人民日报）",
-     "title": "在新征程上持之以恒推进全面从严治党",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/26/content_30187527.html",
-     "date": "2026-10-26",
-     "source": "人民日报",
      "noise": false
     }
    ],
