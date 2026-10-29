@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-29 19:04",
- "mediaFetchedAt": "2026-10-09 19:39",
- "mediaStale": true,
+ "generatedAt": "2026-10-30 00:17",
+ "mediaFetchedAt": "2026-10-30 00:17",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 9,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 1,
   "ipoApproved30d": 4,
   "mediaTotal": 120,
-  "mediaStrong": 90,
+  "mediaStrong": 91,
   "activeTotal": 156,
   "successTotal": 159,
   "cycleRecentAvg": 285,
@@ -2776,16 +2776,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "政策解读",
    "column": "政策解读",
    "tag": "政策法规",
@@ -2793,6 +2783,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "IPO注册",
+   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2946,6 +2946,16 @@
   },
   {
    "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -2973,16 +2983,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -4117,6 +4117,92 @@
  ],
  "media": [
   {
+   "date": "2026-10-29",
+   "media": "界面新闻",
+   "title": "北京查处首例区块链虚拟货币新型协助传销案，重罚93万余元",
+   "url": "http://finance.eastmoney.com/a/202610293913841973.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-29",
+   "media": "新华财经",
+   "title": "国金嘉泽新能源REIT完成发售 宁夏首单公募REITs落地",
+   "url": "http://bond.eastmoney.com/a/202610293914985824.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs",
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-10-29",
+   "media": "上海证券报·中国证券网",
+   "title": "无锡落地全国首单支持集成电路制造并购票据 为“芯”赛道注入金融活水",
+   "url": "http://bond.eastmoney.com/a/202610293913955267.html",
+   "keyword": "首单",
+   "topics": [
+    "集成电路"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-10-29",
+   "media": "证券时报网",
+   "title": "沈阳地铁成功发行东北地区首单碳中和收费收益权ABS",
+   "url": "http://bond.eastmoney.com/a/202610293913702429.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-29",
+   "media": "21世纪经济报道",
+   "title": "银行板块ETF上涨；首批12只主动ETF提前结募，3只火速成立丨ETF晚报",
+   "url": "http://stock.eastmoney.com/a/202610293914987736.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-10-29",
+   "media": "21世纪经济报道",
+   "title": "三季度营收新高、利润却转负，山东黄金成首家亏损“金主”",
+   "url": "http://finance.eastmoney.com/a/202610293914667932.html",
+   "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-10-28",
+   "media": "证券时报",
+   "title": "科创板首例！688121，将市值退",
+   "url": "http://finance.eastmoney.com/a/202610283912441049.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-27",
+   "media": "界面新闻",
+   "title": "华东医药：HDM1005注射液完成阻塞性睡眠呼吸暂停合并肥胖或超重适应症中国Ⅲ期临床研究首例受试者随机给药",
+   "url": "http://finance.eastmoney.com/a/202610273909915057.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-10-26",
+   "media": "每日经济新闻",
+   "title": "7家村镇银行并为1家：中银富登首例“村合村”落子阜阳，全国最大村行集团整合提速",
+   "url": "http://bank.eastmoney.com/a/202610263908681840.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
    "date": "2026-10-17",
    "media": "人民日报",
    "title": "我国首个百万吨级低浓度CCUS全链条示范工程开工",
@@ -5197,94 +5283,6 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-09-22",
-   "media": "财联社",
-   "title": "荣耀新机首批搭载阿里AI手机解决方案",
-   "url": "http://finance.eastmoney.com/a/202609223881092171.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-22",
-   "media": "证券时报网",
-   "title": "高通与谷歌展开合作 首批Googlebook笔记本电脑搭载骁龙平台",
-   "url": "http://finance.eastmoney.com/a/202609223881047726.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-22",
-   "media": "证券时报网",
-   "title": "首家18C章A+H新股亮相，星环科技上市当日即入港股通",
-   "url": "http://finance.eastmoney.com/a/202609223880641957.html",
-   "keyword": "首家",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-21",
-   "media": "界面新闻",
-   "title": "政策红利集中释放！医疗器械爆发，透景生命20CM涨停，医疗器械ETF汇添富(159797)标的指数涨超2.5%，全球首个AI+脑机接口医疗器械标准发布",
-   "url": "http://stock.eastmoney.com/a/202609213879947893.html",
-   "keyword": "首个",
-   "topics": [
-    "算力/AI",
-    "生物医药"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-21",
-   "media": "证券日报",
-   "title": "新世界发展推进首个港资C-REIT",
-   "url": "http://finance.eastmoney.com/a/202609213879932046.html",
-   "keyword": "首个",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-21",
-   "media": "每日经济新闻",
-   "title": "周云杰的AI故事：当女程序员设计出业内首个“AI之眼” 智慧烤箱，每个人都可以成为自己的CEO",
-   "url": "http://finance.eastmoney.com/a/202609213879898967.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-21",
-   "media": "界面新闻",
-   "title": "大晓机器人进入中石油便利店，首个机器人履约项目启动试运营",
-   "url": "http://finance.eastmoney.com/a/202609213879855595.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-21",
-   "media": "每日经济新闻",
-   "title": "2300亿公募REITs市场再迎突破，首单煤电REITs启动询价发售",
-   "url": "http://finance.eastmoney.com/a/202609213880294724.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-21",
-   "media": "中国证券报·中证网",
-   "title": "武汉股权托管交易中心成功办理湖北首单“认股权+担保”登记",
-   "url": "http://finance.eastmoney.com/a/202609213880308220.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
   }
  ],
  "review": {
