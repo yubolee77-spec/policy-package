@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29 09:01",
+ "generatedAt": "2026-10-29 19:04",
  "mediaFetchedAt": "2026-10-09 19:39",
  "mediaStale": true,
  "mediaChannels": {
@@ -7,21 +7,41 @@
   "papers": 0
  },
  "kpi": {
-  "penaltyTotal": 234,
-  "penaltyMonth": 116,
+  "penaltyTotal": 235,
+  "penaltyMonth": 117,
   "approvalTotal": 174,
   "approvalMonth": 19,
   "reitsApproved30d": 1,
   "ipoApproved30d": 4,
   "mediaTotal": 120,
   "mediaStrong": 90,
-  "activeTotal": 151,
+  "activeTotal": 156,
   "successTotal": 159,
   "cycleRecentAvg": 285,
   "cyclePrevAvg": 255,
   "cycleVerdict": "放缓 12%"
  },
  "penalty": [
+  {
+   "date": "2026-10-29",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "青海证券业协会联合东方证券五四大街营业部走进西宁市中小学生社会实践教育中心开展财商启蒙教育活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/qinghai/c101417/c7667363/content.shtml"
+  },
+  {
+   "date": "2026-10-28",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "深耕投教普及阵地 厚植理性投资理念—— 青海辖区青年志愿者服务队投教工作纪实",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/qinghai/c101417/c7667362/content.shtml"
+  },
   {
    "date": "2026-10-28",
    "channel": "监管工作",
@@ -71,6 +91,26 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/hunan/c104484/c7667159/content.shtml"
+  },
+  {
+   "date": "2026-10-28",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对王炯熠采取出具警示函行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103899/c7667300/content.shtml"
+  },
+  {
+   "date": "2026-10-27",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "青海证监局、青海证券业协会、华源证券联合青海理工学院开展“校企协同育英才 资本市场启新程”主题活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/qinghai/c101417/c7667361/content.shtml"
   },
   {
    "date": "2026-10-27",
@@ -231,6 +271,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/hebei/c103648/c7666623/content.shtml"
+  },
+  {
+   "date": "2026-10-23",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "新疆、青海、大连三地协会联合开展“互学互鉴 聚力赋能”上市公司交流学习活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/qinghai/c101417/c7667360/content.shtml"
   },
   {
    "date": "2026-10-23",
@@ -813,16 +863,6 @@
    "url": "https://www.csrc.gov.cn/shandong/c100809/c7664960/content.shtml"
   },
   {
-   "date": "2026-10-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对佳缘科技股份有限公司采取责令改正措施并对王进等相关责任人采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/sichuan/c104902/c7665177/content.shtml"
-  },
-  {
    "date": "2026-10-15",
    "channel": "监管工作",
    "column": "辖区监管动态",
@@ -1151,36 +1191,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7663129/content.shtml"
-  },
-  {
-   "date": "2026-10-09",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "警示函",
-   "title": "关于对刘晓雪采取出具警示函行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7663126/content.shtml"
-  },
-  {
-   "date": "2026-10-08",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "河南局开展辖区律师事务所从事证券法律业务培训及专题座谈会",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/henan/c100847/c7663807/content.shtml"
-  },
-  {
-   "date": "2026-10-08",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "关于2026年律师事务所从事证券法律业务现场检查随机抽查结果的公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/henan/c100847/c7663804/content.shtml"
   },
   {
    "date": "2026-09-24",
@@ -2766,16 +2776,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "IPO注册",
@@ -2783,6 +2783,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2936,16 +2946,6 @@
   },
   {
    "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -2973,6 +2973,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -5278,10 +5288,10 @@
   }
  ],
  "review": {
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "total": 4403,
   "pipelineTotal": 847,
-  "activeTotal": 151,
+  "activeTotal": 156,
   "successTotal": 159,
   "failTotal": 202,
   "stages": [
@@ -5292,12 +5302,12 @@
    },
    {
     "name": "已问询",
-    "count": 119,
+    "count": 123,
     "kind": "active"
    },
    {
     "name": "上市委会议通过",
-    "count": 5,
+    "count": 6,
     "kind": "active"
    },
    {
@@ -5660,6 +5670,26 @@
    }
   ],
   "recentActive": [
+   {
+    "date": "2026-10-29",
+    "acceptDate": "2026-04-28",
+    "company": "广东微容电子科技股份有限公司",
+    "market": "创业板",
+    "industry": "计算机、通信和其他电子设备制造业",
+    "state": "上市委会议通过",
+    "region": "广东",
+    "sponsor": "华泰联合证券有限责任公司"
+   },
+   {
+    "date": "2026-10-28",
+    "acceptDate": "2026-06-29",
+    "company": "铁岭贵鑫环保科技股份有限公司",
+    "market": "北交所",
+    "industry": "废弃资源综合利用业",
+    "state": "已问询",
+    "region": "辽宁省 铁岭市",
+    "sponsor": "开源证券股份有限公司"
+   },
    {
     "date": "2026-10-28",
     "acceptDate": "2026-06-30",
@@ -6039,26 +6069,6 @@
     "state": "已问询",
     "region": "浙江省 杭州市",
     "sponsor": "国海证券股份有限公司"
-   },
-   {
-    "date": "2026-10-09",
-    "acceptDate": "2026-06-29",
-    "company": "浙江利星科技股份有限公司",
-    "market": "北交所",
-    "industry": "化学原料和化学制品制造业",
-    "state": "已问询",
-    "region": "浙江省 绍兴市",
-    "sponsor": "国信证券股份有限公司"
-   },
-   {
-    "date": "2026-10-09",
-    "acceptDate": "2026-06-24",
-    "company": "北京爱思益普生物科技股份有限公司",
-    "market": "北交所",
-    "industry": "研究和试验发展",
-    "state": "已问询",
-    "region": "北京市 通州区",
-    "sponsor": "国联民生证券承销保荐有限公司"
    }
   ]
  }
