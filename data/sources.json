@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30 00:24",
+ "generatedAt": "2026-10-30 01:13",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-30 00:24",
+   "fetchedAt": "2026-10-30 01:13",
    "ageDays": 4
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 13,
-   "fetchedAt": "2026-10-30 00:24",
+   "fetchedAt": "2026-10-30 01:13",
    "ageDays": 14
   },
   {
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-10-30 00:24",
+   "fetchedAt": "2026-10-30 01:13",
    "ageDays": 364
   },
   {
@@ -72,7 +72,7 @@
    },
    "stale": false,
    "total": 177,
-   "fetchedAt": "2026-10-30 00:24",
+   "fetchedAt": "2026-10-30 01:13",
    "ageDays": 1
   }
  ],
