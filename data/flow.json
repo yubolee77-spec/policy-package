@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-31 00:09",
+  "generatedAt": "2026-10-31 00:57",
   "asOf": "2026-10",
   "asOfLabel": "2026年10月",
   "archiveTotal": 244,
-  "archiveAdded": 5,
+  "archiveAdded": 0,
   "channels": [
     {
       "key": "special_fund",
@@ -2251,7 +2251,7 @@
           "url": ""
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2259,7 +2259,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2338,7 +2338,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2346,7 +2346,7 @@
           "url": ""
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
