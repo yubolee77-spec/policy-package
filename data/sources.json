@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-30 01:13",
+ "generatedAt": "2026-10-30 09:10",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-30 01:13",
+   "fetchedAt": "2026-10-30 09:10",
    "ageDays": 4
   },
   {
@@ -26,17 +26,17 @@
    "indexLabel": "财政部预算司·国债发行",
    "include": "国债",
    "exclude": "会见|会谈|座谈|巡视|招聘|任免|公示|考试|培训",
-   "href": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202610/t20261016_4002978.htm",
+   "href": "https://www.gov.cn/zhengce/202607/content_7076206.htm",
    "latest": {
-    "title": "财政部山东监管局：抓实“三个注重”提升超长期特别国债资金使用质效",
-    "url": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202610/t20261016_4002978.htm",
-    "date": "2026-10-16",
-    "source": "财政部"
+    "title": "220亿元超长期特别国债，支持老旧营运货车报废更新",
+    "url": "https://www.gov.cn/zhengce/202607/content_7076206.htm",
+    "date": "2026-07-21",
+    "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 13,
-   "fetchedAt": "2026-10-30 01:13",
-   "ageDays": 14
+   "total": 12,
+   "fetchedAt": "2026-10-30 09:10",
+   "ageDays": 101
   },
   {
    "key": "localbond",
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-10-30 01:13",
+   "fetchedAt": "2026-10-30 09:10",
    "ageDays": 364
   },
   {
@@ -72,7 +72,7 @@
    },
    "stale": false,
    "total": 177,
-   "fetchedAt": "2026-10-30 01:13",
+   "fetchedAt": "2026-10-30 09:10",
    "ageDays": 1
   }
  ],
