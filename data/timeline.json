@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31 08:56",
+ "generatedAt": "2026-10-31 18:39",
  "month": 10,
  "hotPeriod": "9-10月",
  "candidateCount": 306,
@@ -278,6 +278,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-10-31 · 2026年10月中国采购经理指数运行情况（国家统计局最新数据发布）",
+     "title": "2026年10月中国采购经理指数运行情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
+     "date": "2026-10-31",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-10-30 · 中国证监会党委传达贯彻党的二十届五中全会精神（证监会最新动态）",
      "title": "中国证监会党委传达贯彻党的二十届五中全会精神",
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7667579/content.shtml",
@@ -315,14 +323,6 @@
      "url": "http://paper.ce.cn/pc/content/202610/28/content_340985.html",
      "date": "2026-10-28",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-10-27 · 2026年1—9月份全国规模以上工业企业利润增长15.5%（国家统计局最新数据发布）",
-     "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html",
-     "date": "2026-10-27",
-     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],
