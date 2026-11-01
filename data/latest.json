@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-11-01",
-  "fetchedAt": "2026-11-01 08:10",
+  "fetchedAt": "2026-11-01 19:27",
   "monthLabel": "2026年11月",
   "timeline": [
     {
@@ -3081,7 +3081,8 @@
         }
       ],
       "keySentence": "",
-      "tier": ""
+      "tier": "",
+      "summaryTried": 1
     },
     {
       "url": "http://paper.ce.cn/pc/content/202610/29/content_341037.html",
