@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31 18:39",
+ "generatedAt": "2026-11-01 08:16",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-10-31 18:39",
-   "ageDays": 5
+   "fetchedAt": "2026-11-01 08:16",
+   "ageDays": 6
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-10-31 18:39",
-   "ageDays": 102
+   "fetchedAt": "2026-11-01 08:16",
+   "ageDays": 103
   },
   {
    "key": "localbond",
@@ -53,9 +53,9 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 11,
-   "fetchedAt": "2026-10-31 18:39",
-   "ageDays": 365
+   "total": 14,
+   "fetchedAt": "2026-11-01 08:16",
+   "ageDays": 366
   },
   {
    "key": "media",
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202610/29/content_341037.html",
+   "href": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261101_3278951.shtml",
    "latest": {
-    "title": "坚定践行“抓民生也是抓发展”",
-    "url": "http://paper.ce.cn/pc/content/202610/29/content_341037.html",
-    "date": "2026-10-29",
+    "title": "经济日报评论员：把加强党性修养作为终身课题——论学习贯彻党的二十届五中全会精神",
+    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261101_3278951.shtml",
+    "date": "2026-11-01",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 177,
-   "fetchedAt": "2026-10-31 18:39",
-   "ageDays": 2
+   "total": 178,
+   "fetchedAt": "2026-11-01 08:16",
+   "ageDays": 0
   }
  ],
  "stale": false,

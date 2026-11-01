@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-31 18:39",
-  "asOf": "2026-10",
-  "asOfLabel": "2026年10月",
+  "generatedAt": "2026-11-01 08:16",
+  "asOf": "2026-11",
+  "asOfLabel": "2026年11月",
   "archiveTotal": 244,
   "archiveAdded": 0,
   "channels": [
@@ -16,6 +16,14 @@
       "period": {
         "month": {
           "cur": {
+            "key": "2026-11",
+            "label": "2026年11月",
+            "n": 0,
+            "amountYi": 0.0,
+            "amountCount": 0,
+            "industries": {}
+          },
+          "prev": {
             "key": "2026-10",
             "label": "2026年10月",
             "n": 0,
@@ -23,18 +31,7 @@
             "amountCount": 0,
             "industries": {}
           },
-          "prev": {
-            "key": "2026-09",
-            "label": "2026年9月",
-            "n": 2,
-            "amountYi": 0.0,
-            "amountCount": 0,
-            "industries": {
-              "金融与资本": 1,
-              "教科文卫": 1
-            }
-          },
-          "deltaPct": -100.0,
+          "deltaPct": null,
           "deltaAmountPct": null
         },
         "quarter": {
@@ -218,24 +215,7 @@
         ]
       },
       "industries": {
-        "month": [
-          {
-            "name": "教科文卫",
-            "cur": 0,
-            "prev": 1,
-            "deltaPct": -100.0,
-            "items": [],
-            "totalItems": 0
-          },
-          {
-            "name": "金融与资本",
-            "cur": 0,
-            "prev": 1,
-            "deltaPct": -100.0,
-            "items": [],
-            "totalItems": 0
-          }
-        ],
+        "month": [],
         "quarter": [
           {
             "name": "教科文卫",
@@ -525,16 +505,16 @@
       "period": {
         "month": {
           "cur": {
-            "key": "2026-10",
-            "label": "2026年10月",
+            "key": "2026-11",
+            "label": "2026年11月",
             "n": 0,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {}
           },
           "prev": {
-            "key": "2026-09",
-            "label": "2026年9月",
+            "key": "2026-10",
+            "label": "2026年10月",
             "n": 0,
             "amountYi": 0.0,
             "amountCount": 0,
@@ -784,16 +764,16 @@
       "period": {
         "month": {
           "cur": {
-            "key": "2026-10",
-            "label": "2026年10月",
+            "key": "2026-11",
+            "label": "2026年11月",
             "n": 0,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {}
           },
           "prev": {
-            "key": "2026-09",
-            "label": "2026年9月",
+            "key": "2026-10",
+            "label": "2026年10月",
             "n": 0,
             "amountYi": 0.0,
             "amountCount": 0,
@@ -1237,6 +1217,14 @@
       "period": {
         "month": {
           "cur": {
+            "key": "2026-11",
+            "label": "2026年11月",
+            "n": 0,
+            "amountYi": 0.0,
+            "amountCount": 0,
+            "industries": {}
+          },
+          "prev": {
             "key": "2026-10",
             "label": "2026年10月",
             "n": 22,
@@ -1249,22 +1237,7 @@
               "再融资": 5
             }
           },
-          "prev": {
-            "key": "2026-09",
-            "label": "2026年9月",
-            "n": 42,
-            "amountYi": 0.0,
-            "amountCount": 0,
-            "industries": {
-              "REITs 注册": 9,
-              "机构资格": 16,
-              "再融资": 2,
-              "其他审核": 10,
-              "首发上市（IPO）": 3,
-              "并购重组": 2
-            }
-          },
-          "deltaPct": -47.6,
+          "deltaPct": -100.0,
           "deltaAmountPct": null
         },
         "quarter": {
@@ -1452,212 +1425,32 @@
         "month": [
           {
             "name": "其他审核",
-            "cur": 8,
-            "prev": 10,
-            "deltaPct": -20.0,
-            "items": [
-              {
-                "title": "关于同意烟台九目化学股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7667734/content.shtml",
-                "date": "2026-10-23",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
-                "url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
-                "date": "2026-10-19",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "L1 政策速览"
-              },
-              {
-                "title": "【行政许可事项】创业板提交注册申请企业基本情况",
-                "url": "https://www.csrc.gov.cn/csrc/c105914/c1514593/content.shtml",
-                "date": "2026-10-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "【行政许可事项】科创板提交注册申请企业基本情况",
-                "url": "https://www.csrc.gov.cn/csrc/c105903/c1489522/content.shtml",
-                "date": "2026-10-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "【行政许可事项】主板提交注册申请企业基本情况",
-                "url": "https://www.csrc.gov.cn/csrc/c106381/c7322612/content.shtml",
-                "date": "2026-10-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "前三季度金融数据出炉多元化融资特征鲜明",
-                "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
-                "date": "2026-10-14",
-                "org": "gov.cn",
-                "amountYi": null,
-                "src": "gov.cn 政策库"
-              }
-            ],
-            "totalItems": 8
-          },
-          {
-            "name": "机构资格",
-            "cur": 6,
-            "prev": 16,
-            "deltaPct": -62.5,
-            "items": [
-              {
-                "title": "关于核准东莞证券股份有限公司上市证券做市交易业务资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101967/c7667692/content.shtml",
-                "date": "2026-10-28",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准长城证券股份有限公司上市证券做市交易业务资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101967/c7667689/content.shtml",
-                "date": "2026-10-28",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准设立花旗证券（中国）有限公司的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101841/c7666345/content.shtml",
-                "date": "2026-10-23",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准华福证券股份有限公司上市证券做市交易业务资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101967/c7667681/content.shtml",
-                "date": "2026-10-22",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准广发基金管理有限公司在香港特别行政区设立广发基金国际控股有限公司的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101880/c7665188/content.shtml",
-                "date": "2026-10-10",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
-                "date": "2026-10-08",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              }
-            ],
-            "totalItems": 6
-          },
-          {
-            "name": "再融资",
-            "cur": 5,
-            "prev": 2,
-            "deltaPct": 150.0,
-            "items": [
-              {
-                "title": "关于同意浙江温州洞头农村商业银行股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7666483/content.shtml",
-                "date": "2026-10-20",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "【行政许可事项】创业板提交再融资注册申请企业基本情况",
-                "url": "https://www.csrc.gov.cn/csrc/c105919/c1514590/content.shtml",
-                "date": "2026-10-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "【行政许可事项】科创板提交再融资注册申请企业基本情况",
-                "url": "https://www.csrc.gov.cn/csrc/c105908/c1489525/content.shtml",
-                "date": "2026-10-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "【行政许可事项】主板提交再融资注册申请企业基本情况",
-                "url": "https://www.csrc.gov.cn/csrc/c106382/c7314794/content.shtml",
-                "date": "2026-10-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意济南农村商业银行股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7666479/content.shtml",
-                "date": "2026-10-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              }
-            ],
-            "totalItems": 5
-          },
-          {
-            "name": "首发上市（IPO）",
-            "cur": 3,
-            "prev": 3,
-            "deltaPct": 0.0,
-            "items": [
-              {
-                "title": "关于同意上海季丰电子股份有限公司首次公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c105917/c7667586/content.shtml",
-                "date": "2026-10-30",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意上海羲禾科技股份有限公司首次公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c105906/c7666326/content.shtml",
-                "date": "2026-10-23",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意苏州朗高电机科技股份有限公司首次公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml",
-                "date": "2026-10-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              }
-            ],
-            "totalItems": 3
-          },
-          {
-            "name": "REITs 注册",
             "cur": 0,
-            "prev": 9,
+            "prev": 8,
             "deltaPct": -100.0,
             "items": [],
             "totalItems": 0
           },
           {
-            "name": "并购重组",
+            "name": "再融资",
             "cur": 0,
-            "prev": 2,
+            "prev": 5,
+            "deltaPct": -100.0,
+            "items": [],
+            "totalItems": 0
+          },
+          {
+            "name": "机构资格",
+            "cur": 0,
+            "prev": 6,
+            "deltaPct": -100.0,
+            "items": [],
+            "totalItems": 0
+          },
+          {
+            "name": "首发上市（IPO）",
+            "cur": 0,
+            "prev": 3,
             "deltaPct": -100.0,
             "items": [],
             "totalItems": 0
@@ -2219,24 +2012,7 @@
   "movers": {
     "month": {
       "up": [],
-      "down": [
-        {
-          "name": "教科文卫",
-          "cur": 0,
-          "prev": 1,
-          "delta": -1,
-          "deltaPct": -100.0,
-          "url": ""
-        },
-        {
-          "name": "金融与资本",
-          "cur": 0,
-          "prev": 1,
-          "delta": -1,
-          "deltaPct": -100.0,
-          "url": ""
-        }
-      ],
+      "down": [],
       "flat": []
     },
     "quarter": {
@@ -2251,7 +2027,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2259,7 +2035,7 @@
           "url": ""
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,

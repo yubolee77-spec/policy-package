@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-31 18:39",
- "month": 10,
- "hotPeriod": "9-10月",
- "candidateCount": 306,
+ "generatedAt": "2026-11-01 08:16",
+ "month": 11,
+ "hotPeriod": "11月",
+ "candidateCount": 307,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -275,7 +275,7 @@
    "window": "2026年7月"
   },
   "9-10月": {
-   "status": "hot",
+   "status": "pass",
    "docs": [
     {
      "label": "2026-10-31 · 2026年10月中国采购经理指数运行情况（国家统计局最新数据发布）",
@@ -329,8 +329,17 @@
    "window": "2026年9-10月"
   },
   "11月": {
-   "status": "future",
-   "docs": [],
+   "status": "hot",
+   "docs": [
+    {
+     "label": "2026-11-01 · 经济日报评论员：把加强党性修养作为终身课题——论学习贯彻党的二十届五中全会精神（经济日报）",
+     "title": "经济日报评论员：把加强党性修养作为终身课题——论学习贯彻党的二十届五中全会精神",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261101_3278951.shtml",
+     "date": "2026-11-01",
+     "source": "经济日报",
+     "noise": false
+    }
+   ],
    "window": "2026年11月"
   },
   "12月": {
