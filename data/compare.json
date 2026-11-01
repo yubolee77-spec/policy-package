@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01 19:33",
+ "generatedAt": "2026-11-02 00:18",
  "asOf": "2026年11月",
  "years": [
   2024,
@@ -1206,8 +1206,7 @@
          "text": "建设"
         }
        ],
-       "url": "https://www.gov.cn/zhengce/zhengceku/202401/content_6924347.htm",
-       "keySentence": "加强车网互动顶层设计，坚持系统观念，从社会整体效益的高度进行统筹谋划。"
+       "url": "https://www.gov.cn/zhengce/zhengceku/202401/content_6924347.htm"
       },
       "2025": {
        "text": "关于2025年加力扩围实施大规模设备更新和消费品以旧换新政策的通知",
@@ -2262,8 +2261,7 @@
          "text": "实施"
         }
        ],
-       "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7068416.htm",
-       "keySentence": "2027年6月底前，推动实现建设项目联合验收数据跨部门、跨层级高效共享与实时回流,协同推进审批服务、事中事后监管，探索智慧监管、无感监管。"
+       "url": "https://www.gov.cn/zhengce/zhengceku/202605/content_7068416.htm"
       }
      },
      "diff": "2024「加强」→ 2025「—」力度回落；节奏：常规节奏 → 常规节奏 → 深化推进"
@@ -4466,9 +4464,9 @@
    "counts": {
     "2024": 168,
     "2025": 167,
-    "2026": 104
+    "2026": 105
    },
-   "total": 439,
+   "total": 440,
    "searched": [
     "文旅",
     "旅游",

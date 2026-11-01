@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-01 19:29",
- "mediaFetchedAt": "2026-11-01 19:29",
+ "generatedAt": "2026-11-02 00:13",
+ "mediaFetchedAt": "2026-11-02 00:13",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 17,
+  "eastmoney": 13,
   "papers": 0
  },
  "kpi": {
@@ -14,8 +14,8 @@
   "reitsApproved30d": 0,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 82,
-  "activeTotal": 160,
+  "mediaStrong": 81,
+  "activeTotal": 161,
   "successTotal": 159,
   "cycleRecentAvg": 274,
   "cyclePrevAvg": 255,
@@ -2826,16 +2826,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "IPO注册",
@@ -2843,6 +2833,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2996,16 +2996,6 @@
   },
   {
    "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -3033,6 +3023,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -4147,6 +4147,15 @@
    "strong": false
   },
   {
+   "date": "2026-11-01",
+   "media": "中国新闻网",
+   "title": "厦门首条邮轮无目的地海上游航线启航",
+   "url": "http://biz.eastmoney.com/a/202611013917804329.html",
+   "keyword": "首条",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-10-31",
    "media": "证券日报",
    "title": "首个钙钛矿膜结晶制造国家标准进入审定阶段",
@@ -5255,22 +5264,13 @@
    "keyword": "首个",
    "topics": [],
    "strong": true
-  },
-  {
-   "date": "2026-09-24",
-   "media": "上海证券报·中国证券网",
-   "title": "全国首个“社会急救生态圈”在深圳正式启动 各互联网企业协同合作",
-   "url": "http://biz.eastmoney.com/a/202609243883569150.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
   }
  ],
  "review": {
   "asOf": "2026-10-30",
   "total": 4403,
   "pipelineTotal": 844,
-  "activeTotal": 160,
+  "activeTotal": 161,
   "successTotal": 159,
   "failTotal": 202,
   "stages": [
@@ -5281,7 +5281,7 @@
    },
    {
     "name": "已问询",
-    "count": 130,
+    "count": 131,
     "kind": "active"
    },
    {
