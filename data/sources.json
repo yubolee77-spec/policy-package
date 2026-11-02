@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02 08:53",
+ "generatedAt": "2026-11-02 20:55",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-11-02 08:53",
+   "fetchedAt": "2026-11-02 20:55",
    "ageDays": 7
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-11-02 08:53",
+   "fetchedAt": "2026-11-02 20:55",
    "ageDays": 104
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 4,
-   "fetchedAt": "2026-11-02 08:53",
+   "total": 11,
+   "fetchedAt": "2026-11-02 20:55",
    "ageDays": 367
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261101_3278951.shtml",
+   "href": "https://www.qstheory.cn/20261102/0aa3e7e738e74156854abf6ccedb6390/c.html",
    "latest": {
-    "title": "经济日报评论员：把加强党性修养作为终身课题——论学习贯彻党的二十届五中全会精神",
-    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261101_3278951.shtml",
-    "date": "2026-11-01",
-    "source": "经济日报"
+    "title": "推动学习贯彻习近平党建思想走深走实",
+    "url": "https://www.qstheory.cn/20261102/0aa3e7e738e74156854abf6ccedb6390/c.html",
+    "date": "2026-11-02",
+    "source": "求是网"
    },
    "stale": false,
-   "total": 178,
-   "fetchedAt": "2026-11-02 08:53",
-   "ageDays": 1
+   "total": 179,
+   "fetchedAt": "2026-11-02 20:55",
+   "ageDays": 0
   }
  ],
  "stale": false,
