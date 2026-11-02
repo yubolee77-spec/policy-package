@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-02 01:00",
- "mediaFetchedAt": "2026-11-02 01:00",
+ "generatedAt": "2026-11-02 08:49",
+ "mediaFetchedAt": "2026-11-02 08:49",
  "mediaStale": false,
  "mediaChannels": {
   "eastmoney": 13,
@@ -17,9 +17,9 @@
   "mediaStrong": 81,
   "activeTotal": 161,
   "successTotal": 159,
-  "cycleRecentAvg": 274,
-  "cyclePrevAvg": 255,
-  "cycleVerdict": "放缓 7%"
+  "cycleRecentAvg": 278,
+  "cyclePrevAvg": 254,
+  "cycleVerdict": "放缓 9%"
  },
  "penalty": [
   {
@@ -2826,16 +2826,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "IPO注册",
@@ -2843,6 +2833,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -2996,16 +2996,6 @@
   },
   {
    "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -3033,6 +3023,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -4116,6 +4116,35 @@
   }
  ],
  "media": [
+  {
+   "date": "2026-11-02",
+   "media": "上海证券报",
+   "title": "从“首单破冰”到“第二单提速” 银华基金水利REITs业务按下快进键",
+   "url": "http://fund.eastmoney.com/a/202611023917818576.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-02",
+   "media": "证券时报网",
+   "title": "首批18只主动ETF发行迎阶段性成果 多只产品进入建仓期",
+   "url": "http://stock.eastmoney.com/a/202611023917850790.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-02",
+   "media": "证券时报",
+   "title": "首批主动ETF陆续成立 多只产品进入建仓期",
+   "url": "http://finance.eastmoney.com/a/202611023917817217.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
   {
    "date": "2026-11-01",
    "media": "上海证券报",
@@ -5236,43 +5265,15 @@
     "新能源"
    ],
    "strong": true
-  },
-  {
-   "date": "2026-09-26",
-   "media": "人民日报",
-   "title": "平陆运河首条外贸航线首艘货船抵达越南芹苴港",
-   "url": "http://paper.people.com.cn/rmrb/pc/content/202609/26/content_30183109.html",
-   "keyword": "首条",
-   "topics": [],
-   "strong": false,
-   "src": "党媒数字报直扫"
-  },
-  {
-   "date": "2026-09-25",
-   "media": "上海证券报·中国证券网",
-   "title": "首批通过网络安全标识三星级备案 海康威视亮相国家网络安全宣传周",
-   "url": "http://finance.eastmoney.com/a/202609253884292162.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-09-24",
-   "media": "界面新闻",
-   "title": "腾讯发布首个面向海外用户的来华支付应用TenPayGo",
-   "url": "http://finance.eastmoney.com/a/202609243883629280.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
   }
  ],
  "review": {
   "asOf": "2026-10-30",
   "total": 4403,
-  "pipelineTotal": 844,
+  "pipelineTotal": 841,
   "activeTotal": 161,
   "successTotal": 159,
-  "failTotal": 202,
+  "failTotal": 199,
   "stages": [
    {
     "name": "已受理",
@@ -5301,14 +5302,14 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 202,
+    "count": 199,
     "kind": "fail"
    }
   ],
   "markets": [
    {
     "name": "北交所",
-    "count": 400
+    "count": 398
    },
    {
     "name": "创业板",
@@ -5320,7 +5321,7 @@
    },
    {
     "name": "沪主板",
-    "count": 75
+    "count": 74
    },
    {
     "name": "深主板",
@@ -5334,7 +5335,7 @@
    },
    {
     "name": "专用设备制造业",
-    "count": 110
+    "count": 109
    },
    {
     "name": "汽车制造业",
@@ -5342,7 +5343,7 @@
    },
    {
     "name": "电气机械和器材制造业",
-    "count": 67
+    "count": 66
    },
    {
     "name": "通用设备制造业",
@@ -5370,12 +5371,12 @@
    }
   ],
   "cycle": {
-   "recentAvg": 274,
-   "recentN": 13,
-   "prevAvg": 255,
-   "prevN": 24,
-   "deltaPct": 7,
-   "verdict": "放缓 7%",
+   "recentAvg": 278,
+   "recentN": 12,
+   "prevAvg": 254,
+   "prevN": 25,
+   "deltaPct": 9,
+   "verdict": "放缓 9%",
    "byMonth": [
     {
      "month": "25-12",
@@ -5453,16 +5454,16 @@
      "market": "创业板"
     },
     {
-     "company": "沈鼓集团股份有限公司",
-     "days": 221,
-     "date": "2026-08-03",
-     "market": "沪主板"
-    },
-    {
      "company": "宁波力勤资源科技股份有限公司",
      "days": 226,
      "date": "2026-08-14",
      "market": "深主板"
+    },
+    {
+     "company": "苏州猎奇智能设备股份有限公司",
+     "days": 238,
+     "date": "2026-08-21",
+     "market": "创业板"
     }
    ]
   },
