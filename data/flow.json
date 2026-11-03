@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-03 11:02",
+  "generatedAt": "2026-11-03 20:22",
   "asOf": "2026-11",
   "asOfLabel": "2026年11月",
-  "archiveTotal": 244,
-  "archiveAdded": 0,
+  "archiveTotal": 247,
+  "archiveAdded": 3,
   "channels": [
     {
       "key": "special_fund",
@@ -1219,10 +1219,12 @@
           "cur": {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 0,
+            "n": 3,
             "amountYi": 0.0,
             "amountCount": 0,
-            "industries": {}
+            "industries": {
+              "REITs 注册": 3
+            }
           },
           "prev": {
             "key": "2026-10",
@@ -1237,17 +1239,18 @@
               "再融资": 5
             }
           },
-          "deltaPct": -100.0,
+          "deltaPct": -86.4,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 22,
+            "n": 25,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "REITs 注册": 3,
               "首发上市（IPO）": 3,
               "机构资格": 6,
               "其他审核": 8,
@@ -1269,22 +1272,22 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -75.8,
+          "deltaPct": -72.5,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 130,
+            "n": 133,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "REITs 注册": 17,
               "首发上市（IPO）": 15,
               "机构资格": 37,
               "其他审核": 43,
               "再融资": 16,
-              "REITs 注册": 14,
               "并购重组": 5
             }
           },
@@ -1301,7 +1304,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 319.4,
+          "deltaPct": 329.0,
           "deltaAmountPct": null
         }
       },
@@ -1370,7 +1373,7 @@
           {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 0,
+            "n": 3,
             "amountYi": 0.0
           },
           {
@@ -1402,7 +1405,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 22,
+            "n": 25,
             "amountYi": 0.0
           }
         ],
@@ -1416,13 +1419,46 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 130,
+            "n": 133,
             "amountYi": 0.0
           }
         ]
       },
       "industries": {
         "month": [
+          {
+            "name": "REITs 注册",
+            "cur": 3,
+            "prev": 0,
+            "deltaPct": 100.0,
+            "items": [
+              {
+                "title": "关于准予华夏大悦城封闭式商业不动产证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7668366/content.shtml",
+                "date": "2026-11-03",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于准予华夏华润置地封闭式商业不动产证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7668357/content.shtml",
+                "date": "2026-11-03",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于准予建信天津临港发展集团港口封闭式基础设施证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7668355/content.shtml",
+                "date": "2026-11-03",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 3
+          },
           {
             "name": "其他审核",
             "cur": 0,
@@ -1621,6 +1657,39 @@
             "totalItems": 5
           },
           {
+            "name": "REITs 注册",
+            "cur": 3,
+            "prev": 14,
+            "deltaPct": -78.6,
+            "items": [
+              {
+                "title": "关于准予华夏大悦城封闭式商业不动产证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7668366/content.shtml",
+                "date": "2026-11-03",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于准予华夏华润置地封闭式商业不动产证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7668357/content.shtml",
+                "date": "2026-11-03",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于准予建信天津临港发展集团港口封闭式基础设施证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7668355/content.shtml",
+                "date": "2026-11-03",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 3
+          },
+          {
             "name": "首发上市（IPO）",
             "cur": 3,
             "prev": 12,
@@ -1652,14 +1721,6 @@
               }
             ],
             "totalItems": 3
-          },
-          {
-            "name": "REITs 注册",
-            "cur": 0,
-            "prev": 14,
-            "deltaPct": -100.0,
-            "items": [],
-            "totalItems": 0
           },
           {
             "name": "并购重组",
@@ -1786,6 +1847,63 @@
             "totalItems": 37
           },
           {
+            "name": "REITs 注册",
+            "cur": 17,
+            "prev": 4,
+            "deltaPct": 325.0,
+            "items": [
+              {
+                "title": "关于准予华夏大悦城封闭式商业不动产证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7668366/content.shtml",
+                "date": "2026-11-03",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于准予华夏华润置地封闭式商业不动产证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7668357/content.shtml",
+                "date": "2026-11-03",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于准予建信天津临港发展集团港口封闭式基础设施证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7668355/content.shtml",
+                "date": "2026-11-03",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于准予中金开元旅业封闭式商业不动产证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7662083/content.shtml",
+                "date": "2026-09-30",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于准予招商资管招商蛇口封闭式商业不动产证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7659932/content.shtml",
+                "date": "2026-09-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于准予华夏华润电力燃煤发电封闭式基础设施证券投资基金注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101895/c7659930/content.shtml",
+                "date": "2026-09-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 17
+          },
+          {
             "name": "再融资",
             "cur": 16,
             "prev": 0,
@@ -1900,63 +2018,6 @@
             "totalItems": 15
           },
           {
-            "name": "REITs 注册",
-            "cur": 14,
-            "prev": 4,
-            "deltaPct": 250.0,
-            "items": [
-              {
-                "title": "关于准予中金开元旅业封闭式商业不动产证券投资基金注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101895/c7662083/content.shtml",
-                "date": "2026-09-30",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于准予招商资管招商蛇口封闭式商业不动产证券投资基金注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101895/c7659932/content.shtml",
-                "date": "2026-09-20",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于准予华夏华润电力燃煤发电封闭式基础设施证券投资基金注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101895/c7659930/content.shtml",
-                "date": "2026-09-20",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于准予长城华能燃煤发电封闭式基础设施证券投资基金注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101895/c7659916/content.shtml",
-                "date": "2026-09-20",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于准予国金嘉泽新能源封闭式基础设施证券投资基金注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101895/c7658491/content.shtml",
-                "date": "2026-09-14",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于准予广发新城吾悦封闭式商业不动产证券投资基金注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101895/c7656590/content.shtml",
-                "date": "2026-09-04",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              }
-            ],
-            "totalItems": 14
-          },
-          {
             "name": "并购重组",
             "cur": 5,
             "prev": 3,
@@ -2027,7 +2088,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2035,7 +2096,7 @@
           "url": ""
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2140,25 +2201,55 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm"
         },
         {
-          "name": "金融与资本",
-          "cur": 1,
-          "prev": 1,
-          "delta": 0,
-          "deltaPct": 0.0,
-          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
-        },
-        {
           "name": "交通基础设施",
           "cur": 1,
           "prev": 1,
           "delta": 0,
           "deltaPct": 0.0,
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
+        },
+        {
+          "name": "金融与资本",
+          "cur": 1,
+          "prev": 1,
+          "delta": 0,
+          "deltaPct": 0.0,
+          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
         }
       ]
     }
   },
   "recent": [
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101895/c7668366/content.shtml",
+      "title": "关于准予华夏大悦城封闭式商业不动产证券投资基金注册的批复",
+      "date": "2026-11-03",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "REITs 注册",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101895/c7668357/content.shtml",
+      "title": "关于准予华夏华润置地封闭式商业不动产证券投资基金注册的批复",
+      "date": "2026-11-03",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "REITs 注册",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101895/c7668355/content.shtml",
+      "title": "关于准予建信天津临港发展集团港口封闭式基础设施证券投资基金注册的批复",
+      "date": "2026-11-03",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "REITs 注册",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
     {
       "url": "https://www.csrc.gov.cn/csrc/c105917/c7667586/content.shtml",
       "title": "关于同意上海季丰电子股份有限公司首次公开发行股票注册的批复",
@@ -3328,36 +3419,6 @@
       "industry": "机构资格",
       "amountYi": null,
       "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7073062.htm",
-      "title": "商务部等8部门办公厅关于公布汽车流通消费改革试点城市名单的通知",
-      "date": "2026-06-23",
-      "org": "发改委",
-      "channel": "pilot",
-      "industry": "消费与流通",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7071979.htm",
-      "title": "关于印发《服务业发展资金管理办法》的通知",
-      "date": "2026-06-13",
-      "org": "财政部",
-      "channel": "special_fund",
-      "industry": "综合与其他",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
-    },
-    {
-      "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7071205.htm",
-      "title": "国务院办公厅关于加强监管防范风险促进私募投资基金高质量发展的指导意见",
-      "date": "2026-06-05",
-      "org": "国务院办公厅",
-      "channel": "capital",
-      "industry": "并购重组",
-      "amountYi": null,
-      "src": "gov.cn 政策库"
     }
   ],
   "note": "口径：以官方发布的资金类文件条数作为资金节奏指标（每项均附原文可核验）；标题或摘要中出现金额时抽取为亿元一并展示，未抽取到的不做估算。行业归类按国民经济行业分类门类归并。"
