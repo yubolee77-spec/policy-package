@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-04 01:13",
- "mediaFetchedAt": "2026-11-04 01:13",
+ "generatedAt": "2026-11-04 02:08",
+ "mediaFetchedAt": "2026-11-04 02:08",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 18,
+  "eastmoney": 17,
   "papers": 0
  },
  "kpi": {
@@ -854,16 +854,6 @@
   },
   {
    "date": "2026-10-23",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2026〕59号 · 高裕弟",
-   "docNo": "〔2026〕59号",
-   "party": "高裕弟",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7667584/content.shtml"
-  },
-  {
-   "date": "2026-10-23",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -901,6 +891,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/xiamen/c104096/c7666081/content.shtml"
+  },
+  {
+   "date": "2026-10-23",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕59号 · 高裕弟",
+   "docNo": "〔2026〕59号",
+   "party": "高裕弟",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7667584/content.shtml"
   },
   {
    "date": "2026-10-22",
