@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-03 04:35",
- "mediaFetchedAt": "2026-11-03 04:35",
+ "generatedAt": "2026-11-03 10:57",
+ "mediaFetchedAt": "2026-11-03 10:57",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 13,
+  "eastmoney": 14,
   "papers": 0
  },
  "kpi": {
@@ -14,12 +14,12 @@
   "reitsApproved30d": 0,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 82,
+  "mediaStrong": 81,
   "activeTotal": 162,
   "successTotal": 159,
-  "cycleRecentAvg": 278,
-  "cyclePrevAvg": 254,
-  "cycleVerdict": "放缓 9%"
+  "cycleRecentAvg": 267,
+  "cyclePrevAvg": 260,
+  "cycleVerdict": "基本持平"
  },
  "penalty": [
   {
@@ -4117,6 +4117,36 @@
  ],
  "media": [
   {
+   "date": "2026-11-03",
+   "media": "每日经济新闻",
+   "title": "央行、证监会将于11月2日研究推动支持资本市场工具使用；央行将召开股票回购增持再贷款座谈会；中国首次载人月球探测任务乘组计划由3人组成；北京太空算力创新中心发布全球首个天地一体化太空算力云平台——《投资早参》",
+   "url": "http://forex.eastmoney.com/a/202611033919370696.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI",
+    "商业航天"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-03",
+   "media": "第一财经",
+   "title": "股票型ETF持续净流入11月首个交易日A股放量上涨",
+   "url": "http://stock.eastmoney.com/a/202611033919217968.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-03",
+   "media": "中国新闻网",
+   "title": "放心消费点亮工程启动 首批四家平台同步点亮",
+   "url": "http://biz.eastmoney.com/a/202611033919944874.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-02",
    "media": "上海证券报",
    "title": "从“首单破冰”到“第二单提速” 银华基金水利REITs业务按下快进键",
@@ -5227,47 +5257,15 @@
     "算力/AI"
    ],
    "strong": true
-  },
-  {
-   "date": "2026-09-29",
-   "media": "上海证券报·中国证券网",
-   "title": "无锡产业集团发行全国首单“关键核心技术攻关”科创债 赋能车规级芯片产线建设",
-   "url": "http://bond.eastmoney.com/a/202609293886767410.html",
-   "keyword": "首单",
-   "topics": [
-    "集成电路"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-09-29",
-   "media": "上海证券报·中国证券网",
-   "title": "中国工商银行发行中东北非地区首单自贸离岸债",
-   "url": "http://bond.eastmoney.com/a/202609293886647859.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-09-29",
-   "media": "新华财经",
-   "title": "蔚能首单出表型绿色科创ABN完成发行 储架规模30亿元、首期发行7.58亿元",
-   "url": "http://bond.eastmoney.com/a/202609293886731511.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs",
-    "新能源"
-   ],
-   "strong": true
   }
  ],
  "review": {
   "asOf": "2026-11-02",
   "total": 4403,
-  "pipelineTotal": 841,
+  "pipelineTotal": 840,
   "activeTotal": 162,
   "successTotal": 159,
-  "failTotal": 200,
+  "failTotal": 199,
   "stages": [
    {
     "name": "已受理",
@@ -5296,7 +5294,7 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 200,
+    "count": 199,
     "kind": "fail"
    }
   ],
@@ -5307,7 +5305,7 @@
    },
    {
     "name": "创业板",
-    "count": 184
+    "count": 183
    },
    {
     "name": "科创板",
@@ -5325,7 +5323,7 @@
   "industries": [
    {
     "name": "计算机、通信和其他电子设备制造业",
-    "count": 153
+    "count": 152
    },
    {
     "name": "专用设备制造业",
@@ -5365,12 +5363,12 @@
    }
   ],
   "cycle": {
-   "recentAvg": 278,
-   "recentN": 12,
-   "prevAvg": 254,
-   "prevN": 25,
-   "deltaPct": 9,
-   "verdict": "放缓 9%",
+   "recentAvg": 267,
+   "recentN": 11,
+   "prevAvg": 260,
+   "prevN": 26,
+   "deltaPct": 3,
+   "verdict": "基本持平",
    "byMonth": [
     {
      "month": "25-12",
