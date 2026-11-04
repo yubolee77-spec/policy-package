@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04 09:32",
+ "generatedAt": "2026-11-04 15:48",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 310,
@@ -356,6 +356,14 @@
      "noise": false
     },
     {
+     "label": "2026-11-03 · 2026年10月下旬流通领域重要生产资料市场价格变动情况（国家统计局最新数据发布）",
+     "title": "2026年10月下旬流通领域重要生产资料市场价格变动情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261103_1965738.html",
+     "date": "2026-11-03",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-11-02 · 中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问（证监会最新动态）",
      "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7668092/content.shtml",
@@ -369,14 +377,6 @@
      "url": "https://www.qstheory.cn/20261102/0aa3e7e738e74156854abf6ccedb6390/c.html",
      "date": "2026-11-02",
      "source": "求是网",
-     "noise": false
-    },
-    {
-     "label": "2026-11-01 · 经济日报评论员：把加强党性修养作为终身课题——论学习贯彻党的二十届五中全会精神（经济日报）",
-     "title": "经济日报评论员：把加强党性修养作为终身课题——论学习贯彻党的二十届五中全会精神",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261101_3278951.shtml",
-     "date": "2026-11-01",
-     "source": "经济日报",
      "noise": false
     }
    ],
