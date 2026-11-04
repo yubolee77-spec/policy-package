@@ -1,21 +1,21 @@
 {
- "generatedAt": "2026-11-04 19:38",
- "mediaFetchedAt": "2026-11-04 09:27",
- "mediaStale": true,
+ "generatedAt": "2026-11-05 01:25",
+ "mediaFetchedAt": "2026-11-05 01:25",
+ "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 0,
+  "eastmoney": 22,
   "papers": 0
  },
  "kpi": {
   "penaltyTotal": 235,
-  "penaltyMonth": 42,
+  "penaltyMonth": 41,
   "approvalTotal": 174,
   "approvalMonth": 3,
   "reitsApproved30d": 3,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 82,
-  "activeTotal": 162,
+  "mediaStrong": 81,
+  "activeTotal": 165,
   "successTotal": 159,
   "cycleRecentAvg": 267,
   "cyclePrevAvg": 260,
@@ -181,16 +181,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/qingdao/c101719/c7668620/content.shtml"
-  },
-  {
-   "date": "2026-11-04",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "辖区沪深上市公司2026年三季报概览",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7668619/content.shtml"
   },
   {
    "date": "2026-11-04",
@@ -904,16 +894,6 @@
   },
   {
    "date": "2026-10-23",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2026〕59号 · 高裕弟",
-   "docNo": "〔2026〕59号",
-   "party": "高裕弟",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7667584/content.shtml"
-  },
-  {
-   "date": "2026-10-23",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -951,6 +931,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/xiamen/c104096/c7666081/content.shtml"
+  },
+  {
+   "date": "2026-10-23",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕59号 · 高裕弟",
+   "docNo": "〔2026〕59号",
+   "party": "高裕弟",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7667584/content.shtml"
   },
   {
    "date": "2026-10-22",
@@ -1181,6 +1171,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/hubei/c105453/c7664625/content.shtml"
+  },
+  {
+   "date": "2026-10-14",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "湖北辖区期货经营机构名录（截至2026年9月30日）",
+   "docNo": "",
+   "party": "截至2026年9月30日",
+   "url": "https://www.csrc.gov.cn/hubei/c104393/c7664546/content.shtml"
   },
   {
    "date": "2026-10-10",
@@ -4147,9 +4147,105 @@
   },
   {
    "date": "2026-11-04",
+   "media": "证券时报网",
+   "title": "兴齐眼药：SQ-23101注射液治疗甲状腺眼病Ⅰa期临床试验首例试验参与者入组",
+   "url": "http://finance.eastmoney.com/a/202611043922006089.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-04",
+   "media": "财联社",
+   "title": "兴齐眼药：SQ-23101注射液完成甲状腺眼病Ⅰa期临床试验首例入组",
+   "url": "http://finance.eastmoney.com/a/202611043921992360.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-04",
+   "media": "中国新闻网",
+   "title": "全国首单港口物流公募REITs在天津获批",
+   "url": "http://bond.eastmoney.com/a/202611043922274362.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-04",
+   "media": "上海证券报·中国证券网",
+   "title": "首单港口物流公募REITs正式获批",
+   "url": "http://bond.eastmoney.com/a/202611043921551287.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-04",
+   "media": "澎湃新闻",
+   "title": "新城控股：首单商业不动产REIT合同生效，净认购金额15.53亿元",
+   "url": "http://finance.eastmoney.com/a/202611043921477451.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-04",
+   "media": "上海证券报·中国证券网",
+   "title": "华灿光电：限制性股票首个归属期1403.01万股于11月6日上市",
+   "url": "http://finance.eastmoney.com/a/202611043922302986.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-04",
    "media": "上海证券报",
    "title": "首批主动ETF结束募集 合计募资超350亿元",
    "url": "http://stock.eastmoney.com/a/202611043920670320.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-04",
+   "media": "每日经济新闻",
+   "title": "美股集体高开，特斯拉、SpaceX股价重挫；马斯克就美国中期选举发声；国行Apple智能首批功能来了；王兴兴：明年是机器人行业临界点丨每经晚参",
+   "url": "http://finance.eastmoney.com/a/202611043922308086.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-04",
+   "media": "上海证券报·中国证券网",
+   "title": "中信证券落地银行间市场首批CDS篮子",
+   "url": "http://bond.eastmoney.com/a/202611043922236738.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-04",
+   "media": "证券日报",
+   "title": "智能体身份注册与解析平台在乌镇发布 蚂蚁集团参与首批运行平台建设",
+   "url": "http://finance.eastmoney.com/a/202611043922221344.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-04",
+   "media": "中国证券报·中证金牛座",
+   "title": "首批18只主动ETF，全部结束募集",
+   "url": "http://stock.eastmoney.com/a/202611043922165963.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
@@ -5173,122 +5269,24 @@
     "新能源"
    ],
    "strong": true
-  },
-  {
-   "date": "2026-10-02",
-   "media": "财联社",
-   "title": "我国首个百兆瓦级 这个巨型“充电宝”成功并网",
-   "url": "http://finance.eastmoney.com/a/202610023888335796.html",
-   "keyword": "首个",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-10-02",
-   "media": "中国新闻网",
-   "title": "全国首个人机协同智慧岗亭亮相杭州街头",
-   "url": "http://finance.eastmoney.com/a/202610023888329044.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-10-02",
-   "media": "新华社",
-   "title": "德国防军将于2027年组建首个无人机团",
-   "url": "http://finance.eastmoney.com/a/202610023888314842.html",
-   "keyword": "首个",
-   "topics": [
-    "低空经济"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-10-01",
-   "media": "中国新闻网",
-   "title": "山西首单离境退税业务落地 助力“山西游、山西购”",
-   "url": "http://finance.eastmoney.com/a/202610013888236795.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-10-01",
-   "media": "上海证券报·中国证券网",
-   "title": "百洋医药首个自主孵化抗心衰1类创新药获批临床",
-   "url": "http://finance.eastmoney.com/a/202610013888212557.html",
-   "keyword": "首个",
-   "topics": [
-    "生物医药"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-10-01",
-   "media": "界面新闻",
-   "title": "10月新规：国家实行后备兵员储备制度，首个儿童座椅电子功能国标实施",
-   "url": "http://finance.eastmoney.com/a/202610013888011017.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-10-01",
-   "media": "财联社",
-   "title": "芬兰卫星公司ICEYE与诺基亚合作 首批通信卫星预计于2028年发射",
-   "url": "http://finance.eastmoney.com/a/202610013888224245.html",
-   "keyword": "首批",
-   "topics": [
-    "商业航天"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-10-01",
-   "media": "新华财经",
-   "title": "【环球财经】空客A350F货机首飞成功 预计2027年下半年实现首批交付",
-   "url": "http://finance.eastmoney.com/a/202610013888206641.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-10-01",
-   "media": "第一财经",
-   "title": "大连首条欧式沉浸式消费街区开业 投资8000余万元打造文商旅融合新地标",
-   "url": "http://biz.eastmoney.com/a/202610013888242815.html",
-   "keyword": "首条",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-10-01",
-   "media": "上海证券报·中国证券网",
-   "title": "中金公司跻身国内首批穆迪“A3”长期发行人主体评级券商",
-   "url": "http://finance.eastmoney.com/a/202610013888244082.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "total": 4403,
   "pipelineTotal": 840,
-  "activeTotal": 162,
+  "activeTotal": 165,
   "successTotal": 159,
-  "failTotal": 199,
+  "failTotal": 198,
   "stages": [
    {
     "name": "已受理",
-    "count": 1,
+    "count": 2,
     "kind": "active"
    },
    {
     "name": "已问询",
-    "count": 133,
+    "count": 135,
     "kind": "active"
    },
    {
@@ -5308,7 +5306,7 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 199,
+    "count": 198,
     "kind": "fail"
    }
   ],
@@ -5319,11 +5317,11 @@
    },
    {
     "name": "创业板",
-    "count": 183
+    "count": 184
    },
    {
     "name": "科创板",
-    "count": 126
+    "count": 125
    },
    {
     "name": "沪主板",
@@ -5651,6 +5649,16 @@
    }
   ],
   "recentActive": [
+   {
+    "date": "2026-11-04",
+    "acceptDate": "2026-11-04",
+    "company": "南京沁恒微电子股份有限公司",
+    "market": "创业板",
+    "industry": "软件和信息技术服务业",
+    "state": "已受理",
+    "region": "江苏",
+    "sponsor": "华泰联合证券有限责任公司"
+   },
    {
     "date": "2026-11-03",
     "acceptDate": "2026-06-26",
@@ -6040,16 +6048,6 @@
     "state": "已问询",
     "region": "湖南",
     "sponsor": "中泰证券股份有限公司"
-   },
-   {
-    "date": "2026-10-15",
-    "acceptDate": "2026-05-11",
-    "company": "纽氏达特行星传动系统技术(淄博)股份有限公司",
-    "market": "创业板",
-    "industry": "通用设备制造业",
-    "state": "已问询",
-    "region": "山东",
-    "sponsor": "东方证券股份有限公司"
    }
   ]
  }
