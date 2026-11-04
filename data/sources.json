@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04 02:12",
+ "generatedAt": "2026-11-04 09:32",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-11-04 02:12",
+   "fetchedAt": "2026-11-04 09:32",
    "ageDays": 9
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 14,
-   "fetchedAt": "2026-11-04 02:12",
+   "fetchedAt": "2026-11-04 09:32",
    "ageDays": 2
   },
   {
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-11-04 02:12",
+   "fetchedAt": "2026-11-04 09:32",
    "ageDays": 369
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "https://www.qstheory.cn/20261102/0aa3e7e738e74156854abf6ccedb6390/c.html",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202611/04/content_30189227.html",
    "latest": {
-    "title": "推动学习贯彻习近平党建思想走深走实",
-    "url": "https://www.qstheory.cn/20261102/0aa3e7e738e74156854abf6ccedb6390/c.html",
-    "date": "2026-11-02",
-    "source": "求是网"
+    "title": "把握开放大势 汇聚共赢之力",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202611/04/content_30189227.html",
+    "date": "2026-11-04",
+    "source": "人民日报"
    },
    "stale": false,
-   "total": 179,
-   "fetchedAt": "2026-11-04 02:12",
-   "ageDays": 2
+   "total": 181,
+   "fetchedAt": "2026-11-04 09:32",
+   "ageDays": 0
   }
  ],
  "stale": false,

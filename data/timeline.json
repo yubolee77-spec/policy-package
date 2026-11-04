@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-04 02:12",
+ "generatedAt": "2026-11-04 09:32",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 308,
+ "candidateCount": 310,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -331,6 +331,22 @@
   "11月": {
    "status": "hot",
    "docs": [
+    {
+     "label": "2026-11-04 · 把握开放大势 汇聚共赢之力（人民日报）",
+     "title": "把握开放大势 汇聚共赢之力",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202611/04/content_30189227.html",
+     "date": "2026-11-04",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-11-04 · 以治理大协同推动黄河大保护（经济日报）",
+     "title": "以治理大协同推动黄河大保护",
+     "url": "http://paper.ce.cn/pc/content/202611/04/content_341316.html",
+     "date": "2026-11-04",
+     "source": "经济日报",
+     "noise": false
+    },
     {
      "label": "2026-11-03 · 国家发展改革委等部门关于加强消费基础设施建设 促进消费投资良性互动的指导意见（发改委最新政策文件）",
      "title": "国家发展改革委等部门关于加强消费基础设施建设 促进消费投资良性互动的指导意见",

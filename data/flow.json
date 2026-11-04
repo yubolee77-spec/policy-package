@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04 02:12",
+  "generatedAt": "2026-11-04 09:32",
   "asOf": "2026-11",
   "asOfLabel": "2026年11月",
   "archiveTotal": 247,
@@ -2088,7 +2088,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2096,7 +2096,7 @@
           "url": ""
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2175,7 +2175,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2183,7 +2183,7 @@
           "url": ""
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
