@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-05 01:25",
- "mediaFetchedAt": "2026-11-05 01:25",
+ "generatedAt": "2026-11-05 02:19",
+ "mediaFetchedAt": "2026-11-05 02:19",
  "mediaStale": false,
  "mediaChannels": {
   "eastmoney": 22,
@@ -14,7 +14,7 @@
   "reitsApproved30d": 3,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 81,
+  "mediaStrong": 80,
   "activeTotal": 165,
   "successTotal": 159,
   "cycleRecentAvg": 267,
@@ -4117,6 +4117,15 @@
  ],
  "media": [
   {
+   "date": "2026-11-05",
+   "media": "证券日报",
+   "title": "首批18只主动ETF完成募集 合计资金达360亿元",
+   "url": "http://stock.eastmoney.com/a/202611053922366636.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-04",
    "media": "财联社",
    "title": "债市早参11月4日|债市波动逐渐触达理财客户，但未现大面积赎回，市场已回暖；全国首单中小银行专项债启动还本",
@@ -5257,17 +5266,6 @@
    "url": "http://xianhuo.eastmoney.com/a/202610023888350088.html",
    "keyword": "首单",
    "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-10-02",
-   "media": "界面新闻",
-   "title": "我国首个百兆瓦级压缩二氧化碳储能项目并网",
-   "url": "http://finance.eastmoney.com/a/202610023888338822.html",
-   "keyword": "首个",
-   "topics": [
-    "新能源"
-   ],
    "strong": true
   }
  ],

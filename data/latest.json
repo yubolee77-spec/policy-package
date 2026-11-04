@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-11-05",
-  "fetchedAt": "2026-11-05 01:22",
+  "fetchedAt": "2026-11-05 02:18",
   "monthLabel": "2026年11月",
   "timeline": [
     {
@@ -3142,7 +3142,8 @@
       "summary": "",
       "keywords": [],
       "keySentence": "",
-      "tier": ""
+      "tier": "",
+      "summaryTried": 1
     },
     {
       "url": "https://www.qstheory.cn/20261102/0aa3e7e738e74156854abf6ccedb6390/c.html",
