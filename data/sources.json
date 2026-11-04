@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04 15:48",
+ "generatedAt": "2026-11-04 19:41",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 96,
-   "fetchedAt": "2026-11-04 15:48",
+   "fetchedAt": "2026-11-04 19:41",
    "ageDays": 9
   },
   {
@@ -26,17 +26,17 @@
    "indexLabel": "财政部预算司·国债发行",
    "include": "国债",
    "exclude": "会见|会谈|座谈|巡视|招聘|任免|公示|考试|培训",
-   "href": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202611/t20261102_4003849.htm",
+   "href": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202611/t20261104_4004024.htm",
    "latest": {
-    "title": "关于2026年记账式贴现（七十一期）国债发行工作有关事宜的通知",
-    "url": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202611/t20261102_4003849.htm",
-    "date": "2026-11-02",
+    "title": "关于2026年记账式贴现（七十二期）国债发行工作有关事宜的通知",
+    "url": "https://bgt.mof.gov.cn/zhuantilanmu/rdwyh/czyw/202611/t20261104_4004024.htm",
+    "date": "2026-11-04",
     "source": "财政部"
    },
    "stale": false,
    "total": 14,
-   "fetchedAt": "2026-11-04 15:48",
-   "ageDays": 2
+   "fetchedAt": "2026-11-04 19:41",
+   "ageDays": 0
   },
   {
    "key": "localbond",
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 21,
-   "fetchedAt": "2026-11-04 15:48",
+   "total": 14,
+   "fetchedAt": "2026-11-04 19:41",
    "ageDays": 369
   },
   {
@@ -72,7 +72,7 @@
    },
    "stale": false,
    "total": 181,
-   "fetchedAt": "2026-11-04 15:48",
+   "fetchedAt": "2026-11-04 19:41",
    "ageDays": 0
   }
  ],

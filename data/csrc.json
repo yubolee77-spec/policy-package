@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04 15:46",
+ "generatedAt": "2026-11-04 19:38",
  "mediaFetchedAt": "2026-11-04 09:27",
  "mediaStale": true,
  "mediaChannels": {
@@ -8,7 +8,7 @@
  },
  "kpi": {
   "penaltyTotal": 235,
-  "penaltyMonth": 40,
+  "penaltyMonth": 42,
   "approvalTotal": 174,
   "approvalMonth": 3,
   "reitsApproved30d": 3,
@@ -22,6 +22,16 @@
   "cycleVerdict": "基本持平"
  },
  "penalty": [
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对苏州友和创业投资管理有限公司采取出具警示函行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7668650/content.shtml"
+  },
   {
    "date": "2026-11-04",
    "channel": "行政监管措施",
@@ -141,6 +151,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668528/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "新疆证监局2026年度“双随机”现场抽取结果公示（补充）",
+   "docNo": "",
+   "party": "补充",
+   "url": "https://www.csrc.gov.cn/xinjiang/c104362/c7668666/content.shtml"
   },
   {
    "date": "2026-11-04",
@@ -883,16 +903,6 @@
    "url": "https://www.csrc.gov.cn/shanghai/c103864/c7667972/content.shtml"
   },
   {
-   "date": "2026-10-26",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "监管措施",
-   "title": "行政监管措施决定书〔2026〕41号",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/hebei/c103648/c7666623/content.shtml"
-  },
-  {
    "date": "2026-10-23",
    "channel": "行政处罚决定",
    "column": "行政处罚决定",
@@ -1171,16 +1181,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/hubei/c105453/c7664625/content.shtml"
-  },
-  {
-   "date": "2026-10-14",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "湖北辖区期货经营机构名录（截至2026年9月30日）",
-   "docNo": "",
-   "party": "截至2026年9月30日",
-   "url": "https://www.csrc.gov.cn/hubei/c104393/c7664546/content.shtml"
   },
   {
    "date": "2026-10-10",
