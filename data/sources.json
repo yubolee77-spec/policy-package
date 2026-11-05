@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05 17:02",
+ "generatedAt": "2026-11-05 20:16",
  "cards": [
   {
    "key": "policy",
@@ -7,17 +7,17 @@
    "indexUrl": "https://www.gov.cn/zhengce/zuixin.htm",
    "indexLabel": "gov.cn/zhengce 最新政策",
    "from": "gov",
-   "href": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084280.htm",
+   "href": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085110.htm",
    "latest": {
-    "title": "事业单位登记管理条例",
-    "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084280.htm",
-    "date": "2026-10-26",
+    "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+    "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085110.htm",
+    "date": "2026-11-05",
     "source": "国务院最新政策文件"
    },
    "stale": false,
-   "total": 96,
-   "fetchedAt": "2026-11-05 17:02",
-   "ageDays": 10
+   "total": 95,
+   "fetchedAt": "2026-11-05 20:16",
+   "ageDays": 0
   },
   {
    "key": "bond",
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 13,
-   "fetchedAt": "2026-11-05 17:02",
+   "fetchedAt": "2026-11-05 20:16",
    "ageDays": 1
   },
   {
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-11-05 17:02",
+   "fetchedAt": "2026-11-05 20:16",
    "ageDays": 370
   },
   {
@@ -72,7 +72,7 @@
    },
    "stale": false,
    "total": 183,
-   "fetchedAt": "2026-11-05 17:02",
+   "fetchedAt": "2026-11-05 20:16",
    "ageDays": 0
   }
  ],

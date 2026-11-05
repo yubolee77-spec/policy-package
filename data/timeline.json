@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-05 17:02",
+ "generatedAt": "2026-11-05 20:16",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 312,
+ "candidateCount": 311,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,6 +332,30 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-05 · 国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复（国务院最新政策文件）",
+     "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085110.htm",
+     "date": "2026-11-05",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-11-05 · 国务院办公厅关于2027年部分节假日安排的通知（国务院最新政策文件）",
+     "title": "国务院办公厅关于2027年部分节假日安排的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085102.htm",
+     "date": "2026-11-05",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-11-05 · 国务院关于修改和废止部分行政法规的决定（国务院最新政策文件）",
+     "title": "国务院关于修改和废止部分行政法规的决定",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085099.htm",
+     "date": "2026-11-05",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-11-05 · 开放中国“进”无止境（经济日报）",
      "title": "开放中国“进”无止境",
      "url": "http://paper.ce.cn/pc/content/202611/05/content_341372.html",
@@ -353,30 +377,6 @@
      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085041.htm",
      "date": "2026-11-04",
      "source": "发改委最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-11-04 · 把握开放大势 汇聚共赢之力（人民日报）",
-     "title": "把握开放大势 汇聚共赢之力",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202611/04/content_30189227.html",
-     "date": "2026-11-04",
-     "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-04 · 以治理大协同推动黄河大保护（经济日报）",
-     "title": "以治理大协同推动黄河大保护",
-     "url": "http://paper.ce.cn/pc/content/202611/04/content_341316.html",
-     "date": "2026-11-04",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-04 · 人民日报评论员：历史昭示未来，奋斗成就伟业——论学习贯彻党的二十届五中全会精神（经济日报）",
-     "title": "人民日报评论员：历史昭示未来，奋斗成就伟业——论学习贯彻党的二十届五中全会精神",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261104_3283632.shtml",
-     "date": "2026-11-04",
-     "source": "经济日报",
      "noise": false
     }
    ],
