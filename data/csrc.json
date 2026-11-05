@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-05 02:19",
- "mediaFetchedAt": "2026-11-05 02:19",
+ "generatedAt": "2026-11-05 09:32",
+ "mediaFetchedAt": "2026-11-05 09:32",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 22,
+  "eastmoney": 21,
   "papers": 0
  },
  "kpi": {
@@ -14,9 +14,9 @@
   "reitsApproved30d": 3,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 80,
+  "mediaStrong": 79,
   "activeTotal": 165,
-  "successTotal": 159,
+  "successTotal": 157,
   "cycleRecentAvg": 267,
   "cyclePrevAvg": 260,
   "cycleVerdict": "基本持平"
@@ -894,6 +894,16 @@
   },
   {
    "date": "2026-10-23",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕59号 · 高裕弟",
+   "docNo": "〔2026〕59号",
+   "party": "高裕弟",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7667584/content.shtml"
+  },
+  {
+   "date": "2026-10-23",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -931,16 +941,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/xiamen/c104096/c7666081/content.shtml"
-  },
-  {
-   "date": "2026-10-23",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2026〕59号 · 高裕弟",
-   "docNo": "〔2026〕59号",
-   "party": "高裕弟",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7667584/content.shtml"
   },
   {
    "date": "2026-10-22",
@@ -2856,16 +2856,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "IPO注册",
@@ -2873,6 +2863,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -3026,16 +3026,6 @@
   },
   {
    "date": "2026-08-28",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
-  },
-  {
-   "date": "2026-08-28",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "托管资格",
@@ -3063,6 +3053,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7655050/content.shtml"
+  },
+  {
+   "date": "2026-08-28",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7655025/content.shtml"
   },
   {
    "date": "2026-08-27",
@@ -4121,6 +4121,15 @@
    "media": "证券日报",
    "title": "首批18只主动ETF完成募集 合计资金达360亿元",
    "url": "http://stock.eastmoney.com/a/202611053922366636.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-05",
+   "media": "界面新闻",
+   "title": "科技早报 | 苹果智能中国大陆的首批功能来了；币安披露“史上最大加密货币劫案”细节",
+   "url": "http://finance.eastmoney.com/a/202611053922599229.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
@@ -5258,23 +5267,14 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-10-02",
-   "media": "中国新闻网",
-   "title": "浙江舟山落地首单码头保税LNG船对船加注业务",
-   "url": "http://xianhuo.eastmoney.com/a/202610023888350088.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
   }
  ],
  "review": {
   "asOf": "2026-11-04",
   "total": 4403,
-  "pipelineTotal": 840,
+  "pipelineTotal": 838,
   "activeTotal": 165,
-  "successTotal": 159,
+  "successTotal": 157,
   "failTotal": 198,
   "stages": [
    {
@@ -5299,7 +5299,7 @@
    },
    {
     "name": "注册生效",
-    "count": 159,
+    "count": 157,
     "kind": "success"
    },
    {
@@ -5315,7 +5315,7 @@
    },
    {
     "name": "创业板",
-    "count": 184
+    "count": 183
    },
    {
     "name": "科创板",
@@ -5327,13 +5327,13 @@
    },
    {
     "name": "深主板",
-    "count": 59
+    "count": 58
    }
   ],
   "industries": [
    {
     "name": "计算机、通信和其他电子设备制造业",
-    "count": 152
+    "count": 151
    },
    {
     "name": "专用设备制造业",
