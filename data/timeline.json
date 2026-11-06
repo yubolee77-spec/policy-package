@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-06 09:32",
+ "generatedAt": "2026-11-06 15:45",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 311,
+ "candidateCount": 312,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-06 · 服务党的使命任务，打铁必须自身硬（评论员观察）（经济日报）",
+     "title": "服务党的使命任务，打铁必须自身硬（评论员观察）",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261106_3285828.shtml",
+     "date": "2026-11-06",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-11-05 · 国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复（国务院最新政策文件）",
      "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085110.htm",
@@ -369,14 +377,6 @@
      "url": "http://paper.ce.cn/pc/content/202611/05/content_341372.html",
      "date": "2026-11-05",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-04 · 国家发展改革委等部门关于印发《实施全面节约战略行动方案》的通知（发改委最新政策文件）",
-     "title": "国家发展改革委等部门关于印发《实施全面节约战略行动方案》的通知",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085045.htm",
-     "date": "2026-11-04",
-     "source": "发改委最新政策文件",
      "noise": false
     }
    ],

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06 09:32",
+ "generatedAt": "2026-11-06 15:45",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 95,
-   "fetchedAt": "2026-11-06 09:32",
+   "fetchedAt": "2026-11-06 15:45",
    "ageDays": 1
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 13,
-   "fetchedAt": "2026-11-06 09:32",
+   "fetchedAt": "2026-11-06 15:45",
    "ageDays": 2
   },
   {
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-11-06 09:32",
+   "fetchedAt": "2026-11-06 15:45",
    "ageDays": 371
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202611/05/content_341372.html",
+   "href": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261106_3285828.shtml",
    "latest": {
-    "title": "开放中国“进”无止境",
-    "url": "http://paper.ce.cn/pc/content/202611/05/content_341372.html",
-    "date": "2026-11-05",
+    "title": "服务党的使命任务，打铁必须自身硬（评论员观察）",
+    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261106_3285828.shtml",
+    "date": "2026-11-06",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 183,
-   "fetchedAt": "2026-11-06 09:32",
-   "ageDays": 1
+   "total": 184,
+   "fetchedAt": "2026-11-06 15:45",
+   "ageDays": 0
   }
  ],
  "stale": false,
