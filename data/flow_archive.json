@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06 02:30",
+  "updated": "2026-11-06 09:32",
   "items": [
     {
       "url": "https://www.csrc.gov.cn/csrc/c101895/c7668371/content.shtml",
@@ -20,6 +20,16 @@
       "industry": "REITs 注册",
       "amountYi": null,
       "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
+      "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+      "date": "2026-11-05",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "L1 政策速览"
     },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101895/c7668366/content.shtml",

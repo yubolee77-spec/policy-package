@@ -1,17 +1,17 @@
 {
- "generatedAt": "2026-11-06 02:25",
+ "generatedAt": "2026-11-06 09:30",
  "mediaFetchedAt": "2026-11-06 02:25",
- "mediaStale": false,
+ "mediaStale": true,
  "mediaChannels": {
-  "eastmoney": 17,
+  "eastmoney": 0,
   "papers": 0
  },
  "kpi": {
   "penaltyTotal": 237,
-  "penaltyMonth": 57,
+  "penaltyMonth": 58,
   "approvalTotal": 174,
   "approvalMonth": 5,
-  "reitsApproved30d": 3,
+  "reitsApproved30d": 5,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
   "mediaStrong": 78,
@@ -22,6 +22,16 @@
   "cycleVerdict": "基本持平"
  },
  "penalty": [
+  {
+   "date": "2026-11-06",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "甘肃证监局多措并举推动债券市场服务辖区实体经济发展",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/gansu/c101379/c7669067/content.shtml"
+  },
   {
    "date": "2026-11-05",
    "channel": "行政监管措施",
@@ -1191,16 +1201,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/dalian/c101569/c7664803/content.shtml"
-  },
-  {
-   "date": "2026-10-15",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "厦门辖区召开私募基金规范发展会议",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/xiamen/c101757/c7664373/content.shtml"
   },
   {
    "date": "2026-10-10",
@@ -5298,10 +5298,10 @@
  "review": {
   "asOf": "2026-11-05",
   "total": 4403,
-  "pipelineTotal": 838,
+  "pipelineTotal": 836,
   "activeTotal": 167,
   "successTotal": 157,
-  "failTotal": 198,
+  "failTotal": 197,
   "stages": [
    {
     "name": "已受理",
@@ -5330,18 +5330,18 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 198,
+    "count": 197,
     "kind": "fail"
    }
   ],
   "markets": [
    {
     "name": "北交所",
-    "count": 398
+    "count": 397
    },
    {
     "name": "创业板",
-    "count": 183
+    "count": 182
    },
    {
     "name": "科创板",
@@ -5359,7 +5359,7 @@
   "industries": [
    {
     "name": "计算机、通信和其他电子设备制造业",
-    "count": 151
+    "count": 149
    },
    {
     "name": "专用设备制造业",

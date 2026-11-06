@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-06 02:29",
+  "generatedAt": "2026-11-06 09:32",
   "asOf": "2026-11",
   "asOfLabel": "2026年11月",
-  "archiveTotal": 249,
-  "archiveAdded": 0,
+  "archiveTotal": 250,
+  "archiveAdded": 1,
   "channels": [
     {
       "key": "special_fund",
@@ -1219,11 +1219,12 @@
           "cur": {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 5,
+            "n": 6,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
-              "REITs 注册": 5
+              "REITs 注册": 5,
+              "其他审核": 1
             }
           },
           "prev": {
@@ -1239,21 +1240,21 @@
               "再融资": 5
             }
           },
-          "deltaPct": -77.3,
+          "deltaPct": -72.7,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 27,
+            "n": 28,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 5,
+              "其他审核": 9,
               "首发上市（IPO）": 3,
               "机构资格": 6,
-              "其他审核": 8,
               "再融资": 5
             }
           },
@@ -1272,21 +1273,21 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -70.3,
+          "deltaPct": -69.2,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 135,
+            "n": 136,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 19,
+              "其他审核": 44,
               "首发上市（IPO）": 15,
               "机构资格": 37,
-              "其他审核": 43,
               "再融资": 16,
               "并购重组": 5
             }
@@ -1304,7 +1305,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 335.5,
+          "deltaPct": 338.7,
           "deltaAmountPct": null
         }
       },
@@ -1373,7 +1374,7 @@
           {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 5,
+            "n": 6,
             "amountYi": 0.0
           },
           {
@@ -1405,7 +1406,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 27,
+            "n": 28,
             "amountYi": 0.0
           }
         ],
@@ -1419,7 +1420,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 135,
+            "n": 136,
             "amountYi": 0.0
           }
         ]
@@ -1477,11 +1478,20 @@
           },
           {
             "name": "其他审核",
-            "cur": 0,
+            "cur": 1,
             "prev": 8,
-            "deltaPct": -100.0,
-            "items": [],
-            "totalItems": 0
+            "deltaPct": -87.5,
+            "items": [
+              {
+                "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
+                "date": "2026-11-05",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "L1 政策速览"
+              }
+            ],
+            "totalItems": 1
           },
           {
             "name": "再融资",
@@ -1511,10 +1521,18 @@
         "quarter": [
           {
             "name": "其他审核",
-            "cur": 8,
+            "cur": 9,
             "prev": 21,
-            "deltaPct": -61.9,
+            "deltaPct": -57.1,
             "items": [
+              {
+                "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
+                "date": "2026-11-05",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "L1 政策速览"
+              },
               {
                 "title": "关于同意烟台九目化学股份有限公司向不特定合格投资者公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101830/c7667734/content.shtml",
@@ -1554,17 +1572,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "前三季度金融数据出炉多元化融资特征鲜明",
-                "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
-                "date": "2026-10-14",
-                "org": "gov.cn",
-                "amountYi": null,
-                "src": "gov.cn 政策库"
               }
             ],
-            "totalItems": 8
+            "totalItems": 9
           },
           {
             "name": "机构资格",
@@ -1766,10 +1776,18 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 43,
+            "cur": 44,
             "prev": 23,
-            "deltaPct": 87.0,
+            "deltaPct": 91.3,
             "items": [
+              {
+                "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
+                "date": "2026-11-05",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "L1 政策速览"
+              },
               {
                 "title": "关于同意烟台九目化学股份有限公司向不特定合格投资者公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101830/c7667734/content.shtml",
@@ -1809,17 +1827,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "前三季度金融数据出炉多元化融资特征鲜明",
-                "url": "https://www.gov.cn/zhengce/202610/content_7083269.htm",
-                "date": "2026-10-14",
-                "org": "gov.cn",
-                "amountYi": null,
-                "src": "gov.cn 政策库"
               }
             ],
-            "totalItems": 43
+            "totalItems": 44
           },
           {
             "name": "机构资格",
@@ -2271,6 +2281,16 @@
       "industry": "REITs 注册",
       "amountYi": null,
       "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
+      "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+      "date": "2026-11-05",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "L1 政策速览"
     },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101895/c7668366/content.shtml",
@@ -3436,16 +3456,6 @@
       "url": "https://www.csrc.gov.cn/csrc/c101830/c7647497/content.shtml",
       "title": "关于同意海能未来技术集团股份有限公司向特定对象发行股票注册的批复",
       "date": "2026-07-18",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "再融资",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c101830/c7647483/content.shtml",
-      "title": "关于同意广东揭西农村商业银行股份有限公司向特定对象发行股票注册的批复",
-      "date": "2026-07-17",
       "org": "证监会",
       "channel": "capital",
       "industry": "再融资",
