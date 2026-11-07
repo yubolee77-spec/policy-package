@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-07 08:58",
- "mediaFetchedAt": "2026-11-07 08:58",
+ "generatedAt": "2026-11-07 19:18",
+ "mediaFetchedAt": "2026-11-07 19:18",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 16,
+  "eastmoney": 13,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 8,
   "mediaTotal": 120,
-  "mediaStrong": 78,
+  "mediaStrong": 77,
   "activeTotal": 169,
   "successTotal": 156,
   "cycleRecentAvg": 267,
@@ -994,6 +994,16 @@
   },
   {
    "date": "2026-10-23",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕59号 · 高裕弟",
+   "docNo": "〔2026〕59号",
+   "party": "高裕弟",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7667584/content.shtml"
+  },
+  {
+   "date": "2026-10-23",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -1031,16 +1041,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/xiamen/c104096/c7666081/content.shtml"
-  },
-  {
-   "date": "2026-10-23",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2026〕59号 · 高裕弟",
-   "docNo": "〔2026〕59号",
-   "party": "高裕弟",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7667584/content.shtml"
   },
   {
    "date": "2026-10-22",
@@ -1084,6 +1084,16 @@
   },
   {
    "date": "2026-10-20",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕58号 · 马学军",
+   "docNo": "〔2026〕58号",
+   "party": "马学军",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7669214/content.shtml"
+  },
+  {
+   "date": "2026-10-20",
    "channel": "通知公告",
    "column": "辖区监管动态",
    "tag": "警示函",
@@ -1101,16 +1111,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/liaoning/c100467/c7665713/content.shtml"
-  },
-  {
-   "date": "2026-10-20",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2026〕58号 · 马学军",
-   "docNo": "〔2026〕58号",
-   "party": "马学军",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7669214/content.shtml"
   },
   {
    "date": "2026-10-19",
@@ -4138,10 +4138,28 @@
   },
   {
    "date": "2026-11-07",
+   "media": "央视新闻",
+   "title": "国内首个科技法学院在雄安新区成立",
+   "url": "http://finance.eastmoney.com/a/202611073925493875.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-07",
    "media": "澎湃新闻",
    "title": "增量资金已入市！6家头部券商完成互换便利操作 落地首批股票投资",
    "url": "http://finance.eastmoney.com/a/202611073925312813.html",
    "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-07",
+   "media": "中国新闻网",
+   "title": "广州港南沙四期全自动化码头迎来首条外贸班轮航线",
+   "url": "http://finance.eastmoney.com/a/202611073925513686.html",
+   "keyword": "首条",
    "topics": [],
    "strong": false
   },
@@ -5252,28 +5270,6 @@
    "url": "http://finance.eastmoney.com/a/202610093890772197.html",
    "keyword": "首例",
    "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-10-09",
-   "media": "21世纪经济报道",
-   "title": "我国首个三塔光伏光热基地成功并网发电，光伏ETF天弘（159857）近3日“吸金”近3000万元",
-   "url": "http://stock.eastmoney.com/a/202610093890505869.html",
-   "keyword": "首个",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-10-09",
-   "media": "科创板日报",
-   "title": "AI竞争跑出新变量？大湾区首家大模型初创公司，刷新全球dLLM融资纪录",
-   "url": "http://finance.eastmoney.com/a/202610093890705119.html",
-   "keyword": "首家",
-   "topics": [
-    "算力/AI"
-   ],
    "strong": true
   }
  ],
