@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-09 00:09",
- "mediaFetchedAt": "2026-11-09 00:09",
+ "generatedAt": "2026-11-09 00:51",
+ "mediaFetchedAt": "2026-11-09 00:51",
  "mediaStale": false,
  "mediaChannels": {
   "eastmoney": 12,
@@ -2966,16 +2966,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "政策解读",
    "column": "政策解读",
    "tag": "政策法规",
@@ -2983,6 +2973,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "IPO注册",
+   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
   },
   {
    "date": "2026-09-10",
