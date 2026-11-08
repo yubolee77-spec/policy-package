@@ -1,31 +1,51 @@
 {
- "generatedAt": "2026-11-08 00:43",
- "mediaFetchedAt": "2026-11-08 00:43",
+ "generatedAt": "2026-11-08 08:43",
+ "mediaFetchedAt": "2026-11-08 08:43",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 12,
+  "eastmoney": 13,
   "papers": 0
  },
  "kpi": {
-  "penaltyTotal": 119,
-  "penaltyMonth": 26,
+  "penaltyTotal": 235,
+  "penaltyMonth": 79,
   "approvalTotal": 174,
   "approvalMonth": 17,
   "reitsApproved30d": 5,
   "ipoApproved30d": 8,
   "mediaTotal": 120,
-  "mediaStrong": 76,
+  "mediaStrong": 75,
   "activeTotal": 169,
   "successTotal": 156,
   "cycleRecentAvg": 267,
-  "cyclePrevAvg": 260,
+  "cyclePrevAvg": 264,
   "cycleVerdict": "基本持平"
  },
  "penalty": [
   {
    "date": "2026-11-06",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "深圳证监局关于对海控南海发展股份有限公司、马珺、杨晓强、祁生彪、周军采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7669397/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对广州钏铂资产管理有限公司采取责令改正措施的决定〔2026〕137号",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7669339/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
    "tag": "警示函",
    "title": "关于对刘明旭采取出具警示函行政监管措施的决定",
    "docNo": "",
@@ -34,13 +54,143 @@
   },
   {
    "date": "2026-11-06",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
+   "channel": "行政监管措施",
+   "column": "监管措施",
    "tag": "责令改正",
    "title": "关于对中信证券股份有限公司吉林省分公司采取责令改正行政监管措施的决定",
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jilin/c103788/c7669322/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对重庆长寿开发投资（集团）有限公司及陈忠平、陈碧容、陶中荣采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669308/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对重庆鸿业实业（集团）有限公司、谭颂、陈念东采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669296/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对北京指南针科技发展股份有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c105547/c7669293/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "宁夏证监局关于对银川开发区育成凤凰基金管理有限公司采取出具警示函行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/ningxia/c104434/c7669286/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对中信建投期货有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669283/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对北京森博明德人工智能科技股份有限公司、于林义采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c105547/c7669282/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "宁夏证监局关于对银川景信创业投资管理有限公司、张洁采取出具警示函行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/ningxia/c104434/c7669281/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对刘伯哲、胡瀚阳采取出具警示函行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7669261/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对黄河三角洲产业投资基金管理有限公司采取责令改正行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shandong/c104218/c7669258/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "深圳证监局关于对申沙沙采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7669255/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "深圳证监局关于对詹安福采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7669252/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "江苏证监局关于对安丞投资管理（南京）有限公司采取责令改正行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7669095/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对庄道明采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangxi/c104168/c7669082/content.shtml"
   },
   {
    "date": "2026-11-06",
@@ -94,6 +244,136 @@
   },
   {
    "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对北京市中咨律师事务所采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7668960/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对赵新军、满高鹏、赵旭飞采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xinjiang/c104370/c7668959/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对天山材料股份有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xinjiang/c104370/c7668956/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对北京市金杜律师事务所采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7668910/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对浙江泰坦股份有限公司及相关人员采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668863/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对浙江思考私募基金股份有限公司及其相关人员采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668862/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对浙江贯邦私募基金管理有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668767/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对晨峰基石（杭州）创业投资有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668764/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对王启超采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668762/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对李天野采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668761/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对张晨曦采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668760/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "监管谈话",
+   "title": "关于对陈南平采取监管谈话措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangxi/c104168/c7668753/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "监管措施",
+   "title": "关于对共青城磐石投资管理合伙企业（有限合伙）采取责令暂停私募基金资金募集措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangxi/c104168/c7668750/content.shtml"
+  },
+  {
+   "date": "2026-11-05",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -111,6 +391,136 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/ningxia/c101455/c7668843/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对苏州友和创业投资管理有限公司采取出具警示函行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7668650/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "监管措施",
+   "title": "关于对新华联亚洲实业投资有限公司采取责令购回违规减持股份并向上市公司上缴价差监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hunan/c104484/c7668642/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对景鹏鹏采取出具警示函行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103892/c7668622/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对龙泉云锋私募基金管理有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668607/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对康云龙采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668605/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对浙江阿推传媒股份有限公司及相关人员采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668584/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对浙江富杰德汽车系统股份有限公司及相关人员采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668582/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对浙江新中南汽车零部件股份有限公司及相关人员采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668580/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对陕西巨丰投资资讯有限责任公司广州分公司采取出具警示函监管措施的决定〔2026〕135号",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7668574/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对广州市万隆证券咨询顾问有限公司采取责令改正监管措施的决定〔2026〕134号",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7668571/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "厦门证监局关于对厦门昊嘉财富投资管理有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c104104/c7668570/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对温笛采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668530/content.shtml"
+  },
+  {
+   "date": "2026-11-04",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对平阳九演资产管理有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668528/content.shtml"
   },
   {
    "date": "2026-11-04",
@@ -154,6 +564,66 @@
   },
   {
    "date": "2026-11-03",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对天津携车网络信息技术股份有限公司及章正超采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/tianjin/c103610/c7668412/content.shtml"
+  },
+  {
+   "date": "2026-11-03",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对江苏通灵电器股份有限公司、镇江尚昆商务咨询有限公司、严荣飞采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103893/c7668409/content.shtml"
+  },
+  {
+   "date": "2026-11-03",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对徐金根、王冬梅、徐小艺、浙江启厚资产管理有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103893/c7668383/content.shtml"
+  },
+  {
+   "date": "2026-11-03",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对昆山科森科技股份有限公司及徐金根、朱戴兵采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103893/c7668380/content.shtml"
+  },
+  {
+   "date": "2026-11-03",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "江苏证监局关于对昆山中盛财富资产管理有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7668374/content.shtml"
+  },
+  {
+   "date": "2026-11-03",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对浙江中林勘察研究股份有限公司及钱志宇采取责令改正并出具警示函、对商夏明、邵剑飞及钱莉娜采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668324/content.shtml"
+  },
+  {
+   "date": "2026-11-03",
    "channel": "通知公告",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -194,6 +664,86 @@
   },
   {
    "date": "2026-11-02",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对华塑控股股份有限公司、杨建安、段静采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/sichuan/c104902/c7668074/content.shtml"
+  },
+  {
+   "date": "2026-11-02",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对华安证券股份有限公司海南分公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hainan/c104738/c7668058/content.shtml"
+  },
+  {
+   "date": "2026-11-02",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "厦门证监局关于对钟振发、田爽采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c104104/c7668051/content.shtml"
+  },
+  {
+   "date": "2026-11-02",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对无锡力合清源投资管理顾问有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7668050/content.shtml"
+  },
+  {
+   "date": "2026-11-02",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对西安石榴智创私募基金管理有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shaanxi/c104628/c7668047/content.shtml"
+  },
+  {
+   "date": "2026-11-02",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对西安曲江崇安私募基金管理有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shaanxi/c104628/c7668044/content.shtml"
+  },
+  {
+   "date": "2026-11-02",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对张弢采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7667998/content.shtml"
+  },
+  {
+   "date": "2026-11-02",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对叶先明采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7667983/content.shtml"
+  },
+  {
+   "date": "2026-11-02",
    "channel": "通知公告",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -221,26 +771,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/xiamen/c104096/c7668055/content.shtml"
-  },
-  {
-   "date": "2026-11-02",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "警示函",
-   "title": "关于对西安石榴智创私募基金管理有限公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shaanxi/c104628/c7668047/content.shtml"
-  },
-  {
-   "date": "2026-11-02",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "警示函",
-   "title": "关于对西安曲江崇安私募基金管理有限公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shaanxi/c104628/c7668044/content.shtml"
   },
   {
    "date": "2026-11-02",
@@ -281,6 +811,36 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/liaoning/c100467/c7667866/content.shtml"
+  },
+  {
+   "date": "2026-10-30",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对郑州祥龙电力股份有限公司及相关责任人员采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/henan/c104282/c7669379/content.shtml"
+  },
+  {
+   "date": "2026-10-30",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对新里程健康创业投资（天津）有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/tianjin/c103610/c7667713/content.shtml"
+  },
+  {
+   "date": "2026-10-30",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对成都汇阳投资顾问有限公司采取责令改正并暂停新增客户行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/sichuan/c104902/c7667684/content.shtml"
   },
   {
    "date": "2026-10-30",
@@ -1211,9 +1771,619 @@
    "docNo": "〔2025〕149号",
    "party": "青岛大摩证券投资有限公司",
    "url": "https://www.csrc.gov.cn/csrc/c101928/c7603416/content.shtml"
+  },
+  {
+   "date": "2024-04-25",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2024〕10号 · 高松",
+   "docNo": "〔2024〕10号",
+   "party": "高松",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7491800/content.shtml"
+  },
+  {
+   "date": "2024-04-02",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2024〕9号 · 袁亚非",
+   "docNo": "〔2024〕9号",
+   "party": "袁亚非",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7500975/content.shtml"
+  },
+  {
+   "date": "2024-03-27",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2024〕8号 · 张志勇",
+   "docNo": "〔2024〕8号",
+   "party": "张志勇",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7474964/content.shtml"
+  },
+  {
+   "date": "2024-03-21",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2024〕7号 · 刘斌",
+   "docNo": "〔2024〕7号",
+   "party": "刘斌",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7474962/content.shtml"
+  },
+  {
+   "date": "2024-03-13",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2024〕6号 · 钱仁勇",
+   "docNo": "〔2024〕6号",
+   "party": "钱仁勇",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7474973/content.shtml"
+  },
+  {
+   "date": "2024-03-07",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2024〕5号 · 郭新峰",
+   "docNo": "〔2024〕5号",
+   "party": "郭新峰",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7470684/content.shtml"
+  },
+  {
+   "date": "2024-03-04",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2024〕4号 · 王翼初",
+   "docNo": "〔2024〕4号",
+   "party": "王翼初",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7482226/content.shtml"
+  },
+  {
+   "date": "2024-02-07",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2024〕3号 · 吴光胜",
+   "docNo": "〔2024〕3号",
+   "party": "吴光胜",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7467933/content.shtml"
+  },
+  {
+   "date": "2024-02-05",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2024〕2号 · 张亦斌",
+   "docNo": "〔2024〕2号",
+   "party": "张亦斌",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7467935/content.shtml"
+  },
+  {
+   "date": "2024-01-24",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2024〕1号 · 朱要文",
+   "docNo": "〔2024〕1号",
+   "party": "朱要文",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7484394/content.shtml"
+  },
+  {
+   "date": "2023-12-22",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2023〕37号 · 韩飞",
+   "docNo": "〔2023〕37号",
+   "party": "韩飞",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7461770/content.shtml"
+  },
+  {
+   "date": "2023-12-20",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕36号 · 姜鹏",
+   "docNo": "〔2023〕36号",
+   "party": "姜鹏",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7461768/content.shtml"
+  },
+  {
+   "date": "2023-12-04",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕35号 · 王双义",
+   "docNo": "〔2023〕35号",
+   "party": "王双义",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7461760/content.shtml"
+  },
+  {
+   "date": "2023-12-01",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕34号 · 陈磊",
+   "docNo": "〔2023〕34号",
+   "party": "陈磊",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7457126/content.shtml"
+  },
+  {
+   "date": "2023-11-28",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕33号 · 熊剑涛",
+   "docNo": "〔2023〕33号",
+   "party": "熊剑涛",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7461758/content.shtml"
+  },
+  {
+   "date": "2023-11-16",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕32号 · 周建永",
+   "docNo": "〔2023〕32号",
+   "party": "周建永",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7448188/content.shtml"
+  },
+  {
+   "date": "2023-11-02",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕31号 · 楚金甫",
+   "docNo": "〔2023〕31号",
+   "party": "楚金甫",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7448185/content.shtml"
+  },
+  {
+   "date": "2023-10-27",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕30号 · 胡卫林",
+   "docNo": "〔2023〕30号",
+   "party": "胡卫林",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7448183/content.shtml"
+  },
+  {
+   "date": "2023-09-28",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕29号 · 陈峰",
+   "docNo": "〔2023〕29号",
+   "party": "陈峰",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7444013/content.shtml"
+  },
+  {
+   "date": "2023-09-15",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕28号 · 陈苹",
+   "docNo": "〔2023〕28号",
+   "party": "陈苹",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7439664/content.shtml"
+  },
+  {
+   "date": "2023-09-15",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕27号 · 缪品章",
+   "docNo": "〔2023〕27号",
+   "party": "缪品章",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7439660/content.shtml"
+  },
+  {
+   "date": "2023-09-05",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕26号 · 苏剑锋",
+   "docNo": "〔2023〕26号",
+   "party": "苏剑锋",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7434407/content.shtml"
+  },
+  {
+   "date": "2023-08-25",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕25号 · 叶家豪",
+   "docNo": "〔2023〕25号",
+   "party": "叶家豪",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7431897/content.shtml"
+  },
+  {
+   "date": "2023-08-21",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕24号 · 杨寿海",
+   "docNo": "〔2023〕24号",
+   "party": "杨寿海",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7431722/content.shtml"
+  },
+  {
+   "date": "2023-08-02",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕23号 · 王醒",
+   "docNo": "〔2023〕23号",
+   "party": "王醒",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7425778/content.shtml"
+  },
+  {
+   "date": "2023-07-24",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕22号 · 刘建勋",
+   "docNo": "〔2023〕22号",
+   "party": "刘建勋",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7425917/content.shtml"
+  },
+  {
+   "date": "2023-06-30",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕20号 · 刘雪松",
+   "docNo": "〔2023〕20号",
+   "party": "刘雪松",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7420756/content.shtml"
+  },
+  {
+   "date": "2023-06-30",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕21号 · 王迎燕",
+   "docNo": "〔2023〕21号",
+   "party": "王迎燕",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7425776/content.shtml"
+  },
+  {
+   "date": "2023-06-20",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕19号 · 朱弟雄",
+   "docNo": "〔2023〕19号",
+   "party": "朱弟雄",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7445860/content.shtml"
+  },
+  {
+   "date": "2023-06-19",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕18号 · 姜志勇",
+   "docNo": "〔2023〕18号",
+   "party": "姜志勇",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7419227/content.shtml"
+  },
+  {
+   "date": "2023-06-09",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕17号 · 夏东明",
+   "docNo": "〔2023〕17号",
+   "party": "夏东明",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7420322/content.shtml"
+  },
+  {
+   "date": "2023-05-19",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕15号 · 任良成",
+   "docNo": "〔2023〕15号",
+   "party": "任良成",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7413600/content.shtml"
+  },
+  {
+   "date": "2023-05-19",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕16号 · 杨杰",
+   "docNo": "〔2023〕16号",
+   "party": "杨杰",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7412340/content.shtml"
+  },
+  {
+   "date": "2023-05-15",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕14号 · 郭信平",
+   "docNo": "〔2023〕14号",
+   "party": "郭信平",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7412337/content.shtml"
+  },
+  {
+   "date": "2023-04-28",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕13号 · 吕美庆",
+   "docNo": "〔2023〕13号",
+   "party": "吕美庆",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7410683/content.shtml"
+  },
+  {
+   "date": "2023-04-27",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕12号 · 张志勇",
+   "docNo": "〔2023〕12号",
+   "party": "张志勇",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7412332/content.shtml"
+  },
+  {
+   "date": "2023-04-18",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕11号 · 郑穆",
+   "docNo": "〔2023〕11号",
+   "party": "郑穆",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7404376/content.shtml"
+  },
+  {
+   "date": "2023-04-18",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕10号 · 林应、应岚",
+   "docNo": "〔2023〕10号",
+   "party": "林应、应岚",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7404374/content.shtml"
+  },
+  {
+   "date": "2023-04-17",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕9号 · 胡克勤、赵静文",
+   "docNo": "〔2023〕9号",
+   "party": "胡克勤、赵静文",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7412317/content.shtml"
+  },
+  {
+   "date": "2023-04-13",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕8号 · 何德平",
+   "docNo": "〔2023〕8号",
+   "party": "何德平",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7409602/content.shtml"
+  },
+  {
+   "date": "2023-03-28",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕7号 · 赵航",
+   "docNo": "〔2023〕7号",
+   "party": "赵航",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7402754/content.shtml"
+  },
+  {
+   "date": "2023-03-17",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕6号 · 高红明",
+   "docNo": "〔2023〕6号",
+   "party": "高红明",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7413841/content.shtml"
+  },
+  {
+   "date": "2023-03-03",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕4号 · 冷天晴",
+   "docNo": "〔2023〕4号",
+   "party": "冷天晴",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7414104/content.shtml"
+  },
+  {
+   "date": "2023-03-02",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕5号 · 孙彦飞",
+   "docNo": "〔2023〕5号",
+   "party": "孙彦飞",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7400300/content.shtml"
+  },
+  {
+   "date": "2023-02-16",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕3号 · 邹永杭",
+   "docNo": "〔2023〕3号",
+   "party": "邹永杭",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7412291/content.shtml"
+  },
+  {
+   "date": "2023-02-06",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕2号 · 吴刚",
+   "docNo": "〔2023〕2号",
+   "party": "吴刚",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7414102/content.shtml"
+  },
+  {
+   "date": "2023-01-11",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2023〕1号 · 韩华",
+   "docNo": "〔2023〕1号",
+   "party": "韩华",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7073680/content.shtml"
+  },
+  {
+   "date": "2022-12-14",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕17号 · 唐隆",
+   "docNo": "〔2022〕17号",
+   "party": "唐隆",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7118915/content.shtml"
+  },
+  {
+   "date": "2022-11-14",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕16号 · 侯建芳",
+   "docNo": "〔2022〕16号",
+   "party": "侯建芳",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c6952754/content.shtml"
+  },
+  {
+   "date": "2022-10-17",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕15号 · 郭留希",
+   "docNo": "〔2022〕15号",
+   "party": "郭留希",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7402383/content.shtml"
+  },
+  {
+   "date": "2022-10-08",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕14号 · 韦健",
+   "docNo": "〔2022〕14号",
+   "party": "韦健",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c7413945/content.shtml"
+  },
+  {
+   "date": "2022-09-08",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕13号 · 郭文杰",
+   "docNo": "〔2022〕13号",
+   "party": "郭文杰",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c5968227/content.shtml"
+  },
+  {
+   "date": "2022-08-31",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕12号 · 李兴",
+   "docNo": "〔2022〕12号",
+   "party": "李兴",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c5901561/content.shtml"
+  },
+  {
+   "date": "2022-08-19",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕10号 · 王建强",
+   "docNo": "〔2022〕10号",
+   "party": "王建强",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c5643044/content.shtml"
+  },
+  {
+   "date": "2022-08-19",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕11号 · 袁海深",
+   "docNo": "〔2022〕11号",
+   "party": "袁海深",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c6963251/content.shtml"
+  },
+  {
+   "date": "2022-07-27",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕9号 · 谭澍",
+   "docNo": "〔2022〕9号",
+   "party": "谭澍",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c5582698/content.shtml"
+  },
+  {
+   "date": "2022-05-20",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕8号 · 唐云",
+   "docNo": "〔2022〕8号",
+   "party": "唐云",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c3010339/content.shtml"
+  },
+  {
+   "date": "2022-04-26",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕7号 · 赖淦锋",
+   "docNo": "〔2022〕7号",
+   "party": "赖淦锋",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c3686636/content.shtml"
+  },
+  {
+   "date": "2022-04-07",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕6号 · 陈伟雄",
+   "docNo": "〔2022〕6号",
+   "party": "陈伟雄",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c2379204/content.shtml"
+  },
+  {
+   "date": "2022-04-06",
+   "channel": "市场禁入决定",
+   "column": "市场禁入决定",
+   "tag": "市场禁入",
+   "title": "市场禁入 〔2022〕5号 · 张美华",
+   "docNo": "〔2022〕5号",
+   "party": "张美华",
+   "url": "https://www.csrc.gov.cn/csrc/c101927/c2343872/content.shtml"
   }
  ],
  "approval": [
+  {
+   "date": "2026-11-06",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "IPO注册",
+   "title": "关于同意广东保伦电子股份有限公司首次公开发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c106385/c7669312/content.shtml"
+  },
   {
    "date": "2026-11-06",
    "channel": "许可审核进度",
@@ -1303,16 +2473,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c106381/c7322612/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意广东保伦电子股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c106385/c7669312/content.shtml"
   },
   {
    "date": "2026-11-05",
@@ -1566,16 +2726,6 @@
   },
   {
    "date": "2026-10-10",
-   "channel": "许可审核进度",
-   "column": "许可审核进度",
-   "tag": "审核进度公示",
-   "title": "【行政许可事项】债券监管司公开发行公司（企业）债券审核工作流程及申请企业情况",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c106307/c1045428/content.shtml"
-  },
-  {
-   "date": "2026-10-10",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "核准批复",
@@ -1583,6 +2733,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c101880/c7665188/content.shtml"
+  },
+  {
+   "date": "2026-10-10",
+   "channel": "许可审核进度",
+   "column": "许可审核进度",
+   "tag": "审核进度公示",
+   "title": "【行政许可事项】债券监管司公开发行公司（企业）债券审核工作流程及申请企业情况",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c106307/c1045428/content.shtml"
   },
   {
    "date": "2026-10-08",
@@ -2957,6 +4117,15 @@
  ],
  "media": [
   {
+   "date": "2026-11-08",
+   "media": "每日经济新闻",
+   "title": "首批18只主动ETF全部提前结募",
+   "url": "http://stock.eastmoney.com/a/202611083925578486.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-07",
    "media": "界面新闻",
    "title": "能源早报｜“十五五”时期，我国将进一步做大油气合作朋友圈；全球首个商业化高温气冷堆核岛建设全面启动",
@@ -4101,24 +5270,15 @@
    "keyword": "首例",
    "topics": [],
    "strong": true
-  },
-  {
-   "date": "2026-10-27",
-   "media": "界面新闻",
-   "title": "华东医药：HDM1005注射液完成阻塞性睡眠呼吸暂停合并肥胖或超重适应症中国Ⅲ期临床研究首例受试者随机给药",
-   "url": "http://finance.eastmoney.com/a/202610273909915057.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
   }
  ],
  "review": {
   "asOf": "2026-11-06",
   "total": 4403,
-  "pipelineTotal": 835,
+  "pipelineTotal": 834,
   "activeTotal": 169,
   "successTotal": 156,
-  "failTotal": 197,
+  "failTotal": 196,
   "stages": [
    {
     "name": "已受理",
@@ -4147,7 +5307,7 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 197,
+    "count": 196,
     "kind": "fail"
    }
   ],
@@ -4158,7 +5318,7 @@
    },
    {
     "name": "创业板",
-    "count": 181
+    "count": 180
    },
    {
     "name": "科创板",
@@ -4176,7 +5336,7 @@
   "industries": [
    {
     "name": "计算机、通信和其他电子设备制造业",
-    "count": 149
+    "count": 148
    },
    {
     "name": "专用设备制造业",
@@ -4218,9 +5378,9 @@
   "cycle": {
    "recentAvg": 267,
    "recentN": 11,
-   "prevAvg": 260,
-   "prevN": 26,
-   "deltaPct": 3,
+   "prevAvg": 264,
+   "prevN": 25,
+   "deltaPct": 1,
    "verdict": "基本持平",
    "byMonth": [
     {
