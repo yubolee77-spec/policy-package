@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09 09:07",
+ "generatedAt": "2026-11-09 15:42",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 313,
@@ -332,6 +332,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-09 · 2026年10月份居民消费价格同比上涨0.7%（国家统计局最新数据发布）",
+     "title": "2026年10月份居民消费价格同比上涨0.7%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
+     "date": "2026-11-09",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
+     "label": "2026-11-09 · 2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%（国家统计局最新数据发布）",
+     "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+     "date": "2026-11-09",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-11-09 · 依法依规治理低价无序竞争（经济日报）",
      "title": "依法依规治理低价无序竞争",
      "url": "http://paper.ce.cn/pc/content/202611/09/content_341589.html",
@@ -361,22 +377,6 @@
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261106_3285828.shtml",
      "date": "2026-11-06",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-05 · 国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复（国务院最新政策文件）",
-     "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085110.htm",
-     "date": "2026-11-05",
-     "source": "国务院最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-11-05 · 国务院办公厅关于2027年部分节假日安排的通知（国务院最新政策文件）",
-     "title": "国务院办公厅关于2027年部分节假日安排的通知",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085102.htm",
-     "date": "2026-11-05",
-     "source": "国务院最新政策文件",
      "noise": false
     }
    ],
