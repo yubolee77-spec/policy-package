@@ -1,27 +1,37 @@
 {
- "generatedAt": "2026-11-09 15:39",
- "mediaFetchedAt": "2026-11-09 15:39",
+ "generatedAt": "2026-11-09 19:29",
+ "mediaFetchedAt": "2026-11-09 19:29",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 10,
+  "eastmoney": 11,
   "papers": 0
  },
  "kpi": {
   "penaltyTotal": 237,
-  "penaltyMonth": 88,
+  "penaltyMonth": 90,
   "approvalTotal": 174,
   "approvalMonth": 17,
   "reitsApproved30d": 5,
   "ipoApproved30d": 8,
   "mediaTotal": 120,
-  "mediaStrong": 75,
-  "activeTotal": 171,
-  "successTotal": 156,
-  "cycleRecentAvg": 267,
+  "mediaStrong": 77,
+  "activeTotal": 170,
+  "successTotal": 157,
+  "cycleRecentAvg": 260,
   "cyclePrevAvg": 264,
   "cycleVerdict": "基本持平"
  },
  "penalty": [
+  {
+   "date": "2026-11-09",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "云南辖区拟上市企业辅导备案工作进展情况表（截至2026年9月30日）",
+   "docNo": "",
+   "party": "截至2026年9月30日",
+   "url": "https://www.csrc.gov.cn/yunnan/c105481/c7669767/content.shtml"
+  },
   {
    "date": "2026-11-09",
    "channel": "监管工作",
@@ -61,6 +71,86 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/beijing/c100277/c7669589/content.shtml"
+  },
+  {
+   "date": "2026-11-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对华安期货有限责任公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/anhui/c103990/c7669765/content.shtml"
+  },
+  {
+   "date": "2026-11-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对云南贝泰妮生物科技集团股份有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/yunnan/c104788/c7669764/content.shtml"
+  },
+  {
+   "date": "2026-11-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对安徽昊方机电股份有限公司、杜朝晖、李军、孙实发、李京、李群虎采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/anhui/c103990/c7669760/content.shtml"
+  },
+  {
+   "date": "2026-11-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对何聪采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/yunnan/c104788/c7669758/content.shtml"
+  },
+  {
+   "date": "2026-11-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对云南约牛软件技术有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/yunnan/c104788/c7669756/content.shtml"
+  },
+  {
+   "date": "2026-11-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对常州市泰银私募基金管理合伙企业（有限合伙）采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7669731/content.shtml"
+  },
+  {
+   "date": "2026-11-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "厦门证监局关于对山西证券股份有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c104104/c7669702/content.shtml"
+  },
+  {
+   "date": "2026-11-09",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "厦门证监局关于对厦门迈信智农物联科技股份有限公司及梁士喆采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c104104/c7669700/content.shtml"
   },
   {
    "date": "2026-11-09",
@@ -151,6 +241,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jilin/c103788/c7669322/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "江苏证监局关于2026年度公司债券发行人现场检查随机抽查对象的公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103887/c7669734/content.shtml"
   },
   {
    "date": "2026-11-06",
@@ -733,66 +833,6 @@
    "url": "https://www.csrc.gov.cn/tianjin/c103610/c7668412/content.shtml"
   },
   {
-   "date": "2026-11-03",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对江苏通灵电器股份有限公司、镇江尚昆商务咨询有限公司、严荣飞采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103893/c7668409/content.shtml"
-  },
-  {
-   "date": "2026-11-03",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对徐金根、王冬梅、徐小艺、浙江启厚资产管理有限公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103893/c7668383/content.shtml"
-  },
-  {
-   "date": "2026-11-03",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对昆山科森科技股份有限公司及徐金根、朱戴兵采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103893/c7668380/content.shtml"
-  },
-  {
-   "date": "2026-11-03",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "江苏证监局关于对昆山中盛财富资产管理有限公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103894/c7668374/content.shtml"
-  },
-  {
-   "date": "2026-11-03",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对赵融采取出具警示函行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103892/c7668367/content.shtml"
-  },
-  {
-   "date": "2026-11-03",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对浙江中林勘察研究股份有限公司及钱志宇采取责令改正并出具警示函、对商夏明、邵剑飞及钱莉娜采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668324/content.shtml"
-  },
-  {
    "date": "2026-11-02",
    "channel": "通知公告",
    "column": "辖区监管动态",
@@ -881,26 +921,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/liaoning/c100467/c7667866/content.shtml"
-  },
-  {
-   "date": "2026-11-02",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对华塑控股股份有限公司、杨建安、段静采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/sichuan/c104902/c7668074/content.shtml"
-  },
-  {
-   "date": "2026-11-02",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对华安证券股份有限公司海南分公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/hainan/c104738/c7668058/content.shtml"
   },
   {
    "date": "2026-10-30",
@@ -1191,26 +1211,6 @@
    "docNo": "",
    "party": "截至2026年10月16日",
    "url": "https://www.csrc.gov.cn/guizhou/c104856/c7665708/content.shtml"
-  },
-  {
-   "date": "2026-10-19",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "警示函",
-   "title": "关于对蓝桃文化（西安）股份有限公司及闫强、闫伟、莫苇杭采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shaanxi/c104628/c7665481/content.shtml"
-  },
-  {
-   "date": "2026-10-16",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "投资者保护工作动态2026年第3期（总第3期）",
-   "docNo": "",
-   "party": "总第3期",
-   "url": "https://www.csrc.gov.cn/ningxia/c101455/c7665204/content.shtml"
   },
   {
    "date": "2026-10-10",
@@ -4169,6 +4169,26 @@
   },
   {
    "date": "2026-11-09",
+   "media": "财联社",
+   "title": "甘李药业：GLR2053片Ⅰ期临床试验完成首例受试者给药",
+   "url": "http://finance.eastmoney.com/a/202611093926299161.html",
+   "keyword": "首例",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-09",
+   "media": "每日经济新闻",
+   "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
+   "url": "http://finance.eastmoney.com/a/202611093926242061.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-09",
    "media": "证券时报",
    "title": "首批18只主动ETF募集收官 360亿增量资金陆续入场",
    "url": "http://stock.eastmoney.com/a/202611093925715830.html",
@@ -4181,6 +4201,24 @@
    "media": "人民日报",
    "title": "未来之城气象新——首批疏解央企迁驻雄安新区一线观察（经济新方位）",
    "url": "http://finance.eastmoney.com/a/202611093925726844.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-09",
+   "media": "财联社",
+   "title": "浙商证券已执行第三批互换便利 完成首批股票买入",
+   "url": "http://finance.eastmoney.com/a/202611093926354930.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-09",
+   "media": "中国证券报·中证金牛座",
+   "title": "中信建投证券完成第三批“互换便利”业务首批股票买入",
+   "url": "http://finance.eastmoney.com/a/202611093926319088.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
@@ -5253,50 +5291,14 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-10-30",
-   "media": "央广财经",
-   "title": "首批136项重大应用场景项目背后的政策意味",
-   "url": "http://finance.eastmoney.com/a/202610303916751797.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-10-30",
-   "media": "新华社",
-   "title": "首批政府采购本国产品标准公开征求意见",
-   "url": "http://finance.eastmoney.com/a/202610303916691553.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-10-30",
-   "media": "财联社",
-   "title": "首批主动ETF已有15只完成发行目标 认购总金额约345亿",
-   "url": "http://stock.eastmoney.com/a/202610303916685313.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-10-30",
-   "media": "每日经济新闻",
-   "title": "首批主动ETF募集冲刺收官；王克玉调研蓝晓科技",
-   "url": "http://finance.eastmoney.com/a/202610303916561790.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
   "asOf": "2026-11-09",
   "total": 4403,
   "pipelineTotal": 832,
-  "activeTotal": 171,
-  "successTotal": 156,
+  "activeTotal": 170,
+  "successTotal": 157,
   "failTotal": 194,
   "stages": [
    {
@@ -5316,12 +5318,12 @@
    },
    {
     "name": "提交注册",
-    "count": 22,
+    "count": 21,
     "kind": "active"
    },
    {
     "name": "注册生效",
-    "count": 156,
+    "count": 157,
     "kind": "success"
    },
    {
@@ -5395,11 +5397,11 @@
    }
   ],
   "cycle": {
-   "recentAvg": 267,
-   "recentN": 11,
+   "recentAvg": 260,
+   "recentN": 12,
    "prevAvg": 264,
    "prevN": 25,
-   "deltaPct": 1,
+   "deltaPct": -2,
    "verdict": "基本持平",
    "byMonth": [
     {
@@ -5456,6 +5458,11 @@
      "month": "26-10",
      "avg": 145,
      "n": 3
+    },
+    {
+     "month": "26-11",
+     "avg": 180,
+     "n": 1
     }
    ],
    "fastest": [
@@ -5478,20 +5485,27 @@
      "market": "创业板"
     },
     {
+     "company": "广东保伦电子股份有限公司",
+     "days": 180,
+     "date": "2026-11-09",
+     "market": "沪主板"
+    },
+    {
      "company": "宁波力勤资源科技股份有限公司",
      "days": 226,
      "date": "2026-08-14",
      "market": "深主板"
-    },
-    {
-     "company": "苏州猎奇智能设备股份有限公司",
-     "days": 238,
-     "date": "2026-08-21",
-     "market": "创业板"
     }
    ]
   },
   "recentApproved": [
+   {
+    "date": "2026-11-09",
+    "company": "广东保伦电子股份有限公司",
+    "market": "沪主板",
+    "industry": "计算机、通信和其他电子设备制造业",
+    "days": 180
+   },
    {
     "date": "2026-10-30",
     "company": "上海季丰电子股份有限公司",
@@ -5659,13 +5673,6 @@
     "market": "沪主板",
     "industry": "铁路、船舶、航空航天和其他运输设备制造业",
     "days": 187
-   },
-   {
-    "date": "2026-06-26",
-    "company": "格林生物科技股份有限公司",
-    "market": "创业板",
-    "industry": "化学原料及化学制品制造业",
-    "days": 217
    }
   ],
   "recentActive": [
@@ -5678,6 +5685,16 @@
     "state": "已问询",
     "region": "山东",
     "sponsor": "华兴证券有限公司"
+   },
+   {
+    "date": "2026-11-09",
+    "acceptDate": "2026-06-30",
+    "company": "江苏神州半导体科技股份有限公司",
+    "market": "科创板",
+    "industry": "专用设备制造业",
+    "state": "已问询",
+    "region": "江苏",
+    "sponsor": "国泰海通证券股份有限公司"
    },
    {
     "date": "2026-11-08",
@@ -5768,6 +5785,16 @@
     "state": "已问询",
     "region": "广东",
     "sponsor": "华泰联合证券有限责任公司"
+   },
+   {
+    "date": "2026-11-05",
+    "acceptDate": "2026-06-29",
+    "company": "中机试验装备股份有限公司",
+    "market": "北交所",
+    "industry": "仪器仪表制造业",
+    "state": "已问询",
+    "region": "吉林省 长春市",
+    "sponsor": "东北证券股份有限公司"
    },
    {
     "date": "2026-11-04",
@@ -5931,13 +5958,13 @@
    },
    {
     "date": "2026-10-27",
-    "acceptDate": "2026-05-13",
-    "company": "广东保伦电子股份有限公司",
-    "market": "沪主板",
-    "industry": "计算机、通信和其他电子设备制造业",
-    "state": "提交注册",
-    "region": "广东",
-    "sponsor": "广发证券股份有限公司"
+    "acceptDate": "2026-06-30",
+    "company": "弥费科技(上海)股份有限公司",
+    "market": "科创板",
+    "industry": "专用设备制造业",
+    "state": "已问询",
+    "region": "上海",
+    "sponsor": "国泰海通证券股份有限公司"
    },
    {
     "date": "2026-10-27",
@@ -5958,26 +5985,6 @@
     "state": "已问询",
     "region": "安徽省 合肥市",
     "sponsor": "财通证券股份有限公司"
-   },
-   {
-    "date": "2026-10-27",
-    "acceptDate": "2026-06-30",
-    "company": "江苏神州半导体科技股份有限公司",
-    "market": "科创板",
-    "industry": "专用设备制造业",
-    "state": "已问询",
-    "region": "江苏",
-    "sponsor": "国泰海通证券股份有限公司"
-   },
-   {
-    "date": "2026-10-27",
-    "acceptDate": "2026-06-30",
-    "company": "弥费科技(上海)股份有限公司",
-    "market": "科创板",
-    "industry": "专用设备制造业",
-    "state": "已问询",
-    "region": "上海",
-    "sponsor": "国泰海通证券股份有限公司"
    },
    {
     "date": "2026-10-23",

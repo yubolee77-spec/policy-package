@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09 15:42",
+ "generatedAt": "2026-11-09 19:31",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 313,
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-09 · 中医药传统知识保护条例（国务院最新政策文件）",
+     "title": "中医药传统知识保护条例",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085592.htm",
+     "date": "2026-11-09",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-11-09 · 2026年10月份居民消费价格同比上涨0.7%（国家统计局最新数据发布）",
      "title": "2026年10月份居民消费价格同比上涨0.7%",
      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
@@ -369,14 +377,6 @@
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7669216/content.shtml",
      "date": "2026-11-06",
      "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-11-06 · 服务党的使命任务，打铁必须自身硬（评论员观察）（经济日报）",
-     "title": "服务党的使命任务，打铁必须自身硬（评论员观察）",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261106_3285828.shtml",
-     "date": "2026-11-06",
-     "source": "经济日报",
      "noise": false
     }
    ],
