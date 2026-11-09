@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-09 00:55",
+ "generatedAt": "2026-11-09 09:07",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 312,
+ "candidateCount": 313,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-09 · 依法依规治理低价无序竞争（经济日报）",
+     "title": "依法依规治理低价无序竞争",
+     "url": "http://paper.ce.cn/pc/content/202611/09/content_341589.html",
+     "date": "2026-11-09",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-11-06 · 中国证监会同意氢氧化锂期货和期权注册（证监会最新动态）",
      "title": "中国证监会同意氢氧化锂期货和期权注册",
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7669233/content.shtml",
@@ -367,14 +375,6 @@
      "label": "2026-11-05 · 国务院办公厅关于2027年部分节假日安排的通知（国务院最新政策文件）",
      "title": "国务院办公厅关于2027年部分节假日安排的通知",
      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085102.htm",
-     "date": "2026-11-05",
-     "source": "国务院最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-11-05 · 国务院关于修改和废止部分行政法规的决定（国务院最新政策文件）",
-     "title": "国务院关于修改和废止部分行政法规的决定",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085099.htm",
      "date": "2026-11-05",
      "source": "国务院最新政策文件",
      "noise": false

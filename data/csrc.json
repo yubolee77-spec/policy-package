@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-09 00:51",
- "mediaFetchedAt": "2026-11-09 00:51",
+ "generatedAt": "2026-11-09 08:59",
+ "mediaFetchedAt": "2026-11-09 08:59",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 12,
+  "eastmoney": 10,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 8,
   "mediaTotal": 120,
-  "mediaStrong": 74,
+  "mediaStrong": 73,
   "activeTotal": 170,
   "successTotal": 156,
   "cycleRecentAvg": 267,
@@ -4117,6 +4117,33 @@
  ],
  "media": [
   {
+   "date": "2026-11-09",
+   "media": "科创板日报",
+   "title": "全国首个钙钛矿膜结晶制造国家标准在苏州审定",
+   "url": "http://finance.eastmoney.com/a/202611093925761463.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-09",
+   "media": "证券时报",
+   "title": "首批18只主动ETF募集收官 360亿增量资金陆续入场",
+   "url": "http://stock.eastmoney.com/a/202611093925715830.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-09",
+   "media": "人民日报",
+   "title": "未来之城气象新——首批疏解央企迁驻雄安新区一线观察（经济新方位）",
+   "url": "http://finance.eastmoney.com/a/202611093925726844.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-08",
    "media": "界面新闻",
    "title": "全球首个通报评议人才培养国际标准发布",
@@ -5238,45 +5265,15 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-10-30",
-   "media": "中国新闻网",
-   "title": "华南地区首条无目的地海上游试点航线启航",
-   "url": "http://biz.eastmoney.com/a/202610303917290972.html",
-   "keyword": "首条",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-10-29",
-   "media": "界面新闻",
-   "title": "北京查处首例区块链虚拟货币新型协助传销案，重罚93万余元",
-   "url": "http://finance.eastmoney.com/a/202610293913841973.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-10-29",
-   "media": "新华财经",
-   "title": "国金嘉泽新能源REIT完成发售 宁夏首单公募REITs落地",
-   "url": "http://bond.eastmoney.com/a/202610293914985824.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs",
-    "新能源"
-   ],
-   "strong": true
   }
  ],
  "review": {
   "asOf": "2026-11-08",
   "total": 4403,
-  "pipelineTotal": 834,
+  "pipelineTotal": 832,
   "activeTotal": 170,
   "successTotal": 156,
-  "failTotal": 196,
+  "failTotal": 194,
   "stages": [
    {
     "name": "已受理",
@@ -5305,14 +5302,14 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 196,
+    "count": 194,
     "kind": "fail"
    }
   ],
   "markets": [
    {
     "name": "北交所",
-    "count": 397
+    "count": 395
    },
    {
     "name": "创业板",
@@ -5354,7 +5351,7 @@
    },
    {
     "name": "化学原料和化学制品制造业",
-    "count": 45
+    "count": 44
    },
    {
     "name": "软件和信息技术服务业",

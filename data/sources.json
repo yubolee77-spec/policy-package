@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09 00:55",
+ "generatedAt": "2026-11-09 09:07",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 95,
-   "fetchedAt": "2026-11-09 00:55",
+   "fetchedAt": "2026-11-09 09:07",
    "ageDays": 4
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 13,
-   "fetchedAt": "2026-11-09 00:55",
+   "fetchedAt": "2026-11-09 09:07",
    "ageDays": 5
   },
   {
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-11-09 00:55",
+   "fetchedAt": "2026-11-09 09:07",
    "ageDays": 374
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261106_3285828.shtml",
+   "href": "http://paper.ce.cn/pc/content/202611/09/content_341589.html",
    "latest": {
-    "title": "服务党的使命任务，打铁必须自身硬（评论员观察）",
-    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261106_3285828.shtml",
-    "date": "2026-11-06",
+    "title": "依法依规治理低价无序竞争",
+    "url": "http://paper.ce.cn/pc/content/202611/09/content_341589.html",
+    "date": "2026-11-09",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 184,
-   "fetchedAt": "2026-11-09 00:55",
-   "ageDays": 3
+   "total": 185,
+   "fetchedAt": "2026-11-09 09:07",
+   "ageDays": 0
   }
  ],
  "stale": false,
