@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-10 19:30",
- "mediaFetchedAt": "2026-11-10 19:30",
+ "generatedAt": "2026-11-11 01:11",
+ "mediaFetchedAt": "2026-11-11 01:11",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 8,
+  "eastmoney": 17,
   "papers": 0
  },
  "kpi": {
@@ -14,8 +14,8 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 8,
   "mediaTotal": 120,
-  "mediaStrong": 71,
-  "activeTotal": 172,
+  "mediaStrong": 73,
+  "activeTotal": 174,
   "successTotal": 157,
   "cycleRecentAvg": 260,
   "cyclePrevAvg": 264,
@@ -4196,6 +4196,86 @@
   },
   {
    "date": "2026-11-10",
+   "media": "财联社",
+   "title": "定档上会！东海证券将成为东吴证券控股子公司，首例同省跨市券商整合的关键时刻",
+   "url": "http://finance.eastmoney.com/a/202611103927661290.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-10",
+   "media": "证券日报",
+   "title": "远大医药创新中成药国内临床Ⅱ期首例患者入组 剑指偏头痛治疗赛道",
+   "url": "http://finance.eastmoney.com/a/202611103927547279.html",
+   "keyword": "首例",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-10",
+   "media": "证券时报网",
+   "title": "远大医药中药创新药国内Ⅱ期临床首例患者入组",
+   "url": "http://finance.eastmoney.com/a/202611103927496612.html",
+   "keyword": "首例",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-10",
+   "media": "中国新闻网",
+   "title": "西宁综合保税区首单保税租赁业务落地",
+   "url": "http://finance.eastmoney.com/a/202611103927570321.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-10",
+   "media": "新华财经",
+   "title": "地产经纬丨上海首单商办用地续期落地，如何撬动商办REIT定价？",
+   "url": "http://finance.eastmoney.com/a/202611103927477622.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-10",
+   "media": "证券时报网",
+   "title": "联想落地首个混合词元母本工厂",
+   "url": "http://finance.eastmoney.com/a/202611103927558260.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-10",
+   "media": "中国新闻网",
+   "title": "中国首个引入民营资本参股的核电项目迎新节点",
+   "url": "http://finance.eastmoney.com/a/202611103927535351.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-10",
+   "media": "新华财经",
+   "title": "联想首个词元工厂落地张家口",
+   "url": "http://finance.eastmoney.com/a/202611103927524067.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-10",
    "media": "证券时报",
    "title": "互换便利操作说干就干 多家券商完成首批股票买入",
    "url": "http://forex.eastmoney.com/a/202611103926622355.html",
@@ -4226,6 +4306,42 @@
    "media": "财联社",
    "title": "首批18家网络产品安全漏洞收集平台签署自律公约",
    "url": "http://finance.eastmoney.com/a/202611103927358282.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-10",
+   "media": "财联社",
+   "title": "填补行业空白！医疗险示范条款和商保药品推荐清单出炉 首批涵盖58款药械 后续还将适时优化",
+   "url": "http://insurance.eastmoney.com/a/202611103927640697.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-10",
+   "media": "证券日报",
+   "title": "第三批互换便利操作落地 多家券商完成首批股票买入",
+   "url": "http://forex.eastmoney.com/a/202611103927639257.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-10",
+   "media": "澎湃新闻",
+   "title": "商业医疗险示范条款正式发布：首批58款药械纳入推荐清单，32款为医保目录外自费药",
+   "url": "http://insurance.eastmoney.com/a/202611103927500237.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-10",
+   "media": "中国证券报·中证金牛座",
+   "title": "葵花籽油期货首批上市交易合约挂牌基准价为10000元/吨",
+   "url": "http://futures.eastmoney.com/a/202611103927483936.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
@@ -5177,137 +5293,24 @@
     "商业航天"
    ],
    "strong": true
-  },
-  {
-   "date": "2026-11-01",
-   "media": "每日经济新闻",
-   "title": "15只提前结募！首批主动ETF启动建仓：增量资金瞄准哪些板块？| 主动ETF周报",
-   "url": "http://stock.eastmoney.com/a/202611013917702060.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-01",
-   "media": "新华财经",
-   "title": "首批标准征求意见 政府采购本国产品将迈入精细化实施阶段",
-   "url": "http://finance.eastmoney.com/a/202611013917680928.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-01",
-   "media": "中国新闻网",
-   "title": "厦门首条邮轮无目的地海上游航线启航",
-   "url": "http://biz.eastmoney.com/a/202611013917804329.html",
-   "keyword": "首条",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-10-31",
-   "media": "证券日报",
-   "title": "首个钙钛矿膜结晶制造国家标准进入审定阶段",
-   "url": "http://finance.eastmoney.com/a/202610313917307113.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-10-31",
-   "media": "证券时报网",
-   "title": "募资总额10.46亿元！国金嘉泽新能源REIT完成发售，宁夏首单公募REITs落地",
-   "url": "http://bond.eastmoney.com/a/202610313917586153.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs",
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-10-31",
-   "media": "新华财经",
-   "title": "超大型铅锌矿床、首个古河湖相锆砂矿 我国找矿行动取得重大突破",
-   "url": "http://finance.eastmoney.com/a/202610313917569331.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-10-31",
-   "media": "新华财经",
-   "title": "上海探索数据产权登记制度落地路径 首批核发15份登记凭证",
-   "url": "http://finance.eastmoney.com/a/202610313917621281.html",
-   "keyword": "首批",
-   "topics": [
-    "数据要素"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-10-31",
-   "media": "上海证券报",
-   "title": "新疆发现我国首个超大型锆矿床",
-   "url": "http://finance.eastmoney.com/a/202610313917625080.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-10-31",
-   "media": "新华财经",
-   "title": "资源储量规模相当于40多个大型锆矿 国内发现首个古河湖相锆砂矿",
-   "url": "http://finance.eastmoney.com/a/202610313917624716.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-10-31",
-   "media": "证券日报",
-   "title": "首批主动ETF多元策略登场 公募机构探索长钱入市新载体",
-   "url": "http://finance.eastmoney.com/a/202610313917306690.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-10-31",
-   "media": "21世纪经济报道",
-   "title": "三季度营收新高利润却转负 山东黄金成首家亏损“金主”",
-   "url": "http://finance.eastmoney.com/a/202610313917336137.html",
-   "keyword": "首家",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-10-31",
-   "media": "上海证券报·中国证券网",
-   "title": "上海推动公共数据开发利用 首批近300个产品发布",
-   "url": "http://finance.eastmoney.com/a/202610313917652432.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
   "asOf": "2026-11-10",
-  "total": 4404,
-  "pipelineTotal": 832,
-  "activeTotal": 172,
+  "total": 4405,
+  "pipelineTotal": 833,
+  "activeTotal": 174,
   "successTotal": 157,
   "failTotal": 193,
   "stages": [
    {
     "name": "已受理",
-    "count": 3,
+    "count": 4,
     "kind": "active"
    },
    {
     "name": "已问询",
-    "count": 139,
+    "count": 140,
     "kind": "active"
    },
    {
@@ -5338,7 +5341,7 @@
    },
    {
     "name": "创业板",
-    "count": 179
+    "count": 180
    },
    {
     "name": "科创板",
@@ -5677,13 +5680,13 @@
   "recentActive": [
    {
     "date": "2026-11-10",
-    "acceptDate": "2026-05-29",
-    "company": "广东龙行天下科技股份有限公司",
-    "market": "沪主板",
-    "industry": "皮革、毛皮、羽毛及其制品和制鞋业",
-    "state": "提交注册",
-    "region": "广东",
-    "sponsor": "招商证券股份有限公司"
+    "acceptDate": "2026-11-10",
+    "company": "天津宜科自动化股份有限公司",
+    "market": "创业板",
+    "industry": "仪器仪表制造业",
+    "state": "已受理",
+    "region": "天津",
+    "sponsor": "国泰海通证券股份有限公司"
    },
    {
     "date": "2026-11-10",
@@ -5694,6 +5697,16 @@
     "state": "已受理",
     "region": "山东",
     "sponsor": "国泰海通证券股份有限公司"
+   },
+   {
+    "date": "2026-11-10",
+    "acceptDate": "2026-05-29",
+    "company": "广东龙行天下科技股份有限公司",
+    "market": "沪主板",
+    "industry": "皮革、毛皮、羽毛及其制品和制鞋业",
+    "state": "提交注册",
+    "region": "广东",
+    "sponsor": "招商证券股份有限公司"
    },
    {
     "date": "2026-11-09",
@@ -6064,16 +6077,6 @@
     "state": "已问询",
     "region": "安徽省 亳州市",
     "sponsor": "国金证券股份有限公司"
-   },
-   {
-    "date": "2026-10-23",
-    "acceptDate": "2025-12-26",
-    "company": "重庆国贵赛车科技股份有限公司",
-    "market": "北交所",
-    "industry": "汽车制造业",
-    "state": "已问询",
-    "region": "重庆市 北碚区",
-    "sponsor": "中国国际金融股份有限公司"
    }
   ]
  }
