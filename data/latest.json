@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-11-10",
-  "fetchedAt": "2026-11-10 05:09",
+  "fetchedAt": "2026-11-10 09:24",
   "monthLabel": "2026年11月",
   "timeline": [
     {
@@ -3038,6 +3038,35 @@
     }
   ],
   "commentary": [
+    {
+      "url": "http://paper.ce.cn/pc/content/202611/10/content_341635.html",
+      "title": "协同合作共护共兴全球海洋",
+      "author": "□ 金观平",
+      "date": "2026-11-10",
+      "media": "经济日报",
+      "byline": "金观平",
+      "summary": "海洋是联通世界的蓝色纽带，承载着全人类福祉，关乎每个人的未来。2026厦门国际海洋周正在举行。此次海洋周以“携手共护深蓝人海和合共生”为主题，通过多边对话、科技协同、产业共建的深度互动，为人海和谐发展贡献智慧与力量。海洋约占地球表面积的70%。",
+      "keywords": [
+        {
+          "type": "deg",
+          "text": "持续"
+        },
+        {
+          "type": "deg",
+          "text": "进一步"
+        },
+        {
+          "type": "verb",
+          "text": "推动"
+        },
+        {
+          "type": "verb",
+          "text": "促进"
+        }
+      ],
+      "keySentence": "保护好海洋生态环境，对保障生态安全、促进海洋可持续发展、实现人海和谐共生具有重要作用。",
+      "tier": ""
+    },
     {
       "url": "http://paper.ce.cn/pc/content/202611/09/content_341589.html",
       "title": "依法依规治理低价无序竞争",

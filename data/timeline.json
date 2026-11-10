@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-10 05:14",
+ "generatedAt": "2026-11-10 09:27",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 313,
+ "candidateCount": 314,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-10 · 协同合作共护共兴全球海洋（经济日报）",
+     "title": "协同合作共护共兴全球海洋",
+     "url": "http://paper.ce.cn/pc/content/202611/10/content_341635.html",
+     "date": "2026-11-10",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-11-09 · 中医药传统知识保护条例（国务院最新政策文件）",
      "title": "中医药传统知识保护条例",
      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085592.htm",
@@ -367,14 +375,6 @@
      "label": "2026-11-06 · 中国证监会同意氢氧化锂期货和期权注册（证监会最新动态）",
      "title": "中国证监会同意氢氧化锂期货和期权注册",
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7669233/content.shtml",
-     "date": "2026-11-06",
-     "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-11-06 · 中国证监会同意葵花籽油期货和期权注册（证监会最新动态）",
-     "title": "中国证监会同意葵花籽油期货和期权注册",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7669216/content.shtml",
      "date": "2026-11-06",
      "source": "证监会最新动态",
      "noise": false

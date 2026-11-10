@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10 05:14",
+ "generatedAt": "2026-11-10 09:27",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 95,
-   "fetchedAt": "2026-11-10 05:14",
+   "fetchedAt": "2026-11-10 09:27",
    "ageDays": 1
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-11-10 05:14",
+   "fetchedAt": "2026-11-10 09:27",
    "ageDays": 112
   },
   {
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-11-10 05:14",
+   "fetchedAt": "2026-11-10 09:27",
    "ageDays": 375
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202611/09/content_341589.html",
+   "href": "http://paper.ce.cn/pc/content/202611/10/content_341635.html",
    "latest": {
-    "title": "依法依规治理低价无序竞争",
-    "url": "http://paper.ce.cn/pc/content/202611/09/content_341589.html",
-    "date": "2026-11-09",
+    "title": "协同合作共护共兴全球海洋",
+    "url": "http://paper.ce.cn/pc/content/202611/10/content_341635.html",
+    "date": "2026-11-10",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 185,
-   "fetchedAt": "2026-11-10 05:14",
-   "ageDays": 1
+   "total": 186,
+   "fetchedAt": "2026-11-10 09:27",
+   "ageDays": 0
   }
  ],
  "stale": false,
