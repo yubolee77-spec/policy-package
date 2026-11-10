@@ -1,27 +1,97 @@
 {
- "generatedAt": "2026-11-10 15:36",
- "mediaFetchedAt": "2026-11-10 15:36",
+ "generatedAt": "2026-11-10 19:30",
+ "mediaFetchedAt": "2026-11-10 19:30",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 9,
+  "eastmoney": 8,
   "papers": 0
  },
  "kpi": {
   "penaltyTotal": 237,
-  "penaltyMonth": 90,
+  "penaltyMonth": 92,
   "approvalTotal": 174,
   "approvalMonth": 17,
   "reitsApproved30d": 5,
   "ipoApproved30d": 8,
   "mediaTotal": 120,
-  "mediaStrong": 72,
-  "activeTotal": 170,
+  "mediaStrong": 71,
+  "activeTotal": 172,
   "successTotal": 157,
   "cycleRecentAvg": 260,
   "cyclePrevAvg": 264,
   "cycleVerdict": "基本持平"
  },
  "penalty": [
+  {
+   "date": "2026-11-10",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "重庆证监局举办辖区期货衍生品市场服务重庆农业高质量发展培训",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c101075/c7670014/content.shtml"
+  },
+  {
+   "date": "2026-11-10",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "厦门证监局积极组织开展“2026年世界投资者周”活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c101757/c7670009/content.shtml"
+  },
+  {
+   "date": "2026-11-10",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对刘峰采取责令改正监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hunan/c104484/c7670053/content.shtml"
+  },
+  {
+   "date": "2026-11-10",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对湖南蒲公英私募股权基金管理有限公司采取责令改正监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hunan/c104484/c7670051/content.shtml"
+  },
+  {
+   "date": "2026-11-10",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对张莉丽采取采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hunan/c104484/c7670049/content.shtml"
+  },
+  {
+   "date": "2026-11-10",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对杨瞀采取采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hunan/c104484/c7670040/content.shtml"
+  },
+  {
+   "date": "2026-11-10",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对湖南枫石私募股权投资基金管理有限公司采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hunan/c104484/c7670038/content.shtml"
+  },
   {
    "date": "2026-11-09",
    "channel": "监管工作",
@@ -743,56 +813,6 @@
    "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668605/content.shtml"
   },
   {
-   "date": "2026-11-04",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对浙江阿推传媒股份有限公司及相关人员采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668584/content.shtml"
-  },
-  {
-   "date": "2026-11-04",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对浙江富杰德汽车系统股份有限公司及相关人员采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668582/content.shtml"
-  },
-  {
-   "date": "2026-11-04",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对浙江新中南汽车零部件股份有限公司及相关人员采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7668580/content.shtml"
-  },
-  {
-   "date": "2026-11-04",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对陕西巨丰投资资讯有限责任公司广州分公司采取出具警示函监管措施的决定〔2026〕135号",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7668574/content.shtml"
-  },
-  {
-   "date": "2026-11-04",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对广州市万隆证券咨询顾问有限公司采取责令改正监管措施的决定〔2026〕134号",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7668571/content.shtml"
-  },
-  {
    "date": "2026-11-03",
    "channel": "通知公告",
    "column": "辖区监管动态",
@@ -1184,16 +1204,6 @@
   },
   {
    "date": "2026-10-20",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "辽宁辖区2026年8月期货经营机构及市场概况",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/liaoning/c100467/c7665713/content.shtml"
-  },
-  {
-   "date": "2026-10-20",
    "channel": "行政处罚决定",
    "column": "行政处罚决定",
    "tag": "行政处罚",
@@ -1201,16 +1211,6 @@
    "docNo": "〔2026〕58号",
    "party": "马学军",
    "url": "https://www.csrc.gov.cn/csrc/c101928/c7669214/content.shtml"
-  },
-  {
-   "date": "2026-10-19",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "四川局加大债券融资支持，提升辖区债券市场服务普惠金融效能",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/sichuan/c101113/c7665569/content.shtml"
   },
   {
    "date": "2026-10-10",
@@ -4176,6 +4176,26 @@
   },
   {
    "date": "2026-11-10",
+   "media": "证券时报网",
+   "title": "远大医药：中药创新药GPN01020国内Ⅱ期临床研究完成首例患者入组",
+   "url": "http://finance.eastmoney.com/a/202611103927433710.html",
+   "keyword": "首例",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-10",
+   "media": "界面新闻",
+   "title": "贝达药业泛RAS抑制剂BPI-572270完成澳大利亚首例参与者给药",
+   "url": "http://finance.eastmoney.com/a/202611103927344011.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-10",
    "media": "证券时报",
    "title": "互换便利操作说干就干 多家券商完成首批股票买入",
    "url": "http://forex.eastmoney.com/a/202611103926622355.html",
@@ -4188,6 +4208,24 @@
    "media": "每日经济新闻",
    "title": "互换便利操作说干就干，多家券商完成首批股票买入；公募基金投顾专属“T类份额”落地 | 券商基金早参",
    "url": "http://forex.eastmoney.com/a/202611103927099465.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-10",
+   "media": "财联社",
+   "title": "郑商所：葵花籽油期货首批上市交易合约挂牌基准价为10000元/吨",
+   "url": "http://futures.eastmoney.com/a/202611103927407274.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-10",
+   "media": "财联社",
+   "title": "首批18家网络产品安全漏洞收集平台签署自律公约",
+   "url": "http://finance.eastmoney.com/a/202611103927358282.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
@@ -5252,57 +5290,19 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-10-31",
-   "media": "央视新闻客户端",
-   "title": "第九届进博会首批展品开箱 硬核装备抢先看",
-   "url": "http://finance.eastmoney.com/a/202610313917646010.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-10-30",
-   "media": "证券时报网",
-   "title": "诺诚健华宣布TL1A/IL-23p19双抗ICP-B161完成首例受试者入组",
-   "url": "http://finance.eastmoney.com/a/202610303916570667.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-10-30",
-   "media": "证券时报网",
-   "title": "菜鸟首单公募REIT上市 助力盘活仓储存量服务实体经济",
-   "url": "http://stock.eastmoney.com/a/202610303916416492.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-10-30",
-   "media": "第一财经",
-   "title": "菜鸟首单公募REIT在深交所上市",
-   "url": "http://finance.eastmoney.com/a/202610303916020924.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
   }
  ],
  "review": {
-  "asOf": "2026-11-09",
-  "total": 4403,
-  "pipelineTotal": 831,
-  "activeTotal": 170,
+  "asOf": "2026-11-10",
+  "total": 4404,
+  "pipelineTotal": 832,
+  "activeTotal": 172,
   "successTotal": 157,
   "failTotal": 193,
   "stages": [
    {
     "name": "已受理",
-    "count": 2,
+    "count": 3,
     "kind": "active"
    },
    {
@@ -5317,7 +5317,7 @@
    },
    {
     "name": "提交注册",
-    "count": 21,
+    "count": 22,
     "kind": "active"
    },
    {
@@ -5342,7 +5342,7 @@
    },
    {
     "name": "科创板",
-    "count": 125
+    "count": 126
    },
    {
     "name": "沪主板",
@@ -5360,7 +5360,7 @@
    },
    {
     "name": "专用设备制造业",
-    "count": 109
+    "count": 110
    },
    {
     "name": "汽车制造业",
@@ -5676,6 +5676,26 @@
   ],
   "recentActive": [
    {
+    "date": "2026-11-10",
+    "acceptDate": "2026-05-29",
+    "company": "广东龙行天下科技股份有限公司",
+    "market": "沪主板",
+    "industry": "皮革、毛皮、羽毛及其制品和制鞋业",
+    "state": "提交注册",
+    "region": "广东",
+    "sponsor": "招商证券股份有限公司"
+   },
+   {
+    "date": "2026-11-10",
+    "acceptDate": "2026-11-10",
+    "company": "青岛思锐智能科技股份有限公司",
+    "market": "科创板",
+    "industry": "专用设备制造业",
+    "state": "已受理",
+    "region": "山东",
+    "sponsor": "国泰海通证券股份有限公司"
+   },
+   {
     "date": "2026-11-09",
     "acceptDate": "2026-05-29",
     "company": "青岛迈金智能科技股份有限公司",
@@ -5836,6 +5856,16 @@
     "sponsor": "开源证券股份有限公司"
    },
    {
+    "date": "2026-11-03",
+    "acceptDate": "2026-06-26",
+    "company": "福建帝盛科技股份有限公司",
+    "market": "北交所",
+    "industry": "化学原料和化学制品制造业",
+    "state": "已问询",
+    "region": "福建省 南平市",
+    "sponsor": "平安证券股份有限公司"
+   },
+   {
     "date": "2026-11-02",
     "acceptDate": "2026-06-08",
     "company": "浙江胜华波电器股份有限公司",
@@ -5854,16 +5884,6 @@
     "state": "已问询",
     "region": "江西省 南昌市",
     "sponsor": "南京证券股份有限公司"
-   },
-   {
-    "date": "2026-11-02",
-    "acceptDate": "2026-05-29",
-    "company": "广东龙行天下科技股份有限公司",
-    "market": "沪主板",
-    "industry": "皮革、毛皮、羽毛及其制品和制鞋业",
-    "state": "已问询",
-    "region": "广东",
-    "sponsor": "招商证券股份有限公司"
    },
    {
     "date": "2026-11-02",
@@ -6053,26 +6073,6 @@
     "industry": "汽车制造业",
     "state": "已问询",
     "region": "重庆市 北碚区",
-    "sponsor": "中国国际金融股份有限公司"
-   },
-   {
-    "date": "2026-10-22",
-    "acceptDate": "2026-06-25",
-    "company": "深圳市裕富照明股份有限公司",
-    "market": "北交所",
-    "industry": "电气机械和器材制造业",
-    "state": "已问询",
-    "region": "广东省 深圳市",
-    "sponsor": "招商证券股份有限公司"
-   },
-   {
-    "date": "2026-10-22",
-    "acceptDate": "2026-06-25",
-    "company": "雅安百图高新材料股份有限公司",
-    "market": "北交所",
-    "industry": "非金属矿物制品业",
-    "state": "已问询",
-    "region": "四川省 雅安市",
     "sponsor": "中国国际金融股份有限公司"
    }
   ]

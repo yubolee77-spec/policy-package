@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-10 15:38",
+  "generatedAt": "2026-11-10 19:32",
   "asOf": "2026-11",
   "asOfLabel": "2026年11月",
-  "archiveTotal": 260,
-  "archiveAdded": 0,
+  "archiveTotal": 261,
+  "archiveAdded": 1,
   "channels": [
     {
       "key": "special_fund",
@@ -1250,13 +1250,13 @@
           "cur": {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 9,
+            "n": 10,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "其他审核": 2,
               "首发上市（IPO）": 1,
               "REITs 注册": 5,
-              "其他审核": 1,
               "机构资格": 2
             }
           },
@@ -1273,20 +1273,20 @@
               "再融资": 10
             }
           },
-          "deltaPct": -67.9,
+          "deltaPct": -64.3,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 37,
+            "n": 38,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "其他审核": 11,
               "首发上市（IPO）": 4,
               "REITs 注册": 5,
-              "其他审核": 10,
               "机构资格": 8,
               "再融资": 10
             }
@@ -1306,20 +1306,20 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -59.3,
+          "deltaPct": -58.2,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 145,
+            "n": 146,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "其他审核": 46,
               "首发上市（IPO）": 16,
               "REITs 注册": 19,
-              "其他审核": 45,
               "机构资格": 39,
               "再融资": 21,
               "并购重组": 5
@@ -1338,7 +1338,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 367.7,
+          "deltaPct": 371.0,
           "deltaAmountPct": null
         }
       },
@@ -1407,7 +1407,7 @@
           {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 9,
+            "n": 10,
             "amountYi": 0.0
           },
           {
@@ -1439,7 +1439,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 37,
+            "n": 38,
             "amountYi": 0.0
           }
         ],
@@ -1453,7 +1453,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 145,
+            "n": 146,
             "amountYi": 0.0
           }
         ]
@@ -1510,6 +1510,31 @@
             "totalItems": 5
           },
           {
+            "name": "其他审核",
+            "cur": 2,
+            "prev": 9,
+            "deltaPct": -77.8,
+            "items": [
+              {
+                "title": "基金会管理条例",
+                "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085662.htm",
+                "date": "2026-11-10",
+                "org": "国务院",
+                "amountYi": null,
+                "src": "gov.cn 政策库"
+              },
+              {
+                "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
+                "date": "2026-11-05",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "L1 政策速览"
+              }
+            ],
+            "totalItems": 2
+          },
+          {
             "name": "机构资格",
             "cur": 2,
             "prev": 6,
@@ -1533,23 +1558,6 @@
               }
             ],
             "totalItems": 2
-          },
-          {
-            "name": "其他审核",
-            "cur": 1,
-            "prev": 9,
-            "deltaPct": -88.9,
-            "items": [
-              {
-                "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
-                "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
-                "date": "2026-11-05",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "L1 政策速览"
-              }
-            ],
-            "totalItems": 1
           },
           {
             "name": "首发上市（IPO）",
@@ -1580,10 +1588,18 @@
         "quarter": [
           {
             "name": "其他审核",
-            "cur": 10,
+            "cur": 11,
             "prev": 21,
-            "deltaPct": -52.4,
+            "deltaPct": -47.6,
             "items": [
+              {
+                "title": "基金会管理条例",
+                "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085662.htm",
+                "date": "2026-11-10",
+                "org": "国务院",
+                "amountYi": null,
+                "src": "gov.cn 政策库"
+              },
               {
                 "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
                 "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
@@ -1623,17 +1639,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "【行政许可事项】科创板提交注册申请企业基本情况",
-                "url": "https://www.csrc.gov.cn/csrc/c105903/c1489522/content.shtml",
-                "date": "2026-10-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 10
+            "totalItems": 11
           },
           {
             "name": "再融资",
@@ -1851,10 +1859,18 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 45,
+            "cur": 46,
             "prev": 23,
-            "deltaPct": 95.7,
+            "deltaPct": 100.0,
             "items": [
+              {
+                "title": "基金会管理条例",
+                "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085662.htm",
+                "date": "2026-11-10",
+                "org": "国务院",
+                "amountYi": null,
+                "src": "gov.cn 政策库"
+              },
               {
                 "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
                 "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
@@ -1894,17 +1910,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "【行政许可事项】科创板提交注册申请企业基本情况",
-                "url": "https://www.csrc.gov.cn/csrc/c105903/c1489522/content.shtml",
-                "date": "2026-10-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 45
+            "totalItems": 46
           },
           {
             "name": "机构资格",
@@ -2301,7 +2309,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2309,7 +2317,7 @@
           "url": ""
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2346,6 +2354,16 @@
     }
   },
   "recent": [
+    {
+      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085662.htm",
+      "title": "基金会管理条例",
+      "date": "2026-11-10",
+      "org": "国务院",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "gov.cn 政策库"
+    },
     {
       "url": "https://www.csrc.gov.cn/csrc/c106385/c7669312/content.shtml",
       "title": "关于同意广东保伦电子股份有限公司首次公开发行股票注册的批复",
@@ -3533,16 +3551,6 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "再融资",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c101885/c7651838/content.shtml",
-      "title": "关于核准德信资产管理有限公司合格境外投资者资格的批复",
-      "date": "2026-07-24",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "机构资格",
       "amountYi": null,
       "src": "证监会审核台账"
     }
