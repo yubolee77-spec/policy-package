@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11 02:25",
+ "generatedAt": "2026-11-11 09:21",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 94,
-   "fetchedAt": "2026-11-11 02:25",
+   "fetchedAt": "2026-11-11 09:21",
    "ageDays": 2
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 13,
-   "fetchedAt": "2026-11-11 02:25",
+   "fetchedAt": "2026-11-11 09:21",
    "ageDays": 1
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 21,
-   "fetchedAt": "2026-11-11 02:25",
+   "total": 14,
+   "fetchedAt": "2026-11-11 09:21",
    "ageDays": 376
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202611/10/content_341635.html",
+   "href": "http://paper.ce.cn/pc/content/202611/11/content_341683.html",
    "latest": {
-    "title": "协同合作共护共兴全球海洋",
-    "url": "http://paper.ce.cn/pc/content/202611/10/content_341635.html",
-    "date": "2026-11-10",
+    "title": "长短兼顾稳定资本市场运行",
+    "url": "http://paper.ce.cn/pc/content/202611/11/content_341683.html",
+    "date": "2026-11-11",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 186,
-   "fetchedAt": "2026-11-11 02:25",
-   "ageDays": 1
+   "total": 187,
+   "fetchedAt": "2026-11-11 09:21",
+   "ageDays": 0
   }
  ],
  "stale": false,

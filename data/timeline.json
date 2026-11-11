@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-11 02:25",
+ "generatedAt": "2026-11-11 09:21",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 313,
+ "candidateCount": 314,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -286,14 +286,6 @@
      "noise": false
     },
     {
-     "label": "2026-10-30 · 中国证监会党委传达贯彻党的二十届五中全会精神（证监会最新动态）",
-     "title": "中国证监会党委传达贯彻党的二十届五中全会精神",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7667579/content.shtml",
-     "date": "2026-10-30",
-     "source": "证监会最新动态",
-     "noise": false
-    },
-    {
      "label": "2026-10-30 · 社会事业全面发展 民生福祉取得新进步——2025年社会民生统计报告（国家统计局最新数据发布）",
      "title": "社会事业全面发展 民生福祉取得新进步——2025年社会民生统计报告",
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261030_1965711.html",
@@ -307,6 +299,14 @@
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261030_1965708.html",
      "date": "2026-10-30",
      "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
+     "label": "2026-10-30 · 中国证监会党委传达贯彻党的二十届五中全会精神（证监会最新动态）",
+     "title": "中国证监会党委传达贯彻党的二十届五中全会精神",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7667579/content.shtml",
+     "date": "2026-10-30",
+     "source": "证监会最新动态",
      "noise": false
     },
     {
@@ -331,6 +331,14 @@
   "11月": {
    "status": "hot",
    "docs": [
+    {
+     "label": "2026-11-11 · 长短兼顾稳定资本市场运行（经济日报）",
+     "title": "长短兼顾稳定资本市场运行",
+     "url": "http://paper.ce.cn/pc/content/202611/11/content_341683.html",
+     "date": "2026-11-11",
+     "source": "经济日报",
+     "noise": false
+    },
     {
      "label": "2026-11-10 · 协同合作共护共兴全球海洋（经济日报）",
      "title": "协同合作共护共兴全球海洋",
@@ -369,14 +377,6 @@
      "url": "http://paper.ce.cn/pc/content/202611/09/content_341589.html",
      "date": "2026-11-09",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-06 · 中国证监会同意氢氧化锂期货和期权注册（证监会最新动态）",
-     "title": "中国证监会同意氢氧化锂期货和期权注册",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7669233/content.shtml",
-     "date": "2026-11-06",
-     "source": "证监会最新动态",
      "noise": false
     }
    ],
