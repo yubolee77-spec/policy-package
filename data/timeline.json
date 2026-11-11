@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11 09:21",
+ "generatedAt": "2026-11-11 20:10",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 314,
@@ -286,6 +286,14 @@
      "noise": false
     },
     {
+     "label": "2026-10-30 · 中国证监会党委传达贯彻党的二十届五中全会精神（证监会最新动态）",
+     "title": "中国证监会党委传达贯彻党的二十届五中全会精神",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7667579/content.shtml",
+     "date": "2026-10-30",
+     "source": "证监会最新动态",
+     "noise": false
+    },
+    {
      "label": "2026-10-30 · 社会事业全面发展 民生福祉取得新进步——2025年社会民生统计报告（国家统计局最新数据发布）",
      "title": "社会事业全面发展 民生福祉取得新进步——2025年社会民生统计报告",
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261030_1965711.html",
@@ -299,14 +307,6 @@
      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261030_1965708.html",
      "date": "2026-10-30",
      "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-10-30 · 中国证监会党委传达贯彻党的二十届五中全会精神（证监会最新动态）",
-     "title": "中国证监会党委传达贯彻党的二十届五中全会精神",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7667579/content.shtml",
-     "date": "2026-10-30",
-     "source": "证监会最新动态",
      "noise": false
     },
     {
@@ -331,6 +331,14 @@
   "11月": {
    "status": "hot",
    "docs": [
+    {
+     "label": "2026-11-11 · 中国证监会有关部门负责人答记者问（证监会最新动态）",
+     "title": "中国证监会有关部门负责人答记者问",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7670135/content.shtml",
+     "date": "2026-11-11",
+     "source": "证监会最新动态",
+     "noise": false
+    },
     {
      "label": "2026-11-11 · 长短兼顾稳定资本市场运行（经济日报）",
      "title": "长短兼顾稳定资本市场运行",
@@ -369,14 +377,6 @@
      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
      "date": "2026-11-09",
      "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-11-09 · 依法依规治理低价无序竞争（经济日报）",
-     "title": "依法依规治理低价无序竞争",
-     "url": "http://paper.ce.cn/pc/content/202611/09/content_341589.html",
-     "date": "2026-11-09",
-     "source": "经济日报",
      "noise": false
     }
    ],
