@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-12 02:15",
+ "generatedAt": "2026-11-12 10:23",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 314,
+ "candidateCount": 315,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-12 · 贸易顺差与汇率水平不能简单画等号（经济日报）",
+     "title": "贸易顺差与汇率水平不能简单画等号",
+     "url": "http://paper.ce.cn/pc/content/202611/12/content_341733.html",
+     "date": "2026-11-12",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-11-11 · 中国证监会有关部门负责人答记者问（证监会最新动态）",
      "title": "中国证监会有关部门负责人答记者问",
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7670135/content.shtml",
@@ -367,14 +375,6 @@
      "label": "2026-11-09 · 2026年10月份居民消费价格同比上涨0.7%（国家统计局最新数据发布）",
      "title": "2026年10月份居民消费价格同比上涨0.7%",
      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
-     "date": "2026-11-09",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-11-09 · 2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%（国家统计局最新数据发布）",
-     "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
      "date": "2026-11-09",
      "source": "国家统计局最新数据发布",
      "noise": false
