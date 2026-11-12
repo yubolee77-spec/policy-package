@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-12 10:19",
- "mediaFetchedAt": "2026-11-12 10:19",
+ "generatedAt": "2026-11-12 14:49",
+ "mediaFetchedAt": "2026-11-12 14:49",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 22,
+  "eastmoney": 24,
   "papers": 0
  },
  "kpi": {
   "penaltyTotal": 237,
-  "penaltyMonth": 95,
+  "penaltyMonth": 97,
   "approvalTotal": 174,
   "approvalMonth": 17,
   "reitsApproved30d": 5,
   "ipoApproved30d": 7,
   "mediaTotal": 120,
-  "mediaStrong": 80,
+  "mediaStrong": 79,
   "activeTotal": 174,
   "successTotal": 157,
   "cycleRecentAvg": 260,
@@ -22,6 +22,26 @@
   "cycleVerdict": "基本持平"
  },
  "penalty": [
+  {
+   "date": "2026-11-12",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "吉林辖区证券经营机构名录（2026年10月）",
+   "docNo": "",
+   "party": "2026年10月",
+   "url": "https://www.csrc.gov.cn/jilin/c103775/c7670428/content.shtml"
+  },
+  {
+   "date": "2026-11-12",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "警示函措施决定书送达公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangxi/c104647/c7670401/content.shtml"
+  },
   {
    "date": "2026-11-12",
    "channel": "行政监管措施",
@@ -466,6 +486,16 @@
    "date": "2026-11-06",
    "channel": "行政监管措施",
    "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对三门峡速达交通节能科技股份有限公司及李红宇、何俊霞采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/henan/c104282/c7669382/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
    "tag": "责令改正",
    "title": "关于对广州钏铂资产管理有限公司采取责令改正措施的决定〔2026〕137号",
    "docNo": "",
@@ -833,16 +863,6 @@
    "url": "https://www.csrc.gov.cn/hunan/c104484/c7668642/content.shtml"
   },
   {
-   "date": "2026-11-04",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "江苏证监局关于对景鹏鹏采取出具警示函行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103892/c7668622/content.shtml"
-  },
-  {
    "date": "2026-11-03",
    "channel": "通知公告",
    "column": "辖区监管动态",
@@ -1124,6 +1144,16 @@
   },
   {
    "date": "2026-10-23",
+   "channel": "行政处罚决定",
+   "column": "行政处罚决定",
+   "tag": "行政处罚",
+   "title": "行政处罚 〔2026〕59号 · 高裕弟",
+   "docNo": "〔2026〕59号",
+   "party": "高裕弟",
+   "url": "https://www.csrc.gov.cn/csrc/c101928/c7667584/content.shtml"
+  },
+  {
+   "date": "2026-10-23",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -1171,36 +1201,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/xiamen/c104096/c7666081/content.shtml"
-  },
-  {
-   "date": "2026-10-23",
-   "channel": "行政处罚决定",
-   "column": "行政处罚决定",
-   "tag": "行政处罚",
-   "title": "行政处罚 〔2026〕59号 · 高裕弟",
-   "docNo": "〔2026〕59号",
-   "party": "高裕弟",
-   "url": "https://www.csrc.gov.cn/csrc/c101928/c7667584/content.shtml"
-  },
-  {
-   "date": "2026-10-22",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "山东辖区召开北交所上市公司高质量发展座谈会",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shandong/c100809/c7666107/content.shtml"
-  },
-  {
-   "date": "2026-10-22",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "关于福建辖区2026年度律师事务所从事证券法律业务检查随机抽取结果的公示",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c104058/c7666244/content.shtml"
   },
   {
    "date": "2026-10-20",
@@ -2986,16 +2986,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "政策解读",
    "column": "政策解读",
    "tag": "政策法规",
@@ -3003,6 +2993,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "IPO注册",
+   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -4173,6 +4173,55 @@
    "strong": true
   },
   {
+   "date": "2026-11-12",
+   "media": "证券时报网",
+   "title": "云南信托落地“信托+运营/投资”破产服务信托创新模式首单项目",
+   "url": "http://finance.eastmoney.com/a/202611123929397746.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-12",
+   "media": "21世纪经济报道",
+   "title": "民生银行落地国家电投黄河公司首单机构间REITs监管业务",
+   "url": "http://bank.eastmoney.com/a/202611123929324677.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-12",
+   "media": "中国新闻网",
+   "title": "第二艘国产大型邮轮完成首个试运营航次 抵达广州",
+   "url": "http://biz.eastmoney.com/a/202611123929387836.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-12",
+   "media": "科创板日报",
+   "title": "大湾区首家通用具身智能大模型完成备案",
+   "url": "http://finance.eastmoney.com/a/202611123929356184.html",
+   "keyword": "首家",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-12",
+   "media": "上海证券报·中国证券网",
+   "title": "农行迪拜分行落地首批境内银行间外汇市场人民币购售便利化交易",
+   "url": "http://forex.eastmoney.com/a/202611123929336853.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-11",
    "media": "财联社",
    "title": "定档上会！东海证券将成为东吴证券控股子公司 首例同省跨市券商整合的关键时刻",
@@ -5227,61 +5276,6 @@
    "url": "http://finance.eastmoney.com/a/202611033920308363.html",
    "keyword": "首个",
    "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-03",
-   "media": "澎湃新闻",
-   "title": "锂电长时储能迈向规模化应用，宁德时代交付首批8小时储能系统",
-   "url": "http://finance.eastmoney.com/a/202611033920406792.html",
-   "keyword": "首批",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-03",
-   "media": "财联社",
-   "title": "长时储能赛道竞争升温 宁德时代交付首批8小时长时储能系统",
-   "url": "http://finance.eastmoney.com/a/202611033920388841.html",
-   "keyword": "首批",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-03",
-   "media": "上海证券报·中国证券网",
-   "title": "首单港口物流公募REITs正式获批 建信天津临港港口REIT蓄势待发",
-   "url": "http://stock.eastmoney.com/a/202611033920565617.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-03",
-   "media": "中国新闻网",
-   "title": "中国首单古城保护更新类不动产投资信托基金产品挂牌上交所",
-   "url": "http://bond.eastmoney.com/a/202611033920585117.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-03",
-   "media": "证券时报网",
-   "title": "全国首单港口物流公募REITs获批",
-   "url": "http://bond.eastmoney.com/a/202611033920547442.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
    "strong": true
   }
  ],
