@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-11-13",
-  "generatedAt": "2026-11-13 09:54",
+  "generatedAt": "2026-11-13 20:34",
   "periodLabel": "2026-10",
   "cards": [
     {
@@ -14,29 +14,29 @@
     },
     {
       "name": "M1货币",
-      "val": "3.2",
+      "val": "4.4",
       "unit": "%",
-      "chg": "2026年9月末同比",
-      "dir": "neg",
-      "sub": "2026年9月末·M1余额 116.76万亿元",
+      "chg": "2026年10月末同比",
+      "dir": "pos",
+      "sub": "2026年10月末·M1余额 116.90万亿元",
       "url": "https://data.eastmoney.com/cjsj/hbgyl.html"
     },
     {
       "name": "M2货币",
-      "val": "7.2",
+      "val": "7.1",
       "unit": "%",
-      "chg": "2026年9月末同比",
+      "chg": "2026年10月末同比",
       "dir": "neg",
-      "sub": "2026年9月末·M2余额 359.63万亿元",
+      "sub": "2026年10月末·M2余额 359.06万亿元",
       "url": "https://data.eastmoney.com/cjsj/hbgyl.html"
     },
     {
       "name": "M2-M1剪刀差",
-      "val": "4.0",
+      "val": "2.7",
       "unit": "pct",
-      "chg": "走阔",
-      "dir": "neg",
-      "sub": "M2 7.2% - M1 3.2% = 4.0pct",
+      "chg": "收窄",
+      "dir": "pos",
+      "sub": "M2 7.1% - M1 4.4% = 2.7pct",
       "url": "https://data.eastmoney.com/cjsj/hbgyl.html"
     },
     {

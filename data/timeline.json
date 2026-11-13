@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13 09:58",
+ "generatedAt": "2026-11-13 20:39",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 316,
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-13 · 国家统计局2026年常规统计督察第9统计督察组向中国证监会反馈统计督察意见（证监会最新动态）",
+     "title": "国家统计局2026年常规统计督察第9统计督察组向中国证监会反馈统计督察意见",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7670809/content.shtml",
+     "date": "2026-11-13",
+     "source": "证监会最新动态",
+     "noise": false
+    },
+    {
      "label": "2026-11-13 · 延伸产业链实现算力“价值输出”（经济日报）",
      "title": "延伸产业链实现算力“价值输出”",
      "url": "http://paper.ce.cn/pc/content/202611/13/content_341791.html",
@@ -369,14 +377,6 @@
      "url": "http://paper.ce.cn/pc/content/202611/10/content_341635.html",
      "date": "2026-11-10",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-09 · 中医药传统知识保护条例（国务院最新政策文件）",
-     "title": "中医药传统知识保护条例",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085592.htm",
-     "date": "2026-11-09",
-     "source": "国务院最新政策文件",
      "noise": false
     }
    ],

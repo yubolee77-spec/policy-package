@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-13 09:58",
+  "generatedAt": "2026-11-13 20:39",
   "asOf": "2026-11",
   "asOfLabel": "2026年11月",
-  "archiveTotal": 261,
-  "archiveAdded": 0,
+  "archiveTotal": 263,
+  "archiveAdded": 2,
   "channels": [
     {
       "key": "special_fund",
@@ -1250,12 +1250,12 @@
           "cur": {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 10,
+            "n": 11,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "首发上市（IPO）": 2,
               "其他审核": 2,
-              "首发上市（IPO）": 1,
               "REITs 注册": 5,
               "机构资格": 2
             }
@@ -1273,19 +1273,19 @@
               "再融资": 10
             }
           },
-          "deltaPct": -64.3,
+          "deltaPct": -60.7,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 38,
+            "n": 39,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
+              "首发上市（IPO）": 5,
               "其他审核": 11,
-              "首发上市（IPO）": 4,
               "REITs 注册": 5,
               "机构资格": 8,
               "再融资": 10
@@ -1294,31 +1294,31 @@
           "prev": {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 91,
+            "n": 92,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 14,
               "机构资格": 31,
               "再融资": 11,
-              "其他审核": 21,
+              "其他审核": 22,
               "首发上市（IPO）": 12,
               "并购重组": 2
             }
           },
-          "deltaPct": -58.2,
+          "deltaPct": -57.6,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 146,
+            "n": 148,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
-              "其他审核": 46,
-              "首发上市（IPO）": 16,
+              "首发上市（IPO）": 17,
+              "其他审核": 47,
               "REITs 注册": 19,
               "机构资格": 39,
               "再融资": 21,
@@ -1338,7 +1338,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 371.0,
+          "deltaPct": 377.4,
           "deltaAmountPct": null
         }
       },
@@ -1395,7 +1395,7 @@
           {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 42,
+            "n": 43,
             "amountYi": 0.0
           },
           {
@@ -1407,7 +1407,7 @@
           {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 10,
+            "n": 11,
             "amountYi": 0.0
           },
           {
@@ -1433,13 +1433,13 @@
           {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 91,
+            "n": 92,
             "amountYi": 0.0
           },
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 38,
+            "n": 39,
             "amountYi": 0.0
           }
         ],
@@ -1453,7 +1453,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 146,
+            "n": 148,
             "amountYi": 0.0
           }
         ]
@@ -1561,10 +1561,18 @@
           },
           {
             "name": "首发上市（IPO）",
-            "cur": 1,
+            "cur": 2,
             "prev": 3,
-            "deltaPct": -66.7,
+            "deltaPct": -33.3,
             "items": [
+              {
+                "title": "关于同意江苏耀坤液压股份有限公司首次公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c106385/c7670733/content.shtml",
+                "date": "2026-11-13",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于同意广东保伦电子股份有限公司首次公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c106385/c7669312/content.shtml",
@@ -1574,7 +1582,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 1
+            "totalItems": 2
           },
           {
             "name": "再融资",
@@ -1589,8 +1597,8 @@
           {
             "name": "其他审核",
             "cur": 11,
-            "prev": 21,
-            "deltaPct": -47.6,
+            "prev": 22,
+            "deltaPct": -50.0,
             "items": [
               {
                 "title": "基金会管理条例",
@@ -1808,10 +1816,18 @@
           },
           {
             "name": "首发上市（IPO）",
-            "cur": 4,
+            "cur": 5,
             "prev": 12,
-            "deltaPct": -66.7,
+            "deltaPct": -58.3,
             "items": [
+              {
+                "title": "关于同意江苏耀坤液压股份有限公司首次公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c106385/c7670733/content.shtml",
+                "date": "2026-11-13",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于同意广东保伦电子股份有限公司首次公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c106385/c7669312/content.shtml",
@@ -1845,7 +1861,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 4
+            "totalItems": 5
           },
           {
             "name": "并购重组",
@@ -1859,9 +1875,9 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 46,
+            "cur": 47,
             "prev": 23,
-            "deltaPct": 100.0,
+            "deltaPct": 104.3,
             "items": [
               {
                 "title": "基金会管理条例",
@@ -1912,7 +1928,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 46
+            "totalItems": 47
           },
           {
             "name": "机构资格",
@@ -2087,10 +2103,18 @@
           },
           {
             "name": "首发上市（IPO）",
-            "cur": 16,
+            "cur": 17,
             "prev": 0,
             "deltaPct": 100.0,
             "items": [
+              {
+                "title": "关于同意江苏耀坤液压股份有限公司首次公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c106385/c7670733/content.shtml",
+                "date": "2026-11-13",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于同意广东保伦电子股份有限公司首次公开发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c106385/c7669312/content.shtml",
@@ -2130,17 +2154,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml",
-                "date": "2026-09-11",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 16
+            "totalItems": 17
           },
           {
             "name": "并购重组",
@@ -2222,7 +2238,7 @@
           "url": "https://zyhj.mof.gov.cn/zcfb/202611/t20261103_4003960.htm"
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2230,7 +2246,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2309,7 +2325,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2317,7 +2333,7 @@
           "url": ""
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2354,6 +2370,16 @@
     }
   },
   "recent": [
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c106385/c7670733/content.shtml",
+      "title": "关于同意江苏耀坤液压股份有限公司首次公开发行股票注册的批复",
+      "date": "2026-11-13",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "首发上市（IPO）",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
     {
       "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085662.htm",
       "title": "基金会管理条例",
@@ -2781,6 +2807,16 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7670864/content.shtml",
+      "title": "关于同意江苏苏讯新材料科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
+      "date": "2026-09-23",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
     },
@@ -3531,26 +3567,6 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "首发上市（IPO）",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c101885/c7651811/content.shtml",
-      "title": "关于核准迪亚琦华有限公司合格境外投资者资格的批复",
-      "date": "2026-07-27",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "机构资格",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c101830/c7649129/content.shtml",
-      "title": "关于同意浙江绍兴恒信农村商业银行股份有限公司向特定对象发行股票注册的批复",
-      "date": "2026-07-27",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "再融资",
       "amountYi": null,
       "src": "证监会审核台账"
     }
