@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-13 02:46",
+ "generatedAt": "2026-11-13 09:58",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 315,
+ "candidateCount": 316,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-13 · 延伸产业链实现算力“价值输出”（经济日报）",
+     "title": "延伸产业链实现算力“价值输出”",
+     "url": "http://paper.ce.cn/pc/content/202611/13/content_341791.html",
+     "date": "2026-11-13",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-11-12 · 贸易顺差与汇率水平不能简单画等号（经济日报）",
      "title": "贸易顺差与汇率水平不能简单画等号",
      "url": "http://paper.ce.cn/pc/content/202611/12/content_341733.html",
@@ -369,14 +377,6 @@
      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085592.htm",
      "date": "2026-11-09",
      "source": "国务院最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-11-09 · 2026年10月份居民消费价格同比上涨0.7%（国家统计局最新数据发布）",
-     "title": "2026年10月份居民消费价格同比上涨0.7%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
-     "date": "2026-11-09",
-     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13 02:46",
+ "generatedAt": "2026-11-13 09:58",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 94,
-   "fetchedAt": "2026-11-13 02:46",
+   "fetchedAt": "2026-11-13 09:58",
    "ageDays": 4
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-11-13 02:46",
+   "fetchedAt": "2026-11-13 09:58",
    "ageDays": 115
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 14,
-   "fetchedAt": "2026-11-13 02:46",
+   "total": 21,
+   "fetchedAt": "2026-11-13 09:58",
    "ageDays": 378
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202611/12/content_341733.html",
+   "href": "http://paper.ce.cn/pc/content/202611/13/content_341791.html",
    "latest": {
-    "title": "贸易顺差与汇率水平不能简单画等号",
-    "url": "http://paper.ce.cn/pc/content/202611/12/content_341733.html",
-    "date": "2026-11-12",
+    "title": "延伸产业链实现算力“价值输出”",
+    "url": "http://paper.ce.cn/pc/content/202611/13/content_341791.html",
+    "date": "2026-11-13",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 188,
-   "fetchedAt": "2026-11-13 02:46",
-   "ageDays": 1
+   "total": 189,
+   "fetchedAt": "2026-11-13 09:58",
+   "ageDays": 0
   }
  ],
  "stale": false,
