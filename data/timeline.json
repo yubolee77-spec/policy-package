@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13 20:39",
+ "generatedAt": "2026-11-14 01:22",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 316,
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-13 · 关于印发《“十五五”新型储能实施方案》的通知（发改委最新政策文件）",
+     "title": "关于印发《“十五五”新型储能实施方案》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085997.htm",
+     "date": "2026-11-13",
+     "source": "发改委最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-11-13 · 国家统计局2026年常规统计督察第9统计督察组向中国证监会反馈统计督察意见（证监会最新动态）",
      "title": "国家统计局2026年常规统计督察第9统计督察组向中国证监会反馈统计督察意见",
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7670809/content.shtml",
@@ -368,14 +376,6 @@
      "title": "长短兼顾稳定资本市场运行",
      "url": "http://paper.ce.cn/pc/content/202611/11/content_341683.html",
      "date": "2026-11-11",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-10 · 协同合作共护共兴全球海洋（经济日报）",
-     "title": "协同合作共护共兴全球海洋",
-     "url": "http://paper.ce.cn/pc/content/202611/10/content_341635.html",
-     "date": "2026-11-10",
      "source": "经济日报",
      "noise": false
     }

@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-13 20:34",
- "mediaFetchedAt": "2026-11-13 20:34",
+ "generatedAt": "2026-11-14 01:17",
+ "mediaFetchedAt": "2026-11-14 01:17",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 34,
+  "eastmoney": 35,
   "papers": 0
  },
  "kpi": {
@@ -14,12 +14,12 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 7,
   "mediaTotal": 120,
-  "mediaStrong": 80,
+  "mediaStrong": 79,
   "activeTotal": 175,
-  "successTotal": 157,
-  "cycleRecentAvg": 263,
+  "successTotal": 158,
+  "cycleRecentAvg": 354,
   "cyclePrevAvg": 263,
-  "cycleVerdict": "基本持平"
+  "cycleVerdict": "放缓 35%"
  },
  "penalty": [
   {
@@ -4226,6 +4226,37 @@
   },
   {
    "date": "2026-11-13",
+   "media": "证券时报网",
+   "title": "鑫宏业算力线缆首单落地 可转债募投布局迎来业务验证",
+   "url": "http://finance.eastmoney.com/a/202611133931036056.html",
+   "keyword": "首单",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-13",
+   "media": "新华社",
+   "title": "全国首个大宗商品资源配置枢纽持续推进改革创新",
+   "url": "http://finance.eastmoney.com/a/202611133930974219.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-13",
+   "media": "上海证券报·中国证券网",
+   "title": "武汉光谷两大产业共保体落地 首批100家科创企业获保障",
+   "url": "http://insurance.eastmoney.com/a/202611133931008832.html",
+   "keyword": "首批",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-13",
    "media": "财联社",
    "title": "大中盘成长风格鲜明 华夏基金首批申报中证A500成长ETF",
    "url": "http://stock.eastmoney.com/a/202611133930814790.html",
@@ -4256,6 +4287,33 @@
    "media": "新华社",
    "title": "海南首批海上风机塔顶通信基站投用",
    "url": "http://finance.eastmoney.com/a/202611133930753515.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-13",
+   "media": "财联社",
+   "title": "“欧几里得”空间望远镜发布首批重要观测数据 总量达170万GB",
+   "url": "http://finance.eastmoney.com/a/202611133930905487.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-13",
+   "media": "中国证券报·中证金牛座",
+   "title": "全市场首批中证A500成长ETF上报",
+   "url": "http://stock.eastmoney.com/a/202611133930921845.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-13",
+   "media": "中国新闻网",
+   "title": "全国首批韩国甜柿在沪顺利入境",
+   "url": "http://biz.eastmoney.com/a/202611133930979473.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
@@ -5190,64 +5248,6 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-11-06",
-   "media": "上海证券报·中国证券网",
-   "title": "中国电信旗下两公司深度参与我国首批量子计算性能测试评估类国标制定",
-   "url": "http://finance.eastmoney.com/a/202611063925051451.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-06",
-   "media": "第一财经",
-   "title": "招商证券落地第三批互换便利业务首批股票投资",
-   "url": "http://forex.eastmoney.com/a/202611063924961273.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-05",
-   "media": "中国新闻网",
-   "title": "（第九届进博会）第九届进博会上海市交易团“首单”签约",
-   "url": "http://finance.eastmoney.com/a/202611053923617815.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-05",
-   "media": "界面新闻",
-   "title": "横琴“三澳”标志首单货物正式出口",
-   "url": "http://finance.eastmoney.com/a/202611053923485621.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-05",
-   "media": "21世纪经济报道",
-   "title": "全国首单港口公募REITs获批，超22亿元港口资产打包上市",
-   "url": "http://bond.eastmoney.com/a/202611053923378191.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-05",
-   "media": "每日经济新闻",
-   "title": "美股AI硬件继续下挫；广电总局：扶持真人剧，规范AI剧；全球首个仿生人形机器人新闻主播亮相；春节连休9天！2027年放假安排来了丨每经晚参",
-   "url": "http://finance.eastmoney.com/a/202611053923860991.html",
-   "keyword": "首个",
-   "topics": [
-    "算力/AI"
-   ],
-   "strong": true
   }
  ],
  "review": {
@@ -5255,7 +5255,7 @@
   "total": 4405,
   "pipelineTotal": 830,
   "activeTotal": 175,
-  "successTotal": 157,
+  "successTotal": 158,
   "failTotal": 193,
   "stages": [
    {
@@ -5270,7 +5270,7 @@
    },
    {
     "name": "上市委会议通过",
-    "count": 8,
+    "count": 9,
     "kind": "active"
    },
    {
@@ -5280,7 +5280,7 @@
    },
    {
     "name": "注册生效",
-    "count": 157,
+    "count": 158,
     "kind": "success"
    },
    {
@@ -5354,12 +5354,12 @@
    }
   ],
   "cycle": {
-   "recentAvg": 263,
-   "recentN": 11,
+   "recentAvg": 354,
+   "recentN": 12,
    "prevAvg": 263,
    "prevN": 26,
-   "deltaPct": 0,
-   "verdict": "基本持平",
+   "deltaPct": 35,
+   "verdict": "放缓 35%",
    "byMonth": [
     {
      "month": "25-12",
@@ -5418,8 +5418,8 @@
     },
     {
      "month": "26-11",
-     "avg": 180,
-     "n": 1
+     "avg": 766,
+     "n": 2
     }
    ],
    "fastest": [
@@ -5456,6 +5456,13 @@
    ]
   },
   "recentApproved": [
+   {
+    "date": "2026-11-13",
+    "company": "江苏耀坤液压股份有限公司",
+    "market": "深主板",
+    "industry": "通用设备制造业",
+    "days": 1352
+   },
    {
     "date": "2026-11-09",
     "company": "广东保伦电子股份有限公司",
@@ -5623,13 +5630,6 @@
     "market": "创业板",
     "industry": "汽车制造业",
     "days": 195
-   },
-   {
-    "date": "2026-06-29",
-    "company": "天津富士达自行车工业股份有限公司",
-    "market": "沪主板",
-    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
-    "days": 187
    }
   ],
   "recentActive": [
@@ -5652,6 +5652,16 @@
     "state": "已问询",
     "region": "湖南",
     "sponsor": "申港证券股份有限公司"
+   },
+   {
+    "date": "2026-11-13",
+    "acceptDate": "2026-05-11",
+    "company": "纽氏达特行星传动系统技术(淄博)股份有限公司",
+    "market": "创业板",
+    "industry": "通用设备制造业",
+    "state": "上市委会议通过",
+    "region": "山东",
+    "sponsor": "东方证券股份有限公司"
    },
    {
     "date": "2026-11-13",
@@ -5682,16 +5692,6 @@
     "state": "上市委会议通过",
     "region": "河南",
     "sponsor": "中信证券股份有限公司"
-   },
-   {
-    "date": "2026-11-12",
-    "acceptDate": "2023-03-02",
-    "company": "江苏耀坤液压股份有限公司",
-    "market": "深主板",
-    "industry": "通用设备制造业",
-    "state": "已收到注册申请材料",
-    "region": "江苏",
-    "sponsor": "广发证券股份有限公司"
    },
    {
     "date": "2026-11-11",

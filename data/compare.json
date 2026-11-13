@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13 20:39",
+ "generatedAt": "2026-11-14 01:22",
  "asOf": "2026年11月",
  "years": [
   2024,
@@ -676,9 +676,9 @@
    "counts": {
     "2024": 6,
     "2025": 7,
-    "2026": 2
+    "2026": 3
    },
-   "total": 15,
+   "total": 16,
    "searched": [
     "新型储能",
     "储能",
@@ -761,6 +761,22 @@
         }
        ],
        "url": "https://www.gov.cn/zhengce/zhengceku/202502/content_7002678.htm"
+      },
+      "2026": {
+       "text": "关于印发《“十五五”新型储能实施方案》的通知",
+       "docno": "发改能源〔2026〕1565号",
+       "date": "2026-11-13",
+       "kw": [
+        {
+         "type": "verb",
+         "text": "实施"
+        },
+        {
+         "type": "verb",
+         "text": "建设"
+        }
+       ],
+       "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085997.htm"
       }
      },
      "diff": "2024「加强」→ 2025「—」力度回落"
