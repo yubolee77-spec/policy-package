@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-14 02:17",
- "mediaFetchedAt": "2026-11-14 02:17",
+ "generatedAt": "2026-11-14 09:29",
+ "mediaFetchedAt": "2026-11-14 09:29",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 34,
-  "papers": 0
+  "eastmoney": 29,
+  "papers": 1
  },
  "kpi": {
   "penaltyTotal": 235,
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 7,
   "mediaTotal": 120,
-  "mediaStrong": 79,
+  "mediaStrong": 80,
   "activeTotal": 175,
   "successTotal": 158,
   "cycleRecentAvg": 354,
@@ -4117,6 +4117,17 @@
  ],
  "media": [
   {
+   "date": "2026-11-14",
+   "media": "人民日报",
+   "title": "首批“人工智能+交通运输”场景清单发布",
+   "url": "http://finance.eastmoney.com/a/202611143931090827.html",
+   "keyword": "首批",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
    "date": "2026-11-13",
    "media": "界面新闻",
    "title": "华东医药创新皮肤外用制剂罗氟司特泡沫（ZORYVE）Ⅲ期临床试验完成首例试验参与者入组",
@@ -5236,15 +5247,6 @@
    "media": "澎湃新闻",
    "title": "增量资金已入市！6家头部券商今日完成互换便利操作 落地首批股票投资",
    "url": "http://forex.eastmoney.com/a/202611063925130238.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-06",
-   "media": "中国证券报·中证金牛座",
-   "title": "首批主动ETF，已有17只宣告成立",
-   "url": "http://finance.eastmoney.com/a/202611063925061682.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
