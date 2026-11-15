@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15 00:54",
+ "generatedAt": "2026-11-15 09:10",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 94,
-   "fetchedAt": "2026-11-15 00:54",
+   "fetchedAt": "2026-11-15 09:10",
    "ageDays": 6
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-11-15 00:54",
+   "fetchedAt": "2026-11-15 09:10",
    "ageDays": 117
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 14,
-   "fetchedAt": "2026-11-15 00:54",
+   "total": 11,
+   "fetchedAt": "2026-11-15 09:10",
    "ageDays": 380
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202611/13/content_341791.html",
+   "href": "http://paper.ce.cn/pc/content/202611/15/content_341894.html",
    "latest": {
-    "title": "延伸产业链实现算力“价值输出”",
-    "url": "http://paper.ce.cn/pc/content/202611/13/content_341791.html",
-    "date": "2026-11-13",
+    "title": "看清家底找准绿色发展方向",
+    "url": "http://paper.ce.cn/pc/content/202611/15/content_341894.html",
+    "date": "2026-11-15",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 189,
-   "fetchedAt": "2026-11-15 00:54",
-   "ageDays": 2
+   "total": 191,
+   "fetchedAt": "2026-11-15 09:10",
+   "ageDays": 0
   }
  ],
  "stale": false,

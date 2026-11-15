@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-15 00:54",
+ "generatedAt": "2026-11-15 09:10",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 316,
+ "candidateCount": 318,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -302,14 +302,6 @@
      "noise": false
     },
     {
-     "label": "2026-10-30 · 中国证监会党委传达贯彻党的二十届五中全会精神（证监会最新动态）",
-     "title": "中国证监会党委传达贯彻党的二十届五中全会精神",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7667579/content.shtml",
-     "date": "2026-10-30",
-     "source": "证监会最新动态",
-     "noise": false
-    },
-    {
      "label": "2026-10-29 · 坚定践行“抓民生也是抓发展”（经济日报）",
      "title": "坚定践行“抓民生也是抓发展”",
      "url": "http://paper.ce.cn/pc/content/202610/29/content_341037.html",
@@ -324,6 +316,14 @@
      "date": "2026-10-28",
      "source": "经济日报",
      "noise": false
+    },
+    {
+     "label": "2026-10-27 · 2026年1—9月份全国规模以上工业企业利润增长15.5%（国家统计局最新数据发布）",
+     "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html",
+     "date": "2026-10-27",
+     "source": "国家统计局最新数据发布",
+     "noise": false
     }
    ],
    "window": "2026年9-10月"
@@ -332,19 +332,27 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-15 · 看清家底找准绿色发展方向（经济日报）",
+     "title": "看清家底找准绿色发展方向",
+     "url": "http://paper.ce.cn/pc/content/202611/15/content_341894.html",
+     "date": "2026-11-15",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-11-15 · 金观平：看清家底找准绿色发展方向（经济日报）",
+     "title": "金观平：看清家底找准绿色发展方向",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261115_3294397.shtml",
+     "date": "2026-11-15",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-11-13 · 关于印发《“十五五”新型储能实施方案》的通知（发改委最新政策文件）",
      "title": "关于印发《“十五五”新型储能实施方案》的通知",
      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085997.htm",
      "date": "2026-11-13",
      "source": "发改委最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-11-13 · 2026年11月上旬流通领域重要生产资料市场价格变动情况（国家统计局最新数据发布）",
-     "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
-     "date": "2026-11-13",
-     "source": "国家统计局最新数据发布",
      "noise": false
     },
     {
@@ -356,27 +364,19 @@
      "noise": false
     },
     {
+     "label": "2026-11-13 · 2026年11月上旬流通领域重要生产资料市场价格变动情况（国家统计局最新数据发布）",
+     "title": "2026年11月上旬流通领域重要生产资料市场价格变动情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
+     "date": "2026-11-13",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-11-13 · 延伸产业链实现算力“价值输出”（经济日报）",
      "title": "延伸产业链实现算力“价值输出”",
      "url": "http://paper.ce.cn/pc/content/202611/13/content_341791.html",
      "date": "2026-11-13",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-12 · 贸易顺差与汇率水平不能简单画等号（经济日报）",
-     "title": "贸易顺差与汇率水平不能简单画等号",
-     "url": "http://paper.ce.cn/pc/content/202611/12/content_341733.html",
-     "date": "2026-11-12",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-11 · 中国证监会有关部门负责人答记者问（证监会最新动态）",
-     "title": "中国证监会有关部门负责人答记者问",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7670135/content.shtml",
-     "date": "2026-11-11",
-     "source": "证监会最新动态",
      "noise": false
     }
    ],
