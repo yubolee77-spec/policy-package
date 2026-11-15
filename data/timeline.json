@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-15 09:10",
+ "generatedAt": "2026-11-15 20:19",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 318,
+ "candidateCount": 319,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -348,6 +348,14 @@
      "noise": false
     },
     {
+     "label": "2026-11-14 · 从“四大挑战”深刻认识持之以恒推进全面从严治党的重大意义（求是网）",
+     "title": "从“四大挑战”深刻认识持之以恒推进全面从严治党的重大意义",
+     "url": "https://www.qstheory.cn/20261114/d25e06be30a84df5a54d1332f29df4d8/c.html",
+     "date": "2026-11-14",
+     "source": "求是网",
+     "noise": false
+    },
+    {
      "label": "2026-11-13 · 关于印发《“十五五”新型储能实施方案》的通知（发改委最新政策文件）",
      "title": "关于印发《“十五五”新型储能实施方案》的通知",
      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085997.htm",
@@ -369,14 +377,6 @@
      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261113_1965820.html",
      "date": "2026-11-13",
      "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-11-13 · 延伸产业链实现算力“价值输出”（经济日报）",
-     "title": "延伸产业链实现算力“价值输出”",
-     "url": "http://paper.ce.cn/pc/content/202611/13/content_341791.html",
-     "date": "2026-11-13",
-     "source": "经济日报",
      "noise": false
     }
    ],

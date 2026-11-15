@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-15 09:06",
- "mediaFetchedAt": "2026-11-15 09:06",
+ "generatedAt": "2026-11-15 20:14",
+ "mediaFetchedAt": "2026-11-15 20:14",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 29,
+  "eastmoney": 28,
   "papers": 1
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 7,
   "mediaTotal": 120,
-  "mediaStrong": 80,
+  "mediaStrong": 82,
   "activeTotal": 175,
   "successTotal": 158,
   "cycleRecentAvg": 354,
@@ -2986,16 +2986,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "IPO注册",
@@ -3003,6 +2993,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -4135,6 +4135,37 @@
    "strong": true
   },
   {
+   "date": "2026-11-15",
+   "media": "上海证券报·中国证券网",
+   "title": "科济药业恺力美成为商保创新药目录首个实体瘤CAR-T产品",
+   "url": "http://finance.eastmoney.com/a/202611153931413496.html",
+   "keyword": "首个",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-15",
+   "media": "第一财经",
+   "title": "击穿百万价格后，首批转目录的创新药销量能大爆发吗？",
+   "url": "http://finance.eastmoney.com/a/202611153931395476.html",
+   "keyword": "首批",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-15",
+   "media": "每日经济新闻",
+   "title": "集结完毕！首批18只主动ETF全部成立，17只产品净值出现变动 | 主动ETF周报",
+   "url": "http://stock.eastmoney.com/a/202611153931416752.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-14",
    "media": "人民日报",
    "title": "首批“人工智能+交通运输”场景清单发布",
@@ -5219,37 +5250,10 @@
    "keyword": "首个",
    "topics": [],
    "strong": true
-  },
-  {
-   "date": "2026-11-07",
-   "media": "澎湃新闻",
-   "title": "增量资金已入市！6家头部券商完成互换便利操作 落地首批股票投资",
-   "url": "http://finance.eastmoney.com/a/202611073925312813.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-07",
-   "media": "中国新闻网",
-   "title": "广州港南沙四期全自动化码头迎来首条外贸班轮航线",
-   "url": "http://finance.eastmoney.com/a/202611073925513686.html",
-   "keyword": "首条",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-07",
-   "media": "新华社",
-   "title": "海军首批舰载机女飞行学员结业赴一线部队",
-   "url": "http://finance.eastmoney.com/a/202611073925540212.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
-  "asOf": "2026-11-14",
+  "asOf": "2026-11-15",
   "total": 4405,
   "pipelineTotal": 829,
   "activeTotal": 175,
@@ -5268,12 +5272,12 @@
    },
    {
     "name": "上市委会议通过",
-    "count": 9,
+    "count": 8,
     "kind": "active"
    },
    {
     "name": "提交注册",
-    "count": 20,
+    "count": 21,
     "kind": "active"
    },
    {
@@ -5632,6 +5636,16 @@
   ],
   "recentActive": [
    {
+    "date": "2026-11-15",
+    "acceptDate": "2026-05-11",
+    "company": "纽氏达特行星传动系统技术(淄博)股份有限公司",
+    "market": "创业板",
+    "industry": "通用设备制造业",
+    "state": "提交注册",
+    "region": "山东",
+    "sponsor": "东方证券股份有限公司"
+   },
+   {
     "date": "2026-11-14",
     "acceptDate": "2026-06-23",
     "company": "北京煜鼎增材制造研究院股份有限公司",
@@ -5660,16 +5674,6 @@
     "state": "已问询",
     "region": "湖南",
     "sponsor": "申港证券股份有限公司"
-   },
-   {
-    "date": "2026-11-13",
-    "acceptDate": "2026-05-11",
-    "company": "纽氏达特行星传动系统技术(淄博)股份有限公司",
-    "market": "创业板",
-    "industry": "通用设备制造业",
-    "state": "上市委会议通过",
-    "region": "山东",
-    "sponsor": "东方证券股份有限公司"
    },
    {
     "date": "2026-11-13",
