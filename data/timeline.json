@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16 09:13",
+ "generatedAt": "2026-11-16 16:21",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 322,
@@ -278,30 +278,6 @@
    "status": "pass",
    "docs": [
     {
-     "label": "2026-10-31 · 2026年10月中国采购经理指数运行情况（国家统计局最新数据发布）",
-     "title": "2026年10月中国采购经理指数运行情况",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
-     "date": "2026-10-31",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-10-30 · 社会事业全面发展 民生福祉取得新进步——2025年社会民生统计报告（国家统计局最新数据发布）",
-     "title": "社会事业全面发展 民生福祉取得新进步——2025年社会民生统计报告",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261030_1965711.html",
-     "date": "2026-10-30",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-10-30 · 2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%（国家统计局最新数据发布）",
-     "title": "2026年前三季度全国规模以上文化及相关产业企业营业收入增长4.3%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261030_1965708.html",
-     "date": "2026-10-30",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
      "label": "2026-10-29 · 坚定践行“抓民生也是抓发展”（经济日报）",
      "title": "坚定践行“抓民生也是抓发展”",
      "url": "http://paper.ce.cn/pc/content/202610/29/content_341037.html",
@@ -318,11 +294,35 @@
      "noise": false
     },
     {
-     "label": "2026-10-27 · 2026年1—9月份全国规模以上工业企业利润增长15.5%（国家统计局最新数据发布）",
-     "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html",
+     "label": "2026-10-27 · 红梢林与红苹果（人民日报）",
+     "title": "红梢林与红苹果",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/27/content_30187763.html",
      "date": "2026-10-27",
-     "source": "国家统计局最新数据发布",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-27 · 政策接续发力激发经济动能（经济日报）",
+     "title": "政策接续发力激发经济动能",
+     "url": "http://paper.ce.cn/pc/content/202610/27/content_340937.html",
+     "date": "2026-10-27",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-10-26 · 事业单位登记管理条例（国务院最新政策文件）",
+     "title": "事业单位登记管理条例",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084280.htm",
+     "date": "2026-10-26",
+     "source": "国务院最新政策文件",
+     "noise": false
+    },
+    {
+     "label": "2026-10-26 · 在新征程上持之以恒推进全面从严治党（人民日报）",
+     "title": "在新征程上持之以恒推进全面从严治党",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202610/26/content_30187527.html",
+     "date": "2026-10-26",
+     "source": "人民日报",
      "noise": false
     }
    ],
@@ -332,51 +332,51 @@
    "status": "hot",
    "docs": [
     {
-     "label": "2026-11-16 · 共创亚太美好明天（人民日报）",
-     "title": "共创亚太美好明天",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202611/16/content_30191252.html",
+     "label": "2026-11-16 · 10月份国民经济运行总体平稳、向新向优（国家统计局最新数据发布）",
+     "title": "10月份国民经济运行总体平稳、向新向优",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html",
      "date": "2026-11-16",
-     "source": "人民日报",
+     "source": "国家统计局最新数据发布",
      "noise": false
     },
     {
-     "label": "2026-11-16 · 以中国之稳托起亚太之安（经济日报）",
-     "title": "以中国之稳托起亚太之安",
-     "url": "http://paper.ce.cn/pc/content/202611/16/content_341942.html",
+     "label": "2026-11-16 · 2026年10月份规模以上工业增加值增长4.8%（国家统计局最新数据发布）",
+     "title": "2026年10月份规模以上工业增加值增长4.8%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html",
      "date": "2026-11-16",
-     "source": "经济日报",
+     "source": "国家统计局最新数据发布",
      "noise": false
     },
     {
-     "label": "2026-11-15 · 看清家底找准绿色发展方向（经济日报）",
-     "title": "看清家底找准绿色发展方向",
-     "url": "http://paper.ce.cn/pc/content/202611/15/content_341894.html",
-     "date": "2026-11-15",
-     "source": "经济日报",
+     "label": "2026-11-16 · 2026年1—10月份全国固定资产投资基本情况（国家统计局最新数据发布）",
+     "title": "2026年1—10月份全国固定资产投资基本情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965841.html",
+     "date": "2026-11-16",
+     "source": "国家统计局最新数据发布",
      "noise": false
     },
     {
-     "label": "2026-11-15 · 金观平：看清家底找准绿色发展方向（经济日报）",
-     "title": "金观平：看清家底找准绿色发展方向",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261115_3294397.shtml",
-     "date": "2026-11-15",
-     "source": "经济日报",
+     "label": "2026-11-16 · 2026年1—10月份全国房地产市场基本情况（国家统计局最新数据发布）",
+     "title": "2026年1—10月份全国房地产市场基本情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965840.html",
+     "date": "2026-11-16",
+     "source": "国家统计局最新数据发布",
      "noise": false
     },
     {
-     "label": "2026-11-14 · 从“四大挑战”深刻认识持之以恒推进全面从严治党的重大意义（求是网）",
-     "title": "从“四大挑战”深刻认识持之以恒推进全面从严治党的重大意义",
-     "url": "https://www.qstheory.cn/20261114/d25e06be30a84df5a54d1332f29df4d8/c.html",
-     "date": "2026-11-14",
-     "source": "求是网",
+     "label": "2026-11-16 · 2026年1—10月份社会消费品零售总额增长1.0%（国家统计局最新数据发布）",
+     "title": "2026年1—10月份社会消费品零售总额增长1.0%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965839.html",
+     "date": "2026-11-16",
+     "source": "国家统计局最新数据发布",
      "noise": false
     },
     {
-     "label": "2026-11-14 · 持续激发企业发展活力（求是网）",
-     "title": "持续激发企业发展活力",
-     "url": "https://www.qstheory.cn/20261114/3de18b29732c4c17a03c2bec2027b70f/c.html",
-     "date": "2026-11-14",
-     "source": "求是网",
+     "label": "2026-11-16 · 2026年10月份能源生产情况（国家统计局最新数据发布）",
+     "title": "2026年10月份能源生产情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965837.html",
+     "date": "2026-11-16",
+     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],
