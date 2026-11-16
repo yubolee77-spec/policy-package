@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16 01:33",
+ "generatedAt": "2026-11-16 09:13",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 94,
-   "fetchedAt": "2026-11-16 01:33",
+   "fetchedAt": "2026-11-16 09:13",
    "ageDays": 7
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-11-16 01:33",
+   "fetchedAt": "2026-11-16 09:13",
    "ageDays": 118
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 11,
-   "fetchedAt": "2026-11-16 01:33",
+   "total": 21,
+   "fetchedAt": "2026-11-16 09:13",
    "ageDays": 381
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202611/15/content_341894.html",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202611/16/content_30191252.html",
    "latest": {
-    "title": "看清家底找准绿色发展方向",
-    "url": "http://paper.ce.cn/pc/content/202611/15/content_341894.html",
-    "date": "2026-11-15",
-    "source": "经济日报"
+    "title": "共创亚太美好明天",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202611/16/content_30191252.html",
+    "date": "2026-11-16",
+    "source": "人民日报"
    },
    "stale": false,
-   "total": 192,
-   "fetchedAt": "2026-11-16 01:33",
-   "ageDays": 1
+   "total": 195,
+   "fetchedAt": "2026-11-16 09:13",
+   "ageDays": 0
   }
  ],
  "stale": false,
