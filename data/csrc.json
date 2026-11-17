@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-17 19:27",
- "mediaFetchedAt": "2026-11-17 19:27",
+ "generatedAt": "2026-11-18 02:41",
+ "mediaFetchedAt": "2026-11-18 02:41",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 22,
+  "eastmoney": 23,
   "papers": 0
  },
  "kpi": {
@@ -14,12 +14,12 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 80,
-  "activeTotal": 178,
-  "successTotal": 158,
-  "cycleRecentAvg": 362,
+  "mediaStrong": 77,
+  "activeTotal": 179,
+  "successTotal": 157,
+  "cycleRecentAvg": 263,
   "cyclePrevAvg": 256,
-  "cycleVerdict": "放缓 41%"
+  "cycleVerdict": "基本持平"
  },
  "penalty": [
   {
@@ -4190,6 +4190,53 @@
   },
   {
    "date": "2026-11-17",
+   "media": "界面新闻",
+   "title": "东吴证券115亿收购东海证券过会 首例“同省跨市”券商并购落地在即",
+   "url": "http://finance.eastmoney.com/a/202611173933164078.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-17",
+   "media": "界面新闻",
+   "title": "英矽智能：完成非鸦片类止痛候选药物ISM9528探索性试验首例人体给药",
+   "url": "http://finance.eastmoney.com/a/202611173933104297.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-17",
+   "media": "新华财经",
+   "title": "西藏自治区首单“金融期货直接融资保障计划”业务落地",
+   "url": "http://bond.eastmoney.com/a/202611173933103426.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-17",
+   "media": "中国证券报·中证网",
+   "title": "我国牵头制定的首个物联网智慧水产养殖国际标准发布",
+   "url": "http://finance.eastmoney.com/a/202611173933197280.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-17",
+   "media": "中国新闻网",
+   "title": "四川首个“水风光储直柔”一体化构网型微电网在攀枝花投运",
+   "url": "http://finance.eastmoney.com/a/202611173933178670.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-17",
    "media": "每日经济新闻",
    "title": "多家券商完成第三批互换便利操作首批买入，券商ETF银华（159842）标的指数盘中翻红",
    "url": "http://stock.eastmoney.com/a/202611173932719090.html",
@@ -4266,6 +4313,69 @@
    "title": "中国互金协会通告2026年度首批移动金融App自律检查情况",
    "url": "http://bank.eastmoney.com/a/202611173932877333.html",
    "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "证券时报网",
+   "title": "首批18只主动ETF最高仓位超90%，下周一上市",
+   "url": "http://stock.eastmoney.com/a/202611173933250226.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "中国证券报·中证金牛座",
+   "title": "首批18只主动ETF，认购、建仓情况出炉！",
+   "url": "http://stock.eastmoney.com/a/202611173933182224.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "每日经济新闻",
+   "title": "清盘呈请4次延后、首批签约债权人仅覆盖11.6%，雅居乐境外债重组来到关键时刻，业内：若方案落地陈氏家族恐失控股权",
+   "url": "http://bond.eastmoney.com/a/202611173933102958.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "上海证券报·中国证券网",
+   "title": "首批主动ETF将于11月23日上市",
+   "url": "http://finance.eastmoney.com/a/202611173933100273.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "证券日报",
+   "title": "首批主动ETF上市在即 管理人有序推进建仓与上市准备",
+   "url": "http://stock.eastmoney.com/a/202611173933106419.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "每日经济新闻",
+   "title": "首批主动ETF上市在即，红利主动ETF工银（158905）11月23日起上市交易",
+   "url": "http://stock.eastmoney.com/a/202611173933180230.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "中国新闻网",
+   "title": "俄总统特别代表抵深后发布首张照片：APEC会议致力于合作与繁荣",
+   "url": "http://stock.eastmoney.com/a/202611173933212980.html",
+   "keyword": "首张",
    "topics": [],
    "strong": false
   },
@@ -5115,126 +5225,14 @@
    "keyword": "首个",
    "topics": [],
    "strong": true
-  },
-  {
-   "date": "2026-11-11",
-   "media": "中国新闻网",
-   "title": "全国首个CMF微专业在渝正式落地",
-   "url": "http://finance.eastmoney.com/a/202611113928630296.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-11",
-   "media": "界面新闻",
-   "title": "优必选与永达首批400台超仿生人形机器人U1 Pro采购合同落地",
-   "url": "http://finance.eastmoney.com/a/202611113928571149.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-11",
-   "media": "上海证券报·中国证券网",
-   "title": "在行情调整中把握机会 首批主动ETF积极建仓",
-   "url": "http://stock.eastmoney.com/a/202611113928432390.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-11",
-   "media": "新华财经",
-   "title": "内蒙古能源集团配售电公司成为蒙西电力现货市场首家数据对接试点主体",
-   "url": "http://finance.eastmoney.com/a/202611113928252952.html",
-   "keyword": "首家",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-11",
-   "media": "证券日报",
-   "title": "优必选携手永达汽车 首批400台超仿生人形机器人U1 Pro采购合同落地",
-   "url": "http://finance.eastmoney.com/a/202611113928722271.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-10",
-   "media": "证券时报",
-   "title": "第二艘国产大型邮轮开启首个试运营航次",
-   "url": "http://biz.eastmoney.com/a/202611103926624058.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-10",
-   "media": "界面新闻",
-   "title": "联想刘军：首个混合词元母本工厂即将落地河北张家口",
-   "url": "http://finance.eastmoney.com/a/202611103926988792.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-10",
-   "media": "21世纪经济报道",
-   "title": "通信设备概念盘中走强，我国完成全球首个千公里空芯光纤双向实时传输验证|异动情报",
-   "url": "http://finance.eastmoney.com/a/202611103927151518.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-10",
-   "media": "科创板日报",
-   "title": "全球首个口服疾病修饰型阿尔茨海默病新药AR1001：III期顶线数据将于CTAD2026首次公布",
-   "url": "http://finance.eastmoney.com/a/202611103927107964.html",
-   "keyword": "首个",
-   "topics": [
-    "生物医药"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-10",
-   "media": "证券时报网",
-   "title": "远大医药：中药创新药GPN01020国内Ⅱ期临床研究完成首例患者入组",
-   "url": "http://finance.eastmoney.com/a/202611103927433710.html",
-   "keyword": "首例",
-   "topics": [
-    "生物医药"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-10",
-   "media": "界面新闻",
-   "title": "贝达药业泛RAS抑制剂BPI-572270完成澳大利亚首例参与者给药",
-   "url": "http://finance.eastmoney.com/a/202611103927344011.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-10",
-   "media": "财联社",
-   "title": "定档上会！东海证券将成为东吴证券控股子公司，首例同省跨市券商整合的关键时刻",
-   "url": "http://finance.eastmoney.com/a/202611103927661290.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
   }
  ],
  "review": {
   "asOf": "2026-11-17",
   "total": 4405,
   "pipelineTotal": 829,
-  "activeTotal": 178,
-  "successTotal": 158,
+  "activeTotal": 179,
+  "successTotal": 157,
   "failTotal": 192,
   "stages": [
    {
@@ -5249,17 +5247,17 @@
    },
    {
     "name": "上市委会议通过",
-    "count": 8,
+    "count": 7,
     "kind": "active"
    },
    {
     "name": "提交注册",
-    "count": 22,
+    "count": 23,
     "kind": "active"
    },
    {
     "name": "注册生效",
-    "count": 158,
+    "count": 157,
     "kind": "success"
    },
    {
@@ -5333,12 +5331,12 @@
    }
   ],
   "cycle": {
-   "recentAvg": 362,
-   "recentN": 11,
+   "recentAvg": 263,
+   "recentN": 10,
    "prevAvg": 256,
    "prevN": 26,
-   "deltaPct": 41,
-   "verdict": "放缓 41%",
+   "deltaPct": 3,
+   "verdict": "基本持平",
    "byMonth": [
     {
      "month": "25-12",
@@ -5397,8 +5395,8 @@
     },
     {
      "month": "26-11",
-     "avg": 766,
-     "n": 2
+     "avg": 180,
+     "n": 1
     }
    ],
    "fastest": [
@@ -5435,13 +5433,6 @@
    ]
   },
   "recentApproved": [
-   {
-    "date": "2026-11-13",
-    "company": "江苏耀坤液压股份有限公司",
-    "market": "深主板",
-    "industry": "通用设备制造业",
-    "days": 1352
-   },
    {
     "date": "2026-11-09",
     "company": "广东保伦电子股份有限公司",
@@ -5609,6 +5600,13 @@
     "market": "创业板",
     "industry": "汽车制造业",
     "days": 195
+   },
+   {
+    "date": "2026-06-29",
+    "company": "天津富士达自行车工业股份有限公司",
+    "market": "沪主板",
+    "industry": "铁路、船舶、航空航天和其他运输设备制造业",
+    "days": 187
    }
   ],
   "recentActive": [
@@ -5691,6 +5689,16 @@
     "state": "上市委会议通过",
     "region": "河南",
     "sponsor": "中信证券股份有限公司"
+   },
+   {
+    "date": "2026-11-12",
+    "acceptDate": "2023-03-02",
+    "company": "江苏耀坤液压股份有限公司",
+    "market": "深主板",
+    "industry": "通用设备制造业",
+    "state": "已收到注册申请材料",
+    "region": "江苏",
+    "sponsor": "广发证券股份有限公司"
    },
    {
     "date": "2026-11-11",
@@ -6001,16 +6009,6 @@
     "state": "已问询",
     "region": "辽宁省 铁岭市",
     "sponsor": "开源证券股份有限公司"
-   },
-   {
-    "date": "2026-10-27",
-    "acceptDate": "2026-06-30",
-    "company": "弥费科技(上海)股份有限公司",
-    "market": "科创板",
-    "industry": "专用设备制造业",
-    "state": "已问询",
-    "region": "上海",
-    "sponsor": "国泰海通证券股份有限公司"
    }
   ]
  }
