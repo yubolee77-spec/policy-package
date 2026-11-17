@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-17 11:58",
- "mediaFetchedAt": "2026-11-17 11:58",
+ "generatedAt": "2026-11-17 15:17",
+ "mediaFetchedAt": "2026-11-17 15:17",
  "mediaStale": false,
  "mediaChannels": {
   "eastmoney": 24,
@@ -8,7 +8,7 @@
  },
  "kpi": {
   "penaltyTotal": 233,
-  "penaltyMonth": 105,
+  "penaltyMonth": 106,
   "approvalTotal": 174,
   "approvalMonth": 18,
   "reitsApproved30d": 5,
@@ -22,6 +22,36 @@
   "cycleVerdict": "放缓 41%"
  },
  "penalty": [
+  {
+   "date": "2026-11-17",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "上海局协同联动组织开展2026年“世界投资者周”活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shanghai/c100581/c7671302/content.shtml"
+  },
+  {
+   "date": "2026-11-16",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对中国光大银行股份有限公司兰州分行采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/gansu/c101379/c7671140/content.shtml"
+  },
+  {
+   "date": "2026-11-16",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "责令改正",
+   "title": "关于对内蒙古中科青云股权投资管理有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7671105/content.shtml"
+  },
   {
    "date": "2026-11-16",
    "channel": "行政监管措施",
@@ -57,26 +87,6 @@
    "channel": "行政监管措施",
    "column": "监管措施",
    "tag": "警示函",
-   "title": "关于对中国光大银行股份有限公司兰州分行采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/gansu/c104578/c7671149/content.shtml"
-  },
-  {
-   "date": "2026-11-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对内蒙古中科青云股权投资管理有限公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7671105/content.shtml"
-  },
-  {
-   "date": "2026-11-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
    "title": "关于对浙江华尔特机电股份有限公司及相关人员采取出具警示函措施的决定",
    "docNo": "",
    "party": "",
@@ -101,6 +111,46 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/tianjin/c103610/c7669203/content.shtml"
+  },
+  {
+   "date": "2026-11-13",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "北京证监局指导北京上市公司协会组织开展“凝聚合规共识 提升治理能力 共谋创新发展”北交所上市公司专题培训",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c100277/c7670872/content.shtml"
+  },
+  {
+   "date": "2026-11-13",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-11-13",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7670786/content.shtml"
+  },
+  {
+   "date": "2026-11-13",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "湖南证监局深化常态化走访机制 推动上市公司高质量发展",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/hunan/c106366/c7670766/content.shtml"
+  },
+  {
+   "date": "2026-11-13",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "内蒙古辖区资本市场月度统计（2026年7月）",
+   "docNo": "",
+   "party": "2026年7月",
+   "url": "https://www.csrc.gov.cn/neimenggu/c103716/c7670747/content.shtml"
   },
   {
    "date": "2026-11-13",
@@ -203,44 +253,74 @@
    "url": "https://www.csrc.gov.cn/jiangsu/c103892/c7670689/content.shtml"
   },
   {
-   "date": "2026-11-13",
+   "date": "2026-11-12",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
-   "title": "北京证监局指导北京上市公司协会组织开展“凝聚合规共识 提升治理能力 共谋创新发展”北交所上市公司专题培训",
+   "title": "天津证监局推动全国首单港口公募REITs和天津首单商业不动产公募REITs获批",
    "docNo": "",
    "party": "",
-   "url": "https://www.csrc.gov.cn/beijing/c100277/c7670872/content.shtml"
+   "url": "https://www.csrc.gov.cn/tianjin/c100315/c7670509/content.shtml"
   },
   {
-   "date": "2026-11-13",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-11-13",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7670786/content.shtml"
-  },
-  {
-   "date": "2026-11-13",
+   "date": "2026-11-12",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
-   "title": "湖南证监局深化常态化走访机制 推动上市公司高质量发展",
+   "title": "宁夏证监局举办资本市场服务宁夏行专题培训（石嘴山专场）赋能地方产业高质量发展",
    "docNo": "",
    "party": "",
-   "url": "https://www.csrc.gov.cn/hunan/c106366/c7670766/content.shtml"
+   "url": "https://www.csrc.gov.cn/ningxia/c101455/c7670500/content.shtml"
   },
   {
-   "date": "2026-11-13",
-   "channel": "通知公告",
+   "date": "2026-11-12",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对长春长发私募基金管理有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7670476/content.shtml"
+  },
+  {
+   "date": "2026-11-12",
+   "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
-   "title": "内蒙古辖区资本市场月度统计（2026年7月）",
+   "title": "聚焦专精特新  促高质量发展——全国股转系统（北交所）联合调研重点企业",
    "docNo": "",
-   "party": "2026年7月",
-   "url": "https://www.csrc.gov.cn/neimenggu/c103716/c7670747/content.shtml"
+   "party": "",
+   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7670447/content.shtml"
+  },
+  {
+   "date": "2026-11-12",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "吉林辖区期货经营机构名录（2026年10月）",
+   "docNo": "",
+   "party": "2026年10月",
+   "url": "https://www.csrc.gov.cn/jilin/c103782/c7670436/content.shtml"
+  },
+  {
+   "date": "2026-11-12",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "吉林辖区证券经营机构名录（2026年10月）",
+   "docNo": "",
+   "party": "2026年10月",
+   "url": "https://www.csrc.gov.cn/jilin/c103775/c7670428/content.shtml"
+  },
+  {
+   "date": "2026-11-12",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "警示函措施决定书送达公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangxi/c104647/c7670401/content.shtml"
   },
   {
    "date": "2026-11-12",
@@ -286,16 +366,6 @@
    "date": "2026-11-12",
    "channel": "行政监管措施",
    "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对长春长发私募基金管理有限公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c103788/c7670476/content.shtml"
-  },
-  {
-   "date": "2026-11-12",
-   "channel": "行政监管措施",
-   "column": "监管措施",
    "tag": "监管谈话",
    "title": "关于对周乐峰、邱玉强、丁军、邓纲采取监管谈话监管措施的决定",
    "docNo": "",
@@ -311,86 +381,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/hunan/c104484/c7670373/content.shtml"
-  },
-  {
-   "date": "2026-11-12",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "天津证监局推动全国首单港口公募REITs和天津首单商业不动产公募REITs获批",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/tianjin/c100315/c7670509/content.shtml"
-  },
-  {
-   "date": "2026-11-12",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "宁夏证监局举办资本市场服务宁夏行专题培训（石嘴山专场）赋能地方产业高质量发展",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/ningxia/c101455/c7670500/content.shtml"
-  },
-  {
-   "date": "2026-11-12",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "聚焦专精特新  促高质量发展——全国股转系统（北交所）联合调研重点企业",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7670447/content.shtml"
-  },
-  {
-   "date": "2026-11-12",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "吉林辖区期货经营机构名录（2026年10月）",
-   "docNo": "",
-   "party": "2026年10月",
-   "url": "https://www.csrc.gov.cn/jilin/c103782/c7670436/content.shtml"
-  },
-  {
-   "date": "2026-11-12",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "吉林辖区证券经营机构名录（2026年10月）",
-   "docNo": "",
-   "party": "2026年10月",
-   "url": "https://www.csrc.gov.cn/jilin/c103775/c7670428/content.shtml"
-  },
-  {
-   "date": "2026-11-12",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "警示函",
-   "title": "警示函措施决定书送达公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/guangxi/c104647/c7670401/content.shtml"
-  },
-  {
-   "date": "2026-11-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对嵊州市亿顺投资管理合伙企业（有限合伙）、嵊州市亿旺投资管理合伙企业（有限合伙）采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7670331/content.shtml"
-  },
-  {
-   "date": "2026-11-11",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "江苏证监局关于对江苏金百临投资咨询股份有限公司采取责令改正行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangsu/c103901/c7670664/content.shtml"
   },
   {
    "date": "2026-11-11",
@@ -421,6 +411,46 @@
    "docNo": "",
    "party": "2026年9月",
    "url": "https://www.csrc.gov.cn/guizhou/c104838/c7670185/content.shtml"
+  },
+  {
+   "date": "2026-11-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对嵊州市亿顺投资管理合伙企业（有限合伙）、嵊州市亿旺投资管理合伙企业（有限合伙）采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7670331/content.shtml"
+  },
+  {
+   "date": "2026-11-11",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "江苏证监局关于对江苏金百临投资咨询股份有限公司采取责令改正行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103901/c7670664/content.shtml"
+  },
+  {
+   "date": "2026-11-10",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "重庆证监局举办辖区期货衍生品市场服务重庆农业高质量发展培训",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c101075/c7670014/content.shtml"
+  },
+  {
+   "date": "2026-11-10",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "厦门证监局积极组织开展“2026年世界投资者周”活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xiamen/c101757/c7670009/content.shtml"
   },
   {
    "date": "2026-11-10",
@@ -483,24 +513,54 @@
    "url": "https://www.csrc.gov.cn/fujian/c104066/c7670272/content.shtml"
   },
   {
-   "date": "2026-11-10",
+   "date": "2026-11-09",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
-   "title": "重庆证监局举办辖区期货衍生品市场服务重庆农业高质量发展培训",
+   "title": "云南辖区拟上市企业辅导备案工作进展情况表（截至2026年9月30日）",
    "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c101075/c7670014/content.shtml"
+   "party": "截至2026年9月30日",
+   "url": "https://www.csrc.gov.cn/yunnan/c105481/c7669767/content.shtml"
   },
   {
-   "date": "2026-11-10",
+   "date": "2026-11-09",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
-   "title": "厦门证监局积极组织开展“2026年世界投资者周”活动",
+   "title": "山东辖区举办期货经营机构行业文化建设培训班",
    "docNo": "",
    "party": "",
-   "url": "https://www.csrc.gov.cn/xiamen/c101757/c7670009/content.shtml"
+   "url": "https://www.csrc.gov.cn/shandong/c100809/c7669671/content.shtml"
+  },
+  {
+   "date": "2026-11-09",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "上海辖区证券期货市场概况（2026年10月）",
+   "docNo": "",
+   "party": "2026年10月",
+   "url": "https://www.csrc.gov.cn/shanghai/c100581/c7669658/content.shtml"
+  },
+  {
+   "date": "2026-11-09",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "大连辖区2026年10月份数据统计",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/dalian/c101569/c7669636/content.shtml"
+  },
+  {
+   "date": "2026-11-09",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "凝聚共识 转型发展 重塑行业新格局——第十八届期货高管大会在京举行",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c100277/c7669589/content.shtml"
   },
   {
    "date": "2026-11-09",
@@ -663,89 +723,9 @@
    "url": "https://www.csrc.gov.cn/guangdong/c104560/c7669585/content.shtml"
   },
   {
-   "date": "2026-11-09",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "云南辖区拟上市企业辅导备案工作进展情况表（截至2026年9月30日）",
-   "docNo": "",
-   "party": "截至2026年9月30日",
-   "url": "https://www.csrc.gov.cn/yunnan/c105481/c7669767/content.shtml"
-  },
-  {
-   "date": "2026-11-09",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "山东辖区举办期货经营机构行业文化建设培训班",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shandong/c100809/c7669671/content.shtml"
-  },
-  {
-   "date": "2026-11-09",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "上海辖区证券期货市场概况（2026年10月）",
-   "docNo": "",
-   "party": "2026年10月",
-   "url": "https://www.csrc.gov.cn/shanghai/c100581/c7669658/content.shtml"
-  },
-  {
-   "date": "2026-11-09",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "大连辖区2026年10月份数据统计",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/dalian/c101569/c7669636/content.shtml"
-  },
-  {
-   "date": "2026-11-09",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "凝聚共识 转型发展 重塑行业新格局——第十八届期货高管大会在京举行",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/beijing/c100277/c7669589/content.shtml"
-  },
-  {
    "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "深圳证监局关于对海控南海发展股份有限公司、马珺、杨晓强、祁生彪、周军采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7669397/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对三门峡速达交通节能科技股份有限公司及李红宇、何俊霞采取出具警示函监督管理措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/henan/c104282/c7669382/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对广州钏铂资产管理有限公司采取责令改正措施的决定〔2026〕137号",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7669339/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
    "tag": "警示函",
    "title": "关于对刘明旭采取出具警示函行政监管措施的决定",
    "docNo": "",
@@ -754,73 +734,13 @@
   },
   {
    "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
    "tag": "责令改正",
    "title": "关于对中信证券股份有限公司吉林省分公司采取责令改正行政监管措施的决定",
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jilin/c103788/c7669322/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对重庆长寿开发投资（集团）有限公司及陈忠平、陈碧容、陶中荣采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669308/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对重庆鸿业实业（集团）有限公司、谭颂、陈念东采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669296/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对北京指南针科技发展股份有限公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/beijing/c105547/c7669293/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "宁夏证监局关于对银川开发区育成凤凰基金管理有限公司采取出具警示函行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/ningxia/c104434/c7669286/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对中信建投期货有限公司采取责令改正措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669283/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对北京森博明德人工智能科技股份有限公司、于林义采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/beijing/c105547/c7669282/content.shtml"
   },
   {
    "date": "2026-11-06",
@@ -881,6 +801,96 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/gansu/c101379/c7669067/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "深圳证监局关于对海控南海发展股份有限公司、马珺、杨晓强、祁生彪、周军采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7669397/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对三门峡速达交通节能科技股份有限公司及李红宇、何俊霞采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/henan/c104282/c7669382/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对广州钏铂资产管理有限公司采取责令改正措施的决定〔2026〕137号",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7669339/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对重庆长寿开发投资（集团）有限公司及陈忠平、陈碧容、陶中荣采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669308/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对重庆鸿业实业（集团）有限公司、谭颂、陈念东采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669296/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对北京指南针科技发展股份有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c105547/c7669293/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "宁夏证监局关于对银川开发区育成凤凰基金管理有限公司采取出具警示函行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/ningxia/c104434/c7669286/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对中信建投期货有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669283/content.shtml"
+  },
+  {
+   "date": "2026-11-06",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对北京森博明德人工智能科技股份有限公司、于林义采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/beijing/c105547/c7669282/content.shtml"
   },
   {
    "date": "2026-11-05",
@@ -1141,16 +1151,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/qinghai/c101417/c7667363/content.shtml"
-  },
-  {
-   "date": "2026-10-28",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "深耕投教普及阵地 厚植理性投资理念—— 青海辖区青年志愿者服务队投教工作纪实",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/qinghai/c101417/c7667362/content.shtml"
   },
   {
    "date": "2026-10-23",
@@ -4150,6 +4150,15 @@
   },
   {
    "date": "2026-11-17",
+   "media": "上海证券报·中国证券网",
+   "title": "全国首单贴标传统产业升级的科技创新公司债券在上交所发行",
+   "url": "http://bond.eastmoney.com/a/202611173932772349.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-17",
    "media": "每日经济新闻",
    "title": "多家券商完成第三批互换便利操作首批买入，券商ETF银华（159842）标的指数盘中翻红",
    "url": "http://stock.eastmoney.com/a/202611173932719090.html",
@@ -5221,15 +5230,6 @@
    "topics": [
     "算力/AI"
    ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-10",
-   "media": "中国新闻网",
-   "title": "中国首个引入民营资本参股的核电项目迎新节点",
-   "url": "http://finance.eastmoney.com/a/202611103927535351.html",
-   "keyword": "首个",
-   "topics": [],
    "strong": true
   }
  ],
