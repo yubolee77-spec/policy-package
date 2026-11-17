@@ -1,8 +1,27 @@
 {
   "lastUpdated": "2026-11-17",
-  "fetchedAt": "2026-11-17 15:16",
+  "fetchedAt": "2026-11-17 19:27",
   "monthLabel": "2026年11月",
   "timeline": [
+    {
+      "title": "中国证监会陈华平副主席与国际证监会组织秘书长举行会谈",
+      "desc": "证监会最新动态",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7671332/content.shtml",
+      "date": "2026-11-17",
+      "summary": "",
+      "tier": "dept",
+      "keywords": [
+        {
+          "type": "ding",
+          "text": "强化"
+        },
+        {
+          "type": "deg",
+          "text": "深化"
+        }
+      ],
+      "keySentence": "主办单位：中国证券监督管理委员会版权所有：中国证券监督管理委员会。"
+    },
     {
       "title": "两部门关于印发《以标准提升引领轻工业优化升级实施方案》的通知",
       "desc": "工信部最新政策文件",
@@ -329,33 +348,6 @@
         }
       ],
       "keySentence": "一、对14部行政法规的部分条款予以修改。"
-    },
-    {
-      "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
-      "desc": "证监会最新动态",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
-      "date": "2026-11-05",
-      "summary": "",
-      "tier": "dept",
-      "keywords": [
-        {
-          "type": "ding",
-          "text": "加强"
-        },
-        {
-          "type": "deg",
-          "text": "进一步"
-        },
-        {
-          "type": "verb",
-          "text": "促进"
-        },
-        {
-          "type": "verb",
-          "text": "监管"
-        }
-      ],
-      "keySentence": "该备忘录的签署，对于进一步加强双方在证券期货领域的监管交流和合作、促进两国资本市场的健康发展具有重要的意义，标志着两国证券监管合作进入了一个新的阶段。"
     },
     {
       "title": "国家发展改革委等部门关于印发《实施全面节约战略行动方案》的通知",
@@ -8421,6 +8413,25 @@
     ],
     "证监会最新动态": [
       {
+        "title": "中国证监会陈华平副主席与国际证监会组织秘书长举行会谈",
+        "desc": "证监会最新动态",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7671332/content.shtml",
+        "date": "2026-11-17",
+        "summary": "",
+        "tier": "dept",
+        "keywords": [
+          {
+            "type": "ding",
+            "text": "强化"
+          },
+          {
+            "type": "deg",
+            "text": "深化"
+          }
+        ],
+        "keySentence": "主办单位：中国证券监督管理委员会版权所有：中国证券监督管理委员会。"
+      },
+      {
         "title": "中国证监会在沪召开国际顾问委员会第23次会议",
         "desc": "证监会最新动态",
         "url": "https://www.csrc.gov.cn/csrc/c100028/c7671195/content.shtml",
@@ -8531,33 +8542,6 @@
         "tier": "dept",
         "keywords": [],
         "keySentence": "近日，中国证监会同意郑州商品交易所葵花籽油期货和期权注册。"
-      },
-      {
-        "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
-        "desc": "证监会最新动态",
-        "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
-        "date": "2026-11-05",
-        "summary": "",
-        "tier": "dept",
-        "keywords": [
-          {
-            "type": "ding",
-            "text": "加强"
-          },
-          {
-            "type": "deg",
-            "text": "进一步"
-          },
-          {
-            "type": "verb",
-            "text": "促进"
-          },
-          {
-            "type": "verb",
-            "text": "监管"
-          }
-        ],
-        "keySentence": "该备忘录的签署，对于进一步加强双方在证券期货领域的监管交流和合作、促进两国资本市场的健康发展具有重要的意义，标志着两国证券监管合作进入了一个新的阶段。"
       },
       {
         "title": "2024年4月12日新闻发布会",
