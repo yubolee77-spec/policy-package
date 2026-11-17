@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-17 04:44",
- "mediaFetchedAt": "2026-11-17 04:44",
+ "generatedAt": "2026-11-17 11:58",
+ "mediaFetchedAt": "2026-11-17 11:58",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 26,
+  "eastmoney": 24,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 81,
+  "mediaStrong": 82,
   "activeTotal": 178,
   "successTotal": 158,
   "cycleRecentAvg": 362,
@@ -2966,16 +2966,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "政策解读",
    "column": "政策解读",
    "tag": "政策法规",
@@ -2983,6 +2973,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "IPO注册",
+   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -4106,6 +4106,112 @@
    "strong": true
   },
   {
+   "date": "2026-11-17",
+   "media": "21世纪经济报道",
+   "title": "全国首单“源网荷储一体化”算力基础设施机构间REITs发行",
+   "url": "http://finance.eastmoney.com/a/202611173932709831.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs",
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-17",
+   "media": "21世纪经济报道",
+   "title": "特高压外送迎首个万亿级省区！电网设备板块大爆发，摩恩电气涨停",
+   "url": "http://finance.eastmoney.com/a/202611173932723231.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-17",
+   "media": "21世纪经济报道",
+   "title": "AD迎来口服曙光：AR1001能否成为首个疾病修饰疗法？",
+   "url": "http://finance.eastmoney.com/a/202611173932688098.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-17",
+   "media": "21世纪经济报道",
+   "title": "SK海力士新厂预计明年四季度交付首批量产晶圆，科创芯片设计ETF天弘（589070）标的指数逆市上涨，连续两日“吸金”累超3800万元",
+   "url": "http://stock.eastmoney.com/a/202611173932711122.html",
+   "keyword": "首批",
+   "topics": [
+    "集成电路"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-17",
+   "media": "每日经济新闻",
+   "title": "多家券商完成第三批互换便利操作首批买入，券商ETF银华（159842）标的指数盘中翻红",
+   "url": "http://stock.eastmoney.com/a/202611173932719090.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "每日经济新闻",
+   "title": "第三批互换便利操作加速推进，多家券商完成首批买入；南京证券：副总裁张兴旭离任 | 券商基金早参",
+   "url": "http://forex.eastmoney.com/a/202611173932683128.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "证券时报网",
+   "title": "大成国际首批获彭博-香港交易所离岸人民币债券指数授权，携手共建点心债新生态",
+   "url": "http://finance.eastmoney.com/a/202611173932624688.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "科创板日报",
+   "title": "SK海力士龙仁一期工厂框架竣工 首批产品将于明年第四季度开始量产",
+   "url": "http://finance.eastmoney.com/a/202611173932475329.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "每日经济新闻",
+   "title": "史彦刚新任太平基金副总经理；首批中证A500成长ETF上报",
+   "url": "http://finance.eastmoney.com/a/202611173932431242.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "中国证券报",
+   "title": "第三批互换便利操作加速推进 多家券商完成首批买入",
+   "url": "http://finance.eastmoney.com/a/202611173932237272.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-17",
+   "media": "上海证券报",
+   "title": "作为险资长期股票投资首批试点 千亿“长钱”买了啥？",
+   "url": "http://finance.eastmoney.com/a/202611163932091772.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-16",
    "media": "每日经济新闻",
    "title": "郎酒总经理汪博炜率队走访苏北市场；山东菏泽成今世缘酒业首个省外地级亿元市场丨酒业早参",
@@ -5122,107 +5228,6 @@
    "media": "中国新闻网",
    "title": "中国首个引入民营资本参股的核电项目迎新节点",
    "url": "http://finance.eastmoney.com/a/202611103927535351.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-10",
-   "media": "新华财经",
-   "title": "联想首个词元工厂落地张家口",
-   "url": "http://finance.eastmoney.com/a/202611103927524067.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-10",
-   "media": "新华财经",
-   "title": "地产经纬丨上海首单商办用地续期“试水”，如何撬动商办REIT定价？",
-   "url": "http://finance.eastmoney.com/a/202611103927477622.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-10",
-   "media": "证券时报",
-   "title": "互换便利操作说干就干 多家券商完成首批股票买入",
-   "url": "http://forex.eastmoney.com/a/202611103926622355.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-10",
-   "media": "每日经济新闻",
-   "title": "互换便利操作说干就干，多家券商完成首批股票买入；公募基金投顾专属“T类份额”落地 | 券商基金早参",
-   "url": "http://forex.eastmoney.com/a/202611103927099465.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-10",
-   "media": "财联社",
-   "title": "郑商所：葵花籽油期货首批上市交易合约挂牌基准价为10000元/吨",
-   "url": "http://futures.eastmoney.com/a/202611103927407274.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-10",
-   "media": "财联社",
-   "title": "首批18家网络产品安全漏洞收集平台签署自律公约",
-   "url": "http://finance.eastmoney.com/a/202611103927358282.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-10",
-   "media": "财联社",
-   "title": "填补行业空白！医疗险示范条款和商保药品推荐清单出炉 首批涵盖58款药械 后续还将适时优化",
-   "url": "http://insurance.eastmoney.com/a/202611103927640697.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-10",
-   "media": "证券日报",
-   "title": "第三批互换便利操作落地 多家券商完成首批股票买入",
-   "url": "http://forex.eastmoney.com/a/202611103927639257.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-10",
-   "media": "澎湃新闻",
-   "title": "商业医疗险示范条款正式发布：首批58款药械纳入推荐清单，32款为医保目录外自费药",
-   "url": "http://insurance.eastmoney.com/a/202611103927500237.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-10",
-   "media": "中国证券报·中证金牛座",
-   "title": "葵花籽油期货首批上市交易合约挂牌基准价为10000元/吨",
-   "url": "http://futures.eastmoney.com/a/202611103927483936.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-09",
-   "media": "科创板日报",
-   "title": "全国首个钙钛矿膜结晶制造国家标准在苏州审定",
-   "url": "http://finance.eastmoney.com/a/202611093925761463.html",
    "keyword": "首个",
    "topics": [],
    "strong": true
