@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-18 03:28",
- "mediaFetchedAt": "2026-11-18 03:28",
+ "generatedAt": "2026-11-18 10:57",
+ "mediaFetchedAt": "2026-11-18 10:57",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 25,
+  "eastmoney": 28,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 75,
+  "mediaStrong": 70,
   "activeTotal": 179,
   "successTotal": 157,
   "cycleRecentAvg": 263,
@@ -4098,6 +4098,49 @@
  "media": [
   {
    "date": "2026-11-18",
+   "media": "上海证券报·中国证券网",
+   "title": "首单光热电站资产机构间REITs在沪挂牌 发行规模7.5亿元",
+   "url": "http://bond.eastmoney.com/a/202611183933695534.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs",
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-18",
+   "media": "上海证券报·中国证券网",
+   "title": "中金公司落地西藏自治区首单“金融期货直接融资保障计划”业务",
+   "url": "http://bond.eastmoney.com/a/202611183933574159.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-18",
+   "media": "每日经济新闻",
+   "title": "华为首个昇腾950DT算力集群在汕头启用，创业板算力ETF天弘（158061）标的指数盘中涨1.44%，连续2日净流入超4000万元",
+   "url": "http://stock.eastmoney.com/a/202611183933832761.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-18",
+   "media": "21世纪经济报道",
+   "title": "全国首个昇腾950DT词元出海算力集群启用，创业板算力ETF天弘（158061）昨日换手率超60%，居同标的第一",
+   "url": "http://stock.eastmoney.com/a/202611183933799470.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-18",
    "media": "证券时报",
    "title": "首批主动ETF火速建仓 下周一集体上市",
    "url": "http://stock.eastmoney.com/a/202611183933307246.html",
@@ -4111,6 +4154,51 @@
    "title": "即将上市！超33万户参与认购！首批主动ETF，最新消息→",
    "url": "http://stock.eastmoney.com/a/202611183933306954.html",
    "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-18",
+   "media": "财联社",
+   "title": "首批主动ETF持仓及仓位曝光 净值档位拉开 重要持有人现身",
+   "url": "http://finance.eastmoney.com/a/202611183933829034.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-18",
+   "media": "每日经济新闻",
+   "title": "东吴证券115亿元收购东海证券过会；首批18只主动ETF下周一上市，上市前股票仓位需不低于80% | 券商基金早参",
+   "url": "http://finance.eastmoney.com/a/202611183933806693.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-18",
+   "media": "财联社",
+   "title": "首批主动ETF十大重仓股出炉 茅台、美的、宁德居前三",
+   "url": "http://finance.eastmoney.com/a/202611183933780631.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-18",
+   "media": "中国证券报·中证网",
+   "title": "盘前资讯｜首批主动ETF建仓进度分化",
+   "url": "http://stock.eastmoney.com/a/202611183933834350.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-18",
+   "media": "证券时报网",
+   "title": "青岛胶东国际机场成为国内首家实施目视起落双跑道机场",
+   "url": "http://finance.eastmoney.com/a/202611183933568221.html",
+   "keyword": "首家",
    "topics": [],
    "strong": false
   },
@@ -5139,89 +5227,6 @@
    "media": "财联社",
    "title": "定档上会！东海证券将成为东吴证券控股子公司 首例同省跨市券商整合的关键时刻",
    "url": "http://finance.eastmoney.com/a/202611103927661290.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-11",
-   "media": "证券时报网",
-   "title": "康辰药业：KC1086联合氟维司群治疗乳腺癌Ⅱ期临床研究完成首例受试者入组",
-   "url": "http://finance.eastmoney.com/a/202611113928511053.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-11",
-   "media": "财联社",
-   "title": "康辰药业：KC1086联合氟维司群Ⅱ期临床完成首例受试者入组",
-   "url": "http://finance.eastmoney.com/a/202611113928475736.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-11",
-   "media": "上海证券报·中国证券网",
-   "title": "诺诚健华首个双抗ADC新药I期临床试验完成首例入组",
-   "url": "http://finance.eastmoney.com/a/202611113928434265.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-11",
-   "media": "界面新闻",
-   "title": "诺诚健华PSMA/STEAP1双抗ADC ICP-B381完成首例患者入组",
-   "url": "http://finance.eastmoney.com/a/202611113928336726.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-11",
-   "media": "中国证券报·中证网",
-   "title": "远大医药：创新中成药国内II期临床首例患者入组",
-   "url": "http://finance.eastmoney.com/a/202611113928265193.html",
-   "keyword": "首例",
-   "topics": [
-    "生物医药"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-11",
-   "media": "中国新闻网",
-   "title": "天津首单养老产业专项债务融资工具落地 2.5亿元资金赋能银发经济",
-   "url": "http://forex.eastmoney.com/a/202611113928261413.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-11",
-   "media": "上海证券报·中国证券网",
-   "title": "中国石化牵头 全国首个具身智能压力表检定装置研发成功",
-   "url": "http://finance.eastmoney.com/a/202611113928461221.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-11",
-   "media": "中国新闻网",
-   "title": "海南首个国际文物艺术品交易公用型保税仓库获批设立于三亚",
-   "url": "http://finance.eastmoney.com/a/202611113928409554.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-11",
-   "media": "证券日报",
-   "title": "行业首例“双向法切”平稳落地 国联民生证券打造业务整合新样本",
-   "url": "http://finance.eastmoney.com/a/202611113928641594.html",
    "keyword": "首例",
    "topics": [],
    "strong": true
