@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18 11:02",
+  "updated": "2026-11-18 21:28",
   "items": [
     {
       "url": "https://www.csrc.gov.cn/csrc/c106385/c7670733/content.shtml",
@@ -728,6 +728,16 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c106386/c7671542/content.shtml",
+      "title": "关于同意北京北摩高科摩擦材料股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-09-08",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
       "amountYi": null,
       "src": "证监会审核台账"
     },

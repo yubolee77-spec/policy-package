@@ -1,27 +1,87 @@
 {
- "generatedAt": "2026-11-18 10:57",
- "mediaFetchedAt": "2026-11-18 10:57",
+ "generatedAt": "2026-11-18 21:24",
+ "mediaFetchedAt": "2026-11-18 21:24",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 28,
+  "eastmoney": 23,
   "papers": 0
  },
  "kpi": {
   "penaltyTotal": 233,
-  "penaltyMonth": 109,
+  "penaltyMonth": 113,
   "approvalTotal": 174,
   "approvalMonth": 18,
   "reitsApproved30d": 5,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 70,
-  "activeTotal": 179,
+  "mediaStrong": 69,
+  "activeTotal": 182,
   "successTotal": 157,
   "cycleRecentAvg": 263,
   "cyclePrevAvg": 256,
   "cycleVerdict": "基本持平"
  },
  "penalty": [
+  {
+   "date": "2026-11-18",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "广西云-广西日报：5家企业在北交所上市，149家企业入选“专精特新”专板——广西探索上市递进式成长通道",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangxi/c100999/c7671579/content.shtml"
+  },
+  {
+   "date": "2026-11-18",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "山西局组织召开《期货公司监督管理办法》学宣贯座谈会",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shanxi/c100391/c7671573/content.shtml"
+  },
+  {
+   "date": "2026-11-18",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "吉林证监局扎实开展2026年“世界投资者周”宣传活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c100505/c7671564/content.shtml"
+  },
+  {
+   "date": "2026-11-18",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "安徽证监局成功举办2026年安徽辖区债券发行人年度监管工作会暨信息披露负责人培训会",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/anhui/c100695/c7671563/content.shtml"
+  },
+  {
+   "date": "2026-11-18",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "吉林证监局联合吉林省地方金融管理局组织拟上市企业走进北交所专题活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c100505/c7671562/content.shtml"
+  },
+  {
+   "date": "2026-11-18",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "责令改正",
+   "title": "关于对黑龙江文晟创业投资基金管理有限公司采取责令改正行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7671508/content.shtml"
+  },
   {
    "date": "2026-11-17",
    "channel": "通知公告",
@@ -913,16 +973,6 @@
    "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669296/content.shtml"
   },
   {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对北京指南针科技发展股份有限公司采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/beijing/c105547/c7669293/content.shtml"
-  },
-  {
    "date": "2026-11-05",
    "channel": "监管工作",
    "column": "辖区监管动态",
@@ -1101,56 +1151,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/fujian/c100733/c7667869/content.shtml"
-  },
-  {
-   "date": "2026-11-02",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "辽宁辖区2026年9月期货经营机构及市场概况",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/liaoning/c100467/c7667866/content.shtml"
-  },
-  {
-   "date": "2026-10-30",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "甘肃证监局组织开展“2026年世界投资者周”宣传活动",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/gansu/c101379/c7667679/content.shtml"
-  },
-  {
-   "date": "2026-10-30",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "天津证监局举办期货公司监管座谈会暨监管例会",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/tianjin/c100315/c7667678/content.shtml"
-  },
-  {
-   "date": "2026-10-30",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "内蒙古辖区资本市场月度统计（2026年6月）",
-   "docNo": "",
-   "party": "2026年6月",
-   "url": "https://www.csrc.gov.cn/neimenggu/c103721/c7667618/content.shtml"
-  },
-  {
-   "date": "2026-10-30",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "厦门证监局证券期货经营机构行政许可事项审核过程公示表2026-10-30",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/xiamen/c104096/c7667560/content.shtml"
   },
   {
    "date": "2026-10-23",
@@ -3025,6 +3025,16 @@
    "url": "https://www.csrc.gov.cn/csrc/c101885/c7665274/content.shtml"
   },
   {
+   "date": "2026-09-08",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "核准批复",
+   "title": "关于同意北京北摩高科摩擦材料股份有限公司向特定对象发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c106386/c7671542/content.shtml"
+  },
+  {
    "date": "2026-09-07",
    "channel": "结果公示",
    "column": "结果公示",
@@ -3053,16 +3063,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c101895/c7656590/content.shtml"
-  },
-  {
-   "date": "2026-09-04",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "REITs·基础设施",
-   "title": "关于准予中金菜鸟仓储物流封闭式基础设施证券投资基金注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101895/c7656589/content.shtml"
   },
   {
    "date": "2026-08-28",
@@ -4141,6 +4141,39 @@
   },
   {
    "date": "2026-11-18",
+   "media": "新华财经",
+   "title": "算力基础设施机构间REIT完成首单扩募",
+   "url": "http://bond.eastmoney.com/a/202611183934044184.html",
+   "keyword": "首单",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-18",
+   "media": "新华财经",
+   "title": "即将集体挂牌上市 首批18只主动ETF重仓股揭晓",
+   "url": "http://stock.eastmoney.com/a/202611183933981685.html",
+   "keyword": "首批",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-18",
+   "media": "21世纪经济报道",
+   "title": "人保财险广州市分公司“穗科保”首批申报企业保单集中落地",
+   "url": "http://insurance.eastmoney.com/a/202611183933938862.html",
+   "keyword": "首批",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-18",
    "media": "证券时报",
    "title": "首批主动ETF火速建仓 下周一集体上市",
    "url": "http://stock.eastmoney.com/a/202611183933307246.html",
@@ -4198,6 +4231,60 @@
    "media": "证券时报网",
    "title": "青岛胶东国际机场成为国内首家实施目视起落双跑道机场",
    "url": "http://finance.eastmoney.com/a/202611183933568221.html",
+   "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-18",
+   "media": "21世纪经济报道",
+   "title": "首批主动ETF持仓曝光 最高仓位突破九成",
+   "url": "http://finance.eastmoney.com/a/202611183934214529.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-18",
+   "media": "中国证券报·中证网",
+   "title": "行云科技：签署上限20亿元AI词元销售合同 首批节点2027年6月底前具备服务能力",
+   "url": "http://finance.eastmoney.com/a/202611183934154758.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-18",
+   "media": "财联社",
+   "title": "首批主动ETF，哪些基金经理与员工自掏腰包认购？哪些“分币不掏”？",
+   "url": "http://stock.eastmoney.com/a/202611183934158538.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-18",
+   "media": "21世纪经济报道",
+   "title": "云计算ETF涨幅靠前；首批主动ETF火速建仓丨ETF晚报",
+   "url": "http://stock.eastmoney.com/a/202611183934166761.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-18",
+   "media": "澎湃新闻",
+   "title": "首批18只主动ETF前十大重仓股曝光 已有7只实现盈利",
+   "url": "http://finance.eastmoney.com/a/202611183933930747.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-18",
+   "media": "21世纪经济报道",
+   "title": "首家股份行AIC，开业1年投放规模已超100亿元",
+   "url": "http://bank.eastmoney.com/a/202611183933986043.html",
    "keyword": "首家",
    "topics": [],
    "strong": false
@@ -5147,96 +5234,13 @@
    "keyword": "首个",
    "topics": [],
    "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "财联社",
-   "title": "美股盘前要闻一览：英伟达危机令科技股反弹停滞；SK海力士HBM4良率据悉突破70%；国内首个口服GLP-1类减肥药获批上市",
-   "url": "http://finance.eastmoney.com/a/202611123929892978.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "中国新闻网",
-   "title": "从CBD向DBD 北京朝阳加速建设全球首个数据商务区",
-   "url": "http://finance.eastmoney.com/a/202611123929924027.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "证券日报",
-   "title": "自变量完成广东省首家通用具身智能大模型备案",
-   "url": "http://finance.eastmoney.com/a/202611123929809232.html",
-   "keyword": "首家",
-   "topics": [
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "上海证券报·中国证券网",
-   "title": "农行迪拜分行落地首批境内银行间外汇市场人民币购售便利化交易",
-   "url": "http://forex.eastmoney.com/a/202611123929336853.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-12",
-   "media": "新华财经",
-   "title": "中央结算公司成果入选UNDP BIOFIN首批中国生物多样性金融优秀案例",
-   "url": "http://finance.eastmoney.com/a/202611123930001365.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-12",
-   "media": "上海证券报·中国证券网",
-   "title": "上海清算所MSCI气候变化债券指数迎来首批市场应用机构",
-   "url": "http://bond.eastmoney.com/a/202611123929796685.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-12",
-   "media": "中国证券报·中证网",
-   "title": "昇辉科技：签署换电站建设框架合作协议 首批规模约1.2亿元",
-   "url": "http://finance.eastmoney.com/a/202611123929759397.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-12",
-   "media": "澎湃新闻",
-   "title": "东吴财险领开业以来首张罚单：因未经审批变更营业场所被罚10万",
-   "url": "http://insurance.eastmoney.com/a/202611123929808044.html",
-   "keyword": "首张",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-11",
-   "media": "财联社",
-   "title": "定档上会！东海证券将成为东吴证券控股子公司 首例同省跨市券商整合的关键时刻",
-   "url": "http://finance.eastmoney.com/a/202611103927661290.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
   }
  ],
  "review": {
   "asOf": "2026-11-17",
   "total": 4405,
   "pipelineTotal": 829,
-  "activeTotal": 179,
+  "activeTotal": 182,
   "successTotal": 157,
   "failTotal": 192,
   "stages": [
@@ -5247,7 +5251,7 @@
    },
    {
     "name": "已问询",
-    "count": 144,
+    "count": 147,
     "kind": "active"
    },
    {

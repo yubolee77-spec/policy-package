@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-18 11:01",
+  "generatedAt": "2026-11-18 21:28",
   "asOf": "2026-11",
   "asOfLabel": "2026年11月",
-  "archiveTotal": 263,
-  "archiveAdded": 0,
+  "archiveTotal": 264,
+  "archiveAdded": 1,
   "channels": [
     {
       "key": "special_fund",
@@ -1294,26 +1294,26 @@
           "prev": {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 92,
+            "n": 93,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "REITs 注册": 14,
               "机构资格": 31,
-              "再融资": 11,
+              "再融资": 12,
               "其他审核": 22,
               "首发上市（IPO）": 12,
               "并购重组": 2
             }
           },
-          "deltaPct": -57.6,
+          "deltaPct": -58.1,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 148,
+            "n": 149,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
@@ -1321,7 +1321,7 @@
               "其他审核": 47,
               "REITs 注册": 19,
               "机构资格": 39,
-              "再融资": 21,
+              "再融资": 22,
               "并购重组": 5
             }
           },
@@ -1338,7 +1338,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 377.4,
+          "deltaPct": 380.6,
           "deltaAmountPct": null
         }
       },
@@ -1395,7 +1395,7 @@
           {
             "key": "2026-09",
             "label": "2026年9月",
-            "n": 43,
+            "n": 44,
             "amountYi": 0.0
           },
           {
@@ -1433,7 +1433,7 @@
           {
             "key": "2026Q3",
             "label": "2026年第3季度",
-            "n": 92,
+            "n": 93,
             "amountYi": 0.0
           },
           {
@@ -1453,7 +1453,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 148,
+            "n": 149,
             "amountYi": 0.0
           }
         ]
@@ -1654,8 +1654,8 @@
           {
             "name": "再融资",
             "cur": 10,
-            "prev": 11,
-            "deltaPct": -9.1,
+            "prev": 12,
+            "deltaPct": -16.7,
             "items": [
               {
                 "title": "关于同意莱商银行股份有限公司向特定对象发行股票注册的批复",
@@ -1989,7 +1989,7 @@
           },
           {
             "name": "再融资",
-            "cur": 21,
+            "cur": 22,
             "prev": 0,
             "deltaPct": 100.0,
             "items": [
@@ -2042,7 +2042,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 21
+            "totalItems": 22
           },
           {
             "name": "REITs 注册",
@@ -2325,7 +2325,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2333,7 +2333,7 @@
           "url": ""
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2351,20 +2351,20 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm"
         },
         {
-          "name": "交通基础设施",
-          "cur": 1,
-          "prev": 1,
-          "delta": 0,
-          "deltaPct": 0.0,
-          "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
-        },
-        {
           "name": "金融与资本",
           "cur": 1,
           "prev": 1,
           "delta": 0,
           "deltaPct": 0.0,
           "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
+        },
+        {
+          "name": "交通基础设施",
+          "cur": 1,
+          "prev": 1,
+          "delta": 0,
+          "deltaPct": 0.0,
+          "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
         }
       ]
     }
@@ -3101,6 +3101,16 @@
       "src": "证监会审核台账"
     },
     {
+      "url": "https://www.csrc.gov.cn/csrc/c106386/c7671542/content.shtml",
+      "title": "关于同意北京北摩高科摩擦材料股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-09-08",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
       "url": "https://www.csrc.gov.cn/csrc/c101885/c7665263/content.shtml",
       "title": "关于核准东方资本管理有限公司合格境外投资者资格的批复",
       "date": "2026-09-07",
@@ -3557,16 +3567,6 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "机构资格",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c106385/c7648909/content.shtml",
-      "title": "关于同意沈鼓集团股份有限公司首次公开发行股票注册的批复",
-      "date": "2026-07-30",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "首发上市（IPO）",
       "amountYi": null,
       "src": "证监会审核台账"
     }
