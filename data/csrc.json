@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-19 16:25",
- "mediaFetchedAt": "2026-11-19 16:25",
+ "generatedAt": "2026-11-20 02:25",
+ "mediaFetchedAt": "2026-11-20 02:25",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 23,
+  "eastmoney": 29,
   "papers": 0
  },
  "kpi": {
-  "penaltyTotal": 233,
-  "penaltyMonth": 113,
+  "penaltyTotal": 234,
+  "penaltyMonth": 114,
   "approvalTotal": 174,
   "approvalMonth": 18,
   "reitsApproved30d": 5,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 61,
+  "mediaStrong": 63,
   "activeTotal": 182,
   "successTotal": 157,
   "cycleRecentAvg": 263,
@@ -22,6 +22,46 @@
   "cycleVerdict": "基本持平"
  },
  "penalty": [
+  {
+   "date": "2026-11-19",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "天津证监局顺利举办2026年“世界投资者周”系列活动",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/tianjin/c100315/c7671748/content.shtml"
+  },
+  {
+   "date": "2026-11-19",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对⼴东博众智能科技投资有限公司采取责令改正及暂停新增客⼾监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/guangdong/c104560/c7671764/content.shtml"
+  },
+  {
+   "date": "2026-11-19",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对刘昊嘉采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7671759/content.shtml"
+  },
+  {
+   "date": "2026-11-19",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对杭州东翰雷火股权投资管理有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7671757/content.shtml"
+  },
   {
    "date": "2026-11-18",
    "channel": "监管工作",
@@ -953,26 +993,6 @@
    "url": "https://www.csrc.gov.cn/guangdong/c104560/c7669339/content.shtml"
   },
   {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对重庆长寿开发投资（集团）有限公司及陈忠平、陈碧容、陶中荣采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669308/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对重庆鸿业实业（集团）有限公司、谭颂、陈念东采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/chongqing/c104814/c7669296/content.shtml"
-  },
-  {
    "date": "2026-11-05",
    "channel": "监管工作",
    "column": "辖区监管动态",
@@ -1141,16 +1161,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jilin/c100505/c7667985/content.shtml"
-  },
-  {
-   "date": "2026-11-02",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "福建证监局配合新华社开展建设金融强国摄影展福建分展",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/fujian/c100733/c7667869/content.shtml"
   },
   {
    "date": "2026-10-23",
@@ -4140,6 +4150,88 @@
   },
   {
    "date": "2026-11-19",
+   "media": "证券时报网",
+   "title": "首单央企商业不动产REITs落地 为行业向轻资产运营转型提供参考",
+   "url": "http://bond.eastmoney.com/a/202611193935259787.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-19",
+   "media": "上海证券报·中国证券网",
+   "title": "山西省首单公募REITs“山证晋中公投瑞阳供热REIT”在上交所上市",
+   "url": "http://bond.eastmoney.com/a/202611193935243286.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-19",
+   "media": "财联社",
+   "title": "实现零的突破！山西省首单公募 REITs “晋中供热”登陆上交所",
+   "url": "http://stock.eastmoney.com/a/202611193935215732.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-19",
+   "media": "新华财经",
+   "title": "山西省首单公募REIT在上交所上市",
+   "url": "http://bond.eastmoney.com/a/202611193935265936.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-19",
+   "media": "证券时报网",
+   "title": "海南自贸港首单不动产信托财产登记落地",
+   "url": "http://finance.eastmoney.com/a/202611193935076226.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-19",
+   "media": "每日经济新闻",
+   "title": "城市24小时 | 北方能源基地，再次拿到“全国首个”",
+   "url": "http://finance.eastmoney.com/a/202611193935402377.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-19",
+   "media": "中国新闻网",
+   "title": "北京首个行业协会运营消费数字平台丰台上线",
+   "url": "http://finance.eastmoney.com/a/202611193935212743.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-19",
+   "media": "每日经济新闻",
+   "title": "追赶台积电有了重大进展？英特尔拿下微软先进封装大单，18A芯片制造工艺签下首家外部客户",
+   "url": "http://finance.eastmoney.com/a/202611193935396815.html",
+   "keyword": "首家",
+   "topics": [
+    "集成电路"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-19",
    "media": "界面新闻",
    "title": "净值初现分化！首批18只主动ETF上市在即，重仓股偏爱“龙头+银行”",
    "url": "http://finance.eastmoney.com/a/202611193934884448.html",
@@ -4188,6 +4280,51 @@
    "media": "财联社",
    "title": "英特尔代工迎重大里程碑！陈立武官宣：18A工艺拿下首家外部客户",
    "url": "http://finance.eastmoney.com/a/202611193934922948.html",
+   "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-19",
+   "media": "第一财经",
+   "title": "首批主动ETF偏爱银行股，六大行等18只个股被重仓",
+   "url": "http://finance.eastmoney.com/a/202611193935354854.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-19",
+   "media": "每日经济新闻",
+   "title": "直接持股全数质押后，贾国龙开出首家冰煮鲜羊独立店，“天边”系列接力还有多大容错窗口？",
+   "url": "http://finance.eastmoney.com/a/202611193935276471.html",
+   "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-19",
+   "media": "财联社",
+   "title": "全国服装行业首家 海澜之家入选领航级智能工厂 以产销模式创新推动服装产业链协同升级",
+   "url": "http://finance.eastmoney.com/a/202611193935175430.html",
+   "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-19",
+   "media": "21世纪经济报道",
+   "title": "广州花都山姆正式动工首家单层山姆门店预计2027年底建成开业",
+   "url": "http://finance.eastmoney.com/a/202611193935375232.html",
+   "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-19",
+   "media": "中国证券报·中证网",
+   "title": "医药行业首家，天士力入选2026年度领航级智能工厂培育名单",
+   "url": "http://finance.eastmoney.com/a/202611193935060113.html",
    "keyword": "首家",
    "topics": [],
    "strong": false
@@ -5108,129 +5245,6 @@
    "topics": [
     "生物医药"
    ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-13",
-   "media": "证券日报",
-   "title": "江西首家供水企业数据产品挂牌上海数据交易所",
-   "url": "http://finance.eastmoney.com/a/202611133930885750.html",
-   "keyword": "首家",
-   "topics": [
-    "数据要素"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-13",
-   "media": "证券时报网",
-   "title": "鑫宏业算力线缆首单落地 可转债募投布局迎来业务验证",
-   "url": "http://finance.eastmoney.com/a/202611133931036056.html",
-   "keyword": "首单",
-   "topics": [
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-13",
-   "media": "新华社",
-   "title": "全国首个大宗商品资源配置枢纽持续推进改革创新",
-   "url": "http://finance.eastmoney.com/a/202611133930974219.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-13",
-   "media": "上海证券报·中国证券网",
-   "title": "武汉光谷两大产业共保体落地 首批100家科创企业获保障",
-   "url": "http://insurance.eastmoney.com/a/202611133931008832.html",
-   "keyword": "首批",
-   "topics": [
-    "生物医药"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-13",
-   "media": "财联社",
-   "title": "大中盘成长风格鲜明 华夏基金首批申报中证A500成长ETF",
-   "url": "http://stock.eastmoney.com/a/202611133930814790.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-13",
-   "media": "每日经济新闻",
-   "title": "首批！华夏基金申报中证A500成长ETF",
-   "url": "http://finance.eastmoney.com/a/202611133930796344.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-13",
-   "media": "中国证券报·中证金牛座",
-   "title": "长城证券落地第三批互换便利回购融资，并完成首批股票买入操作",
-   "url": "http://forex.eastmoney.com/a/202611133930775792.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-13",
-   "media": "新华社",
-   "title": "海南首批海上风机塔顶通信基站投用",
-   "url": "http://finance.eastmoney.com/a/202611133930753515.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-13",
-   "media": "财联社",
-   "title": "“欧几里得”空间望远镜发布首批重要观测数据 总量达170万GB",
-   "url": "http://finance.eastmoney.com/a/202611133930905487.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-13",
-   "media": "中国证券报·中证金牛座",
-   "title": "全市场首批中证A500成长ETF上报",
-   "url": "http://stock.eastmoney.com/a/202611133930921845.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-13",
-   "media": "中国新闻网",
-   "title": "全国首批韩国甜柿在沪顺利入境",
-   "url": "http://biz.eastmoney.com/a/202611133930979473.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-12",
-   "media": "证券日报",
-   "title": "探访全国首个“电力超市”：电力资源在更大范围内实现优化配置",
-   "url": "http://finance.eastmoney.com/a/202611123928804272.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "21世纪经济报道",
-   "title": "券业首例财富及自营“双向法切”落地，国联民生证券业务完成整合",
-   "url": "http://finance.eastmoney.com/a/202611123929070276.html",
-   "keyword": "首例",
-   "topics": [],
    "strong": true
   }
  ],
