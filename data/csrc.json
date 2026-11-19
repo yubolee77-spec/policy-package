@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-19 03:11",
- "mediaFetchedAt": "2026-11-19 03:11",
+ "generatedAt": "2026-11-19 10:40",
+ "mediaFetchedAt": "2026-11-19 10:40",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 21,
+  "eastmoney": 23,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 67,
+  "mediaStrong": 65,
   "activeTotal": 182,
   "successTotal": 157,
   "cycleRecentAvg": 263,
@@ -4108,6 +4108,35 @@
    "strong": true
   },
   {
+   "date": "2026-11-19",
+   "media": "科创板日报",
+   "title": "英特尔18A芯片制造工艺签下首家外部客户",
+   "url": "http://finance.eastmoney.com/a/202611193934856531.html",
+   "keyword": "首家",
+   "topics": [
+    "集成电路"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-19",
+   "media": "界面新闻",
+   "title": "净值初现分化！首批18只主动ETF上市在即，重仓股偏爱“龙头+银行”",
+   "url": "http://finance.eastmoney.com/a/202611193934884448.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-19",
+   "media": "21世纪经济报道",
+   "title": "首批主动ETF下周一上市，超33万户认购募资360亿元",
+   "url": "http://stock.eastmoney.com/a/202611183934316683.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-18",
    "media": "上海证券报·中国证券网",
    "title": "首单光热电站资产机构间REITs在沪挂牌 发行规模7.5亿元",
@@ -5203,37 +5232,6 @@
    "keyword": "首家",
    "topics": [
     "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "中国新闻网",
-   "title": "围绕大宗商品资源配置枢纽建设 浙江形成70余项首单成果",
-   "url": "http://finance.eastmoney.com/a/202611123929923619.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "新华财经",
-   "title": "首单央企商业不动产REITs 华夏保利商业REIT上市",
-   "url": "http://finance.eastmoney.com/a/202611123929766240.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "上海证券报·中国证券网",
-   "title": "中信证券联合华夏基金助力首单央企商业不动产REITs上市",
-   "url": "http://bond.eastmoney.com/a/202611123929745695.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
    ],
    "strong": true
   }
