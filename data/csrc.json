@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-19 10:40",
- "mediaFetchedAt": "2026-11-19 10:40",
+ "generatedAt": "2026-11-19 16:25",
+ "mediaFetchedAt": "2026-11-19 16:25",
  "mediaStale": false,
  "mediaChannels": {
   "eastmoney": 23,
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 65,
+  "mediaStrong": 61,
   "activeTotal": 182,
   "successTotal": 157,
   "cycleRecentAvg": 263,
@@ -4121,6 +4121,26 @@
   {
    "date": "2026-11-19",
    "media": "界面新闻",
+   "title": "云顶新耀：VIS-101治疗湿性AMD的IIb期ASCEND临床研究完成首例患者给药",
+   "url": "http://finance.eastmoney.com/a/202611193935001466.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-19",
+   "media": "每日经济新闻",
+   "title": "内蒙古成为全国首个特高压外送电量破万亿度的省区，电网设备ETF天弘（562720）标的指数盘中跌1.02%，成交超4000万元交投活跃",
+   "url": "http://stock.eastmoney.com/a/202611193934986368.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-19",
+   "media": "界面新闻",
    "title": "净值初现分化！首批18只主动ETF上市在即，重仓股偏爱“龙头+银行”",
    "url": "http://finance.eastmoney.com/a/202611193934884448.html",
    "keyword": "首批",
@@ -4133,6 +4153,42 @@
    "title": "首批主动ETF下周一上市，超33万户认购募资360亿元",
    "url": "http://stock.eastmoney.com/a/202611183934316683.html",
    "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-19",
+   "media": "证券日报",
+   "title": "星巴克百家门店上新“星现烤” 首批上线11款产品",
+   "url": "http://finance.eastmoney.com/a/202611193935015931.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-19",
+   "media": "每日经济新闻",
+   "title": "首批主动ETF迎来“上市时刻”！主动ETF天弘（158908）11月23日上市，六大Alpha引擎开启场内实战",
+   "url": "http://stock.eastmoney.com/a/202611193934942111.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-19",
+   "media": "每日经济新闻",
+   "title": "首批18只主动ETF下周一上市；个人养老金基金四周年，规模增长近13倍",
+   "url": "http://stock.eastmoney.com/a/202611193934967778.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-19",
+   "media": "财联社",
+   "title": "英特尔代工迎重大里程碑！陈立武官宣：18A工艺拿下首家外部客户",
+   "url": "http://finance.eastmoney.com/a/202611193934922948.html",
+   "keyword": "首家",
    "topics": [],
    "strong": false
   },
@@ -5175,64 +5231,6 @@
    "url": "http://finance.eastmoney.com/a/202611123929070276.html",
    "keyword": "首例",
    "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "财联社",
-   "title": "第二艘国产大型邮轮“爱达·花城号”完成首个试运营航次",
-   "url": "http://biz.eastmoney.com/a/202611123929240680.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "央视财经",
-   "title": "全国首个！“冷门绝学”怎么学？谁来教？院长解读",
-   "url": "http://finance.eastmoney.com/a/202611123928834222.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "证券时报网",
-   "title": "云南信托落地“信托+运营/投资”破产服务信托创新模式首单项目",
-   "url": "http://finance.eastmoney.com/a/202611123929397746.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "21世纪经济报道",
-   "title": "民生银行落地国家电投黄河公司首单机构间REITs监管业务",
-   "url": "http://bank.eastmoney.com/a/202611123929324677.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "中国新闻网",
-   "title": "第二艘国产大型邮轮完成首个试运营航次 抵达广州",
-   "url": "http://biz.eastmoney.com/a/202611123929387836.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-12",
-   "media": "科创板日报",
-   "title": "大湾区首家通用具身智能大模型完成备案",
-   "url": "http://finance.eastmoney.com/a/202611123929356184.html",
-   "keyword": "首家",
-   "topics": [
-    "算力/AI"
-   ],
    "strong": true
   }
  ],
