@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21 02:02",
+  "updated": "2026-11-21 03:03",
   "items": [
     {
       "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7086964.htm",
@@ -40,6 +40,16 @@
       "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
+      "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为公布4起典型案例",
+      "date": "2026-11-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "L1 政策速览"
     },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101830/c7672225/content.shtml",

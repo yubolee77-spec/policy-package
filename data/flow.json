@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-21 02:02",
+  "generatedAt": "2026-11-21 03:02",
   "asOf": "2026-11",
   "asOfLabel": "2026年11月",
-  "archiveTotal": 272,
-  "archiveAdded": 8,
+  "archiveTotal": 273,
+  "archiveAdded": 1,
   "channels": [
     {
       "key": "special_fund",
@@ -1250,11 +1250,11 @@
           "cur": {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 19,
+            "n": 20,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
-              "其他审核": 4,
+              "其他审核": 5,
               "再融资": 5,
               "机构资格": 3,
               "首发上市（IPO）": 2,
@@ -1274,18 +1274,18 @@
               "再融资": 10
             }
           },
-          "deltaPct": -32.1,
+          "deltaPct": -28.6,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 47,
+            "n": 48,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
-              "其他审核": 13,
+              "其他审核": 14,
               "再融资": 15,
               "机构资格": 9,
               "首发上市（IPO）": 5,
@@ -1307,18 +1307,18 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -49.5,
+          "deltaPct": -48.4,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 157,
+            "n": 158,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
-              "其他审核": 49,
+              "其他审核": 50,
               "再融资": 27,
               "机构资格": 40,
               "首发上市（IPO）": 17,
@@ -1339,7 +1339,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 406.5,
+          "deltaPct": 409.7,
           "deltaAmountPct": null
         }
       },
@@ -1408,7 +1408,7 @@
           {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 19,
+            "n": 20,
             "amountYi": 0.0
           },
           {
@@ -1440,7 +1440,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 47,
+            "n": 48,
             "amountYi": 0.0
           }
         ],
@@ -1454,7 +1454,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 157,
+            "n": 158,
             "amountYi": 0.0
           }
         ]
@@ -1511,6 +1511,55 @@
             "totalItems": 5
           },
           {
+            "name": "其他审核",
+            "cur": 5,
+            "prev": 9,
+            "deltaPct": -44.4,
+            "items": [
+              {
+                "title": "自然资源部国家发展改革委中国人民银行金融监管总局中国证监会关于印发《海洋产业投融资指导目录（2026版）》的通知",
+                "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7086964.htm",
+                "date": "2026-11-20",
+                "org": "发改委",
+                "amountYi": null,
+                "src": "gov.cn 政策库"
+              },
+              {
+                "title": "关于同意浙江金道科技股份有限公司向不特定对象发行可转换公司债券注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c105922/c7672022/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为公布4起典型案例",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "L1 政策速览"
+              },
+              {
+                "title": "基金会管理条例",
+                "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085662.htm",
+                "date": "2026-11-10",
+                "org": "国务院",
+                "amountYi": null,
+                "src": "gov.cn 政策库"
+              },
+              {
+                "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
+                "date": "2026-11-05",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "L1 政策速览"
+              }
+            ],
+            "totalItems": 5
+          },
+          {
             "name": "再融资",
             "cur": 5,
             "prev": 10,
@@ -1558,47 +1607,6 @@
               }
             ],
             "totalItems": 5
-          },
-          {
-            "name": "其他审核",
-            "cur": 4,
-            "prev": 9,
-            "deltaPct": -55.6,
-            "items": [
-              {
-                "title": "自然资源部国家发展改革委中国人民银行金融监管总局中国证监会关于印发《海洋产业投融资指导目录（2026版）》的通知",
-                "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7086964.htm",
-                "date": "2026-11-20",
-                "org": "发改委",
-                "amountYi": null,
-                "src": "gov.cn 政策库"
-              },
-              {
-                "title": "关于同意浙江金道科技股份有限公司向不特定对象发行可转换公司债券注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c105922/c7672022/content.shtml",
-                "date": "2026-11-20",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "基金会管理条例",
-                "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085662.htm",
-                "date": "2026-11-10",
-                "org": "国务院",
-                "amountYi": null,
-                "src": "gov.cn 政策库"
-              },
-              {
-                "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
-                "url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
-                "date": "2026-11-05",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "L1 政策速览"
-              }
-            ],
-            "totalItems": 4
           },
           {
             "name": "机构资格",
@@ -1719,9 +1727,9 @@
           },
           {
             "name": "其他审核",
-            "cur": 13,
+            "cur": 14,
             "prev": 22,
-            "deltaPct": -40.9,
+            "deltaPct": -36.4,
             "items": [
               {
                 "title": "自然资源部国家发展改革委中国人民银行金融监管总局中国证监会关于印发《海洋产业投融资指导目录（2026版）》的通知",
@@ -1738,6 +1746,14 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
+              },
+              {
+                "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为公布4起典型案例",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "L1 政策速览"
               },
               {
                 "title": "基金会管理条例",
@@ -1762,17 +1778,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意烟台九目化学股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7667734/content.shtml",
-                "date": "2026-10-23",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 13
+            "totalItems": 14
           },
           {
             "name": "机构资格",
@@ -1941,9 +1949,9 @@
         "year": [
           {
             "name": "其他审核",
-            "cur": 49,
+            "cur": 50,
             "prev": 23,
-            "deltaPct": 113.0,
+            "deltaPct": 117.4,
             "items": [
               {
                 "title": "自然资源部国家发展改革委中国人民银行金融监管总局中国证监会关于印发《海洋产业投融资指导目录（2026版）》的通知",
@@ -1960,6 +1968,14 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
+              },
+              {
+                "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为公布4起典型案例",
+                "url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "L1 政策速览"
               },
               {
                 "title": "基金会管理条例",
@@ -1984,17 +2000,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意烟台九目化学股份有限公司向不特定合格投资者公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7667734/content.shtml",
-                "date": "2026-10-23",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 49
+            "totalItems": 50
           },
           {
             "name": "机构资格",
@@ -2304,7 +2312,7 @@
           "url": "https://zyhj.mof.gov.cn/zcfb/202611/t20261103_4003960.htm"
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2312,7 +2320,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2391,7 +2399,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2399,7 +2407,7 @@
           "url": ""
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2417,20 +2425,20 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm"
         },
         {
-          "name": "金融与资本",
-          "cur": 1,
-          "prev": 1,
-          "delta": 0,
-          "deltaPct": 0.0,
-          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
-        },
-        {
           "name": "交通基础设施",
           "cur": 1,
           "prev": 1,
           "delta": 0,
           "deltaPct": 0.0,
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
+        },
+        {
+          "name": "金融与资本",
+          "cur": 1,
+          "prev": 1,
+          "delta": 0,
+          "deltaPct": 0.0,
+          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
         }
       ]
     }
@@ -2475,6 +2483,16 @@
       "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
+      "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为公布4起典型案例",
+      "date": "2026-11-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "L1 政策速览"
     },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101830/c7672225/content.shtml",
@@ -3623,16 +3641,6 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "其他审核",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c101881/c7650772/content.shtml",
-      "title": "关于核准长安基金管理有限公司变更主要股东、实际控制人的批复",
-      "date": "2026-08-04",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "机构资格",
       "amountYi": null,
       "src": "证监会审核台账"
     }
