@@ -1,6 +1,66 @@
 {
-  "updated": "2026-11-20 15:15",
+  "updated": "2026-11-21 02:02",
   "items": [
+    {
+      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7086964.htm",
+      "title": "自然资源部国家发展改革委中国人民银行金融监管总局中国证监会关于印发《海洋产业投融资指导目录（2026版）》的通知",
+      "date": "2026-11-20",
+      "org": "发改委",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "gov.cn 政策库"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105922/c7672040/content.shtml",
+      "title": "关于同意重庆美利信科技股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-11-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105922/c7672029/content.shtml",
+      "title": "关于同意银川威力传动技术股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-11-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c105922/c7672022/content.shtml",
+      "title": "关于同意浙江金道科技股份有限公司向不特定对象发行可转换公司债券注册的批复",
+      "date": "2026-11-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "其他审核",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7672225/content.shtml",
+      "title": "关于同意江西崇仁农村商业银行股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-11-17",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101889/c7672159/content.shtml",
+      "title": "关于核准东财基金管理有限公司私募资产管理业务资格的批复",
+      "date": "2026-11-16",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
     {
       "url": "https://www.csrc.gov.cn/csrc/c106385/c7670733/content.shtml",
       "title": "关于同意江苏耀坤液压股份有限公司首次公开发行股票注册的批复",
@@ -20,6 +80,16 @@
       "industry": "其他审核",
       "amountYi": null,
       "src": "gov.cn 政策库"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7672217/content.shtml",
+      "title": "关于同意江西资溪农村商业银行股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-11-10",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
     },
     {
       "url": "https://www.csrc.gov.cn/csrc/c106385/c7669312/content.shtml",
@@ -68,6 +138,16 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7672221/content.shtml",
+      "title": "关于同意江苏盱眙农村商业银行股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-11-04",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
       "amountYi": null,
       "src": "证监会审核台账"
     },
