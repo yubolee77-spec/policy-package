@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-20 03:14",
- "mediaFetchedAt": "2026-11-20 03:14",
+ "generatedAt": "2026-11-20 10:23",
+ "mediaFetchedAt": "2026-11-20 10:23",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 28,
+  "eastmoney": 32,
   "papers": 0
  },
  "kpi": {
@@ -14,10 +14,10 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 63,
+  "mediaStrong": 62,
   "activeTotal": 182,
-  "successTotal": 157,
-  "cycleRecentAvg": 263,
+  "successTotal": 155,
+  "cycleRecentAvg": 266,
   "cyclePrevAvg": 256,
   "cycleVerdict": "基本持平"
  },
@@ -2976,16 +2976,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "政策解读",
    "column": "政策解读",
    "tag": "政策法规",
@@ -2993,6 +2983,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "IPO注册",
+   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -4107,6 +4107,59 @@
  ],
  "media": [
   {
+   "date": "2026-11-20",
+   "media": "21世纪经济报道",
+   "title": "首单央企商业不动产REITs上市，房企资产如何焕发新价值？",
+   "url": "http://finance.eastmoney.com/a/202611203935925527.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-20",
+   "media": "第一财经",
+   "title": "国内推出首个智能座舱AI分级评价体系",
+   "url": "http://finance.eastmoney.com/a/202611203935816396.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-20",
+   "media": "央视新闻",
+   "title": "全国首个独立运行的兆瓦级海岛微电网投运",
+   "url": "http://finance.eastmoney.com/a/202611203935668790.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-20",
+   "media": "每日经济新闻",
+   "title": "谷歌推出Gemini 4 Neon模型；英特尔18A工艺签下首家外部客户｜数智早参",
+   "url": "http://finance.eastmoney.com/a/202611203935475153.html",
+   "keyword": "首家",
+   "topics": [
+    "集成电路"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-20",
+   "media": "每日经济新闻",
+   "title": "9家券商参投DeepSeek，中信证券对应出资约80亿元；首批主动ETF持仓曝光，最高仓位突破九成 | 券商基金早参",
+   "url": "http://finance.eastmoney.com/a/202611203935928113.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-19",
    "media": "证券时报",
    "title": "红利筑底算力增强 首批主动ETF重仓股揭晓",
@@ -5196,65 +5249,15 @@
    "keyword": "首个",
    "topics": [],
    "strong": true
-  },
-  {
-   "date": "2026-11-13",
-   "media": "新华财经",
-   "title": "全国首单源网荷储一体化算力基础设施机构间REITs成功发行",
-   "url": "http://bond.eastmoney.com/a/202611133930887229.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs",
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-13",
-   "media": "21世纪经济报道",
-   "title": "央行公示重磅金融科技奖！工行摘得首个银行特等奖",
-   "url": "http://bank.eastmoney.com/a/202611133930807696.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-13",
-   "media": "中国新闻网",
-   "title": "全国首个光电子信息产业共保体在中国光谷落地",
-   "url": "http://insurance.eastmoney.com/a/202611133930789637.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-13",
-   "media": "21世纪经济报道",
-   "title": "全国首个大宗商品枢纽建设投资已超千亿，明年推进40个重大项目",
-   "url": "http://finance.eastmoney.com/a/202611133930690028.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-13",
-   "media": "界面新闻",
-   "title": "国内首个口服GLP-1类减肥药获批上市，港股创新药ETF博时(520690)跟踪指数回调蓄势",
-   "url": "http://stock.eastmoney.com/a/202611133930640745.html",
-   "keyword": "首个",
-   "topics": [
-    "生物医药"
-   ],
-   "strong": true
   }
  ],
  "review": {
   "asOf": "2026-11-17",
   "total": 4405,
-  "pipelineTotal": 829,
+  "pipelineTotal": 826,
   "activeTotal": 182,
-  "successTotal": 157,
-  "failTotal": 192,
+  "successTotal": 155,
+  "failTotal": 191,
   "stages": [
    {
     "name": "已受理",
@@ -5278,12 +5281,12 @@
    },
    {
     "name": "注册生效",
-    "count": 157,
+    "count": 155,
     "kind": "success"
    },
    {
     "name": "已终止 / 撤回",
-    "count": 192,
+    "count": 191,
     "kind": "fail"
    }
   ],
@@ -5294,7 +5297,7 @@
    },
    {
     "name": "创业板",
-    "count": 178
+    "count": 176
    },
    {
     "name": "科创板",
@@ -5306,7 +5309,7 @@
    },
    {
     "name": "深主板",
-    "count": 58
+    "count": 57
    }
   ],
   "industries": [
@@ -5316,11 +5319,11 @@
    },
    {
     "name": "专用设备制造业",
-    "count": 109
+    "count": 107
    },
    {
     "name": "汽车制造业",
-    "count": 71
+    "count": 70
    },
    {
     "name": "电气机械和器材制造业",
@@ -5352,11 +5355,11 @@
    }
   ],
   "cycle": {
-   "recentAvg": 263,
-   "recentN": 10,
+   "recentAvg": 266,
+   "recentN": 9,
    "prevAvg": 256,
-   "prevN": 26,
-   "deltaPct": 3,
+   "prevN": 27,
+   "deltaPct": 4,
    "verdict": "基本持平",
    "byMonth": [
     {
@@ -5446,9 +5449,9 @@
      "market": "沪主板"
     },
     {
-     "company": "苏州猎奇智能设备股份有限公司",
-     "days": 238,
-     "date": "2026-08-21",
+     "company": "粤芯半导体技术股份有限公司",
+     "days": 256,
+     "date": "2026-09-01",
      "market": "创业板"
     }
    ]
