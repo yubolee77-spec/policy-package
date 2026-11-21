@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21 03:02",
+ "generatedAt": "2026-11-21 10:28",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 94,
-   "fetchedAt": "2026-11-21 03:02",
+   "fetchedAt": "2026-11-21 10:28",
    "ageDays": 12
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-11-21 03:02",
+   "fetchedAt": "2026-11-21 10:28",
    "ageDays": 123
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 14,
-   "fetchedAt": "2026-11-21 03:02",
+   "total": 21,
+   "fetchedAt": "2026-11-21 10:28",
    "ageDays": 386
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261118_3298082.shtml",
+   "href": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261121_3301295.shtml",
    "latest": {
-    "title": "坚持守正创新，永葆先进性纯洁性（评论员观察）",
-    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261118_3298082.shtml",
-    "date": "2026-11-18",
+    "title": "钟声：扛起大国责任，共同为世界和平托底",
+    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261121_3301295.shtml",
+    "date": "2026-11-21",
     "source": "经济日报"
    },
    "stale": false,
-   "total": 196,
-   "fetchedAt": "2026-11-21 03:02",
-   "ageDays": 3
+   "total": 197,
+   "fetchedAt": "2026-11-21 10:28",
+   "ageDays": 0
   }
  ],
  "stale": false,

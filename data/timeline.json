@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-21 03:02",
+ "generatedAt": "2026-11-21 10:28",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 323,
+ "candidateCount": 324,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-21 · 钟声：扛起大国责任，共同为世界和平托底（经济日报）",
+     "title": "钟声：扛起大国责任，共同为世界和平托底",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261121_3301295.shtml",
+     "date": "2026-11-21",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-11-20 · 证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例（证监会最新动态）",
      "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例",
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
@@ -369,14 +377,6 @@
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7671195/content.shtml",
      "date": "2026-11-16",
      "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-11-16 · 10月份国民经济运行总体平稳、向新向优（国家统计局最新数据发布）",
-     "title": "10月份国民经济运行总体平稳、向新向优",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html",
-     "date": "2026-11-16",
-     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],
