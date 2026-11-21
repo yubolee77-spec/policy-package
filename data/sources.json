@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21 21:04",
+ "generatedAt": "2026-11-22 00:58",
  "cards": [
   {
    "key": "policy",
@@ -16,8 +16,8 @@
    },
    "stale": false,
    "total": 94,
-   "fetchedAt": "2026-11-21 21:04",
-   "ageDays": 12
+   "fetchedAt": "2026-11-22 00:58",
+   "ageDays": 13
   },
   {
    "key": "bond",
@@ -35,8 +35,8 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-11-21 21:04",
-   "ageDays": 123
+   "fetchedAt": "2026-11-22 00:58",
+   "ageDays": 124
   },
   {
    "key": "localbond",
@@ -54,8 +54,8 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-11-21 21:04",
-   "ageDays": 386
+   "fetchedAt": "2026-11-22 00:58",
+   "ageDays": 387
   },
   {
    "key": "media",
@@ -72,8 +72,8 @@
    },
    "stale": false,
    "total": 197,
-   "fetchedAt": "2026-11-21 21:04",
-   "ageDays": 0
+   "fetchedAt": "2026-11-22 00:58",
+   "ageDays": 1
   }
  ],
  "stale": false,
