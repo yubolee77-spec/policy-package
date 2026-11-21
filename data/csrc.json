@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-21 10:24",
- "mediaFetchedAt": "2026-11-21 10:24",
+ "generatedAt": "2026-11-21 20:58",
+ "mediaFetchedAt": "2026-11-21 20:58",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 23,
+  "eastmoney": 22,
   "papers": 0
  },
  "kpi": {
@@ -3006,16 +3006,6 @@
   },
   {
    "date": "2026-09-11",
-   "channel": "政策解读",
-   "column": "政策解读",
-   "tag": "政策法规",
-   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
    "channel": "结果公示",
    "column": "结果公示",
    "tag": "IPO注册",
@@ -3023,6 +3013,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
+  },
+  {
+   "date": "2026-09-11",
+   "channel": "政策解读",
+   "column": "政策解读",
+   "tag": "政策法规",
+   "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
   },
   {
    "date": "2026-09-10",
@@ -4086,9 +4086,29 @@
   },
   {
    "date": "2026-11-21",
+   "media": "中国新闻网",
+   "title": "松原首批氢能试点超亿元奖励资金拨付到企",
+   "url": "http://finance.eastmoney.com/a/202611213936839858.html",
+   "keyword": "首批",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-21",
    "media": "界面新闻",
    "title": "中国石化资本联合组建易消盾公司，上市首批锂电池专用灭火器",
    "url": "http://finance.eastmoney.com/a/202611213936787524.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-21",
+   "media": "财联社",
+   "title": "券商也“扫货”首批主动ETF，国泰海通覆盖9只产品居首，招商、申万宏源紧随其后",
+   "url": "http://stock.eastmoney.com/a/202611213936797469.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
@@ -5193,24 +5213,6 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-11-16",
-   "media": "21世纪经济报道",
-   "title": "全国首家！中信银行信用卡快捷支付取消单日限额",
-   "url": "http://bank.eastmoney.com/a/202611163931841811.html",
-   "keyword": "首家",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-15",
-   "media": "人民日报",
-   "title": "蓝图绘就城市新图景 香港首个五年规划落地提速（香江在线）",
-   "url": "http://finance.eastmoney.com/a/202611153931385845.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
   }
  ],
  "review": {
