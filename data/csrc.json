@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-22 14:45",
- "mediaFetchedAt": "2026-11-22 14:45",
+ "generatedAt": "2026-11-23 01:16",
+ "mediaFetchedAt": "2026-11-23 01:16",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 24,
+  "eastmoney": 22,
   "papers": 0
  },
  "kpi": {
@@ -14,14 +14,24 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 6,
   "mediaTotal": 120,
-  "mediaStrong": 60,
-  "activeTotal": 184,
+  "mediaStrong": 63,
+  "activeTotal": 185,
   "successTotal": 155,
   "cycleRecentAvg": 266,
   "cyclePrevAvg": 260,
   "cycleVerdict": "基本持平"
  },
  "penalty": [
+  {
+   "date": "2026-11-22",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "江苏证监局关于对启迪设计集团股份有限公司及戴雅萍、查金荣、华亮、胡旭明、朱江川、李海建采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103893/c7672290/content.shtml"
+  },
   {
    "date": "2026-11-20",
    "channel": "监管工作",
@@ -841,16 +851,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jiangxi/c104168/c7670556/content.shtml"
-  },
-  {
-   "date": "2026-11-12",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "监管谈话",
-   "title": "关于对董东采取监管谈话措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangxi/c104168/c7670544/content.shtml"
   },
   {
    "date": "2026-11-11",
@@ -4067,6 +4067,24 @@
  ],
  "media": [
   {
+   "date": "2026-11-23",
+   "media": "证券日报",
+   "title": "首批18只主动ETF正式上市",
+   "url": "http://finance.eastmoney.com/a/202611233936995115.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "证券日报",
+   "title": "星邦智能：国内首家高米段臂式智能工厂投产",
+   "url": "http://finance.eastmoney.com/a/202611233936994077.html",
+   "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-22",
    "media": "界面新闻",
    "title": "我国首批可信数据空间创新发展试点取得阶段性进展",
@@ -4085,6 +4103,39 @@
    "keyword": "首批",
    "topics": [
     "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-22",
+   "media": "科创板日报",
+   "title": "下周资本市场大事提醒：国内首批18只主动ETF周一集体上市 美国PCE物价指数与假日消费成焦点",
+   "url": "http://finance.eastmoney.com/a/202611223936959527.html",
+   "keyword": "首批",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-22",
+   "media": "上海证券报·中国证券网",
+   "title": "中国天楹松原项目获氢能试点首批奖励资金拨付",
+   "url": "http://finance.eastmoney.com/a/202611223936953525.html",
+   "keyword": "首批",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-22",
+   "media": "每日经济新闻",
+   "title": "英特尔拿下微软先进封装大单 18A芯片制造工艺签下首家外部客户",
+   "url": "http://finance.eastmoney.com/a/202611223936964886.html",
+   "keyword": "首家",
+   "topics": [
+    "集成电路"
    ],
    "strong": true
   },
@@ -4111,6 +4162,15 @@
    "media": "每日经济新闻",
    "title": "首批18只主动ETF明日集体上市，这些行业被重仓配置 | 主动ETF周报",
    "url": "http://finance.eastmoney.com/a/202611223936874867.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-22",
+   "media": "财联社",
+   "title": "明天上市，首批主动ETF自购及股东投资金额已超28亿",
+   "url": "http://finance.eastmoney.com/a/202611223936913954.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
@@ -5163,67 +5223,13 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-11-16",
-   "media": "证券时报网",
-   "title": "首批主动ETF净值分化 市场关注点转向投资管理能力",
-   "url": "http://stock.eastmoney.com/a/202611163931558978.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-16",
-   "media": "上海证券报·中国证券网",
-   "title": "豆包工作上线“工作台”功能 首批覆盖金融、医疗、教育等21个专业场景",
-   "url": "http://finance.eastmoney.com/a/202611163931795645.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-16",
-   "media": "界面新闻",
-   "title": "首批主动ETF即将上市：红利与均衡怎么挑？看懂三个核心维度",
-   "url": "http://stock.eastmoney.com/a/202611163931773376.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-16",
-   "media": "每日经济新闻",
-   "title": "6家公募申报首批中证A500成长ETF；朱少醒加仓杰瑞股份",
-   "url": "http://finance.eastmoney.com/a/202611163931767389.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-16",
-   "media": "界面新闻",
-   "title": "首批主动ETF建仓期净值分化，红利类产品为何相对抗波动？",
-   "url": "http://stock.eastmoney.com/a/202611163931741096.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-16",
-   "media": "界面新闻",
-   "title": "豆包工作上线“工作台”功能，首批覆盖金融、医疗、教育等21个场景",
-   "url": "http://finance.eastmoney.com/a/202611163931695927.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
   "asOf": "2026-11-20",
   "total": 4405,
   "pipelineTotal": 825,
-  "activeTotal": 184,
+  "activeTotal": 185,
   "successTotal": 155,
   "failTotal": 192,
   "stages": [
@@ -5234,7 +5240,7 @@
    },
    {
     "name": "已问询",
-    "count": 149,
+    "count": 150,
     "kind": "active"
    },
    {
