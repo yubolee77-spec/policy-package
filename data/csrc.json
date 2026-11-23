@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-23 02:08",
- "mediaFetchedAt": "2026-11-23 02:08",
+ "generatedAt": "2026-11-23 09:50",
+ "mediaFetchedAt": "2026-11-23 09:50",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 23,
+  "eastmoney": 29,
   "papers": 0
  },
  "kpi": {
@@ -12,9 +12,9 @@
   "approvalTotal": 173,
   "approvalMonth": 25,
   "reitsApproved30d": 5,
-  "ipoApproved30d": 6,
+  "ipoApproved30d": 4,
   "mediaTotal": 120,
-  "mediaStrong": 63,
+  "mediaStrong": 54,
   "activeTotal": 185,
   "successTotal": 155,
   "cycleRecentAvg": 266,
@@ -331,6 +331,26 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jilin/c103788/c7671955/content.shtml"
+  },
+  {
+   "date": "2026-11-20",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对朱志峰采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7671880/content.shtml"
+  },
+  {
+   "date": "2026-11-20",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "关于对浙江同花顺智能科技有限公司采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7671879/content.shtml"
   },
   {
    "date": "2026-11-20",
@@ -761,26 +781,6 @@
    "docNo": "",
    "party": "2026年7月",
    "url": "https://www.csrc.gov.cn/neimenggu/c103716/c7670747/content.shtml"
-  },
-  {
-   "date": "2026-11-12",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "责令改正",
-   "title": "关于对国盛证券股份有限公司采取责令改正、暂停新开证券账户3个月和责令处分有关人员措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangxi/c104168/c7670560/content.shtml"
-  },
-  {
-   "date": "2026-11-12",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "监管措施",
-   "title": "关于对陆修然采取认定为不适当人选措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jiangxi/c104168/c7670556/content.shtml"
   },
   {
    "date": "2026-11-12",
@@ -4068,6 +4068,15 @@
  "media": [
   {
    "date": "2026-11-23",
+   "media": "每日经济新闻",
+   "title": "涉案金额超3亿元！首例区块链虚拟货币新型协助传销案被查处",
+   "url": "http://finance.eastmoney.com/a/202611233937027688.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-23",
    "media": "证券日报",
    "title": "首批18只主动ETF正式上市",
    "url": "http://finance.eastmoney.com/a/202611233936995115.html",
@@ -4081,6 +4090,96 @@
    "title": "星邦智能：国内首家高米段臂式智能工厂投产",
    "url": "http://finance.eastmoney.com/a/202611233936994077.html",
    "keyword": "首家",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "中国证券报",
+   "title": "首批主动ETF今日上市 揭秘持仓“底牌”与运作“算盘”",
+   "url": "http://finance.eastmoney.com/a/202611233937064670.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "21世纪经济报道",
+   "title": "全市场首批主动ETF！景气均衡主动ETF永赢（581060）今日上市",
+   "url": "http://stock.eastmoney.com/a/202611233937065720.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "澎湃新闻",
+   "title": "牛市早报｜监管层发布一揽子稳市举措，首批主动ETF今日上市",
+   "url": "http://finance.eastmoney.com/a/202611233937051725.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "21世纪经济报道",
+   "title": "首批18只主动ETF今日在沪深交易所上市；报道称AI服务器厂商最高要求涨价45%丨盘前情报",
+   "url": "http://finance.eastmoney.com/a/202611233937042763.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "21世纪经济报道",
+   "title": "中国10月规模以上工业企业利润将出炉；首批主动ETF将上市丨一周前瞻",
+   "url": "http://finance.eastmoney.com/a/202611233937040117.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "证券时报",
+   "title": "大举扫货首批主动ETF 15家券商自营现身十大持有人名单",
+   "url": "http://finance.eastmoney.com/a/202611233937006141.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "证券时报网",
+   "title": "首批18只主动ETF今日上市 主动投资迈入“明牌”时代",
+   "url": "http://stock.eastmoney.com/a/202611233937038915.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "21世纪经济报道",
+   "title": "关于A股，三项新政来了；首批18只主动ETF今日上市｜21早新闻",
+   "url": "http://finance.eastmoney.com/a/202611233937031538.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "上海证券报",
+   "title": "合计持有逾5亿份 多只私募基金认购首批主动ETF",
+   "url": "http://fund.eastmoney.com/a/202611233937007534.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "央广财经",
+   "title": "央广财经早报（11月23日）｜A股稳市“组合拳”出炉；首批18只主动ETF集体上市",
+   "url": "http://finance.eastmoney.com/a/202611233937028742.html",
+   "keyword": "首批",
    "topics": [],
    "strong": false
   },
@@ -5120,118 +5219,15 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-11-17",
-   "media": "中国新闻网",
-   "title": "俄总统特别代表抵深后发布首张照片：APEC会议致力于合作与繁荣",
-   "url": "http://stock.eastmoney.com/a/202611173933212980.html",
-   "keyword": "首张",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-16",
-   "media": "每日经济新闻",
-   "title": "郎酒总经理汪博炜率队走访苏北市场；山东菏泽成今世缘酒业首个省外地级亿元市场丨酒业早参",
-   "url": "http://finance.eastmoney.com/a/202611163931561810.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-16",
-   "media": "财联社",
-   "title": "兴齐眼药：SQ-24071滴眼液Ⅰ期临床试验完成首例受试者入组",
-   "url": "http://finance.eastmoney.com/a/202611163931775259.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-16",
-   "media": "央视新闻",
-   "title": "我国牵头的首个智能制造仿真技术国际标准正式发布",
-   "url": "http://finance.eastmoney.com/a/202611163931755931.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-16",
-   "media": "上海证券报·中国证券网",
-   "title": "一汽解放CA6DV1发动机国内首个通过欧六e+法规认证",
-   "url": "http://finance.eastmoney.com/a/202611163931693982.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-16",
-   "media": "每日经济新闻",
-   "title": "世界首个300兆瓦人工硐室型压缩空气储能电站并网发电",
-   "url": "http://finance.eastmoney.com/a/202611163931637787.html",
-   "keyword": "首个",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-16",
-   "media": "财联社",
-   "title": "苑东生物：EP-0226片带状疱疹后神经痛适应症II/III期临床试验完成首例受试者给药",
-   "url": "http://finance.eastmoney.com/a/202611163932018271.html",
-   "keyword": "首例",
-   "topics": [
-    "生物医药"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-16",
-   "media": "每日经济新闻",
-   "title": "首个“5万亿外贸大市”，正在换挡",
-   "url": "http://finance.eastmoney.com/a/202611163932141030.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-16",
-   "media": "21世纪经济报道",
-   "title": "港交所首个离岸人民币债券指数推出，305只债券纳入样本",
-   "url": "http://bond.eastmoney.com/a/202611163932113312.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-16",
-   "media": "中国证券报·中证网",
-   "title": "世界首个国家间合作开发生态城迈向产业发展新阶段",
-   "url": "http://finance.eastmoney.com/a/202611163932143944.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-16",
-   "media": "新华社",
-   "title": "我国特高压外送迎来首个“万亿级”省区",
-   "url": "http://finance.eastmoney.com/a/202611163932153891.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
   }
  ],
  "review": {
   "asOf": "2026-11-20",
   "total": 4405,
-  "pipelineTotal": 825,
+  "pipelineTotal": 824,
   "activeTotal": 185,
   "successTotal": 155,
-  "failTotal": 192,
+  "failTotal": 191,
   "stages": [
    {
     "name": "已受理",
@@ -5260,14 +5256,14 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 192,
+    "count": 191,
     "kind": "fail"
    }
   ],
   "markets": [
    {
     "name": "北交所",
-    "count": 392
+    "count": 391
    },
    {
     "name": "创业板",
@@ -5313,7 +5309,7 @@
    },
    {
     "name": "软件和信息技术服务业",
-    "count": 39
+    "count": 38
    },
    {
     "name": "医药制造业",
