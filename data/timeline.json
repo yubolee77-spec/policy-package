@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-24 05:40",
+ "generatedAt": "2026-11-24 06:23",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 326,
+ "candidateCount": 328,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,6 +332,22 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-24 · 为什么总有人刻意看空中国经济（经济日报）",
+     "title": "为什么总有人刻意看空中国经济",
+     "url": "http://paper.ce.cn/pc/content/202611/24/content_342378.html",
+     "date": "2026-11-24",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
+     "label": "2026-11-24 · 金观平：为什么总有人刻意看空中国经济（经济日报）",
+     "title": "金观平：为什么总有人刻意看空中国经济",
+     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261124_3303373.shtml",
+     "date": "2026-11-24",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-11-23 · 关于印发《“一老一小”服务体系建设实施方案》的通知（发改委最新政策文件）",
      "title": "关于印发《“一老一小”服务体系建设实施方案》的通知",
      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7087024.htm",
@@ -361,22 +377,6 @@
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261121_3301295.shtml",
      "date": "2026-11-21",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-20 · 证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例（证监会最新动态）",
-     "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
-     "date": "2026-11-20",
-     "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-11-18 · 中国证监会新闻发言人答记者问（证监会最新动态）",
-     "title": "中国证监会新闻发言人答记者问",
-     "url": "https://www.csrc.gov.cn/csrc/c100028/c7671451/content.shtml",
-     "date": "2026-11-18",
-     "source": "证监会最新动态",
      "noise": false
     }
    ],
