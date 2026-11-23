@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-23 19:28",
- "mediaFetchedAt": "2026-11-23 19:28",
+ "generatedAt": "2026-11-24 01:57",
+ "mediaFetchedAt": "2026-11-24 01:57",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 23,
+  "eastmoney": 30,
   "papers": 0
  },
  "kpi": {
@@ -14,8 +14,8 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 4,
   "mediaTotal": 120,
-  "mediaStrong": 56,
-  "activeTotal": 187,
+  "mediaStrong": 47,
+  "activeTotal": 188,
   "successTotal": 155,
   "cycleRecentAvg": 266,
   "cyclePrevAvg": 260,
@@ -4067,6 +4067,53 @@
  ],
  "media": [
   {
+   "date": "2026-11-24",
+   "media": "财联社",
+   "title": "亚马逊为中小企业和个体经营者打造首个“黑色星期五” 推出特别优惠计划及人工智能工具",
+   "url": "http://finance.eastmoney.com/a/202611243937744372.html",
+   "keyword": "首个",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-24",
+   "media": "证券时报",
+   "title": "首批18只主动ETF上市 合计成交80亿元",
+   "url": "http://finance.eastmoney.com/a/202611243937743183.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-24",
+   "media": "上海证券报",
+   "title": "首批18只主动ETF挂牌上市 创新产品为“长钱”入市再添新工具",
+   "url": "http://money.eastmoney.com/a/202611243937743744.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-24",
+   "media": "证券日报",
+   "title": "首批18只产品挂牌上市 主动ETF为中长期资金配置提供新载体",
+   "url": "http://finance.eastmoney.com/a/202611243937726118.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-24",
+   "media": "证券日报",
+   "title": "首批高标准数字园区建设对象名单公布",
+   "url": "http://finance.eastmoney.com/a/202611243937728529.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-23",
    "media": "每日经济新闻",
    "title": "涉案金额超3亿元！首例区块链虚拟货币新型协助传销案被查处",
@@ -4093,6 +4140,33 @@
    "topics": [
     "算力/AI"
    ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-23",
+   "media": "证券日报",
+   "title": "华电四川发电有限公司在深交所成功发行全国首单亚太能源共同体清洁能源建设公司债券",
+   "url": "http://bond.eastmoney.com/a/202611233937626757.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-23",
+   "media": "财联社",
+   "title": "我国首个精准发酵来源食用蛋白获批",
+   "url": "http://finance.eastmoney.com/a/202611233937616085.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-23",
+   "media": "界面新闻",
+   "title": "诺华首个siRNA降胆固醇疗法心血管结局研究达到主要终点",
+   "url": "http://finance.eastmoney.com/a/202611233937510366.html",
+   "keyword": "首个",
+   "topics": [],
    "strong": true
   },
   {
@@ -4307,6 +4381,60 @@
    "media": "财联社",
    "title": "首批18只主动ETF今日上市 中长期资金入市工具进一步丰富",
    "url": "http://stock.eastmoney.com/a/202611233937298580.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "新华社",
+   "title": "91家入选 首批高标准数字园区建设对象名单公布",
+   "url": "http://finance.eastmoney.com/a/202611233937667055.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "第一财经",
+   "title": "首批主动ETF首日成交超80亿，投资者重选择、管理人拼能力",
+   "url": "http://finance.eastmoney.com/a/202611233937603264.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "21世纪经济报道",
+   "title": "首批主动ETF今日上市，多位基金公司一把手亮相上市仪式",
+   "url": "http://money.eastmoney.com/a/202611233937713261.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "央广财经",
+   "title": "小牛说市｜A股上新！首批主动ETF正式挂牌",
+   "url": "http://fund.eastmoney.com/a/202611233937721070.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "新华财经",
+   "title": "金改前沿丨首批主动ETF正式上市  “主动+透明”打开权益配置新空间",
+   "url": "http://stock.eastmoney.com/a/202611233937616110.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-23",
+   "media": "中国证券报·中证网",
+   "title": "首批主动ETF上市 摩根资产管理将运用约5亿元自有资金投资",
+   "url": "http://stock.eastmoney.com/a/202611233937673080.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
@@ -5082,152 +5210,13 @@
    "keyword": "首个",
    "topics": [],
    "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "21世纪经济报道",
-   "title": "全国首单“源网荷储一体化”算力基础设施机构间REITs发行",
-   "url": "http://finance.eastmoney.com/a/202611173932709831.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs",
-    "算力/AI"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "21世纪经济报道",
-   "title": "特高压外送迎首个万亿级省区！电网设备板块大爆发，摩恩电气涨停",
-   "url": "http://finance.eastmoney.com/a/202611173932723231.html",
-   "keyword": "首个",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "21世纪经济报道",
-   "title": "AD迎来口服曙光：AR1001能否成为首个疾病修饰疗法？",
-   "url": "http://finance.eastmoney.com/a/202611173932688098.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "21世纪经济报道",
-   "title": "SK海力士新厂预计明年四季度交付首批量产晶圆，科创芯片设计ETF天弘（589070）标的指数逆市上涨，连续两日“吸金”累超3800万元",
-   "url": "http://stock.eastmoney.com/a/202611173932711122.html",
-   "keyword": "首批",
-   "topics": [
-    "集成电路"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "上海证券报·中国证券网",
-   "title": "全国首单贴标传统产业升级的科技创新公司债券在上交所发行",
-   "url": "http://bond.eastmoney.com/a/202611173932772349.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "证券日报",
-   "title": "苑东生物治疗带状疱疹后神经痛新药的Ⅱ/Ⅲ期临床试验完成首例受试者给药",
-   "url": "http://finance.eastmoney.com/a/202611173932999454.html",
-   "keyword": "首例",
-   "topics": [
-    "生物医药"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "财联社",
-   "title": "世界首个300兆瓦人工硐室型压气储能电站并网发电",
-   "url": "http://finance.eastmoney.com/a/202611173932993958.html",
-   "keyword": "首个",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "科创板日报",
-   "title": "首个跨领域世界模型基准发布",
-   "url": "http://finance.eastmoney.com/a/202611173932907970.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "界面新闻",
-   "title": "东吴证券115亿收购东海证券过会 首例“同省跨市”券商并购落地在即",
-   "url": "http://finance.eastmoney.com/a/202611173933164078.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "界面新闻",
-   "title": "英矽智能：完成非鸦片类止痛候选药物ISM9528探索性试验首例人体给药",
-   "url": "http://finance.eastmoney.com/a/202611173933104297.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "新华财经",
-   "title": "西藏自治区首单“金融期货直接融资保障计划”业务落地",
-   "url": "http://bond.eastmoney.com/a/202611173933103426.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "中国证券报·中证网",
-   "title": "我国牵头制定的首个物联网智慧水产养殖国际标准发布",
-   "url": "http://finance.eastmoney.com/a/202611173933197280.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "中国新闻网",
-   "title": "四川首个“水风光储直柔”一体化构网型微电网在攀枝花投运",
-   "url": "http://finance.eastmoney.com/a/202611173933178670.html",
-   "keyword": "首个",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-17",
-   "media": "每日经济新闻",
-   "title": "多家券商完成第三批互换便利操作首批买入，券商ETF银华（159842）标的指数盘中翻红",
-   "url": "http://stock.eastmoney.com/a/202611173932719090.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
   "asOf": "2026-11-20",
   "total": 4405,
   "pipelineTotal": 824,
-  "activeTotal": 187,
+  "activeTotal": 188,
   "successTotal": 155,
   "failTotal": 191,
   "stages": [
@@ -5238,7 +5227,7 @@
    },
    {
     "name": "已问询",
-    "count": 152,
+    "count": 153,
     "kind": "active"
    },
    {
