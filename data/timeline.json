@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23 09:54",
+ "generatedAt": "2026-11-23 15:28",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 326,
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-23 · 关于印发《“一老一小”服务体系建设实施方案》的通知（发改委最新政策文件）",
+     "title": "关于印发《“一老一小”服务体系建设实施方案》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7087024.htm",
+     "date": "2026-11-23",
+     "source": "发改委最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-11-22 · 稳步扩大金融市场双向开放（经济日报）",
      "title": "稳步扩大金融市场双向开放",
      "url": "http://paper.ce.cn/pc/content/202611/22/content_342289.html",
@@ -369,14 +377,6 @@
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7671451/content.shtml",
      "date": "2026-11-18",
      "source": "证监会最新动态",
-     "noise": false
-    },
-    {
-     "label": "2026-11-18 · 坚持守正创新，永葆先进性纯洁性（评论员观察）（经济日报）",
-     "title": "坚持守正创新，永葆先进性纯洁性（评论员观察）",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261118_3298082.shtml",
-     "date": "2026-11-18",
-     "source": "经济日报",
      "noise": false
     }
    ],
