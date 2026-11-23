@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-11-23",
-  "fetchedAt": "2026-11-23 15:26",
+  "fetchedAt": "2026-11-23 19:28",
   "monthLabel": "2026年11月",
   "timeline": [
     {
@@ -21,6 +21,16 @@
         }
       ],
       "keySentence": ""
+    },
+    {
+      "title": "吴清主席会见印度驻华大使魏嘉盟",
+      "desc": "证监会最新动态",
+      "url": "https://www.csrc.gov.cn/csrc/c106311/c7672435/content.shtml",
+      "date": "2026-11-23",
+      "summary": "",
+      "tier": "dept",
+      "keywords": [],
+      "keySentence": "双方就全球金融市场形势、中印资本市场改革发展及增进务实合作等议题交换了意见。"
     },
     {
       "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例",
@@ -274,29 +284,6 @@
       "tier": "dept",
       "keywords": [],
       "keySentence": "流通领域重要生产资料市场价格，是指重要生产资料经营企业的批发和销售价格。"
-    },
-    {
-      "title": "中国证监会有关部门负责人答记者问",
-      "desc": "证监会最新动态",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7670135/content.shtml",
-      "date": "2026-11-11",
-      "summary": "",
-      "tier": "dept",
-      "keywords": [
-        {
-          "type": "ding",
-          "text": "有力"
-        },
-        {
-          "type": "verb",
-          "text": "支持"
-        },
-        {
-          "type": "verb",
-          "text": "监管"
-        }
-      ],
-      "keySentence": "北京金融法院依法受理投资者的起诉并适用特别代表人诉讼程序审理，是对投资者权益的有力保护和对违法侵权责任的有力追究。"
     },
     {
       "title": "中医药传统知识保护条例",
@@ -8496,6 +8483,16 @@
     ],
     "证监会最新动态": [
       {
+        "title": "吴清主席会见印度驻华大使魏嘉盟",
+        "desc": "证监会最新动态",
+        "url": "https://www.csrc.gov.cn/csrc/c106311/c7672435/content.shtml",
+        "date": "2026-11-23",
+        "summary": "",
+        "tier": "dept",
+        "keywords": [],
+        "keySentence": "双方就全球金融市场形势、中印资本市场改革发展及增进务实合作等议题交换了意见。"
+      },
+      {
         "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例",
         "desc": "证监会最新动态",
         "url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
@@ -8624,29 +8621,6 @@
           }
         ],
         "keySentence": "督察要求，中国证监会要深入学习贯彻习近平总书记关于统计工作重要讲话和指示批示精神，坚决贯彻落实党中央和国务院关于统计工作重大决策部署。"
-      },
-      {
-        "title": "中国证监会有关部门负责人答记者问",
-        "desc": "证监会最新动态",
-        "url": "https://www.csrc.gov.cn/csrc/c100028/c7670135/content.shtml",
-        "date": "2026-11-11",
-        "summary": "",
-        "tier": "dept",
-        "keywords": [
-          {
-            "type": "ding",
-            "text": "有力"
-          },
-          {
-            "type": "verb",
-            "text": "支持"
-          },
-          {
-            "type": "verb",
-            "text": "监管"
-          }
-        ],
-        "keySentence": "北京金融法院依法受理投资者的起诉并适用特别代表人诉讼程序审理，是对投资者权益的有力保护和对违法侵权责任的有力追究。"
       },
       {
         "title": "2024年4月12日新闻发布会",
