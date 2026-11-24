@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24 06:23",
+ "generatedAt": "2026-11-24 23:18",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 328,
@@ -356,6 +356,14 @@
      "noise": false
     },
     {
+     "label": "2026-11-23 · 2026年11月中旬流通领域重要生产资料市场价格变动情况（国家统计局最新数据发布）",
+     "title": "2026年11月中旬流通领域重要生产资料市场价格变动情况",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261123_1965935.html",
+     "date": "2026-11-23",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-11-22 · 稳步扩大金融市场双向开放（经济日报）",
      "title": "稳步扩大金融市场双向开放",
      "url": "http://paper.ce.cn/pc/content/202611/22/content_342289.html",
@@ -368,14 +376,6 @@
      "title": "金观平：稳步扩大金融市场双向开放",
      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261122_3301671.shtml",
      "date": "2026-11-22",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-21 · 钟声：扛起大国责任，共同为世界和平托底（经济日报）",
-     "title": "钟声：扛起大国责任，共同为世界和平托底",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261121_3301295.shtml",
-     "date": "2026-11-21",
      "source": "经济日报",
      "noise": false
     }

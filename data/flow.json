@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-24 06:23",
+  "generatedAt": "2026-11-24 23:18",
   "asOf": "2026-11",
   "asOfLabel": "2026年11月",
-  "archiveTotal": 273,
-  "archiveAdded": 0,
+  "archiveTotal": 274,
+  "archiveAdded": 1,
   "channels": [
     {
       "key": "special_fund",
@@ -1264,30 +1264,30 @@
           "prev": {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 28,
+            "n": 29,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "首发上市（IPO）": 3,
               "其他审核": 9,
-              "机构资格": 6,
+              "机构资格": 7,
               "再融资": 10
             }
           },
-          "deltaPct": -28.6,
+          "deltaPct": -31.0,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 48,
+            "n": 49,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "其他审核": 14,
               "再融资": 15,
-              "机构资格": 9,
+              "机构资格": 10,
               "首发上市（IPO）": 5,
               "REITs 注册": 5
             }
@@ -1307,20 +1307,20 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -48.4,
+          "deltaPct": -47.3,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 158,
+            "n": 159,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "其他审核": 50,
               "再融资": 27,
-              "机构资格": 40,
+              "机构资格": 41,
               "首发上市（IPO）": 17,
               "REITs 注册": 19,
               "并购重组": 5
@@ -1339,7 +1339,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 409.7,
+          "deltaPct": 412.9,
           "deltaAmountPct": null
         }
       },
@@ -1402,7 +1402,7 @@
           {
             "key": "2026-10",
             "label": "2026年10月",
-            "n": 28,
+            "n": 29,
             "amountYi": 0.0
           },
           {
@@ -1440,7 +1440,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 48,
+            "n": 49,
             "amountYi": 0.0
           }
         ],
@@ -1454,7 +1454,7 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 158,
+            "n": 159,
             "amountYi": 0.0
           }
         ]
@@ -1611,8 +1611,8 @@
           {
             "name": "机构资格",
             "cur": 3,
-            "prev": 6,
-            "deltaPct": -50.0,
+            "prev": 7,
+            "deltaPct": -57.1,
             "items": [
               {
                 "title": "关于核准东财基金管理有限公司私募资产管理业务资格的批复",
@@ -1784,9 +1784,9 @@
           },
           {
             "name": "机构资格",
-            "cur": 9,
+            "cur": 10,
             "prev": 31,
-            "deltaPct": -71.0,
+            "deltaPct": -67.7,
             "items": [
               {
                 "title": "关于核准东财基金管理有限公司私募资产管理业务资格的批复",
@@ -1837,7 +1837,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 9
+            "totalItems": 10
           },
           {
             "name": "REITs 注册",
@@ -2006,9 +2006,9 @@
           },
           {
             "name": "机构资格",
-            "cur": 40,
+            "cur": 41,
             "prev": 1,
-            "deltaPct": 3900.0,
+            "deltaPct": 4000.0,
             "items": [
               {
                 "title": "关于核准东财基金管理有限公司私募资产管理业务资格的批复",
@@ -2059,7 +2059,7 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 40
+            "totalItems": 41
           },
           {
             "name": "再融资",
@@ -2312,7 +2312,7 @@
           "url": "https://zyhj.mof.gov.cn/zcfb/202611/t20261103_4003960.htm"
         },
         {
-          "name": "金融与资本",
+          "name": "教科文卫",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2320,7 +2320,7 @@
           "url": ""
         },
         {
-          "name": "教科文卫",
+          "name": "金融与资本",
           "cur": 0,
           "prev": 1,
           "delta": -1,
@@ -2399,7 +2399,7 @@
           "url": "https://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm"
         },
         {
-          "name": "城市更新与住房",
+          "name": "新兴产业",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2407,7 +2407,7 @@
           "url": ""
         },
         {
-          "name": "新兴产业",
+          "name": "城市更新与住房",
           "cur": 0,
           "prev": 2,
           "delta": -2,
@@ -2927,6 +2927,16 @@
     {
       "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
       "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
+      "date": "2026-10-08",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7672740/content.shtml",
+      "title": "关于核准远征证券有限公司合格境外投资者资格的批复",
       "date": "2026-10-08",
       "org": "证监会",
       "channel": "capital",
@@ -3628,16 +3638,6 @@
       "url": "https://www.csrc.gov.cn/csrc/c101830/c7655151/content.shtml",
       "title": "关于同意江苏宇特光电科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
       "date": "2026-08-06",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "其他审核",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c101830/c7653733/content.shtml",
-      "title": "关于同意江苏凯达重工股份有限公司向不特定合格投资者公开发行股票注册的批复",
-      "date": "2026-08-05",
       "org": "证监会",
       "channel": "capital",
       "industry": "其他审核",

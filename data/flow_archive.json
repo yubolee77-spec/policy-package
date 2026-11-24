@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24 06:23",
+  "updated": "2026-11-24 23:18",
   "items": [
     {
       "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7086964.htm",
@@ -484,6 +484,16 @@
     {
       "url": "https://www.csrc.gov.cn/csrc/c101857/c7663463/content.shtml",
       "title": "关于核准山西证券股份有限公司上市证券做市交易业务资格的批复",
+      "date": "2026-10-08",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101885/c7672740/content.shtml",
+      "title": "关于核准远征证券有限公司合格境外投资者资格的批复",
       "date": "2026-10-08",
       "org": "证监会",
       "channel": "capital",
