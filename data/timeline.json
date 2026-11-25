@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-25 05:02",
+ "generatedAt": "2026-11-25 12:22",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 328,
+ "candidateCount": 329,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-25 · 递稳跨年政策衔接“交接棒”（经济日报）",
+     "title": "递稳跨年政策衔接“交接棒”",
+     "url": "http://paper.ce.cn/pc/content/202611/25/content_342432.html",
+     "date": "2026-11-25",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-11-24 · 为什么总有人刻意看空中国经济（经济日报）",
      "title": "为什么总有人刻意看空中国经济",
      "url": "http://paper.ce.cn/pc/content/202611/24/content_342378.html",
@@ -367,14 +375,6 @@
      "label": "2026-11-22 · 稳步扩大金融市场双向开放（经济日报）",
      "title": "稳步扩大金融市场双向开放",
      "url": "http://paper.ce.cn/pc/content/202611/22/content_342289.html",
-     "date": "2026-11-22",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-22 · 金观平：稳步扩大金融市场双向开放（经济日报）",
-     "title": "金观平：稳步扩大金融市场双向开放",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261122_3301671.shtml",
      "date": "2026-11-22",
      "source": "经济日报",
      "noise": false

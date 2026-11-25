@@ -1,20 +1,20 @@
 {
- "generatedAt": "2026-11-25 04:58",
- "mediaFetchedAt": "2026-11-25 04:58",
+ "generatedAt": "2026-11-25 12:17",
+ "mediaFetchedAt": "2026-11-25 12:17",
  "mediaStale": false,
  "mediaChannels": {
   "eastmoney": 20,
   "papers": 0
  },
  "kpi": {
-  "penaltyTotal": 232,
-  "penaltyMonth": 112,
+  "penaltyTotal": 229,
+  "penaltyMonth": 109,
   "approvalTotal": 173,
   "approvalMonth": 25,
   "reitsApproved30d": 5,
   "ipoApproved30d": 4,
   "mediaTotal": 120,
-  "mediaStrong": 53,
+  "mediaStrong": 54,
   "activeTotal": 189,
   "successTotal": 155,
   "cycleRecentAvg": 266,
@@ -22,6 +22,56 @@
   "cycleVerdict": "基本持平"
  },
  "penalty": [
+  {
+   "date": "2026-11-25",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "责令改正",
+   "title": "关于对大通期货经纪有限公司采取责令改正行政监管措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/heilongjiang/c103838/c7672916/content.shtml"
+  },
+  {
+   "date": "2026-11-25",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对吉林省富吉股权投资基金有限公司采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7672898/content.shtml"
+  },
+  {
+   "date": "2026-11-25",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对吉林省吉投基金管理中心有限公司采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7672893/content.shtml"
+  },
+  {
+   "date": "2026-11-25",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对吉林省创新企业投资私募基金管理有限公司采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7672887/content.shtml"
+  },
+  {
+   "date": "2026-11-25",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "内蒙古辖区私募基金监管通讯(2026年第4期--信息披露专刊)",
+   "docNo": "",
+   "party": "2026年第4期--信息披露专刊",
+   "url": "https://www.csrc.gov.cn/neimenggu/c100429/c7672881/content.shtml"
+  },
   {
    "date": "2026-11-24",
    "channel": "监管工作",
@@ -783,36 +833,6 @@
    "url": "https://www.csrc.gov.cn/neimenggu/c103724/c7671105/content.shtml"
   },
   {
-   "date": "2026-11-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对王蒙采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/tianjin/c103610/c7671017/content.shtml"
-  },
-  {
-   "date": "2026-11-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "监管谈话",
-   "title": "关于对刘子豪采取监管谈话措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/tianjin/c103610/c7671015/content.shtml"
-  },
-  {
-   "date": "2026-11-16",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "监管谈话",
-   "title": "关于对财达期货有限公司采取监管谈话措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/tianjin/c103610/c7671013/content.shtml"
-  },
-  {
    "date": "2026-11-13",
    "channel": "监管工作",
    "column": "辖区监管动态",
@@ -1091,56 +1111,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/ningxia/c101455/c7669123/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "机构监管通讯2026年第10期（总第33期）",
-   "docNo": "",
-   "party": "总第33期",
-   "url": "https://www.csrc.gov.cn/ningxia/c101455/c7669121/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "甘肃证监局多措并举推动债券市场服务辖区实体经济发展",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/gansu/c101379/c7669067/content.shtml"
-  },
-  {
-   "date": "2026-11-05",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "辖区沪深上市公司2026年三季报概览",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/qingdao/c101719/c7668900/content.shtml"
-  },
-  {
-   "date": "2026-11-05",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "宁夏局创新“场景+IP”模式 纵深开展“世界投资者周”投教宣传",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/ningxia/c101455/c7668843/content.shtml"
-  },
-  {
-   "date": "2026-11-04",
-   "channel": "通知公告",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "新疆证监局2026年度“双随机”现场抽取结果公示（补充）",
-   "docNo": "",
-   "party": "补充",
-   "url": "https://www.csrc.gov.cn/xinjiang/c104362/c7668666/content.shtml"
   },
   {
    "date": "2026-10-23",
@@ -2715,6 +2685,16 @@
    "url": "https://www.csrc.gov.cn/csrc/c101841/c7666345/content.shtml"
   },
   {
+   "date": "2026-10-23",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准奥尼克斯商品有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7672905/content.shtml"
+  },
+  {
    "date": "2026-10-22",
    "channel": "结果公示",
    "column": "结果公示",
@@ -2723,6 +2703,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c101967/c7667681/content.shtml"
+  },
+  {
+   "date": "2026-10-21",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准达证券控股有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7672903/content.shtml"
   },
   {
    "date": "2026-10-20",
@@ -2755,6 +2745,16 @@
    "url": "https://www.csrc.gov.cn/csrc/c105917/c7665060/content.shtml"
   },
   {
+   "date": "2026-10-15",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准凯峰国际香港有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7672889/content.shtml"
+  },
+  {
    "date": "2026-10-14",
    "channel": "结果公示",
    "column": "结果公示",
@@ -2765,6 +2765,16 @@
    "url": "https://www.csrc.gov.cn/csrc/c101830/c7666431/content.shtml"
   },
   {
+   "date": "2026-10-14",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准捷成资本环球策略有限公司合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7672883/content.shtml"
+  },
+  {
    "date": "2026-10-12",
    "channel": "结果公示",
    "column": "结果公示",
@@ -2773,6 +2783,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c101830/c7665162/content.shtml"
+  },
+  {
+   "date": "2026-10-12",
+   "channel": "结果公示",
+   "column": "结果公示",
+   "tag": "境外投资者资格",
+   "title": "关于核准源吉有限公合格境外投资者资格的批复",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/csrc/c101885/c7672879/content.shtml"
   },
   {
    "date": "2026-10-10",
@@ -2985,46 +3005,6 @@
    "url": "https://www.csrc.gov.cn/csrc/c101885/c7665291/content.shtml"
   },
   {
-   "date": "2026-09-17",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "境外投资者资格",
-   "title": "关于核准信为资管(香港)有限公司合格境外投资者资格的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665289/content.shtml"
-  },
-  {
-   "date": "2026-09-16",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "业务资格",
-   "title": "关于核准贝莱德基金管理有限公司合格境内机构投资者资格的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101888/c7659624/content.shtml"
-  },
-  {
-   "date": "2026-09-14",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "境外投资者资格",
-   "title": "关于核准迪普芬研究有限公司合格境外投资者资格的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101885/c7665287/content.shtml"
-  },
-  {
-   "date": "2026-09-14",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "REITs·基础设施",
-   "title": "关于准予国金嘉泽新能源封闭式基础设施证券投资基金注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c101895/c7658491/content.shtml"
-  },
-  {
    "date": "2026-09-11",
    "channel": "政策解读",
    "column": "政策解读",
@@ -3033,16 +3013,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/csrc/c100028/c7658236/content.shtml"
-  },
-  {
-   "date": "2026-09-11",
-   "channel": "结果公示",
-   "column": "结果公示",
-   "tag": "IPO注册",
-   "title": "关于同意东莞优邦材料科技股份有限公司首次公开发行股票注册的批复",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/csrc/c105917/c7658158/content.shtml"
   },
   {
    "date": "2026-08-28",
@@ -4076,6 +4046,62 @@
   }
  ],
  "media": [
+  {
+   "date": "2026-11-25",
+   "media": "上海证券报·中国证券网",
+   "title": "伯镭科技将携手淡水河谷打造印尼首个纯电矿卡项目",
+   "url": "http://finance.eastmoney.com/a/202611253939201288.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-25",
+   "media": "21世纪经济报道",
+   "title": "手握全球首个原发性膜性肾病特效药！天广实今日申购丨打新早知道",
+   "url": "http://stock.eastmoney.com/a/202611253938894369.html",
+   "keyword": "首个",
+   "topics": [
+    "生物医药"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-25",
+   "media": "财联社",
+   "title": "首批主动ETF规模缩水至294亿 大盘成长主动ETF摩根逆势吸金超4亿",
+   "url": "http://stock.eastmoney.com/a/202611253939365153.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-25",
+   "media": "证券时报网",
+   "title": "自然资源部发布首批海洋经济典型案例",
+   "url": "http://finance.eastmoney.com/a/202611253939365814.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-25",
+   "media": "第一财经",
+   "title": "壹评级：首批单桩到港验证交付节奏，大金重工四季度业绩修复可期",
+   "url": "http://finance.eastmoney.com/a/202611253939350620.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-25",
+   "media": "第一财经",
+   "title": "首批主动ETF迎“私募首秀”，业内看好多元配置逻辑",
+   "url": "http://fund.eastmoney.com/a/202611253938892237.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
   {
    "date": "2026-11-24",
    "media": "财联社",
@@ -5168,62 +5194,6 @@
     "算力/AI"
    ],
    "strong": true
-  },
-  {
-   "date": "2026-11-18",
-   "media": "21世纪经济报道",
-   "title": "人保财险广州市分公司“穗科保”首批申报企业保单集中落地",
-   "url": "http://insurance.eastmoney.com/a/202611183933938862.html",
-   "keyword": "首批",
-   "topics": [
-    "生物医药"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-18",
-   "media": "证券时报",
-   "title": "首批主动ETF火速建仓 下周一集体上市",
-   "url": "http://stock.eastmoney.com/a/202611183933307246.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-18",
-   "media": "央视财经",
-   "title": "即将上市！超33万户参与认购！首批主动ETF，最新消息→",
-   "url": "http://stock.eastmoney.com/a/202611183933306954.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-18",
-   "media": "财联社",
-   "title": "首批主动ETF持仓及仓位曝光 净值档位拉开 重要持有人现身",
-   "url": "http://finance.eastmoney.com/a/202611183933829034.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-18",
-   "media": "每日经济新闻",
-   "title": "东吴证券115亿元收购东海证券过会；首批18只主动ETF下周一上市，上市前股票仓位需不低于80% | 券商基金早参",
-   "url": "http://finance.eastmoney.com/a/202611183933806693.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-18",
-   "media": "财联社",
-   "title": "首批主动ETF十大重仓股出炉 茅台、美的、宁德居前三",
-   "url": "http://finance.eastmoney.com/a/202611183933780631.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
