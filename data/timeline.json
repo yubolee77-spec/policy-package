@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-26 04:21",
+ "generatedAt": "2026-11-26 11:42",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 329,
+ "candidateCount": 330,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-26 · 刚性节约指标是压力也是动力（经济日报）",
+     "title": "刚性节约指标是压力也是动力",
+     "url": "http://paper.ce.cn/pc/content/202611/26/content_342490.html",
+     "date": "2026-11-26",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-11-25 · 递稳跨年政策衔接“交接棒”（经济日报）",
      "title": "递稳跨年政策衔接“交接棒”",
      "url": "http://paper.ce.cn/pc/content/202611/25/content_342432.html",
@@ -369,14 +377,6 @@
      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261123_1965935.html",
      "date": "2026-11-23",
      "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
-     "label": "2026-11-22 · 稳步扩大金融市场双向开放（经济日报）",
-     "title": "稳步扩大金融市场双向开放",
-     "url": "http://paper.ce.cn/pc/content/202611/22/content_342289.html",
-     "date": "2026-11-22",
-     "source": "经济日报",
      "noise": false
     }
    ],
