@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26 11:42",
+ "generatedAt": "2026-11-26 22:26",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 330,
@@ -332,6 +332,14 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-26 · 三部门关于印发《新一代通信网建设实施方案》的通知（工信部最新政策文件）",
+     "title": "三部门关于印发《新一代通信网建设实施方案》的通知",
+     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7087375.htm",
+     "date": "2026-11-26",
+     "source": "工信部最新政策文件",
+     "noise": false
+    },
+    {
      "label": "2026-11-26 · 刚性节约指标是压力也是动力（经济日报）",
      "title": "刚性节约指标是压力也是动力",
      "url": "http://paper.ce.cn/pc/content/202611/26/content_342490.html",
@@ -369,14 +377,6 @@
      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7087024.htm",
      "date": "2026-11-23",
      "source": "发改委最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-11-23 · 2026年11月中旬流通领域重要生产资料市场价格变动情况（国家统计局最新数据发布）",
-     "title": "2026年11月中旬流通领域重要生产资料市场价格变动情况",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261123_1965935.html",
-     "date": "2026-11-23",
-     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],

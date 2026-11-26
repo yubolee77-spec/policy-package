@@ -1,27 +1,67 @@
 {
- "generatedAt": "2026-11-26 11:38",
- "mediaFetchedAt": "2026-11-26 11:38",
+ "generatedAt": "2026-11-26 22:21",
+ "mediaFetchedAt": "2026-11-26 22:21",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 27,
+  "eastmoney": 24,
   "papers": 0
  },
  "kpi": {
-  "penaltyTotal": 230,
-  "penaltyMonth": 110,
+  "penaltyTotal": 231,
+  "penaltyMonth": 111,
   "approvalTotal": 173,
   "approvalMonth": 25,
   "reitsApproved30d": 5,
   "ipoApproved30d": 4,
   "mediaTotal": 120,
-  "mediaStrong": 60,
-  "activeTotal": 192,
+  "mediaStrong": 61,
+  "activeTotal": 193,
   "successTotal": 154,
   "cycleRecentAvg": 266,
   "cyclePrevAvg": 260,
   "cycleVerdict": "基本持平"
  },
  "penalty": [
+  {
+   "date": "2026-11-26",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "责令改正",
+   "title": "关于对新疆融汇鑫创业投资管理有限公司采取责令改正措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/xinjiang/c104370/c7673276/content.shtml"
+  },
+  {
+   "date": "2026-11-26",
+   "channel": "行政监管措施",
+   "column": "监管措施",
+   "tag": "警示函",
+   "title": "深圳证监局关于对深圳市同利德资产管理有限公司、唐笑波采取出具警示函措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/shenzhen/c104320/c7673195/content.shtml"
+  },
+  {
+   "date": "2026-11-26",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "贵州辖区证券期货市场概况（2026年10月)",
+   "docNo": "",
+   "party": "2026年10月",
+   "url": "https://www.csrc.gov.cn/guizhou/c104861/c7673273/content.shtml"
+  },
+  {
+   "date": "2026-11-26",
+   "channel": "通知公告",
+   "column": "辖区监管动态",
+   "tag": "监管措施",
+   "title": "江苏证监局辖区从事证券法律业务律师事务所重大事项变更和年度备案表（截至2026年11月23日）",
+   "docNo": "",
+   "party": "截至2026年11月23日",
+   "url": "https://www.csrc.gov.cn/jiangsu/c103887/c7673204/content.shtml"
+  },
   {
    "date": "2026-11-26",
    "channel": "监管工作",
@@ -141,16 +181,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jilin/c103788/c7672887/content.shtml"
-  },
-  {
-   "date": "2026-11-25",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "监管措施",
-   "title": "贵州辖区证券期货市场概况（2026年10月)",
-   "docNo": "",
-   "party": "2026年10月",
-   "url": "https://www.csrc.gov.cn/guizhou/c104861/c7672951/content.shtml"
   },
   {
    "date": "2026-11-25",
@@ -704,26 +734,6 @@
   },
   {
    "date": "2026-11-20",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对吉林省诚鼎股权投资基金管理有限公司采取出具警示函监督管理措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c103788/c7671955/content.shtml"
-  },
-  {
-   "date": "2026-11-20",
-   "channel": "行政监管措施",
-   "column": "监管措施",
-   "tag": "警示函",
-   "title": "关于对朱志峰采取出具警示函措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/zhejiang/c103952/c7671880/content.shtml"
-  },
-  {
-   "date": "2026-11-20",
    "channel": "监管工作",
    "column": "辖区监管动态",
    "tag": "监管措施",
@@ -741,6 +751,16 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/qinghai/c101417/c7672636/content.shtml"
+  },
+  {
+   "date": "2026-11-20",
+   "channel": "监管工作",
+   "column": "辖区监管动态",
+   "tag": "警示函",
+   "title": "关于对吉林省诚鼎股权投资基金管理有限公司采取出具警示函监督管理措施的决定",
+   "docNo": "",
+   "party": "",
+   "url": "https://www.csrc.gov.cn/jilin/c103788/c7671955/content.shtml"
   },
   {
    "date": "2026-11-20",
@@ -1111,16 +1131,6 @@
    "docNo": "",
    "party": "",
    "url": "https://www.csrc.gov.cn/jilin/c103788/c7669326/content.shtml"
-  },
-  {
-   "date": "2026-11-06",
-   "channel": "监管工作",
-   "column": "辖区监管动态",
-   "tag": "责令改正",
-   "title": "关于对中信证券股份有限公司吉林省分公司采取责令改正行政监管措施的决定",
-   "docNo": "",
-   "party": "",
-   "url": "https://www.csrc.gov.cn/jilin/c103788/c7669322/content.shtml"
   },
   {
    "date": "2026-10-23",
@@ -4116,6 +4126,128 @@
   },
   {
    "date": "2026-11-26",
+   "media": "财联社",
+   "title": "中国首例无线侵入式汉语脑机接口临床试验完成 让渐冻症患者“开口说话”",
+   "url": "http://finance.eastmoney.com/a/202611263940890891.html",
+   "keyword": "首例",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "证券日报",
+   "title": "固收深一度·深市REITs行｜两年四次分红1.9亿元 首单水利REIT运营成色足",
+   "url": "http://finance.eastmoney.com/a/202611263940885129.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "上海证券报",
+   "title": "光大证券助力中光新能源成功发行全国首单光热电站资产机构间REITs",
+   "url": "http://bond.eastmoney.com/a/202611263940677619.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs",
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "中国新闻网",
+   "title": "京津冀首个卫星AIT共享中心投运 雄安可“共享”造星",
+   "url": "http://finance.eastmoney.com/a/202611263940906430.html",
+   "keyword": "首个",
+   "topics": [
+    "商业航天"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "央视新闻",
+   "title": "我国发布全球首个高效灵活燃煤发电技术",
+   "url": "http://finance.eastmoney.com/a/202611263940827683.html",
+   "keyword": "首个",
+   "topics": [
+    "新能源"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "科创板日报",
+   "title": "国内首个耐1000℃高温消防侦察机器狗完成实战测试",
+   "url": "http://finance.eastmoney.com/a/202611263940879733.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "第一财经",
+   "title": "全球首个乙肝功能性治愈新药贝普若韦生中国获批上市",
+   "url": "http://finance.eastmoney.com/a/202611263940830018.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "界面新闻",
+   "title": "全球首个乙肝功能性治愈新药贝普若韦生在中国获批",
+   "url": "http://finance.eastmoney.com/a/202611263940935351.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "第一财经",
+   "title": "全球首个乙肝功能性治愈新药贝普若韦生中国获批",
+   "url": "http://finance.eastmoney.com/a/202611263940856859.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "财联社",
+   "title": "中企在海外建设的首个大型海上风电项目正式移交",
+   "url": "http://finance.eastmoney.com/a/202611263940620750.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "界面新闻",
+   "title": "SpaceX拿下首张百万颗太空计算卫星许可",
+   "url": "http://finance.eastmoney.com/a/202611263940728175.html",
+   "keyword": "首张",
+   "topics": [
+    "商业航天"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "第一财经",
+   "title": "SpaceX获首张“太空数据中心许可证”，马斯克太空算力愿景更近了",
+   "url": "http://insurance.eastmoney.com/a/202611263940588853.html",
+   "keyword": "首张",
+   "topics": [
+    "算力/AI",
+    "商业航天"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
    "media": "新华财经",
    "title": "香港金管局正式推出CMU数字资产平台 首批10家CMU会员参与",
    "url": "http://forex.eastmoney.com/a/202611263940466820.html",
@@ -4137,6 +4269,15 @@
    "media": "界面新闻",
    "title": "首批主动ETF迎“私募首秀” 业内看好多元配置逻辑",
    "url": "http://fund.eastmoney.com/a/202611263939969510.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
+   "date": "2026-11-26",
+   "media": "中国新闻网",
+   "title": "粤港澳大湾区首批用水器具水效标准亮相鹏城",
+   "url": "http://finance.eastmoney.com/a/202611263940900934.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
@@ -5064,148 +5205,13 @@
     "REITs"
    ],
    "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "第一财经",
-   "title": "国内推出首个智能座舱AI分级评价体系",
-   "url": "http://finance.eastmoney.com/a/202611203935816396.html",
-   "keyword": "首个",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "央视新闻",
-   "title": "全国首个独立运行的兆瓦级海岛微电网投运",
-   "url": "http://finance.eastmoney.com/a/202611203935668790.html",
-   "keyword": "首个",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "每日经济新闻",
-   "title": "谷歌推出Gemini 4 Neon模型；英特尔18A工艺签下首家外部客户｜数智早参",
-   "url": "http://finance.eastmoney.com/a/202611203935475153.html",
-   "keyword": "首家",
-   "topics": [
-    "集成电路"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "中国新闻网",
-   "title": "江苏首例侵入式脑机接口手术患者实现“脑控”轮椅出行",
-   "url": "http://finance.eastmoney.com/a/202611203936054412.html",
-   "keyword": "首例",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "21世纪经济报道",
-   "title": "山西首单公募REITs上市，首日收涨7.58%",
-   "url": "http://finance.eastmoney.com/a/202611203935990655.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "证券日报",
-   "title": "全国首单地方高速公路企业机构间REITs落地",
-   "url": "http://bond.eastmoney.com/a/202611203936375437.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "新华财经",
-   "title": "全国首单水务机构间REIT扩募落地",
-   "url": "http://bond.eastmoney.com/a/202611203936277916.html",
-   "keyword": "首单",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "证券时报网",
-   "title": "全国首单！首创环保水务类机构间REITs首次扩募成功",
-   "url": "http://bond.eastmoney.com/a/202611203936238976.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "中国新闻网",
-   "title": "江西首个“万兆光网+数字标注”OPC社区揭牌落地",
-   "url": "http://finance.eastmoney.com/a/202611203936503870.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "财联社",
-   "title": "指数工具扩容，多家公募集中上报首批双创半导体、沪深港算力、航运ETF",
-   "url": "http://stock.eastmoney.com/a/202611203936450660.html",
-   "keyword": "首批",
-   "topics": [
-    "算力/AI",
-    "集成电路"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "中国证券报·中证金牛座",
-   "title": "一天“上新”30只基金，涌现出三类首批ETF",
-   "url": "http://bond.eastmoney.com/a/202611203936534298.html",
-   "keyword": "首批",
-   "topics": [
-    "算力/AI",
-    "集成电路"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-20",
-   "media": "每日经济新闻",
-   "title": "9家券商参投DeepSeek，中信证券对应出资约80亿元；首批主动ETF持仓曝光，最高仓位突破九成 | 券商基金早参",
-   "url": "http://finance.eastmoney.com/a/202611203935928113.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-20",
-   "media": "财联社",
-   "title": "永赢基金宣布自购1亿元旗下主动ETF 首批主动ETF自购金额已超28亿元",
-   "url": "http://stock.eastmoney.com/a/202611203936051555.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "total": 4405,
   "pipelineTotal": 823,
-  "activeTotal": 192,
+  "activeTotal": 193,
   "successTotal": 154,
   "failTotal": 191,
   "stages": [
@@ -5216,7 +5222,7 @@
    },
    {
     "name": "已问询",
-    "count": 157,
+    "count": 158,
     "kind": "active"
    },
    {
@@ -5585,6 +5591,26 @@
   ],
   "recentActive": [
    {
+    "date": "2026-11-26",
+    "acceptDate": "2026-06-30",
+    "company": "上海维安电子股份有限公司",
+    "market": "沪主板",
+    "industry": "计算机、通信和其他电子设备制造业",
+    "state": "已问询",
+    "region": "上海",
+    "sponsor": "中信证券股份有限公司"
+   },
+   {
+    "date": "2026-11-26",
+    "acceptDate": "2026-05-11",
+    "company": "株洲科能新材料股份有限公司",
+    "market": "科创板",
+    "industry": "有色金属冶炼和压延加工业",
+    "state": "已问询",
+    "region": "湖南",
+    "sponsor": "申港证券股份有限公司"
+   },
+   {
     "date": "2026-11-25",
     "acceptDate": "2026-06-12",
     "company": "深达威科技(广东)股份有限公司",
@@ -5723,16 +5749,6 @@
     "state": "已问询",
     "region": "山东省 烟台市",
     "sponsor": "国投证券股份有限公司"
-   },
-   {
-    "date": "2026-11-13",
-    "acceptDate": "2026-05-11",
-    "company": "株洲科能新材料股份有限公司",
-    "market": "科创板",
-    "industry": "有色金属冶炼和压延加工业",
-    "state": "已问询",
-    "region": "湖南",
-    "sponsor": "申港证券股份有限公司"
    },
    {
     "date": "2026-11-13",
@@ -5973,16 +5989,6 @@
     "state": "已问询",
     "region": "福建省 南平市",
     "sponsor": "平安证券股份有限公司"
-   },
-   {
-    "date": "2026-11-02",
-    "acceptDate": "2026-06-08",
-    "company": "浙江胜华波电器股份有限公司",
-    "market": "沪主板",
-    "industry": "汽车制造业",
-    "state": "已问询",
-    "region": "浙江",
-    "sponsor": "国泰海通证券股份有限公司"
    }
   ]
  }
