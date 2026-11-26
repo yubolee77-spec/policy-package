@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-26 22:21",
- "mediaFetchedAt": "2026-11-26 22:21",
+ "generatedAt": "2026-11-27 00:46",
+ "mediaFetchedAt": "2026-11-27 00:46",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 24,
+  "eastmoney": 25,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 4,
   "mediaTotal": 120,
-  "mediaStrong": 61,
+  "mediaStrong": 62,
   "activeTotal": 193,
   "successTotal": 154,
   "cycleRecentAvg": 266,
@@ -4067,6 +4067,15 @@
  ],
  "media": [
   {
+   "date": "2026-11-27",
+   "media": "第一财经",
+   "title": "深蓝汽车将首批搭载华为星驰智驾",
+   "url": "http://finance.eastmoney.com/a/202611273940996890.html",
+   "keyword": "首批",
+   "topics": [],
+   "strong": false
+  },
+  {
    "date": "2026-11-26",
    "media": "上海证券报·中国证券网",
    "title": "全国首单五类业态资产支持专项计划落地 柳钢集团拓宽存量资产盘活路径",
@@ -4244,6 +4253,46 @@
     "算力/AI",
     "商业航天"
    ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "每日经济新闻",
+   "title": "民营房企首单商业不动产REITs落地 业内：有助于提振民营房企信心，盘活存量商业物业",
+   "url": "http://stock.eastmoney.com/a/202611263940995850.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "21世纪经济报道",
+   "title": "首单水利REITs落地两年，“一座水库”投资价值几何？",
+   "url": "http://finance.eastmoney.com/a/202611263940959736.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "新华财经",
+   "title": "上海静安首单知识产权资产支持证券（ABS）项目发布",
+   "url": "http://bond.eastmoney.com/a/202611263940951018.html",
+   "keyword": "首单",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-26",
+   "media": "21世纪经济报道",
+   "title": "最高达61%！全球首个乙肝功能性治愈新药在中国获批上市",
+   "url": "http://finance.eastmoney.com/a/202611263940966833.html",
+   "keyword": "首个",
+   "topics": [],
    "strong": true
   },
   {
@@ -5155,55 +5204,6 @@
    "url": "http://finance.eastmoney.com/a/202611213936548478.html",
    "keyword": "首个",
    "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-21",
-   "media": "界面新闻",
-   "title": "宁德时代在土耳其首个宁家服务体验中心开业",
-   "url": "http://finance.eastmoney.com/a/202611213936782092.html",
-   "keyword": "首个",
-   "topics": [],
-   "strong": true
-  },
-  {
-   "date": "2026-11-21",
-   "media": "中国新闻网",
-   "title": "松原首批氢能试点超亿元奖励资金拨付到企",
-   "url": "http://finance.eastmoney.com/a/202611213936839858.html",
-   "keyword": "首批",
-   "topics": [
-    "新能源"
-   ],
-   "strong": true
-  },
-  {
-   "date": "2026-11-21",
-   "media": "界面新闻",
-   "title": "中国石化资本联合组建易消盾公司，上市首批锂电池专用灭火器",
-   "url": "http://finance.eastmoney.com/a/202611213936787524.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-21",
-   "media": "财联社",
-   "title": "券商也“扫货”首批主动ETF，国泰海通覆盖9只产品居首，招商、申万宏源紧随其后",
-   "url": "http://stock.eastmoney.com/a/202611213936797469.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-20",
-   "media": "21世纪经济报道",
-   "title": "首单央企商业不动产REITs上市，房企资产如何焕发新价值？",
-   "url": "http://finance.eastmoney.com/a/202611203935925527.html",
-   "keyword": "首单",
-   "topics": [
-    "REITs"
-   ],
    "strong": true
   }
  ],
