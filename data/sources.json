@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27 03:59",
+ "generatedAt": "2026-11-27 11:47",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 94,
-   "fetchedAt": "2026-11-27 03:59",
+   "fetchedAt": "2026-11-27 11:47",
    "ageDays": 18
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-11-27 03:59",
+   "fetchedAt": "2026-11-27 11:47",
    "ageDays": 129
   },
   {
@@ -53,8 +53,8 @@
     "source": "gov.cn 文件库"
    },
    "stale": false,
-   "total": 21,
-   "fetchedAt": "2026-11-27 03:59",
+   "total": 14,
+   "fetchedAt": "2026-11-27 11:47",
    "ageDays": 392
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.ce.cn/pc/content/202611/26/content_342490.html",
+   "href": "http://paper.people.com.cn/rmrb/pc/content/202611/27/content_30193326.html",
    "latest": {
-    "title": "刚性节约指标是压力也是动力",
-    "url": "http://paper.ce.cn/pc/content/202611/26/content_342490.html",
-    "date": "2026-11-26",
-    "source": "经济日报"
+    "title": "从四座城看“两个结合”的新时代实践",
+    "url": "http://paper.people.com.cn/rmrb/pc/content/202611/27/content_30193326.html",
+    "date": "2026-11-27",
+    "source": "人民日报"
    },
    "stale": false,
-   "total": 203,
-   "fetchedAt": "2026-11-27 03:59",
-   "ageDays": 1
+   "total": 205,
+   "fetchedAt": "2026-11-27 11:47",
+   "ageDays": 0
   }
  ],
  "stale": false,

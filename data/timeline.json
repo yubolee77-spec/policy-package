@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-27 03:59",
+ "generatedAt": "2026-11-27 11:47",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 330,
+ "candidateCount": 332,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,6 +332,30 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-27 · 2026年1—10月份全国规模以上工业企业利润增长16.0%（国家统计局最新数据发布）",
+     "title": "2026年1—10月份全国规模以上工业企业利润增长16.0%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
+     "date": "2026-11-27",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
+     "label": "2026-11-27 · 从四座城看“两个结合”的新时代实践（人民日报）",
+     "title": "从四座城看“两个结合”的新时代实践",
+     "url": "http://paper.people.com.cn/rmrb/pc/content/202611/27/content_30193326.html",
+     "date": "2026-11-27",
+     "source": "人民日报",
+     "noise": false
+    },
+    {
+     "label": "2026-11-27 · 发挥先导作用共塑“黄金内湾”（经济日报）",
+     "title": "发挥先导作用共塑“黄金内湾”",
+     "url": "http://paper.ce.cn/pc/content/202611/27/content_342543.html",
+     "date": "2026-11-27",
+     "source": "经济日报",
+     "noise": false
+    },
+    {
      "label": "2026-11-26 · 三部门关于印发《新一代通信网建设实施方案》的通知（工信部最新政策文件）",
      "title": "三部门关于印发《新一代通信网建设实施方案》的通知",
      "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7087375.htm",
@@ -353,30 +377,6 @@
      "url": "http://paper.ce.cn/pc/content/202611/25/content_342432.html",
      "date": "2026-11-25",
      "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-24 · 为什么总有人刻意看空中国经济（经济日报）",
-     "title": "为什么总有人刻意看空中国经济",
-     "url": "http://paper.ce.cn/pc/content/202611/24/content_342378.html",
-     "date": "2026-11-24",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-24 · 金观平：为什么总有人刻意看空中国经济（经济日报）",
-     "title": "金观平：为什么总有人刻意看空中国经济",
-     "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261124_3303373.shtml",
-     "date": "2026-11-24",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-23 · 关于印发《“一老一小”服务体系建设实施方案》的通知（发改委最新政策文件）",
-     "title": "关于印发《“一老一小”服务体系建设实施方案》的通知",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7087024.htm",
-     "date": "2026-11-23",
-     "source": "发改委最新政策文件",
      "noise": false
     }
    ],
