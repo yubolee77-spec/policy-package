@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27 22:23",
+ "generatedAt": "2026-11-28 00:36",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 332,
@@ -332,51 +332,51 @@
    "status": "hot",
    "docs": [
     {
+     "label": "2026-11-27 · 中国证监会传达学习贯彻国务院常务会议精神（证监会最新动态）",
+     "title": "中国证监会传达学习贯彻国务院常务会议精神",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7673674/content.shtml",
+     "date": "2026-11-27",
+     "source": "证监会最新动态",
+     "noise": false
+    },
+    {
+     "label": "2026-11-27 · 中国证监会严肃查处两起编造传播证券市场误导性信息案件（证监会最新动态）",
+     "title": "中国证监会严肃查处两起编造传播证券市场误导性信息案件",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7673660/content.shtml",
+     "date": "2026-11-27",
+     "source": "证监会最新动态",
+     "noise": false
+    },
+    {
+     "label": "2026-11-27 · 中国证监会同意瓦楞原纸期货和期权注册（证监会最新动态）",
+     "title": "中国证监会同意瓦楞原纸期货和期权注册",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7673465/content.shtml",
+     "date": "2026-11-27",
+     "source": "证监会最新动态",
+     "noise": false
+    },
+    {
+     "label": "2026-11-27 · 国务院常务会议：促进资本市场平稳健康发展（证监会最新动态）",
+     "title": "国务院常务会议：促进资本市场平稳健康发展",
+     "url": "https://www.csrc.gov.cn/csrc/c100028/c7673432/content.shtml",
+     "date": "2026-11-27",
+     "source": "证监会最新动态",
+     "noise": false
+    },
+    {
+     "label": "2026-11-27 · 2026年1—10月份全国规模以上工业企业利润增长16.0%（国家统计局最新数据发布）",
+     "title": "2026年1—10月份全国规模以上工业企业利润增长16.0%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
+     "date": "2026-11-27",
+     "source": "国家统计局最新数据发布",
+     "noise": false
+    },
+    {
      "label": "2026-11-27 · 从四座城看“两个结合”的新时代实践（人民日报）",
      "title": "从四座城看“两个结合”的新时代实践",
      "url": "http://paper.people.com.cn/rmrb/pc/content/202611/27/content_30193326.html",
      "date": "2026-11-27",
      "source": "人民日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-27 · 发挥先导作用共塑“黄金内湾”（经济日报）",
-     "title": "发挥先导作用共塑“黄金内湾”",
-     "url": "http://paper.ce.cn/pc/content/202611/27/content_342543.html",
-     "date": "2026-11-27",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-26 · 三部门关于印发《新一代通信网建设实施方案》的通知（工信部最新政策文件）",
-     "title": "三部门关于印发《新一代通信网建设实施方案》的通知",
-     "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7087375.htm",
-     "date": "2026-11-26",
-     "source": "工信部最新政策文件",
-     "noise": false
-    },
-    {
-     "label": "2026-11-26 · 刚性节约指标是压力也是动力（经济日报）",
-     "title": "刚性节约指标是压力也是动力",
-     "url": "http://paper.ce.cn/pc/content/202611/26/content_342490.html",
-     "date": "2026-11-26",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-25 · 递稳跨年政策衔接“交接棒”（经济日报）",
-     "title": "递稳跨年政策衔接“交接棒”",
-     "url": "http://paper.ce.cn/pc/content/202611/25/content_342432.html",
-     "date": "2026-11-25",
-     "source": "经济日报",
-     "noise": false
-    },
-    {
-     "label": "2026-11-24 · 为什么总有人刻意看空中国经济（经济日报）",
-     "title": "为什么总有人刻意看空中国经济",
-     "url": "http://paper.ce.cn/pc/content/202611/24/content_342378.html",
-     "date": "2026-11-24",
-     "source": "经济日报",
      "noise": false
     }
    ],

@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-27 22:18",
- "mediaFetchedAt": "2026-11-27 22:18",
+ "generatedAt": "2026-11-28 00:32",
+ "mediaFetchedAt": "2026-11-28 00:32",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 22,
+  "eastmoney": 21,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 4,
   "mediaTotal": 120,
-  "mediaStrong": 67,
+  "mediaStrong": 68,
   "activeTotal": 193,
   "successTotal": 154,
   "cycleRecentAvg": 266,
@@ -4174,6 +4174,17 @@
   },
   {
    "date": "2026-11-27",
+   "media": "中国新闻网",
+   "title": "探访西部首单产业园区公募REITs：于方寸焕新间，看见运营韧性",
+   "url": "http://bond.eastmoney.com/a/202611273942043811.html",
+   "keyword": "首单",
+   "topics": [
+    "REITs"
+   ],
+   "strong": true
+  },
+  {
+   "date": "2026-11-27",
    "media": "第一财经",
    "title": "深蓝汽车将首批搭载华为星驰智驾",
    "url": "http://finance.eastmoney.com/a/202611273940996890.html",
@@ -5193,15 +5204,6 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-11-23",
-   "media": "央广财经",
-   "title": "小牛说市｜A股上新！首批主动ETF正式挂牌",
-   "url": "http://fund.eastmoney.com/a/202611233937721070.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
@@ -5210,7 +5212,7 @@
   "pipelineTotal": 822,
   "activeTotal": 193,
   "successTotal": 154,
-  "failTotal": 192,
+  "failTotal": 193,
   "stages": [
    {
     "name": "已受理",
@@ -5239,7 +5241,7 @@
    },
    {
     "name": "已终止 / 撤回",
-    "count": 192,
+    "count": 193,
     "kind": "fail"
    }
   ],
@@ -5590,21 +5592,21 @@
    {
     "date": "2026-11-27",
     "acceptDate": "2026-06-30",
-    "company": "杭州优云科技股份有限公司",
-    "market": "北交所",
-    "industry": "互联网和相关服务",
-    "state": "已问询",
-    "region": "浙江省 杭州市",
-    "sponsor": "中信证券股份有限公司"
-   },
-   {
-    "date": "2026-11-27",
-    "acceptDate": "2026-06-30",
     "company": "上海维安电子股份有限公司",
     "market": "沪主板",
     "industry": "计算机、通信和其他电子设备制造业",
     "state": "已问询",
     "region": "上海",
+    "sponsor": "中信证券股份有限公司"
+   },
+   {
+    "date": "2026-11-27",
+    "acceptDate": "2026-06-30",
+    "company": "杭州优云科技股份有限公司",
+    "market": "北交所",
+    "industry": "互联网和相关服务",
+    "state": "已问询",
+    "region": "浙江省 杭州市",
     "sponsor": "中信证券股份有限公司"
    },
    {

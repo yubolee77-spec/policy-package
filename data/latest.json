@@ -1,8 +1,101 @@
 {
-  "lastUpdated": "2026-11-27",
-  "fetchedAt": "2026-11-27 22:14",
+  "lastUpdated": "2026-11-28",
+  "fetchedAt": "2026-11-28 00:30",
   "monthLabel": "2026年11月",
   "timeline": [
+    {
+      "title": "中国证监会传达学习贯彻国务院常务会议精神",
+      "desc": "证监会最新动态",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7673674/content.shtml",
+      "date": "2026-11-27",
+      "summary": "",
+      "tier": "dept",
+      "keywords": [
+        {
+          "type": "ding",
+          "text": "加力"
+        },
+        {
+          "type": "ding",
+          "text": "全力"
+        },
+        {
+          "type": "deg",
+          "text": "持续"
+        },
+        {
+          "type": "deg",
+          "text": "进一步"
+        }
+      ],
+      "keySentence": "国常会强调，加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能，提供充足流动性保障。"
+    },
+    {
+      "title": "中国证监会严肃查处两起编造传播证券市场误导性信息案件",
+      "desc": "证监会最新动态",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7673660/content.shtml",
+      "date": "2026-11-27",
+      "summary": "",
+      "tier": "dept",
+      "keywords": [
+        {
+          "type": "ding",
+          "text": "加强"
+        },
+        {
+          "type": "restrict",
+          "text": "查处"
+        }
+      ],
+      "keySentence": "中国证监会对资本市场造谣传谣零容忍，严惩编造、传播、散布虚假、误导性信息的行为，也提醒投资者加强信息辨别，不造谣不传谣不信谣。"
+    },
+    {
+      "title": "中国证监会同意瓦楞原纸期货和期权注册",
+      "desc": "证监会最新动态",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7673465/content.shtml",
+      "date": "2026-11-27",
+      "summary": "",
+      "tier": "dept",
+      "keywords": [],
+      "keySentence": "近日，中国证监会同意上海期货交易所瓦楞原纸期货和期权注册。"
+    },
+    {
+      "title": "国务院常务会议：促进资本市场平稳健康发展",
+      "desc": "证监会最新动态",
+      "url": "https://www.csrc.gov.cn/csrc/c100028/c7673432/content.shtml",
+      "date": "2026-11-27",
+      "summary": "",
+      "tier": "dept",
+      "keywords": [
+        {
+          "type": "ding",
+          "text": "坚决"
+        },
+        {
+          "type": "ding",
+          "text": "加力"
+        },
+        {
+          "type": "deg",
+          "text": "持续"
+        },
+        {
+          "type": "deg",
+          "text": "进一步"
+        }
+      ],
+      "keySentence": "要依法强化资本市场全链条监管，坚决查处财务造假、违规减持等行为，有效保护投资者合法权益。"
+    },
+    {
+      "title": "2026年1—10月份全国规模以上工业企业利润增长16.0%",
+      "desc": "国家统计局最新数据发布",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
+      "date": "2026-11-27",
+      "summary": "",
+      "tier": "dept",
+      "keywords": [],
+      "keySentence": "表22026年1-10月份规模以上工业企业经济效益指标。"
+    },
     {
       "title": "三部门关于印发《新一代通信网建设实施方案》的通知",
       "desc": "工信部最新政策文件",
@@ -42,6 +135,16 @@
       "keySentence": ""
     },
     {
+      "title": "吴清主席会见印度驻华大使魏嘉盟",
+      "desc": "证监会最新动态",
+      "url": "https://www.csrc.gov.cn/csrc/c106311/c7672435/content.shtml",
+      "date": "2026-11-23",
+      "summary": "",
+      "tier": "dept",
+      "keywords": [],
+      "keySentence": "双方就全球金融市场形势、中印资本市场改革发展及增进务实合作等议题交换了意见。"
+    },
+    {
       "title": "2026年11月中旬流通领域重要生产资料市场价格变动情况",
       "desc": "国家统计局最新数据发布",
       "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261123_1965935.html",
@@ -50,18 +153,6 @@
       "tier": "dept",
       "keywords": [],
       "keySentence": "流通领域重要生产资料市场价格，是指重要生产资料经营企业的批发和销售价格。"
-    },
-    {
-      "title": "吴清主席会见印度驻华大使魏嘉盟",
-      "desc": "证监会最新动态",
-      "url": "https://www.csrc.gov.cn/csrc/c106311/c7672435/content.shtml",
-      "date": "2026-11-23",
-      "summary": "",
-      "tier": "dept",
-      "keywords": [],
-      "keySentence": "双方就全球金融市场形势、中印资本市场改革发展及增进务实合作等议题交换了意见。",
-      "carried": true,
-      "carriedFrom": "2026-11-27 11:39"
     },
     {
       "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例",
@@ -88,9 +179,7 @@
           "text": "实施"
         }
       ],
-      "keySentence": "卢某对某APP人工智能生成的“游戏等互联网增值服务增值税税率将从6%调高至32%”相关信息未加甄别上传网络，陈某看到后转发至本人自媒体账号，进一步扩大谣言传播。",
-      "carried": true,
-      "carriedFrom": "2026-11-27 11:39"
+      "keySentence": "卢某对某APP人工智能生成的“游戏等互联网增值服务增值税税率将从6%调高至32%”相关信息未加甄别上传网络，陈某看到后转发至本人自媒体账号，进一步扩大谣言传播。"
     },
     {
       "title": "中国证监会新闻发言人答记者问",
@@ -105,30 +194,7 @@
           "text": "监管"
         }
       ],
-      "keySentence": "问：近日，发现互联网上传播“监管要求基金公司上报全部产品AI敞口”相关信息，请问这一情况是否属实。",
-      "carried": true,
-      "carriedFrom": "2026-11-27 11:39"
-    },
-    {
-      "title": "中国证监会陈华平副主席与国际证监会组织秘书长举行会谈",
-      "desc": "证监会最新动态",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7671332/content.shtml",
-      "date": "2026-11-17",
-      "summary": "",
-      "tier": "dept",
-      "keywords": [
-        {
-          "type": "ding",
-          "text": "强化"
-        },
-        {
-          "type": "deg",
-          "text": "深化"
-        }
-      ],
-      "keySentence": "主办单位：中国证券监督管理委员会版权所有：中国证券监督管理委员会。",
-      "carried": true,
-      "carriedFrom": "2026-11-27 11:39"
+      "keySentence": "问：近日，发现互联网上传播“监管要求基金公司上报全部产品AI敞口”相关信息，请问这一情况是否属实。"
     },
     {
       "title": "两部门关于印发《以标准提升引领轻工业优化升级实施方案》的通知",
@@ -215,62 +281,6 @@
       "keySentence": "版权所有:国家统计局联系我们服务条款网站地图。"
     },
     {
-      "title": "2026年10月份70个大中城市商品住宅销售价格变动情况",
-      "desc": "国家统计局最新数据发布",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965836.html",
-      "date": "2026-11-16",
-      "summary": "",
-      "tier": "dept",
-      "keywords": [],
-      "keySentence": "表2：2026年10月70个大中城市二手住宅销售价格指数。"
-    },
-    {
-      "title": "中国证监会在沪召开国际顾问委员会第23次会议",
-      "desc": "证监会最新动态",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7671195/content.shtml",
-      "date": "2026-11-16",
-      "summary": "",
-      "tier": "dept",
-      "keywords": [
-        {
-          "type": "deg",
-          "text": "持续"
-        },
-        {
-          "type": "deg",
-          "text": "深入"
-        },
-        {
-          "type": "verb",
-          "text": "推动"
-        },
-        {
-          "type": "verb",
-          "text": "推进"
-        }
-      ],
-      "keySentence": "顾委会委员们高度评价中国政府持续深化资本市场改革开放、促进市场稳定健康发展的坚定决心和战略定力，以及“十五五”规划对中国资本市场行稳致远作出的战略擘画。",
-      "carried": true,
-      "carriedFrom": "2026-11-27 11:39"
-    },
-    {
-      "title": "吴清主席在首届中国资本市场学术年会开幕式上的致辞",
-      "desc": "证监会最新动态",
-      "url": "https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml",
-      "date": "2026-11-14",
-      "summary": "",
-      "tier": "dept",
-      "keywords": [
-        {
-          "type": "verb",
-          "text": "支持"
-        }
-      ],
-      "keySentence": "衷心感谢大家长期以来对中国资本市场的关心和支持。",
-      "carried": true,
-      "carriedFrom": "2026-11-27 11:39"
-    },
-    {
       "title": "关于印发《“十五五”新型储能实施方案》的通知",
       "desc": "发改委最新政策文件",
       "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7085997.htm",
@@ -288,35 +298,6 @@
         }
       ],
       "keySentence": ""
-    },
-    {
-      "title": "国家统计局2026年常规统计督察第9统计督察组向中国证监会反馈统计督察意见",
-      "desc": "证监会最新动态",
-      "url": "https://www.csrc.gov.cn/csrc/c100028/c7670809/content.shtml",
-      "date": "2026-11-13",
-      "summary": "",
-      "tier": "dept",
-      "keywords": [
-        {
-          "type": "ding",
-          "text": "坚决"
-        },
-        {
-          "type": "ding",
-          "text": "加强"
-        },
-        {
-          "type": "deg",
-          "text": "深入"
-        },
-        {
-          "type": "verb",
-          "text": "推动"
-        }
-      ],
-      "keySentence": "督察要求，中国证监会要深入学习贯彻习近平总书记关于统计工作重要讲话和指示批示精神，坚决贯彻落实党中央和国务院关于统计工作重大决策部署。",
-      "carried": true,
-      "carriedFrom": "2026-11-27 11:39"
     },
     {
       "title": "中医药传统知识保护条例",
@@ -2984,9 +2965,7 @@
           "text": "落实"
         }
       ],
-      "keySentence": "刚刚下午3点，国务院发布《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》。",
-      "carried": true,
-      "carriedFrom": "2026-11-27 11:39"
+      "keySentence": "刚刚下午3点，国务院发布《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》。"
     }
   ],
   "commentary": [
@@ -8636,6 +8615,89 @@
     ],
     "证监会最新动态": [
       {
+        "title": "中国证监会传达学习贯彻国务院常务会议精神",
+        "desc": "证监会最新动态",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7673674/content.shtml",
+        "date": "2026-11-27",
+        "summary": "",
+        "tier": "dept",
+        "keywords": [
+          {
+            "type": "ding",
+            "text": "加力"
+          },
+          {
+            "type": "ding",
+            "text": "全力"
+          },
+          {
+            "type": "deg",
+            "text": "持续"
+          },
+          {
+            "type": "deg",
+            "text": "进一步"
+          }
+        ],
+        "keySentence": "国常会强调，加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能，提供充足流动性保障。"
+      },
+      {
+        "title": "中国证监会严肃查处两起编造传播证券市场误导性信息案件",
+        "desc": "证监会最新动态",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7673660/content.shtml",
+        "date": "2026-11-27",
+        "summary": "",
+        "tier": "dept",
+        "keywords": [
+          {
+            "type": "ding",
+            "text": "加强"
+          },
+          {
+            "type": "restrict",
+            "text": "查处"
+          }
+        ],
+        "keySentence": "中国证监会对资本市场造谣传谣零容忍，严惩编造、传播、散布虚假、误导性信息的行为，也提醒投资者加强信息辨别，不造谣不传谣不信谣。"
+      },
+      {
+        "title": "中国证监会同意瓦楞原纸期货和期权注册",
+        "desc": "证监会最新动态",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7673465/content.shtml",
+        "date": "2026-11-27",
+        "summary": "",
+        "tier": "dept",
+        "keywords": [],
+        "keySentence": "近日，中国证监会同意上海期货交易所瓦楞原纸期货和期权注册。"
+      },
+      {
+        "title": "国务院常务会议：促进资本市场平稳健康发展",
+        "desc": "证监会最新动态",
+        "url": "https://www.csrc.gov.cn/csrc/c100028/c7673432/content.shtml",
+        "date": "2026-11-27",
+        "summary": "",
+        "tier": "dept",
+        "keywords": [
+          {
+            "type": "ding",
+            "text": "坚决"
+          },
+          {
+            "type": "ding",
+            "text": "加力"
+          },
+          {
+            "type": "deg",
+            "text": "持续"
+          },
+          {
+            "type": "deg",
+            "text": "进一步"
+          }
+        ],
+        "keySentence": "要依法强化资本市场全链条监管，坚决查处财务造假、违规减持等行为，有效保护投资者合法权益。"
+      },
+      {
         "title": "吴清主席会见印度驻华大使魏嘉盟",
         "desc": "证监会最新动态",
         "url": "https://www.csrc.gov.cn/csrc/c106311/c7672435/content.shtml",
@@ -8643,9 +8705,7 @@
         "summary": "",
         "tier": "dept",
         "keywords": [],
-        "keySentence": "双方就全球金融市场形势、中印资本市场改革发展及增进务实合作等议题交换了意见。",
-        "carried": true,
-        "carriedFrom": "2026-11-27 11:39"
+        "keySentence": "双方就全球金融市场形势、中印资本市场改革发展及增进务实合作等议题交换了意见。"
       },
       {
         "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例",
@@ -8672,9 +8732,7 @@
             "text": "实施"
           }
         ],
-        "keySentence": "卢某对某APP人工智能生成的“游戏等互联网增值服务增值税税率将从6%调高至32%”相关信息未加甄别上传网络，陈某看到后转发至本人自媒体账号，进一步扩大谣言传播。",
-        "carried": true,
-        "carriedFrom": "2026-11-27 11:39"
+        "keySentence": "卢某对某APP人工智能生成的“游戏等互联网增值服务增值税税率将从6%调高至32%”相关信息未加甄别上传网络，陈某看到后转发至本人自媒体账号，进一步扩大谣言传播。"
       },
       {
         "title": "中国证监会新闻发言人答记者问",
@@ -8689,105 +8747,7 @@
             "text": "监管"
           }
         ],
-        "keySentence": "问：近日，发现互联网上传播“监管要求基金公司上报全部产品AI敞口”相关信息，请问这一情况是否属实。",
-        "carried": true,
-        "carriedFrom": "2026-11-27 11:39"
-      },
-      {
-        "title": "中国证监会陈华平副主席与国际证监会组织秘书长举行会谈",
-        "desc": "证监会最新动态",
-        "url": "https://www.csrc.gov.cn/csrc/c100028/c7671332/content.shtml",
-        "date": "2026-11-17",
-        "summary": "",
-        "tier": "dept",
-        "keywords": [
-          {
-            "type": "ding",
-            "text": "强化"
-          },
-          {
-            "type": "deg",
-            "text": "深化"
-          }
-        ],
-        "keySentence": "主办单位：中国证券监督管理委员会版权所有：中国证券监督管理委员会。",
-        "carried": true,
-        "carriedFrom": "2026-11-27 11:39"
-      },
-      {
-        "title": "中国证监会在沪召开国际顾问委员会第23次会议",
-        "desc": "证监会最新动态",
-        "url": "https://www.csrc.gov.cn/csrc/c100028/c7671195/content.shtml",
-        "date": "2026-11-16",
-        "summary": "",
-        "tier": "dept",
-        "keywords": [
-          {
-            "type": "deg",
-            "text": "持续"
-          },
-          {
-            "type": "deg",
-            "text": "深入"
-          },
-          {
-            "type": "verb",
-            "text": "推动"
-          },
-          {
-            "type": "verb",
-            "text": "推进"
-          }
-        ],
-        "keySentence": "顾委会委员们高度评价中国政府持续深化资本市场改革开放、促进市场稳定健康发展的坚定决心和战略定力，以及“十五五”规划对中国资本市场行稳致远作出的战略擘画。",
-        "carried": true,
-        "carriedFrom": "2026-11-27 11:39"
-      },
-      {
-        "title": "吴清主席在首届中国资本市场学术年会开幕式上的致辞",
-        "desc": "证监会最新动态",
-        "url": "https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml",
-        "date": "2026-11-14",
-        "summary": "",
-        "tier": "dept",
-        "keywords": [
-          {
-            "type": "verb",
-            "text": "支持"
-          }
-        ],
-        "keySentence": "衷心感谢大家长期以来对中国资本市场的关心和支持。",
-        "carried": true,
-        "carriedFrom": "2026-11-27 11:39"
-      },
-      {
-        "title": "国家统计局2026年常规统计督察第9统计督察组向中国证监会反馈统计督察意见",
-        "desc": "证监会最新动态",
-        "url": "https://www.csrc.gov.cn/csrc/c100028/c7670809/content.shtml",
-        "date": "2026-11-13",
-        "summary": "",
-        "tier": "dept",
-        "keywords": [
-          {
-            "type": "ding",
-            "text": "坚决"
-          },
-          {
-            "type": "ding",
-            "text": "加强"
-          },
-          {
-            "type": "deg",
-            "text": "深入"
-          },
-          {
-            "type": "verb",
-            "text": "推动"
-          }
-        ],
-        "keySentence": "督察要求，中国证监会要深入学习贯彻习近平总书记关于统计工作重要讲话和指示批示精神，坚决贯彻落实党中央和国务院关于统计工作重大决策部署。",
-        "carried": true,
-        "carriedFrom": "2026-11-27 11:39"
+        "keySentence": "问：近日，发现互联网上传播“监管要求基金公司上报全部产品AI敞口”相关信息，请问这一情况是否属实。"
       },
       {
         "title": "2024年4月12日新闻发布会",
@@ -8814,9 +8774,7 @@
             "text": "落实"
           }
         ],
-        "keySentence": "刚刚下午3点，国务院发布《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》。",
-        "carried": true,
-        "carriedFrom": "2026-11-27 11:39"
+        "keySentence": "刚刚下午3点，国务院发布《国务院关于加强监管防范风险推动资本市场高质量发展的若干意见》。"
       }
     ],
     "工信部最新政策文件": [
@@ -8979,6 +8937,16 @@
     ],
     "国家统计局最新数据发布": [
       {
+        "title": "2026年1—10月份全国规模以上工业企业利润增长16.0%",
+        "desc": "国家统计局最新数据发布",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
+        "date": "2026-11-27",
+        "summary": "",
+        "tier": "dept",
+        "keywords": [],
+        "keySentence": "表22026年1-10月份规模以上工业企业经济效益指标。"
+      },
+      {
         "title": "2026年11月中旬流通领域重要生产资料市场价格变动情况",
         "desc": "国家统计局最新数据发布",
         "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261123_1965935.html",
@@ -9052,16 +9020,6 @@
         "tier": "dept",
         "keywords": [],
         "keySentence": "版权所有:国家统计局联系我们服务条款网站地图。"
-      },
-      {
-        "title": "2026年10月份70个大中城市商品住宅销售价格变动情况",
-        "desc": "国家统计局最新数据发布",
-        "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965836.html",
-        "date": "2026-11-16",
-        "summary": "",
-        "tier": "dept",
-        "keywords": [],
-        "keySentence": "表2：2026年10月70个大中城市二手住宅销售价格指数。"
       }
     ],
     "交易所最新公告": [
@@ -9087,9 +9045,5 @@
         "summary": ""
       }
     ]
-  },
-  "carriedSources": {
-    "证监会最新动态": 8
-  },
-  "carriedFrom": "2026-11-27 11:39"
+  }
 }
