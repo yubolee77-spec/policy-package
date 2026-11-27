@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27 11:47",
+  "updated": "2026-11-27 22:23",
   "items": [
     {
       "url": "https://www.gov.cn/zhengce/zhengceku/202611/content_7086964.htm",
@@ -50,6 +50,36 @@
       "industry": "其他审核",
       "amountYi": null,
       "src": "L1 政策速览"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101888/c7673655/content.shtml",
+      "title": "关于核准银河基金管理有限公司合格境内机构投资者资格的批复",
+      "date": "2026-11-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101846/c7673658/content.shtml",
+      "title": "关于核准华源证券股份有限公司变更主要股东的批复",
+      "date": "2026-11-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7673736/content.shtml",
+      "title": "关于同意江西靖安农村商业银行股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-11-19",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
     },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101830/c7672225/content.shtml",

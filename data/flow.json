@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-27 11:47",
+  "generatedAt": "2026-11-27 22:23",
   "asOf": "2026-11",
   "asOfLabel": "2026年11月",
-  "archiveTotal": 279,
-  "archiveAdded": 0,
+  "archiveTotal": 282,
+  "archiveAdded": 3,
   "channels": [
     {
       "key": "special_fund",
@@ -1250,13 +1250,13 @@
           "cur": {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 20,
+            "n": 23,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "其他审核": 5,
-              "再融资": 5,
-              "机构资格": 3,
+              "再融资": 6,
+              "机构资格": 5,
               "首发上市（IPO）": 2,
               "REITs 注册": 5
             }
@@ -1274,20 +1274,20 @@
               "再融资": 10
             }
           },
-          "deltaPct": -41.2,
+          "deltaPct": -32.4,
           "deltaAmountPct": null
         },
         "quarter": {
           "cur": {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 54,
+            "n": 57,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "其他审核": 15,
-              "再融资": 15,
-              "机构资格": 14,
+              "再融资": 16,
+              "机构资格": 16,
               "首发上市（IPO）": 5,
               "REITs 注册": 5
             }
@@ -1307,20 +1307,20 @@
               "并购重组": 2
             }
           },
-          "deltaPct": -41.9,
+          "deltaPct": -38.7,
           "deltaAmountPct": null
         },
         "year": {
           "cur": {
             "key": "2026",
             "label": "2026年",
-            "n": 164,
+            "n": 167,
             "amountYi": 0.0,
             "amountCount": 0,
             "industries": {
               "其他审核": 51,
-              "再融资": 27,
-              "机构资格": 45,
+              "再融资": 28,
+              "机构资格": 47,
               "首发上市（IPO）": 17,
               "REITs 注册": 19,
               "并购重组": 5
@@ -1339,7 +1339,7 @@
               "并购重组": 3
             }
           },
-          "deltaPct": 429.0,
+          "deltaPct": 438.7,
           "deltaAmountPct": null
         }
       },
@@ -1408,7 +1408,7 @@
           {
             "key": "2026-11",
             "label": "2026年11月",
-            "n": 20,
+            "n": 23,
             "amountYi": 0.0
           },
           {
@@ -1440,7 +1440,7 @@
           {
             "key": "2026Q4",
             "label": "2026年第4季度",
-            "n": 54,
+            "n": 57,
             "amountYi": 0.0
           }
         ],
@@ -1454,13 +1454,70 @@
           {
             "key": "2026",
             "label": "2026年",
-            "n": 164,
+            "n": 167,
             "amountYi": 0.0
           }
         ]
       },
       "industries": {
         "month": [
+          {
+            "name": "再融资",
+            "cur": 6,
+            "prev": 10,
+            "deltaPct": -40.0,
+            "items": [
+              {
+                "title": "关于同意重庆美利信科技股份有限公司向特定对象发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c105922/c7672040/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意银川威力传动技术股份有限公司向特定对象发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c105922/c7672029/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意江西靖安农村商业银行股份有限公司向特定对象发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7673736/content.shtml",
+                "date": "2026-11-19",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意江西崇仁农村商业银行股份有限公司向特定对象发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7672225/content.shtml",
+                "date": "2026-11-17",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意江西资溪农村商业银行股份有限公司向特定对象发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7672217/content.shtml",
+                "date": "2026-11-10",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意江苏盱眙农村商业银行股份有限公司向特定对象发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7672221/content.shtml",
+                "date": "2026-11-04",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 6
+          },
           {
             "name": "REITs 注册",
             "cur": 5,
@@ -1560,10 +1617,86 @@
             "totalItems": 5
           },
           {
-            "name": "再融资",
+            "name": "机构资格",
             "cur": 5,
-            "prev": 10,
-            "deltaPct": -50.0,
+            "prev": 11,
+            "deltaPct": -54.5,
+            "items": [
+              {
+                "title": "关于核准银河基金管理有限公司合格境内机构投资者资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101888/c7673655/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于核准华源证券股份有限公司变更主要股东的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101846/c7673658/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于核准东财基金管理有限公司私募资产管理业务资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101889/c7672159/content.shtml",
+                "date": "2026-11-16",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于核准路博迈基金管理（中国）有限公司合格境内机构投资者资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101888/c7669280/content.shtml",
+                "date": "2026-11-05",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于核准泉果基金管理有限公司变更持股5%以上股东的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101881/c7669336/content.shtml",
+                "date": "2026-11-03",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 5
+          },
+          {
+            "name": "首发上市（IPO）",
+            "cur": 2,
+            "prev": 3,
+            "deltaPct": -33.3,
+            "items": [
+              {
+                "title": "关于同意江苏耀坤液压股份有限公司首次公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c106385/c7670733/content.shtml",
+                "date": "2026-11-13",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意广东保伦电子股份有限公司首次公开发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c106385/c7669312/content.shtml",
+                "date": "2026-11-06",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              }
+            ],
+            "totalItems": 2
+          }
+        ],
+        "quarter": [
+          {
+            "name": "再融资",
+            "cur": 16,
+            "prev": 12,
+            "deltaPct": 33.3,
             "items": [
               {
                 "title": "关于同意重庆美利信科技股份有限公司向特定对象发行股票注册的批复",
@@ -1577,6 +1710,14 @@
                 "title": "关于同意银川威力传动技术股份有限公司向特定对象发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c105922/c7672029/content.shtml",
                 "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意江西靖安农村商业银行股份有限公司向特定对象发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7673736/content.shtml",
+                "date": "2026-11-19",
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
@@ -1606,14 +1747,30 @@
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 5
+            "totalItems": 16
           },
           {
             "name": "机构资格",
-            "cur": 3,
-            "prev": 11,
-            "deltaPct": -72.7,
+            "cur": 16,
+            "prev": 31,
+            "deltaPct": -48.4,
             "items": [
+              {
+                "title": "关于核准银河基金管理有限公司合格境内机构投资者资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101888/c7673655/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于核准华源证券股份有限公司变更主要股东的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101846/c7673658/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准东财基金管理有限公司私募资产管理业务资格的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101889/c7672159/content.shtml",
@@ -1637,37 +1794,18 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              }
-            ],
-            "totalItems": 3
-          },
-          {
-            "name": "首发上市（IPO）",
-            "cur": 2,
-            "prev": 3,
-            "deltaPct": -33.3,
-            "items": [
-              {
-                "title": "关于同意江苏耀坤液压股份有限公司首次公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c106385/c7670733/content.shtml",
-                "date": "2026-11-13",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               },
               {
-                "title": "关于同意广东保伦电子股份有限公司首次公开发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c106385/c7669312/content.shtml",
-                "date": "2026-11-06",
+                "title": "关于核准东莞证券股份有限公司上市证券做市交易业务资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101967/c7667692/content.shtml",
+                "date": "2026-10-28",
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
               }
             ],
-            "totalItems": 2
-          }
-        ],
-        "quarter": [
+            "totalItems": 16
+          },
           {
             "name": "其他审核",
             "cur": 15,
@@ -1724,120 +1862,6 @@
               }
             ],
             "totalItems": 15
-          },
-          {
-            "name": "再融资",
-            "cur": 15,
-            "prev": 12,
-            "deltaPct": 25.0,
-            "items": [
-              {
-                "title": "关于同意重庆美利信科技股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c105922/c7672040/content.shtml",
-                "date": "2026-11-20",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意银川威力传动技术股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c105922/c7672029/content.shtml",
-                "date": "2026-11-20",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意江西崇仁农村商业银行股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7672225/content.shtml",
-                "date": "2026-11-17",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意江西资溪农村商业银行股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7672217/content.shtml",
-                "date": "2026-11-10",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意江苏盱眙农村商业银行股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7672221/content.shtml",
-                "date": "2026-11-04",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意莱商银行股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7669459/content.shtml",
-                "date": "2026-10-28",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              }
-            ],
-            "totalItems": 15
-          },
-          {
-            "name": "机构资格",
-            "cur": 14,
-            "prev": 31,
-            "deltaPct": -54.8,
-            "items": [
-              {
-                "title": "关于核准东财基金管理有限公司私募资产管理业务资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101889/c7672159/content.shtml",
-                "date": "2026-11-16",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准路博迈基金管理（中国）有限公司合格境内机构投资者资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101888/c7669280/content.shtml",
-                "date": "2026-11-05",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准泉果基金管理有限公司变更持股5%以上股东的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101881/c7669336/content.shtml",
-                "date": "2026-11-03",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准东莞证券股份有限公司上市证券做市交易业务资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101967/c7667692/content.shtml",
-                "date": "2026-10-28",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准长城证券股份有限公司上市证券做市交易业务资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101967/c7667689/content.shtml",
-                "date": "2026-10-28",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准设立花旗证券（中国）有限公司的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101841/c7666345/content.shtml",
-                "date": "2026-10-23",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              }
-            ],
-            "totalItems": 14
           },
           {
             "name": "REITs 注册",
@@ -2006,10 +2030,26 @@
           },
           {
             "name": "机构资格",
-            "cur": 45,
+            "cur": 47,
             "prev": 1,
-            "deltaPct": 4400.0,
+            "deltaPct": 4600.0,
             "items": [
+              {
+                "title": "关于核准银河基金管理有限公司合格境内机构投资者资格的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101888/c7673655/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于核准华源证券股份有限公司变更主要股东的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101846/c7673658/content.shtml",
+                "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
               {
                 "title": "关于核准东财基金管理有限公司私募资产管理业务资格的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c101889/c7672159/content.shtml",
@@ -2041,29 +2081,13 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准长城证券股份有限公司上市证券做市交易业务资格的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101967/c7667689/content.shtml",
-                "date": "2026-10-28",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
-              },
-              {
-                "title": "关于核准设立花旗证券（中国）有限公司的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101841/c7666345/content.shtml",
-                "date": "2026-10-23",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 45
+            "totalItems": 47
           },
           {
             "name": "再融资",
-            "cur": 27,
+            "cur": 28,
             "prev": 0,
             "deltaPct": 100.0,
             "items": [
@@ -2079,6 +2103,14 @@
                 "title": "关于同意银川威力传动技术股份有限公司向特定对象发行股票注册的批复",
                 "url": "https://www.csrc.gov.cn/csrc/c105922/c7672029/content.shtml",
                 "date": "2026-11-20",
+                "org": "证监会",
+                "amountYi": null,
+                "src": "证监会审核台账"
+              },
+              {
+                "title": "关于同意江西靖安农村商业银行股份有限公司向特定对象发行股票注册的批复",
+                "url": "https://www.csrc.gov.cn/csrc/c101830/c7673736/content.shtml",
+                "date": "2026-11-19",
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
@@ -2106,17 +2138,9 @@
                 "org": "证监会",
                 "amountYi": null,
                 "src": "证监会审核台账"
-              },
-              {
-                "title": "关于同意莱商银行股份有限公司向特定对象发行股票注册的批复",
-                "url": "https://www.csrc.gov.cn/csrc/c101830/c7669459/content.shtml",
-                "date": "2026-10-28",
-                "org": "证监会",
-                "amountYi": null,
-                "src": "证监会审核台账"
               }
             ],
-            "totalItems": 27
+            "totalItems": 28
           },
           {
             "name": "REITs 注册",
@@ -2425,20 +2449,20 @@
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7055567.htm"
         },
         {
-          "name": "金融与资本",
-          "cur": 1,
-          "prev": 1,
-          "delta": 0,
-          "deltaPct": 0.0,
-          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
-        },
-        {
           "name": "交通基础设施",
           "cur": 1,
           "prev": 1,
           "delta": 0,
           "deltaPct": 0.0,
           "url": "https://www.gov.cn/zhengce/zhengceku/202601/content_7054151.htm"
+        },
+        {
+          "name": "金融与资本",
+          "cur": 1,
+          "prev": 1,
+          "delta": 0,
+          "deltaPct": 0.0,
+          "url": "https://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm"
         }
       ]
     }
@@ -2493,6 +2517,36 @@
       "industry": "其他审核",
       "amountYi": null,
       "src": "L1 政策速览"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101888/c7673655/content.shtml",
+      "title": "关于核准银河基金管理有限公司合格境内机构投资者资格的批复",
+      "date": "2026-11-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101846/c7673658/content.shtml",
+      "title": "关于核准华源证券股份有限公司变更主要股东的批复",
+      "date": "2026-11-20",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "机构资格",
+      "amountYi": null,
+      "src": "证监会审核台账"
+    },
+    {
+      "url": "https://www.csrc.gov.cn/csrc/c101830/c7673736/content.shtml",
+      "title": "关于同意江西靖安农村商业银行股份有限公司向特定对象发行股票注册的批复",
+      "date": "2026-11-19",
+      "org": "证监会",
+      "channel": "capital",
+      "industry": "再融资",
+      "amountYi": null,
+      "src": "证监会审核台账"
     },
     {
       "url": "https://www.csrc.gov.cn/csrc/c101830/c7672225/content.shtml",
@@ -3611,36 +3665,6 @@
       "org": "证监会",
       "channel": "capital",
       "industry": "REITs 注册",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c101895/c7652868/content.shtml",
-      "title": "关于准予博时山东铁投路桥封闭式基础设施证券投资基金注册的批复",
-      "date": "2026-08-17",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "REITs 注册",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c101895/c7652840/content.shtml",
-      "title": "关于准予华泰紫金华住安住封闭式商业不动产证券投资基金注册的批复",
-      "date": "2026-08-17",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "REITs 注册",
-      "amountYi": null,
-      "src": "证监会审核台账"
-    },
-    {
-      "url": "https://www.csrc.gov.cn/csrc/c101830/c7655168/content.shtml",
-      "title": "关于同意芜湖莫森泰克汽车科技股份有限公司向不特定合格投资者公开发行股票注册的批复",
-      "date": "2026-08-17",
-      "org": "证监会",
-      "channel": "capital",
-      "industry": "其他审核",
       "amountYi": null,
       "src": "证监会审核台账"
     }
