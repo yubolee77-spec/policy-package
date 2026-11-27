@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-28 00:32",
- "mediaFetchedAt": "2026-11-28 00:32",
+ "generatedAt": "2026-11-28 03:07",
+ "mediaFetchedAt": "2026-11-28 03:07",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 21,
+  "eastmoney": 22,
   "papers": 0
  },
  "kpi": {
@@ -14,7 +14,7 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 4,
   "mediaTotal": 120,
-  "mediaStrong": 68,
+  "mediaStrong": 69,
   "activeTotal": 193,
   "successTotal": 154,
   "cycleRecentAvg": 266,
@@ -4067,6 +4067,17 @@
  ],
  "media": [
   {
+   "date": "2026-11-28",
+   "media": "上海证券报",
+   "title": "首批液冷国标落地倒计时 算力基建重构散热规则",
+   "url": "http://finance.eastmoney.com/a/202611283942117782.html",
+   "keyword": "首批",
+   "topics": [
+    "算力/AI"
+   ],
+   "strong": true
+  },
+  {
    "date": "2026-11-27",
    "media": "新华财经",
    "title": "省间省内绿电联合交易首单落地",
@@ -5192,15 +5203,6 @@
    "media": "第一财经",
    "title": "首批主动ETF首日成交超80亿，投资者重选择、管理人拼能力",
    "url": "http://finance.eastmoney.com/a/202611233937603264.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-23",
-   "media": "21世纪经济报道",
-   "title": "首批主动ETF今日上市，多位基金公司一把手亮相上市仪式",
-   "url": "http://money.eastmoney.com/a/202611233937713261.html",
    "keyword": "首批",
    "topics": [],
    "strong": false
