@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-29 01:46",
+ "generatedAt": "2026-11-29 02:39",
  "month": 11,
  "hotPeriod": "11月",
  "candidateCount": 333,
@@ -340,14 +340,6 @@
      "noise": false
     },
     {
-     "label": "2026-11-27 · 2026年1—10月份全国规模以上工业企业利润增长16.0%（国家统计局最新数据发布）",
-     "title": "2026年1—10月份全国规模以上工业企业利润增长16.0%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
-     "date": "2026-11-27",
-     "source": "国家统计局最新数据发布",
-     "noise": false
-    },
-    {
      "label": "2026-11-27 · 中国证监会传达学习贯彻国务院常务会议精神（证监会最新动态）",
      "title": "中国证监会传达学习贯彻国务院常务会议精神",
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7673674/content.shtml",
@@ -377,6 +369,14 @@
      "url": "https://www.csrc.gov.cn/csrc/c100028/c7673432/content.shtml",
      "date": "2026-11-27",
      "source": "证监会最新动态",
+     "noise": false
+    },
+    {
+     "label": "2026-11-27 · 2026年1—10月份全国规模以上工业企业利润增长16.0%（国家统计局最新数据发布）",
+     "title": "2026年1—10月份全国规模以上工业企业利润增长16.0%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
+     "date": "2026-11-27",
+     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],
