@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-28 03:46",
- "mediaFetchedAt": "2026-11-28 03:46",
+ "generatedAt": "2026-11-28 11:21",
+ "mediaFetchedAt": "2026-11-28 11:21",
  "mediaStale": false,
  "mediaChannels": {
-  "eastmoney": 22,
+  "eastmoney": 23,
   "papers": 0
  },
  "kpi": {
@@ -14,9 +14,9 @@
   "reitsApproved30d": 5,
   "ipoApproved30d": 4,
   "mediaTotal": 120,
-  "mediaStrong": 69,
+  "mediaStrong": 71,
   "activeTotal": 193,
-  "successTotal": 154,
+  "successTotal": 152,
   "cycleRecentAvg": 266,
   "cyclePrevAvg": 260,
   "cycleVerdict": "基本持平"
@@ -4078,6 +4078,24 @@
    "strong": true
   },
   {
+   "date": "2026-11-28",
+   "media": "第一财经",
+   "title": "湖北发布首个创投孵化园区方案，园区从“房东”转向“股东”",
+   "url": "http://finance.eastmoney.com/a/202611283942334845.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
+   "date": "2026-11-28",
+   "media": "中国新闻网",
+   "title": "非洲首个本迪布焦型埃博拉mRNA疫苗临床试验在乌干达启动",
+   "url": "http://finance.eastmoney.com/a/202611283942337838.html",
+   "keyword": "首个",
+   "topics": [],
+   "strong": true
+  },
+  {
    "date": "2026-11-27",
    "media": "新华财经",
    "title": "省间省内绿电联合交易首单落地",
@@ -5188,32 +5206,14 @@
    "keyword": "首批",
    "topics": [],
    "strong": false
-  },
-  {
-   "date": "2026-11-23",
-   "media": "新华社",
-   "title": "91家入选 首批高标准数字园区建设对象名单公布",
-   "url": "http://finance.eastmoney.com/a/202611233937667055.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
-  },
-  {
-   "date": "2026-11-23",
-   "media": "第一财经",
-   "title": "首批主动ETF首日成交超80亿，投资者重选择、管理人拼能力",
-   "url": "http://finance.eastmoney.com/a/202611233937603264.html",
-   "keyword": "首批",
-   "topics": [],
-   "strong": false
   }
  ],
  "review": {
   "asOf": "2026-11-27",
   "total": 4405,
-  "pipelineTotal": 822,
+  "pipelineTotal": 820,
   "activeTotal": 193,
-  "successTotal": 154,
+  "successTotal": 152,
   "failTotal": 193,
   "stages": [
    {
@@ -5238,7 +5238,7 @@
    },
    {
     "name": "注册生效",
-    "count": 154,
+    "count": 152,
     "kind": "success"
    },
    {
@@ -5254,7 +5254,7 @@
    },
    {
     "name": "创业板",
-    "count": 175
+    "count": 174
    },
    {
     "name": "科创板",
@@ -5266,7 +5266,7 @@
    },
    {
     "name": "深主板",
-    "count": 57
+    "count": 56
    }
   ],
   "industries": [
@@ -5280,7 +5280,7 @@
    },
    {
     "name": "汽车制造业",
-    "count": 70
+    "count": 69
    },
    {
     "name": "电气机械和器材制造业",
@@ -5303,12 +5303,12 @@
     "count": 28
    },
    {
-    "name": "橡胶和塑料制品业",
+    "name": "金属制品业",
     "count": 27
    },
    {
-    "name": "金属制品业",
-    "count": 27
+    "name": "橡胶和塑料制品业",
+    "count": 26
    }
   ],
   "cycle": {

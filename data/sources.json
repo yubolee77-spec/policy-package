@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28 03:50",
+ "generatedAt": "2026-11-28 11:25",
  "cards": [
   {
    "key": "policy",
@@ -16,7 +16,7 @@
    },
    "stale": false,
    "total": 94,
-   "fetchedAt": "2026-11-28 03:50",
+   "fetchedAt": "2026-11-28 11:25",
    "ageDays": 19
   },
   {
@@ -35,7 +35,7 @@
    },
    "stale": false,
    "total": 12,
-   "fetchedAt": "2026-11-28 03:50",
+   "fetchedAt": "2026-11-28 11:25",
    "ageDays": 130
   },
   {
@@ -54,7 +54,7 @@
    },
    "stale": false,
    "total": 21,
-   "fetchedAt": "2026-11-28 03:50",
+   "fetchedAt": "2026-11-28 11:25",
    "ageDays": 393
   },
   {
@@ -63,17 +63,17 @@
    "indexUrl": "https://www.people.com.cn",
    "indexLabel": "people.com.cn",
    "from": "commentary",
-   "href": "http://paper.people.com.cn/rmrb/pc/content/202611/27/content_30193326.html",
+   "href": "http://paper.ce.cn/pc/content/202611/28/content_342594.html",
    "latest": {
-    "title": "从四座城看“两个结合”的新时代实践",
-    "url": "http://paper.people.com.cn/rmrb/pc/content/202611/27/content_30193326.html",
-    "date": "2026-11-27",
-    "source": "人民日报"
+    "title": "中国AI发展决不是“少数人的盛宴”",
+    "url": "http://paper.ce.cn/pc/content/202611/28/content_342594.html",
+    "date": "2026-11-28",
+    "source": "经济日报"
    },
    "stale": false,
-   "total": 205,
-   "fetchedAt": "2026-11-28 03:50",
-   "ageDays": 1
+   "total": 206,
+   "fetchedAt": "2026-11-28 11:25",
+   "ageDays": 0
   }
  ],
  "stale": false,

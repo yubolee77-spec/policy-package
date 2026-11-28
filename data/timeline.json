@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-28 03:50",
+ "generatedAt": "2026-11-28 11:25",
  "month": 11,
  "hotPeriod": "11月",
- "candidateCount": 332,
+ "candidateCount": 333,
  "nodes": {
   "1-2月": {
    "status": "pass",
@@ -332,11 +332,11 @@
    "status": "hot",
    "docs": [
     {
-     "label": "2026-11-27 · 2026年1—10月份全国规模以上工业企业利润增长16.0%（国家统计局最新数据发布）",
-     "title": "2026年1—10月份全国规模以上工业企业利润增长16.0%",
-     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
-     "date": "2026-11-27",
-     "source": "国家统计局最新数据发布",
+     "label": "2026-11-28 · 中国AI发展决不是“少数人的盛宴”（经济日报）",
+     "title": "中国AI发展决不是“少数人的盛宴”",
+     "url": "http://paper.ce.cn/pc/content/202611/28/content_342594.html",
+     "date": "2026-11-28",
+     "source": "经济日报",
      "noise": false
     },
     {
@@ -372,11 +372,11 @@
      "noise": false
     },
     {
-     "label": "2026-11-27 · 从四座城看“两个结合”的新时代实践（人民日报）",
-     "title": "从四座城看“两个结合”的新时代实践",
-     "url": "http://paper.people.com.cn/rmrb/pc/content/202611/27/content_30193326.html",
+     "label": "2026-11-27 · 2026年1—10月份全国规模以上工业企业利润增长16.0%（国家统计局最新数据发布）",
+     "title": "2026年1—10月份全国规模以上工业企业利润增长16.0%",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261127_1965949.html",
      "date": "2026-11-27",
-     "source": "人民日报",
+     "source": "国家统计局最新数据发布",
      "noise": false
     }
    ],
